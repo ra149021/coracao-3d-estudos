@@ -1,0 +1,1303 @@
+{
+  "version": 1,
+  "parts": [
+    {
+      "id": "heart_00",
+      "label": "Átrio direito",
+      "sourceName": "Right atrium",
+      "group": "camaras",
+      "color": "#9f615d",
+      "note": "Recebe o retorno venoso sistêmico. A aurícula está incorporada à mesma peça.",
+      "sourceFile": "Startup.blend",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 407,
+      "requirement": {
+        "id": "16",
+        "label": "Átrio direito",
+        "page": 1,
+        "source": "roteiro"
+      },
+      "vertices": 2878,
+      "triangles": 5641,
+      "bounds": [
+        [
+          -1.4218974113464355,
+          -1.4802528619766235,
+          -0.6954513192176819
+        ],
+        [
+          -0.2971159517765045,
+          1.012496829032898,
+          1.1666405200958252
+        ]
+      ]
+    },
+    {
+      "id": "heart_01",
+      "label": "Ventrículo direito",
+      "sourceName": "Right ventricle",
+      "group": "camaras",
+      "color": "#ae7267",
+      "note": "Ejeta sangue no tronco pulmonar. Use o corte ou a transparência para explorar o interior.",
+      "sourceFile": "Startup.blend",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 408,
+      "requirement": {
+        "id": "20",
+        "label": "Ventrículo direito",
+        "page": 1,
+        "source": "roteiro"
+      },
+      "vertices": 2850,
+      "triangles": 5533,
+      "bounds": [
+        [
+          -1.0432099103927612,
+          -1.6530020236968994,
+          -0.14629632234573364
+        ],
+        [
+          1.0325775146484375,
+          0.666095495223999,
+          1.5316451787948608
+        ]
+      ]
+    },
+    {
+      "id": "heart_02",
+      "label": "Átrio esquerdo",
+      "sourceName": "Left atrium",
+      "group": "camaras",
+      "color": "#ac5159",
+      "note": "Recebe as veias pulmonares. A aurícula está incorporada à mesma peça.",
+      "sourceFile": "Startup.blend",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 412,
+      "requirement": {
+        "id": "18",
+        "label": "Átrio esquerdo",
+        "page": 1,
+        "source": "roteiro"
+      },
+      "vertices": 2609,
+      "triangles": 5105,
+      "bounds": [
+        [
+          -1.095847487449646,
+          -1.0520024299621582,
+          -1.291459560394287
+        ],
+        [
+          1.1390174627304077,
+          0.8287476301193237,
+          0.8666554093360901
+        ]
+      ]
+    },
+    {
+      "id": "heart_03",
+      "label": "Ventrículo esquerdo",
+      "sourceName": "Left ventricle",
+      "group": "camaras",
+      "color": "#943c49",
+      "note": "Ejeta sangue na aorta. Suas camadas musculares não estão individualizadas nesta malha.",
+      "sourceFile": "Startup.blend",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 413,
+      "requirement": {
+        "id": "21",
+        "label": "Ventrículo esquerdo",
+        "page": 1,
+        "source": "roteiro"
+      },
+      "vertices": 2856,
+      "triangles": 5532,
+      "bounds": [
+        [
+          -0.4406937062740326,
+          -1.7090035676956177,
+          -0.8914296627044678
+        ],
+        [
+          1.559054970741272,
+          0.5447344779968262,
+          1.2987301349639893
+        ]
+      ]
+    },
+    {
+      "id": "heart_04",
+      "label": "Aorta ascendente",
+      "sourceName": "Ascending aorta",
+      "group": "grandes",
+      "color": "#bc5257",
+      "note": "Segmento inicial da aorta disponível no modelo de origem.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 369,
+      "requirement": {
+        "id": "76",
+        "label": "Parte ascendente da aorta",
+        "page": 3,
+        "source": "roteiro"
+      },
+      "vertices": 138,
+      "triangles": 236,
+      "bounds": [
+        [
+          -0.7398213148117065,
+          0.07523733377456665,
+          -0.39187318086624146
+        ],
+        [
+          0.29910263419151306,
+          1.4639065265655518,
+          0.6046958565711975
+        ]
+      ]
+    },
+    {
+      "id": "heart_05",
+      "label": "Arco da aorta",
+      "sourceName": "Aortic arch",
+      "group": "grandes",
+      "color": "#bc5257",
+      "note": "O arco está presente; seus ramos para pescoço e membros não foram incluídos nesta cena cardíaca.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 323,
+      "requirement": {
+        "id": "84",
+        "label": "Arco da aorta",
+        "page": 3,
+        "source": "roteiro"
+      },
+      "vertices": 139,
+      "triangles": 236,
+      "bounds": [
+        [
+          -0.6993440389633179,
+          1.2583491802215576,
+          -1.5756797790527344
+        ],
+        [
+          0.2952859103679657,
+          2.2979540824890137,
+          0.5532369613647461
+        ]
+      ]
+    },
+    {
+      "id": "heart_06",
+      "label": "Tronco pulmonar",
+      "sourceName": "Pulmonary trunk",
+      "group": "grandes",
+      "color": "#668797",
+      "note": "Via de saída do ventrículo direito. As cores servem para distinguir as peças.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 465,
+      "requirement": {
+        "id": "30c",
+        "label": "Tronco pulmonar",
+        "page": 1,
+        "source": "roteiro"
+      },
+      "vertices": 61,
+      "triangles": 93,
+      "bounds": [
+        [
+          -0.196528822183609,
+          0.4794018268585205,
+          0.13520130515098572
+        ],
+        [
+          0.5823360085487366,
+          1.3022658824920654,
+          1.079555869102478
+        ]
+      ]
+    },
+    {
+      "id": "heart_07",
+      "label": "Bifurcação do tronco pulmonar",
+      "sourceName": "Bifurcation of pulmonary trunk",
+      "group": "grandes",
+      "color": "#668797",
+      "note": "Peça de junção presente no arquivo de origem.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 466,
+      "requirement": null,
+      "vertices": 286,
+      "triangles": 472,
+      "bounds": [
+        [
+          -0.36583924293518066,
+          0.6325856447219849,
+          -0.7207186222076416
+        ],
+        [
+          0.6345452666282654,
+          1.3772491216659546,
+          0.4003400206565857
+        ]
+      ]
+    },
+    {
+      "id": "heart_08",
+      "label": "Artéria pulmonar direita",
+      "sourceName": "Right pulmonary artery",
+      "group": "grandes",
+      "color": "#688ba0",
+      "note": "Segmento proximal disponível. Ramos dentro dos pulmões não fazem parte desta cena.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 483,
+      "requirement": {
+        "id": "30d",
+        "label": "Artéria pulmonar direita",
+        "page": 2,
+        "source": "roteiro"
+      },
+      "vertices": 143,
+      "triangles": 236,
+      "bounds": [
+        [
+          -1.4518907070159912,
+          0.4733847677707672,
+          -0.8647634983062744
+        ],
+        [
+          -0.14416959881782532,
+          1.168676733970642,
+          -0.20578420162200928
+        ]
+      ]
+    },
+    {
+      "id": "heart_09",
+      "label": "Artéria pulmonar esquerda",
+      "sourceName": "Left pulmonary artery",
+      "group": "grandes",
+      "color": "#688ba0",
+      "note": "Segmento proximal disponível. Ramos dentro dos pulmões não fazem parte desta cena.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 467,
+      "requirement": {
+        "id": "30e",
+        "label": "Artéria pulmonar esquerda",
+        "page": 2,
+        "source": "roteiro"
+      },
+      "vertices": 462,
+      "triangles": 826,
+      "bounds": [
+        [
+          0.06119360029697418,
+          -0.9522366523742676,
+          -1.4954266548156738
+        ],
+        [
+          1.746570110321045,
+          1.3464535474777222,
+          -0.4993891716003418
+        ]
+      ]
+    },
+    {
+      "id": "heart_10",
+      "label": "Veia cava superior",
+      "sourceName": "Superior vena cava",
+      "group": "grandes",
+      "color": "#637b9b",
+      "note": "Retorno venoso para o átrio direito; a parede do óstio não é uma peça separada.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 508,
+      "requirement": {
+        "id": "30a",
+        "label": "Veia cava superior",
+        "page": 1,
+        "source": "roteiro"
+      },
+      "vertices": 77,
+      "triangles": 118,
+      "bounds": [
+        [
+          -1.2197227478027344,
+          0.875255823135376,
+          -0.3615160882472992
+        ],
+        [
+          -0.5963739156723022,
+          1.8170901536941528,
+          0.31518346071243286
+        ]
+      ]
+    },
+    {
+      "id": "heart_11",
+      "label": "Veia cava inferior · parte torácica",
+      "sourceName": "Inferior vena cava (thoracic part)",
+      "group": "grandes",
+      "color": "#637b9b",
+      "note": "Trecho torácico original, preservado até sua extremidade no arquivo de origem.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 609,
+      "requirement": {
+        "id": "30b",
+        "label": "Veia cava inferior",
+        "page": 1,
+        "source": "roteiro"
+      },
+      "vertices": 206,
+      "triangles": 354,
+      "bounds": [
+        [
+          -1.1622546911239624,
+          -3.3630475997924805,
+          -0.5033122897148132
+        ],
+        [
+          -0.5149291753768921,
+          -1.0435473918914795,
+          0.3430069088935852
+        ]
+      ]
+    },
+    {
+      "id": "heart_12",
+      "label": "Veia pulmonar superior direita",
+      "sourceName": "Right superior pulmonary vein",
+      "group": "grandes",
+      "color": "#ce7876",
+      "note": "Peça venosa original; a conexão e o óstio no átrio esquerdo ainda exigem revisão detalhada.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 729,
+      "requirement": {
+        "id": "30h",
+        "label": "Veia pulmonar direita superior",
+        "page": 2,
+        "source": "roteiro"
+      },
+      "vertices": 398,
+      "triangles": 708,
+      "bounds": [
+        [
+          -1.6284412145614624,
+          -0.0031385573092848063,
+          -0.9102097153663635
+        ],
+        [
+          -0.8217115998268127,
+          0.8805040717124939,
+          -0.39114004373550415
+        ]
+      ]
+    },
+    {
+      "id": "heart_13",
+      "label": "Veia pulmonar inferior direita",
+      "sourceName": "Right inferior pulmonary vein",
+      "group": "grandes",
+      "color": "#ce7876",
+      "note": "Peça venosa original; a conexão e o óstio no átrio esquerdo ainda exigem revisão detalhada.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 736,
+      "requirement": {
+        "id": "C15",
+        "label": "Veia pulmonar direita inferior",
+        "page": 15,
+        "source": "coracao"
+      },
+      "vertices": 156,
+      "triangles": 236,
+      "bounds": [
+        [
+          -1.1299530267715454,
+          -0.44849446415901184,
+          -1.254306674003601
+        ],
+        [
+          -0.5417701601982117,
+          -0.08264030516147614,
+          -0.9248557686805725
+        ]
+      ]
+    },
+    {
+      "id": "heart_14",
+      "label": "Veia pulmonar superior esquerda",
+      "sourceName": "Left superior pulmonary vein",
+      "group": "grandes",
+      "color": "#ce7876",
+      "note": "Peça venosa original; a conexão e o óstio no átrio esquerdo ainda exigem revisão detalhada.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 744,
+      "requirement": {
+        "id": "30f",
+        "label": "Veia pulmonar esquerda superior",
+        "page": 2,
+        "source": "roteiro"
+      },
+      "vertices": 232,
+      "triangles": 354,
+      "bounds": [
+        [
+          0.45321571826934814,
+          0.1622428447008133,
+          -0.8682318925857544
+        ],
+        [
+          0.8914628028869629,
+          0.4692522883415222,
+          -0.5415026545524597
+        ]
+      ]
+    },
+    {
+      "id": "heart_15",
+      "label": "Veia pulmonar inferior esquerda",
+      "sourceName": "Left inferior pulmonary vein",
+      "group": "grandes",
+      "color": "#ce7876",
+      "note": "Peça venosa original; a conexão e o óstio no átrio esquerdo ainda exigem revisão detalhada.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 740,
+      "requirement": {
+        "id": "30g",
+        "label": "Veia pulmonar esquerda inferior",
+        "page": 2,
+        "source": "roteiro"
+      },
+      "vertices": 219,
+      "triangles": 354,
+      "bounds": [
+        [
+          0.41829952597618103,
+          -0.4735991358757019,
+          -1.1818487644195557
+        ],
+        [
+          0.7975274324417114,
+          -0.12645451724529266,
+          -0.9246909618377686
+        ]
+      ]
+    },
+    {
+      "id": "heart_16",
+      "label": "Artéria coronária direita",
+      "sourceName": "Right coronary artery",
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Malha arterial com ramificações. Cada ramo do roteiro precisa de identificação própria.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 498,
+      "requirement": {
+        "id": "81",
+        "label": "Artéria coronária direita",
+        "page": 3,
+        "source": "roteiro"
+      },
+      "vertices": 6155,
+      "triangles": 11098,
+      "bounds": [
+        [
+          -1.064258098602295,
+          -1.61398446559906,
+          -0.6126230359077454
+        ],
+        [
+          0.9495631456375122,
+          0.7187934517860413,
+          1.531350016593933
+        ]
+      ]
+    },
+    {
+      "id": "heart_17",
+      "label": "Ramo inferolateral direito da coronária direita",
+      "sourceName": "Right inferolateral branch of right coronary artery",
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Nome traduzido do arquivo original. A equivalência de cada ramo com o roteiro requer conferência.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 499,
+      "requirement": {
+        "id": "102",
+        "label": "Ramo póstero-lateral direito",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 4244,
+      "triangles": 7556,
+      "bounds": [
+        [
+          0.023917336016893387,
+          -1.676867127418518,
+          -0.7423197627067566
+        ],
+        [
+          1.419945240020752,
+          -1.1722323894500732,
+          0.5642499923706055
+        ]
+      ]
+    },
+    {
+      "id": "heart_18",
+      "label": "Artéria coronária esquerda",
+      "sourceName": "Left coronary artery",
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Trecho inicial da coronária esquerda disponível no arquivo de origem.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 500,
+      "requirement": {
+        "id": "83",
+        "label": "Artéria coronária esquerda",
+        "page": 3,
+        "source": "roteiro"
+      },
+      "vertices": 143,
+      "triangles": 236,
+      "bounds": [
+        [
+          0.02426828071475029,
+          0.4248303472995758,
+          -0.020248806104063988
+        ],
+        [
+          0.40724343061447144,
+          0.6957523226737976,
+          0.15835662186145782
+        ]
+      ]
+    },
+    {
+      "id": "heart_19",
+      "label": "Ramo interventricular anterior",
+      "sourceName": "Anterior interventricular artery",
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Peça arterial original. Explore sua relação com a face anterior dos ventrículos.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 502,
+      "requirement": {
+        "id": "103",
+        "label": "Ramo interventricular anterior",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 2635,
+      "triangles": 4722,
+      "bounds": [
+        [
+          0.37689128518104553,
+          -1.5395817756652832,
+          0.06898657232522964
+        ],
+        [
+          1.3570165634155273,
+          0.5097274780273438,
+          1.4804080724716187
+        ]
+      ]
+    },
+    {
+      "id": "heart_20",
+      "label": "Ramo circunflexo",
+      "sourceName": "Circumflex artery of heart",
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Conjunto arterial original; alguns ramos permanecem unidos nesta mesma peça.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 501,
+      "requirement": {
+        "id": "104",
+        "label": "Ramo circunflexo",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 3738,
+      "triangles": 6730,
+      "bounds": [
+        [
+          0.37689149379730225,
+          -1.3621879816055298,
+          -0.7815505266189575
+        ],
+        [
+          1.5040485858917236,
+          0.5097268223762512,
+          0.6560717225074768
+        ]
+      ]
+    },
+    {
+      "id": "heart_21",
+      "label": "Ramos septais do interventricular anterior",
+      "sourceName": "Septal branches of anterior interventricular artery",
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Conjunto de ramos em uma única malha. Pode ficar encoberto pelas paredes ventriculares.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 503,
+      "requirement": {
+        "id": "103b",
+        "label": "Ramos interventriculares septais do ramo interventricular anterior",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 1631,
+      "triangles": 2832,
+      "bounds": [
+        [
+          0.596492350101471,
+          -0.90452641248703,
+          0.5427117347717285
+        ],
+        [
+          0.9051860570907593,
+          0.07298928499221802,
+          1.3455655574798584
+        ]
+      ]
+    },
+    {
+      "id": "heart_22",
+      "label": "Seio coronário",
+      "sourceName": "Coronary sinus",
+      "group": "veias",
+      "color": "#7597b1",
+      "note": "Explore pela vista posterior. A abertura no átrio direito não está individualizada.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 751,
+      "requirement": {
+        "id": "30k",
+        "label": "Seio coronário",
+        "page": 2,
+        "source": "roteiro"
+      },
+      "vertices": 332,
+      "triangles": 590,
+      "bounds": [
+        [
+          -0.6180643439292908,
+          -1.1079856157302856,
+          -0.9456294178962708
+        ],
+        [
+          0.707318127155304,
+          -0.5190606713294983,
+          -0.046826090663671494
+        ]
+      ]
+    },
+    {
+      "id": "heart_23",
+      "label": "Veia cardíaca magna",
+      "sourceName": "Great cardiac vein",
+      "group": "veias",
+      "color": "#7597b1",
+      "note": "Peça venosa original, selecionável independentemente das artérias.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 752,
+      "requirement": {
+        "id": "106",
+        "label": "Veia cardíaca magna",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 3363,
+      "triangles": 6021,
+      "bounds": [
+        [
+          0.501446545124054,
+          -1.5644441843032837,
+          -0.9008480310440063
+        ],
+        [
+          1.4401096105575562,
+          0.35187771916389465,
+          1.4369264841079712
+        ]
+      ]
+    },
+    {
+      "id": "heart_24",
+      "label": "Veia cardíaca média",
+      "sourceName": "Middle cardiac vein",
+      "group": "veias",
+      "color": "#7597b1",
+      "note": "Explore sua relação com a face posterior do coração.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 754,
+      "requirement": {
+        "id": "111",
+        "label": "Veia interventricular posterior (cardíaca média)",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 7304,
+      "triangles": 13106,
+      "bounds": [
+        [
+          -0.44845807552337646,
+          -1.6996026039123535,
+          -0.24047711491584778
+        ],
+        [
+          1.3373188972473145,
+          -0.875216543674469,
+          1.0129384994506836
+        ]
+      ]
+    },
+    {
+      "id": "heart_25",
+      "label": "Veia inferior do ventrículo esquerdo",
+      "sourceName": "Inferior vein of left ventricle (//Posterior '')",
+      "group": "veias",
+      "color": "#7597b1",
+      "note": "Nome do modelo de origem: veia inferior, também indicada nele como posterior.",
+      "sourceFile": "CardioVascular41.fbx",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 755,
+      "requirement": {
+        "id": "110",
+        "label": "Veia posterior do ventrículo esquerdo",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 5077,
+      "triangles": 9092,
+      "bounds": [
+        [
+          -0.0377427376806736,
+          -1.687802791595459,
+          -0.7679658532142639
+        ],
+        [
+          1.4370843172073364,
+          -1.0254237651824951,
+          0.6929903626441956
+        ]
+      ]
+    },
+    {
+      "id": "heart_26",
+      "label": "Tricúspide · cúspide inferior/posterior",
+      "sourceName": "Inferior leaflet of right atrioventricular valve",
+      "group": "valvas",
+      "color": "#ead4af",
+      "note": "Folheto com cordas incorporadas. O conjunto tricúspide desta cena está incompleto: falta a cúspide anterior.",
+      "sourceFile": "Startup.blend",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 432,
+      "requirement": {
+        "id": "46b",
+        "label": "Valva tricúspide: válvula posterior",
+        "page": 2,
+        "source": "roteiro"
+      },
+      "vertices": 4912,
+      "triangles": 9852,
+      "bounds": [
+        [
+          -0.9741131067276001,
+          -1.33418869972229,
+          -0.09139744937419891
+        ],
+        [
+          -0.05858853459358215,
+          -0.6216777563095093,
+          0.7238461375236511
+        ]
+      ]
+    },
+    {
+      "id": "heart_27",
+      "label": "Tricúspide · cúspide septal",
+      "sourceName": "Septal leaflet of right atrioventricular valve",
+      "group": "valvas",
+      "color": "#ead4af",
+      "note": "Folheto com cordas incorporadas. O conjunto tricúspide desta cena está incompleto: falta a cúspide anterior.",
+      "sourceFile": "Startup.blend",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 433,
+      "requirement": {
+        "id": "46c",
+        "label": "Valva tricúspide: válvula septal",
+        "page": 2,
+        "source": "roteiro"
+      },
+      "vertices": 4506,
+      "triangles": 9040,
+      "bounds": [
+        [
+          -0.652180016040802,
+          -0.7022364139556885,
+          -0.09533605724573135
+        ],
+        [
+          0.2779645323753357,
+          -0.09870660305023193,
+          0.5299130082130432
+        ]
+      ]
+    },
+    {
+      "id": "heart_28",
+      "label": "Mitral · cúspide posterior",
+      "sourceName": "Posterior leaflet of left atrioventricular valve",
+      "group": "valvas",
+      "color": "#ead4af",
+      "note": "Folheto com cordas incorporadas. A cúspide anterior ainda não está integrada a esta cena.",
+      "sourceFile": "Startup.blend",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 434,
+      "requirement": {
+        "id": "58b",
+        "label": "Valva mitral: válvula posterior",
+        "page": 3,
+        "source": "roteiro"
+      },
+      "vertices": 3798,
+      "triangles": 7640,
+      "bounds": [
+        [
+          -0.135498508810997,
+          -1.049651026725769,
+          -0.822985827922821
+        ],
+        [
+          1.1390191316604614,
+          -0.22041034698486328,
+          0.15618431568145752
+        ]
+      ]
+    },
+    {
+      "id": "heart_29",
+      "label": "Aórtica · válvula semilunar direita",
+      "sourceName": "Right coronary leaflet",
+      "group": "valvas",
+      "color": "#efd5a7",
+      "note": "Um dos três folhetos semilunares aórticos disponíveis. Não representa o anel fibroso.",
+      "sourceFile": "Startup.blend",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 423,
+      "requirement": {
+        "id": "63a",
+        "label": "Valva aórtica: válvula semilunar direita",
+        "page": 3,
+        "source": "roteiro"
+      },
+      "vertices": 461,
+      "triangles": 918,
+      "bounds": [
+        [
+          -0.43964868783950806,
+          0.04273819923400879,
+          0.10793799161911011
+        ],
+        [
+          0.04386584088206291,
+          0.4594610929489136,
+          0.45686066150665283
+        ]
+      ]
+    },
+    {
+      "id": "heart_30",
+      "label": "Aórtica · válvula semilunar esquerda",
+      "sourceName": "Left coronary leaflet",
+      "group": "valvas",
+      "color": "#efd5a7",
+      "note": "Um dos três folhetos semilunares aórticos disponíveis. Não representa o anel fibroso.",
+      "sourceFile": "Startup.blend",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 421,
+      "requirement": {
+        "id": "63b",
+        "label": "Valva aórtica: válvula semilunar esquerda",
+        "page": 3,
+        "source": "roteiro"
+      },
+      "vertices": 459,
+      "triangles": 914,
+      "bounds": [
+        [
+          -0.16874928772449493,
+          0.13724136352539062,
+          -0.2068648487329483
+        ],
+        [
+          0.20162983238697052,
+          0.48778223991394043,
+          0.3039085268974304
+        ]
+      ]
+    },
+    {
+      "id": "heart_31",
+      "label": "Aórtica · válvula semilunar posterior",
+      "sourceName": "Non-coronary leaflet",
+      "group": "valvas",
+      "color": "#efd5a7",
+      "note": "Folheto não coronário. O nome original é preservado abaixo.",
+      "sourceFile": "Startup.blend",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 422,
+      "requirement": {
+        "id": "63c",
+        "label": "Valva aórtica: válvula semilunar posterior",
+        "page": 3,
+        "source": "roteiro"
+      },
+      "vertices": 160,
+      "triangles": 316,
+      "bounds": [
+        [
+          -0.47217652201652527,
+          0.026165127754211426,
+          -0.24832932651042938
+        ],
+        [
+          -0.038773857057094574,
+          0.43802130222320557,
+          0.2302396446466446
+        ]
+      ]
+    },
+    {
+      "id": "heart_32",
+      "label": "Pulmonar · válvula semilunar anterior",
+      "sourceName": "Anterior semilunar leaflet of pulmonary valve",
+      "group": "valvas",
+      "color": "#d9d7b6",
+      "note": "Um dos três folhetos pulmonares disponíveis. Não representa o anel fibroso.",
+      "sourceFile": "Startup.blend",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 427,
+      "requirement": {
+        "id": "53a",
+        "label": "Valva pulmonar: válvula semilunar anterior",
+        "page": 2,
+        "source": "roteiro"
+      },
+      "vertices": 1275,
+      "triangles": 2546,
+      "bounds": [
+        [
+          0.11182631552219391,
+          0.1146780252456665,
+          0.5741841197013855
+        ],
+        [
+          0.5738691091537476,
+          0.5454407930374146,
+          1.0942996740341187
+        ]
+      ]
+    },
+    {
+      "id": "heart_33",
+      "label": "Pulmonar · válvula semilunar direita",
+      "sourceName": "Right semilunar leaflet of pulmonary valve",
+      "group": "valvas",
+      "color": "#d9d7b6",
+      "note": "Um dos três folhetos pulmonares disponíveis. Não representa o anel fibroso.",
+      "sourceFile": "Startup.blend",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 429,
+      "requirement": {
+        "id": "53b",
+        "label": "Valva pulmonar: válvula semilunar direita",
+        "page": 2,
+        "source": "roteiro"
+      },
+      "vertices": 1372,
+      "triangles": 2735,
+      "bounds": [
+        [
+          -0.25872910022735596,
+          0.19903647899627686,
+          0.4025152921676636
+        ],
+        [
+          0.22806048393249512,
+          0.6442593336105347,
+          1.0239421129226685
+        ]
+      ]
+    },
+    {
+      "id": "heart_34",
+      "label": "Pulmonar · válvula semilunar esquerda",
+      "sourceName": "Left semilunar leaflet of pulmonary valve",
+      "group": "valvas",
+      "color": "#d9d7b6",
+      "note": "Um dos três folhetos pulmonares disponíveis. Não representa o anel fibroso.",
+      "sourceFile": "Startup.blend",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 428,
+      "requirement": {
+        "id": "53c",
+        "label": "Valva pulmonar: válvula semilunar esquerda",
+        "page": 2,
+        "source": "roteiro"
+      },
+      "vertices": 998,
+      "triangles": 1992,
+      "bounds": [
+        [
+          0.12051481008529663,
+          0.12524890899658203,
+          0.266771525144577
+        ],
+        [
+          0.564802885055542,
+          0.5516217947006226,
+          0.6465795040130615
+        ]
+      ]
+    },
+    {
+      "id": "heart_35",
+      "label": "VD · músculo papilar anterior",
+      "sourceName": "Anterior papillary muscle of right ventricle",
+      "group": "papilares",
+      "color": "#cf9982",
+      "note": "Músculo papilar original. As cordas que o alcançam pertencem às malhas dos folhetos.",
+      "sourceFile": "Startup.blend",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 410,
+      "requirement": {
+        "id": "47",
+        "label": "Músculo papilar anterior do VD",
+        "page": 2,
+        "source": "roteiro"
+      },
+      "vertices": 774,
+      "triangles": 1544,
+      "bounds": [
+        [
+          -0.17436356842517853,
+          -1.5676720142364502,
+          0.8750020265579224
+        ],
+        [
+          0.7368199229240417,
+          -0.8097125291824341,
+          1.4322799444198608
+        ]
+      ]
+    },
+    {
+      "id": "heart_36",
+      "label": "VD · músculo papilar inferior/posterior",
+      "sourceName": "Inferior papillary muscle of right ventricle",
+      "group": "papilares",
+      "color": "#cf9982",
+      "note": "Terminologia inferior no arquivo de origem; conferir equivalência posterior no roteiro.",
+      "sourceFile": "Startup.blend",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 409,
+      "requirement": {
+        "id": "48",
+        "label": "Músculo papilar posterior do VD",
+        "page": 2,
+        "source": "roteiro"
+      },
+      "vertices": 547,
+      "triangles": 1090,
+      "bounds": [
+        [
+          -0.30042368173599243,
+          -1.5960527658462524,
+          0.3761526048183441
+        ],
+        [
+          0.4652751386165619,
+          -1.2239141464233398,
+          1.1163487434387207
+        ]
+      ]
+    },
+    {
+      "id": "heart_37",
+      "label": "VD · músculo papilar septal",
+      "sourceName": "Septal papillary muscle of right ventricle",
+      "group": "papilares",
+      "color": "#cf9982",
+      "note": "Músculo papilar original, selecionável de modo independente.",
+      "sourceFile": "Startup.blend",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 411,
+      "requirement": {
+        "id": "49",
+        "label": "Músculo papilar septal do VD",
+        "page": 2,
+        "source": "roteiro"
+      },
+      "vertices": 424,
+      "triangles": 844,
+      "bounds": [
+        [
+          -0.15201395750045776,
+          -0.6935609579086304,
+          0.2828645408153534
+        ],
+        [
+          0.35135138034820557,
+          0.0011281967163085938,
+          0.6806726455688477
+        ]
+      ]
+    },
+    {
+      "id": "heart_38",
+      "label": "VE · músculo papilar inferior/posterior",
+      "sourceName": "Inferior papillary muscle of left ventricle",
+      "group": "papilares",
+      "color": "#cf9982",
+      "note": "O outro grupo papilar esquerdo não está integrado nesta cena.",
+      "sourceFile": "Startup.blend",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 414,
+      "requirement": {
+        "id": "60",
+        "label": "Músculo papilar posterior do VE",
+        "page": 3,
+        "source": "roteiro"
+      },
+      "vertices": 782,
+      "triangles": 1560,
+      "bounds": [
+        [
+          0.7141739726066589,
+          -1.3464761972427368,
+          -0.3243376612663269
+        ],
+        [
+          1.4509223699569702,
+          -0.5696607828140259,
+          0.7676465511322021
+        ]
+      ]
+    }
+  ],
+  "model": {
+    "parts": 39,
+    "triangles": 129008,
+    "bytes": 3235248,
+    "sha256": "a9d78dc8bac020062fb35929d7cccfdab1b85e72386f6b428960903d5bc7bd94",
+    "synthetic_anatomical_parts": 0,
+    "individually_anatomically_validated": false
+  },
+  "orientation": {
+    "xPositive": "esquerda do corpo",
+    "yPositive": "superior",
+    "zPositive": "anterior"
+  },
+  "coverage": {
+    "principal": {
+      "geometria_disponivel": 70,
+      "parcial_ou_a_conferir": 47,
+      "nao_localizado": 39,
+      "total": 156,
+      "disponibilidade_percentual": 44.87,
+      "potencial_incluindo_parciais_percentual": 75.0
+    },
+    "complemento_docente": {
+      "geometria_disponivel": 3,
+      "parcial_ou_a_conferir": 5,
+      "nao_localizado": 14,
+      "total": 22,
+      "disponibilidade_percentual": 13.64,
+      "potencial_incluindo_parciais_percentual": 36.36
+    },
+    "regra_90": "Não satisfeito enquanto a cobertura individual validada não atingir 90%; geometrias disponíveis e parciais ainda exigem conferência anatômica."
+  },
+  "limitations": [
+    "Faltam as cúspides anteriores da mitral e da tricúspide nesta montagem.",
+    "Cordas tendíneas integram os folhetos; não são peças individualmente selecionáveis.",
+    "Pericárdio, esqueleto fibroso e sistema de condução ainda não estão representados.",
+    "Relevos finos, óstios e conexões entre peças precisam de revisão anatômica.",
+    "O modelo isolado não demonstra toda a sintopia do coração."
+  ],
+  "sources": [
+    {
+      "label": "Z-Anatomy · modelo Blender",
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+      "revision": "7cc49aa8749632adcd564c0e75f096dc43f6a4b8"
+    },
+    {
+      "label": "Z-Anatomy · vasos da aplicação",
+      "url": "https://github.com/LluisV/Z-Anatomy/tree/PC-Version/Resources/Models",
+      "revision": "6c7f9016bd5899ac8edafd31b9900c151df42ed6"
+    },
+    {
+      "label": "OpenStax · anatomia do coração",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy"
+    }
+  ]
+}

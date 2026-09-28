@@ -1,0 +1,86 @@
+[
+  {
+    "grupo": "Organização, revestimentos e anatomia externa",
+    "total": 45,
+    "geometria_disponivel": 14,
+    "parcial_ou_a_conferir": 23,
+    "nao_localizado": 8
+  },
+  {
+    "grupo": "Átrio direito",
+    "total": 11,
+    "geometria_disponivel": 0,
+    "parcial_ou_a_conferir": 5,
+    "nao_localizado": 6
+  },
+  {
+    "grupo": "Ventrículo direito",
+    "total": 15,
+    "geometria_disponivel": 9,
+    "parcial_ou_a_conferir": 3,
+    "nao_localizado": 3
+  },
+  {
+    "grupo": "Átrio esquerdo",
+    "total": 6,
+    "geometria_disponivel": 0,
+    "parcial_ou_a_conferir": 5,
+    "nao_localizado": 1
+  },
+  {
+    "grupo": "Ventrículo esquerdo",
+    "total": 10,
+    "geometria_disponivel": 6,
+    "parcial_ou_a_conferir": 3,
+    "nao_localizado": 1
+  },
+  {
+    "grupo": "Esqueleto fibroso",
+    "total": 6,
+    "geometria_disponivel": 0,
+    "parcial_ou_a_conferir": 0,
+    "nao_localizado": 6
+  },
+  {
+    "grupo": "Ligamentos e seios pericárdicos",
+    "total": 6,
+    "geometria_disponivel": 0,
+    "parcial_ou_a_conferir": 0,
+    "nao_localizado": 6
+  },
+  {
+    "grupo": "Aorta e grandes ramos",
+    "total": 18,
+    "geometria_disponivel": 13,
+    "parcial_ou_a_conferir": 5,
+    "nao_localizado": 0
+  },
+  {
+    "grupo": "Artérias coronárias e ramos",
+    "total": 18,
+    "geometria_disponivel": 11,
+    "parcial_ou_a_conferir": 3,
+    "nao_localizado": 4
+  },
+  {
+    "grupo": "Veias cardíacas",
+    "total": 9,
+    "geometria_disponivel": 8,
+    "parcial_ou_a_conferir": 0,
+    "nao_localizado": 1
+  },
+  {
+    "grupo": "Vasos e nervos do pericárdio",
+    "total": 12,
+    "geometria_disponivel": 9,
+    "parcial_ou_a_conferir": 0,
+    "nao_localizado": 3
+  },
+  {
+    "grupo": "Detalhes adicionais dos slides",
+    "total": 22,
+    "geometria_disponivel": 3,
+    "parcial_ou_a_conferir": 5,
+    "nao_localizado": 14
+  }
+]

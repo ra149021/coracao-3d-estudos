@@ -1,0 +1,73 @@
+{
+  "method": "Shared source coordinates; common rigid axis change and uniform scale. No per-part warping or hand placement.",
+  "checks": [
+    {
+      "name": "Right atrium",
+      "bounding_box_difference_source_units": 0.07198360813609384
+    },
+    {
+      "name": "Right ventricle",
+      "bounding_box_difference_source_units": 0.029327420875741694
+    },
+    {
+      "name": "Left atrium",
+      "bounding_box_difference_source_units": 0.0310351782724001
+    },
+    {
+      "name": "Left ventricle",
+      "bounding_box_difference_source_units": 0.044386448836235104
+    },
+    {
+      "name": "Inferior leaflet of right atrioventricular valve",
+      "bounding_box_difference_source_units": 0.00132649075919411
+    },
+    {
+      "name": "Septal leaflet of right atrioventricular valve",
+      "bounding_box_difference_source_units": 0.0011557573875315974
+    },
+    {
+      "name": "Posterior leaflet of left atrioventricular valve",
+      "bounding_box_difference_source_units": 0.0025049887929498027
+    },
+    {
+      "name": "Right coronary leaflet",
+      "bounding_box_difference_source_units": 0.008847742857634788
+    },
+    {
+      "name": "Left coronary leaflet",
+      "bounding_box_difference_source_units": 0.005061696856285991
+    },
+    {
+      "name": "Non-coronary leaflet",
+      "bounding_box_difference_source_units": 0.008367076870309131
+    },
+    {
+      "name": "Anterior semilunar leaflet of pulmonary valve",
+      "bounding_box_difference_source_units": 0.0032370816811102543
+    },
+    {
+      "name": "Right semilunar leaflet of pulmonary valve",
+      "bounding_box_difference_source_units": 0.002696749858387193
+    },
+    {
+      "name": "Left semilunar leaflet of pulmonary valve",
+      "bounding_box_difference_source_units": 0.003225518949437234
+    },
+    {
+      "name": "Anterior papillary muscle of right ventricle",
+      "bounding_box_difference_source_units": 0.006217281575130906
+    },
+    {
+      "name": "Inferior papillary muscle of right ventricle",
+      "bounding_box_difference_source_units": 0.004316786575612408
+    },
+    {
+      "name": "Septal papillary muscle of right ventricle",
+      "bounding_box_difference_source_units": 0.006317507172013848
+    },
+    {
+      "name": "Inferior papillary muscle of left ventricle",
+      "bounding_box_difference_source_units": 0.00785045854116806
+    }
+  ]
+}

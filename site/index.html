@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f5f1">
+  <title>Coração humano · Atlas local 3D</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%23954249'/%3E%3Cpath d='M5 21h8l3-9 6 18 4-9h9' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="./" aria-label="Atlas local, início">
+      <span class="brand-icon"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M3 17h7l3-9 6 17 4-8h6"/></svg></span>
+      <span>ATLAS <b>LOCAL</b><small>ANATOMIA INTERATIVA</small></span>
+    </a>
+    <div class="header-title"><span class="chapter">01 / CARDIOVASCULAR</span><h1>Coração humano</h1></div>
+    <div class="header-actions"><span class="version"><i></i> Protótipo em avaliação</span><button id="about-open" class="button subtle">Fontes e limites</button></div>
+  </header>
+
+  <main class="workspace">
+    <aside class="structures panel" aria-label="Lista de estruturas">
+      <div class="panel-heading"><h2>Estruturas</h2><span id="part-count" class="counter">—</span></div>
+      <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" placeholder="Buscar uma estrutura…" aria-label="Buscar estrutura" autocomplete="off"></label>
+      <div class="list-actions"><span id="visible-count">Carregando peças…</span><button id="show-all" class="text-button">Mostrar todas</button></div>
+      <div id="structure-list" class="structure-list" aria-live="polite"></div>
+      <div class="structure-footer"><span class="small-dot"></span> Peças 3D de Z-Anatomy <button id="sources-link" class="text-button">Créditos ↗</button></div>
+    </aside>
+
+    <section class="viewer-section" aria-label="Exploração tridimensional">
+      <div class="presets" role="group" aria-label="Modos de exploração">
+        <button data-preset="exterior" class="preset active" aria-pressed="true">Visão geral</button>
+        <button data-preset="interior" class="preset" aria-pressed="false">Interior</button>
+        <button data-preset="valvas" class="preset" aria-pressed="false">Valvas e papilares</button>
+        <button data-preset="coronarias" class="preset" aria-pressed="false">Vasos coronários</button>
+      </div>
+      <div id="viewer" class="viewer">
+        <div class="viewer-caption"><span class="eyebrow">EXPLORAR O CORAÇÃO</span><div id="view-name">Vista anterior oblíqua</div><span id="mode-note">Geometria original · cores ilustrativas</span></div>
+        <div class="viewer-tools"><button id="rotate" class="icon-button" title="Rotação automática" aria-label="Rotação automática" aria-pressed="false">↻</button><button id="labels" class="icon-button" title="Nomes das câmaras" aria-label="Nomes das câmaras" aria-pressed="false">Aa</button><button id="fullscreen" class="icon-button" title="Tela cheia" aria-label="Tela cheia">⛶</button></div>
+        <canvas id="heart-canvas" tabindex="0" aria-label="Coração tridimensional. Arraste para girar, use a roda para aproximar e clique para selecionar. Setas giram; mais e menos alteram o zoom."></canvas>
+        <div id="labels-layer" aria-hidden="true"></div>
+        <div id="hover-label" role="tooltip" hidden></div>
+        <div id="loading" class="loading"><span class="loader"></span><strong>Preparando o coração</strong><span id="loading-progress">Carregando as peças locais…</span></div>
+        <div id="viewer-error" class="viewer-error" role="alert" hidden><h2>Não foi possível abrir a cena 3D</h2><p id="error-message"></p><button class="button" id="retry">Tentar novamente</button></div>
+        <div id="empty-scene" class="empty-scene" hidden>Nenhuma estrutura visível.<button id="empty-reset" class="button">Restaurar o coração</button></div>
+        <div id="cut-badge" class="cut-badge" hidden>Corte de visualização · sem tampa artificial</div>
+        <canvas id="compass" width="220" height="220" aria-label="Orientação: anterior, posterior, superior, inferior, direita e esquerda do corpo"></canvas>
+        <div class="interaction-hint"><span>Arraste <b>girar</b></span><span>Roda <b>zoom</b></span><span>Botão direito <b>mover</b></span><span>Clique <b>selecionar</b></span></div>
+      </div>
+      <div class="view-bar"><span>VISTAS</span><div role="group" aria-label="Vistas anatômicas"><button data-view="anterior">Anterior</button><button data-view="posterior">Posterior</button><button data-view="direita">Direita</button><button data-view="esquerda">Esquerda</button><button data-view="superior">Superior</button></div><button id="reset" class="text-button" title="Restaurar todas as peças, a câmera e os controles">↺ Restaurar</button></div>
+      <div class="study-note"><span class="note-mark">i</span><p><strong>Base para avaliar a viabilidade.</strong> Há peças internas ausentes ou simplificadas. <button class="text-button" id="limits-link">Ver o que falta</button></p></div>
+    </section>
+
+    <aside class="inspector" aria-label="Informações e controles">
+      <section class="panel selection-panel">
+        <div class="panel-heading"><h2>Em foco</h2><button id="clear-selection" class="text-button" hidden>Limpar</button></div>
+        <div id="selection-empty"><div class="selection-symbol">◎</div><h3>Conheça cada estrutura</h3><p>Selecione uma peça no coração ou na lista para destacá-la e explorar suas relações.</p></div>
+        <div id="selection-detail" hidden>
+          <span id="selection-category" class="eyebrow"></span><h3 id="selection-title"></h3><p id="selection-description"></p>
+          <div class="selection-buttons"><button id="focus-part" class="button primary">Aproximar</button><button id="isolate-part" class="button">Isolar</button><button id="hide-part" class="button">Ocultar</button></div>
+          <div class="source-reference"><span id="selection-requirement"></span><details><summary>Identificação na fonte</summary><p id="selection-source"></p></details></div>
+        </div>
+      </section>
+
+      <section class="panel controls-panel">
+        <div class="panel-heading"><h2>Visualização</h2><span class="eyebrow">AJUSTAR</span></div>
+        <label class="control-label" for="palette">Cores</label><div class="select-wrap"><select id="palette"><option value="tissue">Tons de tecido</option><option value="didactic">Cores por estrutura</option></select></div><p class="control-help">Paletas ilustrativas; não são texturas de tecido real.</p>
+        <label class="slider-label" for="transparency">Transparência das paredes <output id="transparency-output">0%</output></label><input id="transparency" type="range" min="0" max="100" step="1" value="0"><div class="range-labels"><span>Opaco</span><span>Transparente</span></div>
+        <div class="control-divider"></div>
+        <label class="switch-row"><span>Corte para ver o interior</span><input id="clipping" type="checkbox" role="switch"><span class="switch-ui"></span></label>
+        <div id="cut-controls" hidden><label class="control-label" for="cut-axis">Plano do corte</label><div class="select-wrap"><select id="cut-axis"><option value="z">Frontal</option><option value="x">Sagital</option><option value="y">Transversal</option></select></div><label class="slider-label" for="cut-position">Posição <output id="cut-output">50%</output></label><input id="cut-position" type="range" min="0" max="100" value="50"><button id="flip-cut" class="text-button" aria-pressed="false">Inverter lado do corte</button><p class="control-help">O plano oculta parte da imagem. As bordas abertas não representam uma dissecção real.</p></div>
+      </section>
+      <div class="coverage-card"><span class="eyebrow">SEU ROTEIRO</span><strong>A cobertura ainda está em avaliação.</strong><p>39 peças nesta cena. Uma peça pode conter vários detalhes — ou omiti-los.</p><a href="auditoria/auditoria.html" target="_blank" rel="noopener">Abrir a auditoria completa <span>↗</span></a></div>
+    </aside>
+  </main>
+  <footer class="footer"><span>Atlas local · Coração / v0.1</span><span>Geometria: Z-Anatomy + BodyParts3D · CC BY-SA 4.0</span><span id="model-status">Preparando…</span></footer>
+
+  <dialog id="about"><div class="dialog-heading"><span class="eyebrow">SOBRE ESTA VERSÃO</span><button id="about-close" class="icon-button" aria-label="Fechar fontes e limites">×</button></div><h2>Peças reais do acervo.<br>Montagem ainda em avaliação.</h2><p>Esta primeira cena reúne <strong>39 peças prontas</strong> de Z-Anatomy: câmaras, grandes vasos, coronárias, veias cardíacas, folhetos valvares e músculos papilares. Não foram criadas estruturas anatômicas novas.</p><h3>Limites que importam para seu estudo</h3><ul id="limitations-list"></ul><p><strong>90% do roteiro ainda não foi demonstrado.</strong> A auditoria encontrou 70 de 156 alvos com geometria associada e outros 47 parciais nos acervos consultados. Isso não é a cobertura desta cena nem comprova fidelidade anatômica.</p><h3>Forma, cores e posição</h3><p>As peças preservam as coordenadas do acervo. Foram convertidas para visualização, com escala comum e iluminação. As cores são ilustrativas. Transparência e cortes ajudam a explorar as peças e não acrescentam anatomia ausente. O modelo não é derivado de um exame seu.</p><h3>Fontes e créditos</h3><ul id="sources-list"></ul><p class="credit">Z-Anatomy: Gauthier Kervyn e colaboradores; aplicação: Lluis Vinent. Base original: BodyParts3D, Kousaku Okubo / The Database Center for Life Science. Derivação geométrica: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. Three.js: licença MIT.</p><div class="dialog-links"><a href="LICENSES/NOTICE.txt" target="_blank" rel="noopener">Créditos completos</a><a href="auditoria/auditoria.html" target="_blank" rel="noopener">Matriz do roteiro</a><a href="assets/heart.glb" download="coracao-z-anatomy.glb">Baixar modelo 3D (.glb)</a></div></dialog>
+  <script type="module" src="app.js"></script>
+  <script>if(location.protocol==='file:'){document.getElementById('loading').hidden=true;document.getElementById('viewer-error').hidden=false;document.getElementById('error-message').textContent='Abra pelo arquivo Abrir_Coracao_3D.sh na pasta do projeto. O navegador precisa do servidor local para carregar as peças 3D.'}</script>
+</body>
+</html>

@@ -1,0 +1,1619 @@
+{
+  "metodo": {
+    "base": "Roteiro de Circulatório 3, autoria Carmem, 125 itens numerados, 5 páginas.",
+    "expansao": "Desdobradas lâminas, cinco camadas miocárdicas nomeadas, vasos da base, folhetos valvares, quatro óstios pulmonares, ramos coronários e três veias principais do sistema ázigos. As cinco camadas mantêm os grupos escritos pela professora; camada dos átrios/VD só é completa se ambos estiverem representados.",
+    "duplicatas": {
+      "30i": "repete literalmente a veia pulmonar direita superior de 30h; não contado novamente. A inferior direita está no complemento C15.",
+      "108": "repete o seio coronário de 30k",
+      "120": "repete as coronárias de 81 e 83; a relação com o epicárdio fica na observação"
+    },
+    "informacao_sem_geometria": "Peso e diâmetro do item 1 são dados de texto, fora do denominador geométrico; localização e sintopia permanecem como dois alvos espaciais.",
+    "limiar": "Aprovação exige ao menos 90% de alvos principais demonstrados em 3D. Alvo parcial, nome sem geometria ou associação presumida não é confirmação. Complementos dos slides têm subtotal próprio.",
+    "terminologia": "Manter nomes do roteiro e registrar equivalências. Não corrigir silenciosamente a repetição 30i, nem a alegação de parte membranácea do septo interatrial no slide 47; esta última exige revisão e não foi criada como estrutura 3D adicional.",
+    "fora_do_escopo": "Não incluir circulação fetal completa, sistemas porta, histologia ou outros órgãos como novos requisitos cardíacos; preservar o contexto dos slides."
+  },
+  "alvos": [
+    {
+      "id": "1",
+      "item_original": 1,
+      "estrutura": "Localização do coração in situ",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "2",
+      "item_original": 2,
+      "estrutura": "Relações de sintopia do coração",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "3",
+      "item_original": 3,
+      "estrutura": "Pericárdio fibroso",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "4a",
+      "item_original": 4,
+      "estrutura": "Pericárdio seroso: lâmina parietal",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "4b",
+      "item_original": 4,
+      "estrutura": "Pericárdio seroso: lâmina visceral (epicárdio)",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "5a",
+      "item_original": 5,
+      "estrutura": "Miocárdio dos átrios e VD: camada profunda",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "5b",
+      "item_original": 5,
+      "estrutura": "Miocárdio dos átrios e VD: camada superficial",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "5c",
+      "item_original": 5,
+      "estrutura": "Miocárdio do VE: camada profunda",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "5d",
+      "item_original": 5,
+      "estrutura": "Miocárdio do VE: camada média",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "5e",
+      "item_original": 5,
+      "estrutura": "Miocárdio do VE: camada superficial",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "6",
+      "item_original": 6,
+      "estrutura": "Endocárdio",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "7",
+      "item_original": 7,
+      "estrutura": "Face esternocostal",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "8",
+      "item_original": 8,
+      "estrutura": "Face diafragmática",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "9",
+      "item_original": 9,
+      "estrutura": "Face pulmonar direita",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "10",
+      "item_original": 10,
+      "estrutura": "Face pulmonar esquerda",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "11",
+      "item_original": 11,
+      "estrutura": "Margem direita",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "12",
+      "item_original": 12,
+      "estrutura": "Margem esquerda",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "13",
+      "item_original": 13,
+      "estrutura": "Margem inferior",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "14",
+      "item_original": 14,
+      "estrutura": "Base do coração",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "15",
+      "item_original": 15,
+      "estrutura": "Ápice do coração",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "16",
+      "item_original": 16,
+      "estrutura": "Átrio direito",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "17",
+      "item_original": 17,
+      "estrutura": "Aurícula direita",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "18",
+      "item_original": 18,
+      "estrutura": "Átrio esquerdo",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "19",
+      "item_original": 19,
+      "estrutura": "Aurícula esquerda",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "20",
+      "item_original": 20,
+      "estrutura": "Ventrículo direito",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "21",
+      "item_original": 21,
+      "estrutura": "Ventrículo esquerdo",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "22",
+      "item_original": 22,
+      "estrutura": "Septo interatrial",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "23",
+      "item_original": 23,
+      "estrutura": "Septo interventricular",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "24",
+      "item_original": 24,
+      "estrutura": "Septo atrioventricular",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "25",
+      "item_original": 25,
+      "estrutura": "Sulco interatrial",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "26",
+      "item_original": 26,
+      "estrutura": "Sulco interventricular anterior",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "27",
+      "item_original": 27,
+      "estrutura": "Sulco interventricular posterior",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "28",
+      "item_original": 28,
+      "estrutura": "Sulco coronário",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "29",
+      "item_original": 29,
+      "estrutura": "Cruz do coração (crux cordis)",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "30a",
+      "item_original": 30,
+      "estrutura": "Veia cava superior",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "30b",
+      "item_original": 30,
+      "estrutura": "Veia cava inferior",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "30c",
+      "item_original": 30,
+      "estrutura": "Tronco pulmonar",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "30d",
+      "item_original": 30,
+      "estrutura": "Artéria pulmonar direita",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "30e",
+      "item_original": 30,
+      "estrutura": "Artéria pulmonar esquerda",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "30f",
+      "item_original": 30,
+      "estrutura": "Veia pulmonar esquerda superior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "30g",
+      "item_original": 30,
+      "estrutura": "Veia pulmonar esquerda inferior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "30h",
+      "item_original": 30,
+      "estrutura": "Veia pulmonar direita superior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "30j",
+      "item_original": 30,
+      "estrutura": "Artéria aorta",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "30k",
+      "item_original": 30,
+      "estrutura": "Seio coronário",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "31",
+      "item_original": 31,
+      "estrutura": "Ligamento arterial",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal"
+    },
+    {
+      "id": "32",
+      "item_original": 32,
+      "estrutura": "Óstio da veia cava superior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "33",
+      "item_original": 33,
+      "estrutura": "Óstio da veia cava inferior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "34",
+      "item_original": 34,
+      "estrutura": "Óstio do seio coronário",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "35",
+      "item_original": 35,
+      "estrutura": "Válvula da veia cava inferior (Eustáquio)",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "36",
+      "item_original": 36,
+      "estrutura": "Válvula do seio coronário (Thebesius)",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "37",
+      "item_original": 37,
+      "estrutura": "Parte posterior lisa do átrio direito",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "38",
+      "item_original": 38,
+      "estrutura": "Músculos pectíneos do átrio direito",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "39",
+      "item_original": 39,
+      "estrutura": "Crista terminal",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "40",
+      "item_original": 40,
+      "estrutura": "Sulco terminal",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "41",
+      "item_original": 41,
+      "estrutura": "Fossa oval",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "42",
+      "item_original": 42,
+      "estrutura": "Limbo da fossa oval",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "43",
+      "item_original": 43,
+      "estrutura": "Cone arterial (infundíbulo do VD)",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "44",
+      "item_original": 44,
+      "estrutura": "Crista supraventricular",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "45",
+      "item_original": 45,
+      "estrutura": "Óstio atrioventricular direito",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "46a",
+      "item_original": 46,
+      "estrutura": "Valva tricúspide: válvula anterior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "46b",
+      "item_original": 46,
+      "estrutura": "Valva tricúspide: válvula posterior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "46c",
+      "item_original": 46,
+      "estrutura": "Valva tricúspide: válvula septal",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "47",
+      "item_original": 47,
+      "estrutura": "Músculo papilar anterior do VD",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "48",
+      "item_original": 48,
+      "estrutura": "Músculo papilar posterior do VD",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "49",
+      "item_original": 49,
+      "estrutura": "Músculo papilar septal do VD",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "50",
+      "item_original": 50,
+      "estrutura": "Trabécula septomarginal",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "51",
+      "item_original": 51,
+      "estrutura": "Cordas tendíneas do VD",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "52",
+      "item_original": 52,
+      "estrutura": "Trabéculas cárneas do VD",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "53a",
+      "item_original": 53,
+      "estrutura": "Valva pulmonar: válvula semilunar anterior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "53b",
+      "item_original": 53,
+      "estrutura": "Valva pulmonar: válvula semilunar direita",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "53c",
+      "item_original": 53,
+      "estrutura": "Valva pulmonar: válvula semilunar esquerda",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal"
+    },
+    {
+      "id": "54a",
+      "item_original": 54,
+      "estrutura": "Óstio da veia pulmonar direita superior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio esquerdo",
+      "escopo": "principal"
+    },
+    {
+      "id": "54b",
+      "item_original": 54,
+      "estrutura": "Óstio da veia pulmonar direita inferior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio esquerdo",
+      "escopo": "principal"
+    },
+    {
+      "id": "54c",
+      "item_original": 54,
+      "estrutura": "Óstio da veia pulmonar esquerda superior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio esquerdo",
+      "escopo": "principal"
+    },
+    {
+      "id": "54d",
+      "item_original": 54,
+      "estrutura": "Óstio da veia pulmonar esquerda inferior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio esquerdo",
+      "escopo": "principal"
+    },
+    {
+      "id": "55",
+      "item_original": 55,
+      "estrutura": "Assoalho do forame oval (vista do AE)",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio esquerdo",
+      "escopo": "principal"
+    },
+    {
+      "id": "56",
+      "item_original": 56,
+      "estrutura": "Válvula do forame oval",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio esquerdo",
+      "escopo": "principal"
+    },
+    {
+      "id": "57",
+      "item_original": 57,
+      "estrutura": "Óstio atrioventricular esquerdo",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal"
+    },
+    {
+      "id": "58a",
+      "item_original": 58,
+      "estrutura": "Valva mitral: válvula anterior",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal"
+    },
+    {
+      "id": "58b",
+      "item_original": 58,
+      "estrutura": "Valva mitral: válvula posterior",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal"
+    },
+    {
+      "id": "59",
+      "item_original": 59,
+      "estrutura": "Músculo papilar anterior do VE",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal"
+    },
+    {
+      "id": "60",
+      "item_original": 60,
+      "estrutura": "Músculo papilar posterior do VE",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal"
+    },
+    {
+      "id": "61",
+      "item_original": 61,
+      "estrutura": "Cordas tendíneas do VE",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal"
+    },
+    {
+      "id": "62",
+      "item_original": 62,
+      "estrutura": "Trabéculas cárneas do VE",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal"
+    },
+    {
+      "id": "63a",
+      "item_original": 63,
+      "estrutura": "Valva aórtica: válvula semilunar direita",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal"
+    },
+    {
+      "id": "63b",
+      "item_original": 63,
+      "estrutura": "Valva aórtica: válvula semilunar esquerda",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal"
+    },
+    {
+      "id": "63c",
+      "item_original": 63,
+      "estrutura": "Valva aórtica: válvula semilunar posterior",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal"
+    },
+    {
+      "id": "64",
+      "item_original": 64,
+      "estrutura": "Anel fibroso direito",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Esqueleto fibroso",
+      "escopo": "principal"
+    },
+    {
+      "id": "65",
+      "item_original": 65,
+      "estrutura": "Anel fibroso esquerdo",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Esqueleto fibroso",
+      "escopo": "principal"
+    },
+    {
+      "id": "66",
+      "item_original": 66,
+      "estrutura": "Anel fibroso da valva pulmonar",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Esqueleto fibroso",
+      "escopo": "principal"
+    },
+    {
+      "id": "67",
+      "item_original": 67,
+      "estrutura": "Anel fibroso da valva aórtica",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Esqueleto fibroso",
+      "escopo": "principal"
+    },
+    {
+      "id": "68",
+      "item_original": 68,
+      "estrutura": "Trígono fibroso direito",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Esqueleto fibroso",
+      "escopo": "principal"
+    },
+    {
+      "id": "69",
+      "item_original": 69,
+      "estrutura": "Trígono fibroso esquerdo",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Esqueleto fibroso",
+      "escopo": "principal"
+    },
+    {
+      "id": "70",
+      "item_original": 70,
+      "estrutura": "Ligamento esternopericárdico superior",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ligamentos e seios pericárdicos",
+      "escopo": "principal"
+    },
+    {
+      "id": "71",
+      "item_original": 71,
+      "estrutura": "Ligamento esternopericárdico inferior",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ligamentos e seios pericárdicos",
+      "escopo": "principal"
+    },
+    {
+      "id": "72",
+      "item_original": 72,
+      "estrutura": "Ligamento pericardicofrênico",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ligamentos e seios pericárdicos",
+      "escopo": "principal"
+    },
+    {
+      "id": "73",
+      "item_original": 73,
+      "estrutura": "Ligamento vertebropericárdico",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ligamentos e seios pericárdicos",
+      "escopo": "principal"
+    },
+    {
+      "id": "74",
+      "item_original": 74,
+      "estrutura": "Seio transverso do pericárdio",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ligamentos e seios pericárdicos",
+      "escopo": "principal"
+    },
+    {
+      "id": "75",
+      "item_original": 75,
+      "estrutura": "Seio oblíquo do pericárdio",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ligamentos e seios pericárdicos",
+      "escopo": "principal"
+    },
+    {
+      "id": "76",
+      "item_original": 76,
+      "estrutura": "Parte ascendente da aorta",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "77",
+      "item_original": 77,
+      "estrutura": "Seio da aorta direito",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "78",
+      "item_original": 78,
+      "estrutura": "Seio da aorta esquerdo",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "79",
+      "item_original": 79,
+      "estrutura": "Seio da aorta posterior (não coronário)",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "80",
+      "item_original": 80,
+      "estrutura": "Óstio da artéria coronária direita",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "81",
+      "item_original": 81,
+      "estrutura": "Artéria coronária direita",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "82",
+      "item_original": 82,
+      "estrutura": "Óstio da artéria coronária esquerda",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "83",
+      "item_original": 83,
+      "estrutura": "Artéria coronária esquerda",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "84",
+      "item_original": 84,
+      "estrutura": "Arco da aorta",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "85",
+      "item_original": 85,
+      "estrutura": "Tronco braquiocefálico",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "86",
+      "item_original": 86,
+      "estrutura": "Artéria carótida comum direita",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "87",
+      "item_original": 87,
+      "estrutura": "Artéria subclávia direita",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "88",
+      "item_original": 88,
+      "estrutura": "Artéria carótida comum esquerda",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "89",
+      "item_original": 89,
+      "estrutura": "Artéria subclávia esquerda",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "90",
+      "item_original": 90,
+      "estrutura": "Artéria carótida interna",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "91",
+      "item_original": 91,
+      "estrutura": "Artéria carótida externa",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "92",
+      "item_original": 92,
+      "estrutura": "Aorta descendente torácica",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "93",
+      "item_original": 93,
+      "estrutura": "Aorta descendente abdominal",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "94",
+      "item_original": 94,
+      "estrutura": "Ramo do nó sinoatrial",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "95",
+      "item_original": 95,
+      "estrutura": "Ramos atriais direitos",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "96",
+      "item_original": 96,
+      "estrutura": "Ramo do cone arterial da coronária direita",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "97",
+      "item_original": 97,
+      "estrutura": "Ramo ventricular anterior direito",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "98",
+      "item_original": 98,
+      "estrutura": "Ramo marginal direito",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "99",
+      "item_original": 99,
+      "estrutura": "Ramo do nó atrioventricular",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "100",
+      "item_original": 100,
+      "estrutura": "Ramo interventricular posterior",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "101",
+      "item_original": 101,
+      "estrutura": "Ramos interventriculares septais da coronária direita",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "102",
+      "item_original": 102,
+      "estrutura": "Ramo póstero-lateral direito",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "103",
+      "item_original": 103,
+      "estrutura": "Ramo interventricular anterior",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "103a",
+      "item_original": 103,
+      "estrutura": "Ramo do cone arterial do ramo interventricular anterior",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "103b",
+      "item_original": 103,
+      "estrutura": "Ramos interventriculares septais do ramo interventricular anterior",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "103c",
+      "item_original": 103,
+      "estrutura": "Ramo lateral (diagonal) do ramo interventricular anterior",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "104",
+      "item_original": 104,
+      "estrutura": "Ramo circunflexo",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "104a",
+      "item_original": 104,
+      "estrutura": "Ramos atriais esquerdos",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "104b",
+      "item_original": 104,
+      "estrutura": "Ramo lateral (diagonal) do ramo circunflexo",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "104c",
+      "item_original": 104,
+      "estrutura": "Ramo marginal esquerdo",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "104d",
+      "item_original": 104,
+      "estrutura": "Ramo posterior do ventrículo esquerdo",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal"
+    },
+    {
+      "id": "105",
+      "item_original": 105,
+      "estrutura": "Veia interventricular anterior",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Veias cardíacas",
+      "escopo": "principal"
+    },
+    {
+      "id": "106",
+      "item_original": 106,
+      "estrutura": "Veia cardíaca magna",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Veias cardíacas",
+      "escopo": "principal"
+    },
+    {
+      "id": "107",
+      "item_original": 107,
+      "estrutura": "Veia oblíqua do átrio esquerdo",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Veias cardíacas",
+      "escopo": "principal"
+    },
+    {
+      "id": "109",
+      "item_original": 109,
+      "estrutura": "Veia marginal esquerda",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Veias cardíacas",
+      "escopo": "principal"
+    },
+    {
+      "id": "110",
+      "item_original": 110,
+      "estrutura": "Veia posterior do ventrículo esquerdo",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Veias cardíacas",
+      "escopo": "principal"
+    },
+    {
+      "id": "111",
+      "item_original": 111,
+      "estrutura": "Veia interventricular posterior (cardíaca média)",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Veias cardíacas",
+      "escopo": "principal"
+    },
+    {
+      "id": "112",
+      "item_original": 112,
+      "estrutura": "Veia marginal direita",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Veias cardíacas",
+      "escopo": "principal"
+    },
+    {
+      "id": "113",
+      "item_original": 113,
+      "estrutura": "Veia cardíaca parva",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Veias cardíacas",
+      "escopo": "principal"
+    },
+    {
+      "id": "114",
+      "item_original": 114,
+      "estrutura": "Veias anteriores do ventrículo direito",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Veias cardíacas",
+      "escopo": "principal"
+    },
+    {
+      "id": "115",
+      "item_original": 115,
+      "estrutura": "Artéria pericardicofrênica",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal"
+    },
+    {
+      "id": "116",
+      "item_original": 116,
+      "estrutura": "Artéria musculofrênica",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal"
+    },
+    {
+      "id": "117",
+      "item_original": 117,
+      "estrutura": "Artéria bronquial",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal"
+    },
+    {
+      "id": "118",
+      "item_original": 118,
+      "estrutura": "Artéria esofágica",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal"
+    },
+    {
+      "id": "119",
+      "item_original": 119,
+      "estrutura": "Artéria frênica superior",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal"
+    },
+    {
+      "id": "121",
+      "item_original": 121,
+      "estrutura": "Veias pericardicofrênicas",
+      "fonte": "roteiro",
+      "pagina": 5,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal"
+    },
+    {
+      "id": "122a",
+      "item_original": 122,
+      "estrutura": "Sistema ázigos: veia ázigos",
+      "fonte": "roteiro",
+      "pagina": 5,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal"
+    },
+    {
+      "id": "122b",
+      "item_original": 122,
+      "estrutura": "Sistema ázigos: veia hemiázigos",
+      "fonte": "roteiro",
+      "pagina": 5,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal"
+    },
+    {
+      "id": "122c",
+      "item_original": 122,
+      "estrutura": "Sistema ázigos: veia hemiázigos acessória",
+      "fonte": "roteiro",
+      "pagina": 5,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal"
+    },
+    {
+      "id": "123",
+      "item_original": 123,
+      "estrutura": "Nervo vago",
+      "fonte": "roteiro",
+      "pagina": 5,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal"
+    },
+    {
+      "id": "124",
+      "item_original": 124,
+      "estrutura": "Nervo frênico",
+      "fonte": "roteiro",
+      "pagina": 5,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal"
+    },
+    {
+      "id": "125",
+      "item_original": 125,
+      "estrutura": "Troncos simpáticos",
+      "fonte": "roteiro",
+      "pagina": 5,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal"
+    },
+    {
+      "id": "C15",
+      "item_original": null,
+      "estrutura": "Veia pulmonar direita inferior",
+      "fonte": "coracao",
+      "pagina": 15,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "C21",
+      "item_original": null,
+      "estrutura": "Músculos pectíneos da aurícula esquerda",
+      "fonte": "coracao",
+      "pagina": 38,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "C41",
+      "item_original": null,
+      "estrutura": "Vestíbulo da aorta",
+      "fonte": "coracao",
+      "pagina": 41,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "C45a",
+      "item_original": null,
+      "estrutura": "Seio pulmonar anterior",
+      "fonte": "coracao",
+      "pagina": 45,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "C45b",
+      "item_original": null,
+      "estrutura": "Seio pulmonar direito",
+      "fonte": "coracao",
+      "pagina": 45,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "C45c",
+      "item_original": null,
+      "estrutura": "Seio pulmonar esquerdo",
+      "fonte": "coracao",
+      "pagina": 45,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "C47",
+      "item_original": null,
+      "estrutura": "Parte membranácea do septo interventricular",
+      "fonte": "coracao",
+      "pagina": 47,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "C61a",
+      "item_original": null,
+      "estrutura": "Plexo cardíaco superficial",
+      "fonte": "coracao",
+      "pagina": 61,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "C61b",
+      "item_original": null,
+      "estrutura": "Plexo cardíaco profundo",
+      "fonte": "coracao",
+      "pagina": 61,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "C66a",
+      "item_original": null,
+      "estrutura": "Nó sinoatrial",
+      "fonte": "coracao",
+      "pagina": 66,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "C66b",
+      "item_original": null,
+      "estrutura": "Nó atrioventricular",
+      "fonte": "coracao",
+      "pagina": 66,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "C66c",
+      "item_original": null,
+      "estrutura": "Fascículo atrioventricular (His)",
+      "fonte": "coracao",
+      "pagina": 66,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "C66d",
+      "item_original": null,
+      "estrutura": "Ramo direito do fascículo atrioventricular",
+      "fonte": "coracao",
+      "pagina": 66,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "C66e",
+      "item_original": null,
+      "estrutura": "Ramo esquerdo do fascículo atrioventricular",
+      "fonte": "coracao",
+      "pagina": 66,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "C66f",
+      "item_original": null,
+      "estrutura": "Fibras de Purkinje",
+      "fonte": "coracao",
+      "pagina": 66,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "V36",
+      "item_original": null,
+      "estrutura": "Veias cardíacas mínimas",
+      "fonte": "vasos",
+      "pagina": 36,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "V42a",
+      "item_original": null,
+      "estrutura": "Plexo linfático superficial (subepicárdico)",
+      "fonte": "vasos",
+      "pagina": 42,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "V42b",
+      "item_original": null,
+      "estrutura": "Plexo linfático profundo (subendocárdico)",
+      "fonte": "vasos",
+      "pagina": 42,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "V42c",
+      "item_original": null,
+      "estrutura": "Linfonodos traqueobronquiais inferiores",
+      "fonte": "vasos",
+      "pagina": 42,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "V42d",
+      "item_original": null,
+      "estrutura": "Linfonodos paratraqueais",
+      "fonte": "vasos",
+      "pagina": 42,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "V42e",
+      "item_original": null,
+      "estrutura": "Ducto linfático direito",
+      "fonte": "vasos",
+      "pagina": 42,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    },
+    {
+      "id": "V42f",
+      "item_original": null,
+      "estrutura": "Ducto torácico",
+      "fonte": "vasos",
+      "pagina": 42,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente"
+    }
+  ]
+}

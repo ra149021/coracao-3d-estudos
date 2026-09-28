@@ -1,0 +1,26 @@
+# Source archives, original teaching material and machine-local environments
+fontes/
+materiais/
+malhas/
+.venv*/
+**/node_modules/
+**/__pycache__/
+*.pyc
+.playwright/
+.playwright-cli/
+output/playwright/*.zip
+core
+core.*
+*.log
+.env
+.env.*
+*.pem
+*.key
+*.pdf
+*.docx
+*.pptx
+*.sqlite*
+*.blend*
+*.fbx
+*.zip
+*.crash.txt

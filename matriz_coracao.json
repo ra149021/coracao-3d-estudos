@@ -1,0 +1,3087 @@
+{
+  "metodo": {
+    "base": "Roteiro de Circulatório 3, autoria Carmem, 125 itens numerados, 5 páginas.",
+    "expansao": "Desdobradas lâminas, cinco camadas miocárdicas nomeadas, vasos da base, folhetos valvares, quatro óstios pulmonares, ramos coronários e três veias principais do sistema ázigos. As cinco camadas mantêm os grupos escritos pela professora; camada dos átrios/VD só é completa se ambos estiverem representados.",
+    "duplicatas": {
+      "30i": "repete literalmente a veia pulmonar direita superior de 30h; não contado novamente. A inferior direita está no complemento C15.",
+      "108": "repete o seio coronário de 30k",
+      "120": "repete as coronárias de 81 e 83; a relação com o epicárdio fica na observação"
+    },
+    "informacao_sem_geometria": "Peso e diâmetro do item 1 são dados de texto, fora do denominador geométrico; localização e sintopia permanecem como dois alvos espaciais.",
+    "limiar": "Aprovação exige ao menos 90% de alvos principais demonstrados em 3D. Alvo parcial, nome sem geometria ou associação presumida não é confirmação. Complementos dos slides têm subtotal próprio.",
+    "terminologia": "Manter nomes do roteiro e registrar equivalências. Não corrigir silenciosamente a repetição 30i, nem a alegação de parte membranácea do septo interatrial no slide 47; esta última exige revisão e não foi criada como estrutura 3D adicional.",
+    "fora_do_escopo": "Não incluir circulação fetal completa, sistemas porta, histologia ou outros órgãos como novos requisitos cardíacos; preservar o contexto dos slides."
+  },
+  "resumo": {
+    "principal": {
+      "geometria_disponivel": 70,
+      "parcial_ou_a_conferir": 47,
+      "nao_localizado": 39,
+      "total": 156,
+      "disponibilidade_percentual": 44.87,
+      "potencial_incluindo_parciais_percentual": 75.0
+    },
+    "complemento_docente": {
+      "geometria_disponivel": 3,
+      "parcial_ou_a_conferir": 5,
+      "nao_localizado": 14,
+      "total": 22,
+      "disponibilidade_percentual": 13.64,
+      "potencial_incluindo_parciais_percentual": 36.36
+    },
+    "regra_90": "Não satisfeito enquanto a cobertura individual validada não atingir 90%; geometrias disponíveis e parciais ainda exigem conferência anatômica."
+  },
+  "alvos": [
+    {
+      "id": "1",
+      "item_original": 1,
+      "estrutura": "Localização do coração in situ",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right atrium",
+        "Right ventricle",
+        "Left atrium",
+        "Left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Conferir posição com esterno, diafragma, pulmões e mediastino no modelo corporal.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "2",
+      "item_original": 2,
+      "estrutura": "Relações de sintopia do coração",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right atrium",
+        "Right ventricle",
+        "Left atrium",
+        "Left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Sintopia requer a cena torácica; o coração isolado não demonstra todas as relações.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "3",
+      "item_original": 3,
+      "estrutura": "Pericárdio fibroso",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Pericardium/Pericardial sac são coleções vazias; não há saco fibroso reconhecido no inventário.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Modelar saco, reflexões e/ou fixações com várias vistas; slides 51–58 e fonte adicional para relações ocultas."
+    },
+    {
+      "id": "4a",
+      "item_original": 4,
+      "estrutura": "Pericárdio seroso: lâmina parietal",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Serous pericardium é coleção vazia; lâmina parietal não localizada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Modelar saco, reflexões e/ou fixações com várias vistas; slides 51–58 e fonte adicional para relações ocultas."
+    },
+    {
+      "id": "4b",
+      "item_original": 4,
+      "estrutura": "Pericárdio seroso: lâmina visceral (epicárdio)",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right atrium",
+        "Right ventricle",
+        "Left atrium",
+        "Left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Superfície externa disponível; lâmina visceral não tem geometria individualizada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "5a",
+      "item_original": 5,
+      "estrutura": "Miocárdio dos átrios e VD: camada profunda",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Paredes miocárdicas gerais existem; a camada e sua orientação de fibras exigidas no roteiro não estão representadas.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Criar esquema de camadas/fibras separado; figuras 23–24 não determinam geometria volumétrica realista."
+    },
+    {
+      "id": "5b",
+      "item_original": 5,
+      "estrutura": "Miocárdio dos átrios e VD: camada superficial",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Paredes miocárdicas gerais existem; a camada e sua orientação de fibras exigidas no roteiro não estão representadas.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Criar esquema de camadas/fibras separado; figuras 23–24 não determinam geometria volumétrica realista."
+    },
+    {
+      "id": "5c",
+      "item_original": 5,
+      "estrutura": "Miocárdio do VE: camada profunda",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Paredes miocárdicas gerais existem; a camada e sua orientação de fibras exigidas no roteiro não estão representadas.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Criar esquema de camadas/fibras separado; figuras 23–24 não determinam geometria volumétrica realista."
+    },
+    {
+      "id": "5d",
+      "item_original": 5,
+      "estrutura": "Miocárdio do VE: camada média",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Paredes miocárdicas gerais existem; a camada e sua orientação de fibras exigidas no roteiro não estão representadas.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Criar esquema de camadas/fibras separado; figuras 23–24 não determinam geometria volumétrica realista."
+    },
+    {
+      "id": "5e",
+      "item_original": 5,
+      "estrutura": "Miocárdio do VE: camada superficial",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Paredes miocárdicas gerais existem; a camada e sua orientação de fibras exigidas no roteiro não estão representadas.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Criar esquema de camadas/fibras separado; figuras 23–24 não determinam geometria volumétrica realista."
+    },
+    {
+      "id": "6",
+      "item_original": 6,
+      "estrutura": "Endocárdio",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right atrium",
+        "Right ventricle",
+        "Left atrium",
+        "Left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Superfícies internas disponíveis; revestimento endocárdico não está separado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "7",
+      "item_original": 7,
+      "estrutura": "Face esternocostal",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right ventricle",
+        "Left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Face reconhecível no conjunto; falta delimitar e conferir a seleção.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "8",
+      "item_original": 8,
+      "estrutura": "Face diafragmática",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right ventricle",
+        "Left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Face reconhecível no conjunto; falta delimitar e conferir a seleção.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "9",
+      "item_original": 9,
+      "estrutura": "Face pulmonar direita",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right atrium"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Face depende de delimitação na parede atrial.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "10",
+      "item_original": 10,
+      "estrutura": "Face pulmonar esquerda",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Left ventricle",
+        "Left atrium"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Face depende de delimitação na superfície.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "11",
+      "item_original": 11,
+      "estrutura": "Margem direita",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right atrium"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Margem é um marco de superfície, não um órgão separado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "12",
+      "item_original": 12,
+      "estrutura": "Margem esquerda",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Margem é um marco de superfície, não um órgão separado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "13",
+      "item_original": 13,
+      "estrutura": "Margem inferior",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right ventricle",
+        "Left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Margem é um marco de superfície, não um órgão separado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "14",
+      "item_original": 14,
+      "estrutura": "Base do coração",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Left atrium",
+        "Right atrium"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Base identificável pela orientação; necessita marcação conferida.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "15",
+      "item_original": 15,
+      "estrutura": "Ápice do coração",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Ápice identificável; necessita marcação conferida.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "16",
+      "item_original": 16,
+      "estrutura": "Átrio direito",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Right atrium"
+      ],
+      "bp_evidencia": [
+        "FMA9457"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "17",
+      "item_original": 17,
+      "estrutura": "Aurícula direita",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right atrium"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Aurícula incorporada à parede do átrio; falta conferir e segmentar o limite.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "18",
+      "item_original": 18,
+      "estrutura": "Átrio esquerdo",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Left atrium"
+      ],
+      "bp_evidencia": [
+        "FMA9531"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "19",
+      "item_original": 19,
+      "estrutura": "Aurícula esquerda",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Left atrium"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Aurícula incorporada à parede do átrio; falta conferir e segmentar o limite.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "20",
+      "item_original": 20,
+      "estrutura": "Ventrículo direito",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Right ventricle"
+      ],
+      "bp_evidencia": [
+        "FMA9291"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "21",
+      "item_original": 21,
+      "estrutura": "Ventrículo esquerdo",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Left ventricle"
+      ],
+      "bp_evidencia": [
+        "FMA9466"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "22",
+      "item_original": 22,
+      "estrutura": "Septo interatrial",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right atrium",
+        "Left atrium"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Septo depende da parede compartilhada; catálogo tem apenas referência.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "23",
+      "item_original": 23,
+      "estrutura": "Septo interventricular",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right ventricle",
+        "Left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Parede septal incorporada; falta delimitar e verificar espessura/porções.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "24",
+      "item_original": 24,
+      "estrutura": "Septo atrioventricular",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right atrium",
+        "Left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Região de junção necessita identificação dirigida; sem geometria própria.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "25",
+      "item_original": 25,
+      "estrutura": "Sulco interatrial",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right atrium",
+        "Left atrium"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Sulco precisa ser verificado na união das paredes atriais.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "26",
+      "item_original": 26,
+      "estrutura": "Sulco interventricular anterior",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right ventricle",
+        "Left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Referência do sulco existe; falta validação de marcação na superfície.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "27",
+      "item_original": 27,
+      "estrutura": "Sulco interventricular posterior",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right ventricle",
+        "Left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Referência do sulco existe; falta validação de marcação na superfície.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "28",
+      "item_original": 28,
+      "estrutura": "Sulco coronário",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right atrium",
+        "Right ventricle",
+        "Left atrium",
+        "Left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Referência do sulco existe; falta validação de marcação na superfície.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "29",
+      "item_original": 29,
+      "estrutura": "Cruz do coração (crux cordis)",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right atrium",
+        "Right ventricle",
+        "Left atrium",
+        "Left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Interseção dos sulcos precisa de inspeção posterior e marcação.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "30a",
+      "item_original": 30,
+      "estrutura": "Veia cava superior",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Superior vena cava"
+      ],
+      "bp_evidencia": [
+        "FMA4720"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "30b",
+      "item_original": 30,
+      "estrutura": "Veia cava inferior",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA10951"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "30c",
+      "item_original": 30,
+      "estrutura": "Tronco pulmonar",
+      "fonte": "roteiro",
+      "pagina": 1,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Pulmonary trunk"
+      ],
+      "bp_evidencia": [
+        "FMA8612"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "30d",
+      "item_original": 30,
+      "estrutura": "Artéria pulmonar direita",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Right pulmonary artery"
+      ],
+      "bp_evidencia": [
+        "FMA50872"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "30e",
+      "item_original": 30,
+      "estrutura": "Artéria pulmonar esquerda",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Left pulmonary artery"
+      ],
+      "bp_evidencia": [
+        "FMA50873"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "30f",
+      "item_original": 30,
+      "estrutura": "Veia pulmonar esquerda superior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Left superior pulmonary vein"
+      ],
+      "bp_evidencia": [
+        "FMA49916"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "30g",
+      "item_original": 30,
+      "estrutura": "Veia pulmonar esquerda inferior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Left inferior pulmonary vein"
+      ],
+      "bp_evidencia": [
+        "FMA49913"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "30h",
+      "item_original": 30,
+      "estrutura": "Veia pulmonar direita superior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Right superior pulmonary vein"
+      ],
+      "bp_evidencia": [
+        "FMA49914"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "30j",
+      "item_original": 30,
+      "estrutura": "Artéria aorta",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Ascending aorta",
+        "Thoracic aorta",
+        "Abdominal aorta"
+      ],
+      "bp_evidencia": [
+        "FMA3736",
+        "FMA3768",
+        "FMA87217",
+        "FMA3789"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "30k",
+      "item_original": 30,
+      "estrutura": "Seio coronário",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Coronary sinus"
+      ],
+      "bp_evidencia": [
+        "FMA4706"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "31",
+      "item_original": 31,
+      "estrutura": "Ligamento arterial",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Organização, revestimentos e anatomia externa",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Foi encontrado um linfonodo do ligamento arterial, que não equivale ao ligamento.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "32",
+      "item_original": 32,
+      "estrutura": "Óstio da veia cava superior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right atrium"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Abertura na parede/tubo disponível; borda não individualizada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "33",
+      "item_original": 33,
+      "estrutura": "Óstio da veia cava inferior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right atrium"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Abertura na parede/tubo disponível; borda não individualizada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "34",
+      "item_original": 34,
+      "estrutura": "Óstio do seio coronário",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right atrium",
+        "Coronary sinus"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Continuidade da veia com o átrio precisa ser conferida; não basta a veia existir.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "35",
+      "item_original": 35,
+      "estrutura": "Válvula da veia cava inferior (Eustáquio)",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Válvula de Eustáquio não localizada como geometria nem reconhecida no corte amostrado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "36",
+      "item_original": 36,
+      "estrutura": "Válvula do seio coronário (Thebesius)",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Válvula de Thebesius não localizada como geometria.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "37",
+      "item_original": 37,
+      "estrutura": "Parte posterior lisa do átrio direito",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right atrium"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Parede lisa disponível; limite com a região pectínea não confirmado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "38",
+      "item_original": 38,
+      "estrutura": "Músculos pectíneos do átrio direito",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Paredes atriais muito simplificadas; musculatura pectínea não confirmada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "39",
+      "item_original": 39,
+      "estrutura": "Crista terminal",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Crista terminal tem descrição, sem objeto anatômico correspondente localizado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "40",
+      "item_original": 40,
+      "estrutura": "Sulco terminal",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Sulco terminal tem descrição, sem objeto anatômico correspondente localizado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "41",
+      "item_original": 41,
+      "estrutura": "Fossa oval",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right atrium"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Possível região septal; a fossa não foi confirmada na amostra de corte.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "42",
+      "item_original": 42,
+      "estrutura": "Limbo da fossa oval",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio direito",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Limbo da fossa oval não localizado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "43",
+      "item_original": 43,
+      "estrutura": "Cone arterial (infundíbulo do VD)",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Trato de saída presente na casca; necessita delimitação e inspeção interna.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "44",
+      "item_original": 44,
+      "estrutura": "Crista supraventricular",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Crista supraventricular não localizada como relevo confirmado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "45",
+      "item_original": 45,
+      "estrutura": "Óstio atrioventricular direito",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right atrium",
+        "Right ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Anel/abertura requer isolamento e conferência do limite.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "46a",
+      "item_original": 46,
+      "estrutura": "Valva tricúspide: válvula anterior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA7238"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "46b",
+      "item_original": 46,
+      "estrutura": "Valva tricúspide: válvula posterior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Inferior leaflet of right atrioventricular valve"
+      ],
+      "bp_evidencia": [
+        "FMA7239"
+      ],
+      "observacao": "Equivalência terminológica inferior/posterior ou inferolateral/póstero-lateral precisa permanecer documentada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "46c",
+      "item_original": 46,
+      "estrutura": "Valva tricúspide: válvula septal",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Septal leaflet of right atrioventricular valve"
+      ],
+      "bp_evidencia": [
+        "FMA7240"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "47",
+      "item_original": 47,
+      "estrutura": "Músculo papilar anterior do VD",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Anterior papillary muscle of right ventricle"
+      ],
+      "bp_evidencia": [
+        "FMA7260"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "48",
+      "item_original": 48,
+      "estrutura": "Músculo papilar posterior do VD",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Inferior papillary muscle of right ventricle"
+      ],
+      "bp_evidencia": [
+        "FMA7261"
+      ],
+      "observacao": "Equivalência terminológica inferior/posterior ou inferolateral/póstero-lateral precisa permanecer documentada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "49",
+      "item_original": 49,
+      "estrutura": "Músculo papilar septal do VD",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Septal papillary muscle of right ventricle"
+      ],
+      "bp_evidencia": [
+        "FMA7262"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "50",
+      "item_original": 50,
+      "estrutura": "Trabécula septomarginal",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Septomarginal trabecula é coleção vazia; não há banda confirmada entre septo e músculo papilar.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Criar esquema de camadas/fibras separado; figuras 23–24 não determinam geometria volumétrica realista."
+    },
+    {
+      "id": "51",
+      "item_original": 51,
+      "estrutura": "Cordas tendíneas do VD",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Inferior leaflet of right atrioventricular valve",
+        "Septal leaflet of right atrioventricular valve"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Cordas visíveis, incorporadas aos folhetos. Confirmar a distribuição em cada músculo papilar.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "52",
+      "item_original": 52,
+      "estrutura": "Trabéculas cárneas do VD",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Corte de inspeção mostra parede simplificada, sem rede de trabéculas confirmada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Criar esquema de camadas/fibras separado; figuras 23–24 não determinam geometria volumétrica realista."
+    },
+    {
+      "id": "53a",
+      "item_original": 53,
+      "estrutura": "Valva pulmonar: válvula semilunar anterior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Anterior semilunar leaflet of pulmonary valve"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Nomes posicionais das cúspides no BodyParts3D diferem do roteiro. Foi priorizada a identificação explícita do Z-Anatomy; conferir orientação antes da integração.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "53b",
+      "item_original": 53,
+      "estrutura": "Valva pulmonar: válvula semilunar direita",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Right semilunar leaflet of pulmonary valve"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Nomes posicionais das cúspides no BodyParts3D diferem do roteiro. Foi priorizada a identificação explícita do Z-Anatomy; conferir orientação antes da integração.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "53c",
+      "item_original": 53,
+      "estrutura": "Valva pulmonar: válvula semilunar esquerda",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Ventrículo direito",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Left semilunar leaflet of pulmonary valve"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Nomes posicionais das cúspides no BodyParts3D diferem do roteiro. Foi priorizada a identificação explícita do Z-Anatomy; conferir orientação antes da integração.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "54a",
+      "item_original": 54,
+      "estrutura": "Óstio da veia pulmonar direita superior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio esquerdo",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Left atrium",
+        "Right superior pulmonary vein"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Abertura exige conferir a união da veia com a parede do AE.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "54b",
+      "item_original": 54,
+      "estrutura": "Óstio da veia pulmonar direita inferior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio esquerdo",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Left atrium",
+        "Right inferior pulmonary vein"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Abertura exige conferir a união da veia com a parede do AE.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "54c",
+      "item_original": 54,
+      "estrutura": "Óstio da veia pulmonar esquerda superior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio esquerdo",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Left atrium",
+        "Left superior pulmonary vein"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Abertura exige conferir a união da veia com a parede do AE.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "54d",
+      "item_original": 54,
+      "estrutura": "Óstio da veia pulmonar esquerda inferior",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio esquerdo",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Left atrium",
+        "Left inferior pulmonary vein"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Abertura exige conferir a união da veia com a parede do AE.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "55",
+      "item_original": 55,
+      "estrutura": "Assoalho do forame oval (vista do AE)",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio esquerdo",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Left atrium"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Região septal disponível; assoalho do forame oval não individualizado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "56",
+      "item_original": 56,
+      "estrutura": "Válvula do forame oval",
+      "fonte": "roteiro",
+      "pagina": 2,
+      "grupo": "Átrio esquerdo",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Válvula do forame oval não localizada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Criar esquema de camadas/fibras separado; figuras 23–24 não determinam geometria volumétrica realista."
+    },
+    {
+      "id": "57",
+      "item_original": 57,
+      "estrutura": "Óstio atrioventricular esquerdo",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Left atrium",
+        "Left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Anel/abertura requer isolamento e conferência do limite.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "58a",
+      "item_original": 58,
+      "estrutura": "Valva mitral: válvula anterior",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA7242"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "58b",
+      "item_original": 58,
+      "estrutura": "Valva mitral: válvula posterior",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Posterior leaflet of left atrioventricular valve"
+      ],
+      "bp_evidencia": [
+        "FMA7243"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "59",
+      "item_original": 59,
+      "estrutura": "Músculo papilar anterior do VE",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA7265"
+      ],
+      "observacao": "BodyParts3D FMA7265 representa uma cabeça anterolateral; equivalência com o músculo anterior completo precisa de revisão.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "60",
+      "item_original": 60,
+      "estrutura": "Músculo papilar posterior do VE",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Inferior papillary muscle of left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Equivalência terminológica inferior/posterior ou inferolateral/póstero-lateral precisa permanecer documentada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "61",
+      "item_original": 61,
+      "estrutura": "Cordas tendíneas do VE",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Posterior leaflet of left atrioventricular valve"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Cordas visíveis, incorporadas ao folheto. Conferir todas as inserções.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "62",
+      "item_original": 62,
+      "estrutura": "Trabéculas cárneas do VE",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Corte de inspeção mostra parede simplificada, sem rede de trabéculas confirmada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "63a",
+      "item_original": 63,
+      "estrutura": "Valva aórtica: válvula semilunar direita",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Right coronary leaflet"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Nomes posicionais das cúspides no BodyParts3D diferem do roteiro. Foi priorizada a identificação explícita do Z-Anatomy; conferir orientação antes da integração.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "63b",
+      "item_original": 63,
+      "estrutura": "Valva aórtica: válvula semilunar esquerda",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Left coronary leaflet"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Nomes posicionais das cúspides no BodyParts3D diferem do roteiro. Foi priorizada a identificação explícita do Z-Anatomy; conferir orientação antes da integração.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "63c",
+      "item_original": 63,
+      "estrutura": "Valva aórtica: válvula semilunar posterior",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ventrículo esquerdo",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Non-coronary leaflet"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Nomes posicionais das cúspides no BodyParts3D diferem do roteiro. Foi priorizada a identificação explícita do Z-Anatomy; conferir orientação antes da integração.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "64",
+      "item_original": 64,
+      "estrutura": "Anel fibroso direito",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Esqueleto fibroso",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Fibrous skeleton of heart é coleção vazia; anéis e trígonos não possuem representação correspondente localizada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Construir o esqueleto fibroso com orientação das valvas; conferir relações nos slides 47–48 e referência adicional."
+    },
+    {
+      "id": "65",
+      "item_original": 65,
+      "estrutura": "Anel fibroso esquerdo",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Esqueleto fibroso",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Fibrous skeleton of heart é coleção vazia; anéis e trígonos não possuem representação correspondente localizada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Construir o esqueleto fibroso com orientação das valvas; conferir relações nos slides 47–48 e referência adicional."
+    },
+    {
+      "id": "66",
+      "item_original": 66,
+      "estrutura": "Anel fibroso da valva pulmonar",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Esqueleto fibroso",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Fibrous skeleton of heart é coleção vazia; anéis e trígonos não possuem representação correspondente localizada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Construir o esqueleto fibroso com orientação das valvas; conferir relações nos slides 47–48 e referência adicional."
+    },
+    {
+      "id": "67",
+      "item_original": 67,
+      "estrutura": "Anel fibroso da valva aórtica",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Esqueleto fibroso",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Fibrous skeleton of heart é coleção vazia; anéis e trígonos não possuem representação correspondente localizada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Construir o esqueleto fibroso com orientação das valvas; conferir relações nos slides 47–48 e referência adicional."
+    },
+    {
+      "id": "68",
+      "item_original": 68,
+      "estrutura": "Trígono fibroso direito",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Esqueleto fibroso",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Fibrous skeleton of heart é coleção vazia; anéis e trígonos não possuem representação correspondente localizada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Construir o esqueleto fibroso com orientação das valvas; conferir relações nos slides 47–48 e referência adicional."
+    },
+    {
+      "id": "69",
+      "item_original": 69,
+      "estrutura": "Trígono fibroso esquerdo",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Esqueleto fibroso",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Fibrous skeleton of heart é coleção vazia; anéis e trígonos não possuem representação correspondente localizada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Construir o esqueleto fibroso com orientação das valvas; conferir relações nos slides 47–48 e referência adicional."
+    },
+    {
+      "id": "70",
+      "item_original": 70,
+      "estrutura": "Ligamento esternopericárdico superior",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ligamentos e seios pericárdicos",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Ligamento pericárdico não localizado; Sternopericardial ligaments é coleção vazia.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Modelar saco, reflexões e/ou fixações com várias vistas; slides 51–58 e fonte adicional para relações ocultas."
+    },
+    {
+      "id": "71",
+      "item_original": 71,
+      "estrutura": "Ligamento esternopericárdico inferior",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ligamentos e seios pericárdicos",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Ligamento pericárdico não localizado; Sternopericardial ligaments é coleção vazia.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Modelar saco, reflexões e/ou fixações com várias vistas; slides 51–58 e fonte adicional para relações ocultas."
+    },
+    {
+      "id": "72",
+      "item_original": 72,
+      "estrutura": "Ligamento pericardicofrênico",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ligamentos e seios pericárdicos",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Ligamento pericárdico não localizado; Sternopericardial ligaments é coleção vazia.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Modelar saco, reflexões e/ou fixações com várias vistas; slides 51–58 e fonte adicional para relações ocultas."
+    },
+    {
+      "id": "73",
+      "item_original": 73,
+      "estrutura": "Ligamento vertebropericárdico",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ligamentos e seios pericárdicos",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Ligamento pericárdico não localizado; Sternopericardial ligaments é coleção vazia.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Modelar saco, reflexões e/ou fixações com várias vistas; slides 51–58 e fonte adicional para relações ocultas."
+    },
+    {
+      "id": "74",
+      "item_original": 74,
+      "estrutura": "Seio transverso do pericárdio",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ligamentos e seios pericárdicos",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Sem reflexões pericárdicas representadas, o espaço transverso não fica delimitado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Modelar saco, reflexões e/ou fixações com várias vistas; slides 51–58 e fonte adicional para relações ocultas."
+    },
+    {
+      "id": "75",
+      "item_original": 75,
+      "estrutura": "Seio oblíquo do pericárdio",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Ligamentos e seios pericárdicos",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Sem reflexões pericárdicas representadas, o fundo de saco oblíquo não fica delimitado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Modelar saco, reflexões e/ou fixações com várias vistas; slides 51–58 e fonte adicional para relações ocultas."
+    },
+    {
+      "id": "76",
+      "item_original": 76,
+      "estrutura": "Parte ascendente da aorta",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Ascending aorta"
+      ],
+      "bp_evidencia": [
+        "FMA3736"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "77",
+      "item_original": 77,
+      "estrutura": "Seio da aorta direito",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Ascending aorta"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Base da aorta disponível; dilatação correspondente ao seio não individualizada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "78",
+      "item_original": 78,
+      "estrutura": "Seio da aorta esquerdo",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Ascending aorta"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Base da aorta disponível; dilatação correspondente ao seio não individualizada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "79",
+      "item_original": 79,
+      "estrutura": "Seio da aorta posterior (não coronário)",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Ascending aorta"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Base da aorta disponível; dilatação correspondente ao seio não individualizada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "80",
+      "item_original": 80,
+      "estrutura": "Óstio da artéria coronária direita",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Ascending aorta",
+        "Right coronary artery"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Origem dos vasos é indicativa; conexão luminal e óstio não conferidos.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "81",
+      "item_original": 81,
+      "estrutura": "Artéria coronária direita",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Right coronary artery"
+      ],
+      "bp_evidencia": [
+        "FMA3802"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "82",
+      "item_original": 82,
+      "estrutura": "Óstio da artéria coronária esquerda",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Ascending aorta",
+        "Left coronary artery"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Origem dos vasos é indicativa; conexão luminal e óstio não conferidos.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "83",
+      "item_original": 83,
+      "estrutura": "Artéria coronária esquerda",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Left coronary artery"
+      ],
+      "bp_evidencia": [
+        "FMA3855"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "84",
+      "item_original": 84,
+      "estrutura": "Arco da aorta",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA3768"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "85",
+      "item_original": 85,
+      "estrutura": "Tronco braquiocefálico",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Brachiocephalic trunk"
+      ],
+      "bp_evidencia": [],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "86",
+      "item_original": 86,
+      "estrutura": "Artéria carótida comum direita",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Right common carotid artery"
+      ],
+      "bp_evidencia": [
+        "FMA3941"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "87",
+      "item_original": 87,
+      "estrutura": "Artéria subclávia direita",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Right subclavian artery"
+      ],
+      "bp_evidencia": [
+        "FMA3953"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "88",
+      "item_original": 88,
+      "estrutura": "Artéria carótida comum esquerda",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Left common carotid artery"
+      ],
+      "bp_evidencia": [
+        "FMA4058"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "89",
+      "item_original": 89,
+      "estrutura": "Artéria subclávia esquerda",
+      "fonte": "roteiro",
+      "pagina": 3,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Left subclavian artery"
+      ],
+      "bp_evidencia": [
+        "FMA4694"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "90",
+      "item_original": 90,
+      "estrutura": "Artéria carótida interna",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Internal carotid artery.l",
+        "Internal carotid artery.r"
+      ],
+      "bp_evidencia": [],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "91",
+      "item_original": 91,
+      "estrutura": "Artéria carótida externa",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "External carotid artery.l",
+        "External carotid artery.r"
+      ],
+      "bp_evidencia": [],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "92",
+      "item_original": 92,
+      "estrutura": "Aorta descendente torácica",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Thoracic aorta"
+      ],
+      "bp_evidencia": [
+        "FMA87217"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "93",
+      "item_original": 93,
+      "estrutura": "Aorta descendente abdominal",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Aorta e grandes ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Abdominal aorta"
+      ],
+      "bp_evidencia": [
+        "FMA3789"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "94",
+      "item_original": 94,
+      "estrutura": "Ramo do nó sinoatrial",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Artéria do nó sinoatrial não identificada nos ramos disponíveis.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "95",
+      "item_original": 95,
+      "estrutura": "Ramos atriais direitos",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Ramos atriais direitos não identificados individualmente.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "96",
+      "item_original": 96,
+      "estrutura": "Ramo do cone arterial da coronária direita",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA3807"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "97",
+      "item_original": 97,
+      "estrutura": "Ramo ventricular anterior direito",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA3813"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "98",
+      "item_original": 98,
+      "estrutura": "Ramo marginal direito",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA3818"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "99",
+      "item_original": 99,
+      "estrutura": "Ramo do nó atrioventricular",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Artéria do nó atrioventricular não identificada nos ramos disponíveis.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "100",
+      "item_original": 100,
+      "estrutura": "Ramo interventricular posterior",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA3840"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "101",
+      "item_original": 101,
+      "estrutura": "Ramos interventriculares septais da coronária direita",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA3845"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "102",
+      "item_original": 102,
+      "estrutura": "Ramo póstero-lateral direito",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Right inferolateral branch of right coronary artery"
+      ],
+      "bp_evidencia": [
+        "FMA3835"
+      ],
+      "observacao": "Equivalência terminológica inferior/posterior ou inferolateral/póstero-lateral precisa permanecer documentada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "103",
+      "item_original": 103,
+      "estrutura": "Ramo interventricular anterior",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Anterior interventricular artery"
+      ],
+      "bp_evidencia": [
+        "FMA74912"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "103a",
+      "item_original": 103,
+      "estrutura": "Ramo do cone arterial do ramo interventricular anterior",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA3868"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "103b",
+      "item_original": 103,
+      "estrutura": "Ramos interventriculares septais do ramo interventricular anterior",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Septal branches of anterior interventricular artery"
+      ],
+      "bp_evidencia": [
+        "FMA3892"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "103c",
+      "item_original": 103,
+      "estrutura": "Ramo lateral (diagonal) do ramo interventricular anterior",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA3860"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "104",
+      "item_original": 104,
+      "estrutura": "Ramo circunflexo",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Circumflex artery of heart"
+      ],
+      "bp_evidencia": [
+        "FMA3895"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "104a",
+      "item_original": 104,
+      "estrutura": "Ramos atriais esquerdos",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Ramos atriais esquerdos não identificados individualmente.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "104b",
+      "item_original": 104,
+      "estrutura": "Ramo lateral (diagonal) do ramo circunflexo",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Circumflex artery of heart"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Ramo lateral da circunflexa não está individualmente nomeado; conferir nomenclatura do roteiro.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "104c",
+      "item_original": 104,
+      "estrutura": "Ramo marginal esquerdo",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Circumflex artery of heart"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Ramo marginal pode estar incorporado à circunflexa; não individualmente identificado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "104d",
+      "item_original": 104,
+      "estrutura": "Ramo posterior do ventrículo esquerdo",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Artérias coronárias e ramos",
+      "escopo": "principal",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Circumflex artery of heart"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Ramo posterior pode estar incorporado à circunflexa; não individualmente identificado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "105",
+      "item_original": 105,
+      "estrutura": "Veia interventricular anterior",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Veias cardíacas",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA66403"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "106",
+      "item_original": 106,
+      "estrutura": "Veia cardíaca magna",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Veias cardíacas",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Great cardiac vein"
+      ],
+      "bp_evidencia": [
+        "FMA4707"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "107",
+      "item_original": 107,
+      "estrutura": "Veia oblíqua do átrio esquerdo",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Veias cardíacas",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Veia oblíqua do AE não identificada; objeto sem nome confiável não foi creditado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "109",
+      "item_original": 109,
+      "estrutura": "Veia marginal esquerda",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Veias cardíacas",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA4708"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "110",
+      "item_original": 110,
+      "estrutura": "Veia posterior do ventrículo esquerdo",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Veias cardíacas",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Inferior vein of left ventricle (//Posterior '')"
+      ],
+      "bp_evidencia": [
+        "FMA4712"
+      ],
+      "observacao": "Equivalência terminológica inferior/posterior ou inferolateral/póstero-lateral precisa permanecer documentada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "111",
+      "item_original": 111,
+      "estrutura": "Veia interventricular posterior (cardíaca média)",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Veias cardíacas",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Middle cardiac vein"
+      ],
+      "bp_evidencia": [
+        "FMA4713"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "112",
+      "item_original": 112,
+      "estrutura": "Veia marginal direita",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Veias cardíacas",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA4716"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "113",
+      "item_original": 113,
+      "estrutura": "Veia cardíaca parva",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Veias cardíacas",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA4714"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "114",
+      "item_original": 114,
+      "estrutura": "Veias anteriores do ventrículo direito",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Veias cardíacas",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA76767"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "115",
+      "item_original": 115,
+      "estrutura": "Artéria pericardicofrênica",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Artéria pericardicofrênica aparece em descrição, sem geometria correspondente localizada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "116",
+      "item_original": 116,
+      "estrutura": "Artéria musculofrênica",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Musculophrenic artery.l",
+        "Musculophrenic artery.r"
+      ],
+      "bp_evidencia": [
+        "FMA10645"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "117",
+      "item_original": 117,
+      "estrutura": "Artéria bronquial",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA68109"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "118",
+      "item_original": 118,
+      "estrutura": "Artéria esofágica",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [],
+      "bp_evidencia": [
+        "FMA4149"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "119",
+      "item_original": 119,
+      "estrutura": "Artéria frênica superior",
+      "fonte": "roteiro",
+      "pagina": 4,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Superior phrenic arteries"
+      ],
+      "bp_evidencia": [],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "121",
+      "item_original": 121,
+      "estrutura": "Veias pericardicofrênicas",
+      "fonte": "roteiro",
+      "pagina": 5,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Veias pericardicofrênicas não localizadas.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "122a",
+      "item_original": 122,
+      "estrutura": "Sistema ázigos: veia ázigos",
+      "fonte": "roteiro",
+      "pagina": 5,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Azygos vein"
+      ],
+      "bp_evidencia": [
+        "FMA4838"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "122b",
+      "item_original": 122,
+      "estrutura": "Sistema ázigos: veia hemiázigos",
+      "fonte": "roteiro",
+      "pagina": 5,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Hemi-azygos vein"
+      ],
+      "bp_evidencia": [
+        "FMA4944"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "122c",
+      "item_original": 122,
+      "estrutura": "Sistema ázigos: veia hemiázigos acessória",
+      "fonte": "roteiro",
+      "pagina": 5,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Accessory hemi-azygos vein"
+      ],
+      "bp_evidencia": [
+        "FMA5011"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "123",
+      "item_original": 123,
+      "estrutura": "Nervo vago",
+      "fonte": "roteiro",
+      "pagina": 5,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Vagus nerve (X).l",
+        "Vagus nerve (X).r"
+      ],
+      "bp_evidencia": [],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "124",
+      "item_original": 124,
+      "estrutura": "Nervo frênico",
+      "fonte": "roteiro",
+      "pagina": 5,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Nervo frênico não localizado como geometria; nervo subclávio e vago não são equivalentes.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "125",
+      "item_original": 125,
+      "estrutura": "Troncos simpáticos",
+      "fonte": "roteiro",
+      "pagina": 5,
+      "grupo": "Vasos e nervos do pericárdio",
+      "escopo": "principal",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Sympathetic trunk.l",
+        "Sympathetic trunk.r"
+      ],
+      "bp_evidencia": [],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "C15",
+      "item_original": null,
+      "estrutura": "Veia pulmonar direita inferior",
+      "fonte": "coracao",
+      "pagina": 15,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Right inferior pulmonary vein"
+      ],
+      "bp_evidencia": [
+        "FMA49911"
+      ],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "C21",
+      "item_original": null,
+      "estrutura": "Músculos pectíneos da aurícula esquerda",
+      "fonte": "coracao",
+      "pagina": 38,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Não foi localizada geometria correspondente no acervo examinado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "C41",
+      "item_original": null,
+      "estrutura": "Vestíbulo da aorta",
+      "fonte": "coracao",
+      "pagina": 41,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Trato de saída exige segmentação e identificação do vestíbulo.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "C45a",
+      "item_original": null,
+      "estrutura": "Seio pulmonar anterior",
+      "fonte": "coracao",
+      "pagina": 45,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Pulmonary trunk"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Raiz do tronco presente; seio pulmonar não individualizado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "C45b",
+      "item_original": null,
+      "estrutura": "Seio pulmonar direito",
+      "fonte": "coracao",
+      "pagina": 45,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Pulmonary trunk"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Raiz do tronco presente; seio pulmonar não individualizado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "C45c",
+      "item_original": null,
+      "estrutura": "Seio pulmonar esquerdo",
+      "fonte": "coracao",
+      "pagina": 45,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Pulmonary trunk"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Raiz do tronco presente; seio pulmonar não individualizado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "C47",
+      "item_original": null,
+      "estrutura": "Parte membranácea do septo interventricular",
+      "fonte": "coracao",
+      "pagina": 47,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right ventricle",
+        "Left ventricle"
+      ],
+      "bp_evidencia": [],
+      "observacao": "Parede septal disponível; porção membranácea não individualizada.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Delimitar ou segmentar a geometria existente e conferir com as figuras docentes."
+    },
+    {
+      "id": "C61a",
+      "item_original": null,
+      "estrutura": "Plexo cardíaco superficial",
+      "fonte": "coracao",
+      "pagina": 61,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Categoria de inervação/condução existe, mas sem geometria para este componente.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Criar representação didática localizada nos marcos anatômicos; distinguir vias esquemáticas de tecido visível."
+    },
+    {
+      "id": "C61b",
+      "item_original": null,
+      "estrutura": "Plexo cardíaco profundo",
+      "fonte": "coracao",
+      "pagina": 61,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Categoria de inervação/condução existe, mas sem geometria para este componente.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Criar representação didática localizada nos marcos anatômicos; distinguir vias esquemáticas de tecido visível."
+    },
+    {
+      "id": "C66a",
+      "item_original": null,
+      "estrutura": "Nó sinoatrial",
+      "fonte": "coracao",
+      "pagina": 66,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Categoria de inervação/condução existe, mas sem geometria para este componente.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Criar representação didática localizada nos marcos anatômicos; distinguir vias esquemáticas de tecido visível."
+    },
+    {
+      "id": "C66b",
+      "item_original": null,
+      "estrutura": "Nó atrioventricular",
+      "fonte": "coracao",
+      "pagina": 66,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Categoria de inervação/condução existe, mas sem geometria para este componente.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Criar representação didática localizada nos marcos anatômicos; distinguir vias esquemáticas de tecido visível."
+    },
+    {
+      "id": "C66c",
+      "item_original": null,
+      "estrutura": "Fascículo atrioventricular (His)",
+      "fonte": "coracao",
+      "pagina": 66,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Categoria de inervação/condução existe, mas sem geometria para este componente.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Criar representação didática localizada nos marcos anatômicos; distinguir vias esquemáticas de tecido visível."
+    },
+    {
+      "id": "C66d",
+      "item_original": null,
+      "estrutura": "Ramo direito do fascículo atrioventricular",
+      "fonte": "coracao",
+      "pagina": 66,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Categoria de inervação/condução existe, mas sem geometria para este componente.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Criar representação didática localizada nos marcos anatômicos; distinguir vias esquemáticas de tecido visível."
+    },
+    {
+      "id": "C66e",
+      "item_original": null,
+      "estrutura": "Ramo esquerdo do fascículo atrioventricular",
+      "fonte": "coracao",
+      "pagina": 66,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Categoria de inervação/condução existe, mas sem geometria para este componente.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Criar representação didática localizada nos marcos anatômicos; distinguir vias esquemáticas de tecido visível."
+    },
+    {
+      "id": "C66f",
+      "item_original": null,
+      "estrutura": "Fibras de Purkinje",
+      "fonte": "coracao",
+      "pagina": 66,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Categoria de inervação/condução existe, mas sem geometria para este componente.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Criar representação didática localizada nos marcos anatômicos; distinguir vias esquemáticas de tecido visível."
+    },
+    {
+      "id": "V36",
+      "item_original": null,
+      "estrutura": "Veias cardíacas mínimas",
+      "fonte": "vasos",
+      "pagina": 36,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Não foi localizada geometria correspondente no acervo examinado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "V42a",
+      "item_original": null,
+      "estrutura": "Plexo linfático superficial (subepicárdico)",
+      "fonte": "vasos",
+      "pagina": 42,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Não foi localizada geometria correspondente no acervo examinado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "V42b",
+      "item_original": null,
+      "estrutura": "Plexo linfático profundo (subendocárdico)",
+      "fonte": "vasos",
+      "pagina": 42,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Não foi localizada geometria correspondente no acervo examinado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "V42c",
+      "item_original": null,
+      "estrutura": "Linfonodos traqueobronquiais inferiores",
+      "fonte": "vasos",
+      "pagina": 42,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Inferior tracheobronchial nodes"
+      ],
+      "bp_evidencia": [],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "V42d",
+      "item_original": null,
+      "estrutura": "Linfonodos paratraqueais",
+      "fonte": "vasos",
+      "pagina": 42,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Paratracheal cervical nodes",
+        "Paratracheal thoracic nodes"
+      ],
+      "bp_evidencia": [],
+      "observacao": "",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Reaproveitar, conferir forma/posição e traduzir a identificação."
+    },
+    {
+      "id": "V42e",
+      "item_original": null,
+      "estrutura": "Ducto linfático direito",
+      "fonte": "vasos",
+      "pagina": 42,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Não foi localizada geometria correspondente no acervo examinado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    },
+    {
+      "id": "V42f",
+      "item_original": null,
+      "estrutura": "Ducto torácico",
+      "fonte": "vasos",
+      "pagina": 42,
+      "grupo": "Detalhes adicionais dos slides",
+      "escopo": "complemento_docente",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "bp_evidencia": [],
+      "observacao": "Não foi localizada geometria correspondente no acervo examinado.",
+      "validacao_visual": "nao_concluida_individualmente",
+      "plano_modelo_proprio": "Buscar referência dirigida; construir apenas quando forma, percurso e relações estiverem sustentados."
+    }
+  ]
+}

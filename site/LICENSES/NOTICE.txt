@@ -1,0 +1,20 @@
+Coração 3D local — protótipo de viabilidade
+
+Geometria derivada de Z-Anatomy, the open source atlas of anatomy — CC BY-SA 4.0.
+https://creativecommons.org/licenses/by-sa/4.0/
+Créditos: Gauthier Kervyn (design, 3D, anatomia), Lluis Vinent (aplicação),
+Kousaku Okubo / BodyParts3D, The Database Center for Life Science (modelo original).
+A licença histórica pedida pelos arquivos Z-Anatomy atribui BodyParts3D sob
+CC BY-SA 2.1 Japan; esse aviso é preservado em Z-Anatomy-original.txt.
+O download atual e independente de BodyParts3D está sob CC BY 4.0, mas não
+foi integrado a esta cena. A geometria derivada aqui permanece CC BY-SA 4.0.
+
+Alterações: seleção de 39 peças cardíacas já existentes; conversão para GLB;
+conversão comum de eixos e escala; normais calculadas; cores didáticas e
+rótulos em português. Nenhuma nova estrutura anatômica foi gerada. Modelos
+de ouvido e rim de outros autores não foram incluídos.
+Os recortes e a transparência são efeitos de visualização, não novas malhas.
+
+Three.js 0.186.1 — MIT. Cópia da licença em Three-MIT.txt.
+Notas anatômicas: roteiro local e resumo de OpenStax, Anatomy and Physiology 2e,
+19.1 Heart Anatomy. A cena ainda não é uma validação integral do roteiro.
