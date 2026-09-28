@@ -1,0 +1,3236 @@
+{
+  "version": 1,
+  "system": "respiratory",
+  "title": "Sistema respiratório — teoria conectada à prática",
+  "sources": [
+    {
+      "id": "respiratorio",
+      "label": "Sistema Respiratório Medicina — Carmem Patrícia Barbosa",
+      "kind": "slides",
+      "type": "slides",
+      "pageCount": 144,
+      "reviewStatus": "Texto extraído; inspeção visual selecionada, não certificação integral das figuras."
+    },
+    {
+      "id": "roteiro_complementar",
+      "label": "Roteiro respiratório — Cláudia Regina Pinheiro Lopes",
+      "kind": "outline",
+      "type": "outline",
+      "reviewStatus": "Lista complementar local; não roteiro oficial de Carmem."
+    },
+    {
+      "id": "R1",
+      "label": "Respiratório — Parte 1",
+      "kind": "lecture",
+      "type": "lecture",
+      "reviewStatus": "ASR automática; trechos localizados não equivalem a revisão integral do áudio."
+    },
+    {
+      "id": "R2",
+      "label": "Respiratório — Parte 2",
+      "kind": "lecture",
+      "type": "lecture",
+      "reviewStatus": "ASR automática; trechos localizados não equivalem a revisão integral do áudio."
+    },
+    {
+      "id": "R3",
+      "label": "Respiratório — Parte 3",
+      "kind": "lecture",
+      "type": "lecture",
+      "reviewStatus": "ASR automática; trechos localizados não equivalem a revisão integral do áudio."
+    },
+    {
+      "id": "R4",
+      "label": "Respiratório — Parte 4",
+      "kind": "lecture",
+      "type": "lecture",
+      "reviewStatus": "ASR automática; trechos localizados não equivalem a revisão integral do áudio."
+    },
+    {
+      "id": "uams_head",
+      "label": "UAMS — Visceral Structures of the Head and Neck",
+      "type": "reference",
+      "url": "https://medicine.uams.edu/neuroscience/education/medical-school-courses/human-structure-module/anatomy-tables/viscera-tables/visceral-structures-of-the-head-and-neck/"
+    },
+    {
+      "id": "uams_thorax",
+      "label": "UAMS — Visceral Structures of the Thorax",
+      "type": "reference",
+      "url": "https://medicine.uams.edu/neuroscience/education/medical-school-courses/human-structure-module/anatomy-tables/viscera-tables/visceral-structures-of-the-thorax/"
+    },
+    {
+      "id": "utah_larynx",
+      "label": "University of Utah — Digital Anatomy, Unit 3, larynx",
+      "type": "reference",
+      "pageCount": 88,
+      "url": "https://anatomy.med.utah.edu/diganat/SOM/unit_3/lec/03_unit_2008.pdf"
+    },
+    {
+      "id": "openstax_ear",
+      "label": "OpenStax — Sensory Perception: ouvido médio",
+      "type": "reference",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception"
+    },
+    {
+      "id": "openstax_resp",
+      "label": "OpenStax — Organs and Structures of the Respiratory System",
+      "type": "reference",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system"
+    },
+    {
+      "id": "openstax_mechanics",
+      "label": "OpenStax — The Process of Breathing",
+      "type": "reference",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing"
+    },
+    {
+      "id": "uams_nerves",
+      "label": "UAMS — Nerves of the Thorax",
+      "type": "reference",
+      "url": "https://medicine.uams.edu/neuroscience/education/medical-school-courses/human-structure-module/anatomy-tables/nerve-tables/nerves-of-the-thorax/"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "resp_01",
+      "title": "1. Caminho do ar e organização funcional",
+      "summary": "Construa um mapa contínuo do nariz ao alvéolo e separe condução, ventilação, difusão e transporte de gases.",
+      "objectives": [
+        "Descrever o trajeto do ar sem saltar regiões.",
+        "Localizar a transição entre zona condutora e respiratória.",
+        "Relacionar o sistema respiratório à circulação pulmonar."
+      ],
+      "sections": [
+        {
+          "heading": "Quatro processos que trabalham em sequência",
+          "paragraphs": [
+            "Ventilação é o movimento de ar entre ambiente e pulmões. Difusão é a passagem de O₂ e CO₂ pela barreira alveolocapilar. O sangue transporta os gases entre pulmões e tecidos; as células utilizam O₂ no metabolismo. Portanto, movimentar ar e efetuar troca gasosa são etapas diferentes.",
+            "Nos pulmões, o O₂ passa do ar alveolar para o sangue e o CO₂ faz o percurso inverso. Nos tecidos sistêmicos, a direção global se inverte. O fluxo sanguíneo precisa alcançar os alvéolos ventilados para que a troca contribua para a oxigenação."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 3
+            },
+            {
+              "source": "respiratorio",
+              "page": 4
+            },
+            {
+              "source": "respiratorio",
+              "page": 5
+            },
+            {
+              "source": "respiratorio",
+              "page": 125
+            },
+            {
+              "source": "R1",
+              "time": "01:27–03:52"
+            }
+          ]
+        },
+        {
+          "heading": "O trajeto contínuo",
+          "paragraphs": [],
+          "bullets": [
+            "Narinas → vestíbulo e cavidade nasal → cóanos → nasofaringe.",
+            "Nasofaringe → orofaringe → laringofaringe → ádito e cavidade da laringe.",
+            "Traqueia → brônquios principais → lobares → segmentares → ramificações menores → bronquíolos terminais.",
+            "Bronquíolos respiratórios → ductos alveolares → sacos alveolares e alvéolos."
+          ],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 6
+            },
+            {
+              "source": "respiratorio",
+              "page": 7
+            },
+            {
+              "source": "respiratorio",
+              "page": 8
+            },
+            {
+              "source": "respiratorio",
+              "page": 42
+            },
+            {
+              "source": "respiratorio",
+              "page": 72
+            },
+            {
+              "source": "respiratorio",
+              "page": 88
+            },
+            {
+              "source": "R3",
+              "time": "02:44–06:29"
+            }
+          ]
+        },
+        {
+          "heading": "Duas classificações, duas perguntas",
+          "paragraphs": [],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 7
+            },
+            {
+              "source": "respiratorio",
+              "page": 8
+            },
+            {
+              "source": "respiratorio",
+              "page": 9
+            },
+            {
+              "source": "respiratorio",
+              "page": 131
+            },
+            {
+              "source": "R1",
+              "time": "08:10–09:06"
+            }
+          ],
+          "table": {
+            "headers": [
+              "Classificação",
+              "O que separa",
+              "Referência para estudar"
+            ],
+            "rows": [
+              [
+                "Topográfica",
+                "Vias superiores e inferiores",
+                "Na convenção da aula, nariz, cavidades e faringe/laringe compõem as vias superiores; a traqueia inicia as inferiores. Outras referências podem posicionar a laringe de modo diferente."
+              ],
+              [
+                "Funcional",
+                "Zona condutora e zona respiratória",
+                "A condutora termina no bronquíolo terminal. A respiratória começa quando surgem alvéolos nas paredes dos bronquíolos respiratórios."
+              ],
+              [
+                "Escala",
+                "Anatomia macroscópica e microanatomia",
+                "Um pulmão ou brônquio é reconhecível na peça; pneumócitos e barreira de difusão exigem imagem de outra escala."
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Reconhecer sem depender da cor",
+          "paragraphs": [
+            "No modelo, siga conexões e posição. Uma cor é um recurso didático; não define a identidade anatômica. Ao ocultar o pulmão, a árvore brônquica aparece como um trajeto; ao recolocar os lobos, relacione cada ramo ao território que ventila.",
+            "Os alvéolos não serão deduzidos de uma superfície pulmonar lisa. Para as estruturas microscópicas, use os slides de detalhe e diferencie explicitamente o esquema da geometria macroscópica."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 8
+            },
+            {
+              "source": "respiratorio",
+              "page": 92
+            },
+            {
+              "source": "respiratorio",
+              "page": 93
+            },
+            {
+              "source": "respiratorio",
+              "page": 131
+            }
+          ]
+        }
+      ],
+      "recall": [
+        {
+          "question": "Qual é a última estrutura da zona condutora?",
+          "answer": "O bronquíolo terminal.",
+          "explanation": "A presença de alvéolos na parede caracteriza o início da zona respiratória, nos bronquíolos respiratórios.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 8
+            }
+          ],
+          "id": "resp_01_q01"
+        },
+        {
+          "question": "Ventilar um alvéolo garante que seu ar oxigene o sangue?",
+          "answer": "Não; também é necessário que haja perfusão e uma barreira adequada à difusão.",
+          "explanation": "A ventilação leva ar; a circulação entrega sangue à superfície de troca.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 4
+            },
+            {
+              "source": "respiratorio",
+              "page": 125
+            }
+          ],
+          "id": "resp_01_q02"
+        },
+        {
+          "question": "Que abertura liga a cavidade nasal à nasofaringe?",
+          "answer": "Os cóanos.",
+          "explanation": "As narinas comunicam o exterior com a entrada nasal; os cóanos são as aberturas posteriores.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 19
+            },
+            {
+              "source": "respiratorio",
+              "page": 42
+            }
+          ],
+          "id": "resp_01_q03"
+        },
+        {
+          "question": "Por que dois livros podem classificar a laringe de formas diferentes?",
+          "answer": "Porque a divisão superior/inferior depende da convenção topográfica usada.",
+          "explanation": "Para esta revisão, mantenha a convenção da aula e não confunda essa divisão com condutora/respiratória.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 9
+            },
+            {
+              "source": "R1",
+              "time": "08:10–09:06"
+            }
+          ],
+          "id": "resp_01_q04"
+        }
+      ],
+      "partIds": [
+        "resp_nasopharynx",
+        "resp_oropharynx",
+        "resp_laryngopharynx",
+        "resp_left_main_bronchus",
+        "resp_right_main_bronchus",
+        "resp_left_superior_lobar_bronchus",
+        "resp_left_inferior_lobar_bronchus",
+        "resp_right_superior_lobar_bronchus",
+        "resp_intermediate_bronchus_r",
+        "resp_middle_lobar_bronchus_r",
+        "resp_right_inferior_lobar_bronchus"
+      ],
+      "requirementIds": [
+        "R042",
+        "R043",
+        "R044",
+        "R104",
+        "R105",
+        "R106",
+        "R107",
+        "R108",
+        "R109",
+        "R110",
+        "R111",
+        "R112",
+        "R113",
+        "R114",
+        "R115",
+        "R116",
+        "R117",
+        "R118",
+        "R192",
+        "R193",
+        "R194",
+        "R195",
+        "R196",
+        "R197",
+        "R198"
+      ]
+    },
+    {
+      "id": "resp_02",
+      "title": "2. Nariz: forma, paredes e mucosa",
+      "summary": "Use o esqueleto e os limites da cavidade para entender como o nariz filtra, aquece, umidifica e permite a olfação.",
+      "objectives": [
+        "Reconhecer nariz externo, septo e parede lateral.",
+        "Diferenciar concha, meato e cóano.",
+        "Relacionar mucosa respiratória, mucosa olfatória e vascularização."
+      ],
+      "sections": [
+        {
+          "heading": "Nariz externo e vestíbulo",
+          "paragraphs": [
+            "A raiz é a região superior de implantação; o dorso segue até o ápice. As asas delimitam lateralmente as narinas. Ossos nasais e maxilas sustentam a parte superior; cartilagem septal, cartilagens laterais e alares sustentam a porção mais móvel.",
+            "O vestíbulo fica imediatamente após a narina e mantém características de pele, incluindo vibrissas. A filtração inicial de partículas maiores ali é diferente da limpeza mucociliar das regiões mais profundas. Prócero, nasal, levantador do lábio superior e da asa do nariz e abaixador do septo participam da forma e movimentação local."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 10
+            },
+            {
+              "source": "respiratorio",
+              "page": 11
+            },
+            {
+              "source": "respiratorio",
+              "page": 12
+            },
+            {
+              "source": "respiratorio",
+              "page": 14
+            },
+            {
+              "source": "R2",
+              "time": "00:03–02:15"
+            }
+          ]
+        },
+        {
+          "heading": "Paredes: use três referências",
+          "paragraphs": [],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 16
+            },
+            {
+              "source": "respiratorio",
+              "page": 17
+            },
+            {
+              "source": "respiratorio",
+              "page": 18
+            },
+            {
+              "source": "respiratorio",
+              "page": 19
+            },
+            {
+              "source": "R2",
+              "time": "03:49–07:00"
+            }
+          ],
+          "table": {
+            "headers": [
+              "Referência",
+              "Componentes e relações",
+              "Como reconhecer"
+            ],
+            "rows": [
+              [
+                "Septo nasal",
+                "Cartilagem do septo anteriormente; lâmina perpendicular do etmoide superiormente; vômer posteroinferiormente.",
+                "Parede medial que separa as cavidades direita e esquerda."
+              ],
+              [
+                "Parede lateral",
+                "Conchas superior e média pertencem ao etmoide; a inferior é um osso próprio. Participam também maxila, lacrimal, palatino e esfenoide.",
+                "Saliências em prateleiras com espaços abaixo delas."
+              ],
+              [
+                "Teto e assoalho",
+                "Região cribriforme do etmoide no teto; processos palatinos das maxilas e lâminas horizontais dos palatinos no palato duro.",
+                "Não confundir a crista galli, intracraniana, com uma concha nasal."
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Concha não é meato",
+          "paragraphs": [
+            "Conchas são saliências revestidas por mucosa. Meatos são passagens situadas abaixo das conchas correspondentes. Essa organização amplia a superfície de contato do ar com a mucosa e cria trajetos para drenagem de seios e do ducto nasolacrimal.",
+            "O meato superior fica abaixo da concha superior. O recesso esfenoetmoidal está acima e posteriormente a ela: são espaços distintos. Os cóanos são as aberturas posteriores; não são um quarto meato."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 19
+            },
+            {
+              "source": "respiratorio",
+              "page": 36
+            }
+          ]
+        },
+        {
+          "heading": "Mucosa, vasos e nervos: forma explica função",
+          "paragraphs": [
+            "A região respiratória ocupa a maior parte da cavidade: vasos aquecem o ar, secreções o umidificam e retêm partículas, e cílios ajudam a deslocar o muco para a faringe. A região olfatória é superior, próxima ao teto, à concha superior e ao septo adjacente. A olfação envolve o nervo olfatório; sensibilidade geral não é a mesma modalidade.",
+            "O material destaca contribuições arteriais dos territórios carotídeos externo e interno e redes venosas nas conchas. A comunicação das veias faciais com vias profundas ajuda a explicar por que infecções da região nasal merecem atenção anatômica. Epistaxe significa sangramento nasal; rinorreia, escoamento de secreção; anosmia, perda da olfação."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 20
+            },
+            {
+              "source": "respiratorio",
+              "page": 24
+            },
+            {
+              "source": "respiratorio",
+              "page": 25
+            },
+            {
+              "source": "respiratorio",
+              "page": 26
+            },
+            {
+              "source": "respiratorio",
+              "page": 27
+            },
+            {
+              "source": "respiratorio",
+              "page": 30
+            },
+            {
+              "source": "respiratorio",
+              "page": 31
+            },
+            {
+              "source": "respiratorio",
+              "page": 33
+            },
+            {
+              "source": "R2",
+              "time": "07:15–15:35"
+            }
+          ]
+        }
+      ],
+      "recall": [
+        {
+          "question": "Quais são os três componentes principais do septo nasal?",
+          "answer": "Cartilagem septal, lâmina perpendicular do etmoide e vômer.",
+          "explanation": "Eles ocupam predominantemente as regiões anterior, superior e posteroinferior, respectivamente.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 17
+            }
+          ],
+          "id": "resp_02_q01"
+        },
+        {
+          "question": "Qual concha nasal é um osso independente?",
+          "answer": "A concha nasal inferior.",
+          "explanation": "As conchas média e superior são partes do etmoide.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 18
+            },
+            {
+              "source": "respiratorio",
+              "page": 19
+            }
+          ],
+          "id": "resp_02_q02"
+        },
+        {
+          "question": "O espaço abaixo da concha média chama-se como?",
+          "answer": "Meato nasal médio.",
+          "explanation": "Concha é a saliência; meato é o espaço de passagem abaixo dela.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 19
+            },
+            {
+              "source": "respiratorio",
+              "page": 36
+            }
+          ],
+          "id": "resp_02_q03"
+        },
+        {
+          "question": "Por que a mucosa nasal é tão vascularizada?",
+          "answer": "A vascularização ajuda a aquecer o ar inspirado.",
+          "explanation": "Ela atua junto à umidificação e à retenção/remoção de partículas para condicionar o ar.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 20
+            },
+            {
+              "source": "respiratorio",
+              "page": 26
+            }
+          ],
+          "id": "resp_02_q04"
+        },
+        {
+          "question": "Vibrissas e cílios respiratórios são a mesma estrutura?",
+          "answer": "Não.",
+          "explanation": "Vibrissas são pelos do vestíbulo; cílios são especializações celulares que participam do transporte do muco.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 14
+            },
+            {
+              "source": "respiratorio",
+              "page": 20
+            }
+          ],
+          "id": "resp_02_q05"
+        }
+      ],
+      "partIds": [
+        "resp_nasal_septal_cartilage",
+        "resp_lateral_process_of_nasal_septal_cartilage_l",
+        "resp_lateral_process_of_nasal_septal_cartilage_r",
+        "resp_inferior_nasal_concha_bone_l",
+        "resp_inferior_nasal_concha_bone_r",
+        "resp_vomer",
+        "resp_nasal_bone_l",
+        "resp_nasal_bone_r",
+        "resp_palatine_bone_l",
+        "resp_palatine_bone_r",
+        "resp_maxilla_l",
+        "resp_maxilla_r",
+        "resp_lacrimal_bone_l",
+        "resp_lacrimal_bone_r",
+        "resp_sphenoid_bone"
+      ],
+      "requirementIds": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R013",
+        "R014",
+        "R015",
+        "R016",
+        "R017",
+        "R018",
+        "R019",
+        "R020",
+        "R021",
+        "R022",
+        "R023",
+        "R024",
+        "R025",
+        "R026",
+        "R027",
+        "R028",
+        "R029",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R218",
+        "R219",
+        "R220"
+      ]
+    },
+    {
+      "id": "resp_03",
+      "title": "3. Seios paranasais e caminhos de drenagem",
+      "summary": "Memorize cada seio junto de sua abertura e use a parede lateral nasal para reconstruir a drenagem.",
+      "objectives": [
+        "Localizar seios frontal, maxilar, esfenoidal e células etmoidais.",
+        "Associar cada grupo ao meato ou recesso correto.",
+        "Explicar a diferença entre cavidade, óstio e via de drenagem."
+      ],
+      "sections": [
+        {
+          "heading": "Cavidades aéreas que se comunicam com o nariz",
+          "paragraphs": [
+            "Os seios paranasais são cavidades nos ossos frontal, maxila, esfenoide e etmoide, revestidas por mucosa contínua com a nasal. Os etmoidais formam um conjunto de células, agrupadas em anteriores, médias e posteriores.",
+            "Na peça ou no 3D, identificar o volume de um seio é apenas a primeira etapa. Sua relação com a cavidade nasal depende de uma abertura e de um trajeto de drenagem. Um volume fechado no modelo não demonstra que seu óstio esteja representado."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 34
+            },
+            {
+              "source": "respiratorio",
+              "page": 35
+            },
+            {
+              "source": "respiratorio",
+              "page": 36
+            },
+            {
+              "source": "R2",
+              "time": "15:35–19:42"
+            }
+          ]
+        },
+        {
+          "heading": "Mapa de drenagem que precisa ser recuperado de memória",
+          "paragraphs": [],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 36
+            },
+            {
+              "source": "R2",
+              "time": "17:07–18:31"
+            }
+          ],
+          "table": {
+            "headers": [
+              "Origem",
+              "Destino na cavidade nasal",
+              "Referência espacial"
+            ],
+            "rows": [
+              [
+                "Seio frontal",
+                "Meato médio",
+                "Via do ducto frontonasal e região do infundíbulo; trajeto apresenta variações."
+              ],
+              [
+                "Seio maxilar",
+                "Meato médio",
+                "Óstio na parede medial do seio, próximo à região do hiato semilunar."
+              ],
+              [
+                "Células etmoidais anteriores",
+                "Meato médio",
+                "Região anterior do complexo de drenagem."
+              ],
+              [
+                "Células etmoidais médias",
+                "Meato médio",
+                "Relação com a bolha etmoidal."
+              ],
+              [
+                "Células etmoidais posteriores",
+                "Meato superior",
+                "Abaixo da concha superior."
+              ],
+              [
+                "Seio esfenoidal",
+                "Recesso esfenoetmoidal",
+                "Acima/posteriormente à concha superior."
+              ],
+              [
+                "Ducto nasolacrimal",
+                "Meato inferior",
+                "É uma via de drenagem lacrimal, não um seio paranasal."
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Bolha e hiato: reconhecer relações",
+          "paragraphs": [
+            "A bolha etmoidal é uma saliência da parede lateral na região do meato médio, relacionada às células etmoidais médias. O hiato semilunar é uma fenda curva dessa mesma região. Ao estudar, procure primeiro concha média e meato médio, depois os relevos menores.",
+            "Um óstio obstruído dificulta ventilação e depuração do seio correspondente. Essa relação espacial ajuda a entender sinusite sem reduzir o mecanismo a uma simples cavidade cheia: mucosa, drenagem e comunicação precisam ser consideradas."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 36
+            },
+            {
+              "source": "respiratorio",
+              "page": 37
+            }
+          ]
+        }
+      ],
+      "recall": [
+        {
+          "question": "Quais grupos drenam para o meato médio?",
+          "answer": "Frontal, maxilar e células etmoidais anteriores e médias.",
+          "explanation": "Organize quatro origens para um mesmo destino; depois estude o trajeto específico de cada uma.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 36
+            }
+          ],
+          "id": "resp_03_q01"
+        },
+        {
+          "question": "Onde drena o seio esfenoidal?",
+          "answer": "No recesso esfenoetmoidal.",
+          "explanation": "O recesso não é sinônimo de meato superior; o meato superior recebe células etmoidais posteriores.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 36
+            }
+          ],
+          "id": "resp_03_q02"
+        },
+        {
+          "question": "Qual estrutura drena no meato inferior?",
+          "answer": "O ducto nasolacrimal.",
+          "explanation": "A relação explica a comunicação entre drenagem lacrimal e cavidade nasal.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 36
+            }
+          ],
+          "id": "resp_03_q03"
+        },
+        {
+          "question": "Por que localizar um seio no 3D não basta para aprender sua drenagem?",
+          "answer": "Porque volume, óstio e trajeto são elementos diferentes.",
+          "explanation": "Confirme a abertura e seu destino em figura detalhada quando a malha representar apenas o volume.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 36
+            }
+          ],
+          "id": "resp_03_q04"
+        }
+      ],
+      "partIds": [
+        "resp_anterior_cells_of_ethmoid_bone_l",
+        "resp_anterior_cells_of_ethmoid_bone_r",
+        "resp_middle_cells_of_ethmoid_bone_l",
+        "resp_middle_cells_of_ethmoid_bone_r",
+        "resp_posterior_cells_of_ethmoid_bone_l",
+        "resp_posterior_cells_of_ethmoid_bone_r"
+      ],
+      "requirementIds": [
+        "R022",
+        "R023",
+        "R024",
+        "R034",
+        "R035",
+        "R036",
+        "R037",
+        "R038",
+        "R039",
+        "R040",
+        "R041",
+        "R221"
+      ]
+    },
+    {
+      "id": "resp_04",
+      "title": "4. Faringe: cruzamento entre ar e alimento",
+      "summary": "Organize as três partes da faringe pelas estruturas anteriores e relacione músculos, tonsilas e comunicações.",
+      "objectives": [
+        "Distinguir nasofaringe, orofaringe e laringofaringe.",
+        "Reconhecer o óstio da tuba e o anel tonsilar.",
+        "Explicar o papel dos constritores e músculos longitudinais."
+      ],
+      "sections": [
+        {
+          "heading": "Três partes, um tubo musculofascial",
+          "paragraphs": [],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 41
+            },
+            {
+              "source": "respiratorio",
+              "page": 42
+            },
+            {
+              "source": "respiratorio",
+              "page": 43
+            },
+            {
+              "source": "R2",
+              "time": "19:42–21:12"
+            }
+          ],
+          "table": {
+            "headers": [
+              "Parte",
+              "Relação anterior",
+              "Limite útil"
+            ],
+            "rows": [
+              [
+                "Nasofaringe",
+                "Cavidade nasal, pelos cóanos",
+                "Superior ao palato mole."
+              ],
+              [
+                "Orofaringe",
+                "Cavidade oral, pelo istmo das fauces",
+                "Posterior à boca, inferior ao palato mole."
+              ],
+              [
+                "Laringofaringe",
+                "Laringe e seu ádito",
+                "Segue inferiormente ao esôfago, próximo à borda inferior da cricóidea/C6."
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Nasofaringe e orelha média",
+          "paragraphs": [
+            "Na parede lateral da nasofaringe, localize o óstio faríngeo da tuba auditiva e o toro tubário. As pregas salpingofaríngea e salpingopalatina relacionam-se com esse relevo. A tonsila faríngea ocupa a região superior/posterior; as tonsilas tubárias ficam próximas aos óstios.",
+            "A tuba comunica a nasofaringe com a orelha média e participa da equalização de pressão e da depuração de secreções. A frase do slide44 que menciona drenagem de perilinfa dos canais semicirculares está incorreta: esses canais pertencem à orelha interna."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 44
+            },
+            {
+              "source": "respiratorio",
+              "page": 45
+            },
+            {
+              "source": "openstax_ear"
+            }
+          ]
+        },
+        {
+          "heading": "Tonsilas e deglutição",
+          "paragraphs": [
+            "Tonsilas faríngea, tubárias, palatinas e lingual constituem tecido linfoide ao redor da entrada dos tratos respiratório e digestório. A hipertrofia da tonsila faríngea é o contexto anatômico da chamada adenoide; ela pode reduzir o espaço da nasofaringe.",
+            "Durante a deglutição, a coordenação do palato mole, faringe e laringe direciona o bolo ao esôfago. A elevação do palato mole ajuda a separar a nasofaringe; a proteção laríngea envolve elevação e fechamento em vários níveis, e não somente a epiglote."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 44
+            },
+            {
+              "source": "respiratorio",
+              "page": 45
+            },
+            {
+              "source": "respiratorio",
+              "page": 46
+            },
+            {
+              "source": "respiratorio",
+              "page": 72
+            },
+            {
+              "source": "R2",
+              "time": "23:26–25:07"
+            }
+          ]
+        },
+        {
+          "heading": "Músculos: estreitar e elevar",
+          "paragraphs": [
+            "Os constritores superior, médio e inferior envolvem a faringe e participam do transporte do bolo por contrações coordenadas. Estilofaríngeo, salpingofaríngeo e palatofaríngeo seguem uma orientação longitudinal e participam da elevação/encurtamento faríngeo.",
+            "A inervação motora é predominantemente vagal pelo plexo faríngeo. Guarde a exceção: o estilofaríngeo recebe o glossofaríngeo (IX). O IX também tem papel sensitivo relevante na orofaringe; não resuma todo o plexo a uma única função ou a um único nervo."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 47
+            },
+            {
+              "source": "respiratorio",
+              "page": 48
+            },
+            {
+              "source": "respiratorio",
+              "page": 49
+            },
+            {
+              "source": "respiratorio",
+              "page": 51
+            },
+            {
+              "source": "R2",
+              "time": "25:07–27:29"
+            },
+            {
+              "source": "uams_nerves"
+            }
+          ]
+        }
+      ],
+      "recall": [
+        {
+          "question": "O que separa topograficamente nasofaringe de orofaringe?",
+          "answer": "O plano do palato mole.",
+          "explanation": "A nasofaringe fica superior; a orofaringe comunica-se com a boca inferiormente.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 42
+            }
+          ],
+          "id": "resp_04_q01"
+        },
+        {
+          "question": "A tuba auditiva comunica a nasofaringe com qual compartimento do ouvido?",
+          "answer": "Com a orelha média.",
+          "explanation": "Ela não é uma via de drenagem dos líquidos da orelha interna.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 44
+            },
+            {
+              "source": "openstax_ear"
+            }
+          ],
+          "id": "resp_04_q02"
+        },
+        {
+          "question": "Quais grupos formam o anel tonsilar?",
+          "answer": "Tonsilas faríngea, tubárias, palatinas e lingual.",
+          "explanation": "A distribuição circunda a entrada das vias respiratória e digestória.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 44
+            },
+            {
+              "source": "respiratorio",
+              "page": 45
+            }
+          ],
+          "id": "resp_04_q03"
+        },
+        {
+          "question": "Qual músculo longitudinal da faringe é a exceção à inervação vagal predominante?",
+          "answer": "O estilofaríngeo, inervado pelo glossofaríngeo.",
+          "explanation": "Separar ação muscular, sensibilidade e nervo motor evita a generalização da tabela do plexo.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 48
+            },
+            {
+              "source": "respiratorio",
+              "page": 51
+            },
+            {
+              "source": "uams_nerves"
+            }
+          ],
+          "id": "resp_04_q04"
+        }
+      ],
+      "partIds": [
+        "resp_nasopharynx",
+        "resp_oropharynx",
+        "resp_laryngopharynx",
+        "resp_soft_palate",
+        "resp_uvula_of_palate",
+        "resp_superior_pharyngeal_constrictor_l",
+        "resp_superior_pharyngeal_constrictor_r",
+        "resp_middle_pharyngeal_constrictor_l",
+        "resp_middle_pharyngeal_constrictor_r",
+        "resp_inferior_pharyngeal_constrictor_l",
+        "resp_inferior_pharyngeal_constrictor_r",
+        "resp_stylopharyngeus_muscle_l",
+        "resp_stylopharyngeus_muscle_r",
+        "resp_palatopharyngeus_muscle_l",
+        "resp_palatopharyngeus_muscle_r"
+      ],
+      "requirementIds": [
+        "R042",
+        "R043",
+        "R044",
+        "R045",
+        "R046",
+        "R047",
+        "R048",
+        "R049",
+        "R050",
+        "R051",
+        "R052",
+        "R053",
+        "R054",
+        "R055",
+        "R056",
+        "R057",
+        "R058",
+        "R059",
+        "R060"
+      ]
+    },
+    {
+      "id": "resp_05",
+      "title": "5. Esqueleto da laringe e suas articulações",
+      "summary": "Monte a laringe por camadas: hioide, cartilagens, membranas, ligamentos e pontos de inserção.",
+      "objectives": [
+        "Identificar as cartilagens ímpares e pares.",
+        "Reconhecer processos aritenóideos e partes da cricóidea.",
+        "Relacionar articulações aos movimentos das pregas."
+      ],
+      "sections": [
+        {
+          "heading": "Um mapa de cima para baixo",
+          "paragraphs": [
+            "O hioide fica superior à laringe e conecta-se à tireóidea pela membrana tireo-hióidea. A tireóidea forma uma proteção anterior e lateral; a cricóidea situa-se inferiormente e forma um anel completo. A traqueia continua abaixo, ligada à cricóidea pelo ligamento cricotraqueal.",
+            "A epiglote relaciona-se com a entrada laríngea, posteriormente à raiz da língua. As aritenóideas apoiam-se sobre a parte posterior da cricóidea; as corniculadas ficam sobre seus ápices. As cuneiformes situam-se nas pregas ariepiglóticas."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 53
+            },
+            {
+              "source": "respiratorio",
+              "page": 54
+            },
+            {
+              "source": "respiratorio",
+              "page": 55
+            },
+            {
+              "source": "respiratorio",
+              "page": 56
+            },
+            {
+              "source": "respiratorio",
+              "page": 57
+            },
+            {
+              "source": "respiratorio",
+              "page": 58
+            },
+            {
+              "source": "respiratorio",
+              "page": 64
+            }
+          ]
+        },
+        {
+          "heading": "Cartilagens que você precisa distinguir",
+          "paragraphs": [],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 53
+            },
+            {
+              "source": "respiratorio",
+              "page": 55
+            },
+            {
+              "source": "respiratorio",
+              "page": 56
+            },
+            {
+              "source": "respiratorio",
+              "page": 57
+            },
+            {
+              "source": "respiratorio",
+              "page": 58
+            },
+            {
+              "source": "respiratorio",
+              "page": 61
+            },
+            {
+              "source": "respiratorio",
+              "page": 63
+            },
+            {
+              "source": "respiratorio",
+              "page": 64
+            }
+          ],
+          "table": {
+            "headers": [
+              "Conjunto",
+              "Cartilagens",
+              "Acidentes práticos"
+            ],
+            "rows": [
+              [
+                "Ímpares",
+                "Tireóidea, cricóidea e epiglótica",
+                "Na tireóidea: lâminas, proeminência, linha oblíqua, incisuras e cornos. Na cricóidea: arco anterior estreito e lâmina posterior alta."
+              ],
+              [
+                "Pares",
+                "Aritenóideas, corniculadas e cuneiformes",
+                "Nas aritenóideas, processo vocal aponta anteriormente e recebe o ligamento vocal; processo muscular é lateral e recebe músculos."
+              ],
+              [
+                "Epiglote e língua",
+                "Epiglote, pregas glossoepiglóticas e valéculas",
+                "O pecíolo é a extremidade inferior; as valéculas são depressões entre raiz da língua e epiglote, não furos na cartilagem."
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Movimento depende da articulação",
+          "paragraphs": [
+            "Nas articulações cricotireóideas, o movimento relativo da tireóidea e da cricóidea muda a tensão das pregas vocais. Nas cricoaritenóideas, rotação e deslizamento das aritenóideas alteram a posição dos processos vocais, aproximando ou afastando as pregas.",
+            "O processo vocal e o processo muscular pertencem à mesma cartilagem, mas exercem papéis mecânicos diferentes. Para fixar, identifique a cricóidea posteriormente, encontre a base da aritenóidea e só então indique seus processos."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 57
+            },
+            {
+              "source": "respiratorio",
+              "page": 58
+            },
+            {
+              "source": "respiratorio",
+              "page": 64
+            },
+            {
+              "source": "utah_larynx",
+              "page": 79
+            }
+          ]
+        },
+        {
+          "heading": "Membranas e ligamentos: relações que orientam",
+          "paragraphs": [],
+          "bullets": [
+            "Membrana tireo-hióidea: entre hioide e tireóidea, reforçada por ligamentos mediano e laterais.",
+            "O ramo interno do laríngeo superior acompanha vasos laríngeos superiores através dessa membrana.",
+            "Ligamento cricotireóideo mediano: região anterior entre tireóidea e cricóidea; diferencie-o do cricotraqueal, abaixo da cricóidea.",
+            "Ligamentos tireoepiglótico e hioepiglótico relacionam a epiglote à tireóidea e ao hioide."
+          ],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 56
+            },
+            {
+              "source": "respiratorio",
+              "page": 57
+            },
+            {
+              "source": "respiratorio",
+              "page": 62
+            },
+            {
+              "source": "respiratorio",
+              "page": 65
+            }
+          ]
+        }
+      ],
+      "recall": [
+        {
+          "question": "Quais são as três cartilagens laríngeas ímpares?",
+          "answer": "Tireóidea, cricóidea e epiglótica.",
+          "explanation": "Aritenóideas, corniculadas e cuneiformes são pares.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 53
+            }
+          ],
+          "id": "resp_05_q01"
+        },
+        {
+          "question": "Onde a cricóidea é mais alta?",
+          "answer": "Posteriormente, na lâmina.",
+          "explanation": "Seu arco anterior é mais estreito; essa assimetria permite orientar a cartilagem isolada.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 57
+            },
+            {
+              "source": "respiratorio",
+              "page": 58
+            }
+          ],
+          "id": "resp_05_q02"
+        },
+        {
+          "question": "Qual processo aritenóideo recebe o ligamento vocal?",
+          "answer": "O processo vocal.",
+          "explanation": "O processo muscular recebe inserções musculares e permite transferir força para o movimento da cartilagem.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 64
+            }
+          ],
+          "id": "resp_05_q03"
+        },
+        {
+          "question": "O espaço entre língua e epiglote chama-se como?",
+          "answer": "Valécula epiglótica.",
+          "explanation": "As pregas glossoepiglóticas delimitam as depressões; a valécula não é um orifício da epiglote.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 63
+            }
+          ],
+          "id": "resp_05_q04"
+        },
+        {
+          "question": "Que membrana é atravessada pelo ramo interno do laríngeo superior?",
+          "answer": "A membrana tireo-hióidea.",
+          "explanation": "Essa relação permite associar esqueleto, vasos e inervação em uma mesma vista.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 65
+            }
+          ],
+          "id": "resp_05_q05"
+        }
+      ],
+      "partIds": [
+        "resp_hyoid_bone",
+        "resp_thyroid_cartilage",
+        "resp_cricoid_cartilage",
+        "resp_arytenoid_cartilage_l",
+        "resp_arytenoid_cartilage_r",
+        "resp_corniculate_cartilage_l",
+        "resp_corniculate_cartilage_r",
+        "resp_epiglottis",
+        "resp_lateral_thyrohyoid_ligament_l",
+        "resp_lateral_thyrohyoid_ligament_r",
+        "resp_median_thyrohyoid_ligament",
+        "resp_median_cricothyroid_ligament"
+      ],
+      "requirementIds": [
+        "R061",
+        "R062",
+        "R063",
+        "R064",
+        "R065",
+        "R066",
+        "R067",
+        "R068",
+        "R069",
+        "R070",
+        "R071",
+        "R072",
+        "R073",
+        "R074",
+        "R075",
+        "R076",
+        "R077",
+        "R078",
+        "R079",
+        "R080",
+        "R081",
+        "R082",
+        "R083",
+        "R084",
+        "R085",
+        "R086",
+        "R087",
+        "R088",
+        "R089",
+        "R217"
+      ]
+    },
+    {
+      "id": "resp_06",
+      "title": "6. Laringe: respiração, proteção e voz",
+      "summary": "Aprenda o efeito de cada movimento antes de decorar o músculo e o nervo que o produzem.",
+      "objectives": [
+        "Diferenciar pregas vocais e vestibulares, glote e rima.",
+        "Relacionar músculos intrínsecos à abertura e tensão das pregas.",
+        "Distinguir laríngeo superior, recorrente e inferior."
+      ],
+      "sections": [
+        {
+          "heading": "Cavidade e pregas",
+          "paragraphs": [
+            "O vestíbulo estende-se do ádito até as pregas vestibulares. As pregas vocais ficam inferiores às vestibulares; entre cada prega vestibular e vocal existe um ventrículo laríngeo. Inferiormente às pregas vocais está a cavidade infraglótica, que continua com a traqueia.",
+            "Glote compreende as pregas vocais e a rima da glote. A rima é a abertura entre as pregas; não use os dois termos como sinônimos absolutos. Em vista superior, relacione epiglote anterior, aritenóideas posteriores e pregas que convergem anteriormente."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 72
+            },
+            {
+              "source": "respiratorio",
+              "page": 73
+            },
+            {
+              "source": "uams_head"
+            }
+          ]
+        },
+        {
+          "heading": "Ação muscular: o movimento é a pista",
+          "paragraphs": [],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 66
+            },
+            {
+              "source": "respiratorio",
+              "page": 70
+            },
+            {
+              "source": "utah_larynx",
+              "page": 81
+            }
+          ],
+          "table": {
+            "headers": [
+              "Músculo/grupo",
+              "Efeito principal",
+              "Associação útil"
+            ],
+            "rows": [
+              [
+                "Cricoaritenóideo posterior",
+                "Abduz as pregas vocais",
+                "Abre a rima para passagem de ar; único par abdutor."
+              ],
+              [
+                "Cricoaritenóideo lateral e aritenóideos",
+                "Aduzem pregas/aritenóideas",
+                "Aproximam os elementos durante fechamento e fonação."
+              ],
+              [
+                "Cricotireóideo",
+                "Alonga e aumenta a tensão das pregas",
+                "Não deve ser decorado apenas como adutor."
+              ],
+              [
+                "Tireoaritenóideo",
+                "Encurta e reduz a tensão, com participação na aproximação",
+                "Ajusta posição e tensão junto aos demais músculos."
+              ],
+              [
+                "Vocal",
+                "Ajuste fino local da tensão",
+                "Integra a massa muscular da prega vocal."
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Fonação e fechamento protetor",
+          "paragraphs": [
+            "Na respiração, a abertura varia conforme a demanda de fluxo. Para a fonação, as pregas são aproximadas e o fluxo expiratório sustenta sua oscilação. Músculos posicionam e tensionam as pregas; não contraem uma vez por cada vibração sonora. A altura da voz depende, entre outros fatores, de comprimento, tensão e massa vibrante.",
+            "A proteção da via aérea combina elevação da laringe, aproximação de pregas e aritenóideas e movimento da epiglote. Os músculos extrínsecos movimentam o conjunto: supra-hióideos e alguns músculos faríngeos participam da elevação; infra-hióideos estabilizam ou deprimem conforme suas fixações."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 66
+            },
+            {
+              "source": "respiratorio",
+              "page": 67
+            },
+            {
+              "source": "respiratorio",
+              "page": 68
+            },
+            {
+              "source": "respiratorio",
+              "page": 70
+            },
+            {
+              "source": "respiratorio",
+              "page": 72
+            },
+            {
+              "source": "R2",
+              "time": "35:02–40:48"
+            }
+          ]
+        },
+        {
+          "heading": "Inervação: guarde a exceção motora",
+          "paragraphs": [],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 81
+            },
+            {
+              "source": "utah_larynx",
+              "page": 83
+            }
+          ],
+          "table": {
+            "headers": [
+              "Nervo",
+              "Papel para esta revisão",
+              "Relação"
+            ],
+            "rows": [
+              [
+                "Laríngeo superior, ramo interno",
+                "Sensibilidade da mucosa superior às pregas vocais",
+                "Atravessa a membrana tireo-hióidea."
+              ],
+              [
+                "Laríngeo superior, ramo externo",
+                "Motor para o cricotireóideo",
+                "Exceção entre os músculos intrínsecos."
+              ],
+              [
+                "Laríngeo recorrente → laríngeo inferior",
+                "Demais músculos intrínsecos e sensibilidade abaixo das pregas",
+                "Direito contorna subclávia direita; esquerdo contorna arco aórtico."
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Irrigação e relações com a tireoide",
+          "paragraphs": [
+            "A artéria laríngea superior deriva da tireóidea superior; a inferior relaciona-se à tireóidea inferior. O trajeto acompanha regiões onde também passam os nervos laríngeos. Localizar artérias, membrana e nervos no mesmo plano é mais útil do que decorar listas isoladas.",
+            "Para treino prático, diferencie a cartilagem tireóidea da glândula tireoide. A semelhança do nome não implica que sejam o mesmo órgão ou o mesmo tipo de tecido."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 79
+            },
+            {
+              "source": "respiratorio",
+              "page": 80
+            },
+            {
+              "source": "respiratorio",
+              "page": 81
+            }
+          ]
+        }
+      ],
+      "recall": [
+        {
+          "question": "Qual prega está mais superior: vocal ou vestibular?",
+          "answer": "A vestibular.",
+          "explanation": "O ventrículo localiza-se entre a vestibular superior e a vocal inferior.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 72
+            }
+          ],
+          "id": "resp_06_q01"
+        },
+        {
+          "question": "Rima da glote e glote significam exatamente a mesma coisa?",
+          "answer": "Não: a rima é a abertura; a glote inclui pregas vocais e rima.",
+          "explanation": "Essa distinção evita identificar uma prega como se fosse apenas um espaço.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 72
+            },
+            {
+              "source": "uams_head"
+            }
+          ],
+          "id": "resp_06_q02"
+        },
+        {
+          "question": "Qual músculo abre as pregas vocais por abdução?",
+          "answer": "O cricoaritenóideo posterior.",
+          "explanation": "Sua posição posterior na cricóidea ajuda a reconhecê-lo na prática.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 66
+            }
+          ],
+          "id": "resp_06_q03"
+        },
+        {
+          "question": "Qual é a exceção à inervação pelo laríngeo inferior dos músculos intrínsecos?",
+          "answer": "O cricotireóideo, inervado pelo ramo externo do laríngeo superior.",
+          "explanation": "Relacione esta exceção à função de tensionar as pregas.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 81
+            }
+          ],
+          "id": "resp_06_q04"
+        },
+        {
+          "question": "Por que o recorrente esquerdo desce mais no tórax?",
+          "answer": "Porque contorna o arco aórtico.",
+          "explanation": "O direito contorna a subclávia direita; os dois trajetos são assimétricos.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 81
+            }
+          ],
+          "id": "resp_06_q05"
+        },
+        {
+          "question": "O músculo vocal produz cada vibração por uma contração rápida?",
+          "answer": "Não.",
+          "explanation": "A atividade muscular regula postura e tensão; o fluxo de ar sustenta a oscilação das pregas aproximadas.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 70
+            },
+            {
+              "source": "respiratorio",
+              "page": 72
+            }
+          ],
+          "id": "resp_06_q06"
+        }
+      ],
+      "partIds": [
+        "resp_lateral_crico_arytenoid_muscle_l",
+        "resp_lateral_crico_arytenoid_muscle_r",
+        "resp_posterior_crico_arytenoid_muscle_l",
+        "resp_posterior_crico_arytenoid_muscle_r",
+        "resp_external_part_of_thyro_arytenoid_muscle_l",
+        "resp_external_part_of_thyro_arytenoid_muscle_r",
+        "resp_thyro_epiglottic_part_of_thyro_arytenoid_muscle_l",
+        "resp_thyro_epiglottic_part_of_thyro_arytenoid_muscle_r",
+        "resp_straight_part_of_cricothyroid_muscle_l",
+        "resp_straight_part_of_cricothyroid_muscle_r",
+        "resp_oblique_part_of_cricothyroid_muscle_l",
+        "resp_oblique_part_of_cricothyroid_muscle_r",
+        "resp_transverse_arytenoid_muscle",
+        "resp_sternohyoid_muscle_l",
+        "resp_sternohyoid_muscle_r",
+        "resp_sternothyroid_muscle_l",
+        "resp_sternothyroid_muscle_r",
+        "resp_thyrohyoid_muscle_l",
+        "resp_thyrohyoid_muscle_r",
+        "resp_omohyoid_muscle_l",
+        "resp_omohyoid_muscle_r",
+        "resp_mylohyoid_muscle_l",
+        "resp_mylohyoid_muscle_r",
+        "resp_geniohyoid_muscle_l",
+        "resp_geniohyoid_muscle_r",
+        "resp_stylohyoid_muscle_l",
+        "resp_stylohyoid_muscle_r",
+        "resp_anterior_belly_of_digastric_muscle_l",
+        "resp_anterior_belly_of_digastric_muscle_r",
+        "resp_posterior_belly_of_digastric_muscle_l",
+        "resp_posterior_belly_of_digastric_muscle_r",
+        "resp_intermediate_tendon_of_digastric_muscle_l",
+        "resp_intermediate_tendon_of_digastric_muscle_r"
+      ],
+      "requirementIds": [
+        "R090",
+        "R091",
+        "R092",
+        "R093",
+        "R094",
+        "R095",
+        "R096",
+        "R097",
+        "R098",
+        "R099",
+        "R100",
+        "R101",
+        "R102",
+        "R103",
+        "R202",
+        "R203",
+        "R204",
+        "R205",
+        "R206",
+        "R207",
+        "R208",
+        "R209",
+        "R210",
+        "R211",
+        "R212",
+        "R213",
+        "R214",
+        "R215",
+        "R216",
+        "R222"
+      ]
+    },
+    {
+      "id": "resp_07",
+      "title": "7. Traqueia e brônquios principais",
+      "summary": "Use parede posterior, carina e ângulo de ramificação para orientar a via aérea central.",
+      "objectives": [
+        "Orientar a traqueia e identificar suas partes.",
+        "Explicar a função do suporte cartilaginoso e músculo traqueal.",
+        "Comparar brônquios principais direito e esquerdo."
+      ],
+      "sections": [
+        {
+          "heading": "Traqueia: suporte anterior, flexibilidade posterior",
+          "paragraphs": [
+            "A traqueia continua a laringe inferiormente à cricóidea. Possui uma parte cervical e outra torácica. As cartilagens incompletas posteriormente sustentam a luz; entre elas há ligamentos anulares. A parede membranácea posterior contém o músculo traqueal e relaciona-se com o esôfago.",
+            "O formato permite manter a via aérea aberta e acomodar movimentos e mudanças de calibre. Para orientar uma peça isolada, procure primeiro a interrupção posterior dos anéis e depois a bifurcação inferior."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 84
+            },
+            {
+              "source": "respiratorio",
+              "page": 85
+            },
+            {
+              "source": "respiratorio",
+              "page": 86
+            },
+            {
+              "source": "R3",
+              "time": "00:00–01:36"
+            }
+          ]
+        },
+        {
+          "heading": "Carina e nível da bifurcação",
+          "paragraphs": [
+            "A carina é a crista interna na bifurcação traqueal, entre as entradas dos brônquios principais. É um relevo dentro da luz, não uma peça externa separada. Um modelo que mostre apenas a superfície externa da bifurcação pode não demonstrá-la.",
+            "Use como referência usual a origem em C6 e a bifurcação próxima do ângulo esternal/plano T4–T5 no adulto. A posição muda com respiração, postura e indivíduo; o T6 do slide84 não deve ser memorizado como nível fixo para todas as situações."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 84
+            },
+            {
+              "source": "respiratorio",
+              "page": 85
+            },
+            {
+              "source": "uams_thorax"
+            }
+          ]
+        },
+        {
+          "heading": "Assimetria dos brônquios principais",
+          "paragraphs": [],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 89
+            },
+            {
+              "source": "respiratorio",
+              "page": 90
+            },
+            {
+              "source": "respiratorio",
+              "page": 91
+            },
+            {
+              "source": "R3",
+              "time": "02:44–04:11"
+            }
+          ],
+          "table": {
+            "headers": [
+              "Característica",
+              "Direito",
+              "Esquerdo"
+            ],
+            "rows": [
+              [
+                "Calibre e comprimento",
+                "Mais largo e mais curto",
+                "Mais estreito e mais longo"
+              ],
+              [
+                "Direção",
+                "Mais vertical",
+                "Mais oblíquo"
+              ],
+              [
+                "Divisão lobar",
+                "Superior, médio e inferior",
+                "Superior e inferior"
+              ],
+              [
+                "Relação de estudo",
+                "Após a saída do lobar superior, segue o brônquio intermédio",
+                "Percorre um trajeto mais longo até o hilo"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Da cartilagem à parede bronquiolar",
+          "paragraphs": [
+            "A ramificação reduz progressivamente o calibre das vias. Brônquios intrapulmonares apresentam suporte cartilaginoso distribuído em placas; bronquíolos não têm cartilagem. A musculatura lisa passa a ser uma referência importante para entender variação de calibre e resistência ao fluxo.",
+            "A maior verticalidade do principal direito ajuda a explicar a tendência de corpos estranhos aspirados seguirem para esse lado. É uma tendência anatômica, não uma regra absoluta para toda posição ou faixa etária."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 89
+            },
+            {
+              "source": "respiratorio",
+              "page": 95
+            },
+            {
+              "source": "respiratorio",
+              "page": 98
+            },
+            {
+              "source": "respiratorio",
+              "page": 99
+            },
+            {
+              "source": "R3",
+              "time": "05:14–06:29"
+            }
+          ]
+        }
+      ],
+      "recall": [
+        {
+          "question": "Que estrutura vizinha ajuda a orientar a parede posterior da traqueia?",
+          "answer": "O esôfago.",
+          "explanation": "Ele fica posteriormente; a parede membranácea traqueal é a região sem fechamento cartilaginoso completo.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 85
+            },
+            {
+              "source": "respiratorio",
+              "page": 86
+            }
+          ],
+          "id": "resp_07_q01"
+        },
+        {
+          "question": "A carina é um ramo da árvore brônquica?",
+          "answer": "Não; é a crista interna da bifurcação.",
+          "explanation": "Os ramos são os brônquios principais; a carina separa suas entradas.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 85
+            }
+          ],
+          "id": "resp_07_q02"
+        },
+        {
+          "question": "Qual principal é mais curto, largo e vertical?",
+          "answer": "O direito.",
+          "explanation": "Essas características favorecem a entrada de material aspirado no lado direito.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 89
+            }
+          ],
+          "id": "resp_07_q03"
+        },
+        {
+          "question": "A ausência de cartilagem ajuda a distinguir que parte da via aérea?",
+          "answer": "Os bronquíolos.",
+          "explanation": "Brônquios possuem suporte cartilaginoso; bronquíolos mantêm parede com musculatura lisa, mas sem cartilagem.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 95
+            },
+            {
+              "source": "respiratorio",
+              "page": 98
+            }
+          ],
+          "id": "resp_07_q04"
+        }
+      ],
+      "partIds": [
+        "resp_left_main_bronchus",
+        "resp_right_main_bronchus",
+        "resp_left_superior_lobar_bronchus",
+        "resp_left_inferior_lobar_bronchus",
+        "resp_right_superior_lobar_bronchus",
+        "resp_intermediate_bronchus_r",
+        "resp_middle_lobar_bronchus_r",
+        "resp_right_inferior_lobar_bronchus"
+      ],
+      "requirementIds": [
+        "R104",
+        "R105",
+        "R106",
+        "R107",
+        "R108",
+        "R109",
+        "R110",
+        "R111",
+        "R112",
+        "R113",
+        "R114",
+        "R115",
+        "R116",
+        "R117",
+        "R118"
+      ]
+    },
+    {
+      "id": "resp_08",
+      "title": "8. Lobos e segmentos broncopulmonares",
+      "summary": "Relacione hierarquia brônquica a territórios pulmonares e estude a convenção segmentar apresentada pela professora.",
+      "objectives": [
+        "Passar de principal para lobar e segmentar.",
+        "Nomear os segmentos de cada lobo.",
+        "Reconhecer variações de agrupamento no pulmão esquerdo."
+      ],
+      "sections": [
+        {
+          "heading": "Principal → lobar → segmentar",
+          "paragraphs": [
+            "Cada brônquio principal dirige-se a um pulmão; brônquios lobares ventilam lobos; brônquios segmentares seguem para territórios broncopulmonares. Segmento é território de parênquima, e brônquio segmentar é a via que o ventila. Eles não são a mesma estrutura.",
+            "Um segmento recebe um brônquio segmentar e um ramo arterial pulmonar. Veias pulmonares percorrem planos entre territórios; por isso, não descreva todo o conjunto vascular de um segmento como inteiramente isolado. A organização segmentar fornece referências para localização e ressecção anatômica."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 92
+            },
+            {
+              "source": "respiratorio",
+              "page": 93
+            },
+            {
+              "source": "respiratorio",
+              "page": 95
+            },
+            {
+              "source": "R3",
+              "time": "04:11–05:14"
+            }
+          ]
+        },
+        {
+          "heading": "Pulmão direito: dez segmentos no esquema da aula",
+          "paragraphs": [],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 92
+            }
+          ],
+          "table": {
+            "headers": [
+              "Lobo",
+              "Código usual",
+              "Nome"
+            ],
+            "rows": [
+              [
+                "Superior",
+                "S1 / B1",
+                "Apical"
+              ],
+              [
+                "Superior",
+                "S2 / B2",
+                "Posterior"
+              ],
+              [
+                "Superior",
+                "S3 / B3",
+                "Anterior"
+              ],
+              [
+                "Médio",
+                "S4 / B4",
+                "Lateral"
+              ],
+              [
+                "Médio",
+                "S5 / B5",
+                "Medial"
+              ],
+              [
+                "Inferior",
+                "S6 / B6",
+                "Superior"
+              ],
+              [
+                "Inferior",
+                "S7 / B7",
+                "Basal medial"
+              ],
+              [
+                "Inferior",
+                "S8 / B8",
+                "Basal anterior"
+              ],
+              [
+                "Inferior",
+                "S9 / B9",
+                "Basal lateral"
+              ],
+              [
+                "Inferior",
+                "S10 / B10",
+                "Basal posterior"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Pulmão esquerdo: siga a convenção do slide93",
+          "paragraphs": [],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 93
+            }
+          ],
+          "table": {
+            "headers": [
+              "Lobo",
+              "Código usual",
+              "Nome"
+            ],
+            "rows": [
+              [
+                "Superior",
+                "S1+2 / B1+2",
+                "Apicoposterior"
+              ],
+              [
+                "Superior",
+                "S3 / B3",
+                "Anterior"
+              ],
+              [
+                "Superior, língula",
+                "S4 / B4",
+                "Lingular superior"
+              ],
+              [
+                "Superior, língula",
+                "S5 / B5",
+                "Lingular inferior"
+              ],
+              [
+                "Inferior",
+                "S6 / B6",
+                "Superior"
+              ],
+              [
+                "Inferior",
+                "S7 / B7",
+                "Basal medial"
+              ],
+              [
+                "Inferior",
+                "S8 / B8",
+                "Basal anterior"
+              ],
+              [
+                "Inferior",
+                "S9 / B9",
+                "Basal lateral"
+              ],
+              [
+                "Inferior",
+                "S10 / B10",
+                "Basal posterior"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Como lidar com variação e treinar",
+          "paragraphs": [
+            "O slide esquerdo agrupa apical e posterior e mantém basais medial e anterior separados. Outros atlas mostram um basal anteromedial combinado; não transforme a contagem de um atlas em correção automática da figura da aula. S designa o território segmentar; B designa o brônquio correspondente.",
+            "No 3D, isole o lobo, oculte seu parênquima e siga o ramo lobar até os segmentares. Depois tente nomear os ramos sem rótulos. A malha da árvore mostra trajetos; os limites volumétricos completos dos segmentos exigem representação própria e não podem ser inferidos só por cor do brônquio."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 92
+            },
+            {
+              "source": "respiratorio",
+              "page": 93
+            },
+            {
+              "source": "respiratorio",
+              "page": 95
+            }
+          ]
+        }
+      ],
+      "recall": [
+        {
+          "question": "Quais são os segmentos do lobo médio direito?",
+          "answer": "Lateral e medial.",
+          "explanation": "Correspondem usualmente a S4/B4 e S5/B5.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 92
+            }
+          ],
+          "id": "resp_08_q01"
+        },
+        {
+          "question": "A língula pertence a qual lobo?",
+          "answer": "Ao lobo superior esquerdo.",
+          "explanation": "Seus segmentos são lingular superior e lingular inferior; ela não é um terceiro lobo esquerdo.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 93
+            },
+            {
+              "source": "respiratorio",
+              "page": 104
+            }
+          ],
+          "id": "resp_08_q02"
+        },
+        {
+          "question": "O segmento superior do lobo inferior é um dos segmentos basais?",
+          "answer": "Não.",
+          "explanation": "Ele é S6; o grupo basal corresponde aos territórios inferiores seguintes.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 92
+            },
+            {
+              "source": "respiratorio",
+              "page": 93
+            }
+          ],
+          "id": "resp_08_q03"
+        },
+        {
+          "question": "Que união segmentar aparece no lobo superior esquerdo da aula?",
+          "answer": "Apical e posterior formam o apicoposterior.",
+          "explanation": "O esquema ainda mantém os segmentos basais medial e anterior separados.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 93
+            }
+          ],
+          "id": "resp_08_q04"
+        },
+        {
+          "question": "B3 e S3 designam exatamente a mesma coisa?",
+          "answer": "Não: B3 é o brônquio; S3 é o território segmentar.",
+          "explanation": "A conexão funcional entre via e território não elimina a diferença de estrutura.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 92
+            },
+            {
+              "source": "respiratorio",
+              "page": 93
+            }
+          ],
+          "id": "resp_08_q05"
+        }
+      ],
+      "partIds": [
+        "resp_left_superior_lobar_bronchus",
+        "resp_left_inferior_lobar_bronchus",
+        "resp_right_superior_lobar_bronchus",
+        "resp_intermediate_bronchus_r",
+        "resp_middle_lobar_bronchus_r",
+        "resp_right_inferior_lobar_bronchus",
+        "resp_apical_segmental_bronchus_of_right_lung_bi",
+        "resp_posterior_segmental_bronchus_of_right_lung_bii",
+        "resp_anterior_segmental_bronchus_of_right_lung_biii",
+        "resp_lateral_segmental_bronchus_of_right_lung_biv",
+        "resp_medial_segmental_bronchus_of_right_lung_bv",
+        "resp_superior_segmental_bronchus_of_right_lung_bvi",
+        "resp_medial_basal_segmental_bronchus_of_right_lung_bvii",
+        "resp_anterior_basal_segmental_bronchus_of_right_lung_bviii",
+        "resp_lateral_basal_segmental_bronchus_of_right_lung_bix",
+        "resp_posterior_basal_segmental_bronchus_of_right_lung_bx",
+        "resp_apicoposterior_segmental_bronchus_of_left_lung_bi_bii",
+        "resp_anterior_segmental_bronchus_of_left_lung_biii",
+        "resp_superior_lingular_segmental_bronchus_of_left_lung_biv",
+        "resp_inferior_lingular_segmental_bronchus_of_left_lung_bv",
+        "resp_superior_segmental_bronchus_of_left_lung_bvi",
+        "resp_medial_basal_segmental_bronchus_of_left_lung_bvii",
+        "resp_anterior_basal_segmental_bronchus_of_left_lung_bviii",
+        "resp_lateral_basal_segmental_bronchus_of_left_lung_bix",
+        "resp_posterior_basal_segmental_bronchus_of_left_lung_bx",
+        "resp_superior_lobe_of_right_lung",
+        "resp_middle_lobe_of_right_lung",
+        "resp_inferior_lobe_of_right_lung",
+        "resp_superior_lobe_of_left_lung",
+        "resp_inferior_lobe_of_left_lung"
+      ],
+      "requirementIds": [
+        "R113",
+        "R114",
+        "R115",
+        "R116",
+        "R117",
+        "R118",
+        "R119",
+        "R120",
+        "R121",
+        "R122",
+        "R123",
+        "R124",
+        "R125",
+        "R126",
+        "R127",
+        "R128",
+        "R129",
+        "R130",
+        "R131",
+        "R132",
+        "R133",
+        "R134",
+        "R135",
+        "R136",
+        "R137",
+        "R138",
+        "R139",
+        "R140",
+        "R141",
+        "R142"
+      ]
+    },
+    {
+      "id": "resp_09",
+      "title": "9. Pulmões: superfícies, fissuras, hilo e raiz",
+      "summary": "Oriente cada pulmão pela forma global e confirme o lado por fissuras e relações mediastinais.",
+      "objectives": [
+        "Diferenciar faces, ápice, base e margens.",
+        "Reconhecer lobos e fissuras.",
+        "Separar hilo de raiz e identificar impressões dos órgãos vizinhos."
+      ],
+      "sections": [
+        {
+          "heading": "Orientação antes de nomear",
+          "paragraphs": [
+            "O ápice aponta superiormente; a base, ou face diafragmática, é inferior e côncava. A face costal acompanha a parede torácica; a mediastinal volta-se medialmente e contém o hilo. Margens delimitam transições entre superfícies.",
+            "Comece por medial/lateral e superior/inferior. Só depois use fissuras e impressões para decidir direita/esquerda. Uma vista rodada pode inverter a aparência da tela, mas não a lateralidade anatômica."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 101
+            },
+            {
+              "source": "respiratorio",
+              "page": 102
+            },
+            {
+              "source": "respiratorio",
+              "page": 103
+            },
+            {
+              "source": "respiratorio",
+              "page": 104
+            },
+            {
+              "source": "respiratorio",
+              "page": 105
+            }
+          ]
+        },
+        {
+          "heading": "Lobos e fissuras",
+          "paragraphs": [],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 103
+            },
+            {
+              "source": "respiratorio",
+              "page": 104
+            }
+          ],
+          "table": {
+            "headers": [
+              "Pulmão",
+              "Lobos",
+              "Fissuras e marcos"
+            ],
+            "rows": [
+              [
+                "Direito",
+                "Superior, médio e inferior",
+                "Horizontal separa superior de médio; oblíqua separa inferior dos outros dois."
+              ],
+              [
+                "Esquerdo",
+                "Superior e inferior",
+                "Oblíqua separa os dois; incisura cardíaca e língula pertencem à região do lobo superior."
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Hilo é uma região; raiz é um conjunto",
+          "paragraphs": [
+            "Hilo é a área da face mediastinal por onde estruturas entram e saem. Raiz, ou pedículo, é o conjunto que liga o pulmão ao mediastino: brônquio, artéria e veias pulmonares, vasos brônquicos, linfáticos/linfonodos e nervos, envolvidos pela continuidade pleural.",
+            "A figura105 aproxima os termos, mas a distinção ajuda na prova prática: apontar o hilo significa localizar a região; descrever a raiz exige reconhecer seus componentes. Um brônquio isolado não constitui todo o pedículo."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 105
+            },
+            {
+              "source": "respiratorio",
+              "page": 106
+            },
+            {
+              "source": "respiratorio",
+              "page": 107
+            },
+            {
+              "source": "R4",
+              "time": "03:00–05:16"
+            }
+          ]
+        },
+        {
+          "heading": "A superfície guarda a forma dos vizinhos",
+          "paragraphs": [],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 108
+            },
+            {
+              "source": "respiratorio",
+              "page": 109
+            },
+            {
+              "source": "respiratorio",
+              "page": 117
+            }
+          ],
+          "table": {
+            "headers": [
+              "Lado",
+              "Relações destacadas no material",
+              "Como estudar"
+            ],
+            "rows": [
+              [
+                "Direito",
+                "Veia cava superior, cava inferior, arco da ázigos e esôfago",
+                "Localize cada sulco em relação ao hilo, ao ápice e à base."
+              ],
+              [
+                "Esquerdo",
+                "Arco aórtico, subclávia, esôfago e impressão cardíaca",
+                "Relacione a impressão maior ao coração e diferencie incisura de impressão cardíaca."
+              ]
+            ]
+          }
+        }
+      ],
+      "recall": [
+        {
+          "question": "Qual fissura existe apenas no pulmão direito típico?",
+          "answer": "A fissura horizontal.",
+          "explanation": "Ela separa o lobo superior do médio.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 103
+            }
+          ],
+          "id": "resp_09_q01"
+        },
+        {
+          "question": "A base pulmonar corresponde a qual face?",
+          "answer": "À face diafragmática.",
+          "explanation": "Sua concavidade acompanha a cúpula do diafragma.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 103
+            },
+            {
+              "source": "respiratorio",
+              "page": 105
+            }
+          ],
+          "id": "resp_09_q02"
+        },
+        {
+          "question": "Qual a diferença entre hilo e raiz?",
+          "answer": "Hilo é a região de passagem; raiz é o conjunto de estruturas que passa por ela.",
+          "explanation": "Essa distinção permite descrever localização e composição sem confundi-las.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 105
+            },
+            {
+              "source": "respiratorio",
+              "page": 106
+            }
+          ],
+          "id": "resp_09_q03"
+        },
+        {
+          "question": "Língula e incisura cardíaca são a mesma coisa?",
+          "answer": "Não.",
+          "explanation": "A incisura é uma escavação da margem anterior; a língula é a projeção do lobo superior esquerdo inferior a essa região.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 104
+            }
+          ],
+          "id": "resp_09_q04"
+        },
+        {
+          "question": "Por que o pulmão direito apresenta um sulco para a ázigos?",
+          "answer": "Porque o arco da veia ázigos relaciona-se com sua região mediastinal superior à raiz.",
+          "explanation": "Sulcos são pistas das relações, e não vasos contidos dentro do parênquima.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 108
+            }
+          ],
+          "id": "resp_09_q05"
+        }
+      ],
+      "partIds": [
+        "resp_superior_lobe_of_right_lung",
+        "resp_middle_lobe_of_right_lung",
+        "resp_inferior_lobe_of_right_lung",
+        "resp_superior_lobe_of_left_lung",
+        "resp_inferior_lobe_of_left_lung"
+      ],
+      "requirementIds": [
+        "R138",
+        "R139",
+        "R140",
+        "R141",
+        "R142",
+        "R143",
+        "R144",
+        "R145",
+        "R146",
+        "R147",
+        "R148",
+        "R149",
+        "R150",
+        "R151",
+        "R152",
+        "R153",
+        "R154",
+        "R155",
+        "R156",
+        "R157",
+        "R158",
+        "R159",
+        "R160"
+      ]
+    },
+    {
+      "id": "resp_10",
+      "title": "10. Pleura: continuidade, recessos e sensibilidade",
+      "summary": "Visualize uma membrana contínua com porções visceral e parietal e um espaço potencial entre elas.",
+      "objectives": [
+        "Distinguir folhetos e partes da pleura parietal.",
+        "Localizar recessos e ligamento pulmonar.",
+        "Relacionar inervação à dor pleural."
+      ],
+      "sections": [
+        {
+          "heading": "Do pulmão à parede",
+          "paragraphs": [
+            "A pleura visceral adere ao pulmão e acompanha as fissuras. A parietal reveste internamente a parede torácica, o diafragma e a face lateral do mediastino. Os folhetos tornam-se contínuos na região da raiz.",
+            "Entre eles, a cavidade pleural é um espaço potencial com pequena quantidade de líquido, que permite deslizamento. Não é um compartimento normalmente cheio de ar. A separação gráfica de camadas em um atlas é um recurso para mostrar essa relação."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 110
+            },
+            {
+              "source": "respiratorio",
+              "page": 111
+            },
+            {
+              "source": "respiratorio",
+              "page": 112
+            },
+            {
+              "source": "R4",
+              "time": "05:16–07:40"
+            }
+          ]
+        },
+        {
+          "heading": "Partes da pleura parietal",
+          "paragraphs": [],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 113
+            },
+            {
+              "source": "respiratorio",
+              "page": 114
+            },
+            {
+              "source": "respiratorio",
+              "page": 115
+            },
+            {
+              "source": "respiratorio",
+              "page": 116
+            }
+          ],
+          "table": {
+            "headers": [
+              "Parte",
+              "Contato",
+              "Elemento associado"
+            ],
+            "rows": [
+              [
+                "Costal",
+                "Face interna da parede torácica",
+                "Fáscia endotorácica entre pleura e parede."
+              ],
+              [
+                "Diafragmática",
+                "Face superior do diafragma",
+                "Fáscia frenicopleural mencionada no material."
+              ],
+              [
+                "Mediastinal",
+                "Faces laterais do mediastino",
+                "Continuidade na raiz e em suas reflexões."
+              ],
+              [
+                "Cervical/cúpula",
+                "Prolongamento superior na raiz do pescoço",
+                "Membrana suprapleural, ou fáscia de Sibson, como reforço."
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Recessos e ligamento pulmonar",
+          "paragraphs": [
+            "Os recessos são regiões de reflexão pleural disponíveis para expansão do pulmão. O costodiafragmático está entre pleuras costal e diafragmática; o costomediastinal, entre costal e mediastinal. Uma fissura entre lobos não é um recesso pleural.",
+            "O ligamento pulmonar prolonga inferiormente a bainha pleural da raiz como uma dupla prega. É uma continuidade da reflexão pleural, e não um cordão ligamentar rígido. A frase do slide117 sobre “dobra da pleura visceral” precisa ser interpretada junto à continuidade dos folhetos na raiz."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 117
+            },
+            {
+              "source": "respiratorio",
+              "page": 118
+            },
+            {
+              "source": "uams_thorax"
+            }
+          ]
+        },
+        {
+          "heading": "Dor, líquido e movimento",
+          "paragraphs": [
+            "A pleura parietal tem sensibilidade somática: nervos intercostais suprem a parte costal e a periferia diafragmática; o frênico supre a mediastinal e a região central diafragmática. A visceral recebe fibras autonômicas pelo plexo pulmonar e não apresenta a mesma sensibilidade dolorosa somática da parietal.",
+            "Líquido pleural excessivo pode acumular-se em regiões dependentes, incluindo recessos, e limitar a expansão. Para a prova, associe localização, folheto e nervo; as figuras de procedimentos servem aqui para reconhecer relações anatômicas."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 119
+            },
+            {
+              "source": "respiratorio",
+              "page": 120
+            },
+            {
+              "source": "respiratorio",
+              "page": 127
+            },
+            {
+              "source": "respiratorio",
+              "page": 128
+            },
+            {
+              "source": "R4",
+              "time": "16:45–17:14"
+            }
+          ]
+        }
+      ],
+      "recall": [
+        {
+          "question": "Qual folheto entra nas fissuras pulmonares?",
+          "answer": "A pleura visceral.",
+          "explanation": "Ela acompanha a superfície do pulmão, incluindo superfícies interlobares.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 112
+            }
+          ],
+          "id": "resp_10_q01"
+        },
+        {
+          "question": "Que duas partes formam o recesso costodiafragmático?",
+          "answer": "Pleuras parietais costal e diafragmática.",
+          "explanation": "O nome expressa a reflexão entre as superfícies; não é uma fissura pulmonar.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 118
+            }
+          ],
+          "id": "resp_10_q02"
+        },
+        {
+          "question": "Onde fica o ligamento pulmonar?",
+          "answer": "Inferiormente à raiz do pulmão.",
+          "explanation": "É uma dupla prega pleural que continua a bainha da raiz.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 117
+            }
+          ],
+          "id": "resp_10_q03"
+        },
+        {
+          "question": "Qual nervo participa da sensibilidade da pleura mediastinal?",
+          "answer": "O nervo frênico.",
+          "explanation": "Intercostais e frênico repartem territórios da pleura parietal.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 128
+            }
+          ],
+          "id": "resp_10_q04"
+        },
+        {
+          "question": "O espaço pleural normal contém ar?",
+          "answer": "Não; é um espaço potencial com uma película de líquido.",
+          "explanation": "Ar nesse compartimento modifica o acoplamento entre pulmão e parede, como ocorre no pneumotórax.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 110
+            },
+            {
+              "source": "respiratorio",
+              "page": 111
+            }
+          ],
+          "id": "resp_10_q05"
+        }
+      ],
+      "partIds": [],
+      "requirementIds": [
+        "R161",
+        "R162",
+        "R163",
+        "R164",
+        "R165",
+        "R166",
+        "R167",
+        "R168",
+        "R169",
+        "R170",
+        "R171",
+        "R172",
+        "R182",
+        "R183"
+      ]
+    },
+    {
+      "id": "resp_11",
+      "title": "11. Circulação, linfa e nervos dos pulmões",
+      "summary": "Separe circulação de troca, circulação nutritiva, drenagem linfática e controle autonômico.",
+      "objectives": [
+        "Comparar artérias/veias pulmonares e brônquicas.",
+        "Reconstruir a drenagem pelos principais linfonodos.",
+        "Diferenciar controle dos brônquios de comando dos músculos ventilatórios."
+      ],
+      "sections": [
+        {
+          "heading": "Duas circulações que se encontram",
+          "paragraphs": [],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 123
+            },
+            {
+              "source": "respiratorio",
+              "page": 124
+            },
+            {
+              "source": "respiratorio",
+              "page": 125
+            },
+            {
+              "source": "respiratorio",
+              "page": 126
+            },
+            {
+              "source": "R4",
+              "time": "12:31–14:54"
+            }
+          ],
+          "table": {
+            "headers": [
+              "Sistema",
+              "Trajeto principal",
+              "Função"
+            ],
+            "rows": [
+              [
+                "Pulmonar",
+                "Ventrículo direito → tronco/artérias pulmonares → capilares alveolares → veias pulmonares → átrio esquerdo",
+                "Conduzir sangue à superfície de troca gasosa."
+              ],
+              [
+                "Brônquico",
+                "Ramos da circulação sistêmica, principalmente ligados à aorta torácica e suas variações",
+                "Nutrir paredes brônquicas e tecidos de suporte; contribui para pleura visceral e estruturas da raiz."
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Artéria e veia não são nomes de oxigenação",
+          "paragraphs": [
+            "Artéria conduz sangue para fora do coração; veia, em direção ao coração. Assim, artérias pulmonares levam sangue relativamente pobre em O₂ aos pulmões, e veias pulmonares retornam sangue oxigenado ao átrio esquerdo. Cor vermelha/azul é uma convenção de desenho.",
+            "A drenagem da circulação brônquica é compartilhada: parte segue por veias brônquicas sistêmicas e parte alcança veias pulmonares. Não memorize uma correspondência simples de toda artéria brônquica com uma única veia brônquica."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 123
+            },
+            {
+              "source": "respiratorio",
+              "page": 124
+            },
+            {
+              "source": "respiratorio",
+              "page": 126
+            }
+          ]
+        },
+        {
+          "heading": "Drenagem linfática: dos plexos à raiz",
+          "paragraphs": [
+            "O plexo superficial está próximo da pleura visceral; o profundo acompanha estruturas broncovasculares. A linfa segue para linfonodos broncopulmonares, ou hilares, e depois para grupos traqueobronquiais e paratraqueais, alcançando troncos broncomediastinais.",
+            "A rede tem conexões e variações; a sequência é um mapa de estudo, não uma série de tubos obrigatoriamente isolados. A pleura parietal segue drenagem relacionada à parede torácica, ao mediastino e à região cervical, conforme o território."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 129
+            },
+            {
+              "source": "respiratorio",
+              "page": 130
+            },
+            {
+              "source": "R4",
+              "time": "17:14–18:39"
+            }
+          ]
+        },
+        {
+          "heading": "Autonômico nos brônquios; somático na bomba ventilatória",
+          "paragraphs": [
+            "Os plexos pulmonares anterior e posterior recebem componentes vagais e simpáticos. Na síntese da aula, ação parassimpática favorece broncoconstrição e secreção; ativação simpática/adrenérgica favorece broncodilatação. Isso modifica a via aérea, não substitui os movimentos da caixa torácica.",
+            "O diafragma recebe comando motor pelos nervos frênicos; os músculos intercostais, pelos nervos intercostais. Diferencie esse controle somático dos músculos esqueléticos do controle autonômico da musculatura lisa e das glândulas da árvore brônquica."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 99
+            },
+            {
+              "source": "respiratorio",
+              "page": 127
+            },
+            {
+              "source": "respiratorio",
+              "page": 128
+            },
+            {
+              "source": "R4",
+              "time": "14:54–17:14"
+            }
+          ]
+        }
+      ],
+      "recall": [
+        {
+          "question": "Qual circulação fornece sangue aos capilares de troca alveolar?",
+          "answer": "A pulmonar.",
+          "explanation": "A circulação brônquica tem função nutritiva para paredes e estruturas de suporte.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 123
+            },
+            {
+              "source": "respiratorio",
+              "page": 125
+            },
+            {
+              "source": "respiratorio",
+              "page": 126
+            }
+          ],
+          "id": "resp_11_q01"
+        },
+        {
+          "question": "Por que a artéria pulmonar transporta sangue pobre em O₂ e ainda é uma artéria?",
+          "answer": "Porque sai do coração.",
+          "explanation": "O critério artéria/veia é a direção do fluxo em relação ao coração.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 126
+            }
+          ],
+          "id": "resp_11_q02"
+        },
+        {
+          "question": "Quais linfonodos recebem destaque na raiz do pulmão?",
+          "answer": "Os broncopulmonares, também chamados hilares.",
+          "explanation": "Eles se relacionam às vias que seguem para grupos traqueobronquiais e paratraqueais.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 129
+            }
+          ],
+          "id": "resp_11_q03"
+        },
+        {
+          "question": "O vago é o principal nervo motor do diafragma?",
+          "answer": "Não; o comando motor do diafragma é frênico.",
+          "explanation": "O vago participa do controle autonômico broncopulmonar.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 127
+            }
+          ],
+          "id": "resp_11_q04"
+        },
+        {
+          "question": "Que efeito sobre o calibre brônquico é associado ao parassimpático na aula?",
+          "answer": "Broncoconstrição.",
+          "explanation": "O material também associa a ação vagal ao aumento da secreção glandular.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 99
+            },
+            {
+              "source": "respiratorio",
+              "page": 127
+            }
+          ],
+          "id": "resp_11_q05"
+        }
+      ],
+      "partIds": [
+        "resp_diaphragm_node",
+        "resp_external_intercostal_muscles_l",
+        "resp_external_intercostal_muscles_r",
+        "resp_internal_intercostal_muscles_l",
+        "resp_internal_intercostal_muscles_r"
+      ],
+      "requirementIds": [
+        "R173",
+        "R174",
+        "R175",
+        "R176",
+        "R177",
+        "R178",
+        "R179",
+        "R180",
+        "R181",
+        "R182",
+        "R183",
+        "R184",
+        "R185",
+        "R186",
+        "R187",
+        "R188",
+        "R189",
+        "R190",
+        "R191",
+        "R199",
+        "R200",
+        "R201"
+      ]
+    },
+    {
+      "id": "resp_12",
+      "title": "12. Alvéolos, surfactante e mecânica ventilatória",
+      "summary": "Feche o caminho entre estrutura microscópica, propriedades do pulmão e movimentos da parede torácica.",
+      "objectives": [
+        "Relacionar pneumócitos I e II às funções alveolares.",
+        "Explicar o efeito do surfactante.",
+        "Reconstruir as mudanças de volume e pressão durante a respiração."
+      ],
+      "sections": [
+        {
+          "heading": "Superfície fina e estável para troca",
+          "paragraphs": [
+            "Pneumócitos tipo I são células delgadas que revestem grande parte da superfície de troca. Pneumócitos tipo II produzem surfactante e participam da manutenção do epitélio alveolar. A barreira alveolocapilar inclui o epitélio alveolar, a interface de membranas basais e o endotélio capilar.",
+            "A espessura reduzida favorece difusão, mas o alvéolo também precisa permanecer aberto. A superfície úmida gera tensão superficial; o surfactante reduz essa tensão e contribui para a estabilidade, especialmente quando o volume alveolar diminui."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 125
+            },
+            {
+              "source": "respiratorio",
+              "page": 131
+            },
+            {
+              "source": "respiratorio",
+              "page": 132
+            },
+            {
+              "source": "R4",
+              "time": "18:39–20:32"
+            }
+          ]
+        },
+        {
+          "heading": "Imaturidade pulmonar",
+          "paragraphs": [
+            "Na prematuridade, produção ou disponibilidade insuficiente de surfactante pode favorecer colapso alveolar, reduzir complacência e aumentar o esforço necessário para ventilar. O mecanismo básico é dificuldade de manter/reabrir unidades de troca; não é uma tendência primária de todos os alvéolos a romperem.",
+            "O material também relaciona a ventilação neonatal à geometria das costelas, à complacência da parede e à maturação muscular. Esses fatores atuam em conjunto; não basta transportar diretamente a mecânica de um tórax adulto para o recém-nascido."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 133
+            },
+            {
+              "source": "respiratorio",
+              "page": 141
+            },
+            {
+              "source": "respiratorio",
+              "page": 142
+            },
+            {
+              "source": "R4",
+              "time": "24:31–25:57"
+            }
+          ]
+        },
+        {
+          "heading": "Volume muda primeiro; o gradiente move o ar",
+          "paragraphs": [],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 135
+            },
+            {
+              "source": "respiratorio",
+              "page": 136
+            },
+            {
+              "source": "respiratorio",
+              "page": 138
+            },
+            {
+              "source": "respiratorio",
+              "page": 139
+            },
+            {
+              "source": "respiratorio",
+              "page": 140
+            },
+            {
+              "source": "R4",
+              "time": "20:32–24:31"
+            }
+          ],
+          "table": {
+            "headers": [
+              "Etapa",
+              "Volume e músculos",
+              "Pressão alveolar e fluxo"
+            ],
+            "rows": [
+              [
+                "Inspiração tranquila",
+                "Diafragma contrai e desce; tórax expande com participação dos intercostais externos.",
+                "Pressão alveolar cai transitoriamente abaixo da atmosférica; ar entra."
+              ],
+              [
+                "Fim da inspiração",
+                "O volume atingiu o nível inspirado.",
+                "As pressões se igualam e o fluxo cessa, mesmo com volume aumentado."
+              ],
+              [
+                "Expiração tranquila",
+                "Relaxamento inspiratório e recuo elástico reduzem o volume.",
+                "Pressão alveolar fica transitoriamente acima da atmosférica; ar sai."
+              ],
+              [
+                "Expiração forçada",
+                "Músculos abdominais e componentes expiratórios da parede torácica contribuem ativamente.",
+                "O aumento de pressão favorece saída de ar, limitado também pelo calibre da via."
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Duas pressões que não devem ser confundidas",
+          "paragraphs": [
+            "Pressão alveolar é a do ar dentro dos alvéolos e determina o fluxo em relação à atmosfera. Pressão intrapleural refere-se ao espaço pleural e, na respiração tranquila normal, é subatmosférica. A diferença entre pressão alveolar e intrapleural contribui para manter o pulmão distendido.",
+            "O líquido pleural permite deslizamento e transmite o movimento da parede ao pulmão. Quando o tórax expande, o pulmão acompanha essa expansão; o aumento de volume reduz a pressão alveolar e atrai ar. Não descreva a inspiração como entrada de ar que primeiro empurra e expande o tórax."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 110
+            },
+            {
+              "source": "respiratorio",
+              "page": 135
+            },
+            {
+              "source": "respiratorio",
+              "page": 136
+            },
+            {
+              "source": "openstax_mechanics"
+            }
+          ]
+        },
+        {
+          "heading": "Um roteiro de revisão em três escalas",
+          "paragraphs": [],
+          "bullets": [
+            "Macroscopia: mostre diafragma, intercostais, pulmões e pleuras; explique que elementos se movem.",
+            "Via aérea: siga traqueia, brônquios e bronquíolos; relacione calibre à passagem de ar.",
+            "Microanatomia: reconheça alvéolo, capilar, pneumócitos e surfactante em figura; explique difusão e estabilidade.",
+            "Feche os rótulos e explique a cadeia: contração → aumento de volume → queda de pressão alveolar → entrada de ar."
+          ],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 8
+            },
+            {
+              "source": "respiratorio",
+              "page": 125
+            },
+            {
+              "source": "respiratorio",
+              "page": 131
+            },
+            {
+              "source": "respiratorio",
+              "page": 136
+            },
+            {
+              "source": "respiratorio",
+              "page": 138
+            }
+          ]
+        }
+      ],
+      "recall": [
+        {
+          "question": "Qual pneumócito produz surfactante?",
+          "answer": "O tipo II.",
+          "explanation": "O tipo I é especialmente delgado e ocupa grande parte da superfície de troca.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 131
+            }
+          ],
+          "id": "resp_12_q01"
+        },
+        {
+          "question": "Como o surfactante facilita a ventilação?",
+          "answer": "Reduz a tensão superficial e favorece a estabilidade alveolar.",
+          "explanation": "Isso reduz a tendência ao colapso e o trabalho para manter/reabrir os alvéolos.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 131
+            },
+            {
+              "source": "respiratorio",
+              "page": 133
+            }
+          ],
+          "id": "resp_12_q02"
+        },
+        {
+          "question": "Na inspiração, a pressão alveolar fica momentaneamente maior ou menor que a atmosférica?",
+          "answer": "Menor.",
+          "explanation": "A diferença de pressão permite que o ar entre; o aumento de volume torácico/pulmonar precede esse fluxo.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 136
+            }
+          ],
+          "id": "resp_12_q03"
+        },
+        {
+          "question": "A expiração tranquila exige contração intensa dos músculos expiratórios?",
+          "answer": "Não.",
+          "explanation": "Ela decorre principalmente do relaxamento inspiratório e do recuo elástico; expiração forçada recruta músculos adicionais.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 138
+            }
+          ],
+          "id": "resp_12_q04"
+        },
+        {
+          "question": "No fim da inspiração, por que o fluxo para mesmo com o pulmão expandido?",
+          "answer": "Porque a pressão alveolar se iguala à atmosférica.",
+          "explanation": "Fluxo depende do gradiente de pressão, não apenas do volume existente.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 136
+            }
+          ],
+          "id": "resp_12_q05"
+        },
+        {
+          "question": "Qual é a consequência básica de surfactante insuficiente no pulmão imaturo?",
+          "answer": "Maior tendência ao colapso alveolar e menor complacência.",
+          "explanation": "O mecanismo não deve ser reduzido a ruptura alveolar, como pode sugerir uma leitura literal da transcrição automática.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 133
+            }
+          ],
+          "id": "resp_12_q06"
+        }
+      ],
+      "partIds": [
+        "resp_diaphragm_node",
+        "resp_external_intercostal_muscles_l",
+        "resp_external_intercostal_muscles_r",
+        "resp_internal_intercostal_muscles_l",
+        "resp_internal_intercostal_muscles_r"
+      ],
+      "requirementIds": [
+        "R192",
+        "R193",
+        "R194",
+        "R195",
+        "R196",
+        "R197",
+        "R198",
+        "R199",
+        "R200",
+        "R201",
+        "R161",
+        "R162",
+        "R163",
+        "R164",
+        "R165",
+        "R166"
+      ]
+    }
+  ],
+  "reviewStatus": "Síntese autoral revisada com slides, trechos ASR localizados e fontes institucionais para conflitos; não é transcrição integral nem gabarito oficial.",
+  "limitations": [
+    "O roteiro respiratório oficial da Carmem não foi localizado. A seleção principal deriva dos slides de 144 páginas; IDs R### são editoriais.",
+    "Timestamps localizam trechos em transcrições automáticas. Não houve revisão integral do áudio e as falas não foram tratadas como autoridade contra a anatomia.",
+    "As questões são exercícios originais de recuperação ativa, não questões oficiais da prova.",
+    "Variações de segmentação, posição e dimensões exigem atenção à convenção usada; cores do modelo são recursos de estudo.",
+    "Associação de uma aula ou capítulo a uma malha não certifica sua fidelidade anatômica. Estruturas sem representação adequada devem ser estudadas na figura indicada."
+  ]
+}

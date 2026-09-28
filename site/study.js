@@ -1,5 +1,5 @@
 /** Practical study tools. All questions use parts loaded by the viewer. */
-export function initStudy({ parts, requirements = [], evidence = null, viewer }) {
+export function initStudy({ parts, requirements = [], evidence = null, viewer, system = 'circulatory', storageId = system, groupNames = null, scopeNote = null }) {
   if (!viewer || !Array.isArray(parts)) throw new TypeError('Prática: catálogo ou visualizador indisponível.');
   const present = parts.filter(p => p.id && p.label && p.triangles > 0);
   const byId = new Map(present.map(p => [p.id, p]));
@@ -7,13 +7,15 @@ export function initStudy({ parts, requirements = [], evidence = null, viewer })
   const eligibleIds = new Set(eligible.map(p => p.id));
   const evidenceTargets = new Map((Array.isArray(evidence?.targets) ? evidence.targets : []).map(row => [String(row.id), row]));
   const evidenceSources = new Map((Array.isArray(evidence?.sources) ? evidence.sources : []).map(source => [source.id, source.label]));
-  const groups = { camaras: 'Câmaras', grandes: 'Grandes vasos', coronarias: 'Artérias coronárias', veias: 'Veias cardíacas', valvas: 'Folhetos valvares', papilares: 'Músculos papilares', contexto: 'Vasos e linfáticos de contexto' };
-  const cardiacEligible = eligible.filter(p => p.group !== 'contexto');
-  const storageKey = `heart-atlas:practice:v2:${location.pathname}`;
+  const groups = groupNames || { camaras: 'Câmaras', grandes: 'Grandes vasos', coronarias: 'Artérias coronárias', veias: 'Veias cardíacas', valvas: 'Folhetos valvares', papilares: 'Músculos papilares', contexto: 'Vasos e linfáticos de contexto' };
+  const cardiacEligible = eligible.filter(p => !p.group.startsWith('contexto'));
+  const storageKey = `atlas:practice:v3:${storageId}`;
+  const systemLabel = system === 'respiratory' ? 'Respiratório' : 'Coração';
   let storageAvailable = true, active = false, revealed = false, savedView = null, misses = 0;
   let progress = { version: 2, ratings: {}, session: null };
   try {
-    const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');
+    const legacy = system === 'circulatory' ? localStorage.getItem('heart-atlas:practice:v2:/') || localStorage.getItem('heart-atlas:practice:v2:/index.html') : null;
+    const saved = JSON.parse(localStorage.getItem(storageKey) || legacy || 'null');
     if (saved?.version === 2 && saved.ratings && typeof saved.ratings === 'object') progress = saved;
   } catch { storageAvailable = false; }
   const validSession = progress.session;
@@ -40,7 +42,7 @@ export function initStudy({ parts, requirements = [], evidence = null, viewer })
     return node;
   }
   function save() {
-    try { localStorage.setItem(storageKey, JSON.stringify(progress)); }
+    try { localStorage.setItem(storageKey, JSON.stringify(progress));localStorage.setItem(`atlas:practice-summary:${storageId}`,JSON.stringify({reviewed:Object.keys(progress.ratings).filter(id=>eligibleIds.has(id)).length,review:Object.entries(progress.ratings).filter(([id,r])=>eligibleIds.has(id)&&r.rating==='review').length,total:eligible.length})); }
     catch { storageAvailable = false; }
   }
   function shuffle(ids) {
@@ -71,7 +73,7 @@ export function initStudy({ parts, requirements = [], evidence = null, viewer })
     return dialog;
   }
   const setup = makeDialog('study-setup', 'Treine a identificação', 'PRÁTICA NO MODELO');
-  setup.append(el('p', 'study-intro', 'Observe a forma, a posição e as relações entre as peças. Gire o coração e mude a vista antes de responder.'));
+  setup.append(el('p', 'study-intro', 'Observe a forma, a posição e as relações entre as peças. Gire o modelo e mude a vista antes de responder.'));
   const setupForm = el('form', 'study-setup-form');
   const modeLabel = el('label', 'study-field', 'Como você quer treinar?');
   const mode = el('select'); mode.id = 'study-mode'; modeLabel.htmlFor = mode.id;
@@ -83,7 +85,7 @@ export function initStudy({ parts, requirements = [], evidence = null, viewer })
   const groupLabel = el('label', 'study-field', 'Estruturas desta rodada');
   const group = el('select'); group.id = 'study-group'; groupLabel.htmlFor = group.id;
   group.setAttribute('aria-label','Estruturas desta rodada');
-  for (const [value, text] of [['all',`Coração · todas as peças do treino (${cardiacEligible.length})`], ...Object.entries(groups).filter(([key]) => eligible.some(p => p.group === key)).map(([key,name]) => [key, `${name} (${eligible.filter(p => p.group === key).length})`])]) {
+  for (const [value, text] of [['all',`${systemLabel} · todas as peças do treino (${cardiacEligible.length})`], ...Object.entries(groups).filter(([key]) => eligible.some(p => p.group === key)).map(([key,name]) => [key, `${name} (${eligible.filter(p => p.group === key).length})`])]) {
     const option = el('option', '', text); option.value = value; group.append(option);
   }
   groupLabel.append(group); setupForm.append(modeLabel, groupLabel);
@@ -192,7 +194,7 @@ export function initStudy({ parts, requirements = [], evidence = null, viewer })
     if (message) feedback.append(el('p', 'study-answer-status', message));
     feedback.append(el('h3', '', part.label), el('p', '', part.note || 'Observe a forma e a relação com as peças próximas.'));
     const origin = `${part.source || 'Acervo anatômico'} · ${part.sourceName || part.label}`;
-    const reference = part.requirement ? `${part.requirement.source === 'roteiro' ? 'Roteiro' : 'Slides de coração'}, p. ${part.requirement.page} · item ${part.requirement.id}` : 'Peça complementar do acervo; sem item individual associado no roteiro.';
+    const reference = part.requirement ? `${part.requirement.source === 'roteiro' ? 'Roteiro' : system === 'respiratory' ? 'Slides de respiratório' : 'Slides de coração'}, p. ${part.requirement.page} · item ${part.requirement.id}` : 'Peça complementar do acervo; sem item individual associado no roteiro.';
     feedback.append(el('p', 'study-answer-reference', `${reference} — Fonte 3D: ${origin}`));
     actions.replaceChildren(
       button('Identifiquei com segurança', 'button primary', () => rate('known')),
@@ -235,14 +237,15 @@ export function initStudy({ parts, requirements = [], evidence = null, viewer })
 
   // Association to an available mesh is deliberately distinct from anatomy validation.
   const rows = requirements.map(item => {
-    const direct = present.filter(p => String(p.requirement?.id) === String(item.id));
+    const direct = present.filter(p => String(p.requirement?.id) === String(item.id) || (p.requirementIds || []).map(String).includes(String(item.id)));
     const evidence = new Set(Array.isArray(item.z_evidencia) ? item.z_evidencia : []);
-    const related = present.filter(p => [p.sourceName, ...(Array.isArray(p.sourceAliases) ? p.sourceAliases : [])].some(name => evidence.has(name)) && !direct.includes(p));
+    const related = present.filter(p => ((p.relatedRequirementIds || []).map(String).includes(String(item.id)) || [p.sourceName, ...(Array.isArray(p.sourceAliases) ? p.sourceAliases : [])].some(name => evidence.has(name))) && !direct.includes(p));
     const hasWholeAssociation = direct.some(p => p.correspondence !== 'partial');
     return { item, direct, related, status: hasWholeAssociation ? 'present' : direct.length || related.length ? 'related' : 'pending' };
   });
   const route = makeDialog('study-route', 'Seu roteiro, estrutura por estrutura', 'MAPA DA PRÁTICA');
   route.classList.add('study-route-dialog');
+  if(scopeNote)route.append(el('p','study-boundary',scopeNote));
   route.append(el('p', 'study-intro', 'Encontre cada alvo do roteiro e dos slides. Uma peça associada permite explorar o modelo, mas não confirma todos os detalhes exigidos. As pendências continuam visíveis aqui.'));
   const metrics = el('div', 'study-route-metrics');
   for (const [status,label] of [['present','com peça associada'],['related','com contexto parcial'],['pending','pendentes na cena']]) {
@@ -263,15 +266,22 @@ export function initStudy({ parts, requirements = [], evidence = null, viewer })
   statusLabel.append(statusFilter);
   const sourceLabel = el('label','study-field','Material'); const sourceFilter = el('select'); sourceFilter.id = 'study-route-source'; sourceLabel.htmlFor = sourceFilter.id;
   sourceFilter.setAttribute('aria-label','Material');
-  for (const [value,text] of [['all','Roteiro e slides'],['principal','Roteiro prático'],['complemento_docente','Complementos dos slides']]) {
+  for (const [value,text] of [['all','Roteiro e slides'],['principal',system==='respiratory'?'Slides da professora':'Roteiro prático'],['complemento_docente','Complementos dos slides'],['complementar','Material complementar']]) {
     const option = el('option','',text); option.value=value; sourceFilter.append(option);
   }
   sourceLabel.append(sourceFilter); routeFilters.append(searchLabel,statusLabel,sourceLabel); route.append(routeFilters);
   const routeCount = el('p','study-route-count'); routeCount.setAttribute('role','status');
   const routeList = el('div','study-route-list'); route.append(routeCount,routeList);
   const normal = text => String(text || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-  const sourceText = item => `${item.fonte === 'roteiro' ? 'Roteiro' : item.fonte === 'coracao' ? 'Slides de coração' : 'Slides de vasos'} · p. ${item.pagina} · item ${item.id}`;
+  const sourceText = item => `${({roteiro:'Roteiro',coracao:'Slides de coração',respiratorio:'Slides de respiratório',complementar:'Roteiro complementar',roteiro_complementar:'Roteiro complementar',vasos:'Slides de vasos'})[item.fonte] || 'Material de apoio'}${item.pagina ? ' · p. '+item.pagina : ''} · item ${item.id}`;
   const evidenceSource = id => evidenceSources.get(id) || ({roteiro:'Roteiro',coracao:'Slides de coração',vasos:'Slides de vasos',C1:'Aula C1',C2:'Aula C2',C3:'Aula C3'}[id]) || 'Material de aula';
+  function materialLink(ref){
+    let href=null;
+    if(['roteiro','coracao','vasos','respiratorio','linfatico','mediastino'].includes(ref.source))href=`classroom.html?doc=${ref.source}&page=${Number(ref.page)||1}`;
+    else if(/^[CR][1-4]$/.test(ref.source)){const time=String(ref.time||'').match(/\d{1,2}:\d{2}(?::\d{2})?/);const seconds=time?time[0].split(':').reduce((n,v)=>n*60+Number(v),0):0;href=`classroom.html?video=${ref.source}&t=${seconds}`;}
+    if(!href)return null;
+    const link=el('a','button',`${evidenceSource(ref.source)}${ref.page?' · p. '+ref.page:''}${ref.time?' · '+ref.time:''} ↗`);link.href=href;link.target='_blank';link.rel='noopener';return link;
+  }
   function appendEvidence(body, id) {
     const academic = evidenceTargets.get(String(id));
     if (!academic) return;
@@ -286,6 +296,9 @@ export function initStudy({ parts, requirements = [], evidence = null, viewer })
     const references = el('details','study-evidence-details');
     const referenceSummary = el('summary','','Materiais que sustentam este alvo'); references.append(referenceSummary);
     const contents = el('div','study-evidence-contents');
+    const sourceLinks=el('div','study-route-links');const seen=new Set();
+    for(const ref of [...pages,...lecture]){const link=materialLink(ref);if(link&&!seen.has(link.href)){seen.add(link.href);sourceLinks.append(link);}}
+    if(sourceLinks.children.length)contents.append(sourceLinks);
     if (academic.scopeSource) {
       const ref = academic.scopeSource;
       contents.append(el('p','study-evidence-scope',`Exigência: ${evidenceSource(ref.source)}${ref.page ? ` · p. ${ref.page}` : ''}.`));
@@ -327,7 +340,7 @@ export function initStudy({ parts, requirements = [], evidence = null, viewer })
         card.append(el('p','',`Síntese do trecho: ${segment.summary}`)); contents.append(card);
       }
       contents.append(el('p','study-evidence-limit', evidence?.limits?.lecture || 'Horários aproximados e termos sujeitos a erro de transcrição.'));
-    } else contents.append(el('p','study-evidence-limit','Sem trecho localizado nas três transcrições consultadas. Isso não retira o alvo do roteiro.'));
+    } else contents.append(el('p','study-evidence-limit','Sem trecho localizado nas transcrições consultadas. Isso não retira o alvo do roteiro.'));
     for (const note of readingNotes) {
       const card = el('p','study-evidence-reading-note');
       card.append(el('strong','',`${note.id} · Nota de leitura: `), document.createTextNode(note.text)); contents.append(card);
@@ -357,7 +370,7 @@ export function initStudy({ parts, requirements = [], evidence = null, viewer })
         const buttons = el('div','study-route-links');
         for (const part of candidates) buttons.append(button(`${status === 'present' ? 'Explorar' : 'Ver contexto'}: ${part.label}`,'button',() => {
           route.close(); pause(); viewer.setExamMode(false);
-          if(part.group === 'contexto' && viewer.showContext) viewer.showContext();
+          if(part.group.startsWith('contexto') && viewer.showContext) viewer.showContext();
           else if(viewer.showHeart) viewer.showHeart();
           else viewer.show(present.filter(p=>p.defaultVisible !== false).map(p=>p.id));
           viewer.select(part.id); viewer.focus(part.id);

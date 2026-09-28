@@ -1,0 +1,3694 @@
+{
+  "parts": [
+    {
+      "id": "resp_mucosa_of_nasal_cavity",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 75,
+      "sourceWorldBounds": [
+        [
+          -1.365723313273711,
+          154.96209165468443,
+          4.216868291751563
+        ],
+        [
+          1.3657244731784628,
+          159.75696027601884,
+          10.809937928273444
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_nasal_septal_cartilage",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 611,
+      "sourceWorldBounds": [
+        [
+          -0.2501094531747572,
+          155.10665842822817,
+          7.3500704672950725
+        ],
+        [
+          0.2422896517213169,
+          158.54547202253846,
+          11.5766939224365
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_lateral_process_of_nasal_septal_cartilage_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 614,
+      "sourceWorldBounds": [
+        [
+          -0.0012484939057033628,
+          155.3762695123745,
+          8.208389980825885
+        ],
+        [
+          1.3153081838001235,
+          158.67420516602303,
+          11.56584591776178
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_lateral_process_of_nasal_septal_cartilage_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 610,
+      "sourceWorldBounds": [
+        [
+          -1.3153081838001235,
+          155.37626946887235,
+          8.208389971149714
+        ],
+        [
+          0.0012484939057033628,
+          158.67420518400857,
+          11.565845880405552
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_major_alar_cartilage_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 613,
+      "sourceWorldBounds": [
+        [
+          0.006979056949341089,
+          154.8132883059767,
+          8.703712989750109
+        ],
+        [
+          1.4849270177221874,
+          156.23159255492254,
+          11.44126707398548
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_major_alar_cartilage_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 609,
+      "sourceWorldBounds": [
+        [
+          -1.4849270177221874,
+          154.81328830967433,
+          8.703712987155939
+        ],
+        [
+          -0.006979056949341089,
+          156.2315925412272,
+          11.441267069290175
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_inferior_nasal_concha_bone_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 374,
+      "sourceWorldBounds": [
+        [
+          0.4423438150533836,
+          155.2103551045334,
+          4.078773847334204
+        ],
+        [
+          1.4880187650095649,
+          157.46229025765427,
+          7.54293834783143
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_inferior_nasal_concha_bone_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 324,
+      "sourceWorldBounds": [
+        [
+          -1.488017362849868,
+          155.21035515724083,
+          4.078773815761579
+        ],
+        [
+          -0.4423424128936868,
+          157.46229023350378,
+          7.542938350078958
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_ethmoid_bone",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 317,
+      "sourceWorldBounds": [
+        [
+          -1.8740065276129534,
+          156.58775487462808,
+          3.14087968578638
+        ],
+        [
+          1.8740064396565606,
+          160.5311222790012,
+          7.5946472886633885
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_vomer",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 378,
+      "sourceWorldBounds": [
+        [
+          -0.5118647454684276,
+          155.7406855225815,
+          2.0958380041985416
+        ],
+        [
+          0.5118683828023923,
+          158.03582119916564,
+          8.210164558701539
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_sinus_of_frontal_bone",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 61,
+      "sourceWorldBounds": [
+        [
+          -2.519293348610856,
+          160.13791881643638,
+          7.443623077912779
+        ],
+        [
+          2.519292515596285,
+          163.26137850193692,
+          8.605809856709822
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_sinus_of_sphenoid_bone",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 198,
+      "sourceWorldBounds": [
+        [
+          -1.411866952635967,
+          158.3304019356893,
+          2.21043603299931
+        ],
+        [
+          1.4118668662659497,
+          160.4985933995017,
+          3.9708780622080315
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_anterior_cells_of_ethmoid_bone_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 320,
+      "sourceWorldBounds": [
+        [
+          0.5374101682075767,
+          158.1076691656738,
+          5.503188031593324
+        ],
+        [
+          1.2563862711514402,
+          159.5262219325993,
+          6.269376225261107
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_anterior_cells_of_ethmoid_bone_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 323,
+      "sourceWorldBounds": [
+        [
+          -1.2563859865787774,
+          158.1076691602446,
+          5.503188045783867
+        ],
+        [
+          -0.5374098836349139,
+          159.52622192536447,
+          6.2693762416685805
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_middle_cells_of_ethmoid_bone_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 319,
+      "sourceWorldBounds": [
+        [
+          0.5267008081824305,
+          158.1069706005789,
+          4.733498993048145
+        ],
+        [
+          1.43023846240512,
+          159.4409580621919,
+          5.570103899159702
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_middle_cells_of_ethmoid_bone_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 322,
+      "sourceWorldBounds": [
+        [
+          -1.4302381778324573,
+          158.1069705864146,
+          4.733498968734929
+        ],
+        [
+          -0.5267005236097677,
+          159.44095806693775,
+          5.570103860361687
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_posterior_cells_of_ethmoid_bone_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 318,
+      "sourceWorldBounds": [
+        [
+          0.4375800778190378,
+          158.18385554229266,
+          3.9547115313444836
+        ],
+        [
+          1.3940118716774286,
+          159.41206865822426,
+          4.797395421683921
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_posterior_cells_of_ethmoid_bone_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 321,
+      "sourceWorldBounds": [
+        [
+          -1.394011590239232,
+          158.183855544362,
+          3.9547115365852026
+        ],
+        [
+          -0.43757979259405333,
+          159.41206865856526,
+          4.797395436344306
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_nasopharynx",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 387,
+      "sourceWorldBounds": [
+        [
+          -1.7521823365415834,
+          155.014898033583,
+          0.9551489362497154
+        ],
+        [
+          1.7521919664472776,
+          159.12289026758373,
+          4.537357664247832
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_oropharynx",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 386,
+      "sourceWorldBounds": [
+        [
+          -3.280894535107665,
+          150.82735455990283,
+          0.8581939637569675
+        ],
+        [
+          3.280904165013359,
+          155.2477771845752,
+          7.549358543453022
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_laryngopharynx",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 388,
+      "sourceWorldBounds": [
+        [
+          -1.440918681247647,
+          145.63872797276645,
+          -0.04540723487088005
+        ],
+        [
+          1.4409283111533413,
+          151.0413658592394,
+          3.3154824262302367
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_soft_palate",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 394,
+      "sourceWorldBounds": [
+        [
+          -1.7646797872463669,
+          154.46689809431126,
+          1.498672219614952
+        ],
+        [
+          1.7646810899995362,
+          155.4882809025306,
+          5.558843446573597
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_uvula_of_palate",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 390,
+      "sourceWorldBounds": [
+        [
+          -0.2525912094407562,
+          154.08576014021094,
+          1.3374520051728889
+        ],
+        [
+          0.24726036507585591,
+          155.01476327395042,
+          1.7888119389694312
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_tongue",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 392,
+      "sourceWorldBounds": [
+        [
+          -1.6835543355453597,
+          149.6926566595224,
+          2.187738756339398
+        ],
+        [
+          1.6835679317570043,
+          153.95737550111267,
+          7.822259439542528
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_hyoid_bone",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 449,
+      "sourceWorldBounds": [
+        [
+          -2.274439948730585,
+          149.15178713846353,
+          0.3027485801118801
+        ],
+        [
+          2.274443286590781,
+          151.10311290657714,
+          3.899828201637268
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_thyroid_cartilage",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 618,
+      "sourceWorldBounds": [
+        [
+          -2.060075047634906,
+          146.10498837964892,
+          0.0492879519771956
+        ],
+        [
+          2.0600786239135926,
+          149.8846552989742,
+          3.195304439649462
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_cricoid_cartilage",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 639,
+      "sourceWorldBounds": [
+        [
+          -1.2166481179444621,
+          145.68749712012033,
+          0.14266661175734663
+        ],
+        [
+          1.2166516942231487,
+          147.43950286636647,
+          2.0279135646916244
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 4
+    },
+    {
+      "id": "resp_arytenoid_cartilage_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 675,
+      "sourceWorldBounds": [
+        [
+          0.2540555340431694,
+          147.30878152168933,
+          0.3636702182293033
+        ],
+        [
+          0.7984114361131969,
+          148.1165340332294,
+          1.0895658805890316
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_arytenoid_cartilage_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 648,
+      "sourceWorldBounds": [
+        [
+          -0.7984100950086894,
+          147.30878152524485,
+          0.3636702144564884
+        ],
+        [
+          -0.25405419293866194,
+          148.11653403713373,
+          1.0895658737808245
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_corniculate_cartilage_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 698,
+      "sourceWorldBounds": [
+        [
+          0.287142131174566,
+          148.06218366950256,
+          0.33097839591569733
+        ],
+        [
+          0.438587066379367,
+          148.21817708076566,
+          0.4889577346649165
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_corniculate_cartilage_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 673,
+      "sourceWorldBounds": [
+        [
+          -0.43858572527485956,
+          148.06218366892793,
+          0.3309783964446841
+        ],
+        [
+          -0.28714079007005855,
+          148.2181770814724,
+          0.48895773382691105
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_epiglottis",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 162,
+      "sourceWorldBounds": [
+        [
+          -0.7848157670622626,
+          148.09850007832037,
+          1.9416340675231756
+        ],
+        [
+          0.7848163185073744,
+          151.04849817252028,
+          2.7106302534613294
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_lateral_crico_arytenoid_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 249,
+      "sourceWorldBounds": [
+        [
+          0.7296568088666735,
+          146.92682597015627,
+          -0.08419894129340083
+        ],
+        [
+          1.173922107934596,
+          148.00144753970056,
+          0.9103151029363642
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 3
+    },
+    {
+      "id": "resp_lateral_crico_arytenoid_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 248,
+      "sourceWorldBounds": [
+        [
+          -1.1739153630493306,
+          146.9268140321967,
+          -0.08419892748809865
+        ],
+        [
+          -0.7296500639814081,
+          148.00143563077145,
+          0.9103150848370426
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 3
+    },
+    {
+      "id": "resp_posterior_crico_arytenoid_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 251,
+      "sourceWorldBounds": [
+        [
+          0.2289565308391483,
+          146.5312291845339,
+          -0.5494101725573561
+        ],
+        [
+          1.137523834943422,
+          147.96729615351722,
+          0.024089413266593918
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_posterior_crico_arytenoid_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 250,
+      "sourceWorldBounds": [
+        [
+          -1.1375170900581566,
+          146.5312172630849,
+          -0.5494101740394024
+        ],
+        [
+          -0.22894978595388288,
+          147.96728422500703,
+          0.024089425731120273
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_external_part_of_thyro_arytenoid_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 242,
+      "sourceWorldBounds": [
+        [
+          0.23943469713392196,
+          147.11361948785807,
+          0.48440045496653394
+        ],
+        [
+          0.8365351008170014,
+          148.0346945773951,
+          2.562622897769479
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_external_part_of_thyro_arytenoid_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 241,
+      "sourceWorldBounds": [
+        [
+          -0.8365268658155829,
+          147.11361945413677,
+          0.484400454349285
+        ],
+        [
+          -0.2394264621325034,
+          148.03469459176262,
+          2.5626228930240584
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_ary_epiglottic_part_of_oblique_arytenoid_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 245,
+      "sourceWorldBounds": [
+        [
+          0.4799418353655678,
+          148.13565642839006,
+          0.6787363594565842
+        ],
+        [
+          0.9042017907516156,
+          150.47856943184962,
+          1.9419510578844976
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_ary_epiglottic_part_of_oblique_arytenoid_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 243,
+      "sourceWorldBounds": [
+        [
+          -0.9041950458663501,
+          148.13564452781577,
+          0.6787363229850768
+        ],
+        [
+          -0.47993509048030236,
+          150.4785574934445,
+          1.9419510918676575
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_thyro_epiglottic_part_of_thyro_arytenoid_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 246,
+      "sourceWorldBounds": [
+        [
+          0.029378531579172917,
+          147.78877280674547,
+          0.9476110571040328
+        ],
+        [
+          0.8774811400039032,
+          150.27913147673104,
+          2.8255366445086434
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_thyro_epiglottic_part_of_thyro_arytenoid_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 244,
+      "sourceWorldBounds": [
+        [
+          -0.8774743951186378,
+          147.78876085261268,
+          0.9476110427554593
+        ],
+        [
+          -0.029371786693907498,
+          150.27911954910502,
+          2.825536612049702
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_straight_part_of_cricothyroid_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 240,
+      "sourceWorldBounds": [
+        [
+          0.2286322514482958,
+          146.3041584510339,
+          0.6499784491667899
+        ],
+        [
+          1.201391427322532,
+          147.33358004005729,
+          1.3347209682916004
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_straight_part_of_cricothyroid_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 238,
+      "sourceWorldBounds": [
+        [
+          -1.2013846824372665,
+          146.30414652812047,
+          0.6499784614463447
+        ],
+        [
+          -0.22862550656303038,
+          147.33356812472024,
+          1.3347209620503837
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_oblique_part_of_cricothyroid_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 239,
+      "sourceWorldBounds": [
+        [
+          0.489195925674379,
+          145.88694186944377,
+          0.45802168039056423
+        ],
+        [
+          1.3733545465588424,
+          146.81633445304485,
+          2.04245367519788
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_oblique_part_of_cricothyroid_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 237,
+      "sourceWorldBounds": [
+        [
+          -1.373347801673577,
+          145.88692992941736,
+          0.45802168633490137
+        ],
+        [
+          -0.48918918078911355,
+          146.8163225472517,
+          2.042453661711426
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_transverse_arytenoid_muscle",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 247,
+      "sourceWorldBounds": [
+        [
+          -0.8004095425147536,
+          147.32222316064372,
+          0.42622132232184984
+        ],
+        [
+          0.6676979737775941,
+          147.9448097608415,
+          0.7318583088141939
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_quadrangular_membrane_l",
+      "sourceFile": "Joints100.fbx",
+      "sourceNode": 51,
+      "sourceWorldBounds": [
+        [
+          0.5112237512559246,
+          148.56267288535182,
+          0.29100372332590796
+        ],
+        [
+          2.1110832818658545,
+          150.71983136489357,
+          3.1370205746737625
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_quadrangular_membrane_r",
+      "sourceFile": "Joints100.fbx",
+      "sourceNode": 50,
+      "sourceWorldBounds": [
+        [
+          -2.1110852986928217,
+          148.5626729592977,
+          0.2910037345476655
+        ],
+        [
+          -0.5112256236206774,
+          150.71983151873516,
+          3.1370205476928996
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_lateral_thyrohyoid_ligament_l",
+      "sourceFile": "Joints100.fbx",
+      "sourceNode": 46,
+      "sourceWorldBounds": [
+        [
+          1.6759145299264262,
+          150.30029272675657,
+          -0.5228202576047714
+        ],
+        [
+          2.037750851061036,
+          151.3591056578628,
+          -0.07147478224193299
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_lateral_thyrohyoid_ligament_r",
+      "sourceFile": "Joints100.fbx",
+      "sourceNode": 45,
+      "sourceWorldBounds": [
+        [
+          -2.0377527782064004,
+          150.3002927927025,
+          -0.522820247787806
+        ],
+        [
+          -1.6759164825115684,
+          151.3591055968393,
+          -0.07147480049793156
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_cricopharyngeal_ligament_l",
+      "sourceFile": "Joints100.fbx",
+      "sourceNode": 56,
+      "sourceWorldBounds": [
+        [
+          0.07837355381316358,
+          146.14587857869915,
+          0.6919593441167162
+        ],
+        [
+          0.9472595904293104,
+          147.42688735630284,
+          2.50361786914508
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_cricopharyngeal_ligament_r",
+      "sourceFile": "Joints100.fbx",
+      "sourceNode": 55,
+      "sourceWorldBounds": [
+        [
+          -0.9472611548338097,
+          146.14587866389803,
+          0.6919594687340757
+        ],
+        [
+          -0.07837511821766285,
+          147.4268873237587,
+          2.503617778272652
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_median_thyrohyoid_ligament",
+      "sourceFile": "Joints100.fbx",
+      "sourceNode": 47,
+      "sourceWorldBounds": [
+        [
+          -0.9173971267100588,
+          147.56301112050863,
+          2.773763414214072
+        ],
+        [
+          0.9173951992274588,
+          149.32601024856407,
+          3.5247625863866308
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_median_cricothyroid_ligament",
+      "sourceFile": "Joints100.fbx",
+      "sourceNode": 43,
+      "sourceWorldBounds": [
+        [
+          -0.26498322699166643,
+          146.1303700956959,
+          1.8929465102907035
+        ],
+        [
+          0.2649816623697411,
+          147.420357525848,
+          2.6730466702698745
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_trachea",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 39,
+      "sourceWorldBounds": [
+        [
+          -1.382692357611525,
+          135.51960443917395,
+          -2.1299146868752463
+        ],
+        [
+          1.332969467406752,
+          146.05663220320696,
+          1.765946122058552
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_left_main_bronchus",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 42,
+      "sourceWorldBounds": [
+        [
+          -0.7527819013345503,
+          131.52919418865122,
+          -2.808262258589038
+        ],
+        [
+          4.79377496043247,
+          137.5845470160352,
+          -0.3070251488421696
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_right_main_bronchus",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 56,
+      "sourceWorldBounds": [
+        [
+          -2.0289342649514737,
+          134.42776349473166,
+          -2.421461794668275
+        ],
+        [
+          0.6385636186863075,
+          137.494921518971,
+          -0.3251062710867718
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_left_superior_lobar_bronchus",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 43,
+      "sourceWorldBounds": [
+        [
+          4.016760817204223,
+          131.08994372475067,
+          -2.73703547809406
+        ],
+        [
+          8.663587074078887,
+          134.57235489601928,
+          0.4496128812014841
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_left_inferior_lobar_bronchus",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 48,
+      "sourceWorldBounds": [
+        [
+          3.922244988803687,
+          128.29850746300576,
+          -2.816827930089854
+        ],
+        [
+          7.97488019056311,
+          132.66015104410616,
+          -1.2293437673401004
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_right_superior_lobar_bronchus",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 57,
+      "sourceWorldBounds": [
+        [
+          -3.1444514679046263,
+          134.2768144318445,
+          -2.302257240754329
+        ],
+        [
+          -1.252250834362901,
+          135.75888926030692,
+          -1.0112056470875286
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_intermediate_bronchus_r",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 61,
+      "sourceWorldBounds": [
+        [
+          -3.724685816326231,
+          131.32052128887267,
+          -2.813609587328658
+        ],
+        [
+          -0.7449638618309672,
+          135.20186649749115,
+          -0.9774148386364919
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_middle_lobar_bronchus_r",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 68,
+      "sourceWorldBounds": [
+        [
+          -4.788054637204718,
+          129.74573238030928,
+          -2.474060707845708
+        ],
+        [
+          -2.6583995344084688,
+          132.2174951426926,
+          0.5231481204423392
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_right_inferior_lobar_bronchus",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 62,
+      "sourceWorldBounds": [
+        [
+          -5.681118648975916,
+          125.41921041963133,
+          -5.057556903178392
+        ],
+        [
+          -2.5571079618831973,
+          132.11880285404044,
+          -1.4365744862100243
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_apical_segmental_bronchus_of_right_lung_bi",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 59,
+      "sourceWorldBounds": [
+        [
+          -5.0157835844025325,
+          135.0842574418011,
+          -3.9387143524368016
+        ],
+        [
+          -2.6724535643092175,
+          142.8513205367546,
+          2.4530588938753217
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_posterior_segmental_bronchus_of_right_lung_bii",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 60,
+      "sourceWorldBounds": [
+        [
+          -10.099988622816817,
+          133.27380510202983,
+          -6.7817487037719335
+        ],
+        [
+          -2.835510262491309,
+          139.4363634672099,
+          -1.0934425126900473
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_anterior_segmental_bronchus_of_right_lung_biii",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 58,
+      "sourceWorldBounds": [
+        [
+          -8.551449737770556,
+          132.20850000265924,
+          -1.9055572210063647
+        ],
+        [
+          -1.2438392221683547,
+          136.89324355033298,
+          6.045242498395413
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_lateral_segmental_bronchus_of_right_lung_biv",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 69,
+      "sourceWorldBounds": [
+        [
+          -11.991129597554199,
+          125.94819438743582,
+          -0.20860658710829316
+        ],
+        [
+          -3.941629582662994,
+          130.62485882725537,
+          4.29806598426692
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_medial_segmental_bronchus_of_right_lung_bv",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 70,
+      "sourceWorldBounds": [
+        [
+          -7.751151319920191,
+          126.17779235708201,
+          -0.09761601562471389
+        ],
+        [
+          -3.876186850496599,
+          130.59308803762517,
+          7.634670176968224
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_superior_segmental_bronchus_of_right_lung_bvi",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 63,
+      "sourceWorldBounds": [
+        [
+          -9.938527466437856,
+          126.79004340992104,
+          -7.579708205249204
+        ],
+        [
+          -2.8125472010187957,
+          134.3825409776517,
+          -1.8057160629253168
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_medial_basal_segmental_bronchus_of_right_lung_bvii",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 65,
+      "sourceWorldBounds": [
+        [
+          -4.116541830719877,
+          124.78819268690985,
+          -2.6507307009461867
+        ],
+        [
+          -2.4968685288377994,
+          131.02023014369382,
+          -1.7088420298130822
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_anterior_basal_segmental_bronchus_of_right_lung_bviii",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 67,
+      "sourceWorldBounds": [
+        [
+          -11.954899101211828,
+          123.78388092570107,
+          -2.9521284588670746
+        ],
+        [
+          -4.043924003316686,
+          129.9281911034939,
+          0.4282406411368691
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_lateral_basal_segmental_bronchus_of_right_lung_bix",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 66,
+      "sourceWorldBounds": [
+        [
+          -12.34170287700308,
+          118.98998676969737,
+          -5.137864657406718
+        ],
+        [
+          -4.46262166510003,
+          128.61621615092946,
+          -0.8876471431279525
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_posterior_basal_segmental_bronchus_of_right_lung_bx",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 64,
+      "sourceWorldBounds": [
+        [
+          -7.293602233857067,
+          118.09048985491997,
+          -7.116169605352701
+        ],
+        [
+          -3.2578972654484337,
+          125.96097104374338,
+          -4.338345952984279
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_apicoposterior_segmental_bronchus_of_left_lung_bi_bii",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 44,
+      "sourceWorldBounds": [
+        [
+          3.0525283021916536,
+          134.32418331242528,
+          -6.152147043942977
+        ],
+        [
+          9.241221076791572,
+          142.53717792102202,
+          -0.06056139120527604
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_anterior_segmental_bronchus_of_left_lung_biii",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 45,
+      "sourceWorldBounds": [
+        [
+          3.238594627974065,
+          132.2801167284335,
+          -1.298525934969017
+        ],
+        [
+          9.593274227782112,
+          137.18173334033384,
+          6.177855361960146
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_superior_lingular_segmental_bronchus_of_left_lung_biv",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 46,
+      "sourceWorldBounds": [
+        [
+          6.778309892419296,
+          128.32128912357868,
+          -1.5885351311979399
+        ],
+        [
+          10.953734199002206,
+          131.68074773440702,
+          7.759644312181103
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_inferior_lingular_segmental_bronchus_of_left_lung_bv",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 47,
+      "sourceWorldBounds": [
+        [
+          8.123638479805729,
+          124.63076126888124,
+          -0.003478641888677636
+        ],
+        [
+          10.628461041848146,
+          131.5883622470159,
+          8.565456351019588
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_superior_segmental_bronchus_of_left_lung_bvi",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 49,
+      "sourceWorldBounds": [
+        [
+          3.587397090714754,
+          127.05698068179412,
+          -7.563513872842956
+        ],
+        [
+          9.801861609351906,
+          134.56320674785727,
+          -1.914341423450547
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_medial_basal_segmental_bronchus_of_left_lung_bvii",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 50,
+      "sourceWorldBounds": [
+        [
+          2.416374087872152,
+          118.47245204914458,
+          -7.329427480458936
+        ],
+        [
+          7.279938102534166,
+          129.87907809703006,
+          -1.73613378815763
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_anterior_basal_segmental_bronchus_of_left_lung_bviii",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 51,
+      "sourceWorldBounds": [
+        [
+          7.908868606579442,
+          122.74870084485221,
+          -1.2836537152447087
+        ],
+        [
+          12.45724326593144,
+          128.44198470268532,
+          5.539280736210142
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_lateral_basal_segmental_bronchus_of_left_lung_bix",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 52,
+      "sourceWorldBounds": [
+        [
+          7.171851786904014,
+          117.75027811222938,
+          -5.0228466891941945
+        ],
+        [
+          12.32316373776021,
+          128.7507332713867,
+          -0.5698356777844793
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_posterior_basal_segmental_bronchus_of_left_lung_bx",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 53,
+      "sourceWorldBounds": [
+        [
+          7.997706440752132,
+          119.13224084078986,
+          -6.81858626500051
+        ],
+        [
+          9.186051950006156,
+          126.53461775242305,
+          -1.7018213161182492
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_anteromedial_basal_segmental_bronchus_of_left_lung",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 54,
+      "sourceWorldBounds": [
+        [
+          7.301924020380807,
+          118.95627016432131,
+          -1.9371260751112727
+        ],
+        [
+          12.803250457152217,
+          128.86771968401885,
+          4.304145358569586
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_superior_lobe_of_right_lung",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 80,
+      "sourceWorldBounds": [
+        [
+          -11.816653989789971,
+          129.20896886618053,
+          -7.137671063491805
+        ],
+        [
+          -0.795898288095096,
+          142.94833876173007,
+          8.427931317150405
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_middle_lobe_of_right_lung",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 101,
+      "sourceWorldBounds": [
+        [
+          -12.358244168171927,
+          121.55624585909071,
+          -4.751299888550503
+        ],
+        [
+          -0.57397747312254,
+          131.9182977175465,
+          10.24742698795584
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_inferior_lobe_of_right_lung",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 112,
+      "sourceWorldBounds": [
+        [
+          -13.113145968695706,
+          116.99011330345125,
+          -8.324304052261665
+        ],
+        [
+          -0.2744421870892997,
+          135.03798066439398,
+          9.258303655218088
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_superior_lobe_of_left_lung",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 135,
+      "sourceWorldBounds": [
+        [
+          0.885794126562434,
+          121.95201445572036,
+          -6.927739684074231
+        ],
+        [
+          12.298151430615006,
+          143.10175489747195,
+          10.149373003657102
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_inferior_lobe_of_left_lung",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 148,
+      "sourceWorldBounds": [
+        [
+          1.8391551886731425,
+          116.69811589523782,
+          -8.27650623075946
+        ],
+        [
+          12.984854338596113,
+          136.04663991875228,
+          9.914658132158651
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_pleura",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 35,
+      "sourceWorldBounds": [
+        [
+          -13.228843547403812,
+          116.826094687058,
+          -8.449291684469245
+        ],
+        [
+          13.10674324631691,
+          143.2266733978887,
+          10.372385073653277
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_diaphragm_node",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 341,
+      "sourceWorldBounds": [
+        [
+          -12.580665182345685,
+          104.22530392833924,
+          -6.699225894849638
+        ],
+        [
+          12.496618573750728,
+          126.21448834348831,
+          10.09408877596556
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_external_intercostal_muscles_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 351,
+      "sourceWorldBounds": [
+        [
+          2.9097136537687422,
+          106.94065803020196,
+          -9.762165417026416
+        ],
+        [
+          14.095068559871084,
+          144.16288641946335,
+          9.721520171889292
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_external_intercostal_muscles_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 344,
+      "sourceWorldBounds": [
+        [
+          -14.095067816005226,
+          106.94067462727712,
+          -9.762157749405725
+        ],
+        [
+          -2.9097129099028844,
+          144.16289424039005,
+          9.721523049653298
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_internal_intercostal_muscles_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 352,
+      "sourceWorldBounds": [
+        [
+          1.3378586813487807,
+          107.7885085185584,
+          -9.39657659301273
+        ],
+        [
+          13.901742381777439,
+          140.7871004944961,
+          11.210963283821084
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 3
+    },
+    {
+      "id": "resp_internal_intercostal_muscles_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 345,
+      "sourceWorldBounds": [
+        [
+          -13.90174163791158,
+          107.78852399662077,
+          -9.396569648391578
+        ],
+        [
+          -1.337857937482923,
+          140.78710835904883,
+          11.210965193731905
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 3
+    },
+    {
+      "id": "resp_innermost_intercostal_muscles_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 354,
+      "sourceWorldBounds": [
+        [
+          4.32033880472682,
+          108.40289247265898,
+          -9.054572045749998
+        ],
+        [
+          13.510072432012382,
+          140.88469711398864,
+          9.685709271729777
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_innermost_intercostal_muscles_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 347,
+      "sourceWorldBounds": [
+        [
+          -13.510071688146525,
+          108.40290824660501,
+          -9.054563948134067
+        ],
+        [
+          -4.320338060860962,
+          140.8847051876691,
+          9.68571268394516
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_superior_pharyngeal_constrictor_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 229,
+      "sourceWorldBounds": [
+        [
+          0.06534540023179725,
+          152.09421932829193,
+          0.585031339061242
+        ],
+        [
+          3.3640558456531253,
+          157.45594206553017,
+          3.8528727393770525
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_superior_pharyngeal_constrictor_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 228,
+      "sourceWorldBounds": [
+        [
+          -3.364045982309577,
+          152.0942193513597,
+          0.5850314127765195
+        ],
+        [
+          -0.06533553688824911,
+          157.45594209430368,
+          3.8528727130508074
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_middle_pharyngeal_constrictor_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 231,
+      "sourceWorldBounds": [
+        [
+          0.04220304003027775,
+          149.94703444252983,
+          0.21119888492145034
+        ],
+        [
+          1.9200847907618595,
+          154.52338738245783,
+          3.3685429717686577
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_middle_pharyngeal_constrictor_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 230,
+      "sourceWorldBounds": [
+        [
+          -1.920074927418313,
+          149.94703438172246,
+          0.21119885758214152
+        ],
+        [
+          -0.04219317668673139,
+          154.5233874015747,
+          3.368542920332106
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_inferior_pharyngeal_constrictor_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 233,
+      "sourceWorldBounds": [
+        [
+          0.05915077076199138,
+          146.00694156926383,
+          -0.37015516530334003
+        ],
+        [
+          2.2615524661143604,
+          152.5159203848081,
+          1.063867502784771
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_inferior_pharyngeal_constrictor_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 232,
+      "sourceWorldBounds": [
+        [
+          -2.2615426027708123,
+          146.00694158265856,
+          -0.37015522505704046
+        ],
+        [
+          -0.059140907418443245,
+          152.5159203788506,
+          1.063867461480602
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_stylopharyngeus_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 235,
+      "sourceWorldBounds": [
+        [
+          1.263470188431592,
+          149.07013927046884,
+          -0.5165548888260283
+        ],
+        [
+          4.038251634479203,
+          155.73941003076433,
+          1.9134645719044823
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_stylopharyngeus_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 234,
+      "sourceWorldBounds": [
+        [
+          -4.038244751367961,
+          149.0701273469312,
+          -0.516554775792418
+        ],
+        [
+          -1.2634633053203501,
+          155.73939815937578,
+          1.913464579435941
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_palatopharyngeus_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 182,
+      "sourceWorldBounds": [
+        [
+          -0.06640481396093278,
+          146.30345717577967,
+          -0.016797586348549998
+        ],
+        [
+          1.9809221167138562,
+          155.1055660826117,
+          1.5102351136641934
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_palatopharyngeus_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 181,
+      "sourceWorldBounds": [
+        [
+          -1.9809191151259686,
+          146.3034571805163,
+          -0.016797712590441383
+        ],
+        [
+          0.06640781554882036,
+          155.1055660692617,
+          1.5102352209974788
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_nasal_bone_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 376,
+      "sourceWorldBounds": [
+        [
+          2.6920965499055427e-06,
+          157.3707481097543,
+          7.933588002749568
+        ],
+        [
+          0.8399786924336707,
+          160.50797837511843,
+          10.02716887213239
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_nasal_bone_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 326,
+      "sourceWorldBounds": [
+        [
+          -0.8399772902739739,
+          157.37074809281486,
+          7.933588044865425
+        ],
+        [
+          -1.2899368531105182e-06,
+          160.5079783991708,
+          10.027168844050271
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_palatine_bone_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 389,
+      "sourceWorldBounds": [
+        [
+          0.07838924861305507,
+          154.39778301240676,
+          2.4777872031740067
+        ],
+        [
+          2.703839271162974,
+          158.41306120903542,
+          5.999697249752186
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_palatine_bone_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 339,
+      "sourceWorldBounds": [
+        [
+          -2.7038378690032774,
+          154.39778302482685,
+          2.4777872388140607
+        ],
+        [
+          -0.07838784645335828,
+          158.41306122862676,
+          5.999697227109097
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_maxilla_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 379,
+      "sourceWorldBounds": [
+        [
+          -0.021110202953122714,
+          153.74440516685553,
+          4.006049909488804
+        ],
+        [
+          4.603412037225204,
+          160.5219170528663,
+          9.38725702354665
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_maxilla_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 329,
+      "sourceWorldBounds": [
+        [
+          -4.603410635065507,
+          153.74440509455292,
+          4.006049916190047
+        ],
+        [
+          0.02111160511281951,
+          160.5219170082341,
+          9.3872570702089
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_lacrimal_bone_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 375,
+      "sourceWorldBounds": [
+        [
+          0.6468213782817829,
+          157.31175636808007,
+          6.151901335634954
+        ],
+        [
+          1.7119673975271863,
+          159.82195798312188,
+          7.622789599115435
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_lacrimal_bone_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 325,
+      "sourceWorldBounds": [
+        [
+          -1.7119659953674895,
+          157.3117563672722,
+          6.151901316348141
+        ],
+        [
+          -0.6468199761220861,
+          159.82195797514274,
+          7.622789611612813
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_sphenoid_bone",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 197,
+      "sourceWorldBounds": [
+        [
+          -5.4419330611143115,
+          155.0312340406274,
+          0.22515540365253495
+        ],
+        [
+          5.4419299929254725,
+          162.02487443170614,
+          5.5454035472727305
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 4,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_sternohyoid_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 224,
+      "sourceWorldBounds": [
+        [
+          0.3615664132737779,
+          138.94378886841392,
+          1.816065655241222
+        ],
+        [
+          2.7413387658742034,
+          149.75429177132395,
+          3.6799196960520137
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_sternohyoid_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 221,
+      "sourceWorldBounds": [
+        [
+          -2.741332035868506,
+          138.943788851265,
+          1.81606571209695
+        ],
+        [
+          -0.3615596832680803,
+          149.75429176377475,
+          3.679919866971881
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_sternothyroid_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 225,
+      "sourceWorldBounds": [
+        [
+          0.4182586303517958,
+          138.12867896878217,
+          0.8228972466080113
+        ],
+        [
+          2.2451885165130276,
+          148.00661838528967,
+          3.816940821734627
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_sternothyroid_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 222,
+      "sourceWorldBounds": [
+        [
+          -2.245181786507331,
+          138.12867892403165,
+          0.822897442657389
+        ],
+        [
+          -0.41825190034609905,
+          148.00661842997914,
+          3.8169407212168815
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_thyrohyoid_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 226,
+      "sourceWorldBounds": [
+        [
+          0.7528684814900778,
+          146.65290955554042,
+          0.7100061298951388
+        ],
+        [
+          1.9808451443398958,
+          149.73721732976364,
+          3.2127250113792076
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_thyrohyoid_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 223,
+      "sourceWorldBounds": [
+        [
+          -1.9808384143342,
+          146.65290955430854,
+          0.7100061262373436
+        ],
+        [
+          -0.752861751484382,
+          149.73721732752279,
+          3.2127250348038907
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_omohyoid_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 220,
+      "sourceWorldBounds": [
+        [
+          1.2366912753097985,
+          139.14185959872543,
+          -5.977593640979379
+        ],
+        [
+          10.315844406642777,
+          149.79790444835461,
+          3.3705783387079378
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_omohyoid_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 219,
+      "sourceWorldBounds": [
+        [
+          -10.31583767663708,
+          139.14185974886533,
+          -5.977593770420745
+        ],
+        [
+          -1.2366845453041018,
+          149.79790431761342,
+          3.3705785289358636
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_mylohyoid_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 208,
+      "sourceWorldBounds": [
+        [
+          0.0036647195754418993,
+          149.81967785668635,
+          3.4620245060909003
+        ],
+        [
+          2.6952441381550045,
+          152.61796458143382,
+          7.240443327665265
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_mylohyoid_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 205,
+      "sourceWorldBounds": [
+        [
+          -2.6952359189966497,
+          149.8196778980007,
+          3.4620244818772137
+        ],
+        [
+          -0.003656500417087094,
+          152.6179646211234,
+          7.240443311395584
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_geniohyoid_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 210,
+      "sourceWorldBounds": [
+        [
+          0.006810014576281387,
+          150.06809401639362,
+          2.976643978838405
+        ],
+        [
+          1.131135647500912,
+          151.08182644245562,
+          6.982536152679263
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_geniohyoid_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 207,
+      "sourceWorldBounds": [
+        [
+          -1.131127428342559,
+          150.0680940507887,
+          2.976643961814694
+        ],
+        [
+          -0.006801795417928358,
+          151.0818264434485,
+          6.982536146931112
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_stylohyoid_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 209,
+      "sourceWorldBounds": [
+        [
+          0.9794162925288183,
+          149.89588124235584,
+          -0.6608750370717629
+        ],
+        [
+          4.140654217736812,
+          156.1731720383359,
+          3.4177965122099687
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_stylohyoid_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 206,
+      "sourceWorldBounds": [
+        [
+          -4.140645998578458,
+          149.89588119324185,
+          -0.660874917752214
+        ],
+        [
+          -0.9794080733704644,
+          156.17317211326252,
+          3.4177964348697993
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_anterior_belly_of_digastric_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 216,
+      "sourceWorldBounds": [
+        [
+          0.3282430584436382,
+          149.91729956271703,
+          3.3754993409528375
+        ],
+        [
+          1.5260352762971388,
+          150.5506295275993,
+          6.955373733594956
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_anterior_belly_of_digastric_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 213,
+      "sourceWorldBounds": [
+        [
+          -1.5260291716068122,
+          149.91729952712396,
+          3.3754993495412458
+        ],
+        [
+          -0.32823695375331163,
+          150.55062958848617,
+          6.955373727151054
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_posterior_belly_of_digastric_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 217,
+      "sourceWorldBounds": [
+        [
+          1.1945789559919002,
+          150.26260626563095,
+          -2.5940481678563185
+        ],
+        [
+          5.888707565416374,
+          156.6747010415326,
+          3.714937659442027
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_posterior_belly_of_digastric_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 214,
+      "sourceWorldBounds": [
+        [
+          -5.888701460726048,
+          150.26260613848544,
+          -2.5940480963415116
+        ],
+        [
+          -1.1945728513015736,
+          156.6747011117475,
+          3.71493753550787
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_intermediate_tendon_of_digastric_muscle_l",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 215,
+      "sourceWorldBounds": [
+        [
+          0.9397028014188169,
+          149.90757945001926,
+          3.1944268950818366
+        ],
+        [
+          1.7296998077912555,
+          150.65658462515017,
+          3.905965925064897
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_intermediate_tendon_of_digastric_muscle_r",
+      "sourceFile": "MuscularSystem100.fbx",
+      "sourceNode": 212,
+      "sourceWorldBounds": [
+        [
+          -1.729693703100929,
+          149.90757944877006,
+          3.194426892247911
+        ],
+        [
+          -0.9396966967284903,
+          150.65658462966846,
+          3.905965929546713
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_manubrium_of_sternum",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1132,
+      "sourceWorldBounds": [
+        [
+          -2.8648234189165325,
+          137.5978115252717,
+          6.7450672701328696
+        ],
+        [
+          2.840954535745844,
+          142.9962773189851,
+          11.968120719432163
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_body_of_sternum",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1146,
+      "sourceWorldBounds": [
+        [
+          -2.4663818126641877,
+          126.56336867679552,
+          10.49849881534776
+        ],
+        [
+          2.4684539742273284,
+          138.4986442916197,
+          14.803319549401484
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_xiphoid_process",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1141,
+      "sourceWorldBounds": [
+        [
+          -1.083987501193893,
+          124.694755622486,
+          13.173645875868749
+        ],
+        [
+          1.086059208737272,
+          126.96322533780317,
+          14.709610968731653
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_first_rib_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1028,
+      "sourceWorldBounds": [
+        [
+          1.627348585978198,
+          138.71434106609337,
+          -3.353791564599435
+        ],
+        [
+          7.1175440323461485,
+          144.65408833377757,
+          3.7129405825108535
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_first_rib_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 967,
+      "sourceWorldBounds": [
+        [
+          -7.11754888428964,
+          138.71434238369397,
+          -3.3537924792673017
+        ],
+        [
+          -1.6273534774704155,
+          144.6540866180543,
+          3.712942408983138
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_second_rib_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1038,
+      "sourceWorldBounds": [
+        [
+          1.7274344123117098,
+          134.50919612867696,
+          -4.528931974718623
+        ],
+        [
+          9.94008182855672,
+          143.63986812128022,
+          6.66919967245534
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_second_rib_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 978,
+      "sourceWorldBounds": [
+        [
+          -9.940087716846804,
+          134.50919745418923,
+          -4.528932504224959
+        ],
+        [
+          -1.7274398498860846,
+          143.6398671262073,
+          6.6692012714090385
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_third_rib_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1073,
+      "sourceWorldBounds": [
+        [
+          1.70414627309858,
+          131.07262127403783,
+          -6.279155804794378
+        ],
+        [
+          11.254552906444982,
+          141.65053950199743,
+          7.643292217545063
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_third_rib_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1015,
+      "sourceWorldBounds": [
+        [
+          -11.254556461923652,
+          131.07262305144994,
+          -6.279156321133618
+        ],
+        [
+          -1.7041492181214437,
+          141.65053838778746,
+          7.643294157947412
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_fourth_rib_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1033,
+      "sourceWorldBounds": [
+        [
+          1.579788608117549,
+          127.75176121833033,
+          -7.701114365630102
+        ],
+        [
+          12.538290103788686,
+          139.46082483009002,
+          9.279835039285977
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_fourth_rib_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 972,
+      "sourceWorldBounds": [
+        [
+          -12.53829404008427,
+          127.75176324385677,
+          -7.701114729100475
+        ],
+        [
+          -1.5797919033454777,
+          139.4608234392926,
+          9.279837445547267
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_fifth_rib_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1022,
+      "sourceWorldBounds": [
+        [
+          1.549574471805708,
+          124.13114924430262,
+          -8.722753006552498
+        ],
+        [
+          13.130794086061353,
+          136.72960783690115,
+          10.210647903643968
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_fifth_rib_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 960,
+      "sourceWorldBounds": [
+        [
+          -13.130799892528124,
+          124.13115184228343,
+          -8.722753287423362
+        ],
+        [
+          -1.5495796657337975,
+          136.72960674813856,
+          10.210650217609029
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_sixth_rib_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1046,
+      "sourceWorldBounds": [
+        [
+          1.5731493555972156,
+          120.58149996717331,
+          -9.734211987408642
+        ],
+        [
+          13.88156093690603,
+          134.44127560991856,
+          9.886513949452153
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_sixth_rib_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 988,
+      "sourceWorldBounds": [
+        [
+          -13.881567478153825,
+          120.58149964668918,
+          -9.734211209562364
+        ],
+        [
+          -1.5731562522181815,
+          134.44127569599442,
+          9.886514630653117
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_seventh_rib_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1041,
+      "sourceWorldBounds": [
+        [
+          1.645501417382814,
+          117.14483547836025,
+          -9.646568242547168
+        ],
+        [
+          14.16401267694932,
+          131.57997674569904,
+          8.515878578699317
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_seventh_rib_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 983,
+      "sourceWorldBounds": [
+        [
+          -14.164016575787748,
+          117.14483534154832,
+          -9.646568037578678
+        ],
+        [
+          -1.6455045647598068,
+          131.57997681521653,
+          8.515879401539362
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_eighth_rib_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1102,
+      "sourceWorldBounds": [
+        [
+          1.7409842107776177,
+          113.52981245650335,
+          -9.638121480443651
+        ],
+        [
+          13.529005121730492,
+          128.68289619727503,
+          6.704051848145281
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_eighth_rib_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1079,
+      "sourceWorldBounds": [
+        [
+          -13.529005697358349,
+          113.52981230291397,
+          -9.638121720582845
+        ],
+        [
+          -1.740984842103746,
+          128.68289636739732,
+          6.704051206532589
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_ninth_rib_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1095,
+      "sourceWorldBounds": [
+        [
+          1.817484785808757,
+          110.38497092751763,
+          -9.33128993815557
+        ],
+        [
+          13.338993531071392,
+          125.89753147482091,
+          3.9083078324625733
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_ninth_rib_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1084,
+      "sourceWorldBounds": [
+        [
+          -13.338994741013098,
+          110.38497296044565,
+          -9.331290593095282
+        ],
+        [
+          -1.8174862373272997,
+          125.89753156039431,
+          3.9083091399628955
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_tenth_rib_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1098,
+      "sourceWorldBounds": [
+        [
+          1.8531861138564274,
+          107.2434608761789,
+          -8.520650213710846
+        ],
+        [
+          13.145633825068685,
+          122.92749582860829,
+          2.418266551237796
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_tenth_rib_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1089,
+      "sourceWorldBounds": [
+        [
+          -13.145635641465915,
+          107.24346226392221,
+          -8.520650585263198
+        ],
+        [
+          -1.853188106219477,
+          122.92749574350697,
+          2.41826811912882
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_eleventh_rib_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1121,
+      "sourceWorldBounds": [
+        [
+          1.988585027449644,
+          105.90534937426897,
+          -7.825517490207508
+        ],
+        [
+          11.97187518461185,
+          119.1081227671593,
+          0.2932238215342702
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_eleventh_rib_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1108,
+      "sourceWorldBounds": [
+        [
+          -11.971875401978332,
+          105.90534914126795,
+          -7.8255178064540925
+        ],
+        [
+          -1.9885848223594191,
+          119.10812254749796,
+          0.29322246448900025
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_twelfth_rib_l",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1126,
+      "sourceWorldBounds": [
+        [
+          1.942780933574662,
+          105.64457205333945,
+          -6.811444163702706
+        ],
+        [
+          8.543671719701123,
+          115.43327411386801,
+          -2.3724089853411026
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_twelfth_rib_r",
+      "sourceFile": "SkeletalSystem100.fbx",
+      "sourceNode": 1114,
+      "sourceWorldBounds": [
+        [
+          -8.54367095614754,
+          105.64457215564818,
+          -6.811444539027136
+        ],
+        [
+          -1.94277964807479,
+          115.43327382316599,
+          -2.3724089386445004
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_right_atrium",
+      "sourceFile": "CardioVascular41.fbx",
+      "sourceNode": 407,
+      "sourceWorldBounds": [
+        [
+          -3.6799246770132807,
+          124.6168335791868,
+          -0.7729278073443371
+        ],
+        [
+          0.7875626316302875,
+          134.4780037079955,
+          6.599661558693875
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_right_ventricle",
+      "sourceFile": "CardioVascular41.fbx",
+      "sourceNode": 408,
+      "sourceWorldBounds": [
+        [
+          -2.1549932756274464,
+          123.894484970959,
+          1.417446481038053
+        ],
+        [
+          6.1009827271249755,
+          133.13635098975791,
+          8.120830035619909
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_left_atrium",
+      "sourceFile": "CardioVascular41.fbx",
+      "sourceNode": 412,
+      "sourceWorldBounds": [
+        [
+          -2.374807199460428,
+          126.29198616810316,
+          -3.196873300640259
+        ],
+        [
+          6.56668760726875,
+          133.814985556458,
+          5.466617250435867
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_left_ventricle",
+      "sourceFile": "CardioVascular41.fbx",
+      "sourceNode": 413,
+      "sourceWorldBounds": [
+        [
+          0.2471989979549562,
+          123.67344713130622,
+          -1.5569559003602578
+        ],
+        [
+          8.232831913721983,
+          132.63455146315107,
+          7.184149854575142
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    }
+  ],
+  "source_triangle_count": 955976,
+  "display_transform": {
+    "x": "esquerda anatômica",
+    "y": "superior",
+    "z": "anterior",
+    "transform": {
+      "source": "FBX world centimetres",
+      "center": [
+        0.0,
+        142.0,
+        0.0
+      ],
+      "scale": 0.2
+    },
+    "preserved": "Uma única transformação comum, sem ajuste por peça."
+  }
+}

@@ -1,0 +1,87 @@
+from pathlib import Path
+import json
+ROOT=Path(__file__).resolve().parents[3]
+OUT=ROOT/'site/assets/respiratory'
+e=json.loads((OUT/'practice-evidence.json').read_text())
+req=json.loads((OUT/'requirements.json').read_text())
+by={r['id']:r for r in e['targets']}
+def ids(a,b=None):return [f'R{n:03d}' for n in range(a,(b or a)+1)]
+def lecture(targets,source,time,summary,relation='Discussão do grupo anatômico; não é confirmação de cada nome nem revisão integral do áudio.'):
+ for i in targets:
+  by[i]['lecture'].append(dict(source=source,time=time,summary=summary,relation=relation,audioReviewed=False))
+def note(targets,text):
+ for i in targets:by[i]['readingNotes'].append(text)
+def visual(targets,page,text):
+ for i in targets:
+  item=dict(kind='slide',source='respiratorio',page=page,summary=text)
+  by[i]['visuals'].append(item)
+  if dict(source='respiratorio',page=page) not in by[i]['pages']:by[i]['pages'].append(dict(source='respiratorio',page=page))
+for r in by.values():r['lecture']=[];r['visuals']=[];r['readingNotes']=[]
+lecture(ids(1,11),'R1','09:29–11:42','Esqueleto osteocartilaginoso e acidentes externos do nariz.')
+lecture(ids(30,33),'R2','00:03–00:59','Músculos nasais e reconhecimento superficial.')
+lecture(ids(12,13),'R2','00:59–02:15','Vestíbulo, vibrissas e revestimento cutâneo.')
+lecture(ids(14,27)+ids(218,220),'R2','03:49–07:00','Ossos da parede nasal, septo, etmoide, conchas e palato.')
+lecture(ids(28,29),'R2','07:15–09:05','Mucosa olfatória, região respiratória e limpeza mucociliar.')
+lecture(ids(34,41)+ids(221),'R2','15:35–19:42','Seios e locais de drenagem; conferir o recesso esfenoetmoidal no slide36.')
+lecture(ids(42,44)+ids(53,54),'R2','19:42–21:12','Divisões e comunicações da faringe.')
+lecture(ids(49,52),'R2','23:26–25:07','Tonsilas e tecido linfoide faríngeo; adenoide.')
+lecture(ids(55,60),'R2','25:07–26:13','Constritores e músculos longitudinais da faringe.')
+lecture(ids(61,89)+ids(217),'R2','27:29–35:02','Cartilagens laríngeas, ligamentos, epiglote e processos aritenóideos.')
+lecture(ids(90,97)+ids(202,209),'R2','35:02–37:38','Músculos extrínsecos e intrínsecos; orientação explícita para estudar identificação prática.')
+lecture(ids(98,103)+ids(222),'R2','37:38–40:48','Pregas, proteção e cavidade laríngea; nomenclatura deve seguir a figura e a revisão anatômica.')
+lecture(ids(215,216),'R2','42:36–43:02','Vascularização da laringe.')
+lecture(ids(210,214),'R2','43:02–43:32','Ramos vagais da laringe; a volta sob o arco aórtico refere-se ao lado esquerdo.')
+lecture(ids(104,109),'R3','00:00–01:36','Traqueia cervical/torácica, cartilagens e parede posterior.')
+lecture(ids(110),'R3','01:36–02:16','Carina e bifurcação observadas por via endoscópica.')
+lecture(ids(111,118),'R3','02:44–04:11','Brônquios principais e lobares, assimetria direita/esquerda.')
+lecture(ids(119,137),'R3','04:11–05:14','Brônquios segmentares e importância da identificação prática.')
+lecture(ids(192,196),'R3','05:14–06:29','Bronquíolos, perda de cartilagem e transição para zona de troca.')
+lecture(ids(138,150)+ids(153,154)+ids(158)+ids(160),'R4','01:55–03:00','Lobos, fissuras, faces e língula.')
+lecture(ids(151,152)+ids(155,157),'R4','03:00–05:16','Hilo, raiz, vasos/brônquios e impressões nas faces mediastinais.')
+lecture(ids(161,168),'R4','05:16–08:05','Continuidade dos folhetos pleurais e partes da pleura parietal.')
+lecture(ids(165)+ids(169),'R4','08:05–09:25','Pleura cervical e membrana suprapleural.')
+lecture(ids(170),'R4','09:25–10:38','Ligamento pulmonar, inferior à raiz; terminologia revisada.')
+lecture(ids(171,172),'R4','10:38–11:29','Recessos e expansão pulmonar.')
+lecture(ids(177,178),'R4','12:31–13:55','Circulação brônquica e nutrição das estruturas pulmonares.')
+lecture(ids(173,176),'R4','13:55–14:54','Circulação pulmonar e oxigenação.')
+lecture(ids(179,184)+ids(199,201),'R4','14:54–17:14','Plexos, modulação autonômica, músculos respiratórios e sensibilidade pleural.')
+lecture(ids(185,191),'R4','17:14–18:39','Vias linfáticas superficiais e profundas e grupos de linfonodos.')
+lecture(ids(197,198),'R4','18:39–20:32','Pneumócitos e surfactante; imaturidade pulmonar.')
+lecture(ids(199,201),'R4','20:32–25:57','Mecânica ventilatória, pressões, músculos e particularidades neonatais.')
+visual(ids(1,5),11,'Fotografias com raiz, dorso, ápice, asa e narinas identificados.')
+visual(ids(6,11),10,'Esqueleto nasal com osso nasal e cartilagens septal, lateral, alares maior e menores.')
+visual(ids(22,24)+ids(34,41)+ids(221),36,'Figura explicita drenagem dos seios, recesso esfenoetmoidal, bolha e hiato semilunar; ducto nasolacrimal termina no meato inferior.')
+visual(ids(45,50)+ids(53),44,'Vista sagital da nasofaringe com toro, óstio e pregas. A caixa sobre perilinfa contém erro e não serve de gabarito.')
+visual(ids(90,97)+ids(202,209),66,'Tabela identifica músculos, mas agrupa ações de modo simplificado; cricotireóideo é tensor e cricoaritenóideo posterior é abdutor.')
+visual(ids(98,103)+ids(222),72,'Corte laríngeo e laringoscopia mostram pregas, ventrículo, vestíbulo e cavidade infraglótica; diferenciar glote de rima.')
+visual(ids(210,214),81,'Diagrama do vago, laríngeo superior e ramos, recorrente esquerdo sob arco aórtico e continuação inferior.')
+visual(ids(113,115)+ids(119,128),92,'Diagrama direito separa dez territórios segmentares nos três lobos.')
+visual(ids(116,117)+ids(129,137),93,'Diagrama esquerdo une apical/posterior e separa basal medial/anterior; é esta convenção do material docente.')
+visual(ids(138,140)+ids(143,146)+ids(148,149)+ids(158)+ids(160),103,'Vista costal direita distingue três lobos, duas fissuras, ápice, base e margem anterior.')
+visual(ids(141,146)+ids(150)+ids(153,154)+ids(158)+ids(160),104,'Vista costal esquerda distingue fissura oblíqua, língula, incisura cardíaca e margens anterior e inferior.')
+visual(ids(147)+ids(151,152),105,'Face mediastinal direita mostra áreas do hilo e componentes da raiz; texto usa os termos como sinônimos, mas a revisão distingue região e conjunto.')
+visual(ids(156),108,'Sulcos direitos para cavas, arco da ázigos e esôfago em foto e esquema.')
+visual(ids(155)+ids(157),109,'Impressão cardíaca e sulcos esquerdos para arco aórtico, subclávia e esôfago.')
+visual(ids(170),117,'Prega pleural inferior à raiz vista na face mediastinal esquerda; revisão esclarece continuidade dos folhetos.')
+note(ids(192),'O bronquíolo terminal encerra a zona condutora; a zona respiratória começa no bronquíolo respiratório. Não reproduzir a inversão de termos presente na ASR R1.')
+note(ids(41),'Recesso esfenoetmoidal é superior/posterior à concha superior; não equivale ao meato superior.')
+note(ids(45),'A tuba auditiva comunica nasofaringe e orelha média, equalizando pressão e permitindo depuração de secreções. Não drena perilinfa dos canais semicirculares, ao contrário da caixa do slide44.')
+note(ids(90),'A principal ação do cricotireóideo é alongar/tensionar as pregas vocais. Evitar classificá-lo apenas como adutor/esfíncter.')
+note(ids(97),'O cricoaritenóideo posterior é o único par de músculos que abduz as pregas vocais.')
+note(ids(99,102),'Prega vestibular é superior à vocal; ventrículo situa-se entre elas. Glote compreende pregas vocais e rima da glote; rima é a abertura.')
+note(ids(104,110),'Referência usual: início em C6 e bifurcação próxima ao plano do ângulo esternal/T4–T5. O nível varia com respiração e postura; T6 no slide84 não é referência fixa universal.')
+note(ids(129,137),'Variação segmentar esquerda: a aula mostra apicoposterior unido e basais medial/anterior separados. Outros atlas podem unir os basais em anteromedial; isto não torna as classificações intercambiáveis sem explicação.')
+note(ids(151),'Hilo é a área na face mediastinal por onde passam os componentes. Raiz é o conjunto de estruturas que liga o pulmão ao mediastino.')
+note(ids(152),'Um brônquio sozinho não representa a raiz: também reconhecer artéria e veias pulmonares, vasos brônquicos, nervos e linfáticos.')
+note(ids(161,172),'Uma superfície denominada Pleura no acervo não comprova separação de folhetos, cavidade e recessos. Usar figura docente quando a geometria não sustenta a identificação.')
+note(ids(170),'Ligamento pulmonar é uma dupla prega pleural que prolonga inferiormente a bainha da raiz, na continuidade pleural mediastinal. Não é um cordão sólido nem uma lâmina isolada de pleura visceral.')
+note(ids(197,198),'Pneumócito I é especializado na barreira delgada; tipo II produz surfactante. A deficiência favorece colapso e baixa complacência; ruptura alveolar não é seu mecanismo básico.')
+note(ids(210,214),'O laríngeo recorrente direito contorna a artéria subclávia direita; o esquerdo, o arco aórtico. Ambos continuam como nervos laríngeos inferiores ao entrar na laringe.')
+note(ids(199,201),'Inspiração: expansão torácica reduz transitoriamente pressão alveolar abaixo da atmosférica. Expiração tranquila: recuo elástico eleva a pressão alveolar. Diferenciar pressão alveolar de intrapleural.')
+e['reviewSummary']={'slidesVisuallyInspected':[10,11,13,36,44,66,72,81,92,93,102,103,104,105,108,109,117],'audioReview':'Não houve conferência integral do áudio; timestamps vieram de segmentos ASR lidos e cotejados com slides.', 'meshReview':'Esta auditoria é de conteúdo e fontes; não valida a anatomia de cada malha.'}
+e['sources']+= [{'id':'uams_head','label':'UAMS — Visceral Structures of the Head and Neck','type':'reference','url':'https://medicine.uams.edu/neuroscience/education/medical-school-courses/human-structure-module/anatomy-tables/viscera-tables/visceral-structures-of-the-head-and-neck/'},{'id':'uams_thorax','label':'UAMS — Visceral Structures of the Thorax','type':'reference','url':'https://medicine.uams.edu/neuroscience/education/medical-school-courses/human-structure-module/anatomy-tables/viscera-tables/visceral-structures-of-the-thorax/'},{'id':'utah_larynx','label':'University of Utah — Digital Anatomy, Unit 3, larynx','type':'reference','pageCount':88,'url':'https://anatomy.med.utah.edu/diganat/SOM/unit_3/lec/03_unit_2008.pdf'},{'id':'openstax_ear','label':'OpenStax — Sensory Perception: ouvido médio','type':'reference','url':'https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception'}]
+for a in req['alvos']:
+ by[a['id']]['scopeSource']={'source':a['fonte'],'page':a['pagina']}
+ if a['pagina'] and {'source':'respiratorio','page':a['pagina']} not in by[a['id']]['pages']:by[a['id']]['pages'].insert(0,{'source':'respiratorio','page':a['pagina']})
+(OUT/'practice-evidence.json').write_text(json.dumps(e,ensure_ascii=False,indent=2)+'\n')
+print('evidence',len(by),'lecture-linked',sum(bool(t['lecture']) for t in by.values()),'visually supported',sum(bool(t['visuals']) for t in by.values()))

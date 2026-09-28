@@ -4,6 +4,13 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { initStudy } from './study.js';
 
 const $ = (id) => document.getElementById(id);
+const params = new URLSearchParams(location.search);
+const respiratory = params.get('system') === 'respiratory';
+const larynx = respiratory && params.get('detail') === 'larynx';
+const system = respiratory ? 'respiratory' : 'circulatory';
+const assetRoot = larynx ? 'assets/larynx/' : respiratory ? 'assets/respiratory/' : 'assets/';
+const contentRoot = respiratory ? 'assets/respiratory/' : 'assets/';
+const modelFile = respiratory ? 'model.glb' : 'heart.glb';
 const groups = {
   camaras: 'Câmaras cardíacas', grandes: 'Grandes vasos',
   coronarias: 'Artérias coronárias', veias: 'Veias cardíacas',
@@ -39,6 +46,8 @@ function fail(error) {
 }
 
 function tissueColor(part) {
+  if(part.tissueColor)return part.tissueColor;
+  if(respiratory)return part.color || '#cda092';
   if (part.group === 'contexto') return part.kind === 'veia' ? '#897b94' : '#bc8675';
   if (part.group === 'camaras') return '#a36661';
   if (part.group === 'valvas') return '#ddd0b5';
@@ -55,7 +64,7 @@ function refreshMaterials() {
   for (const part of entries) {
     const mesh = meshes.get(part.id);
     const material = mesh.material;
-    let opacity = part.group === 'camaras' ? Math.max(0.015, 1 - state.transparency / 100) : 1;
+    let opacity = (catalog.translucencyGroups || ['camaras']).includes(part.group) ? Math.max(0.015, 1 - state.transparency / 100) : 1;
     if (state.selected && state.selected !== part.id) opacity = Math.min(opacity, 0.17);
     if (state.selected === part.id) opacity = 1;
     const transparent = opacity < 0.995;
@@ -197,34 +206,36 @@ function preset(name, animate = true) {
   state.preset = name;
   state.selected = null;
   selectPart(null);
-  state.transparency = name === 'coronarias' ? 72 : 0;
-  state.clipping = name === 'interior';
+  const custom = catalog.presets?.find(p=>p.id===name);
+  state.transparency = custom?.transparency ?? (name === 'coronarias' ? 72 : 0);
+  state.clipping = custom ? Boolean(custom.clipping) : name === 'interior';
   state.axis = 'z'; state.cut = 54; state.flipped = false;
   for (const part of entries) {
-    const visible = name === 'valvas' ? ['valvas', 'papilares'].includes(part.group)
+    let visible = custom ? (custom.groups ? custom.groups.includes(part.group) : part.defaultVisible !== false) : name === 'valvas' ? ['valvas', 'papilares'].includes(part.group)
       : name === 'coronarias' ? ['camaras', 'coronarias', 'veias'].includes(part.group)
       : name === 'interior' ? ['camaras', 'valvas', 'papilares'].includes(part.group)
       : name === 'contexto' ? ['camaras', 'grandes', 'contexto'].includes(part.group)
       : part.defaultVisible !== false;
+    if(respiratory && !larynx && name==='exterior' && part.group==='respiracao' && part.id!=='resp_diaphragm_node')visible=false;
     meshes.get(part.id).visible = visible;
   }
   document.querySelectorAll('[data-preset]').forEach(button => {
     button.classList.toggle('active', button.dataset.preset === name);
     button.setAttribute('aria-pressed', String(button.dataset.preset === name));
   });
-  $('mode-note').textContent = name === 'valvas' ? 'Folhetos disponíveis · inserções das cordas em revisão'
+  $('mode-note').textContent = custom?.note || (name === 'valvas' ? 'Folhetos disponíveis · inserções das cordas em revisão'
     : name === 'coronarias' ? 'Paredes transparentes para observar os vasos'
     : name === 'interior' ? 'Corte visual · detalhes internos simplificados'
     : name === 'contexto' ? 'Vasos do roteiro · contexto cervical, torácico e abdominal'
-    : 'Geometria original · cores ilustrativas';
+    : 'Geometria original · cores ilustrativas');
   $('transparency').value = state.transparency;
   $('transparency-output').textContent = `${state.transparency}%`;
   updateClipping();
   syncVisibility();
   stopAutoRotate();
-  $('view-name').textContent = name === 'valvas' ? 'Valvas · vista oblíqua' : 'Vista anterior oblíqua';
+  $('view-name').textContent = custom ? `${custom.label} · vista de estudo` : name === 'valvas' ? 'Valvas · vista oblíqua' : 'Vista anterior oblíqua';
   activeView();
-  cameraTo(currentBounds(), name === 'valvas' ? [0.45, 0.65, 1] : [0.26, 0.12, 1], animate);
+  cameraTo(currentBounds(), custom?.direction || (name === 'valvas' ? [0.45, 0.65, 1] : [0.26, 0.12, 1]), animate);
 }
 
 function reset() {
@@ -401,8 +412,8 @@ function attachEvents() {
       if (event.key==='ArrowRight') controls.rotateLeft(-angle);
       if (event.key==='ArrowUp') controls.rotateUp(angle);
       if (event.key==='ArrowDown') controls.rotateUp(-angle);
-      if (['+','='].includes(event.key)) controls.dollyIn(1.12);
-      if (['-','_'].includes(event.key)) controls.dollyOut(1.12);
+      if (['+','='].includes(event.key)) controls.dollyIn(1/1.12);
+      if (['-','_'].includes(event.key)) controls.dollyOut(1/1.12);
       controls.update(); $('view-name').textContent='Ângulo livre'; activeView(); requestFrame();
     }
   });
@@ -414,6 +425,45 @@ function initAbout() {
   $('about-close').addEventListener('click', () => $('about').close());
   $('about').addEventListener('click', event => {if (event.target === $('about')) {const r = $('about').getBoundingClientRect(); if (event.clientX<r.left || event.clientX>r.right || event.clientY<r.top || event.clientY>r.bottom) $('about').close();}});
   $('retry').addEventListener('click', () => location.reload());
+}
+
+
+function configureSystem() {
+  const title=larynx ? 'Laringe em detalhe' : respiratory ? 'Sistema respiratório' : 'Coração e circulação';
+  document.title=title+' · Atlas de estudo';
+  document.querySelector('h1').textContent=title;
+  document.querySelector('.chapter').textContent=respiratory ? '02 / RESPIRATÓRIO' : '01 / CIRCULATÓRIO';
+  document.querySelector('.loading strong').textContent=respiratory ? 'Preparando as vias respiratórias' : 'Preparando o coração';
+  if(respiratory){
+    document.querySelector('.viewer-caption .eyebrow').textContent='EXPLORAR O RESPIRATÓRIO';
+    $('heart-canvas').setAttribute('aria-label','Anatomia respiratória tridimensional. Arraste para girar, use a roda para zoom e clique para selecionar. Setas giram; mais e menos alteram o zoom.');
+    $('labels').title='Nomes das estruturas principais';$('labels').setAttribute('aria-label','Nomes das estruturas principais');
+    document.querySelector('.slider-label[for=transparency]').firstChild.textContent='Transparência dos envoltórios ';
+    const detailLink=document.querySelector('.reference-link');
+    detailLink.href=larynx ? 'atlas.html?system=respiratory' : 'atlas.html?system=respiratory&detail=larynx';
+    detailLink.innerHTML=larynx ? '<span>VOLTAR AO CONJUNTO</span><strong>Respiratório completo ↗</strong><small>Vias aéreas, pulmões e contexto torácico.</small>' : '<span>ESTUDO EM DETALHE</span><strong>Laringe · outro acervo 3D ↗</strong><small>Conjunto independente BodyParts3D: cartilagens, músculos e ligamentos.</small>';
+    $('empty-reset').textContent='Restaurar o modelo';
+    $('selection-empty').querySelector('p').textContent='Selecione uma peça no modelo ou na lista para destacá-la e explorar suas relações.';
+    document.querySelector('.coverage-card>a').href='atlas.html?system=respiratory&mode=route';
+    document.querySelector('.coverage-card>a').textContent='Consultar roteiro respiratório ↗';
+    $('about').querySelector('h2').textContent='Anatomia respiratória em 3D';
+    $('about').querySelectorAll('p')[0].innerHTML='Peças prontas do acervo anatômico, com origem e posição preservadas. Use transparência e ocultação para observar as estruturas internas.';
+    $('about').querySelectorAll('p')[1].textContent='O roteiro de estudo parte dos slides da professora e distingue os complementos locais. A presença de uma peça não confirma todos os detalhes anatômicos pedidos.';
+    $('about').querySelectorAll('p')[2].textContent='As cores são ilustrativas. A câmera e os cortes ajudam a estudar a geometria disponível; não acrescentam estruturas ausentes.';
+    $('about').querySelectorAll('.dialog-links a')[1].href='atlas.html?system=respiratory&mode=route';
+    const download=$('about').querySelector('a[download]');download.href=assetRoot+modelFile;download.download=larynx?'laringe-bodyparts3d.glb':'respiratorio-atlas.glb';
+    if(larynx){
+      $('about').querySelector('h2').textContent='Laringe em detalhe · BodyParts3D';
+      $('about').querySelectorAll('p')[0].textContent='Conjunto independente BodyParts3D. As peças mantêm as relações da própria fonte; não foram fundidas ao modelo respiratório Z-Anatomy.';
+      document.querySelector('.viewer-caption .eyebrow').textContent='LARINGE · MODELO INDEPENDENTE';
+    }
+    document.querySelector('.footer>span:nth-child(2)').textContent=larynx?'Geometria: BodyParts3D · CC BY 4.0':'Geometria: Z-Anatomy · CC BY-SA 4.0';
+  }
+  if(catalog.presets){
+    const holder=document.querySelector('.presets');holder.replaceChildren();
+    for(const p of catalog.presets){const b=document.createElement('button');b.className='preset';b.dataset.preset=p.id;b.textContent=p.label;b.setAttribute('aria-pressed','false');holder.append(b);}
+  }
+  document.querySelector('.footer>span').textContent='Atlas de estudo · '+title+' / v0.3';
 }
 
 async function init() {
@@ -445,12 +495,14 @@ async function init() {
     renderer.setSize(w,h,false); camera.aspect=w/h; camera.updateProjectionMatrix(); requestFrame();
   };
   new ResizeObserver(resize).observe(viewer); resize();
-  const response = await fetch('assets/catalog.json');
+  const response = await fetch(assetRoot+'catalog.json');
   if (!response.ok) throw new Error('O catálogo local não foi encontrado. Reabra pelo iniciador do projeto.');
   catalog = await response.json(); entries = catalog.parts;
+  if(catalog.groups){for(const key of Object.keys(groups))delete groups[key];Object.assign(groups,catalog.groups);}
+  configureSystem();
   $('limitations-list').innerHTML = catalog.limitations.map(t=>`<li>${escapeHTML(t)}</li>`).join('');
   $('sources-list').innerHTML = catalog.sources.map(s=>`<li><a href="${escapeHTML(s.url)}" target="_blank" rel="noopener">${escapeHTML(s.label)}</a></li>`).join('');
-  const gltf = await new GLTFLoader().loadAsync('assets/heart.glb', event => {if(event.total) $('loading-progress').textContent=`Carregando peças locais · ${Math.round(event.loaded/event.total*100)}%`;});
+  const gltf = await new GLTFLoader().loadAsync(assetRoot+modelFile, event => {if(event.total) $('loading-progress').textContent=`Carregando peças locais · ${Math.round(event.loaded/event.total*100)}%`;});
   gltf.scene.traverse(object=> {
     if (!object.isMesh) return;
     const part=entries.find(p=>p.id===object.userData.partId || p.id===object.name);
@@ -460,7 +512,7 @@ async function init() {
     object.geometry.computeBoundingBox(); object.geometry.computeBoundingSphere();
     if(part.defaultVisible !== false)fullBounds.union(object.geometry.boundingBox);
     meshes.set(part.id,object);
-    if(part.group==='camaras') {
+    if((catalog.labelGroups || ['camaras']).includes(part.group)) {
       const label=document.createElement('span'); label.className='mesh-label';label.textContent=part.label;label.hidden=true;
       $('labels-layer').appendChild(label); labels.set(part.id,label);
     }
@@ -495,7 +547,7 @@ async function init() {
       syncVisibility();
     },
     showAll:()=>{entries.forEach(p=>meshes.get(p.id).visible=true);syncVisibility();},
-    showContext:()=>preset('contexto',false),
+    showContext:()=>preset(respiratory?'torax':'contexto',false),
     showHeart:()=>preset('exterior',false),
     isolate:id=>{if(!meshes.has(id))return;entries.forEach(p=>meshes.get(p.id).visible=p.id===id);selectPart(id);syncVisibility();},
     view:name=>{
@@ -541,15 +593,19 @@ async function init() {
   });
   window.heartViewer=viewerAPI;
   try {
-    const requirementsResponse=await fetch('auditoria/matriz_coracao.json');
+    const requirementsResponse=await fetch(respiratory ? contentRoot+'requirements.json' : 'auditoria/matriz_coracao.json');
     if(!requirementsResponse.ok)throw new Error('Não foi possível ler a matriz do roteiro.');
     const requirements=await requirementsResponse.json();
     let evidence=null;
     try {
-      const evidenceResponse=await fetch('assets/practice-evidence.json');
+      const evidenceResponse=await fetch(contentRoot+'practice-evidence.json');
       if(evidenceResponse.ok)evidence=await evidenceResponse.json();
     } catch(error) { console.warn('Referências de aula indisponíveis nesta abertura.',error); }
-    initStudy({parts:entries,requirements:requirements.alvos,viewer:viewerAPI,evidence});
+    initStudy({parts:entries,requirements:requirements.alvos,viewer:viewerAPI,evidence,system,storageId:larynx?'larynx':system,groupNames:groups,scopeNote:requirements.scopeNote || requirements.metodo?.oficialidade});
+    const requestedPart=new URLSearchParams(location.search).get('part');
+    if(requestedPart && meshes.has(requestedPart)){selectPart(requestedPart);cameraTo(meshes.get(requestedPart).geometry.boundingBox);}
+    if(new URLSearchParams(location.search).get('mode')==='practice')window.heartStudy.openPractice();
+    if(new URLSearchParams(location.search).get('mode')==='route')window.heartStudy.openRoute();
   } catch(error) {
     console.error(error);
     $('model-status').textContent='Cena pronta; módulo de prática indisponível. Recarregue a página.';

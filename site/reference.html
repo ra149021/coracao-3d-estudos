@@ -11,7 +11,7 @@
 </head>
 <body>
   <header class="topbar">
-    <a class="back" href="./">← <span>Voltar ao atlas</span></a>
+    <a class="back" href="atlas.html">← <span>Voltar ao atlas</span></a>
     <div class="heading"><span class="eyebrow">ACERVO DE REFERÊNCIA · CORAÇÃO</span><h1>Cortes anatômicos</h1></div>
     <button id="about-button" class="quiet">Fontes e contexto ↗</button>
   </header>
@@ -36,7 +36,7 @@
       <div id="viewport" class="viewport">
         <canvas id="reference-canvas" tabindex="0" aria-label="Modelo tridimensional. Arraste para girar; roda do mouse para zoom; botão direito para mover. Use as setas para girar, mais ou menos para zoom, R para enquadrar."></canvas>
         <div id="loading" class="loading" role="status"><span class="spinner"></span><strong>Preparando os detalhes</strong><span id="progress">Abrindo a referência local…</span></div>
-        <div id="error" class="error" role="alert" hidden><span class="eyebrow">ACERVO COMPLEMENTAR</span><h2 id="error-title">Referência local não instalada</h2><p id="error-message">Este material é disponibilizado separadamente. O atlas da Universidade de Minnesota oferece o arquivo MC_VALVES para download.</p><a class="primary-link" href="https://www.vhlab.umn.edu/atlas/echocardiography-tutorial/exam-views-models.shtml" target="_blank" rel="noopener noreferrer">Abrir a fonte oficial ↗</a><a href="./">Continuar no nosso atlas</a></div>
+        <div id="error" class="error" role="alert" hidden><span class="eyebrow">ACERVO COMPLEMENTAR</span><h2 id="error-title">Referência local não instalada</h2><p id="error-message">Este material é disponibilizado separadamente. O atlas da Universidade de Minnesota oferece o arquivo MC_VALVES para download.</p><a class="primary-link" href="https://www.vhlab.umn.edu/atlas/echocardiography-tutorial/exam-views-models.shtml" target="_blank" rel="noopener noreferrer">Abrir a fonte oficial ↗</a><a href="atlas.html">Continuar no nosso atlas</a></div>
         <span class="reference-badge">Referência independente · quatro cortes</span>
         <div class="canvas-hint" aria-hidden="true"><span>Arraste <b>girar</b></span><span>Roda <b>aproximar</b></span><span>Botão direito <b>mover</b></span></div>
       </div>
@@ -64,6 +64,7 @@
     <p class="small">Esta referência é independente da montagem Z-Anatomy / BodyParts3D. Não houve registro, deformação ou fusão entre os dois modelos.</p>
   </dialog>
   <noscript><p class="noscript">Ative JavaScript para visualizar o modelo em 3D. <a href="https://www.vhlab.umn.edu/atlas/echocardiography-tutorial/exam-views-models.shtml">Consultar a fonte oficial.</a></p></noscript>
+  <script type="module" src="navigation.js"></script>
   <script type="module" src="reference.js"></script>
 </body>
 </html>

@@ -1,0 +1,1960 @@
+{
+  "version": 1,
+  "system": "larynx",
+  "parentSystem": "respiratory",
+  "title": "Laringe em detalhe",
+  "description": "Alternativa anatômica BodyParts3D; modelo independente.",
+  "parts": [
+    {
+      "fma": "FMA9615",
+      "elements": [
+        "FJ2769"
+      ],
+      "label": "Cartilagem cricóidea",
+      "group": "cartilagens",
+      "requirementIds": [
+        "R072"
+      ],
+      "relatedRequirementIds": [
+        "R073",
+        "R074",
+        "R075",
+        "R076"
+      ],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma9615",
+      "sourceName": "cricoid cartilage",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#bdc8bb",
+      "tissueColor": "#bdc8bb",
+      "defaultVisible": true,
+      "quizEligible": true,
+      "vertices": 851,
+      "triangles": 1702,
+      "bounds": [
+        [
+          -1.1517599821090698,
+          -2.683000087738037,
+          -1.7636549472808838
+        ],
+        [
+          1.15093994140625,
+          -0.9309999942779541,
+          0.12159500271081924
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2769": "5f75fb4d2969fd1de51898787bb8810c441d5d2bd6eb0c5482b7cacd3c9bc3be"
+      },
+      "requirement": {
+        "id": "R072",
+        "label": "Cartilagem cricóidea",
+        "page": 57,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA55099",
+      "elements": [
+        "FJ2808"
+      ],
+      "label": "Cartilagem tireóidea",
+      "group": "cartilagens",
+      "requirementIds": [
+        "R061"
+      ],
+      "relatedRequirementIds": [
+        "R062",
+        "R063",
+        "R064",
+        "R065",
+        "R066",
+        "R067",
+        "R068",
+        "R075"
+      ],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma55099",
+      "sourceName": "thyroid cartilage",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#bdc8bb",
+      "tissueColor": "#bdc8bb",
+      "defaultVisible": true,
+      "quizEligible": true,
+      "vertices": 1307,
+      "triangles": 2610,
+      "bounds": [
+        [
+          -1.9331400394439697,
+          -2.26200008392334,
+          -1.8746949434280396
+        ],
+        [
+          1.9331400394439697,
+          1.690000057220459,
+          1.2192950248718262
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2808": "48cd41bcd4044c7013ba10c971e212766afc970408f51875f9ef8e8c407c0687"
+      },
+      "requirement": {
+        "id": "R061",
+        "label": "Cartilagem tireóidea",
+        "page": 56,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA55130",
+      "elements": [
+        "FJ2770"
+      ],
+      "label": "Epiglote",
+      "group": "cartilagens",
+      "requirementIds": [
+        "R079"
+      ],
+      "relatedRequirementIds": [
+        "R080",
+        "R083",
+        "R084",
+        "R222"
+      ],
+      "note": "Superfície denominada epiglote na fonte; não individualiza todas as camadas do órgão.",
+      "id": "larynx_fma55130",
+      "sourceName": "epiglottis",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#bdc8bb",
+      "tissueColor": "#bdc8bb",
+      "defaultVisible": true,
+      "quizEligible": true,
+      "vertices": 1763,
+      "triangles": 3602,
+      "bounds": [
+        [
+          -0.7943120002746582,
+          -0.5299999713897705,
+          -0.20640499889850616
+        ],
+        [
+          0.788332998752594,
+          2.4200000762939453,
+          0.5646950006484985
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2770": "05ae56007f7aa017fb458bdef643ea97e51ed3bd275b13da30086fa02b606054"
+      },
+      "requirement": {
+        "id": "R079",
+        "label": "Cartilagem epiglótica / epiglote",
+        "page": 61,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA52749",
+      "elements": [
+        "FJ2772"
+      ],
+      "label": "Osso hioide",
+      "group": "hioide",
+      "requirementIds": [
+        "R217"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma52749",
+      "sourceName": "hyoid bone",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#d8cdb8",
+      "tissueColor": "#d8cdb8",
+      "defaultVisible": true,
+      "quizEligible": true,
+      "vertices": 600,
+      "triangles": 1196,
+      "bounds": [
+        [
+          -1.887529969215393,
+          0.8339999914169312,
+          -1.58343505859375
+        ],
+        [
+          1.8931399583816528,
+          2.683000087738037,
+          1.8746949434280396
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2772": "c8c6cfdd66285cdda16fa441829f723d3943823d0ffebf5e394ff8dc49a598b1"
+      },
+      "requirement": {
+        "id": "R217",
+        "label": "Osso hioide",
+        "page": 56,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA55114",
+      "elements": [
+        "FJ2775"
+      ],
+      "label": "Cartilagem aritenóidea · lado esquerdo",
+      "group": "cartilagens",
+      "requirementIds": [
+        "R085"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma55114",
+      "sourceName": "left arytenoid cartilage",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#bdc8bb",
+      "tissueColor": "#bdc8bb",
+      "defaultVisible": true,
+      "quizEligible": true,
+      "vertices": 270,
+      "triangles": 536,
+      "bounds": [
+        [
+          0.18313300609588623,
+          -1.0540000200271606,
+          -1.487725019454956
+        ],
+        [
+          0.7371050119400024,
+          -0.23999999463558197,
+          -0.7572050094604492
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2775": "1e2c0bf8eab8a3a1814b5d56ba721031f3bd87473ea739e540781117bbfb32c9"
+      },
+      "requirement": {
+        "id": "R085",
+        "label": "Cartilagens aritenóideas",
+        "page": 64,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA55113",
+      "elements": [
+        "FJ2792"
+      ],
+      "label": "Cartilagem aritenóidea · lado direito",
+      "group": "cartilagens",
+      "requirementIds": [
+        "R085"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma55113",
+      "sourceName": "right arytenoid cartilage",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#bdc8bb",
+      "tissueColor": "#bdc8bb",
+      "defaultVisible": true,
+      "quizEligible": true,
+      "vertices": 272,
+      "triangles": 540,
+      "bounds": [
+        [
+          -0.7368999719619751,
+          -1.0549999475479126,
+          -1.4859449863433838
+        ],
+        [
+          -0.1866070032119751,
+          -0.24199999868869781,
+          -0.758204996585846
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2792": "6766f404ea88ffb33f5430ee4704a416aab95813da19a84998f67fbdcc556eaa"
+      },
+      "requirement": {
+        "id": "R085",
+        "label": "Cartilagens aritenóideas",
+        "page": 64,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA55116",
+      "elements": [
+        "FJ2776"
+      ],
+      "label": "Cartilagem corniculada · lado esquerdo",
+      "group": "cartilagens",
+      "requirementIds": [
+        "R088"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma55116",
+      "sourceName": "left corniculate cartilage",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#bdc8bb",
+      "tissueColor": "#bdc8bb",
+      "defaultVisible": true,
+      "quizEligible": true,
+      "vertices": 70,
+      "triangles": 136,
+      "bounds": [
+        [
+          0.22978800535202026,
+          -0.2980000078678131,
+          -1.5152050256729126
+        ],
+        [
+          0.3776470124721527,
+          -0.14800000190734863,
+          -1.3536349534988403
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2776": "282ec50dc80214ead94da19cab975e6be2a6cba093c9765b3260c98af2300ca3"
+      },
+      "requirement": {
+        "id": "R088",
+        "label": "Cartilagens corniculadas",
+        "page": 64,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA55115",
+      "elements": [
+        "FJ2793"
+      ],
+      "label": "Cartilagem corniculada · lado direito",
+      "group": "cartilagens",
+      "requirementIds": [
+        "R088"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma55115",
+      "sourceName": "right corniculate cartilage",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#bdc8bb",
+      "tissueColor": "#bdc8bb",
+      "defaultVisible": true,
+      "quizEligible": true,
+      "vertices": 88,
+      "triangles": 172,
+      "bounds": [
+        [
+          -0.3819600045681,
+          -0.29899999499320984,
+          -1.5149550437927246
+        ],
+        [
+          -0.2305150032043457,
+          -0.14300000667572021,
+          -1.3569749593734741
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2793": "055590405743b1adb114f2b9480122827e7dac69d964fa43409bd57bfb6ada4d"
+      },
+      "requirement": {
+        "id": "R088",
+        "label": "Cartilagens corniculadas",
+        "page": 64,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA55118",
+      "elements": [
+        "FJ2773"
+      ],
+      "label": "Cartilagem cuneiforme · lado esquerdo",
+      "group": "cartilagens",
+      "requirementIds": [
+        "R089"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma55118",
+      "sourceName": "left cuneiform cartilage",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#bdc8bb",
+      "tissueColor": "#bdc8bb",
+      "defaultVisible": true,
+      "quizEligible": true,
+      "vertices": 89,
+      "triangles": 174,
+      "bounds": [
+        [
+          0.39685899019241333,
+          0.004000000189989805,
+          -1.006005048751831
+        ],
+        [
+          0.5713880062103271,
+          0.33000001311302185,
+          -0.7383049726486206
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2773": "33f5b140ab7a37e450e130ed8f9bf579ef9f11856dcd3587b5f634bd6a83d0e0"
+      },
+      "requirement": {
+        "id": "R089",
+        "label": "Cartilagens cuneiformes",
+        "page": 55,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA55117",
+      "elements": [
+        "FJ2795"
+      ],
+      "label": "Cartilagem cuneiforme · lado direito",
+      "group": "cartilagens",
+      "requirementIds": [
+        "R089"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma55117",
+      "sourceName": "right cuneiform cartilage",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#bdc8bb",
+      "tissueColor": "#bdc8bb",
+      "defaultVisible": true,
+      "quizEligible": true,
+      "vertices": 87,
+      "triangles": 170,
+      "bounds": [
+        [
+          -0.5728440284729004,
+          -0.03799999877810478,
+          -1.0054049491882324
+        ],
+        [
+          -0.381197988986969,
+          0.3109999895095825,
+          -0.7864050269126892
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2795": "9745a416c9f85f106aabdedb8645811c8cfbf85025364310e06a04072d766f0b"
+      },
+      "requirement": {
+        "id": "R089",
+        "label": "Cartilagens cuneiformes",
+        "page": 55,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA46581",
+      "elements": [
+        "FJ2778"
+      ],
+      "label": "Músculo cricoaritenóideo lateral · lado esquerdo",
+      "group": "musculos",
+      "requirementIds": [
+        "R093"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma46581",
+      "sourceName": "left lateral crico-arytenoid",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#b26d69",
+      "tissueColor": "#b26d69",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 3109,
+      "triangles": 6214,
+      "bounds": [
+        [
+          0.6613709926605225,
+          -1.9609999656677246,
+          -1.2995450496673584
+        ],
+        [
+          1.1085200309753418,
+          -0.8799999952316284,
+          -0.29390498995780945
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2778": "15d694d60ddab28b19aa0ca2017c86ac82ccc3fda58d257a240f56c363d4271a"
+      },
+      "requirement": {
+        "id": "R093",
+        "label": "Músculos cricoaritenóideos laterais",
+        "page": 66,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA46580",
+      "elements": [
+        "FJ2796"
+      ],
+      "label": "Músculo cricoaritenóideo lateral · lado direito",
+      "group": "musculos",
+      "requirementIds": [
+        "R093"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma46580",
+      "sourceName": "right lateral crico-arytenoid",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#b26d69",
+      "tissueColor": "#b26d69",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 3101,
+      "triangles": 6198,
+      "bounds": [
+        [
+          -1.108590006828308,
+          -1.9609999656677246,
+          -1.2993149757385254
+        ],
+        [
+          -0.6634770035743713,
+          -0.8799999952316284,
+          -0.29410499334335327
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2796": "d0a4730aeb6f0bafdf53eced4954a0ccfaf31ba8f3d08aa90e0c18d9c8928cb3"
+      },
+      "requirement": {
+        "id": "R093",
+        "label": "Músculos cricoaritenóideos laterais",
+        "page": 66,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA46585",
+      "elements": [
+        "FJ2780"
+      ],
+      "label": "Músculo aritenóideo oblíquo · lado esquerdo",
+      "group": "musculos",
+      "requirementIds": [
+        "R091"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma46585",
+      "sourceName": "left oblique arytenoid",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#b26d69",
+      "tissueColor": "#b26d69",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 3152,
+      "triangles": 6304,
+      "bounds": [
+        [
+          -0.6648340225219727,
+          -1.0429999828338623,
+          -1.663045048713684
+        ],
+        [
+          0.6304550170898438,
+          -0.38100001215934753,
+          -1.3474750518798828
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2780": "9ad13a6a95301607fa5968e68ae47efc458ebc67f9582f6fc0861672b7b4de17"
+      },
+      "requirement": {
+        "id": "R091",
+        "label": "Músculos aritenóideos oblíquos",
+        "page": 66,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA46584",
+      "elements": [
+        "FJ2798"
+      ],
+      "label": "Músculo aritenóideo oblíquo · lado direito",
+      "group": "musculos",
+      "requirementIds": [
+        "R091"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma46584",
+      "sourceName": "right oblique arytenoid",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#b26d69",
+      "tissueColor": "#b26d69",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 3042,
+      "triangles": 6084,
+      "bounds": [
+        [
+          -0.6320350170135498,
+          -1.0420000553131104,
+          -1.6634949445724487
+        ],
+        [
+          0.6621530055999756,
+          -0.3799999952316284,
+          -1.3486449718475342
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2798": "706e265f99131c2bde1b61c4bc2cdfab7ae384ed2c84f10c8cbff91a295ca22c"
+      },
+      "requirement": {
+        "id": "R091",
+        "label": "Músculos aritenóideos oblíquos",
+        "page": 66,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA46578",
+      "elements": [
+        "FJ2782"
+      ],
+      "label": "Músculo cricoaritenóideo posterior · lado esquerdo",
+      "group": "musculos",
+      "requirementIds": [
+        "R097"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma46578",
+      "sourceName": "left posterior crico-arytenoid",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#b26d69",
+      "tissueColor": "#b26d69",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 2423,
+      "triangles": 4842,
+      "bounds": [
+        [
+          0.16197329759597778,
+          -2.3480000495910645,
+          -1.7590750455856323
+        ],
+        [
+          1.0734000205993652,
+          -0.9110000133514404,
+          -1.1846950054168701
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2782": "eb100ad68f9201832f5fa15c7e802c175fb813302c8983f13b6f3d3dfdb3d4ef"
+      },
+      "requirement": {
+        "id": "R097",
+        "label": "Músculos cricoaritenóideos posteriores",
+        "page": 66,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA46577",
+      "elements": [
+        "FJ2800"
+      ],
+      "label": "Músculo cricoaritenóideo posterior · lado direito",
+      "group": "musculos",
+      "requirementIds": [
+        "R097"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma46577",
+      "sourceName": "right posterior crico-arytenoid",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#b26d69",
+      "tissueColor": "#b26d69",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 2408,
+      "triangles": 4812,
+      "bounds": [
+        [
+          -1.0726300477981567,
+          -2.3480000495910645,
+          -1.759315013885498
+        ],
+        [
+          -0.16268600523471832,
+          -0.9110000133514404,
+          -1.1861449480056763
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2800": "917fb9e8667c4d179c0f86ec06c27dc2d0537e4f81d1319aa21fe5a0e237d891"
+      },
+      "requirement": {
+        "id": "R097",
+        "label": "Músculos cricoaritenóideos posteriores",
+        "page": 66,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA46612",
+      "elements": [
+        "FJ2783"
+      ],
+      "label": "Músculo cricotireóideo · parte reta esquerda",
+      "group": "musculos",
+      "requirementIds": [
+        "R090"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma46612",
+      "sourceName": "straight part of left cricothyroid",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#b26d69",
+      "tissueColor": "#b26d69",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 1637,
+      "triangles": 3270,
+      "bounds": [
+        [
+          0.16090959310531616,
+          -2.5789999961853027,
+          -0.5637050271034241
+        ],
+        [
+          1.1345900297164917,
+          -1.5470000505447388,
+          0.12359499931335449
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2783": "4df0efbaea3fbb676eafc3add4a1cdd772fac352950501389f39e16f0c90e98c"
+      },
+      "requirement": {
+        "id": "R090",
+        "label": "Músculos cricotireóideos: partes reta e oblíqua",
+        "page": 66,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA46611",
+      "elements": [
+        "FJ2801"
+      ],
+      "label": "Músculo cricotireóideo · parte reta direita",
+      "group": "musculos",
+      "requirementIds": [
+        "R090"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma46611",
+      "sourceName": "straight part of right cricothyroid",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#b26d69",
+      "tissueColor": "#b26d69",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 1628,
+      "triangles": 3232,
+      "bounds": [
+        [
+          -1.1370799541473389,
+          -2.5769999027252197,
+          -0.560604989528656
+        ],
+        [
+          1.1088900566101074,
+          -1.5470000505447388,
+          0.1236950010061264
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2801": "1611203625fd53e498d2b5cf40018ed71694a0d307c8502744f62687512fc19e"
+      },
+      "requirement": {
+        "id": "R090",
+        "label": "Músculos cricotireóideos: partes reta e oblíqua",
+        "page": 66,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA46614",
+      "elements": [
+        "FJ2781"
+      ],
+      "label": "Músculo cricotireóideo · parte oblíqua esquerda",
+      "group": "musculos",
+      "requirementIds": [
+        "R090"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma46614",
+      "sourceName": "oblique part of left cricothyroid",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#b26d69",
+      "tissueColor": "#b26d69",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 2792,
+      "triangles": 5580,
+      "bounds": [
+        [
+          0.4188700020313263,
+          -2.575000047683716,
+          -1.675534963607788
+        ],
+        [
+          1.2502599954605103,
+          -1.2610000371932983,
+          -0.05620500072836876
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2781": "d7b4c77ccec1ec98530377fdbac423bffda9535e39192b11442566118a63a198"
+      },
+      "requirement": {
+        "id": "R090",
+        "label": "Músculos cricotireóideos: partes reta e oblíqua",
+        "page": 66,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA46613",
+      "elements": [
+        "FJ2799"
+      ],
+      "label": "Músculo cricotireóideo · parte oblíqua direita",
+      "group": "musculos",
+      "requirementIds": [
+        "R090"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma46613",
+      "sourceName": "oblique part of right cricothyroid",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#b26d69",
+      "tissueColor": "#b26d69",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 2785,
+      "triangles": 5566,
+      "bounds": [
+        [
+          -1.252269983291626,
+          -2.5739998817443848,
+          -1.6743249893188477
+        ],
+        [
+          -0.419515997171402,
+          -1.2630000114440918,
+          -0.056405000388622284
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2799": "cf0213eeea0b73d9ab428e5caf50683475100d65d670d95a716ae1af1a541b03"
+      },
+      "requirement": {
+        "id": "R090",
+        "label": "Músculos cricotireóideos: partes reta e oblíqua",
+        "page": 66,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA46593",
+      "elements": [
+        "FJ2788"
+      ],
+      "label": "Músculo vocal · lado esquerdo",
+      "group": "vocais",
+      "requirementIds": [
+        "R096"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma46593",
+      "sourceName": "left vocalis",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#b97c75",
+      "tissueColor": "#b97c75",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 578,
+      "triangles": 1152,
+      "bounds": [
+        [
+          0.18320000171661377,
+          -1.0329999923706055,
+          -0.9370049834251404
+        ],
+        [
+          0.3419390022754669,
+          -0.8899999856948853,
+          0.4725950062274933
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2788": "dd26f669e127e5c5fae7ff796da0f516887f8c3834bbde1f2881d3a222cc2375"
+      },
+      "requirement": {
+        "id": "R096",
+        "label": "Músculos vocais",
+        "page": 70,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA46592",
+      "elements": [
+        "FJ2806"
+      ],
+      "label": "Músculo vocal · lado direito",
+      "group": "vocais",
+      "requirementIds": [
+        "R096"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma46592",
+      "sourceName": "right vocalis",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#b97c75",
+      "tissueColor": "#b97c75",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 576,
+      "triangles": 1148,
+      "bounds": [
+        [
+          -0.3438130021095276,
+          -1.034000039100647,
+          -0.9373049736022949
+        ],
+        [
+          -0.18469299376010895,
+          -0.8899999856948853,
+          0.471794992685318
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2806": "f4b83790f1c6364785f6ec6a8428443e7f20cfe48ed9a14234bb8aff1d80f2a9"
+      },
+      "requirement": {
+        "id": "R096",
+        "label": "Músculos vocais",
+        "page": 70,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA55134",
+      "elements": [
+        "FJ2786"
+      ],
+      "label": "Membrana tireo-hióidea · lado esquerdo",
+      "group": "membranas",
+      "requirementIds": [
+        "R069"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma55134",
+      "sourceName": "left thyrohyoid membrane",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#d4c8a6",
+      "tissueColor": "#d4c8a6",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 2442,
+      "triangles": 4884,
+      "bounds": [
+        [
+          0.46316298842430115,
+          0.19300000369548798,
+          -1.6733750104904175
+        ],
+        [
+          1.8909000158309937,
+          2.4100000858306885,
+          1.1740950345993042
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2786": "76aca51bbecd3a2804fb4c65f37638d82ee71413f636972db0b224cb2091d15e"
+      },
+      "requirement": {
+        "id": "R069",
+        "label": "Membrana tireo-hióidea",
+        "page": 56,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA55133",
+      "elements": [
+        "FJ2804"
+      ],
+      "label": "Membrana tireo-hióidea · lado direito",
+      "group": "membranas",
+      "requirementIds": [
+        "R069"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma55133",
+      "sourceName": "right thyrohyoid membrane",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#d4c8a6",
+      "tissueColor": "#d4c8a6",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 2442,
+      "triangles": 4884,
+      "bounds": [
+        [
+          -1.890570044517517,
+          0.1889999955892563,
+          -1.6738250255584717
+        ],
+        [
+          -0.46433699131011963,
+          2.4110000133514404,
+          1.1721949577331543
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2804": "4250925cb74084de7f699859f52773f2942689943e89613b5a52768cef42af4e"
+      },
+      "requirement": {
+        "id": "R069",
+        "label": "Membrana tireo-hióidea",
+        "page": 56,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA55141",
+      "elements": [
+        "FJ2779"
+      ],
+      "label": "Ligamento tireo-hióideo lateral · lado esquerdo",
+      "group": "ligamentos",
+      "requirementIds": [
+        "R071"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma55141",
+      "sourceName": "left lateral thyrohyoid ligament",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#e6d5b4",
+      "tissueColor": "#e6d5b4",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 486,
+      "triangles": 964,
+      "bounds": [
+        [
+          1.5576499700546265,
+          1.3869999647140503,
+          -1.7688549757003784
+        ],
+        [
+          1.9313499927520752,
+          2.496999979019165,
+          -1.2705750465393066
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2779": "b48baf72d1ab117ad320dbe2432e82979ae56e2bdf83632d4f72d03435e8ad2e"
+      },
+      "requirement": {
+        "id": "R071",
+        "label": "Ligamentos tireo-hióideos laterais",
+        "page": 56,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA55140",
+      "elements": [
+        "FJ2797"
+      ],
+      "label": "Ligamento tireo-hióideo lateral · lado direito",
+      "group": "ligamentos",
+      "requirementIds": [
+        "R071"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma55140",
+      "sourceName": "right lateral thyrohyoid ligament",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#e6d5b4",
+      "tissueColor": "#e6d5b4",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 489,
+      "triangles": 974,
+      "bounds": [
+        [
+          -1.9330999851226807,
+          1.3910000324249268,
+          -1.767514944076538
+        ],
+        [
+          -1.55663001537323,
+          2.496000051498413,
+          -1.2708250284194946
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2797": "f17658211f590bfff00d5e79a37230526e294847f06bc91ac3267a7abe8888d3"
+      },
+      "requirement": {
+        "id": "R071",
+        "label": "Ligamentos tireo-hióideos laterais",
+        "page": 56,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA46590",
+      "elements": [
+        "FJ2784",
+        "FJ2785"
+      ],
+      "label": "Músculo tireoaritenóideo · lado esquerdo",
+      "group": "musculos",
+      "requirementIds": [
+        "R094"
+      ],
+      "relatedRequirementIds": [
+        "R095"
+      ],
+      "note": "Dois elementos da fonte pertencem ao mesmo conceito tireoaritenóideo; agrupados sem duplicar triângulos.",
+      "id": "larynx_fma46590",
+      "sourceName": "left thyro-arytenoid",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#b26d69",
+      "tissueColor": "#b26d69",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 7693,
+      "triangles": 15382,
+      "bounds": [
+        [
+          -0.03970099985599518,
+          -1.1710000038146973,
+          -1.4397350549697876
+        ],
+        [
+          0.8118119835853577,
+          1.593999981880188,
+          0.7265949845314026
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2784": "6b0698f8b6a6cb877d3610dc959abe0b9c4691bb6e746fd85c8e523fcebc74a9",
+        "FJ2785": "a785608978d62c2c14f2057cfe2606fe183523dbf92fc587801234bc0be41e2a"
+      },
+      "requirement": {
+        "id": "R094",
+        "label": "Músculos tireoaritenóideos",
+        "page": 66,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA46589",
+      "elements": [
+        "FJ2802",
+        "FJ2803"
+      ],
+      "label": "Músculo tireoaritenóideo · lado direito",
+      "group": "musculos",
+      "requirementIds": [
+        "R094"
+      ],
+      "relatedRequirementIds": [
+        "R095"
+      ],
+      "note": "Dois elementos da fonte pertencem ao mesmo conceito tireoaritenóideo; agrupados sem duplicar triângulos.",
+      "id": "larynx_fma46589",
+      "sourceName": "right thyro-arytenoid",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#b26d69",
+      "tissueColor": "#b26d69",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 8373,
+      "triangles": 16742,
+      "bounds": [
+        [
+          -0.8128929734230042,
+          -1.1679999828338623,
+          -1.4410550594329834
+        ],
+        [
+          0.038714200258255005,
+          1.593999981880188,
+          0.7266950011253357
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2802": "68d5990536538ba707bd1b1b967b7ab14266ed74e5f0d1e33230a5922181c322",
+        "FJ2803": "fd38f2f5befd554ba19bd4fbab0d0a4ae137a59bb24d3dd0852eb5caa910d3e2"
+      },
+      "requirement": {
+        "id": "R094",
+        "label": "Músculos tireoaritenóideos",
+        "page": 66,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA46605",
+      "elements": [
+        "FJ2774"
+      ],
+      "label": "Músculo ariepiglótico · lado esquerdo",
+      "group": "musculos",
+      "requirementIds": [],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma46605",
+      "sourceName": "left aryepiglotticus",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#b26d69",
+      "tissueColor": "#b26d69",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 2153,
+      "triangles": 4510,
+      "bounds": [
+        [
+          0.4200100004673004,
+          -0.460999995470047,
+          -1.3470849990844727
+        ],
+        [
+          0.850346028804779,
+          1.8420000076293945,
+          -0.14310500025749207
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2774": "a7922984f588cdb61a10fd9d6bc901cf843db3520ce0a5a38ba8edfb51e05bab"
+      },
+      "requirement": null
+    },
+    {
+      "fma": "FMA46604",
+      "elements": [
+        "FJ2791"
+      ],
+      "label": "Músculo ariepiglótico · lado direito",
+      "group": "musculos",
+      "requirementIds": [],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma46604",
+      "sourceName": "right aryepiglotticus",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#b26d69",
+      "tissueColor": "#b26d69",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 2200,
+      "triangles": 4366,
+      "bounds": [
+        [
+          -0.8519899845123291,
+          -0.460999995470047,
+          -1.3474149703979492
+        ],
+        [
+          0.8160099983215332,
+          1.8420000076293945,
+          -0.14300499856472015
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2791": "588ffa8fcec00eaa9ce1488576161a548941ba4dd3866a58063b5a78da7c891d"
+      },
+      "requirement": null
+    },
+    {
+      "fma": "FMA46582",
+      "elements": [
+        "FJ2809"
+      ],
+      "label": "Músculo aritenóideo transverso",
+      "group": "musculos",
+      "requirementIds": [
+        "R092"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma46582",
+      "sourceName": "transverse arytenoid",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#b26d69",
+      "tissueColor": "#b26d69",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 3294,
+      "triangles": 6580,
+      "bounds": [
+        [
+          -0.7367269992828369,
+          -1.062000036239624,
+          -1.5552849769592285
+        ],
+        [
+          0.7343320250511169,
+          -0.43799999356269836,
+          -1.2477949857711792
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2809": "1ece0839b43392b090d5e4b5bf96448a10935f1d3637487cd526d0fff8251f32"
+      },
+      "requirement": {
+        "id": "R092",
+        "label": "Músculo aritenóideo transverso",
+        "page": 66,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA55138",
+      "elements": [
+        "FJ2790"
+      ],
+      "label": "Ligamento tireo-hióideo mediano",
+      "group": "ligamentos",
+      "requirementIds": [
+        "R070"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma55138",
+      "sourceName": "median thyrohyoid ligament",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#e6d5b4",
+      "tissueColor": "#e6d5b4",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 1430,
+      "triangles": 2856,
+      "bounds": [
+        [
+          -0.8525069952011108,
+          -0.7549999952316284,
+          0.8237950205802917
+        ],
+        [
+          0.854889988899231,
+          1.0080000162124634,
+          1.5794949531555176
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2790": "b731abaf6b663050b09d3fd2fc98d2260a114fdb2268519c7df5aa85732bdaf6"
+      },
+      "requirement": {
+        "id": "R070",
+        "label": "Ligamento tireo-hióideo mediano",
+        "page": 56,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA55237",
+      "elements": [
+        "FJ2789"
+      ],
+      "label": "Ligamento cricotireóideo mediano",
+      "group": "ligamentos",
+      "requirementIds": [
+        "R077"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma55237",
+      "sourceName": "median cricothyroid ligament",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#e6d5b4",
+      "tissueColor": "#e6d5b4",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 1025,
+      "triangles": 2052,
+      "bounds": [
+        [
+          -0.33663299679756165,
+          -2.252000093460083,
+          -0.12940500676631927
+        ],
+        [
+          0.33563199639320374,
+          -0.9580000042915344,
+          0.651295006275177
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2789": "6b51f7e389da70fe5a128165073932cb98f1bf628a2ff46115c3a9f73e7a91d1"
+      },
+      "requirement": {
+        "id": "R077",
+        "label": "Ligamento cricotireóideo mediano",
+        "page": 57,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA55227",
+      "elements": [
+        "FJ2771"
+      ],
+      "label": "Ligamento hioepiglótico",
+      "group": "ligamentos",
+      "requirementIds": [
+        "R082"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma55227",
+      "sourceName": "hyo-epiglottic ligament",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#e6d5b4",
+      "tissueColor": "#e6d5b4",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 1078,
+      "triangles": 2112,
+      "bounds": [
+        [
+          -0.04802900180220604,
+          -0.21199999749660492,
+          0.03689499944448471
+        ],
+        [
+          0.04570399969816208,
+          2.1010000705718994,
+          1.4867949485778809
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2771": "f744a2873d81471ee14cf63ebf4380c350e21e7e49872bf11ff3ddd668f7bb34"
+      },
+      "requirement": {
+        "id": "R082",
+        "label": "Ligamento hioepiglótico",
+        "page": 62,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA55230",
+      "elements": [
+        "FJ2807"
+      ],
+      "label": "Ligamento tireoepiglótico",
+      "group": "ligamentos",
+      "requirementIds": [
+        "R081"
+      ],
+      "relatedRequirementIds": [],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma55230",
+      "sourceName": "thyro-epiglottic ligament",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#e6d5b4",
+      "tissueColor": "#e6d5b4",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 519,
+      "triangles": 1042,
+      "bounds": [
+        [
+          -0.16563299298286438,
+          -0.9350000023841858,
+          0.3767949938774109
+        ],
+        [
+          0.15169639885425568,
+          -0.2840000092983246,
+          0.7623950242996216
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2807": "eb7a5318fd5cd6d9a26605d00bd06f6c18004f7c7c7483c09394d5766f443925"
+      },
+      "requirement": {
+        "id": "R081",
+        "label": "Ligamento tireoepiglótico",
+        "page": 62,
+        "source": "respiratorio"
+      }
+    },
+    {
+      "fma": "FMA55246",
+      "elements": [
+        "FJ2787"
+      ],
+      "label": "Ligamento vocal · lado esquerdo",
+      "group": "vocais",
+      "requirementIds": [],
+      "relatedRequirementIds": [
+        "R099",
+        "R102"
+      ],
+      "note": "Componente ligamentar da prega vocal. Não representa a prega inteira nem seu revestimento mucoso.",
+      "id": "larynx_fma55246",
+      "sourceName": "left vocal ligament",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#eedfbc",
+      "tissueColor": "#eedfbc",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 884,
+      "triangles": 1858,
+      "bounds": [
+        [
+          0.0766133964061737,
+          -1.0260000228881836,
+          -0.8475049734115601
+        ],
+        [
+          0.29586198925971985,
+          -0.9300000071525574,
+          0.48509499430656433
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2787": "fd2030747641aae5864bb28f2c18a03d8ccfc34702f9a9012af1957ac1bef23b"
+      },
+      "requirement": null
+    },
+    {
+      "fma": "FMA55245",
+      "elements": [
+        "FJ2805"
+      ],
+      "label": "Ligamento vocal · lado direito",
+      "group": "vocais",
+      "requirementIds": [],
+      "relatedRequirementIds": [
+        "R099",
+        "R102"
+      ],
+      "note": "Componente ligamentar da prega vocal. Não representa a prega inteira nem seu revestimento mucoso.",
+      "id": "larynx_fma55245",
+      "sourceName": "right vocal ligament",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#eedfbc",
+      "tissueColor": "#eedfbc",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 824,
+      "triangles": 1644,
+      "bounds": [
+        [
+          -0.296330988407135,
+          -1.024999976158142,
+          -0.846904993057251
+        ],
+        [
+          -0.07787299901247025,
+          -0.9259999990463257,
+          0.4857949912548065
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2805": "f8d93ea86284dbe0877b6080c642991a6542cf78bb6ad884a78b4d55a7b8e3e8"
+      },
+      "requirement": null
+    },
+    {
+      "fma": "FMA55252",
+      "elements": [
+        "FJ2777"
+      ],
+      "label": "Cone elástico · lado esquerdo",
+      "group": "membranas",
+      "requirementIds": [],
+      "relatedRequirementIds": [
+        "R099",
+        "R103"
+      ],
+      "note": "Membrana fibroelástica original da fonte. O cone e o ligamento vocal têm peças próprias; a mucosa não está separada.",
+      "id": "larynx_fma55252",
+      "sourceName": "left conus elasticus",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#d4c8a6",
+      "tissueColor": "#d4c8a6",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 2165,
+      "triangles": 4306,
+      "bounds": [
+        [
+          -0.6101099848747253,
+          -2.2109999656677246,
+          -1.2748850584030151
+        ],
+        [
+          0.8820379972457886,
+          -0.9300000071525574,
+          0.538794994354248
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2777": "4f12686c550ea45f54b88d3fdb6e48c7ce577332fdb3d6b0465722516acd6230"
+      },
+      "requirement": null
+    },
+    {
+      "fma": "FMA55251",
+      "elements": [
+        "FJ2794"
+      ],
+      "label": "Cone elástico · lado direito",
+      "group": "membranas",
+      "requirementIds": [],
+      "relatedRequirementIds": [
+        "R099",
+        "R103"
+      ],
+      "note": "Membrana fibroelástica original da fonte. O cone e o ligamento vocal têm peças próprias; a mucosa não está separada.",
+      "id": "larynx_fma55251",
+      "sourceName": "right conus elasticus",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#d4c8a6",
+      "tissueColor": "#d4c8a6",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "vertices": 2104,
+      "triangles": 4366,
+      "bounds": [
+        [
+          -0.8823689818382263,
+          -2.2070000171661377,
+          -1.2728650569915771
+        ],
+        [
+          -0.15011000633239746,
+          -0.9259999990463257,
+          0.5437949895858765
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2794": "f3729b2837d39fe4ac58afcfcd4467fbe1999c78e6ad5737566f9494ddc01ff2"
+      },
+      "requirement": null
+    },
+    {
+      "fma": "FMA7394",
+      "elements": [
+        "FJ2541"
+      ],
+      "label": "Traqueia · contexto",
+      "group": "contexto",
+      "requirementIds": [],
+      "relatedRequirementIds": [
+        "R104",
+        "R105",
+        "R106",
+        "R107",
+        "R108",
+        "R109",
+        "R110"
+      ],
+      "note": "Peça original BodyParts3D, preservada no conjunto anatômico da própria fonte.",
+      "id": "larynx_fma7394",
+      "sourceName": "trachea",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99.zip",
+      "color": "#d4bba1",
+      "tissueColor": "#d4bba1",
+      "defaultVisible": false,
+      "quizEligible": false,
+      "vertices": 2500,
+      "triangles": 4996,
+      "bounds": [
+        [
+          -1.2475199699401855,
+          -12.894000053405762,
+          -3.2887051105499268
+        ],
+        [
+          1.3463399410247803,
+          -1.8589999675750732,
+          -0.012205000035464764
+        ]
+      ],
+      "sourceHashes": {
+        "FJ2541": "eb8c075b6601f2d543532f4a2eb4a39b03430af858da225ba7887e52182272ed"
+      },
+      "requirement": null
+    }
+  ],
+  "groups": {
+    "cartilagens": "Cartilagens da laringe",
+    "musculos": "Músculos laríngeos",
+    "ligamentos": "Ligamentos",
+    "membranas": "Membranas e cone elástico",
+    "vocais": "Músculos e ligamentos vocais",
+    "hioide": "Osso hioide",
+    "contexto": "Traqueia · contexto"
+  },
+  "model": {
+    "file": "model.glb",
+    "bytes": 3633868,
+    "parts": 40,
+    "triangles": 149758,
+    "sha256": "0d266bfe4481bcefcb5b73d4ad698a12fd3fb69d6b4668b6adbcd903f1761d60"
+  },
+  "translucencyGroups": [
+    "cartilagens",
+    "membranas"
+  ],
+  "labelGroups": [
+    "cartilagens",
+    "vocais"
+  ],
+  "mainGroups": [
+    "cartilagens",
+    "musculos",
+    "ligamentos",
+    "membranas",
+    "vocais",
+    "hioide"
+  ],
+  "presets": [
+    {
+      "id": "exterior",
+      "label": "Cartilagens",
+      "groups": [
+        "cartilagens",
+        "hioide"
+      ],
+      "direction": [
+        0.5,
+        0.1,
+        1
+      ],
+      "transparency": 0,
+      "note": "Orientação pelas cartilagens e osso hioide, no conjunto original BodyParts3D."
+    },
+    {
+      "id": "profunda",
+      "label": "Estruturas internas",
+      "groups": [
+        "cartilagens",
+        "musculos",
+        "ligamentos",
+        "membranas",
+        "vocais",
+        "hioide"
+      ],
+      "direction": [
+        0.7,
+        0.35,
+        1
+      ],
+      "transparency": 72,
+      "note": "Componentes internos da mesma fonte, sem adaptação às cartilagens Z-Anatomy."
+    },
+    {
+      "id": "vocais",
+      "label": "Componentes vocais",
+      "groups": [
+        "cartilagens",
+        "vocais",
+        "membranas"
+      ],
+      "direction": [
+        0,
+        1,
+        0.3
+      ],
+      "transparency": 86,
+      "note": "Músculos e ligamentos vocais são componentes; o revestimento da prega vocal completa não está segmentado."
+    },
+    {
+      "id": "posterior",
+      "label": "Músculos · vista posterior",
+      "groups": [
+        "cartilagens",
+        "musculos",
+        "vocais"
+      ],
+      "direction": [
+        0,
+        0.1,
+        -1
+      ],
+      "transparency": 65,
+      "note": "Observe o conjunto muscular pelas relações posteriores preservadas na fonte."
+    },
+    {
+      "id": "ligamentos",
+      "label": "Membranas e ligamentos",
+      "groups": [
+        "cartilagens",
+        "hioide",
+        "ligamentos",
+        "membranas",
+        "vocais"
+      ],
+      "direction": [
+        0.8,
+        0.2,
+        1
+      ],
+      "transparency": 68,
+      "note": "Tireo-hióidea, cone elástico e ligamentos são peças distintas quando nomeados assim na fonte."
+    }
+  ],
+  "orientation": {
+    "x": "esquerda anatômica",
+    "y": "superior",
+    "z": "anterior",
+    "transform": {
+      "axisMap": "[x,z,-y]",
+      "sourceUnits": "mm",
+      "center": [
+        -0.6488999999999994,
+        1414.03,
+        110.25305
+      ],
+      "scale": 0.1
+    },
+    "preserved": "Uma transformação comum de exibição; sem registro ao Z-Anatomy."
+  },
+  "limitations": [
+    "Alternativa anatômica BodyParts3D; modelo independente. Não sobrepor aos tecidos Z-Anatomy.",
+    "Cores didáticas; superfícies idealizadas da distribuição original BP3D 4.0 com redução de polígonos.",
+    "Ligamento vocal e músculo vocal não equivalem sozinhos à prega vocal completa.",
+    "Não há pregas vestibulares, mucosa ou cavidades laríngeas individualizadas como superfícies próprias.",
+    "Registro experimental ao Z apresentou divergências milimétricas e foi rejeitado para fusão das peças finas."
+  ],
+  "sources": [
+    {
+      "name": "BodyParts3D, © The Database Center for Life Science",
+      "license": "CC BY 4.0",
+      "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html"
+    },
+    {
+      "name": "Licença oficial BodyParts3D",
+      "license": "CC BY 4.0",
+      "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html"
+    }
+  ]
+}

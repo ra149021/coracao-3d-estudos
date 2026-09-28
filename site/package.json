@@ -1,9 +1,9 @@
 {
-  "name": "coracao-3d-local",
-  "version": "0.2.0",
+  "name": "atlas-cardiorrespiratorio-local",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
-  "description": "Exploração local do coração com geometria aberta de Z-Anatomy",
+  "description": "Atlas local de coração e sistema respiratório com teoria, prática e aulas locais",
   "scripts": {
     "start": "python3 ../scripts/serve_heart.py"
   },

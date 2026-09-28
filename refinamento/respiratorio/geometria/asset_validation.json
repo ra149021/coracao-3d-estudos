@@ -1,0 +1,3764 @@
+[
+  {
+    "system": "respiratory",
+    "sha256": "0d4fb455922ad0563712eaab12bb61e1c80ec3dd88eca61ad6f2c78c31515d1e",
+    "parts": [
+      {
+        "id": "resp_mucosa_of_nasal_cavity",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 9808,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            4860
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 92
+        }
+      },
+      {
+        "id": "resp_nasal_septal_cartilage",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 360,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            182
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_lateral_process_of_nasal_septal_cartilage_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 347,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            174
+          ],
+          "boundary_edges": 2,
+          "nonmanifold_edges": 1
+        }
+      },
+      {
+        "id": "resp_lateral_process_of_nasal_septal_cartilage_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 347,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            174
+          ],
+          "boundary_edges": 2,
+          "nonmanifold_edges": 1
+        }
+      },
+      {
+        "id": "resp_major_alar_cartilage_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 344,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            174
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_major_alar_cartilage_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 344,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            174
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_inferior_nasal_concha_bone_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 476,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            238
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_inferior_nasal_concha_bone_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 476,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            238
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_ethmoid_bone",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 10130,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 13,
+          "component_vertex_counts": [
+            2514,
+            242,
+            242,
+            242,
+            242,
+            242,
+            242,
+            186,
+            186,
+            186,
+            186,
+            186,
+            186
+          ],
+          "boundary_edges": 20,
+          "nonmanifold_edges": 37
+        }
+      },
+      {
+        "id": "resp_vomer",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1022,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            513
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_sinus_of_frontal_bone",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1504,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            385,
+            385
+          ],
+          "boundary_edges": 32,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_sinus_of_sphenoid_bone",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 384,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            105,
+            105
+          ],
+          "boundary_edges": 32,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_anterior_cells_of_ethmoid_bone_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 736,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            186,
+            186
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_anterior_cells_of_ethmoid_bone_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 736,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            186,
+            186
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_middle_cells_of_ethmoid_bone_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 960,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            242,
+            242
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_middle_cells_of_ethmoid_bone_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 960,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            242,
+            242
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_posterior_cells_of_ethmoid_bone_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1216,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 3,
+          "component_vertex_counts": [
+            242,
+            186,
+            186
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_posterior_cells_of_ethmoid_bone_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1216,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 3,
+          "component_vertex_counts": [
+            242,
+            186,
+            186
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_nasopharynx",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1952,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            978
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_oropharynx",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2544,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1274
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_laryngopharynx",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2476,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1238
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_soft_palate",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3764,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1884
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_uvula_of_palate",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1502,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            753
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_tongue",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 682,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            343
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_hyoid_bone",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1324,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            664
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_thyroid_cartilage",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4488,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2246
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_cricoid_cartilage",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1882,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            940
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 4
+        }
+      },
+      {
+        "id": "resp_arytenoid_cartilage_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3780,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1892
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_arytenoid_cartilage_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3780,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1892
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_corniculate_cartilage_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 136,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            70
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_corniculate_cartilage_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 136,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            70
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_epiglottis",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3376,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1650
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_lateral_crico_arytenoid_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1624,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            815
+          ],
+          "boundary_edges": 4,
+          "nonmanifold_edges": 3
+        }
+      },
+      {
+        "id": "resp_lateral_crico_arytenoid_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1624,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            815
+          ],
+          "boundary_edges": 4,
+          "nonmanifold_edges": 3
+        }
+      },
+      {
+        "id": "resp_posterior_crico_arytenoid_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1812,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            908
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_posterior_crico_arytenoid_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1812,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            908
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_external_part_of_thyro_arytenoid_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2236,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1120
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_external_part_of_thyro_arytenoid_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2236,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1120
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_ary_epiglottic_part_of_oblique_arytenoid_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1022,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            513
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_ary_epiglottic_part_of_oblique_arytenoid_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1022,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            513
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_thyro_epiglottic_part_of_thyro_arytenoid_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3110,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1557
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_thyro_epiglottic_part_of_thyro_arytenoid_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3110,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1557
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_straight_part_of_cricothyroid_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1180,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            592
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_straight_part_of_cricothyroid_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1180,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            592
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_oblique_part_of_cricothyroid_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2060,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1032
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_oblique_part_of_cricothyroid_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2060,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1032
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_transverse_arytenoid_muscle",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1822,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            913
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_quadrangular_membrane_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4592,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2296
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_quadrangular_membrane_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4592,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2296
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_lateral_thyrohyoid_ligament_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 912,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            458
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_lateral_thyrohyoid_ligament_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 912,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            458
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_cricopharyngeal_ligament_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3119,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1540
+          ],
+          "boundary_edges": 24,
+          "nonmanifold_edges": 64
+        }
+      },
+      {
+        "id": "resp_cricopharyngeal_ligament_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3119,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1540
+          ],
+          "boundary_edges": 24,
+          "nonmanifold_edges": 64
+        }
+      },
+      {
+        "id": "resp_median_thyrohyoid_ligament",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2771,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1387
+          ],
+          "boundary_edges": 1,
+          "nonmanifold_edges": 2
+        }
+      },
+      {
+        "id": "resp_median_cricothyroid_ligament",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1958,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1066
+          ],
+          "boundary_edges": 194,
+          "nonmanifold_edges": 10
+        }
+      },
+      {
+        "id": "resp_trachea",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4756,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2400
+          ],
+          "boundary_edges": 42,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_left_main_bronchus",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 576,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            300
+          ],
+          "boundary_edges": 24,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_right_main_bronchus",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 288,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            156
+          ],
+          "boundary_edges": 24,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_left_superior_lobar_bronchus",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1152,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            300,
+            300
+          ],
+          "boundary_edges": 48,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_left_inferior_lobar_bronchus",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 864,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            444
+          ],
+          "boundary_edges": 24,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_right_superior_lobar_bronchus",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 288,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            156
+          ],
+          "boundary_edges": 24,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_intermediate_bronchus_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 288,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            156
+          ],
+          "boundary_edges": 24,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_middle_lobar_bronchus_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 288,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            156
+          ],
+          "boundary_edges": 24,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_right_inferior_lobar_bronchus",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1152,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            588
+          ],
+          "boundary_edges": 24,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_apical_segmental_bronchus_of_right_lung_bi",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 6624,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 8,
+          "component_vertex_counts": [
+            732,
+            588,
+            444,
+            444,
+            300,
+            300,
+            300,
+            300
+          ],
+          "boundary_edges": 192,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_posterior_segmental_bronchus_of_right_lung_bii",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4896,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 6,
+          "component_vertex_counts": [
+            732,
+            588,
+            300,
+            300,
+            300,
+            300
+          ],
+          "boundary_edges": 144,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_anterior_segmental_bronchus_of_right_lung_biii",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4896,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 7,
+          "component_vertex_counts": [
+            732,
+            444,
+            300,
+            300,
+            300,
+            300,
+            156
+          ],
+          "boundary_edges": 168,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_lateral_segmental_bronchus_of_right_lung_biv",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3168,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 4,
+          "component_vertex_counts": [
+            588,
+            444,
+            300,
+            300
+          ],
+          "boundary_edges": 96,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_medial_segmental_bronchus_of_right_lung_bv",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3168,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 4,
+          "component_vertex_counts": [
+            588,
+            444,
+            300,
+            300
+          ],
+          "boundary_edges": 96,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_superior_segmental_bronchus_of_right_lung_bvi",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 8928,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 9,
+          "component_vertex_counts": [
+            876,
+            876,
+            588,
+            588,
+            444,
+            444,
+            300,
+            300,
+            156
+          ],
+          "boundary_edges": 216,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_medial_basal_segmental_bronchus_of_right_lung_bvii",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1728,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            588,
+            300
+          ],
+          "boundary_edges": 48,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_anterior_basal_segmental_bronchus_of_right_lung_bviii",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2880,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 3,
+          "component_vertex_counts": [
+            588,
+            588,
+            300
+          ],
+          "boundary_edges": 72,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_lateral_basal_segmental_bronchus_of_right_lung_bix",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4608,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 4,
+          "component_vertex_counts": [
+            1164,
+            588,
+            300,
+            300
+          ],
+          "boundary_edges": 96,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_posterior_basal_segmental_bronchus_of_right_lung_bx",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4320,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 4,
+          "component_vertex_counts": [
+            732,
+            588,
+            444,
+            444
+          ],
+          "boundary_edges": 96,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_apicoposterior_segmental_bronchus_of_left_lung_bi_bii",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 7488,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 9,
+          "component_vertex_counts": [
+            876,
+            588,
+            444,
+            444,
+            300,
+            300,
+            300,
+            300,
+            300
+          ],
+          "boundary_edges": 216,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_anterior_segmental_bronchus_of_left_lung_biii",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3456,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 5,
+          "component_vertex_counts": [
+            588,
+            300,
+            300,
+            300,
+            300
+          ],
+          "boundary_edges": 120,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_superior_lingular_segmental_bronchus_of_left_lung_biv",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2016,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 3,
+          "component_vertex_counts": [
+            444,
+            300,
+            300
+          ],
+          "boundary_edges": 72,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_inferior_lingular_segmental_bronchus_of_left_lung_bv",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2016,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 3,
+          "component_vertex_counts": [
+            732,
+            156,
+            156
+          ],
+          "boundary_edges": 72,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_superior_segmental_bronchus_of_left_lung_bvi",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4320,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 6,
+          "component_vertex_counts": [
+            588,
+            444,
+            444,
+            444,
+            156,
+            156
+          ],
+          "boundary_edges": 144,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_medial_basal_segmental_bronchus_of_left_lung_bvii",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 5760,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 5,
+          "component_vertex_counts": [
+            1020,
+            732,
+            588,
+            300,
+            300
+          ],
+          "boundary_edges": 120,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_anterior_basal_segmental_bronchus_of_left_lung_bviii",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1440,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            444,
+            300
+          ],
+          "boundary_edges": 48,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_lateral_basal_segmental_bronchus_of_left_lung_bix",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2304,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            732,
+            444
+          ],
+          "boundary_edges": 48,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_posterior_basal_segmental_bronchus_of_left_lung_bx",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1152,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            588
+          ],
+          "boundary_edges": 24,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_anteromedial_basal_segmental_bronchus_of_left_lung",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2880,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 3,
+          "component_vertex_counts": [
+            876,
+            300,
+            300
+          ],
+          "boundary_edges": 72,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_superior_lobe_of_right_lung",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 7748,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            3902
+          ],
+          "boundary_edges": 60,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_middle_lobe_of_right_lung",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 7396,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            3708
+          ],
+          "boundary_edges": 20,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_inferior_lobe_of_right_lung",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 8452,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            4231
+          ],
+          "boundary_edges": 16,
+          "nonmanifold_edges": 8
+        }
+      },
+      {
+        "id": "resp_superior_lobe_of_left_lung",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 9290,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            4662
+          ],
+          "boundary_edges": 34,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_inferior_lobe_of_left_lung",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 9258,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            4637
+          ],
+          "boundary_edges": 14,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_pleura",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 112288,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 8,
+          "component_vertex_counts": [
+            7324,
+            7324,
+            7324,
+            7324,
+            6716,
+            6716,
+            6716,
+            6716
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_diaphragm_node",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 38868,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            19433
+          ],
+          "boundary_edges": 4,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_external_intercostal_muscles_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 41408,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 11,
+          "component_vertex_counts": [
+            2370,
+            2331,
+            2327,
+            2298,
+            2135,
+            2066,
+            1715,
+            1668,
+            1544,
+            1154,
+            1055
+          ],
+          "boundary_edges": 4,
+          "nonmanifold_edges": 1
+        }
+      },
+      {
+        "id": "resp_external_intercostal_muscles_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 41408,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 11,
+          "component_vertex_counts": [
+            2370,
+            2331,
+            2327,
+            2298,
+            2135,
+            2066,
+            1715,
+            1668,
+            1544,
+            1154,
+            1055
+          ],
+          "boundary_edges": 4,
+          "nonmanifold_edges": 1
+        }
+      },
+      {
+        "id": "resp_internal_intercostal_muscles_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 40184,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 12,
+          "component_vertex_counts": [
+            2840,
+            2812,
+            2500,
+            2312,
+            2132,
+            2023,
+            1853,
+            1450,
+            1200,
+            918,
+            6,
+            3
+          ],
+          "boundary_edges": 19,
+          "nonmanifold_edges": 15
+        }
+      },
+      {
+        "id": "resp_internal_intercostal_muscles_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 40184,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 12,
+          "component_vertex_counts": [
+            2840,
+            2812,
+            2500,
+            2312,
+            2132,
+            2023,
+            1853,
+            1450,
+            1200,
+            918,
+            6,
+            3
+          ],
+          "boundary_edges": 19,
+          "nonmanifold_edges": 15
+        }
+      },
+      {
+        "id": "resp_innermost_intercostal_muscles_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 38254,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 9,
+          "component_vertex_counts": [
+            3312,
+            2732,
+            2503,
+            2425,
+            2084,
+            1938,
+            1755,
+            1327,
+            1015
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_innermost_intercostal_muscles_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 38254,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 9,
+          "component_vertex_counts": [
+            3312,
+            2732,
+            2503,
+            2425,
+            2084,
+            1938,
+            1755,
+            1327,
+            1015
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_superior_pharyngeal_constrictor_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 5334,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2669
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_superior_pharyngeal_constrictor_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 5334,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2669
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_middle_pharyngeal_constrictor_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2948,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1476
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_middle_pharyngeal_constrictor_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2948,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1476
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_inferior_pharyngeal_constrictor_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3696,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1850
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_inferior_pharyngeal_constrictor_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3696,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1850
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_stylopharyngeus_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 9478,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            4740
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_stylopharyngeus_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 9478,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            4740
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_palatopharyngeus_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 15282,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            7642
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_palatopharyngeus_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 15282,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            7642
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_nasal_bone_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 292,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            148
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_nasal_bone_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 292,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            148
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_palatine_bone_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1460,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            732
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_palatine_bone_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1460,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            732
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_maxilla_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4798,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2399
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_maxilla_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4798,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2399
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_lacrimal_bone_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 588,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            296
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_lacrimal_bone_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 588,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            296
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_sphenoid_bone",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 7308,
+        "exact_zero_area_triangles": 4,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            3648
+          ],
+          "boundary_edges": 32,
+          "nonmanifold_edges": 4
+        }
+      },
+      {
+        "id": "resp_sternohyoid_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1394,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            697
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_sternohyoid_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1394,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            697
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_sternothyroid_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1088,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            546
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_sternothyroid_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1088,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            546
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_thyrohyoid_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 699,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            352
+          ],
+          "boundary_edges": 3,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_thyrohyoid_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 699,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            352
+          ],
+          "boundary_edges": 3,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_omohyoid_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2706,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1355
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_omohyoid_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2706,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1355
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_mylohyoid_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1122,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            561
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_mylohyoid_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1122,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            561
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_geniohyoid_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 530,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            267
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_geniohyoid_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 530,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            267
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_stylohyoid_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 694,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            349
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_stylohyoid_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 694,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            349
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_anterior_belly_of_digastric_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 392,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            198
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_anterior_belly_of_digastric_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 392,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            198
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_posterior_belly_of_digastric_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1276,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            638
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_posterior_belly_of_digastric_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1276,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            638
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_intermediate_tendon_of_digastric_muscle_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 228,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            116
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_intermediate_tendon_of_digastric_muscle_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 228,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            116
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_manubrium_of_sternum",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2662,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1333
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_body_of_sternum",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4466,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2235
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_xiphoid_process",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 913,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            459
+          ],
+          "boundary_edges": 17,
+          "nonmanifold_edges": 16
+        }
+      },
+      {
+        "id": "resp_first_rib_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3210,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1607
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_first_rib_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3210,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1607
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_second_rib_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 5364,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2684
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_second_rib_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 5364,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2684
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_third_rib_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 6980,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            3492
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_third_rib_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 6980,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            3492
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_fourth_rib_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 8646,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            4325
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_fourth_rib_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 8646,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            4325
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_fifth_rib_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 9376,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            4690
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_fifth_rib_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 9376,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            4690
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_sixth_rib_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 10132,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            5068
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_sixth_rib_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 10132,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            5068
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_seventh_rib_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 9776,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            4890
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_seventh_rib_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 9776,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            4890
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_eighth_rib_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 8270,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            4137
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_eighth_rib_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 8270,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            4137
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_ninth_rib_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 7778,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            3891
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_ninth_rib_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 7778,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            3891
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_tenth_rib_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 7026,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            3515
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_tenth_rib_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 7026,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            3515
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_eleventh_rib_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 5034,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2519
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_eleventh_rib_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 5034,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2519
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_twelfth_rib_l",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3002,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1503
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_twelfth_rib_r",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3002,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1503
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_right_atrium",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 9298,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            4756
+          ],
+          "boundary_edges": 218,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_right_ventricle",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 9152,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            4726
+          ],
+          "boundary_edges": 300,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_left_atrium",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2092,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1090
+          ],
+          "boundary_edges": 100,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_left_ventricle",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 9122,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            2807,
+            1911
+          ],
+          "boundary_edges": 314,
+          "nonmanifold_edges": 0
+        }
+      }
+    ],
+    "note": "Topology can be open/disconnected in the author source, notably curve branches. No capping, deletion or deformation performed."
+  },
+  {
+    "system": "larynx",
+    "sha256": "0d266bfe4481bcefcb5b73d4ad698a12fd3fb69d6b4668b6adbcd903f1761d60",
+    "parts": [
+      {
+        "id": "larynx_fma9615",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1702,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            851
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma55099",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2610,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1307
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma55130",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3602,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1763
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma52749",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1196,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            600
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma55114",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 536,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            270
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma55113",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 540,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            272
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma55116",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 136,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            70
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma55115",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 172,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            88
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma55118",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 174,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            89
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma55117",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 170,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            87
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma46581",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 6214,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            3109
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma46580",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 6198,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            3101
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma46585",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 6304,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            3152
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma46584",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 6084,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            3042
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma46578",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4842,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2423
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma46577",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4812,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2408
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma46612",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3270,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            1634,
+            3
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma46611",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 3232,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 6,
+          "component_vertex_counts": [
+            1613,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma46614",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 5580,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2792
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma46613",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 5566,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2785
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma46593",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1152,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            578
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma46592",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1148,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            576
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma55134",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4884,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2442
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma55133",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4884,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2442
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma55141",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 964,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            483,
+            3
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma55140",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 974,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            489
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma46590",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 15382,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            4645,
+            3048
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma46589",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 16742,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            5325,
+            3048
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma46605",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4510,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 5,
+          "component_vertex_counts": [
+            2123,
+            10,
+            8,
+            6,
+            6
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma46604",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4366,
+        "exact_zero_area_triangles": 3,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 35,
+          "component_vertex_counts": [
+            1988,
+            33,
+            23,
+            19,
+            12,
+            11,
+            11,
+            8,
+            8,
+            6,
+            6,
+            5,
+            4,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 4
+        }
+      },
+      {
+        "id": "larynx_fma46582",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 6580,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 3,
+          "component_vertex_counts": [
+            3286,
+            5,
+            3
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma55138",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2856,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            1430
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma55237",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2052,
+        "exact_zero_area_triangles": 2,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 6,
+          "component_vertex_counts": [
+            1005,
+            6,
+            5,
+            3,
+            3,
+            3
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 2
+        }
+      },
+      {
+        "id": "larynx_fma55227",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 2112,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 11,
+          "component_vertex_counts": [
+            1043,
+            5,
+            4,
+            4,
+            4,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma55230",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1042,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            519
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma55246",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1858,
+        "exact_zero_area_triangles": 23,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            854,
+            30
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 57
+        }
+      },
+      {
+        "id": "larynx_fma55245",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 1644,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            824
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma55252",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4306,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 6,
+          "component_vertex_counts": [
+            2145,
+            6,
+            5,
+            3,
+            3,
+            3
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "larynx_fma55251",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4366,
+        "exact_zero_area_triangles": 2,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2104
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 3
+        }
+      },
+      {
+        "id": "larynx_fma7394",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 4996,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            2500
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      }
+    ],
+    "note": "Topology can be open/disconnected in the author source, notably curve branches. No capping, deletion or deformation performed."
+  }
+]

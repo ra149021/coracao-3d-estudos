@@ -1,0 +1,1535 @@
+{
+  "source_elements_unique": 42,
+  "parts": [
+    {
+      "id": "larynx_fma9615",
+      "elements": [
+        "FJ2769"
+      ],
+      "source_hashes": {
+        "FJ2769": "5f75fb4d2969fd1de51898787bb8810c441d5d2bd6eb0c5482b7cacd3c9bc3be"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 851,
+        "triangles": 1702,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          851
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 1335.238569335171,
+        "source_bounds_mm": [
+          [
+            -12.1665,
+            -111.469,
+            1387.2
+          ],
+          [
+            10.8605,
+            -92.6165,
+            1404.72
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma55099",
+      "elements": [
+        "FJ2808"
+      ],
+      "source_hashes": {
+        "FJ2808": "48cd41bcd4044c7013ba10c971e212766afc970408f51875f9ef8e8c407c0687"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 1307,
+        "triangles": 2610,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          1307
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 3455.7214206463877,
+        "source_bounds_mm": [
+          [
+            -19.9803,
+            -122.446,
+            1391.41
+          ],
+          [
+            18.6825,
+            -91.5061,
+            1430.93
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma55130",
+      "elements": [
+        "FJ2770"
+      ],
+      "source_hashes": {
+        "FJ2770": "05ae56007f7aa017fb458bdef643ea97e51ed3bd275b13da30086fa02b606054"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 1763,
+        "triangles": 3602,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          1763
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 800.3506974698996,
+        "source_bounds_mm": [
+          [
+            -8.59202,
+            -115.9,
+            1408.73
+          ],
+          [
+            7.23443,
+            -108.189,
+            1438.23
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma52749",
+      "elements": [
+        "FJ2772"
+      ],
+      "source_hashes": {
+        "FJ2772": "c8c6cfdd66285cdda16fa441829f723d3943823d0ffebf5e394ff8dc49a598b1"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 600,
+        "triangles": 1196,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          600
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 1417.6030466182947,
+        "source_bounds_mm": [
+          [
+            -19.5242,
+            -129.0,
+            1422.37
+          ],
+          [
+            18.2825,
+            -94.4187,
+            1440.86
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma55114",
+      "elements": [
+        "FJ2775"
+      ],
+      "source_hashes": {
+        "FJ2775": "1e2c0bf8eab8a3a1814b5d56ba721031f3bd87473ea739e540781117bbfb32c9"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 270,
+        "triangles": 536,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          270
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 112.96988959617266,
+        "source_bounds_mm": [
+          [
+            1.18243,
+            -102.681,
+            1403.49
+          ],
+          [
+            6.72215,
+            -95.3758,
+            1411.63
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma55113",
+      "elements": [
+        "FJ2792"
+      ],
+      "source_hashes": {
+        "FJ2792": "6766f404ea88ffb33f5430ee4704a416aab95813da19a84998f67fbdcc556eaa"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 272,
+        "triangles": 540,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          272
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 113.51629110981506,
+        "source_bounds_mm": [
+          [
+            -8.0179,
+            -102.671,
+            1403.48
+          ],
+          [
+            -2.51497,
+            -95.3936,
+            1411.61
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma55116",
+      "elements": [
+        "FJ2776"
+      ],
+      "source_hashes": {
+        "FJ2776": "282ec50dc80214ead94da19cab975e6be2a6cba093c9765b3260c98af2300ca3"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 70,
+        "triangles": 136,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          70
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 5.672661063945726,
+        "source_bounds_mm": [
+          [
+            1.64898,
+            -96.7167,
+            1411.05
+          ],
+          [
+            3.12757,
+            -95.101,
+            1412.55
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma55115",
+      "elements": [
+        "FJ2793"
+      ],
+      "source_hashes": {
+        "FJ2793": "055590405743b1adb114f2b9480122827e7dac69d964fa43409bd57bfb6ada4d"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 88,
+        "triangles": 172,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          88
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 5.761938514465616,
+        "source_bounds_mm": [
+          [
+            -4.4685,
+            -96.6833,
+            1411.04
+          ],
+          [
+            -2.95405,
+            -95.1035,
+            1412.6
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma55118",
+      "elements": [
+        "FJ2773"
+      ],
+      "source_hashes": {
+        "FJ2773": "33f5b140ab7a37e450e130ed8f9bf579ef9f11856dcd3587b5f634bd6a83d0e0"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 89,
+        "triangles": 174,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          89
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 16.6217224572376,
+        "source_bounds_mm": [
+          [
+            3.31969,
+            -102.87,
+            1414.07
+          ],
+          [
+            5.06498,
+            -100.193,
+            1417.33
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma55117",
+      "elements": [
+        "FJ2795"
+      ],
+      "source_hashes": {
+        "FJ2795": "9745a416c9f85f106aabdedb8645811c8cfbf85025364310e06a04072d766f0b"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 87,
+        "triangles": 170,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          87
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 16.46771766731597,
+        "source_bounds_mm": [
+          [
+            -6.37734,
+            -102.389,
+            1413.65
+          ],
+          [
+            -4.46088,
+            -100.199,
+            1417.14
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma46581",
+      "elements": [
+        "FJ2778"
+      ],
+      "source_hashes": {
+        "FJ2778": "15d694d60ddab28b19aa0ca2017c86ac82ccc3fda58d257a240f56c363d4271a"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 3109,
+        "triangles": 6214,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          3109
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 124.778634951254,
+        "source_bounds_mm": [
+          [
+            5.96481,
+            -107.314,
+            1394.42
+          ],
+          [
+            10.4363,
+            -97.2576,
+            1405.23
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma46580",
+      "elements": [
+        "FJ2796"
+      ],
+      "source_hashes": {
+        "FJ2796": "d0a4730aeb6f0bafdf53eced4954a0ccfaf31ba8f3d08aa90e0c18d9c8928cb3"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 3101,
+        "triangles": 6198,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          3101
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 124.64233363493054,
+        "source_bounds_mm": [
+          [
+            -11.7348,
+            -107.312,
+            1394.42
+          ],
+          [
+            -7.28367,
+            -97.2599,
+            1405.23
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma46585",
+      "elements": [
+        "FJ2780"
+      ],
+      "source_hashes": {
+        "FJ2780": "9ad13a6a95301607fa5968e68ae47efc458ebc67f9582f6fc0861672b7b4de17"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 3152,
+        "triangles": 6304,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          3152
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 71.04059544703549,
+        "source_bounds_mm": [
+          [
+            -7.29724,
+            -96.7783,
+            1403.6
+          ],
+          [
+            5.65565,
+            -93.6226,
+            1410.22
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma46584",
+      "elements": [
+        "FJ2798"
+      ],
+      "source_hashes": {
+        "FJ2798": "706e265f99131c2bde1b61c4bc2cdfab7ae384ed2c84f10c8cbff91a295ca22c"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 3042,
+        "triangles": 6084,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          3042
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 70.9453355610148,
+        "source_bounds_mm": [
+          [
+            -6.96925,
+            -96.7666,
+            1403.61
+          ],
+          [
+            5.97263,
+            -93.6181,
+            1410.23
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma46578",
+      "elements": [
+        "FJ2782"
+      ],
+      "source_hashes": {
+        "FJ2782": "eb100ad68f9201832f5fa15c7e802c175fb813302c8983f13b6f3d3dfdb3d4ef"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 2423,
+        "triangles": 4842,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          2423
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 250.56932429201177,
+        "source_bounds_mm": [
+          [
+            0.970833,
+            -98.4061,
+            1390.55
+          ],
+          [
+            10.0851,
+            -92.6623,
+            1404.92
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma46577",
+      "elements": [
+        "FJ2800"
+      ],
+      "source_hashes": {
+        "FJ2800": "917fb9e8667c4d179c0f86ec06c27dc2d0537e4f81d1319aa21fe5a0e237d891"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 2408,
+        "triangles": 4812,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          2408
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 250.21143658368007,
+        "source_bounds_mm": [
+          [
+            -11.3752,
+            -98.3916,
+            1390.55
+          ],
+          [
+            -2.27576,
+            -92.6599,
+            1404.92
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma46612",
+      "elements": [
+        "FJ2783"
+      ],
+      "source_hashes": {
+        "FJ2783": "4df0efbaea3fbb676eafc3add4a1cdd772fac352950501389f39e16f0c90e98c"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 1637,
+        "triangles": 3270,
+        "connected_components_by_vertex_index": 2,
+        "component_vertex_counts": [
+          1634,
+          3
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 164.77705235318007,
+        "source_bounds_mm": [
+          [
+            0.960196,
+            -111.489,
+            1388.24
+          ],
+          [
+            10.697,
+            -104.616,
+            1398.56
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 3
+    },
+    {
+      "id": "larynx_fma46611",
+      "elements": [
+        "FJ2801"
+      ],
+      "source_hashes": {
+        "FJ2801": "1611203625fd53e498d2b5cf40018ed71694a0d307c8502744f62687512fc19e"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 1628,
+        "triangles": 3232,
+        "connected_components_by_vertex_index": 6,
+        "component_vertex_counts": [
+          1613,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 164.1825299343032,
+        "source_bounds_mm": [
+          [
+            -12.0197,
+            -111.49,
+            1388.26
+          ],
+          [
+            10.44,
+            -104.647,
+            1398.56
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 15
+    },
+    {
+      "id": "larynx_fma46614",
+      "elements": [
+        "FJ2781"
+      ],
+      "source_hashes": {
+        "FJ2781": "d7b4c77ccec1ec98530377fdbac423bffda9535e39192b11442566118a63a198"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 2792,
+        "triangles": 5580,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          2792
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 280.14278543360723,
+        "source_bounds_mm": [
+          [
+            3.5398,
+            -109.691,
+            1388.28
+          ],
+          [
+            11.8537,
+            -93.4977,
+            1401.42
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma46613",
+      "elements": [
+        "FJ2799"
+      ],
+      "source_hashes": {
+        "FJ2799": "cf0213eeea0b73d9ab428e5caf50683475100d65d670d95a716ae1af1a541b03"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 2785,
+        "triangles": 5566,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          2785
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 279.96422474570005,
+        "source_bounds_mm": [
+          [
+            -13.1716,
+            -109.689,
+            1388.29
+          ],
+          [
+            -4.84406,
+            -93.5098,
+            1401.4
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma46593",
+      "elements": [
+        "FJ2788"
+      ],
+      "source_hashes": {
+        "FJ2788": "dd26f669e127e5c5fae7ff796da0f516887f8c3834bbde1f2881d3a222cc2375"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 578,
+        "triangles": 1152,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          578
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 33.96815304133274,
+        "source_bounds_mm": [
+          [
+            1.1831,
+            -114.979,
+            1403.7
+          ],
+          [
+            2.77049,
+            -100.883,
+            1405.13
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma46592",
+      "elements": [
+        "FJ2806"
+      ],
+      "source_hashes": {
+        "FJ2806": "f4b83790f1c6364785f6ec6a8428443e7f20cfe48ed9a14234bb8aff1d80f2a9"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 576,
+        "triangles": 1148,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          576
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 33.69036701890607,
+        "source_bounds_mm": [
+          [
+            -4.08703,
+            -114.971,
+            1403.69
+          ],
+          [
+            -2.49583,
+            -100.88,
+            1405.13
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma55134",
+      "elements": [
+        "FJ2786"
+      ],
+      "source_hashes": {
+        "FJ2786": "76aca51bbecd3a2804fb4c65f37638d82ee71413f636972db0b224cb2091d15e"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 2442,
+        "triangles": 4884,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          2442
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 852.0831343967469,
+        "source_bounds_mm": [
+          [
+            3.98273,
+            -121.994,
+            1415.96
+          ],
+          [
+            18.2601,
+            -93.5193,
+            1438.13
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma55133",
+      "elements": [
+        "FJ2804"
+      ],
+      "source_hashes": {
+        "FJ2804": "4250925cb74084de7f699859f52773f2942689943e89613b5a52768cef42af4e"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 2442,
+        "triangles": 4884,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          2442
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 852.4635626307797,
+        "source_bounds_mm": [
+          [
+            -19.5546,
+            -121.975,
+            1415.92
+          ],
+          [
+            -5.29227,
+            -93.5148,
+            1438.14
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma55141",
+      "elements": [
+        "FJ2779"
+      ],
+      "source_hashes": {
+        "FJ2779": "b48baf72d1ab117ad320dbe2432e82979ae56e2bdf83632d4f72d03435e8ad2e"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 486,
+        "triangles": 964,
+        "connected_components_by_vertex_index": 2,
+        "component_vertex_counts": [
+          483,
+          3
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 95.52601858572122,
+        "source_bounds_mm": [
+          [
+            14.9276,
+            -97.5473,
+            1427.9
+          ],
+          [
+            18.6646,
+            -92.5645,
+            1439.0
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 3
+    },
+    {
+      "id": "larynx_fma55140",
+      "elements": [
+        "FJ2797"
+      ],
+      "source_hashes": {
+        "FJ2797": "f17658211f590bfff00d5e79a37230526e294847f06bc91ac3267a7abe8888d3"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 489,
+        "triangles": 974,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          489
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 95.14980942594178,
+        "source_bounds_mm": [
+          [
+            -19.9799,
+            -97.5448,
+            1427.94
+          ],
+          [
+            -16.2152,
+            -92.5779,
+            1438.99
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma46590",
+      "elements": [
+        "FJ2784",
+        "FJ2785"
+      ],
+      "source_hashes": {
+        "FJ2784": "6b0698f8b6a6cb877d3610dc959abe0b9c4691bb6e746fd85c8e523fcebc74a9",
+        "FJ2785": "a785608978d62c2c14f2057cfe2606fe183523dbf92fc587801234bc0be41e2a"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 7693,
+        "triangles": 15382,
+        "connected_components_by_vertex_index": 2,
+        "component_vertex_counts": [
+          4645,
+          3048
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 740.4570635711273,
+        "source_bounds_mm": [
+          [
+            -1.04591,
+            -117.519,
+            1402.32
+          ],
+          [
+            7.46922,
+            -95.8557,
+            1429.97
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma46589",
+      "elements": [
+        "FJ2802",
+        "FJ2803"
+      ],
+      "source_hashes": {
+        "FJ2802": "68d5990536538ba707bd1b1b967b7ab14266ed74e5f0d1e33230a5922181c322",
+        "FJ2803": "fd38f2f5befd554ba19bd4fbab0d0a4ae137a59bb24d3dd0852eb5caa910d3e2"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 8373,
+        "triangles": 16742,
+        "connected_components_by_vertex_index": 2,
+        "component_vertex_counts": [
+          5325,
+          3048
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 743.9312710370273,
+        "source_bounds_mm": [
+          [
+            -8.77783,
+            -117.52,
+            1402.35
+          ],
+          [
+            -0.261758,
+            -95.8425,
+            1429.97
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma46605",
+      "elements": [
+        "FJ2774"
+      ],
+      "source_hashes": {
+        "FJ2774": "a7922984f588cdb61a10fd9d6bc901cf843db3520ce0a5a38ba8edfb51e05bab"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 2153,
+        "triangles": 4510,
+        "connected_components_by_vertex_index": 5,
+        "component_vertex_counts": [
+          2123,
+          10,
+          8,
+          6,
+          6
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 119.76701758050055,
+        "source_bounds_mm": [
+          [
+            3.5512,
+            -108.822,
+            1409.42
+          ],
+          [
+            7.85456,
+            -96.7822,
+            1432.45
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma46604",
+      "elements": [
+        "FJ2791"
+      ],
+      "source_hashes": {
+        "FJ2791": "588ffa8fcec00eaa9ce1488576161a548941ba4dd3866a58063b5a78da7c891d"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 2200,
+        "triangles": 4366,
+        "connected_components_by_vertex_index": 35,
+        "component_vertex_counts": [
+          1988,
+          33,
+          23,
+          19,
+          12,
+          11,
+          11,
+          8,
+          8,
+          6,
+          6,
+          5,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 4,
+        "zero_area_triangles": 3,
+        "surface_area_mm2": 118.92510676420655,
+        "source_bounds_mm": [
+          [
+            -9.1688,
+            -108.823,
+            1409.42
+          ],
+          [
+            7.5112,
+            -96.7789,
+            1432.45
+          ]
+        ],
+        "exact_zero_area_triangles": 3
+      },
+      "normal_fallbacks": 71
+    },
+    {
+      "id": "larynx_fma46582",
+      "elements": [
+        "FJ2809"
+      ],
+      "source_hashes": {
+        "FJ2809": "1ece0839b43392b090d5e4b5bf96448a10935f1d3637487cd526d0fff8251f32"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 3294,
+        "triangles": 6580,
+        "connected_components_by_vertex_index": 3,
+        "component_vertex_counts": [
+          3286,
+          5,
+          3
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 199.71421882899455,
+        "source_bounds_mm": [
+          [
+            -8.01617,
+            -97.7751,
+            1403.41
+          ],
+          [
+            6.69442,
+            -94.7002,
+            1409.65
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 3
+    },
+    {
+      "id": "larynx_fma55138",
+      "elements": [
+        "FJ2790"
+      ],
+      "source_hashes": {
+        "FJ2790": "b731abaf6b663050b09d3fd2fc98d2260a114fdb2268519c7df5aa85732bdaf6"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 1430,
+        "triangles": 2856,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          1430
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 440.0364929542347,
+        "source_bounds_mm": [
+          [
+            -9.17397,
+            -126.048,
+            1406.48
+          ],
+          [
+            7.9,
+            -118.491,
+            1424.11
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma55237",
+      "elements": [
+        "FJ2789"
+      ],
+      "source_hashes": {
+        "FJ2789": "6b51f7e389da70fe5a128165073932cb98f1bf628a2ff46115c3a9f73e7a91d1"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 1025,
+        "triangles": 2052,
+        "connected_components_by_vertex_index": 6,
+        "component_vertex_counts": [
+          1005,
+          6,
+          5,
+          3,
+          3,
+          3
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 2,
+        "zero_area_triangles": 2,
+        "surface_area_mm2": 161.81647383538487,
+        "source_bounds_mm": [
+          [
+            -4.01523,
+            -116.766,
+            1391.51
+          ],
+          [
+            2.70742,
+            -108.959,
+            1404.45
+          ]
+        ],
+        "exact_zero_area_triangles": 2
+      },
+      "normal_fallbacks": 9
+    },
+    {
+      "id": "larynx_fma55227",
+      "elements": [
+        "FJ2771"
+      ],
+      "source_hashes": {
+        "FJ2771": "f744a2873d81471ee14cf63ebf4380c350e21e7e49872bf11ff3ddd668f7bb34"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 1078,
+        "triangles": 2112,
+        "connected_components_by_vertex_index": 11,
+        "component_vertex_counts": [
+          1043,
+          5,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 241.92017633513757,
+        "source_bounds_mm": [
+          [
+            -1.12919,
+            -125.121,
+            1411.91
+          ],
+          [
+            -0.19186,
+            -110.622,
+            1435.04
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 18
+    },
+    {
+      "id": "larynx_fma55230",
+      "elements": [
+        "FJ2807"
+      ],
+      "source_hashes": {
+        "FJ2807": "eb7a5318fd5cd6d9a26605d00bd06f6c18004f7c7c7483c09394d5766f443925"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 519,
+        "triangles": 1042,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          519
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 48.821409878781076,
+        "source_bounds_mm": [
+          [
+            -2.30523,
+            -117.877,
+            1404.68
+          ],
+          [
+            0.868064,
+            -114.021,
+            1411.19
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma55246",
+      "elements": [
+        "FJ2787"
+      ],
+      "source_hashes": {
+        "FJ2787": "fd2030747641aae5864bb28f2c18a03d8ccfc34702f9a9012af1957ac1bef23b"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 884,
+        "triangles": 1858,
+        "connected_components_by_vertex_index": 2,
+        "component_vertex_counts": [
+          854,
+          30
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 57,
+        "zero_area_triangles": 24,
+        "surface_area_mm2": 32.54422377692492,
+        "source_bounds_mm": [
+          [
+            0.117234,
+            -115.104,
+            1403.77
+          ],
+          [
+            2.30972,
+            -101.778,
+            1404.73
+          ]
+        ],
+        "exact_zero_area_triangles": 23
+      },
+      "normal_fallbacks": 12
+    },
+    {
+      "id": "larynx_fma55245",
+      "elements": [
+        "FJ2805"
+      ],
+      "source_hashes": {
+        "FJ2805": "f8d93ea86284dbe0877b6080c642991a6542cf78bb6ad884a78b4d55a7b8e3e8"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 824,
+        "triangles": 1644,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          824
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 31.562359005512008,
+        "source_bounds_mm": [
+          [
+            -3.61221,
+            -115.111,
+            1403.78
+          ],
+          [
+            -1.42763,
+            -101.784,
+            1404.77
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma55252",
+      "elements": [
+        "FJ2777"
+      ],
+      "source_hashes": {
+        "FJ2777": "4f12686c550ea45f54b88d3fdb6e48c7ce577332fdb3d6b0465722516acd6230"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 2165,
+        "triangles": 4306,
+        "connected_components_by_vertex_index": 6,
+        "component_vertex_counts": [
+          2145,
+          6,
+          5,
+          3,
+          3,
+          3
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 340.8351797231279,
+        "source_bounds_mm": [
+          [
+            -6.75,
+            -115.641,
+            1391.92
+          ],
+          [
+            8.17148,
+            -97.5042,
+            1404.73
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 9
+    },
+    {
+      "id": "larynx_fma55251",
+      "elements": [
+        "FJ2794"
+      ],
+      "source_hashes": {
+        "FJ2794": "f3729b2837d39fe4ac58afcfcd4467fbe1999c78e6ad5737566f9494ddc01ff2"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 2104,
+        "triangles": 4366,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          2104
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 3,
+        "zero_area_triangles": 2,
+        "surface_area_mm2": 342.5751458577149,
+        "source_bounds_mm": [
+          [
+            -9.47259,
+            -115.691,
+            1391.96
+          ],
+          [
+            -2.15,
+            -97.5244,
+            1404.77
+          ]
+        ],
+        "exact_zero_area_triangles": 2
+      },
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "larynx_fma7394",
+      "elements": [
+        "FJ2541"
+      ],
+      "source_hashes": {
+        "FJ2541": "eb8c075b6601f2d543532f4a2eb4a39b03430af858da225ba7887e52182272ed"
+      },
+      "validation": {
+        "finite": true,
+        "vertices": 2500,
+        "triangles": 4996,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          2500
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 6888.12126541657,
+        "source_bounds_mm": [
+          [
+            -13.1241,
+            -110.131,
+            1285.09
+          ],
+          [
+            12.8145,
+            -77.366,
+            1395.44
+          ]
+        ],
+        "exact_zero_area_triangles": 0
+      },
+      "normal_fallbacks": 0
+    }
+  ],
+  "display_transform": {
+    "x": "esquerda anatômica",
+    "y": "superior",
+    "z": "anterior",
+    "transform": {
+      "axisMap": "[x,z,-y]",
+      "sourceUnits": "mm",
+      "center": [
+        -0.6488999999999994,
+        1414.03,
+        110.25305
+      ],
+      "scale": 0.1
+    },
+    "preserved": "Uma transformação comum de exibição; sem registro ao Z-Anatomy."
+  }
+}

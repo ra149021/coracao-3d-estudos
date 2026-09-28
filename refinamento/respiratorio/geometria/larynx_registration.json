@@ -1,0 +1,822 @@
+{
+  "method": "One common proper similarity, labelled ICP on 7 homologous original laryngeal cartilages; no per-part fit or warp.",
+  "target_units": "FBX world millimetres",
+  "scale": 1.051327244343878,
+  "rotation": [
+    [
+      0.9999786757841138,
+      0.002375396950966436,
+      0.006083211846984636
+    ],
+    [
+      -0.00613285857008542,
+      0.02148462252387616,
+      0.999750368362406
+    ],
+    [
+      0.0022441084664704116,
+      -0.9997663569476278,
+      0.02149873235469559
+    ]
+  ],
+  "translation_mm": [
+    -8.071470454217563,
+    0.24061724780290206,
+    -127.68782254074745
+  ],
+  "matrix_bp_mm_to_fbx_world_mm": [
+    [
+      1.0513048256147526,
+      0.0024973195306823926,
+      0.006395446347850389,
+      -8.071470454217563
+    ],
+    [
+      -0.006447641300438641,
+      0.022587368993795133,
+      1.0510647998022251,
+      0.24061724780290206
+    ],
+    [
+      0.0023592923700631037,
+      -1.0510816090374675,
+      0.022602203043348684,
+      -127.68782254074745
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "common_meshes": [
+    {
+      "element": "FJ2808",
+      "sourceName": "Thyroid cartilage",
+      "joint_fit": {
+        "symmetric_nearest_vertex_rms_mm": 1.2469215329359629,
+        "symmetric_nearest_vertex_median_mm": 0.978858318000777,
+        "symmetric_nearest_vertex_p95_mm": 2.302358063722693,
+        "symmetric_nearest_vertex_max_mm": 3.6928233733757665,
+        "bbox_max_difference_mm": 3.392190179054751
+      },
+      "held_out": {
+        "symmetric_nearest_vertex_rms_mm": 1.4069014933260284,
+        "symmetric_nearest_vertex_median_mm": 1.1130078498095082,
+        "symmetric_nearest_vertex_p95_mm": 2.49893790960619,
+        "symmetric_nearest_vertex_max_mm": 4.390604734378158,
+        "bbox_max_difference_mm": 4.200670979751976
+      }
+    },
+    {
+      "element": "FJ2769",
+      "sourceName": "Cricoid cartilage",
+      "joint_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.64281751152954,
+        "symmetric_nearest_vertex_median_mm": 0.5201284751167266,
+        "symmetric_nearest_vertex_p95_mm": 1.112406326988923,
+        "symmetric_nearest_vertex_max_mm": 3.4539983281392446,
+        "bbox_max_difference_mm": 1.0413781444676715
+      },
+      "held_out": {
+        "symmetric_nearest_vertex_rms_mm": 0.8560687519726538,
+        "symmetric_nearest_vertex_median_mm": 0.6677126558379239,
+        "symmetric_nearest_vertex_p95_mm": 1.4738354162950553,
+        "symmetric_nearest_vertex_max_mm": 3.544595687729312,
+        "bbox_max_difference_mm": 1.5213432118964647
+      }
+    },
+    {
+      "element": "FJ2775",
+      "sourceName": "Arytenoid cartilage.l",
+      "joint_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.6589777795254064,
+        "symmetric_nearest_vertex_median_mm": 0.5810200720082628,
+        "symmetric_nearest_vertex_p95_mm": 1.0544361130577726,
+        "symmetric_nearest_vertex_max_mm": 1.4123781229887333,
+        "bbox_max_difference_mm": 1.0867421665135222
+      },
+      "held_out": {
+        "symmetric_nearest_vertex_rms_mm": 0.697167527003009,
+        "symmetric_nearest_vertex_median_mm": 0.6160319853963194,
+        "symmetric_nearest_vertex_p95_mm": 1.1239453784104396,
+        "symmetric_nearest_vertex_max_mm": 1.4408187219623552,
+        "bbox_max_difference_mm": 1.1816227696661254
+      }
+    },
+    {
+      "element": "FJ2792",
+      "sourceName": "Arytenoid cartilage.r",
+      "joint_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.6337245931669191,
+        "symmetric_nearest_vertex_median_mm": 0.5496531805898696,
+        "symmetric_nearest_vertex_p95_mm": 1.0457174940069276,
+        "symmetric_nearest_vertex_max_mm": 1.2872837902617016,
+        "bbox_max_difference_mm": 1.0633659980053416
+      },
+      "held_out": {
+        "symmetric_nearest_vertex_rms_mm": 0.6687482961387673,
+        "symmetric_nearest_vertex_median_mm": 0.5742333512219217,
+        "symmetric_nearest_vertex_p95_mm": 1.1023109361026093,
+        "symmetric_nearest_vertex_max_mm": 1.3555242676027561,
+        "bbox_max_difference_mm": 1.1498633959506641
+      }
+    },
+    {
+      "element": "FJ2776",
+      "sourceName": "Corniculate cartilage.l",
+      "joint_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.7977282909401983,
+        "symmetric_nearest_vertex_median_mm": 0.7909959961876158,
+        "symmetric_nearest_vertex_p95_mm": 1.122912397522328,
+        "symmetric_nearest_vertex_max_mm": 1.17819891609489,
+        "bbox_max_difference_mm": 0.9927139854587184
+      },
+      "held_out": {
+        "symmetric_nearest_vertex_rms_mm": 0.8371280029391531,
+        "symmetric_nearest_vertex_median_mm": 0.833786609932716,
+        "symmetric_nearest_vertex_p95_mm": 1.1676568528995377,
+        "symmetric_nearest_vertex_max_mm": 1.223869498318327,
+        "bbox_max_difference_mm": 1.0220870519530623
+      }
+    },
+    {
+      "element": "FJ2793",
+      "sourceName": "Corniculate cartilage.r",
+      "joint_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.8448198332706781,
+        "symmetric_nearest_vertex_median_mm": 0.8470055079496142,
+        "symmetric_nearest_vertex_p95_mm": 1.1623510900884597,
+        "symmetric_nearest_vertex_max_mm": 1.2103187889167564,
+        "bbox_max_difference_mm": 0.9431879221383168
+      },
+      "held_out": {
+        "symmetric_nearest_vertex_rms_mm": 0.9106795167227125,
+        "symmetric_nearest_vertex_median_mm": 0.9073136617806417,
+        "symmetric_nearest_vertex_p95_mm": 1.229506622060094,
+        "symmetric_nearest_vertex_max_mm": 1.2840499670241572,
+        "bbox_max_difference_mm": 0.9845759450349147
+      }
+    },
+    {
+      "element": "FJ2770",
+      "sourceName": "Epiglottis",
+      "joint_fit": {
+        "symmetric_nearest_vertex_rms_mm": 1.1826212534539349,
+        "symmetric_nearest_vertex_median_mm": 1.038849100529819,
+        "symmetric_nearest_vertex_p95_mm": 1.9829215823350745,
+        "symmetric_nearest_vertex_max_mm": 2.9246396872414615,
+        "bbox_max_difference_mm": 2.6739469262736293
+      },
+      "held_out": {
+        "symmetric_nearest_vertex_rms_mm": 2.684169825019792,
+        "symmetric_nearest_vertex_median_mm": 2.667522004880089,
+        "symmetric_nearest_vertex_p95_mm": 3.3242177689108123,
+        "symmetric_nearest_vertex_max_mm": 3.7102930955784172,
+        "bbox_max_difference_mm": 3.0640082268560214
+      }
+    }
+  ],
+  "parts": [
+    {
+      "element": "FJ2773",
+      "fma": "FMA55118",
+      "sourceName": "left cuneiform cartilage",
+      "label": "Cartilagem cuneiforme · lado esquerdo",
+      "group": "laringe",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99/FJ2773.obj",
+      "source_obj_sha256": "33f5b140ab7a37e450e130ed8f9bf579ef9f11856dcd3587b5f634bd6a83d0e0",
+      "file": "bp3d_meshes/FJ2773.npz",
+      "sha256": "f2ff2fbcb0fc26ec7f8ff7901f6a33db6552773f6ba8572599447f65a4333209",
+      "validation": {
+        "finite": true,
+        "vertices": 89,
+        "triangles": 174,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          89
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 16.6217224572376,
+        "source_bounds_mm": [
+          [
+            3.31969,
+            -102.87,
+            1414.07
+          ],
+          [
+            5.06498,
+            -100.193,
+            1417.33
+          ]
+        ]
+      },
+      "bounds": [
+        [
+          0.08433535695075989,
+          1.2844499349594116,
+          0.19212985038757324
+        ],
+        [
+          0.12112516909837723,
+          1.3521156311035156,
+          0.2493978589773178
+        ]
+      ],
+      "integration_status": "not_for_fusion_with_z_anatomy"
+    },
+    {
+      "element": "FJ2795",
+      "fma": "FMA55117",
+      "sourceName": "right cuneiform cartilage",
+      "label": "Cartilagem cuneiforme · lado direito",
+      "group": "laringe",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99/FJ2795.obj",
+      "source_obj_sha256": "9745a416c9f85f106aabdedb8645811c8cfbf85025364310e06a04072d766f0b",
+      "file": "bp3d_meshes/FJ2795.npz",
+      "sha256": "8eeddd0af8c2679e222ef987ace7fc3a2651a5ecbb143dde9df0c6691a6a653c",
+      "validation": {
+        "finite": true,
+        "vertices": 87,
+        "triangles": 170,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          87
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 16.46771766731597,
+        "source_bounds_mm": [
+          [
+            -6.37734,
+            -102.389,
+            1413.65
+          ],
+          [
+            -4.46088,
+            -100.199,
+            1417.14
+          ]
+        ]
+      },
+      "bounds": [
+        [
+          -0.1194395199418068,
+          1.276719093322754,
+          0.19177290797233582
+        ],
+        [
+          -0.07932643592357635,
+          1.349637508392334,
+          0.23857730627059937
+        ]
+      ],
+      "integration_status": "not_for_fusion_with_z_anatomy"
+    },
+    {
+      "element": "FJ2788",
+      "fma": "FMA46593",
+      "sourceName": "left vocalis",
+      "label": "Músculo vocal · lado esquerdo",
+      "group": "musculos_laringe",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99/FJ2788.obj",
+      "source_obj_sha256": "dd26f669e127e5c5fae7ff796da0f516887f8c3834bbde1f2881d3a222cc2375",
+      "file": "bp3d_meshes/FJ2788.npz",
+      "sha256": "69c48fb15edf6297e6fc316ea43c6db0c12b7cd2cd00268e02455c52362a57f0",
+      "validation": {
+        "finite": true,
+        "vertices": 578,
+        "triangles": 1152,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          578
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 33.96815304133274,
+        "source_bounds_mm": [
+          [
+            1.1831,
+            -114.979,
+            1403.7
+          ],
+          [
+            2.77049,
+            -100.883,
+            1405.13
+          ]
+        ]
+      },
+      "bounds": [
+        [
+          0.0372931994497776,
+          1.0616130828857422,
+          0.20168635249137878
+        ],
+        [
+          0.07139213383197784,
+          1.0965142250061035,
+          0.4980431795120239
+        ]
+      ],
+      "integration_status": "not_for_fusion_with_z_anatomy"
+    },
+    {
+      "element": "FJ2806",
+      "fma": "FMA46592",
+      "sourceName": "right vocalis",
+      "label": "Músculo vocal · lado direito",
+      "group": "musculos_laringe",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99/FJ2806.obj",
+      "source_obj_sha256": "f4b83790f1c6364785f6ec6a8428443e7f20cfe48ed9a14234bb8aff1d80f2a9",
+      "file": "bp3d_meshes/FJ2806.npz",
+      "sha256": "bf9d99db2f12b4bbe9efd670676e43f71c071a04e6181d831d313459cb2a76cd",
+      "validation": {
+        "finite": true,
+        "vertices": 576,
+        "triangles": 1148,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          576
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 33.69036701890607,
+        "source_bounds_mm": [
+          [
+            -4.08703,
+            -114.971,
+            1403.69
+          ],
+          [
+            -2.49583,
+            -100.88,
+            1405.13
+          ]
+        ]
+      },
+      "bounds": [
+        [
+          -0.07278834283351898,
+          1.0621620416641235,
+          0.20131775736808777
+        ],
+        [
+          -0.040060438215732574,
+          1.097296953201294,
+          0.49769580364227295
+        ]
+      ],
+      "integration_status": "not_for_fusion_with_z_anatomy"
+    },
+    {
+      "element": "FJ2787",
+      "fma": "FMA55246",
+      "sourceName": "left vocal ligament",
+      "label": "Ligamento vocal · lado esquerdo",
+      "group": "ligamentos_laringe",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99/FJ2787.obj",
+      "source_obj_sha256": "fd2030747641aae5864bb28f2c18a03d8ccfc34702f9a9012af1957ac1bef23b",
+      "file": "bp3d_meshes/FJ2787.npz",
+      "sha256": "e8f8caf9676b6da18804b00356affd15f1da02a31d8b3e0b4fed0924968827fe",
+      "validation": {
+        "finite": true,
+        "vertices": 884,
+        "triangles": 1858,
+        "connected_components_by_vertex_index": 2,
+        "component_vertex_counts": [
+          854,
+          30
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 57,
+        "zero_area_triangles": 24,
+        "surface_area_mm2": 32.54422377692492,
+        "source_bounds_mm": [
+          [
+            0.117234,
+            -115.104,
+            1403.77
+          ],
+          [
+            2.30972,
+            -101.778,
+            1404.73
+          ]
+        ]
+      },
+      "bounds": [
+        [
+          0.014880971051752567,
+          1.061887264251709,
+          0.22070641815662384
+        ],
+        [
+          0.06168358400464058,
+          1.087759256362915,
+          0.5007445812225342
+        ]
+      ],
+      "integration_status": "not_for_fusion_with_z_anatomy"
+    },
+    {
+      "element": "FJ2805",
+      "fma": "FMA55245",
+      "sourceName": "right vocal ligament",
+      "label": "Ligamento vocal · lado direito",
+      "group": "ligamentos_laringe",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99/FJ2805.obj",
+      "source_obj_sha256": "f8d93ea86284dbe0877b6080c642991a6542cf78bb6ad884a78b4d55a7b8e3e8",
+      "file": "bp3d_meshes/FJ2805.npz",
+      "sha256": "214aa0318388d83e48e884f376255abecfda90856c6aa0bfae6bae5c2e4f24e6",
+      "validation": {
+        "finite": true,
+        "vertices": 824,
+        "triangles": 1644,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          824
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 31.562359005512008,
+        "source_bounds_mm": [
+          [
+            -3.61221,
+            -115.111,
+            1403.78
+          ],
+          [
+            -1.42763,
+            -101.784,
+            1404.77
+          ]
+        ]
+      },
+      "bounds": [
+        [
+          -0.0628250315785408,
+          1.0624052286148071,
+          0.2205996960401535
+        ],
+        [
+          -0.017600759863853455,
+          1.0891822576522827,
+          0.5007613897323608
+        ]
+      ],
+      "integration_status": "not_for_fusion_with_z_anatomy"
+    },
+    {
+      "element": "FJ2777",
+      "fma": "FMA55252",
+      "sourceName": "left conus elasticus",
+      "label": "Cone elástico · lado esquerdo",
+      "group": "ligamentos_laringe",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99/FJ2777.obj",
+      "source_obj_sha256": "4f12686c550ea45f54b88d3fdb6e48c7ce577332fdb3d6b0465722516acd6230",
+      "file": "bp3d_meshes/FJ2777.npz",
+      "sha256": "49febc3e353c3e27914f03134744a3bd718c1aa9ff62a3713d0c5bb252c203db",
+      "validation": {
+        "finite": true,
+        "vertices": 2165,
+        "triangles": 4306,
+        "connected_components_by_vertex_index": 6,
+        "component_vertex_counts": [
+          2145,
+          6,
+          5,
+          3,
+          3,
+          3
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 340.8351797231279,
+        "source_bounds_mm": [
+          [
+            -6.75,
+            -115.641,
+            1391.92
+          ],
+          [
+            8.17148,
+            -97.5042,
+            1404.73
+          ]
+        ]
+      },
+      "bounds": [
+        [
+          -0.1305972784757614,
+          0.8149126172065735,
+          0.13093547523021698
+        ],
+        [
+          0.18447333574295044,
+          1.0900285243988037,
+          0.5120556950569153
+        ]
+      ],
+      "integration_status": "not_for_fusion_with_z_anatomy"
+    },
+    {
+      "element": "FJ2794",
+      "fma": "FMA55251",
+      "sourceName": "right conus elasticus",
+      "label": "Cone elástico · lado direito",
+      "group": "ligamentos_laringe",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99/FJ2794.obj",
+      "source_obj_sha256": "f3729b2837d39fe4ac58afcfcd4467fbe1999c78e6ad5737566f9494ddc01ff2",
+      "file": "bp3d_meshes/FJ2794.npz",
+      "sha256": "b6351ae10e21b83e1b46e5bb15b77d94f9915d634e2df2a6f1610db90fcf193e",
+      "validation": {
+        "finite": true,
+        "vertices": 2104,
+        "triangles": 4366,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          2104
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 3,
+        "zero_area_triangles": 2,
+        "surface_area_mm2": 342.5751458577149,
+        "source_bounds_mm": [
+          [
+            -9.47259,
+            -115.691,
+            1391.96
+          ],
+          [
+            -2.15,
+            -97.5244,
+            1404.77
+          ]
+        ]
+      },
+      "bounds": [
+        [
+          -0.18651755154132843,
+          0.816648542881012,
+          0.13085776567459106
+        ],
+        [
+          -0.03278758376836777,
+          1.0910403728485107,
+          0.512965738773346
+        ]
+      ],
+      "integration_status": "not_for_fusion_with_z_anatomy"
+    },
+    {
+      "element": "FJ2771",
+      "fma": "FMA55227",
+      "sourceName": "hyo-epiglottic ligament",
+      "label": "Ligamento hioepiglótico",
+      "group": "ligamentos_laringe",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99/FJ2771.obj",
+      "source_obj_sha256": "f744a2873d81471ee14cf63ebf4380c350e21e7e49872bf11ff3ddd668f7bb34",
+      "file": "bp3d_meshes/FJ2771.npz",
+      "sha256": "04c9e4ef71e89113b8423fd3a2e2908d9e70ba88f98f6c806ed641818e6780f1",
+      "validation": {
+        "finite": true,
+        "vertices": 1078,
+        "triangles": 2112,
+        "connected_components_by_vertex_index": 11,
+        "component_vertex_counts": [
+          1043,
+          5,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 241.92017633513757,
+        "source_bounds_mm": [
+          [
+            -1.12919,
+            -125.121,
+            1411.91
+          ],
+          [
+            -0.19186,
+            -110.622,
+            1435.04
+          ]
+        ]
+      },
+      "bounds": [
+        [
+          -0.008763057179749012,
+          1.2332370281219482,
+          0.4203201234340668
+        ],
+        [
+          0.011353711597621441,
+          1.7212824821472168,
+          0.7227717041969299
+        ]
+      ],
+      "integration_status": "not_for_fusion_with_z_anatomy"
+    },
+    {
+      "element": "FJ2807",
+      "fma": "FMA55230",
+      "sourceName": "thyro-epiglottic ligament",
+      "label": "Ligamento tireoepiglótico",
+      "group": "ligamentos_laringe",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99/FJ2807.obj",
+      "source_obj_sha256": "eb7a5318fd5cd6d9a26605d00bd06f6c18004f7c7c7483c09394d5766f443925",
+      "file": "bp3d_meshes/FJ2807.npz",
+      "sha256": "19b61282f333fba96bcc8509df82f8fd3ef72e74455b6882118459b49e413adb",
+      "validation": {
+        "finite": true,
+        "vertices": 519,
+        "triangles": 1042,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          519
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 48.821409878781076,
+        "source_bounds_mm": [
+          [
+            -2.30523,
+            -117.877,
+            1404.68
+          ],
+          [
+            0.868064,
+            -114.021,
+            1411.19
+          ]
+        ]
+      },
+      "bounds": [
+        [
+          -0.0357772558927536,
+          1.0804730653762817,
+          0.48089900612831116
+        ],
+        [
+          0.03156336024403572,
+          1.2181588411331177,
+          0.5600139498710632
+        ]
+      ],
+      "integration_status": "not_for_fusion_with_z_anatomy"
+    },
+    {
+      "element": "FJ2780",
+      "fma": "FMA46585",
+      "sourceName": "left oblique arytenoid",
+      "label": "Músculo aritenóideo oblíquo · lado esquerdo",
+      "group": "musculos_laringe",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99/FJ2780.obj",
+      "source_obj_sha256": "9ad13a6a95301607fa5968e68ae47efc458ebc67f9582f6fc0861672b7b4de17",
+      "file": "bp3d_meshes/FJ2780.npz",
+      "sha256": "ae35d57e2054da4cf44f8ee8bdd98c400f83d32ae20628f1f39fb7b946131cfb",
+      "validation": {
+        "finite": true,
+        "vertices": 3152,
+        "triangles": 6304,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          3152
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 71.04059544703549,
+        "source_bounds_mm": [
+          [
+            -7.29724,
+            -96.7783,
+            1403.6
+          ],
+          [
+            5.65565,
+            -93.6226,
+            1410.22
+          ]
+        ]
+      },
+      "bounds": [
+        [
+          -0.13999299705028534,
+          1.068432092666626,
+          0.04887484759092331
+        ],
+        [
+          0.13288088142871857,
+          1.2054041624069214,
+          0.11789950728416443
+        ]
+      ],
+      "integration_status": "not_for_fusion_with_z_anatomy"
+    },
+    {
+      "element": "FJ2798",
+      "fma": "FMA46584",
+      "sourceName": "right oblique arytenoid",
+      "label": "Músculo aritenóideo oblíquo · lado direito",
+      "group": "musculos_laringe",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sourceFile": "isa_BP3D_4.0_obj_99/FJ2798.obj",
+      "source_obj_sha256": "706e265f99131c2bde1b61c4bc2cdfab7ae384ed2c84f10c8cbff91a295ca22c",
+      "file": "bp3d_meshes/FJ2798.npz",
+      "sha256": "6878df82f63b0c51de1f2b8b77917e5e29ca8ce8ae29ea01daba8398086954cc",
+      "validation": {
+        "finite": true,
+        "vertices": 3042,
+        "triangles": 6084,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          3042
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 70.9453355610148,
+        "source_bounds_mm": [
+          [
+            -6.96925,
+            -96.7666,
+            1403.61
+          ],
+          [
+            5.97263,
+            -93.6181,
+            1410.23
+          ]
+        ]
+      },
+      "bounds": [
+        [
+          -0.13256970047950745,
+          1.0671194791793823,
+          0.049135722219944
+        ],
+        [
+          0.1390082687139511,
+          1.2069134712219238,
+          0.11712522059679031
+        ]
+      ],
+      "integration_status": "not_for_fusion_with_z_anatomy"
+    }
+  ],
+  "warning": "Conservative nearest-vertex distances, not exact surface error. No clinical accuracy claim.",
+  "source_duplicate_excluded": "FJ2440 and FJ2769 have identical cricoid vertex positions; only FJ2769 used.",
+  "sources": [
+    {
+      "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html"
+    },
+    {
+      "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html"
+    }
+  ],
+  "decision": "Rejected for fine-tissue fusion. Use the independent original-coordinate BodyParts3D larynx assembly instead."
+}

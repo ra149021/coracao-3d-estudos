@@ -1,7 +1,6 @@
-# Coração 3D local
+# Atlas cardiorrespiratório local — v0.3
 
-Protótipo em português para explorar o coração em 3D e acompanhar a relação
-com um roteiro de anatomia. A prioridade é fidelidade anatômica, com controles
+Atlas em português para explorar coração e sistema respiratório em 3D, estudar a teoria e consultar o material docente local. A prioridade é fidelidade anatômica, com controles
 didáticos. **O modelo ainda não cobre integralmente o roteiro.**
 
 ## Abrir
@@ -18,13 +17,24 @@ aberto. Endereço padrão: <http://127.0.0.1:8765>. `Ctrl+C` encerra o servidor.
 O serviço atende apenas o computador local. O HTML aberto diretamente como
 arquivo não consegue carregar o modelo; use o iniciador.
 
-## Plano de três etapas
+## Ampliação cardiorrespiratória — v0.3
 
-1. **Prática do coração — em andamento.** Representar os alvos do roteiro, conferir relações anatômicas e oferecer exploração e treino. A referência principal são os materiais da professora. Dúvidas exigem Moore, Anatomy Learning ou fontes acadêmicas oficiais; uma fonte apenas localizada não é uma fonte efetivamente conferida.
-2. **Teoria — depois da prática.** Organizar a teoria de coração/circulatório a partir dos slides e aulas disponíveis, com referências. Os horários de aula que já aparecem no roteiro são apoio à prática, não um módulo de teoria concluído.
-3. **Refinamento e publicação pública.** Revisar anatomia, interface, acessibilidade, atribuição e arquivos redistribuíveis. Por enquanto, o GitHub funciona como backup privado.
+A pedido do usuário, o escopo foi ampliado para integrar prática, teoria e aulas dos dois sistemas antes da prova. O GitHub permanece um backup privado; publicação pública ainda pendente.
 
-## Versão atual — v0.2
+- **3 cenas interativas:** 72 peças de coração/contexto, 167 do respiratório Z-Anatomy e 40 de laringe BodyParts3D em um conjunto independente. As peças não foram fundidas entre as duas laringes.
+- **26 unidades de teoria e 94 questões originais:** 14 unidades/36 questões circulatórias; 12/58 respiratórias. Referências com páginas e horários, objetivos, tabelas, busca, revisão e progresso local.
+- **Aulas e materiais locais:** 6 documentos, 354 páginas e 7 vídeos; transcrições pesquisáveis, velocidade e retomada. Os arquivos docentes originais e páginas renderizadas ficam fora do Git.
+- **Prática:** 178 alvos cardíacos e 222 respiratórios. O respiratório deriva dos slides disponíveis e inclui complemento identificado; não é um roteiro oficial de prova confirmado.
+- **Cobertura respiratória na cena principal:** 80 alvos com peça associada, 71 com contexto parcial e 71 pendentes. Esses estados não certificam validação anatômica. Recessos pleurais, superfícies, espaços e microestruturas exigem figuras e teoria.
+- **Navegação:** início, atlas, teoria e sala de aula. Rotação, seleção, isolamento, transparência, cortes, treino de identificação e links entre o texto e as peças.
+
+Abra com `python3 scripts/serve_heart.py --open` ou `./Abrir_Atlas_Estudo.sh`. Não requer npm nem internet para estudar a instalação preparada. Para reconstruir a sala de aula a partir dos originais, use o Python com PyMuPDF em `scripts/build_classroom.py`; os caminhos são locais e ficam no manifesto ignorado.
+
+Conferências de navegador e limites em [VERIFICACAO_CARDIORRESPIRATORIO.md](VERIFICACAO_CARDIORRESPIRATORIO.md). Origem das malhas em [refinamento/respiratorio/geometria/README.md](refinamento/respiratorio/geometria/README.md); revisão do conteúdo em [refinamento/respiratorio/conteudo/ENTREGA_CONTEUDO.md](refinamento/respiratorio/conteudo/ENTREGA_CONTEUDO.md).
+
+## Base cardíaca preservada — v0.2
+
+
 
 - **72 peças prontas:** 55 cardíacas e 17 vasos de contexto, ocultos inicialmente.
 - 152.303 triângulos; GLB principal de 3.771.380 bytes. Não foram geradas formas anatômicas novas.

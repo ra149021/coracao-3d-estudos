@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "documents": [
+    {
+      "id": "coracao",
+      "title": "Coração",
+      "system": "circulatory",
+      "pages": 75,
+      "kind": "Slides docentes",
+      "author": "Material de aula · Carmem / UEM"
+    },
+    {
+      "id": "vasos",
+      "title": "Vasos sanguíneos",
+      "system": "circulatory",
+      "pages": 44,
+      "kind": "Slides docentes",
+      "author": "Material de aula · Carmem / UEM"
+    },
+    {
+      "id": "linfatico",
+      "title": "Sistema linfático",
+      "system": "circulatory",
+      "pages": 56,
+      "kind": "Slides docentes",
+      "author": "Material de aula · Carmem / UEM"
+    },
+    {
+      "id": "respiratorio",
+      "title": "Sistema respiratório",
+      "system": "respiratory",
+      "pages": 144,
+      "kind": "Slides docentes",
+      "author": "Material de aula · Carmem / UEM"
+    },
+    {
+      "id": "roteiro",
+      "title": "Roteiro prático de circulatório",
+      "system": "circulatory",
+      "pages": 5,
+      "kind": "Roteiro docente",
+      "author": "Material de aula · Carmem / UEM"
+    },
+    {
+      "id": "mediastino",
+      "title": "Cavidade torácica e mediastino",
+      "system": "both",
+      "pages": 30,
+      "kind": "Slides docentes",
+      "author": "Material de aula · Carmem / UEM"
+    }
+  ],
+  "videos": [
+    {
+      "id": "R1",
+      "title": "Respiratório - Parte 1",
+      "system": "respiratory",
+      "duration": 705.791667,
+      "automaticTranscript": true
+    },
+    {
+      "id": "R2",
+      "title": "Respiratório - Parte 2",
+      "system": "respiratory",
+      "duration": 2755.833333,
+      "automaticTranscript": true
+    },
+    {
+      "id": "R3",
+      "title": "Respiratório - Parte 3",
+      "system": "respiratory",
+      "duration": 417.166667,
+      "automaticTranscript": true
+    },
+    {
+      "id": "R4",
+      "title": "Respiratório - Parte 4",
+      "system": "respiratory",
+      "duration": 1648.875,
+      "automaticTranscript": true
+    },
+    {
+      "id": "C1",
+      "title": "Circulatório - Vasos 1",
+      "system": "circulatory",
+      "duration": 686.416667,
+      "automaticTranscript": true
+    },
+    {
+      "id": "C2",
+      "title": "Circulatório - Vasos 2",
+      "system": "circulatory",
+      "duration": 1615.416667,
+      "automaticTranscript": true
+    },
+    {
+      "id": "C3",
+      "title": "Circulatório - Aula de 03-09-2026",
+      "system": "circulatory",
+      "duration": 1256.666667,
+      "automaticTranscript": true
+    }
+  ],
+  "notice": "Os arquivos originais são servidos apenas na instalação local. As transcrições são automáticas e podem conter erros de termos anatômicos."
+}

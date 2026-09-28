@@ -28,3 +28,9 @@ core.*
 *.fbx
 *.zip
 *.crash.txt
+
+# Teaching figures and intermediate extraction data remain local
+output/playwright/*aula-local*
+output/playwright/*teoria-local*
+refinamento/respiratorio/conteudo/slides_pages.json
+refinamento/respiratorio/geometria/bp3d_meshes/

@@ -23,3 +23,12 @@ Os recortes e a transparência são efeitos de visualização, não novas malhas
 Three.js 0.186.1 — MIT. Cópia da licença em Three-MIT.txt.
 Notas anatômicas: roteiro local e resumo de OpenStax, Anatomy and Physiology 2e,
 19.1 Heart Anatomy. A cena ainda não é uma validação integral do roteiro.
+
+Ampliação v0.3 — atlas cardiorrespiratório
+Respiratório: Z-Anatomy, CC BY-SA 4.0, com as mesmas atribuições acima.
+Laringe independente: BodyParts3D, © The Database Center for Life Science,
+CC BY 4.0. https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html
+A laringe BP mantém seu próprio conjunto de coordenadas e não foi fundida ao Z.
+Seleção, conversão de formato/eixos/escala, agrupamento e rótulos estão documentados.
+Teoria e questões são sínteses originais com atribuição das fontes nos JSONs.
+Slides, vídeos e transcrições brutas docentes não são redistribuídos no Git.

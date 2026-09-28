@@ -1,0 +1,3829 @@
+{
+  "version": 1,
+  "system": "respiratory",
+  "metodo": {
+    "titulo": "Roteiro de estudo — derivado dos slides de Carmem",
+    "oficialidade": "Não foi localizado roteiro oficial respiratório da Carmem. Os IDs R### são identificadores editoriais estáveis, não numeração da professora.",
+    "regra": "Alvos explícitos em texto/figuras dos slides ou discussão correspondente; lista Cláudia preservada como complementar. Não é declaração do conteúdo da prova.",
+    "quantificacao": "Uma região da mesma malha pode atender um alvo de identificação após validação visual. Camada, espaço, microestrutura e estrutura independente são diferentes. Não promover correspondência nominal para validação."
+  },
+  "sources": [
+    {
+      "id": "respiratorio",
+      "label": "Sistema Respiratório Medicina — Carmem Patrícia Barbosa",
+      "kind": "slides",
+      "type": "slides",
+      "pageCount": 144,
+      "reviewStatus": "Texto extraído; inspeção visual selecionada, não certificação integral das figuras."
+    },
+    {
+      "id": "roteiro_complementar",
+      "label": "Roteiro respiratório — Cláudia Regina Pinheiro Lopes",
+      "kind": "outline",
+      "type": "outline",
+      "reviewStatus": "Lista complementar local; não roteiro oficial de Carmem."
+    },
+    {
+      "id": "R1",
+      "label": "Respiratório — Parte 1",
+      "kind": "lecture",
+      "type": "lecture",
+      "reviewStatus": "ASR automática; trechos localizados não equivalem a revisão integral do áudio."
+    },
+    {
+      "id": "R2",
+      "label": "Respiratório — Parte 2",
+      "kind": "lecture",
+      "type": "lecture",
+      "reviewStatus": "ASR automática; trechos localizados não equivalem a revisão integral do áudio."
+    },
+    {
+      "id": "R3",
+      "label": "Respiratório — Parte 3",
+      "kind": "lecture",
+      "type": "lecture",
+      "reviewStatus": "ASR automática; trechos localizados não equivalem a revisão integral do áudio."
+    },
+    {
+      "id": "R4",
+      "label": "Respiratório — Parte 4",
+      "kind": "lecture",
+      "type": "lecture",
+      "reviewStatus": "ASR automática; trechos localizados não equivalem a revisão integral do áudio."
+    }
+  ],
+  "roteiro_complementar_original": [
+    {
+      "originalId": "app_section_0",
+      "sectionIndex": 0,
+      "secao": "Nariz externo",
+      "titulo": "Nariz externo",
+      "itens": [
+        {
+          "originalId": "app_section_0_item_0",
+          "texto": "Ápice"
+        },
+        {
+          "originalId": "app_section_0_item_1",
+          "texto": "Raiz"
+        },
+        {
+          "originalId": "app_section_0_item_2",
+          "texto": "Dorso"
+        },
+        {
+          "originalId": "app_section_0_item_3",
+          "texto": "Narinas"
+        },
+        {
+          "originalId": "app_section_0_item_4",
+          "texto": "Asas do nariz"
+        },
+        {
+          "originalId": "app_section_0_item_5",
+          "texto": "Osso nasal, maxila"
+        }
+      ]
+    },
+    {
+      "originalId": "app_section_1",
+      "sectionIndex": 1,
+      "secao": "Cavidade nasal",
+      "titulo": "Cavidade Nasal",
+      "itens": [
+        {
+          "originalId": "app_section_1_item_0",
+          "texto": "Teto: lâmina cribriforme do etmóide"
+        },
+        {
+          "originalId": "app_section_1_item_1",
+          "texto": "Assoalho: palato duro"
+        },
+        {
+          "originalId": "app_section_1_item_2",
+          "texto": "Septo nasal: cartilagem do septo nasal, lâmina perpendicular do etmóide e osso vômer"
+        },
+        {
+          "originalId": "app_section_1_item_3",
+          "texto": "Conchas nasais superior, média e inferior"
+        },
+        {
+          "originalId": "app_section_1_item_4",
+          "texto": "Meato nasal superior, médio e inferior"
+        }
+      ]
+    },
+    {
+      "originalId": "app_section_2",
+      "sectionIndex": 2,
+      "secao": "Seios paranasais",
+      "titulo": "Seios paranasais",
+      "itens": [
+        {
+          "originalId": "app_section_2_item_0",
+          "texto": "Seio maxilar"
+        },
+        {
+          "originalId": "app_section_2_item_1",
+          "texto": "Seio frontal"
+        },
+        {
+          "originalId": "app_section_2_item_2",
+          "texto": "Seio esfenoidal"
+        },
+        {
+          "originalId": "app_section_2_item_3",
+          "texto": "Células etmoidais"
+        }
+      ]
+    },
+    {
+      "originalId": "app_section_3",
+      "sectionIndex": 3,
+      "secao": "Faringe",
+      "titulo": "Faringe",
+      "itens": [
+        {
+          "originalId": "app_section_3_item_0",
+          "texto": "Parte nasal da faringe — nasofaringe"
+        },
+        {
+          "originalId": "app_section_3_item_1",
+          "texto": "Óstio faríngeo da tuba auditiva"
+        },
+        {
+          "originalId": "app_section_3_item_2",
+          "texto": "Tonsila faríngea"
+        },
+        {
+          "originalId": "app_section_3_item_3",
+          "texto": "Parte oral da faringe — orofaringe"
+        },
+        {
+          "originalId": "app_section_3_item_4",
+          "texto": "Tonsilas palatinas dentro da fossa tonsilar"
+        },
+        {
+          "originalId": "app_section_3_item_5",
+          "texto": "Tonsilas linguais"
+        },
+        {
+          "originalId": "app_section_3_item_6",
+          "texto": "Parte laríngea da faringe — laringofaringe"
+        }
+      ]
+    },
+    {
+      "originalId": "app_section_4",
+      "sectionIndex": 4,
+      "secao": "Laringe",
+      "titulo": "Laringe",
+      "itens": [
+        {
+          "originalId": "app_section_4_item_0",
+          "texto": "Da epiglote até base da cartilagem cricóide; comunica-se com a traquéia"
+        },
+        {
+          "originalId": "app_section_4_item_1",
+          "texto": "Cartilagem epiglótica"
+        },
+        {
+          "originalId": "app_section_4_item_2",
+          "texto": "Cartilagem tireóidea"
+        },
+        {
+          "originalId": "app_section_4_item_3",
+          "texto": "Prega vestibular"
+        },
+        {
+          "originalId": "app_section_4_item_4",
+          "texto": "Prega vocal"
+        }
+      ]
+    },
+    {
+      "originalId": "app_section_5",
+      "sectionIndex": 5,
+      "secao": "Traqueia",
+      "titulo": "Traqueia",
+      "itens": [
+        {
+          "originalId": "app_section_5_item_0",
+          "texto": "15 a 20 cartilagens traqueais"
+        },
+        {
+          "originalId": "app_section_5_item_1",
+          "texto": "Ligamentos anulares"
+        },
+        {
+          "originalId": "app_section_5_item_2",
+          "texto": "Músculo traqueal"
+        },
+        {
+          "originalId": "app_section_5_item_3",
+          "texto": "Carina da traqueia"
+        }
+      ]
+    },
+    {
+      "originalId": "app_section_6",
+      "sectionIndex": 6,
+      "secao": "Brônquios",
+      "titulo": "Brônquios",
+      "itens": [
+        {
+          "originalId": "app_section_6_item_0",
+          "texto": "Brônquio principal direito e esquerdo"
+        },
+        {
+          "originalId": "app_section_6_item_1",
+          "texto": "Brônquios lobares"
+        },
+        {
+          "originalId": "app_section_6_item_2",
+          "texto": "Brônquios segmentares"
+        }
+      ]
+    },
+    {
+      "originalId": "app_section_7",
+      "sectionIndex": 7,
+      "secao": "Pulmões",
+      "titulo": "Pulmões",
+      "itens": [
+        {
+          "originalId": "app_section_7_item_0",
+          "texto": "Ápice"
+        },
+        {
+          "originalId": "app_section_7_item_1",
+          "texto": "Base"
+        },
+        {
+          "originalId": "app_section_7_item_2",
+          "texto": "Faces pulmonares: costal, diafragmática, mediastínica"
+        },
+        {
+          "originalId": "app_section_7_item_3",
+          "texto": "Bordas pulmonares: anterior, posterior e inferior"
+        },
+        {
+          "originalId": "app_section_7_item_4",
+          "texto": "Fissuras pulmonares: oblíqua e horizontal"
+        },
+        {
+          "originalId": "app_section_7_item_5",
+          "texto": "Raiz pulmonar: vasos linfáticos, nervos, vasos brônquicos, veias pulmonares, artéria pulmonar e brônquio"
+        },
+        {
+          "originalId": "app_section_7_item_6",
+          "texto": "Hilo pulmonar: região onde penetra a raiz"
+        }
+      ]
+    }
+  ],
+  "alvos": [
+    {
+      "id": "R001",
+      "estrutura": "Ápice do nariz",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 11,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Nasal region.l",
+        "Nasal region.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R002",
+      "estrutura": "Raiz do nariz",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 11,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Nasal region.l",
+        "Nasal region.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R003",
+      "estrutura": "Dorso do nariz",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 11,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Nasal region.l",
+        "Nasal region.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R004",
+      "estrutura": "Narinas",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 11,
+      "escopo": "principal",
+      "tipo": "abertura",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Nasal region.l",
+        "Nasal region.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R005",
+      "estrutura": "Asas do nariz",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 11,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Nasal region.l",
+        "Nasal region.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R006",
+      "estrutura": "Ossos nasais",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 10,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Nasal bone.l",
+        "Nasal bone.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R007",
+      "estrutura": "Maxilas",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 16,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Maxilla.l",
+        "Maxilla.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R008",
+      "estrutura": "Cartilagem do septo nasal",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 17,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Nasal septal cartilage"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R009",
+      "estrutura": "Cartilagens nasais laterais",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 10,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Lateral process of nasal septal cartilage.l",
+        "Lateral process of nasal septal cartilage.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R010",
+      "estrutura": "Cartilagens alares maiores",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 10,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R011",
+      "estrutura": "Cartilagens alares menores",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 10,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R012",
+      "estrutura": "Vestíbulo nasal",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 14,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Mucosa of nasal cavity"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R013",
+      "estrutura": "Vibrissas",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 14,
+      "escopo": "principal",
+      "tipo": "microestrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R014",
+      "estrutura": "Lâmina perpendicular do etmoide",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 17,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Ethmoid bone"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R015",
+      "estrutura": "Vômer",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 17,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Vomer"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R016",
+      "estrutura": "Lâmina cribriforme do etmoide",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 18,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Ethmoid bone"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R017",
+      "estrutura": "Crista etmoidal (crista galli)",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 18,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Ethmoid bone"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R018",
+      "estrutura": "Massas laterais do etmoide",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 18,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Ethmoid bone"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R019",
+      "estrutura": "Conchas nasais superiores",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 18,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Ethmoid bone",
+        "Mucosa of nasal cavity"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R020",
+      "estrutura": "Conchas nasais médias",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 18,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Ethmoid bone",
+        "Mucosa of nasal cavity"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R021",
+      "estrutura": "Conchas nasais inferiores",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 19,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Inferior nasal concha bone.l",
+        "Inferior nasal concha bone.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R022",
+      "estrutura": "Meatos nasais superiores",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 36,
+      "escopo": "principal",
+      "tipo": "espaco",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Mucosa of nasal cavity"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R023",
+      "estrutura": "Meatos nasais médios",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 36,
+      "escopo": "principal",
+      "tipo": "espaco",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Mucosa of nasal cavity"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R024",
+      "estrutura": "Meatos nasais inferiores",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 36,
+      "escopo": "principal",
+      "tipo": "espaco",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Mucosa of nasal cavity"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R025",
+      "estrutura": "Cóanos",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 19,
+      "escopo": "principal",
+      "tipo": "abertura",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Mucosa of nasal cavity",
+        "Vomer",
+        "Palatine bone.l",
+        "Palatine bone.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R026",
+      "estrutura": "Palato duro: processo palatino da maxila",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 19,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Maxilla.l",
+        "Maxilla.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R027",
+      "estrutura": "Palato duro: lâmina horizontal do palatino",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 19,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Palatine bone.l",
+        "Palatine bone.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R028",
+      "estrutura": "Região respiratória da mucosa nasal",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 20,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Mucosa of nasal cavity"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R029",
+      "estrutura": "Região olfatória da mucosa nasal",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 20,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Mucosa of nasal cavity"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R030",
+      "estrutura": "Músculo prócero",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 12,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R031",
+      "estrutura": "Músculo nasal",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 12,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Nasalis muscle.l",
+        "Nasalis muscle.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R032",
+      "estrutura": "Levantador do lábio superior e da asa do nariz",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 12,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R033",
+      "estrutura": "Abaixador do septo nasal",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 12,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R034",
+      "estrutura": "Seios frontais",
+      "grupo": "Seios paranasais",
+      "fonte": "respiratorio",
+      "pagina": 34,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R035",
+      "estrutura": "Seios maxilares",
+      "grupo": "Seios paranasais",
+      "fonte": "respiratorio",
+      "pagina": 34,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R036",
+      "estrutura": "Seios esfenoidais",
+      "grupo": "Seios paranasais",
+      "fonte": "respiratorio",
+      "pagina": 34,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R037",
+      "estrutura": "Células etmoidais anteriores",
+      "grupo": "Seios paranasais",
+      "fonte": "respiratorio",
+      "pagina": 36,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Anterior cells of ethmoid bone.l",
+        "Anterior cells of ethmoid bone.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R038",
+      "estrutura": "Células etmoidais médias",
+      "grupo": "Seios paranasais",
+      "fonte": "respiratorio",
+      "pagina": 36,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Middle cells of ethmoid bone.l",
+        "Middle cells of ethmoid bone.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R039",
+      "estrutura": "Células etmoidais posteriores",
+      "grupo": "Seios paranasais",
+      "fonte": "respiratorio",
+      "pagina": 36,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Posterior cells of ethmoid bone.l",
+        "Posterior cells of ethmoid bone.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R040",
+      "estrutura": "Bolha etmoidal",
+      "grupo": "Seios paranasais",
+      "fonte": "respiratorio",
+      "pagina": 36,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Ethmoid bone",
+        "Mucosa of nasal cavity"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R041",
+      "estrutura": "Recesso esfenoetmoidal",
+      "grupo": "Seios paranasais",
+      "fonte": "respiratorio",
+      "pagina": 36,
+      "escopo": "principal",
+      "tipo": "espaco",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Mucosa of nasal cavity"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R042",
+      "estrutura": "Nasofaringe",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 42,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Nasopharynx"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R043",
+      "estrutura": "Orofaringe",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 42,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Oropharynx"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R044",
+      "estrutura": "Laringofaringe",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 42,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Laryngopharynx"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R045",
+      "estrutura": "Óstio faríngeo da tuba auditiva",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 44,
+      "escopo": "principal",
+      "tipo": "abertura",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Nasopharynx"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R046",
+      "estrutura": "Toro tubário",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 44,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Nasopharynx"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R047",
+      "estrutura": "Prega salpingopalatina",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 44,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Nasopharynx"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R048",
+      "estrutura": "Prega salpingofaríngea",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 44,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Nasopharynx"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R049",
+      "estrutura": "Tonsila faríngea",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 44,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R050",
+      "estrutura": "Tonsilas tubárias",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 44,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R051",
+      "estrutura": "Tonsilas palatinas",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 45,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Palatine tonsil.l",
+        "Palatine tonsil.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R052",
+      "estrutura": "Tonsila lingual",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 45,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R053",
+      "estrutura": "Úvula palatina",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 44,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Uvula of palate"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R054",
+      "estrutura": "Palato mole",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 42,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Soft palate"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R055",
+      "estrutura": "Constritores superiores da faringe",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 47,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Superior pharyngeal constrictor.l",
+        "Superior pharyngeal constrictor.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R056",
+      "estrutura": "Constritores médios da faringe",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 47,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Middle pharyngeal constrictor.l",
+        "Middle pharyngeal constrictor.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R057",
+      "estrutura": "Constritores inferiores da faringe",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 48,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Inferior pharyngeal constrictor.l",
+        "Inferior pharyngeal constrictor.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R058",
+      "estrutura": "Músculos estilofaríngeos",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 48,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Stylopharyngeus muscle.l",
+        "Stylopharyngeus muscle.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R059",
+      "estrutura": "Músculos salpingofaríngeos",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 49,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R060",
+      "estrutura": "Músculos palatofaríngeos",
+      "grupo": "Faringe",
+      "fonte": "respiratorio",
+      "pagina": 49,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Palatopharyngeus muscle.l",
+        "Palatopharyngeus muscle.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R061",
+      "estrutura": "Cartilagem tireóidea",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 56,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Thyroid cartilage"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R062",
+      "estrutura": "Lâminas da cartilagem tireóidea",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 56,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Thyroid cartilage"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R063",
+      "estrutura": "Proeminência laríngea",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 56,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Thyroid cartilage"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R064",
+      "estrutura": "Linha oblíqua da tireóidea",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 56,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Thyroid cartilage"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R065",
+      "estrutura": "Incisura tireóidea superior",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 56,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Thyroid cartilage"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R066",
+      "estrutura": "Incisura tireóidea inferior",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 56,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Thyroid cartilage"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R067",
+      "estrutura": "Cornos superiores da tireóidea",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 56,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Thyroid cartilage"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R068",
+      "estrutura": "Cornos inferiores da tireóidea",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 56,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Thyroid cartilage"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R069",
+      "estrutura": "Membrana tireo-hióidea",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 56,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R070",
+      "estrutura": "Ligamento tireo-hióideo mediano",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 56,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Median thyrohyoid ligament"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R071",
+      "estrutura": "Ligamentos tireo-hióideos laterais",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 56,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Lateral thyrohyoid ligament.l",
+        "Lateral thyrohyoid ligament.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R072",
+      "estrutura": "Cartilagem cricóidea",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 57,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Cricoid cartilage"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R073",
+      "estrutura": "Arco da cartilagem cricóidea",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 57,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Cricoid cartilage"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R074",
+      "estrutura": "Lâmina da cartilagem cricóidea",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 58,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Cricoid cartilage"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R075",
+      "estrutura": "Articulações cricotireóideas",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 57,
+      "escopo": "principal",
+      "tipo": "articulacao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Thyroid cartilage",
+        "Cricoid cartilage"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R076",
+      "estrutura": "Articulações cricoaritenóideas",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 58,
+      "escopo": "principal",
+      "tipo": "articulacao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Cricoid cartilage",
+        "Arytenoid cartilage.r",
+        "Arytenoid cartilage.l"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R077",
+      "estrutura": "Ligamento cricotireóideo mediano",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 57,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Median cricothyroid ligament"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R078",
+      "estrutura": "Ligamento cricotraqueal",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 57,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R079",
+      "estrutura": "Cartilagem epiglótica / epiglote",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 61,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Epiglottis"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R080",
+      "estrutura": "Pecíolo da epiglote",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 61,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Epiglottis"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R081",
+      "estrutura": "Ligamento tireoepiglótico",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 62,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R082",
+      "estrutura": "Ligamento hioepiglótico",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 62,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R083",
+      "estrutura": "Pregas glossoepiglóticas mediana e laterais",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 63,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Epiglottis"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R084",
+      "estrutura": "Valéculas epiglóticas",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 63,
+      "escopo": "principal",
+      "tipo": "espaco",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Epiglottis"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R085",
+      "estrutura": "Cartilagens aritenóideas",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 64,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Arytenoid cartilage.r",
+        "Arytenoid cartilage.l"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R086",
+      "estrutura": "Processos vocais das aritenóideas",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 64,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Arytenoid cartilage.r",
+        "Arytenoid cartilage.l"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R087",
+      "estrutura": "Processos musculares das aritenóideas",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 64,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Arytenoid cartilage.r",
+        "Arytenoid cartilage.l"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R088",
+      "estrutura": "Cartilagens corniculadas",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 64,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Corniculate cartilage.r",
+        "Corniculate cartilage.l"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R089",
+      "estrutura": "Cartilagens cuneiformes",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 55,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R090",
+      "estrutura": "Músculos cricotireóideos: partes reta e oblíqua",
+      "grupo": "Laringe: músculos e cavidade",
+      "fonte": "respiratorio",
+      "pagina": 66,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Straight part of cricothyroid muscle.l",
+        "Straight part of cricothyroid muscle.r",
+        "Oblique part of cricothyroid muscle.l",
+        "Oblique part of cricothyroid muscle.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R091",
+      "estrutura": "Músculos aritenóideos oblíquos",
+      "grupo": "Laringe: músculos e cavidade",
+      "fonte": "respiratorio",
+      "pagina": 66,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R092",
+      "estrutura": "Músculo aritenóideo transverso",
+      "grupo": "Laringe: músculos e cavidade",
+      "fonte": "respiratorio",
+      "pagina": 66,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Transverse arytenoid muscle"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R093",
+      "estrutura": "Músculos cricoaritenóideos laterais",
+      "grupo": "Laringe: músculos e cavidade",
+      "fonte": "respiratorio",
+      "pagina": 66,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Lateral crico-arytenoid muscle.l",
+        "Lateral crico-arytenoid muscle.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R094",
+      "estrutura": "Músculos tireoaritenóideos",
+      "grupo": "Laringe: músculos e cavidade",
+      "fonte": "respiratorio",
+      "pagina": 66,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "External part of thyro-arytenoid muscle.l",
+        "External part of thyro-arytenoid muscle.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R095",
+      "estrutura": "Músculos tireoepiglóticos",
+      "grupo": "Laringe: músculos e cavidade",
+      "fonte": "respiratorio",
+      "pagina": 66,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Thyro-epiglottic part of thyro-arytenoid muscle.l",
+        "Thyro-epiglottic part of thyro-arytenoid muscle.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R096",
+      "estrutura": "Músculos vocais",
+      "grupo": "Laringe: músculos e cavidade",
+      "fonte": "respiratorio",
+      "pagina": 70,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R097",
+      "estrutura": "Músculos cricoaritenóideos posteriores",
+      "grupo": "Laringe: músculos e cavidade",
+      "fonte": "respiratorio",
+      "pagina": 66,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Posterior crico-arytenoid muscle.l",
+        "Posterior crico-arytenoid muscle.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R098",
+      "estrutura": "Pregas vestibulares",
+      "grupo": "Laringe: músculos e cavidade",
+      "fonte": "respiratorio",
+      "pagina": 72,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R099",
+      "estrutura": "Pregas vocais",
+      "grupo": "Laringe: músculos e cavidade",
+      "fonte": "respiratorio",
+      "pagina": 72,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R100",
+      "estrutura": "Vestíbulo da laringe",
+      "grupo": "Laringe: músculos e cavidade",
+      "fonte": "respiratorio",
+      "pagina": 72,
+      "escopo": "principal",
+      "tipo": "espaco",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R101",
+      "estrutura": "Ventrículos da laringe",
+      "grupo": "Laringe: músculos e cavidade",
+      "fonte": "respiratorio",
+      "pagina": 72,
+      "escopo": "principal",
+      "tipo": "espaco",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R102",
+      "estrutura": "Glote e rima da glote",
+      "grupo": "Laringe: músculos e cavidade",
+      "fonte": "respiratorio",
+      "pagina": 72,
+      "escopo": "principal",
+      "tipo": "espaco",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R103",
+      "estrutura": "Cavidade infraglótica",
+      "grupo": "Laringe: músculos e cavidade",
+      "fonte": "respiratorio",
+      "pagina": 72,
+      "escopo": "principal",
+      "tipo": "espaco",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R104",
+      "estrutura": "Traqueia: parte cervical",
+      "grupo": "Traqueia",
+      "fonte": "respiratorio",
+      "pagina": 84,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Trachea"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R105",
+      "estrutura": "Traqueia: parte torácica",
+      "grupo": "Traqueia",
+      "fonte": "respiratorio",
+      "pagina": 84,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Trachea"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R106",
+      "estrutura": "Cartilagens traqueais",
+      "grupo": "Traqueia",
+      "fonte": "respiratorio",
+      "pagina": 85,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Trachea"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R107",
+      "estrutura": "Ligamentos anulares da traqueia",
+      "grupo": "Traqueia",
+      "fonte": "respiratorio",
+      "pagina": 85,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Trachea"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R108",
+      "estrutura": "Músculo traqueal",
+      "grupo": "Traqueia",
+      "fonte": "respiratorio",
+      "pagina": 85,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R109",
+      "estrutura": "Parede membranácea da traqueia",
+      "grupo": "Traqueia",
+      "fonte": "respiratorio",
+      "pagina": 85,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Trachea"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R110",
+      "estrutura": "Carina da traqueia",
+      "grupo": "Traqueia",
+      "fonte": "respiratorio",
+      "pagina": 85,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Trachea"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R111",
+      "estrutura": "Brônquio principal direito",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 89,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Right main bronchus"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R112",
+      "estrutura": "Brônquio principal esquerdo",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 89,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Left main bronchus"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R113",
+      "estrutura": "Brônquio lobar superior direito",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 92,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Right superior lobar bronchus"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R114",
+      "estrutura": "Brônquio lobar médio direito",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 92,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Middle lobar bronchus.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R115",
+      "estrutura": "Brônquio lobar inferior direito",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 92,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Right inferior lobar bronchus"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R116",
+      "estrutura": "Brônquio lobar superior esquerdo",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 93,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Left superior lobar bronchus"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R117",
+      "estrutura": "Brônquio lobar inferior esquerdo",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 93,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Left inferior lobar bronchus"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R118",
+      "estrutura": "Brônquio intermédio direito",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 91,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Intermediate bronchus.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R119",
+      "estrutura": "Brônquio segmentar direito: apical",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 92,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Apical segmental bronchus of right lung (BI)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R120",
+      "estrutura": "Brônquio segmentar direito: posterior",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 92,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Posterior segmental bronchus of right lung (BII)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R121",
+      "estrutura": "Brônquio segmentar direito: anterior",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 92,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Anterior segmental bronchus of right lung (BIII)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R122",
+      "estrutura": "Brônquio segmentar direito: lateral do lobo médio",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 92,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Lateral segmental bronchus of right lung (BIV)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R123",
+      "estrutura": "Brônquio segmentar direito: medial do lobo médio",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 92,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Medial segmental bronchus of right lung (BV)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R124",
+      "estrutura": "Brônquio segmentar direito: superior do lobo inferior",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 92,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Superior segmental bronchus of right lung (BVI)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R125",
+      "estrutura": "Brônquio segmentar direito: basilar medial",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 92,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Medial basal segmental bronchus of right lung (BVII)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R126",
+      "estrutura": "Brônquio segmentar direito: basilar anterior",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 92,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Anterior basal segmental bronchus of right lung (BVIII)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R127",
+      "estrutura": "Brônquio segmentar direito: basilar lateral",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 92,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Lateral basal segmental bronchus of right lung (BIX)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R128",
+      "estrutura": "Brônquio segmentar direito: basilar posterior",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 92,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Posterior basal segmental bronchus of right lung (BX)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R129",
+      "estrutura": "Brônquio segmentar esquerdo: apicoposterior",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 93,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Apicoposterior segmental bronchus of left lung (BI+BII)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R130",
+      "estrutura": "Brônquio segmentar esquerdo: anterior",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 93,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Anterior segmental bronchus of left lung (BIII)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R131",
+      "estrutura": "Brônquio segmentar esquerdo: lingular superior",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 93,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Superior lingular segmental bronchus of left lung (BIV)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R132",
+      "estrutura": "Brônquio segmentar esquerdo: lingular inferior",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 93,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Inferior lingular segmental bronchus of left lung (BV)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R133",
+      "estrutura": "Brônquio segmentar esquerdo: superior do lobo inferior",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 93,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Superior segmental bronchus of left lung (BVI)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R134",
+      "estrutura": "Brônquio segmentar esquerdo: basilar medial",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 93,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Medial basal segmental bronchus of left lung (BVII)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R135",
+      "estrutura": "Brônquio segmentar esquerdo: basilar anterior",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 93,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Anterior basal segmental bronchus of left lung (BVIII)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R136",
+      "estrutura": "Brônquio segmentar esquerdo: basilar lateral",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 93,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Lateral basal segmental bronchus of left lung (BIX)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R137",
+      "estrutura": "Brônquio segmentar esquerdo: basilar posterior",
+      "grupo": "Árvore brônquica",
+      "fonte": "respiratorio",
+      "pagina": 93,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Posterior basal segmental bronchus of left lung (BX)"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R138",
+      "estrutura": "Lobo superior direito",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 103,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Superior lobe of right lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R139",
+      "estrutura": "Lobo médio direito",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 103,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Middle lobe of right lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R140",
+      "estrutura": "Lobo inferior direito",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 103,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Inferior lobe of right lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R141",
+      "estrutura": "Lobo superior esquerdo",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 104,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Superior lobe of left lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R142",
+      "estrutura": "Lobo inferior esquerdo",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 104,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Inferior lobe of left lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R143",
+      "estrutura": "Ápices pulmonares",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 101,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Superior lobe of right lung",
+        "Superior lobe of left lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R144",
+      "estrutura": "Bases pulmonares",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 101,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Inferior lobe of right lung",
+        "Inferior lobe of left lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R145",
+      "estrutura": "Faces costais",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 103,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Superior lobe of right lung",
+        "Middle lobe of right lung",
+        "Inferior lobe of right lung",
+        "Superior lobe of left lung",
+        "Inferior lobe of left lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R146",
+      "estrutura": "Faces diafragmáticas",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 103,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Inferior lobe of right lung",
+        "Inferior lobe of left lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R147",
+      "estrutura": "Faces mediastinais",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 105,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Superior lobe of right lung",
+        "Middle lobe of right lung",
+        "Inferior lobe of right lung",
+        "Superior lobe of left lung",
+        "Inferior lobe of left lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R148",
+      "estrutura": "Fissura horizontal direita",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 103,
+      "escopo": "principal",
+      "tipo": "espaco",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Superior lobe of right lung",
+        "Middle lobe of right lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R149",
+      "estrutura": "Fissura oblíqua direita",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 103,
+      "escopo": "principal",
+      "tipo": "espaco",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Superior lobe of right lung",
+        "Middle lobe of right lung",
+        "Inferior lobe of right lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R150",
+      "estrutura": "Fissura oblíqua esquerda",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 104,
+      "escopo": "principal",
+      "tipo": "espaco",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Superior lobe of left lung",
+        "Inferior lobe of left lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R151",
+      "estrutura": "Hilos pulmonares",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 105,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Superior lobe of right lung",
+        "Middle lobe of right lung",
+        "Inferior lobe of right lung",
+        "Superior lobe of left lung",
+        "Inferior lobe of left lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R152",
+      "estrutura": "Raízes / pedículos pulmonares",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 106,
+      "escopo": "principal",
+      "tipo": "conjunto",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Right main bronchus",
+        "Left main bronchus"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R153",
+      "estrutura": "Língula do pulmão esquerdo",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 109,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Superior lobe of left lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R154",
+      "estrutura": "Incisura cardíaca esquerda",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 109,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Superior lobe of left lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R155",
+      "estrutura": "Impressão cardíaca esquerda",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 109,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Superior lobe of left lung",
+        "Inferior lobe of left lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R156",
+      "estrutura": "Sulcos pulmonares direitos para cavas, ázigos e esôfago",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 108,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Superior lobe of right lung",
+        "Inferior lobe of right lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R157",
+      "estrutura": "Sulcos esquerdos para arco aórtico, subclávia e esôfago",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 109,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Superior lobe of left lung",
+        "Inferior lobe of left lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R158",
+      "estrutura": "Margens pulmonares anteriores",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 104,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Superior lobe of right lung",
+        "Middle lobe of right lung",
+        "Inferior lobe of right lung",
+        "Superior lobe of left lung",
+        "Inferior lobe of left lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Rótulo explícito na figura do pulmão esquerdo, slide 104; extensão bilateral é anatômica.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R159",
+      "estrutura": "Margens pulmonares posteriores",
+      "grupo": "Pulmões",
+      "fonte": "roteiro_complementar",
+      "pagina": null,
+      "escopo": "complementar",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Superior lobe of right lung",
+        "Middle lobe of right lung",
+        "Inferior lobe of right lung",
+        "Superior lobe of left lung",
+        "Inferior lobe of left lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Lista complementar de Cláudia Pinheiro; não é roteiro oficial de Carmem.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R160",
+      "estrutura": "Margens pulmonares inferiores",
+      "grupo": "Pulmões",
+      "fonte": "respiratorio",
+      "pagina": 104,
+      "escopo": "principal",
+      "tipo": "regiao",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Superior lobe of right lung",
+        "Middle lobe of right lung",
+        "Inferior lobe of right lung",
+        "Superior lobe of left lung",
+        "Inferior lobe of left lung"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Rótulo explícito na figura do pulmão esquerdo, slide 104; extensão bilateral é anatômica.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R161",
+      "estrutura": "Pleura visceral",
+      "grupo": "Pleuras",
+      "fonte": "respiratorio",
+      "pagina": 112,
+      "escopo": "principal",
+      "tipo": "camada",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Pleura"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R162",
+      "estrutura": "Pleura parietal: parte costal",
+      "grupo": "Pleuras",
+      "fonte": "respiratorio",
+      "pagina": 113,
+      "escopo": "principal",
+      "tipo": "camada",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Pleura"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R163",
+      "estrutura": "Pleura parietal: parte diafragmática",
+      "grupo": "Pleuras",
+      "fonte": "respiratorio",
+      "pagina": 114,
+      "escopo": "principal",
+      "tipo": "camada",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Pleura"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R164",
+      "estrutura": "Pleura parietal: parte mediastinal",
+      "grupo": "Pleuras",
+      "fonte": "respiratorio",
+      "pagina": 115,
+      "escopo": "principal",
+      "tipo": "camada",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Pleura"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R165",
+      "estrutura": "Pleura cervical / cúpula pleural",
+      "grupo": "Pleuras",
+      "fonte": "respiratorio",
+      "pagina": 116,
+      "escopo": "principal",
+      "tipo": "camada",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Pleura"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R166",
+      "estrutura": "Cavidade pleural",
+      "grupo": "Pleuras",
+      "fonte": "respiratorio",
+      "pagina": 110,
+      "escopo": "principal",
+      "tipo": "espaco",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Pleura"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R167",
+      "estrutura": "Fáscia endotorácica",
+      "grupo": "Pleuras",
+      "fonte": "respiratorio",
+      "pagina": 113,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R168",
+      "estrutura": "Fáscia frenicopleural",
+      "grupo": "Pleuras",
+      "fonte": "respiratorio",
+      "pagina": 115,
+      "escopo": "principal",
+      "tipo": "camada",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R169",
+      "estrutura": "Membrana suprapleural (Sibson)",
+      "grupo": "Pleuras",
+      "fonte": "respiratorio",
+      "pagina": 116,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R170",
+      "estrutura": "Ligamento pulmonar",
+      "grupo": "Pleuras",
+      "fonte": "respiratorio",
+      "pagina": 117,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R171",
+      "estrutura": "Recessos costodiafragmáticos",
+      "grupo": "Pleuras",
+      "fonte": "respiratorio",
+      "pagina": 118,
+      "escopo": "principal",
+      "tipo": "espaco",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Pleura"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R172",
+      "estrutura": "Recessos costomediastinais",
+      "grupo": "Pleuras",
+      "fonte": "respiratorio",
+      "pagina": 118,
+      "escopo": "principal",
+      "tipo": "espaco",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Pleura"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R173",
+      "estrutura": "Artéria pulmonar direita",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 126,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Right pulmonary artery"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R174",
+      "estrutura": "Artéria pulmonar esquerda",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 126,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Left pulmonary artery"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R175",
+      "estrutura": "Veias pulmonares direitas",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 126,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Right superior pulmonary vein",
+        "Right inferior pulmonary vein"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R176",
+      "estrutura": "Veias pulmonares esquerdas",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 126,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Left superior pulmonary vein",
+        "Left inferior pulmonary vein"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R177",
+      "estrutura": "Artérias brônquicas",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 123,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R178",
+      "estrutura": "Veias brônquicas",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 124,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R179",
+      "estrutura": "Plexo pulmonar anterior",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 128,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R180",
+      "estrutura": "Plexo pulmonar posterior",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 128,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R181",
+      "estrutura": "Nervos vagos",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 127,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Vagus nerve (X).l",
+        "Vagus nerve (X).r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R182",
+      "estrutura": "Nervos frênicos",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 127,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R183",
+      "estrutura": "Nervos intercostais",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 127,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R184",
+      "estrutura": "Troncos simpáticos",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 127,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Sympathetic trunk.l",
+        "Sympathetic trunk.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R185",
+      "estrutura": "Linfonodos broncopulmonares (hilares)",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 129,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R186",
+      "estrutura": "Linfonodos traqueobronquiais inferiores",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 129,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Inferior tracheobronchial nodes"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R187",
+      "estrutura": "Linfonodos traqueobronquiais superiores",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 129,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Superior tracheobronchial nodes"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R188",
+      "estrutura": "Linfonodos paratraqueais",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 87,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Paratracheal cervical nodes",
+        "Paratracheal thoracic nodes"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R189",
+      "estrutura": "Plexo linfático superficial / subpleural",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 129,
+      "escopo": "principal",
+      "tipo": "microestrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R190",
+      "estrutura": "Plexo linfático profundo",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 129,
+      "escopo": "principal",
+      "tipo": "microestrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R191",
+      "estrutura": "Troncos broncomediastinais",
+      "grupo": "Vasos, nervos e linfáticos",
+      "fonte": "respiratorio",
+      "pagina": 129,
+      "escopo": "principal",
+      "tipo": "microestrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R192",
+      "estrutura": "Bronquíolos terminais",
+      "grupo": "Zona respiratória e mecânica",
+      "fonte": "respiratorio",
+      "pagina": 8,
+      "escopo": "principal",
+      "tipo": "microestrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R193",
+      "estrutura": "Bronquíolos respiratórios",
+      "grupo": "Zona respiratória e mecânica",
+      "fonte": "respiratorio",
+      "pagina": 8,
+      "escopo": "principal",
+      "tipo": "microestrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R194",
+      "estrutura": "Ductos alveolares",
+      "grupo": "Zona respiratória e mecânica",
+      "fonte": "respiratorio",
+      "pagina": 8,
+      "escopo": "principal",
+      "tipo": "microestrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R195",
+      "estrutura": "Sacos alveolares",
+      "grupo": "Zona respiratória e mecânica",
+      "fonte": "respiratorio",
+      "pagina": 8,
+      "escopo": "principal",
+      "tipo": "microestrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R196",
+      "estrutura": "Alvéolos",
+      "grupo": "Zona respiratória e mecânica",
+      "fonte": "respiratorio",
+      "pagina": 8,
+      "escopo": "principal",
+      "tipo": "microestrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R197",
+      "estrutura": "Pneumócitos tipo I",
+      "grupo": "Zona respiratória e mecânica",
+      "fonte": "respiratorio",
+      "pagina": 131,
+      "escopo": "principal",
+      "tipo": "microestrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R198",
+      "estrutura": "Pneumócitos tipo II",
+      "grupo": "Zona respiratória e mecânica",
+      "fonte": "respiratorio",
+      "pagina": 131,
+      "escopo": "principal",
+      "tipo": "microestrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R199",
+      "estrutura": "Diafragma",
+      "grupo": "Zona respiratória e mecânica",
+      "fonte": "respiratorio",
+      "pagina": 138,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Diaphragm"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R200",
+      "estrutura": "Músculos intercostais externos",
+      "grupo": "Zona respiratória e mecânica",
+      "fonte": "respiratorio",
+      "pagina": 138,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "External intercostal muscles.l",
+        "External intercostal muscles.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R201",
+      "estrutura": "Músculos intercostais internos",
+      "grupo": "Zona respiratória e mecânica",
+      "fonte": "respiratorio",
+      "pagina": 138,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Internal intercostal muscles.l",
+        "Internal intercostal muscles.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R202",
+      "estrutura": "Músculos digástricos",
+      "grupo": "Laringe: músculos extrínsecos",
+      "fonte": "respiratorio",
+      "pagina": 66,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Anterior belly of digastric muscle.l",
+        "Anterior belly of digastric muscle.r",
+        "Posterior belly of digastric muscle.l",
+        "Posterior belly of digastric muscle.r",
+        "Intermediate tendon of digastric muscle.l",
+        "Intermediate tendon of digastric muscle.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R203",
+      "estrutura": "Músculos milo-hióideos",
+      "grupo": "Laringe: músculos extrínsecos",
+      "fonte": "respiratorio",
+      "pagina": 66,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Mylohyoid muscle.l",
+        "Mylohyoid muscle.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R204",
+      "estrutura": "Músculos gênio-hióideos",
+      "grupo": "Laringe: músculos extrínsecos",
+      "fonte": "respiratorio",
+      "pagina": 66,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Geniohyoid muscle.l",
+        "Geniohyoid muscle.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R205",
+      "estrutura": "Músculos estilo-hióideos",
+      "grupo": "Laringe: músculos extrínsecos",
+      "fonte": "respiratorio",
+      "pagina": 66,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Stylohyoid muscle.l",
+        "Stylohyoid muscle.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R206",
+      "estrutura": "Músculos tireo-hióideos",
+      "grupo": "Laringe: músculos extrínsecos",
+      "fonte": "respiratorio",
+      "pagina": 66,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Thyrohyoid muscle.l",
+        "Thyrohyoid muscle.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R207",
+      "estrutura": "Músculos esternotireóideos",
+      "grupo": "Laringe: músculos extrínsecos",
+      "fonte": "respiratorio",
+      "pagina": 66,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Sternothyroid muscle.l",
+        "Sternothyroid muscle.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R208",
+      "estrutura": "Músculos esterno-hióideos",
+      "grupo": "Laringe: músculos extrínsecos",
+      "fonte": "respiratorio",
+      "pagina": 66,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Sternohyoid muscle.l",
+        "Sternohyoid muscle.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R209",
+      "estrutura": "Músculos omo-hióideos",
+      "grupo": "Laringe: músculos extrínsecos",
+      "fonte": "respiratorio",
+      "pagina": 66,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Omohyoid muscle.l",
+        "Omohyoid muscle.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R210",
+      "estrutura": "Nervos laríngeos superiores",
+      "grupo": "Laringe: vasos e nervos",
+      "fonte": "respiratorio",
+      "pagina": 81,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R211",
+      "estrutura": "Ramos internos dos nervos laríngeos superiores",
+      "grupo": "Laringe: vasos e nervos",
+      "fonte": "respiratorio",
+      "pagina": 81,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R212",
+      "estrutura": "Ramos externos dos nervos laríngeos superiores",
+      "grupo": "Laringe: vasos e nervos",
+      "fonte": "respiratorio",
+      "pagina": 81,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R213",
+      "estrutura": "Nervos laríngeos recorrentes",
+      "grupo": "Laringe: vasos e nervos",
+      "fonte": "respiratorio",
+      "pagina": 81,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R214",
+      "estrutura": "Nervos laríngeos inferiores",
+      "grupo": "Laringe: vasos e nervos",
+      "fonte": "respiratorio",
+      "pagina": 81,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R215",
+      "estrutura": "Artérias laríngeas superiores",
+      "grupo": "Laringe: vasos e nervos",
+      "fonte": "respiratorio",
+      "pagina": 79,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R216",
+      "estrutura": "Artérias laríngeas inferiores",
+      "grupo": "Laringe: vasos e nervos",
+      "fonte": "respiratorio",
+      "pagina": 79,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "nao_localizado",
+      "z_evidencia": [],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R217",
+      "estrutura": "Osso hioide",
+      "grupo": "Laringe: cartilagens e membranas",
+      "fonte": "respiratorio",
+      "pagina": 56,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Hyoid bone"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R218",
+      "estrutura": "Ossos lacrimais",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 16,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Lacrimal bone.l",
+        "Lacrimal bone.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R219",
+      "estrutura": "Osso esfenoide",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 16,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Sphenoid bone"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R220",
+      "estrutura": "Ossos palatinos",
+      "grupo": "Nariz e cavidade nasal",
+      "fonte": "respiratorio",
+      "pagina": 16,
+      "escopo": "principal",
+      "tipo": "estrutura",
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Palatine bone.l",
+        "Palatine bone.r"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R221",
+      "estrutura": "Hiato semilunar",
+      "grupo": "Seios paranasais",
+      "fonte": "respiratorio",
+      "pagina": 36,
+      "escopo": "principal",
+      "tipo": "espaco",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Mucosa of nasal cavity"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    },
+    {
+      "id": "R222",
+      "estrutura": "Ádito da laringe",
+      "grupo": "Laringe: músculos e cavidade",
+      "fonte": "respiratorio",
+      "pagina": 72,
+      "escopo": "principal",
+      "tipo": "abertura",
+      "status": "parcial_ou_a_conferir",
+      "z_evidencia": [
+        "Epiglottis",
+        "Arytenoid cartilage.r",
+        "Arytenoid cartilage.l"
+      ],
+      "validacao_visual": "pendente_individual",
+      "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+    }
+  ]
+}
