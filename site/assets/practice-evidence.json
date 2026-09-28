@@ -1,0 +1,4953 @@
+{
+  "version": 1,
+  "date": "2026-09-28",
+  "sources": [
+    {
+      "id": "roteiro",
+      "label": "Roteiro de Circulatório 3",
+      "kind": "outline"
+    },
+    {
+      "id": "coracao",
+      "label": "Slides de coração",
+      "kind": "slides"
+    },
+    {
+      "id": "vasos",
+      "label": "Slides de vasos",
+      "kind": "slides"
+    },
+    {
+      "id": "C1",
+      "label": "Aula C1",
+      "kind": "lecture"
+    },
+    {
+      "id": "C2",
+      "label": "Aula C2",
+      "kind": "lecture"
+    },
+    {
+      "id": "C3",
+      "label": "Aula C3",
+      "kind": "lecture"
+    }
+  ],
+  "targets": [
+    {
+      "id": "1",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Abrir contexto torácico com esterno, diafragma, pulmões, esôfago/aorta e orientação corporal correta; coração isolado não satisfaz sintopia. Manter câmera que permita julgar relações.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 12
+        },
+        {
+          "source": "coracao",
+          "page": 14
+        },
+        {
+          "source": "coracao",
+          "page": 16
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "2",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Abrir contexto torácico com esterno, diafragma, pulmões, esôfago/aorta e orientação corporal correta; coração isolado não satisfaz sintopia. Manter câmera que permita julgar relações.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 16
+        },
+        {
+          "source": "coracao",
+          "page": 17
+        },
+        {
+          "source": "coracao",
+          "page": 18
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "3",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Distinguir saco fibroso, lâmina parietal aderida à sua face interna e lâmina visceral sobre o coração. Expor a cavidade potencial por corte didático, sem representá-la como grande espaço normal.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 51
+        },
+        {
+          "source": "coracao",
+          "page": 52
+        },
+        {
+          "source": "coracao",
+          "page": 57
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "00:00–00:46",
+          "summary": "Pericárdio fibroso, lâminas parietal/visceral e cavidade com líquido.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "4a",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Distinguir saco fibroso, lâmina parietal aderida à sua face interna e lâmina visceral sobre o coração. Expor a cavidade potencial por corte didático, sem representá-la como grande espaço normal.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 51
+        },
+        {
+          "source": "coracao",
+          "page": 52
+        },
+        {
+          "source": "coracao",
+          "page": 57
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "00:00–00:46",
+          "summary": "Pericárdio fibroso, lâminas parietal/visceral e cavidade com líquido.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "coracao",
+          "summary": "Desenho do saco/reflexões e vista posterior distingue seios transverso/oblíquo.",
+          "page": 57
+        },
+        {
+          "kind": "frame",
+          "source": "C3",
+          "summary": "Quadro corresponde ao slide 57 de pericárdio.",
+          "time": "00:30"
+        }
+      ],
+      "readingNotes": []
+    },
+    {
+      "id": "4b",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Distinguir saco fibroso, lâmina parietal aderida à sua face interna e lâmina visceral sobre o coração. Expor a cavidade potencial por corte didático, sem representá-la como grande espaço normal.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 51
+        },
+        {
+          "source": "coracao",
+          "page": 52
+        },
+        {
+          "source": "coracao",
+          "page": 57
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "07:04–07:33",
+          "summary": "Distingue suprimento coronário e pericárdico; menciona musculofrênica e pericardicofrênicas.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C2",
+          "time": "23:22–23:48",
+          "summary": "Irrigação pericárdica e drenagem pelas veias pericardicofrênicas; coronárias suprem lâmina visceral.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C3",
+          "time": "00:00–00:46",
+          "summary": "Pericárdio fibroso, lâminas parietal/visceral e cavidade com líquido.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "coracao",
+          "summary": "Desenho do saco/reflexões e vista posterior distingue seios transverso/oblíquo.",
+          "page": 57
+        },
+        {
+          "kind": "frame",
+          "source": "C3",
+          "summary": "Quadro corresponde ao slide 57 de pericárdio.",
+          "time": "00:30"
+        }
+      ],
+      "readingNotes": []
+    },
+    {
+      "id": "5a",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Mostrar a camada específica e orientação de fibras do grupo escrito no roteiro. Uma parede genérica ou textura superficial não valida as cinco camadas; fibras só em sobreposição identificada como esquema se não houver imagem volumétrica de referência.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 23
+        },
+        {
+          "source": "coracao",
+          "page": 24
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "5b",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Mostrar a camada específica e orientação de fibras do grupo escrito no roteiro. Uma parede genérica ou textura superficial não valida as cinco camadas; fibras só em sobreposição identificada como esquema se não houver imagem volumétrica de referência.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 23
+        },
+        {
+          "source": "coracao",
+          "page": 24
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "5c",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Mostrar a camada específica e orientação de fibras do grupo escrito no roteiro. Uma parede genérica ou textura superficial não valida as cinco camadas; fibras só em sobreposição identificada como esquema se não houver imagem volumétrica de referência.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 23
+        },
+        {
+          "source": "coracao",
+          "page": 24
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "5d",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Mostrar a camada específica e orientação de fibras do grupo escrito no roteiro. Uma parede genérica ou textura superficial não valida as cinco camadas; fibras só em sobreposição identificada como esquema se não houver imagem volumétrica de referência.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 23
+        },
+        {
+          "source": "coracao",
+          "page": 24
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "5e",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Mostrar a camada específica e orientação de fibras do grupo escrito no roteiro. Uma parede genérica ou textura superficial não valida as cinco camadas; fibras só em sobreposição identificada como esquema se não houver imagem volumétrica de referência.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 23
+        },
+        {
+          "source": "coracao",
+          "page": 24
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "6",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Mostrar revestimento interno contínuo das câmaras e sua relação com as valvas; não confundir toda espessura miocárdica com endocárdio.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 51
+        },
+        {
+          "source": "coracao",
+          "page": 52
+        },
+        {
+          "source": "coracao",
+          "page": 57
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "07:04–07:57",
+          "summary": "Discussão do endocárdio e sua nutrição; apenas localização temática, não validação da explicação fisiológica.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R12",
+          "text": "Não incorporar teoria literal agora; revisão acadêmica separada antes da etapa teórica.",
+          "status": "adiado_para_teoria"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Selecionar uma região delimitada da superfície na orientação corporal apropriada, mantendo visíveis as câmaras que a compõem. Não criar uma placa separada sobre a parede.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 18
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "8",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Selecionar uma região delimitada da superfície na orientação corporal apropriada, mantendo visíveis as câmaras que a compõem. Não criar uma placa separada sobre a parede.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 18
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "9",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Selecionar uma região delimitada da superfície na orientação corporal apropriada, mantendo visíveis as câmaras que a compõem. Não criar uma placa separada sobre a parede.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 18
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "10",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Selecionar uma região delimitada da superfície na orientação corporal apropriada, mantendo visíveis as câmaras que a compõem. Não criar uma placa separada sobre a parede.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 18
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "11",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Marcar limite visível correspondente à margem, com câmera e orientação corporal corretas; linha didática não conta como nova superfície anatômica.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 19
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "12",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Marcar limite visível correspondente à margem, com câmera e orientação corporal corretas; linha didática não conta como nova superfície anatômica.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 19
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "13",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Marcar limite visível correspondente à margem, com câmera e orientação corporal corretas; linha didática não conta como nova superfície anatômica.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 19
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "14",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Apontar base ou ápice no coração orientado, conservando relações com câmaras/vasos. Não identificar base apenas como a borda superior da imagem.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 12
+        },
+        {
+          "source": "coracao",
+          "page": 14
+        },
+        {
+          "source": "coracao",
+          "page": 16
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "15",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Apontar base ou ápice no coração orientado, conservando relações com câmaras/vasos. Não identificar base apenas como a borda superior da imagem.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 12
+        },
+        {
+          "source": "coracao",
+          "page": 14
+        },
+        {
+          "source": "coracao",
+          "page": 16
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "16",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Mostrar cada câmara por fora e por dentro, com comunicação por óstios/valvas correta e espessura de parede conferida em corte. A malha da parede não é o volume da cavidade.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 20
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C1",
+          "time": "02:42–03:10",
+          "summary": "Retorno pelas cavas superior e inferior ao átrio direito.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C3",
+          "time": "16:46–18:01",
+          "summary": "Sequências da circulação pulmonar e sistêmica; para artérias pulmonares, menção coletiva sem individualizar lados.",
+          "relation": "relacao_de_fluxo_grupo",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "17",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Delimitar aurícula como prolongamento atrial e mostrar abertura em continuidade com o átrio; evitar apresentá-la como quinta/sexta câmara.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 21
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "18",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Mostrar cada câmara por fora e por dentro, com comunicação por óstios/valvas correta e espessura de parede conferida em corte. A malha da parede não é o volume da cavidade.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 20
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "16:46–18:01",
+          "summary": "Sequências da circulação pulmonar e sistêmica; para artérias pulmonares, menção coletiva sem individualizar lados.",
+          "relation": "relacao_de_fluxo_grupo",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "19",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Delimitar aurícula como prolongamento atrial e mostrar abertura em continuidade com o átrio; evitar apresentá-la como quinta/sexta câmara.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 21
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "20",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Mostrar cada câmara por fora e por dentro, com comunicação por óstios/valvas correta e espessura de parede conferida em corte. A malha da parede não é o volume da cavidade.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 20
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "16:46–18:01",
+          "summary": "Sequências da circulação pulmonar e sistêmica; para artérias pulmonares, menção coletiva sem individualizar lados.",
+          "relation": "relacao_de_fluxo_grupo",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "21",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Mostrar cada câmara por fora e por dentro, com comunicação por óstios/valvas correta e espessura de parede conferida em corte. A malha da parede não é o volume da cavidade.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 20
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "16:46–18:01",
+          "summary": "Sequências da circulação pulmonar e sistêmica; para artérias pulmonares, menção coletiva sem individualizar lados.",
+          "relation": "relacao_de_fluxo_grupo",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "22",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Identificar a região septal correta em corte sem duplicar parede compartilhada; conferir que o alvo é interatrial, interventricular ou atrioventricular. Separar parte muscular e membranácea quando exigido.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 20
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "12:29–13:21",
+          "summary": "Relação do sistema de condução com septos, incluindo parte membranácea do interventricular.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R05",
+          "text": "Manter C47=parte membranácea do SIV e revisar a região AV com Moore/atlas antes de adicionar qualquer novo alvo. Não inventar peça para satisfazer possível erro textual.",
+          "status": "conflito_docente_pendente_referencia_detalhada"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Identificar a região septal correta em corte sem duplicar parede compartilhada; conferir que o alvo é interatrial, interventricular ou atrioventricular. Separar parte muscular e membranácea quando exigido.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 20
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "12:29–13:21",
+          "summary": "Relação do sistema de condução com septos, incluindo parte membranácea do interventricular.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R05",
+          "text": "Manter C47=parte membranácea do SIV e revisar a região AV com Moore/atlas antes de adicionar qualquer novo alvo. Não inventar peça para satisfazer possível erro textual.",
+          "status": "conflito_docente_pendente_referencia_detalhada"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Identificar a região septal correta em corte sem duplicar parede compartilhada; conferir que o alvo é interatrial, interventricular ou atrioventricular. Separar parte muscular e membranácea quando exigido.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 20
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R05",
+          "text": "Manter C47=parte membranácea do SIV e revisar a região AV com Moore/atlas antes de adicionar qualquer novo alvo. Não inventar peça para satisfazer possível erro textual.",
+          "status": "conflito_docente_pendente_referencia_detalhada"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Seguir sulco no relevo da superfície; associar vasos que realmente o percorrem sem transformar vaso em sulco.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 22
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "26",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Seguir sulco no relevo da superfície; associar vasos que realmente o percorrem sem transformar vaso em sulco.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 22
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "27",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Seguir sulco no relevo da superfície; associar vasos que realmente o percorrem sem transformar vaso em sulco.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 22
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "28",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Seguir sulco no relevo da superfície; associar vasos que realmente o percorrem sem transformar vaso em sulco.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 22
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "06:10–07:04",
+          "summary": "Origem das coronárias nos seios aórticos direito/esquerdo e percurso na região do sulco coronário.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "29",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Assinalar a interseção posterior dos sulcos em vista adequada; não criar um órgão adicional.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 22
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "30a",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Conferir continuação física, origem/desembocadura e orientação do segmento. Tubos que apenas encostam visualmente ou atravessam paredes não satisfazem conexão anatômica.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 15
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C1",
+          "time": "02:42–03:10",
+          "summary": "Retorno pelas cavas superior e inferior ao átrio direito.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C3",
+          "time": "16:46–18:01",
+          "summary": "Sequências da circulação pulmonar e sistêmica; para artérias pulmonares, menção coletiva sem individualizar lados.",
+          "relation": "relacao_de_fluxo_grupo",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "30b",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Conferir continuação física, origem/desembocadura e orientação do segmento. Tubos que apenas encostam visualmente ou atravessam paredes não satisfazem conexão anatômica.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 15
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C1",
+          "time": "02:42–03:10",
+          "summary": "Retorno pelas cavas superior e inferior ao átrio direito.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C3",
+          "time": "16:46–18:01",
+          "summary": "Sequências da circulação pulmonar e sistêmica; para artérias pulmonares, menção coletiva sem individualizar lados.",
+          "relation": "relacao_de_fluxo_grupo",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "30c",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 1
+      },
+      "criterion": "Conferir continuação física, origem/desembocadura e orientação do segmento. Tubos que apenas encostam visualmente ou atravessam paredes não satisfazem conexão anatômica.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 15
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "16:46–18:01",
+          "summary": "Sequências da circulação pulmonar e sistêmica; para artérias pulmonares, menção coletiva sem individualizar lados.",
+          "relation": "relacao_de_fluxo_grupo",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "30d",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Conferir continuação física, origem/desembocadura e orientação do segmento. Tubos que apenas encostam visualmente ou atravessam paredes não satisfazem conexão anatômica.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 15
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "16:46–18:01",
+          "summary": "Sequências da circulação pulmonar e sistêmica; para artérias pulmonares, menção coletiva sem individualizar lados.",
+          "relation": "relacao_de_fluxo_grupo",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "30e",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Conferir continuação física, origem/desembocadura e orientação do segmento. Tubos que apenas encostam visualmente ou atravessam paredes não satisfazem conexão anatômica.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 15
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "16:46–18:01",
+          "summary": "Sequências da circulação pulmonar e sistêmica; para artérias pulmonares, menção coletiva sem individualizar lados.",
+          "relation": "relacao_de_fluxo_grupo",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "30f",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Conferir continuação física, origem/desembocadura e orientação do segmento. Tubos que apenas encostam visualmente ou atravessam paredes não satisfazem conexão anatômica.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 15
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "30g",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Conferir continuação física, origem/desembocadura e orientação do segmento. Tubos que apenas encostam visualmente ou atravessam paredes não satisfazem conexão anatômica.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 15
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "30h",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Conferir continuação física, origem/desembocadura e orientação do segmento. Tubos que apenas encostam visualmente ou atravessam paredes não satisfazem conexão anatômica.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 15
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R10",
+          "text": "Manter deduplicação existente e representar inferior direita pelo alvo C15; não contar duplicata como nova estrutura.",
+          "status": "ja_tratado_na_matriz"
+        }
+      ]
+    },
+    {
+      "id": "30j",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Conferir continuação física, origem/desembocadura e orientação do segmento. Tubos que apenas encostam visualmente ou atravessam paredes não satisfazem conexão anatômica.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 15
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "16:46–18:01",
+          "summary": "Sequências da circulação pulmonar e sistêmica; para artérias pulmonares, menção coletiva sem individualizar lados.",
+          "relation": "relacao_de_fluxo_grupo",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "30k",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Mostrar trajeto posterior no sulco coronário, tributárias e continuidade com o óstio no átrio direito.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 30
+        },
+        {
+          "source": "vasos",
+          "page": 30
+        },
+        {
+          "source": "vasos",
+          "page": 31
+        },
+        {
+          "source": "vasos",
+          "page": 32
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "17:47–18:42",
+          "summary": "Seio coronário como coletor principal.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "31",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Localizar conexão entre arco da aorta/região da artéria pulmonar esquerda; tratar como remanescente sólido, sem fluxo fetal no coração adulto.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 32
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "32",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Mostrar abertura real e sua continuidade com câmara/vaso correspondente. Um marcador sobre parede fechada não é um óstio.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 27
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "33",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Mostrar abertura real e sua continuidade com câmara/vaso correspondente. Um marcador sobre parede fechada não é um óstio.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 27
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "34",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Mostrar abertura real e sua continuidade com câmara/vaso correspondente. Um marcador sobre parede fechada não é um óstio.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 30
+        },
+        {
+          "source": "vasos",
+          "page": 30
+        },
+        {
+          "source": "vasos",
+          "page": 31
+        },
+        {
+          "source": "vasos",
+          "page": 32
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "18:15–18:42",
+          "summary": "Localiza óstio do seio coronário no átrio direito; ASR/narração diz cava superior, mas slide 31 diz cava inferior.",
+          "relation": "conflito_localizado_resolvido_pelo_slide_e_referencia",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "vasos",
+          "summary": "Foto de peça aberta e seta do óstio; legenda explícita VCI e óstio AVD.",
+          "page": 31
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "R01",
+          "text": "Usar relação com VCI e óstio AV direito. Não transcrever VCS como gabarito.",
+          "status": "resolvido_para_rotulo"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Mostrar prega valvular e seu limite de inserção no óstio/septo. Evitar transformar prega variável em válvula oclusiva perfeita ou associar cordas inexistentes.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 28
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "36",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Mostrar prega valvular e seu limite de inserção no óstio/septo. Evitar transformar prega variável em válvula oclusiva perfeita ou associar cordas inexistentes.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 28
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "37",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Delimitar região lisa posterior do átrio direito e distinguir da região com músculos pectíneos por crista terminal.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 27
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "38",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Demonstrar relevo real dos músculos pectíneos na região indicada; no átrio esquerdo, concentrar na aurícula. Textura de cor sem relevo não permite treino prático.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 27
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "39",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Mostrar crista terminal internamente e sulco terminal externamente como relações da mesma região; exigir vistas diferentes.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 27
+        },
+        {
+          "source": "coracao",
+          "page": 29
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "40",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Mostrar crista terminal internamente e sulco terminal externamente como relações da mesma região; exigir vistas diferentes.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 29
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "41",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Distinguir depressão, limbo e assoalho/válvula com vistas atriais direita/esquerda. Adulto normal não deve ter um orifício livre inventado.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 31
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "42",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Distinguir depressão, limbo e assoalho/válvula com vistas atriais direita/esquerda. Adulto normal não deve ter um orifício livre inventado.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 31
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "43",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Mostrar via de saída lisa e transição com região trabeculada; localizar crista supraventricular no VD sem copiá-la para o VE.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 34
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "44",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Mostrar via de saída lisa e transição com região trabeculada; localizar crista supraventricular no VD sem copiá-la para o VE.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 34
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "45",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Mostrar abertura real e sua continuidade com câmara/vaso correspondente. Um marcador sobre parede fechada não é um óstio.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 27
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "46a",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Folheto selecionável em posição real; conferir inserção, borda livre, cordas e continuidade com papilares. Não usar apenas triângulos simétricos suspensos.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 35
+        },
+        {
+          "source": "coracao",
+          "page": 42
+        },
+        {
+          "source": "coracao",
+          "page": 43
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "46b",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Folheto selecionável em posição real; conferir inserção, borda livre, cordas e continuidade com papilares. Não usar apenas triângulos simétricos suspensos.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 35
+        },
+        {
+          "source": "coracao",
+          "page": 42
+        },
+        {
+          "source": "coracao",
+          "page": 43
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R11",
+          "text": "Manter aliases e identidade de origem; só promover equivalência após conferência de localização e continuidade.",
+          "status": "validacao_espacial_pendente"
+        }
+      ]
+    },
+    {
+      "id": "46c",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Folheto selecionável em posição real; conferir inserção, borda livre, cordas e continuidade com papilares. Não usar apenas triângulos simétricos suspensos.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 35
+        },
+        {
+          "source": "coracao",
+          "page": 42
+        },
+        {
+          "source": "coracao",
+          "page": 43
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "47",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Identificar grupo papilar e inserção na parede ventricular correspondente; conferir cordas chegando às superfícies ventriculares/bordas dos folhetos. Não supor relação exclusiva de um papilar com um folheto.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 37
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "48",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Identificar grupo papilar e inserção na parede ventricular correspondente; conferir cordas chegando às superfícies ventriculares/bordas dos folhetos. Não supor relação exclusiva de um papilar com um folheto.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 37
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R11",
+          "text": "Manter aliases e identidade de origem; só promover equivalência após conferência de localização e continuidade.",
+          "status": "validacao_espacial_pendente"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Identificar grupo papilar e inserção na parede ventricular correspondente; conferir cordas chegando às superfícies ventriculares/bordas dos folhetos. Não supor relação exclusiva de um papilar com um folheto.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 37
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "50",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Mostrar trabécula septomarginal conectando a região septal ao músculo papilar anterior/parede do VD; barra flutuante não é válida.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 36
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "51",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Individualizar conjunto de cordas por ventrículo e conferir suas inserções nos folhetos/papilares; cordas já incorporadas à malha não precisam ser duplicadas.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 37
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "52",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Mostrar trabeculações internas irregulares coerentes com o ventrículo, mantendo luz da cavidade; não preencher cavidade com rugosidade aleatória.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 37
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "53a",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Expor individualmente cada folheto semilunar com orientação correta, seio correspondente e ausência de cordas tendíneas.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 43
+        },
+        {
+          "source": "coracao",
+          "page": 45
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "53b",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Expor individualmente cada folheto semilunar com orientação correta, seio correspondente e ausência de cordas tendíneas.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 43
+        },
+        {
+          "source": "coracao",
+          "page": 45
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "53c",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Expor individualmente cada folheto semilunar com orientação correta, seio correspondente e ausência de cordas tendíneas.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 43
+        },
+        {
+          "source": "coracao",
+          "page": 45
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "54a",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Mostrar abertura real e sua continuidade com câmara/vaso correspondente. Um marcador sobre parede fechada não é um óstio.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 38
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "54b",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Mostrar abertura real e sua continuidade com câmara/vaso correspondente. Um marcador sobre parede fechada não é um óstio.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 38
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "54c",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Mostrar abertura real e sua continuidade com câmara/vaso correspondente. Um marcador sobre parede fechada não é um óstio.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 38
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "54d",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Mostrar abertura real e sua continuidade com câmara/vaso correspondente. Um marcador sobre parede fechada não é um óstio.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 38
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "55",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Distinguir depressão, limbo e assoalho/válvula com vistas atriais direita/esquerda. Adulto normal não deve ter um orifício livre inventado.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 38
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "56",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 2
+      },
+      "criterion": "Mostrar prega valvular e seu limite de inserção no óstio/septo. Evitar transformar prega variável em válvula oclusiva perfeita ou associar cordas inexistentes.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 38
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "57",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Mostrar abertura real e sua continuidade com câmara/vaso correspondente. Um marcador sobre parede fechada não é um óstio.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 39
+        },
+        {
+          "source": "coracao",
+          "page": 42
+        },
+        {
+          "source": "coracao",
+          "page": 43
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "58a",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Folheto selecionável em posição real; conferir inserção, borda livre, cordas e continuidade com papilares. Não usar apenas triângulos simétricos suspensos.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 39
+        },
+        {
+          "source": "coracao",
+          "page": 42
+        },
+        {
+          "source": "coracao",
+          "page": 43
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "58b",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Folheto selecionável em posição real; conferir inserção, borda livre, cordas e continuidade com papilares. Não usar apenas triângulos simétricos suspensos.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 39
+        },
+        {
+          "source": "coracao",
+          "page": 42
+        },
+        {
+          "source": "coracao",
+          "page": 43
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "59",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Identificar grupo papilar e inserção na parede ventricular correspondente; conferir cordas chegando às superfícies ventriculares/bordas dos folhetos. Não supor relação exclusiva de um papilar com um folheto.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 39
+        },
+        {
+          "source": "coracao",
+          "page": 42
+        },
+        {
+          "source": "coracao",
+          "page": 43
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "60",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Identificar grupo papilar e inserção na parede ventricular correspondente; conferir cordas chegando às superfícies ventriculares/bordas dos folhetos. Não supor relação exclusiva de um papilar com um folheto.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 39
+        },
+        {
+          "source": "coracao",
+          "page": 42
+        },
+        {
+          "source": "coracao",
+          "page": 43
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R11",
+          "text": "Manter aliases e identidade de origem; só promover equivalência após conferência de localização e continuidade.",
+          "status": "validacao_espacial_pendente"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Individualizar conjunto de cordas por ventrículo e conferir suas inserções nos folhetos/papilares; cordas já incorporadas à malha não precisam ser duplicadas.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 39
+        },
+        {
+          "source": "coracao",
+          "page": 42
+        },
+        {
+          "source": "coracao",
+          "page": 43
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "62",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Mostrar trabeculações internas irregulares coerentes com o ventrículo, mantendo luz da cavidade; não preencher cavidade com rugosidade aleatória.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 39
+        },
+        {
+          "source": "coracao",
+          "page": 42
+        },
+        {
+          "source": "coracao",
+          "page": 43
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "63a",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Expor individualmente cada folheto semilunar com orientação correta, seio correspondente e ausência de cordas tendíneas.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 43
+        },
+        {
+          "source": "coracao",
+          "page": 44
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "63b",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Expor individualmente cada folheto semilunar com orientação correta, seio correspondente e ausência de cordas tendíneas.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 43
+        },
+        {
+          "source": "coracao",
+          "page": 44
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "63c",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Expor individualmente cada folheto semilunar com orientação correta, seio correspondente e ausência de cordas tendíneas.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 43
+        },
+        {
+          "source": "coracao",
+          "page": 44
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "64",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Conferir junções das valvas e relações entre anéis/trígonos na base. Não impor quatro anéis circulares planos com espessura arbitrária a uma base complexa.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 47
+        },
+        {
+          "source": "coracao",
+          "page": 48
+        }
+      ],
+      "lecture": [],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "coracao",
+          "summary": "Diagrama superior identifica 4 anéis e 2 trígonos. Texto cita IA/IV; conflito R05 permanece.",
+          "page": 47
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "R05",
+          "text": "Manter C47=parte membranácea do SIV e revisar a região AV com Moore/atlas antes de adicionar qualquer novo alvo. Não inventar peça para satisfazer possível erro textual.",
+          "status": "conflito_docente_pendente_referencia_detalhada"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Conferir junções das valvas e relações entre anéis/trígonos na base. Não impor quatro anéis circulares planos com espessura arbitrária a uma base complexa.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 47
+        },
+        {
+          "source": "coracao",
+          "page": 48
+        }
+      ],
+      "lecture": [],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "coracao",
+          "summary": "Diagrama superior identifica 4 anéis e 2 trígonos. Texto cita IA/IV; conflito R05 permanece.",
+          "page": 47
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "R05",
+          "text": "Manter C47=parte membranácea do SIV e revisar a região AV com Moore/atlas antes de adicionar qualquer novo alvo. Não inventar peça para satisfazer possível erro textual.",
+          "status": "conflito_docente_pendente_referencia_detalhada"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Conferir junções das valvas e relações entre anéis/trígonos na base. Não impor quatro anéis circulares planos com espessura arbitrária a uma base complexa.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 47
+        },
+        {
+          "source": "coracao",
+          "page": 48
+        }
+      ],
+      "lecture": [],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "coracao",
+          "summary": "Diagrama superior identifica 4 anéis e 2 trígonos. Texto cita IA/IV; conflito R05 permanece.",
+          "page": 47
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "R05",
+          "text": "Manter C47=parte membranácea do SIV e revisar a região AV com Moore/atlas antes de adicionar qualquer novo alvo. Não inventar peça para satisfazer possível erro textual.",
+          "status": "conflito_docente_pendente_referencia_detalhada"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Conferir junções das valvas e relações entre anéis/trígonos na base. Não impor quatro anéis circulares planos com espessura arbitrária a uma base complexa.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 47
+        },
+        {
+          "source": "coracao",
+          "page": 48
+        }
+      ],
+      "lecture": [],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "coracao",
+          "summary": "Diagrama superior identifica 4 anéis e 2 trígonos. Texto cita IA/IV; conflito R05 permanece.",
+          "page": 47
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "R05",
+          "text": "Manter C47=parte membranácea do SIV e revisar a região AV com Moore/atlas antes de adicionar qualquer novo alvo. Não inventar peça para satisfazer possível erro textual.",
+          "status": "conflito_docente_pendente_referencia_detalhada"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Conferir junções das valvas e relações entre anéis/trígonos na base. Não impor quatro anéis circulares planos com espessura arbitrária a uma base complexa.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 47
+        },
+        {
+          "source": "coracao",
+          "page": 48
+        }
+      ],
+      "lecture": [],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "coracao",
+          "summary": "Diagrama superior identifica 4 anéis e 2 trígonos. Texto cita IA/IV; conflito R05 permanece.",
+          "page": 47
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "R05",
+          "text": "Manter C47=parte membranácea do SIV e revisar a região AV com Moore/atlas antes de adicionar qualquer novo alvo. Não inventar peça para satisfazer possível erro textual.",
+          "status": "conflito_docente_pendente_referencia_detalhada"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Conferir junções das valvas e relações entre anéis/trígonos na base. Não impor quatro anéis circulares planos com espessura arbitrária a uma base complexa.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 47
+        },
+        {
+          "source": "coracao",
+          "page": 48
+        }
+      ],
+      "lecture": [],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "coracao",
+          "summary": "Diagrama superior identifica 4 anéis e 2 trígonos. Texto cita IA/IV; conflito R05 permanece.",
+          "page": 47
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "R05",
+          "text": "Manter C47=parte membranácea do SIV e revisar a região AV com Moore/atlas antes de adicionar qualquer novo alvo. Não inventar peça para satisfazer possível erro textual.",
+          "status": "conflito_docente_pendente_referencia_detalhada"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Demonstrar fixação do pericárdio aos marcos do roteiro em contexto torácico; forma e extensão necessitam referência identificável. Uma linha genérica entre dois objetos só é esquema didático.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 54
+        },
+        {
+          "source": "coracao",
+          "page": 55
+        },
+        {
+          "source": "coracao",
+          "page": 56
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "71",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Demonstrar fixação do pericárdio aos marcos do roteiro em contexto torácico; forma e extensão necessitam referência identificável. Uma linha genérica entre dois objetos só é esquema didático.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 54
+        },
+        {
+          "source": "coracao",
+          "page": 55
+        },
+        {
+          "source": "coracao",
+          "page": 56
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "72",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Demonstrar fixação do pericárdio aos marcos do roteiro em contexto torácico; forma e extensão necessitam referência identificável. Uma linha genérica entre dois objetos só é esquema didático.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 54
+        },
+        {
+          "source": "coracao",
+          "page": 55
+        },
+        {
+          "source": "coracao",
+          "page": 56
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "73",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Demonstrar fixação do pericárdio aos marcos do roteiro em contexto torácico; forma e extensão necessitam referência identificável. Uma linha genérica entre dois objetos só é esquema didático.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 54
+        },
+        {
+          "source": "coracao",
+          "page": 55
+        },
+        {
+          "source": "coracao",
+          "page": 56
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "74",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Expor passagem entre pedículo arterial (aorta/TP) e estruturas venosas/atriais, com reflexões pericárdicas coerentes; representar espaço, não cordão sólido.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 57
+        },
+        {
+          "source": "coracao",
+          "page": 58
+        },
+        {
+          "source": "coracao",
+          "page": 59
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "00:46–01:12",
+          "summary": "Formação do seio transverso entre extremidades arterial e venosa.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C3",
+          "time": "01:41–02:37",
+          "summary": "Aorta e tronco pulmonar anteriores ao seio transverso; relações com VCS/átrios e uso cirúrgico.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "coracao",
+          "summary": "Desenho do saco/reflexões e vista posterior distingue seios transverso/oblíquo.",
+          "page": 57
+        },
+        {
+          "kind": "frame",
+          "source": "C3",
+          "summary": "Quadro corresponde ao slide 57 de pericárdio.",
+          "time": "00:30"
+        }
+      ],
+      "readingNotes": []
+    },
+    {
+      "id": "75",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Expor fundo cego posterior ao átrio esquerdo entre reflexões ao redor das veias pulmonares/VCI; mostrar abertura inferior e não confundir com seio transverso.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 57
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "01:12–01:41",
+          "summary": "Seio oblíquo posterior relacionado às veias pulmonares e cava inferior.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "coracao",
+          "summary": "Desenho do saco/reflexões e vista posterior distingue seios transverso/oblíquo.",
+          "page": 57
+        },
+        {
+          "kind": "frame",
+          "source": "C3",
+          "summary": "Quadro corresponde ao slide 57 de pericárdio.",
+          "time": "00:30"
+        }
+      ],
+      "readingNotes": []
+    },
+    {
+      "id": "76",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Conferir continuação física, origem/desembocadura e orientação do segmento. Tubos que apenas encostam visualmente ou atravessam paredes não satisfazem conexão anatômica.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 18
+        },
+        {
+          "source": "vasos",
+          "page": 20
+        },
+        {
+          "source": "vasos",
+          "page": 21
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "03:56–04:56",
+          "summary": "Revisão da continuidade aorta ascendente, arco, descendente torácica e abdominal.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C2",
+          "time": "07:33–08:22",
+          "summary": "Distingue seios aórticos, óstios das coronárias e seio posterior não coronário.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "77",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Mostrar dilatação da parede acima de cada folheto semilunar; individualizar lado e relação com óstios coronários quando aórtico. Seio posterior aórtico é não coronário.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 18
+        },
+        {
+          "source": "vasos",
+          "page": 20
+        },
+        {
+          "source": "vasos",
+          "page": 21
+        },
+        {
+          "source": "coracao",
+          "page": 45
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "06:10–07:04",
+          "summary": "Origem das coronárias nos seios aórticos direito/esquerdo e percurso na região do sulco coronário.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C2",
+          "time": "07:33–08:22",
+          "summary": "Distingue seios aórticos, óstios das coronárias e seio posterior não coronário.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "78",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Mostrar dilatação da parede acima de cada folheto semilunar; individualizar lado e relação com óstios coronários quando aórtico. Seio posterior aórtico é não coronário.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 18
+        },
+        {
+          "source": "vasos",
+          "page": 20
+        },
+        {
+          "source": "vasos",
+          "page": 21
+        },
+        {
+          "source": "coracao",
+          "page": 45
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "06:10–07:04",
+          "summary": "Origem das coronárias nos seios aórticos direito/esquerdo e percurso na região do sulco coronário.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C2",
+          "time": "07:33–08:22",
+          "summary": "Distingue seios aórticos, óstios das coronárias e seio posterior não coronário.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "79",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Mostrar dilatação da parede acima de cada folheto semilunar; individualizar lado e relação com óstios coronários quando aórtico. Seio posterior aórtico é não coronário.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 18
+        },
+        {
+          "source": "vasos",
+          "page": 20
+        },
+        {
+          "source": "vasos",
+          "page": 21
+        },
+        {
+          "source": "coracao",
+          "page": 45
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "07:33–08:22",
+          "summary": "Distingue seios aórticos, óstios das coronárias e seio posterior não coronário.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "80",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Mostrar abertura real e sua continuidade com câmara/vaso correspondente. Um marcador sobre parede fechada não é um óstio.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 18
+        },
+        {
+          "source": "vasos",
+          "page": 20
+        },
+        {
+          "source": "vasos",
+          "page": 21
+        },
+        {
+          "source": "coracao",
+          "page": 45
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "07:33–08:22",
+          "summary": "Distingue seios aórticos, óstios das coronárias e seio posterior não coronário.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "81",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 18
+        },
+        {
+          "source": "vasos",
+          "page": 20
+        },
+        {
+          "source": "vasos",
+          "page": 21
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "06:10–07:04",
+          "summary": "Origem das coronárias nos seios aórticos direito/esquerdo e percurso na região do sulco coronário.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C2",
+          "time": "23:22–23:48",
+          "summary": "Irrigação pericárdica e drenagem pelas veias pericardicofrênicas; coronárias suprem lâmina visceral.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "82",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Mostrar abertura real e sua continuidade com câmara/vaso correspondente. Um marcador sobre parede fechada não é um óstio.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 18
+        },
+        {
+          "source": "vasos",
+          "page": 20
+        },
+        {
+          "source": "vasos",
+          "page": 21
+        },
+        {
+          "source": "coracao",
+          "page": 45
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "07:33–08:22",
+          "summary": "Distingue seios aórticos, óstios das coronárias e seio posterior não coronário.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "83",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 18
+        },
+        {
+          "source": "vasos",
+          "page": 20
+        },
+        {
+          "source": "vasos",
+          "page": 21
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "06:10–07:04",
+          "summary": "Origem das coronárias nos seios aórticos direito/esquerdo e percurso na região do sulco coronário.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C2",
+          "time": "11:25–12:24",
+          "summary": "Tronco esquerdo curto, ramos atriais esquerdos, bifurcação interventricular anterior/circunflexo.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C2",
+          "time": "23:22–23:48",
+          "summary": "Irrigação pericárdica e drenagem pelas veias pericardicofrênicas; coronárias suprem lâmina visceral.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "frame",
+          "source": "C2",
+          "summary": "Quadro confirma correspondência com slide coronária esquerda; números/posição individual dos ramos ainda não validados no 3D.",
+          "time": "13:27"
+        }
+      ],
+      "readingNotes": []
+    },
+    {
+      "id": "84",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Conferir continuação física, origem/desembocadura e orientação do segmento. Tubos que apenas encostam visualmente ou atravessam paredes não satisfazem conexão anatômica.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 15
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "03:56–04:56",
+          "summary": "Revisão da continuidade aorta ascendente, arco, descendente torácica e abdominal.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "85",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Manter no roteiro com cena contextual vascular própria. Incluir continuidade necessária para reconhecer origem/segmento; não exigir cabeça/abdômen inteiros na cena cardíaca.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 15
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "04:26–04:56",
+          "summary": "Tronco braquiocefálico, subclávia/carótida comum direitas e bifurcação carotídea.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "86",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Manter no roteiro com cena contextual vascular própria. Incluir continuidade necessária para reconhecer origem/segmento; não exigir cabeça/abdômen inteiros na cena cardíaca.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 15
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "04:26–04:56",
+          "summary": "Tronco braquiocefálico, subclávia/carótida comum direitas e bifurcação carotídea.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "87",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Manter no roteiro com cena contextual vascular própria. Incluir continuidade necessária para reconhecer origem/segmento; não exigir cabeça/abdômen inteiros na cena cardíaca.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 15
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "04:26–04:56",
+          "summary": "Tronco braquiocefálico, subclávia/carótida comum direitas e bifurcação carotídea.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "88",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Manter no roteiro com cena contextual vascular própria. Incluir continuidade necessária para reconhecer origem/segmento; não exigir cabeça/abdômen inteiros na cena cardíaca.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 15
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "04:56–05:11",
+          "summary": "Carótida comum e subclávia esquerdas originadas do arco.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "89",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 3
+      },
+      "criterion": "Manter no roteiro com cena contextual vascular própria. Incluir continuidade necessária para reconhecer origem/segmento; não exigir cabeça/abdômen inteiros na cena cardíaca.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 15
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "04:56–05:11",
+          "summary": "Carótida comum e subclávia esquerdas originadas do arco.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "90",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Manter no roteiro com cena contextual vascular própria. Incluir continuidade necessária para reconhecer origem/segmento; não exigir cabeça/abdômen inteiros na cena cardíaca.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 14
+        },
+        {
+          "source": "vasos",
+          "page": 16
+        },
+        {
+          "source": "vasos",
+          "page": 17
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "04:26–04:56",
+          "summary": "Tronco braquiocefálico, subclávia/carótida comum direitas e bifurcação carotídea.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "91",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Manter no roteiro com cena contextual vascular própria. Incluir continuidade necessária para reconhecer origem/segmento; não exigir cabeça/abdômen inteiros na cena cardíaca.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 14
+        },
+        {
+          "source": "vasos",
+          "page": 16
+        },
+        {
+          "source": "vasos",
+          "page": 17
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "04:26–04:56",
+          "summary": "Tronco braquiocefálico, subclávia/carótida comum direitas e bifurcação carotídea.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "92",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Manter no roteiro com cena contextual vascular própria. Incluir continuidade necessária para reconhecer origem/segmento; não exigir cabeça/abdômen inteiros na cena cardíaca.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 14
+        },
+        {
+          "source": "vasos",
+          "page": 16
+        },
+        {
+          "source": "vasos",
+          "page": 17
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "03:56–04:56",
+          "summary": "Revisão da continuidade aorta ascendente, arco, descendente torácica e abdominal.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "93",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Manter no roteiro com cena contextual vascular própria. Incluir continuidade necessária para reconhecer origem/segmento; não exigir cabeça/abdômen inteiros na cena cardíaca.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 14
+        },
+        {
+          "source": "vasos",
+          "page": 16
+        },
+        {
+          "source": "vasos",
+          "page": 17
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "03:56–04:56",
+          "summary": "Revisão da continuidade aorta ascendente, arco, descendente torácica e abdominal.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "94",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 22
+        },
+        {
+          "source": "vasos",
+          "page": 23
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "08:22–08:52",
+          "summary": "Ramos atriais direitos e origem variável do ramo do nó sinoatrial.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R06",
+          "text": "Declarar configuração representada; validar origem de cada ramo; variantes ficam em modo opcional separado. Não montar uma anatomia híbrida com todas simultaneamente.",
+          "status": "regra_de_modelagem"
+        },
+        {
+          "id": "R07",
+          "text": "Conferir ramo arterial pelo vaso de origem nas figuras e futura referência antes de criar rótulo.",
+          "status": "alerta_de_leitura"
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 22
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "08:22–08:52",
+          "summary": "Ramos atriais direitos e origem variável do ramo do nó sinoatrial.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "96",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 22
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "08:52–09:22",
+          "summary": "Ramo do cone arterial e ramo ventricular anterior direito.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "97",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 22
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "08:52–09:22",
+          "summary": "Ramo do cone arterial e ramo ventricular anterior direito.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "98",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 22
+        },
+        {
+          "source": "vasos",
+          "page": 23
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "09:23–10:00",
+          "summary": "Ramo marginal direito na transição para a continuação posterior.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "99",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 23
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R06",
+          "text": "Declarar configuração representada; validar origem de cada ramo; variantes ficam em modo opcional separado. Não montar uma anatomia híbrida com todas simultaneamente.",
+          "status": "regra_de_modelagem"
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 23
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "10:00–10:55",
+          "summary": "Interventricular posterior e dominância; frequência citada na aula é dado do material, não lei geométrica.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C2",
+          "time": "13:53–14:20",
+          "summary": "Aula menciona anastomose apical entre interventriculares anterior e posterior. Não criar uma ponte arterial calibrosa sem geometria de referência.",
+          "relation": "relacao_anatomica_citada",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R06",
+          "text": "Declarar configuração representada; validar origem de cada ramo; variantes ficam em modo opcional separado. Não montar uma anatomia híbrida com todas simultaneamente.",
+          "status": "regra_de_modelagem"
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 23
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "10:55–11:25",
+          "summary": "Póstero-lateral direito e ramos interventriculares septais provenientes do interventricular posterior.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R06",
+          "text": "Declarar configuração representada; validar origem de cada ramo; variantes ficam em modo opcional separado. Não montar uma anatomia híbrida com todas simultaneamente.",
+          "status": "regra_de_modelagem"
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 23
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "10:55–11:25",
+          "summary": "Póstero-lateral direito e ramos interventriculares septais provenientes do interventricular posterior.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R06",
+          "text": "Declarar configuração representada; validar origem de cada ramo; variantes ficam em modo opcional separado. Não montar uma anatomia híbrida com todas simultaneamente.",
+          "status": "regra_de_modelagem"
+        },
+        {
+          "id": "R11",
+          "text": "Manter aliases e identidade de origem; só promover equivalência após conferência de localização e continuidade.",
+          "status": "validacao_espacial_pendente"
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 25
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "11:25–12:24",
+          "summary": "Tronco esquerdo curto, ramos atriais esquerdos, bifurcação interventricular anterior/circunflexo.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C2",
+          "time": "13:53–14:20",
+          "summary": "Aula menciona anastomose apical entre interventriculares anterior e posterior. Não criar uma ponte arterial calibrosa sem geometria de referência.",
+          "relation": "relacao_anatomica_citada",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "frame",
+          "source": "C2",
+          "summary": "Quadro confirma correspondência com slide coronária esquerda; números/posição individual dos ramos ainda não validados no 3D.",
+          "time": "13:27"
+        }
+      ],
+      "readingNotes": []
+    },
+    {
+      "id": "103a",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 25
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "12:24–13:23",
+          "summary": "Ramo do cone e ramos interventriculares septais do interventricular anterior.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "frame",
+          "source": "C2",
+          "summary": "Quadro confirma correspondência com slide coronária esquerda; números/posição individual dos ramos ainda não validados no 3D.",
+          "time": "13:27"
+        }
+      ],
+      "readingNotes": []
+    },
+    {
+      "id": "103b",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 25
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "12:24–13:23",
+          "summary": "Ramo do cone e ramos interventriculares septais do interventricular anterior.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "frame",
+          "source": "C2",
+          "summary": "Quadro confirma correspondência com slide coronária esquerda; números/posição individual dos ramos ainda não validados no 3D.",
+          "time": "13:27"
+        }
+      ],
+      "readingNotes": []
+    },
+    {
+      "id": "103c",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 25
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "12:54–13:53",
+          "summary": "Ramos laterais/diagonais e variação de ramificação; equivalência nomenclatural deve preservar vaso de origem.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C2",
+          "time": "14:49–16:05",
+          "summary": "Variações de origem e número de ramos; não converter em um número universal de artérias diagonais.",
+          "relation": "variacao_didatica",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "frame",
+          "source": "C2",
+          "summary": "Quadro confirma correspondência com slide coronária esquerda; números/posição individual dos ramos ainda não validados no 3D.",
+          "time": "13:27"
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "R06",
+          "text": "Declarar configuração representada; validar origem de cada ramo; variantes ficam em modo opcional separado. Não montar uma anatomia híbrida com todas simultaneamente.",
+          "status": "regra_de_modelagem"
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 25
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "11:25–12:24",
+          "summary": "Tronco esquerdo curto, ramos atriais esquerdos, bifurcação interventricular anterior/circunflexo.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C2",
+          "time": "20:40–21:34",
+          "summary": "Veia interventricular anterior continua como cardíaca magna; relação com circunflexo.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "frame",
+          "source": "C2",
+          "summary": "Quadro confirma correspondência com slide coronária esquerda; números/posição individual dos ramos ainda não validados no 3D.",
+          "time": "13:27"
+        }
+      ],
+      "readingNotes": []
+    },
+    {
+      "id": "104a",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 25
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "11:25–12:24",
+          "summary": "Tronco esquerdo curto, ramos atriais esquerdos, bifurcação interventricular anterior/circunflexo.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "frame",
+          "source": "C2",
+          "summary": "Quadro confirma correspondência com slide coronária esquerda; números/posição individual dos ramos ainda não validados no 3D.",
+          "time": "13:27"
+        }
+      ],
+      "readingNotes": []
+    },
+    {
+      "id": "104b",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 25
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "12:54–13:53",
+          "summary": "Ramos laterais/diagonais e variação de ramificação; equivalência nomenclatural deve preservar vaso de origem.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C2",
+          "time": "14:49–16:05",
+          "summary": "Variações de origem e número de ramos; não converter em um número universal de artérias diagonais.",
+          "relation": "variacao_didatica",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "frame",
+          "source": "C2",
+          "summary": "Quadro confirma correspondência com slide coronária esquerda; números/posição individual dos ramos ainda não validados no 3D.",
+          "time": "13:27"
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "R06",
+          "text": "Declarar configuração representada; validar origem de cada ramo; variantes ficam em modo opcional separado. Não montar uma anatomia híbrida com todas simultaneamente.",
+          "status": "regra_de_modelagem"
+        }
+      ]
+    },
+    {
+      "id": "104c",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 26
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "13:53–14:49",
+          "summary": "Circunflexo, marginal esquerdo e ramo posterior do ventrículo esquerdo.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "104d",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir origem, trajeto e território com seleção própria do ramo, preservando nomenclatura do roteiro e alias do modelo. Não atribuir identidade só pela proximidade ou pelo nome inglês.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 26
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "13:53–14:49",
+          "summary": "Circunflexo, marginal esquerdo e ramo posterior do ventrículo esquerdo.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "105",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir percurso e desembocadura, distinguindo seio coronário de drenagem direta. Não creditar uma árvore venosa inteira como cada veia nomeada.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 34
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "20:40–21:34",
+          "summary": "Veia interventricular anterior continua como cardíaca magna; relação com circunflexo.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "106",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir percurso e desembocadura, distinguindo seio coronário de drenagem direta. Não creditar uma árvore venosa inteira como cada veia nomeada.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 34
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "18:42–19:44",
+          "summary": "Cardíaca magna e oblíqua do átrio esquerdo na formação do seio; há hesitação e troca por safena na fala transcrita.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C2",
+          "time": "20:40–21:34",
+          "summary": "Veia interventricular anterior continua como cardíaca magna; relação com circunflexo.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R03",
+          "text": "Rótulos: veia cardíaca magna; veia oblíqua do átrio esquerdo (de Marshall). Não criar safena no coração.",
+          "status": "resolvido_com_slides32_34"
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir percurso e desembocadura, distinguindo seio coronário de drenagem direta. Não creditar uma árvore venosa inteira como cada veia nomeada.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 32
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "18:42–19:44",
+          "summary": "Cardíaca magna e oblíqua do átrio esquerdo na formação do seio; há hesitação e troca por safena na fala transcrita.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R03",
+          "text": "Rótulos: veia cardíaca magna; veia oblíqua do átrio esquerdo (de Marshall). Não criar safena no coração.",
+          "status": "resolvido_com_slides32_34"
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir percurso e desembocadura, distinguindo seio coronário de drenagem direta. Não creditar uma árvore venosa inteira como cada veia nomeada.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 33
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "19:44–20:40",
+          "summary": "Tributárias do seio coronário: marginal esquerda, posterior do VE, interventricular posterior e cardíaca parva.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "110",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir percurso e desembocadura, distinguindo seio coronário de drenagem direta. Não creditar uma árvore venosa inteira como cada veia nomeada.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 33
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "19:44–20:40",
+          "summary": "Tributárias do seio coronário: marginal esquerda, posterior do VE, interventricular posterior e cardíaca parva.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R11",
+          "text": "Manter aliases e identidade de origem; só promover equivalência após conferência de localização e continuidade.",
+          "status": "validacao_espacial_pendente"
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir percurso e desembocadura, distinguindo seio coronário de drenagem direta. Não creditar uma árvore venosa inteira como cada veia nomeada.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 33
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "19:44–20:40",
+          "summary": "Tributárias do seio coronário: marginal esquerda, posterior do VE, interventricular posterior e cardíaca parva.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "112",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir percurso e desembocadura, distinguindo seio coronário de drenagem direta. Não creditar uma árvore venosa inteira como cada veia nomeada.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 34
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "113",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir percurso e desembocadura, distinguindo seio coronário de drenagem direta. Não creditar uma árvore venosa inteira como cada veia nomeada.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 33
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "19:44–20:40",
+          "summary": "Tributárias do seio coronário: marginal esquerda, posterior do VE, interventricular posterior e cardíaca parva.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "114",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Seguir percurso e desembocadura, distinguindo seio coronário de drenagem direta. Não creditar uma árvore venosa inteira como cada veia nomeada.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 35
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "21:34–22:02",
+          "summary": "Veias anteriores do ventrículo direito drenando diretamente ao átrio direito.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R02",
+          "text": "Anteriores do VD: drenagem direta ao AD. Mínimas: aberturas diretas nas respectivas câmaras, em sobreposição didática.",
+          "status": "resolvido_para_modelagem"
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Contexto pericárdico/mediastinal ativável: mostrar vaso, origem/drenagem e relação com pericárdio; não representar rede de todo o tórax na visão inicial.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 39
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "07:04–07:33",
+          "summary": "Distingue suprimento coronário e pericárdico; menciona musculofrênica e pericardicofrênicas.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C2",
+          "time": "22:58–23:22",
+          "summary": "Pericardicofrênica ao lado do nervo frênico.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "116",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Contexto pericárdico/mediastinal ativável: mostrar vaso, origem/drenagem e relação com pericárdio; não representar rede de todo o tórax na visão inicial.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 39
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "07:04–07:33",
+          "summary": "Distingue suprimento coronário e pericárdico; menciona musculofrênica e pericardicofrênicas.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C2",
+          "time": "23:22–23:48",
+          "summary": "Irrigação pericárdica e drenagem pelas veias pericardicofrênicas; coronárias suprem lâmina visceral.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "117",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Contexto pericárdico/mediastinal ativável: mostrar vaso, origem/drenagem e relação com pericárdio; não representar rede de todo o tórax na visão inicial.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 39
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "23:22–23:48",
+          "summary": "Irrigação pericárdica e drenagem pelas veias pericardicofrênicas; coronárias suprem lâmina visceral.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "118",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Contexto pericárdico/mediastinal ativável: mostrar vaso, origem/drenagem e relação com pericárdio; não representar rede de todo o tórax na visão inicial.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 39
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "23:22–23:48",
+          "summary": "Irrigação pericárdica e drenagem pelas veias pericardicofrênicas; coronárias suprem lâmina visceral.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "119",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 4
+      },
+      "criterion": "Contexto pericárdico/mediastinal ativável: mostrar vaso, origem/drenagem e relação com pericárdio; não representar rede de todo o tórax na visão inicial.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 39
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "23:22–23:48",
+          "summary": "Irrigação pericárdica e drenagem pelas veias pericardicofrênicas; coronárias suprem lâmina visceral.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "121",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 5
+      },
+      "criterion": "Contexto pericárdico/mediastinal ativável: mostrar vaso, origem/drenagem e relação com pericárdio; não representar rede de todo o tórax na visão inicial.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 40
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "23:22–23:48",
+          "summary": "Irrigação pericárdica e drenagem pelas veias pericardicofrênicas; coronárias suprem lâmina visceral.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C2",
+          "time": "23:48–24:16",
+          "summary": "Drenagem para torácica interna/braquiocefálicas; material tem erro de grafia braquicefálicas.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R08",
+          "text": "Normalizar em texto novo e manter transcrição original intocada.",
+          "status": "correcao_terminologica"
+        }
+      ]
+    },
+    {
+      "id": "122a",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 5
+      },
+      "criterion": "Contexto pericárdico/mediastinal ativável: mostrar vaso, origem/drenagem e relação com pericárdio; não representar rede de todo o tórax na visão inicial.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 40
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "122b",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 5
+      },
+      "criterion": "Contexto pericárdico/mediastinal ativável: mostrar vaso, origem/drenagem e relação com pericárdio; não representar rede de todo o tórax na visão inicial.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 40
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "122c",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 5
+      },
+      "criterion": "Contexto pericárdico/mediastinal ativável: mostrar vaso, origem/drenagem e relação com pericárdio; não representar rede de todo o tórax na visão inicial.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 40
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "123",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 5
+      },
+      "criterion": "Distinguir nervos e troncos em sua topografia torácica, conferindo relação com pericárdio/raízes pulmonares. Cor amarela e tubo sem origem/continuidade não validam um nervo.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 41
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "23:48–24:36",
+          "summary": "Inervação do pericárdio pelo vago mencionada com função incerta no material.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C3",
+          "time": "04:30–05:22",
+          "summary": "Vago e nervos cardíacos simpáticos formando plexo extrínseco.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C3",
+          "time": "09:27–10:36",
+          "summary": "Vago e seus alvos cardíacos; efeitos fisiológicos ficam para etapa de teoria.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R12",
+          "text": "Não incorporar teoria literal agora; revisão acadêmica separada antes da etapa teórica.",
+          "status": "adiado_para_teoria"
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 5
+      },
+      "criterion": "Distinguir nervos e troncos em sua topografia torácica, conferindo relação com pericárdio/raízes pulmonares. Cor amarela e tubo sem origem/continuidade não validam um nervo.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 41
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "22:58–23:22",
+          "summary": "Pericardicofrênica ao lado do nervo frênico.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C2",
+          "time": "24:16–24:36",
+          "summary": "Frênico, raízes C3–C5 e sensibilidade do pericárdio.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "125",
+      "scopeSource": {
+        "source": "roteiro",
+        "page": 5
+      },
+      "criterion": "Distinguir nervos e troncos em sua topografia torácica, conferindo relação com pericárdio/raízes pulmonares. Cor amarela e tubo sem origem/continuidade não validam um nervo.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 41
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "24:36–25:01",
+          "summary": "Troncos simpáticos e função vasomotora.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C3",
+          "time": "04:30–05:22",
+          "summary": "Vago e nervos cardíacos simpáticos formando plexo extrínseco.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C3",
+          "time": "05:51–06:49",
+          "summary": "Gânglios cervicais e torácicos superiores como origem de fibras pós-ganglionares.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R12",
+          "text": "Não incorporar teoria literal agora; revisão acadêmica separada antes da etapa teórica.",
+          "status": "adiado_para_teoria"
+        }
+      ]
+    },
+    {
+      "id": "C15",
+      "scopeSource": {
+        "source": "coracao",
+        "page": 15
+      },
+      "criterion": "Conferir continuação física, origem/desembocadura e orientação do segmento. Tubos que apenas encostam visualmente ou atravessam paredes não satisfazem conexão anatômica.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 15
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R10",
+          "text": "Manter deduplicação existente e representar inferior direita pelo alvo C15; não contar duplicata como nova estrutura.",
+          "status": "ja_tratado_na_matriz"
+        }
+      ]
+    },
+    {
+      "id": "C21",
+      "scopeSource": {
+        "source": "coracao",
+        "page": 38
+      },
+      "criterion": "Demonstrar relevo real dos músculos pectíneos na região indicada; no átrio esquerdo, concentrar na aurícula. Textura de cor sem relevo não permite treino prático.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 38
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": [
+        {
+          "id": "R09",
+          "text": "Localizar alvo C21 na aurícula esquerda, não preencher parede lisa do AE com músculos pectíneos.",
+          "status": "correcao_contextual"
+        }
+      ]
+    },
+    {
+      "id": "C41",
+      "scopeSource": {
+        "source": "coracao",
+        "page": 41
+      },
+      "criterion": "Mostrar via de saída lisa e transição com região trabeculada; localizar crista supraventricular no VD sem copiá-la para o VE.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 41
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "C45a",
+      "scopeSource": {
+        "source": "coracao",
+        "page": 45
+      },
+      "criterion": "Mostrar dilatação da parede acima de cada folheto semilunar; individualizar lado e relação com óstios coronários quando aórtico. Seio posterior aórtico é não coronário.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 45
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "C45b",
+      "scopeSource": {
+        "source": "coracao",
+        "page": 45
+      },
+      "criterion": "Mostrar dilatação da parede acima de cada folheto semilunar; individualizar lado e relação com óstios coronários quando aórtico. Seio posterior aórtico é não coronário.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 45
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "C45c",
+      "scopeSource": {
+        "source": "coracao",
+        "page": 45
+      },
+      "criterion": "Mostrar dilatação da parede acima de cada folheto semilunar; individualizar lado e relação com óstios coronários quando aórtico. Seio posterior aórtico é não coronário.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 45
+        }
+      ],
+      "lecture": [],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "C47",
+      "scopeSource": {
+        "source": "coracao",
+        "page": 47
+      },
+      "criterion": "Identificar a região septal correta em corte sem duplicar parede compartilhada; conferir que o alvo é interatrial, interventricular ou atrioventricular. Separar parte muscular e membranácea quando exigido.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 47
+        },
+        {
+          "source": "coracao",
+          "page": 48
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "12:29–13:21",
+          "summary": "Relação do sistema de condução com septos, incluindo parte membranácea do interventricular.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "coracao",
+          "summary": "Esquema localiza nó SA na junção VCS/AD e caminho de condução; não é fotografia de tecido microscópico.",
+          "page": 67
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "R05",
+          "text": "Manter C47=parte membranácea do SIV e revisar a região AV com Moore/atlas antes de adicionar qualquer novo alvo. Não inventar peça para satisfazer possível erro textual.",
+          "status": "conflito_docente_pendente_referencia_detalhada"
+        }
+      ]
+    },
+    {
+      "id": "C61a",
+      "scopeSource": {
+        "source": "coracao",
+        "page": 61
+      },
+      "criterion": "Separar região superficial/profunda do plexo com aferências/eferências contextualizadas e relações corretas. Rede genérica ao redor da aorta deve ser identificada como esquema, não dissecção validada.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 61
+        },
+        {
+          "source": "coracao",
+          "page": 62
+        },
+        {
+          "source": "coracao",
+          "page": 65
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "04:16–05:51",
+          "summary": "Plexo cardíaco, fibras autonômicas/aferentes e partes superficial/profunda.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "C61b",
+      "scopeSource": {
+        "source": "coracao",
+        "page": 61
+      },
+      "criterion": "Separar região superficial/profunda do plexo com aferências/eferências contextualizadas e relações corretas. Rede genérica ao redor da aorta deve ser identificada como esquema, não dissecção validada.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 61
+        },
+        {
+          "source": "coracao",
+          "page": 62
+        },
+        {
+          "source": "coracao",
+          "page": 65
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "04:16–05:51",
+          "summary": "Plexo cardíaco, fibras autonômicas/aferentes e partes superficial/profunda.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [],
+      "readingNotes": []
+    },
+    {
+      "id": "C66a",
+      "scopeSource": {
+        "source": "coracao",
+        "page": 66
+      },
+      "criterion": "Mostrar sobreposição de condução nas posições corretas, com nós/fascículo/ramos individualizados e relação com septo/papilares. Explicitar caráter didático e tecido especializado miogênico, sem apresentá-lo como nervos macroscópicos amarelos.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 66
+        },
+        {
+          "source": "coracao",
+          "page": 67
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "10:36–11:32",
+          "summary": "Complexo estimulante de origem miogênica e nó sinoatrial como marcapasso.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C3",
+          "time": "12:53–13:21",
+          "summary": "Nó SA próximo à junção da VCS com átrio direito.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "coracao",
+          "summary": "Esquema localiza nó SA na junção VCS/AD e caminho de condução; não é fotografia de tecido microscópico.",
+          "page": 67
+        },
+        {
+          "kind": "frame",
+          "source": "C3",
+          "summary": "Quadro corresponde ao slide 66 de condução; texto e setas localizados.",
+          "time": "10:28"
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "R04",
+          "text": "Sistema de condução/complexo estimulante = tecido cardíaco especializado; preservar localização e representar didaticamente.",
+          "status": "resolvido_para_rotulo"
+        }
+      ]
+    },
+    {
+      "id": "C66b",
+      "scopeSource": {
+        "source": "coracao",
+        "page": 66
+      },
+      "criterion": "Mostrar sobreposição de condução nas posições corretas, com nós/fascículo/ramos individualizados e relação com septo/papilares. Explicitar caráter didático e tecido especializado miogênico, sem apresentá-lo como nervos macroscópicos amarelos.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 66
+        },
+        {
+          "source": "coracao",
+          "page": 67
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "11:32–12:00",
+          "summary": "Nó AV, fascículo AV e ramos direito/esquerdo em relação ao septo interventricular.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "frame",
+          "source": "C3",
+          "summary": "Quadro corresponde ao slide 66 de condução; texto e setas localizados.",
+          "time": "10:28"
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "R04",
+          "text": "Sistema de condução/complexo estimulante = tecido cardíaco especializado; preservar localização e representar didaticamente.",
+          "status": "resolvido_para_rotulo"
+        }
+      ]
+    },
+    {
+      "id": "C66c",
+      "scopeSource": {
+        "source": "coracao",
+        "page": 66
+      },
+      "criterion": "Mostrar sobreposição de condução nas posições corretas, com nós/fascículo/ramos individualizados e relação com septo/papilares. Explicitar caráter didático e tecido especializado miogênico, sem apresentá-lo como nervos macroscópicos amarelos.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 66
+        },
+        {
+          "source": "coracao",
+          "page": 67
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "11:32–12:00",
+          "summary": "Nó AV, fascículo AV e ramos direito/esquerdo em relação ao septo interventricular.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        },
+        {
+          "source": "C3",
+          "time": "12:00–12:29",
+          "summary": "Ramos subendocárdicos/fibras de Purkinje e fascículo AV.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "coracao",
+          "summary": "Esquema localiza nó SA na junção VCS/AD e caminho de condução; não é fotografia de tecido microscópico.",
+          "page": 67
+        },
+        {
+          "kind": "frame",
+          "source": "C3",
+          "summary": "Quadro corresponde ao slide 66 de condução; texto e setas localizados.",
+          "time": "10:28"
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "R04",
+          "text": "Sistema de condução/complexo estimulante = tecido cardíaco especializado; preservar localização e representar didaticamente.",
+          "status": "resolvido_para_rotulo"
+        }
+      ]
+    },
+    {
+      "id": "C66d",
+      "scopeSource": {
+        "source": "coracao",
+        "page": 66
+      },
+      "criterion": "Mostrar sobreposição de condução nas posições corretas, com nós/fascículo/ramos individualizados e relação com septo/papilares. Explicitar caráter didático e tecido especializado miogênico, sem apresentá-lo como nervos macroscópicos amarelos.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 66
+        },
+        {
+          "source": "coracao",
+          "page": 67
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "11:32–12:00",
+          "summary": "Nó AV, fascículo AV e ramos direito/esquerdo em relação ao septo interventricular.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "coracao",
+          "summary": "Esquema localiza nó SA na junção VCS/AD e caminho de condução; não é fotografia de tecido microscópico.",
+          "page": 67
+        },
+        {
+          "kind": "frame",
+          "source": "C3",
+          "summary": "Quadro corresponde ao slide 66 de condução; texto e setas localizados.",
+          "time": "10:28"
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "R04",
+          "text": "Sistema de condução/complexo estimulante = tecido cardíaco especializado; preservar localização e representar didaticamente.",
+          "status": "resolvido_para_rotulo"
+        }
+      ]
+    },
+    {
+      "id": "C66e",
+      "scopeSource": {
+        "source": "coracao",
+        "page": 66
+      },
+      "criterion": "Mostrar sobreposição de condução nas posições corretas, com nós/fascículo/ramos individualizados e relação com septo/papilares. Explicitar caráter didático e tecido especializado miogênico, sem apresentá-lo como nervos macroscópicos amarelos.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 66
+        },
+        {
+          "source": "coracao",
+          "page": 67
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "11:32–12:00",
+          "summary": "Nó AV, fascículo AV e ramos direito/esquerdo em relação ao septo interventricular.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "coracao",
+          "summary": "Esquema localiza nó SA na junção VCS/AD e caminho de condução; não é fotografia de tecido microscópico.",
+          "page": 67
+        },
+        {
+          "kind": "frame",
+          "source": "C3",
+          "summary": "Quadro corresponde ao slide 66 de condução; texto e setas localizados.",
+          "time": "10:28"
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "R04",
+          "text": "Sistema de condução/complexo estimulante = tecido cardíaco especializado; preservar localização e representar didaticamente.",
+          "status": "resolvido_para_rotulo"
+        }
+      ]
+    },
+    {
+      "id": "C66f",
+      "scopeSource": {
+        "source": "coracao",
+        "page": 66
+      },
+      "criterion": "Mostrar sobreposição de condução nas posições corretas, com nós/fascículo/ramos individualizados e relação com septo/papilares. Explicitar caráter didático e tecido especializado miogênico, sem apresentá-lo como nervos macroscópicos amarelos.",
+      "pages": [
+        {
+          "source": "coracao",
+          "page": 66
+        },
+        {
+          "source": "coracao",
+          "page": 67
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C3",
+          "time": "12:00–12:29",
+          "summary": "Ramos subendocárdicos/fibras de Purkinje e fascículo AV.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "coracao",
+          "summary": "Esquema localiza nó SA na junção VCS/AD e caminho de condução; não é fotografia de tecido microscópico.",
+          "page": 67
+        },
+        {
+          "kind": "frame",
+          "source": "C3",
+          "summary": "Quadro corresponde ao slide 66 de condução; texto e setas localizados.",
+          "time": "10:28"
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "R04",
+          "text": "Sistema de condução/complexo estimulante = tecido cardíaco especializado; preservar localização e representar didaticamente.",
+          "status": "resolvido_para_rotulo"
+        }
+      ]
+    },
+    {
+      "id": "V36",
+      "scopeSource": {
+        "source": "vasos",
+        "page": 36
+      },
+      "criterion": "Mostrar drenagem direta nas câmaras em sobreposição localizada ou ampliação; não fazer todas desembocarem no AD nem inventar grandes veias visíveis a olho nu.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 36
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "21:34–22:58",
+          "summary": "Veias cardíacas mínimas presentes em várias regiões; não generalizar a representação do AD para todas as câmaras.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "vasos",
+          "summary": "Ilustração e esquema de parede exemplificam veias mínimas; não demonstram individualmente todas as aberturas.",
+          "page": 36
+        }
+      ],
+      "readingNotes": [
+        {
+          "id": "R02",
+          "text": "Anteriores do VD: drenagem direta ao AD. Mínimas: aberturas diretas nas respectivas câmaras, em sobreposição didática.",
+          "status": "resolvido_para_modelagem"
+        }
+      ]
+    },
+    {
+      "id": "V42a",
+      "scopeSource": {
+        "source": "vasos",
+        "page": 42
+      },
+      "criterion": "Indicar profundidade subepicárdica/subendocárdica por camadas e trajetória de drenagem; malha linfática genérica não é geometria individual comprovada.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 42
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "24:36–25:29",
+          "summary": "Plexos superficial/subepicárdico e profundo/subendocárdico e linfonodos traqueobronquiais inferiores.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "vasos",
+          "summary": "Esquema de níveis de drenagem e linfonodos/ductos; densidade/volumes não são referência realista.",
+          "page": 42
+        }
+      ],
+      "readingNotes": []
+    },
+    {
+      "id": "V42b",
+      "scopeSource": {
+        "source": "vasos",
+        "page": 42
+      },
+      "criterion": "Indicar profundidade subepicárdica/subendocárdica por camadas e trajetória de drenagem; malha linfática genérica não é geometria individual comprovada.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 42
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "24:36–25:29",
+          "summary": "Plexos superficial/subepicárdico e profundo/subendocárdico e linfonodos traqueobronquiais inferiores.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "vasos",
+          "summary": "Esquema de níveis de drenagem e linfonodos/ductos; densidade/volumes não são referência realista.",
+          "page": 42
+        }
+      ],
+      "readingNotes": []
+    },
+    {
+      "id": "V42c",
+      "scopeSource": {
+        "source": "vasos",
+        "page": 42
+      },
+      "criterion": "Exibir contexto mediastinal e continuidade da drenagem, sem aumentar diâmetro/número por estética. Conservar como complemento docente, não duplicar exigências do roteiro.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 42
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "24:36–25:29",
+          "summary": "Plexos superficial/subepicárdico e profundo/subendocárdico e linfonodos traqueobronquiais inferiores.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "vasos",
+          "summary": "Esquema de níveis de drenagem e linfonodos/ductos; densidade/volumes não são referência realista.",
+          "page": 42
+        }
+      ],
+      "readingNotes": []
+    },
+    {
+      "id": "V42d",
+      "scopeSource": {
+        "source": "vasos",
+        "page": 42
+      },
+      "criterion": "Exibir contexto mediastinal e continuidade da drenagem, sem aumentar diâmetro/número por estética. Conservar como complemento docente, não duplicar exigências do roteiro.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 42
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "25:29–25:53",
+          "summary": "Linfonodos paratraqueais e ductos linfático direito/torácico; esquema docente não determina malha microscópica individual.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "vasos",
+          "summary": "Esquema de níveis de drenagem e linfonodos/ductos; densidade/volumes não são referência realista.",
+          "page": 42
+        }
+      ],
+      "readingNotes": []
+    },
+    {
+      "id": "V42e",
+      "scopeSource": {
+        "source": "vasos",
+        "page": 42
+      },
+      "criterion": "Exibir contexto mediastinal e continuidade da drenagem, sem aumentar diâmetro/número por estética. Conservar como complemento docente, não duplicar exigências do roteiro.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 42
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "25:29–25:53",
+          "summary": "Linfonodos paratraqueais e ductos linfático direito/torácico; esquema docente não determina malha microscópica individual.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "vasos",
+          "summary": "Esquema de níveis de drenagem e linfonodos/ductos; densidade/volumes não são referência realista.",
+          "page": 42
+        }
+      ],
+      "readingNotes": []
+    },
+    {
+      "id": "V42f",
+      "scopeSource": {
+        "source": "vasos",
+        "page": 42
+      },
+      "criterion": "Exibir contexto mediastinal e continuidade da drenagem, sem aumentar diâmetro/número por estética. Conservar como complemento docente, não duplicar exigências do roteiro.",
+      "pages": [
+        {
+          "source": "vasos",
+          "page": 42
+        }
+      ],
+      "lecture": [
+        {
+          "source": "C2",
+          "time": "25:29–25:53",
+          "summary": "Linfonodos paratraqueais e ductos linfático direito/torácico; esquema docente não determina malha microscópica individual.",
+          "relation": "mencao_individual_em_asr_e_material_docente",
+          "audioReviewed": false
+        }
+      ],
+      "visuals": [
+        {
+          "kind": "slide",
+          "source": "vasos",
+          "summary": "Esquema de níveis de drenagem e linfonodos/ductos; densidade/volumes não são referência realista.",
+          "page": 42
+        }
+      ],
+      "readingNotes": []
+    }
+  ],
+  "limits": {
+    "lecture": "Sínteses de transcrição automática; áudio não reescutado nesta revisão. Horários aproximados.",
+    "visual": "Inspeção de figuras e quadros selecionados; não equivale à validação anatômica individual do modelo 3D."
+  }
+}

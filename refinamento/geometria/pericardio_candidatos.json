@@ -1,0 +1,33 @@
+{
+  "checked_on": "2026-09-28",
+  "candidates": [
+    {
+      "title": "Three-dimensional printing of the human pericardium to facilitate understanding of the pericardial reflections, recesses, and sinuses",
+      "doi": "10.1161/CIRCIMAGING.125.018410",
+      "pmcid": "PMC12667300",
+      "author": "Miyazaki et al.; UCLA",
+      "model_kind": "dorsal human pericardial tissue preserved ex vivo for CT; anterior portion and heart removed",
+      "file": "NIHMS2118633-supplement-Supplemental_3MF_File.3mf",
+      "declared_size_mb": 7.2,
+      "downloaded": false,
+      "access_result": "Official direct link and normal Playwright browser navigation returned CAPTCHA/intermediate challenge; stopped without bypass",
+      "license": "Europe PMC metadata isOpenAccess=N; no permissive model redistribution license confirmed",
+      "local_use": "Authors expressly supply printable file for readers; not obtained during this run",
+      "public_bundle": false
+    },
+    {
+      "title": "Living Anatomy of the Pericardial Space: A Guide for Imaging and Interventions",
+      "doi": "10.1016/j.jacep.2021.09.008",
+      "pmcid": "PMC8712969",
+      "author": "Mori et al.; UCLA",
+      "model_kind": "pericardial space, not the fibrous/serous tissue layers themselves",
+      "file": "NIHMS1745360-supplement-Supplementary_3MF_File.zip",
+      "declared_size_mb": 3.9,
+      "downloaded": false,
+      "access_result": "Official direct link returned browser-check intermediate page",
+      "license": "No permissive redistribution license confirmed",
+      "local_use": "Authors supply printable file with article; not obtained during this run",
+      "public_bundle": false
+    }
+  ]
+}

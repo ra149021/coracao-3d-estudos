@@ -2,6 +2,10 @@
 fontes/
 materiais/
 malhas/
+refinamento/geometria/referencias_locais/
+refinamento/geometria/fontes_publicas/
+site/assets/local-references/
+output/playwright/*referencia-local*
 .venv*/
 **/node_modules/
 **/__pycache__/

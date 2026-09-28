@@ -1,0 +1,494 @@
+{
+  "method": "Single similarity transform fit to 7 homologous preexisting meshes; labelled ICP with equal-per-structure samples, proper rotation, uniform scale. No local warps.",
+  "distance_warning": "Distances compare sampled vertices, not closest points on triangles. No physical precision claim: source atlas is an idealized anatomical model.",
+  "input_units": "BodyParts3D OBJ millimetres; Z-Anatomy world metres converted to mm",
+  "scale": 1.0336034707503967,
+  "rotation": [
+    [
+      0.9999997113385805,
+      -3.763884777489407e-05,
+      0.0007588847554052693
+    ],
+    [
+      3.846336505219984e-05,
+      0.9999994090187968,
+      -0.0010865001731481605
+    ],
+    [
+      -0.0007588434123041188,
+      0.0010865290487789554,
+      0.9999991218052647
+    ]
+  ],
+  "translation_mm": [
+    -0.35015347489986937,
+    102.54868202950522,
+    23.218814251898266
+  ],
+  "matrix_bp_mm_to_z_world_mm": [
+    [
+      1.0336031723889516,
+      -3.8903643695176354e-05,
+      0.0007843859170864522,
+      -0.35015347489986937
+    ],
+    [
+      3.9755867614693266e-05,
+      1.0336028599101739,
+      -0.0011230103499368458,
+      102.54868202950522
+    ],
+    [
+      -0.0007843431847136115,
+      0.0011230401958890555,
+      1.0336025630452703,
+      23.218814251898266
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "common_meshes": [
+    {
+      "bp3d_element": "FJ2433",
+      "z_anatomy_name": "Inferior leaflet of right atrioventricular valve",
+      "joint_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.2863611629605836,
+        "symmetric_nearest_vertex_median_mm": 0.10076746528807967,
+        "symmetric_nearest_vertex_p95_mm": 0.6177711041055687,
+        "symmetric_nearest_vertex_max_mm": 1.998734470023843,
+        "bbox_max_difference_mm": 0.043266200844961133
+      },
+      "held_out_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.2879103091211085,
+        "symmetric_nearest_vertex_median_mm": 0.10477796578195993,
+        "symmetric_nearest_vertex_p95_mm": 0.619734318851143,
+        "symmetric_nearest_vertex_max_mm": 2.0036595189420106,
+        "bbox_max_difference_mm": 0.05224372017860546
+      }
+    },
+    {
+      "bp3d_element": "FJ2436",
+      "z_anatomy_name": "Septal leaflet of right atrioventricular valve",
+      "joint_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.2940012269671251,
+        "symmetric_nearest_vertex_median_mm": 0.10565006540342993,
+        "symmetric_nearest_vertex_p95_mm": 0.6543629923967967,
+        "symmetric_nearest_vertex_max_mm": 2.1803810244265707,
+        "bbox_max_difference_mm": 0.08200804062425959
+      },
+      "held_out_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.29762923001959096,
+        "symmetric_nearest_vertex_median_mm": 0.1188431152136496,
+        "symmetric_nearest_vertex_p95_mm": 0.6548316450190221,
+        "symmetric_nearest_vertex_max_mm": 2.1698169818270694,
+        "bbox_max_difference_mm": 0.10463532355674943
+      }
+    },
+    {
+      "bp3d_element": "FJ2432",
+      "z_anatomy_name": "Posterior leaflet of left atrioventricular valve",
+      "joint_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.42931540257008755,
+        "symmetric_nearest_vertex_median_mm": 0.12472738777292744,
+        "symmetric_nearest_vertex_p95_mm": 1.0117967247574011,
+        "symmetric_nearest_vertex_max_mm": 3.2360550152161305,
+        "bbox_max_difference_mm": 0.06997391051186241
+      },
+      "held_out_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.43462921452064107,
+        "symmetric_nearest_vertex_median_mm": 0.14520974031208636,
+        "symmetric_nearest_vertex_p95_mm": 1.0102638590420727,
+        "symmetric_nearest_vertex_max_mm": 3.2434232378852608,
+        "bbox_max_difference_mm": 0.1030379809533315
+      }
+    },
+    {
+      "bp3d_element": "FJ2419",
+      "z_anatomy_name": "Anterior papillary muscle of right ventricle",
+      "joint_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.7804281592696054,
+        "symmetric_nearest_vertex_median_mm": 0.1936411674452879,
+        "symmetric_nearest_vertex_p95_mm": 1.829206984909015,
+        "symmetric_nearest_vertex_max_mm": 3.9787974621813733,
+        "bbox_max_difference_mm": 0.1739043288666835
+      },
+      "held_out_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.7849001737565421,
+        "symmetric_nearest_vertex_median_mm": 0.21950056893746014,
+        "symmetric_nearest_vertex_p95_mm": 1.8148153025237896,
+        "symmetric_nearest_vertex_max_mm": 4.015460518929215,
+        "bbox_max_difference_mm": 0.21942899845225838
+      }
+    },
+    {
+      "bp3d_element": "FJ2430",
+      "z_anatomy_name": "Inferior papillary muscle of right ventricle",
+      "joint_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.6980074174907261,
+        "symmetric_nearest_vertex_median_mm": 0.15150831608224027,
+        "symmetric_nearest_vertex_p95_mm": 1.6450302703847965,
+        "symmetric_nearest_vertex_max_mm": 5.08539190650401,
+        "bbox_max_difference_mm": 0.11886518460073603
+      },
+      "held_out_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.7024456520348131,
+        "symmetric_nearest_vertex_median_mm": 0.17231583157366992,
+        "symmetric_nearest_vertex_p95_mm": 1.6472473301339654,
+        "symmetric_nearest_vertex_max_mm": 5.09553304955012,
+        "bbox_max_difference_mm": 0.1413779446738772
+      }
+    },
+    {
+      "bp3d_element": "FJ2437",
+      "z_anatomy_name": "Septal papillary muscle of right ventricle",
+      "joint_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.1844360222187912,
+        "symmetric_nearest_vertex_median_mm": 0.09809923488180203,
+        "symmetric_nearest_vertex_p95_mm": 0.3012640176025801,
+        "symmetric_nearest_vertex_max_mm": 1.6435523322096781,
+        "bbox_max_difference_mm": 0.17950831349339325
+      },
+      "held_out_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.1942263433661422,
+        "symmetric_nearest_vertex_median_mm": 0.11407929974236093,
+        "symmetric_nearest_vertex_p95_mm": 0.30671532750578245,
+        "symmetric_nearest_vertex_max_mm": 1.6305510141696957,
+        "bbox_max_difference_mm": 0.17936133490229622
+      }
+    },
+    {
+      "bp3d_element": "FJ2429",
+      "z_anatomy_name": "Inferior papillary muscle of left ventricle",
+      "joint_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.9545080103407027,
+        "symmetric_nearest_vertex_median_mm": 0.22268547827358995,
+        "symmetric_nearest_vertex_p95_mm": 2.3329415669976874,
+        "symmetric_nearest_vertex_max_mm": 4.454579682449662,
+        "bbox_max_difference_mm": 0.39349069610344145
+      },
+      "held_out_fit": {
+        "symmetric_nearest_vertex_rms_mm": 0.9591487982752581,
+        "symmetric_nearest_vertex_median_mm": 0.2589532798663027,
+        "symmetric_nearest_vertex_p95_mm": 2.3289030459506055,
+        "symmetric_nearest_vertex_max_mm": 4.401330089091602,
+        "bbox_max_difference_mm": 0.3808646213140321
+      }
+    }
+  ],
+  "candidate_parts": [
+    {
+      "element": "FJ2421",
+      "fma": "FMA7238",
+      "sourceName": "anterior leaflet of tricuspid valve",
+      "label": "Tricúspide · cúspide anterior",
+      "requirementId": "46a",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "file": "meshes/FJ2421.npz",
+      "sha256": "67b11f12459764ded4fdd54abede7db7ce32706a9637d1ff90b65ee4b8e5d81c",
+      "source_obj_sha256": "7303c55e6d9c2e294759f7f7e01d23fc120eba74bce9ade0a01cc4bdb2bd4200",
+      "validation": {
+        "finite": true,
+        "vertices": 4068,
+        "triangles": 8160,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          4068
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 2702.8191768529155,
+        "source_bounds_mm": [
+          [
+            -21.0772,
+            -156.313,
+            1198.11
+          ],
+          [
+            23.2047,
+            -129.198,
+            1236.21
+          ]
+        ]
+      },
+      "original_obj_validation": {
+        "finite": true,
+        "vertices": 4282,
+        "triangles": 8160,
+        "connected_components_by_vertex_index": 19,
+        "component_vertex_counts": [
+          4217,
+          7,
+          6,
+          4,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "boundary_edges": 480,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 2702.8191768529155,
+        "source_bounds_mm": [
+          [
+            -21.0772,
+            -156.313,
+            1198.11
+          ],
+          [
+            23.2047,
+            -129.198,
+            1236.21
+          ]
+        ]
+      },
+      "processing": "Single global similarity; exact position deduplication for OBJ seams; preserved triangles; no smoothing, remeshing, capping, local deformation or generated anatomy.",
+      "site_bounds": [
+        [
+          -1.0295140743255615,
+          -1.0899865627288818,
+          0.30944010615348816
+        ],
+        [
+          0.1146007552742958,
+          -0.10432712733745575,
+          1.0090640783309937
+        ]
+      ],
+      "integration_recommendation": "integrate as named leaflet plus incorporated chordae",
+      "anatomical_validation": "Six-view visual relationship inspection completed; leaflet/chordae align with existing valve/papillary assembly. Individual chord insertions, tissue mechanics and anatomical completeness are not independently validated."
+    },
+    {
+      "element": "FJ2420",
+      "fma": "FMA7242",
+      "sourceName": "anterior leaflet of mitral valve",
+      "label": "Mitral · cúspide anterior",
+      "requirementId": "58a",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "file": "meshes/FJ2420.npz",
+      "sha256": "210474daaa2538376fb9bc547cf31c70ab93cc9a3948e5b166aa0ab676b59b59",
+      "source_obj_sha256": "f0294cbbd35096d1df5e8bdc92f17dbed5ebf981e62024a07e7ca18e31eb1a94",
+      "validation": {
+        "finite": true,
+        "vertices": 3757,
+        "triangles": 7558,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          3757
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 2462.18077913517,
+        "source_bounds_mm": [
+          [
+            11.7217,
+            -141.625,
+            1204.46
+          ],
+          [
+            45.8879,
+            -93.1022,
+            1235.92
+          ]
+        ]
+      },
+      "original_obj_validation": {
+        "finite": true,
+        "vertices": 4052,
+        "triangles": 7558,
+        "connected_components_by_vertex_index": 28,
+        "component_vertex_counts": [
+          3958,
+          6,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "boundary_edges": 676,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 2462.18077913517,
+        "source_bounds_mm": [
+          [
+            11.7217,
+            -141.625,
+            1204.46
+          ],
+          [
+            45.8879,
+            -93.1022,
+            1235.92
+          ]
+        ]
+      },
+      "processing": "Single global similarity; exact position deduplication for OBJ seams; preserved triangles; no smoothing, remeshing, capping, local deformation or generated anatomy.",
+      "site_bounds": [
+        [
+          -0.1820322871208191,
+          -0.9257511496543884,
+          -0.6233597993850708
+        ],
+        [
+          0.700951337814331,
+          -0.11162278056144714,
+          0.6299538016319275
+        ]
+      ],
+      "integration_recommendation": "integrate as named leaflet plus incorporated chordae",
+      "anatomical_validation": "Six-view visual relationship inspection completed; leaflet/chordae align with existing valve/papillary assembly. Individual chord insertions, tissue mechanics and anatomical completeness are not independently validated."
+    },
+    {
+      "element": "FJ2418",
+      "fma": "FMA7265",
+      "sourceName": "anterolateral head of lateral papillary muscle of left ventricle",
+      "label": "VE · cabeça anterolateral de músculo papilar (porção)",
+      "requirementId": "59",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "file": "meshes/FJ2418.npz",
+      "sha256": "92af8f367ff33ce0f8cb90d6b0b71808a70bcb9f1fc2ec729913f861fb2f9a0f",
+      "source_obj_sha256": "ad6dbf98d5afb2dd5010c42df9d707bf172b0ecc4f6e22c70716d022660aadc8",
+      "validation": {
+        "finite": true,
+        "vertices": 412,
+        "triangles": 816,
+        "connected_components_by_vertex_index": 2,
+        "component_vertex_counts": [
+          398,
+          14
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 2293.570935765739,
+        "source_bounds_mm": [
+          [
+            31.5447,
+            -160.032,
+            1191.81
+          ],
+          [
+            56.5892,
+            -124.512,
+            1224.65
+          ]
+        ]
+      },
+      "original_obj_validation": {
+        "finite": true,
+        "vertices": 532,
+        "triangles": 816,
+        "connected_components_by_vertex_index": 18,
+        "component_vertex_counts": [
+          470,
+          6,
+          5,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "boundary_edges": 230,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 2293.570935765739,
+        "source_bounds_mm": [
+          [
+            31.5447,
+            -160.032,
+            1191.81
+          ],
+          [
+            56.5892,
+            -124.512,
+            1224.65
+          ]
+        ]
+      },
+      "processing": "Single global similarity; exact position deduplication for OBJ seams; preserved triangles; no smoothing, remeshing, capping, local deformation or generated anatomy.",
+      "site_bounds": [
+        [
+          0.33016130328178406,
+          -1.2532073259353638,
+          0.18757055699825287
+        ],
+        [
+          0.97708660364151,
+          -0.40460988879203796,
+          1.1055364608764648
+        ]
+      ],
+      "integration_recommendation": "integrate only as named papillary portion, never full muscle group",
+      "anatomical_validation": "Six-view visual relationship inspection completed; leaflet/chordae align with existing valve/papillary assembly. Individual chord insertions, tissue mechanics and anatomical completeness are not independently validated."
+    }
+  ],
+  "visual_evidence": "registro_inspecao.png",
+  "scope_limit": "Registration confidence is not proof that the idealized source mesh reproduces every real anatomical detail. FJ2418 is only the source-named anterolateral head/portion; 2 closed connected components are preserved.",
+  "sources": [
+    {
+      "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+      "kind": "official download and concept mapping"
+    },
+    {
+      "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+      "kind": "CC BY 4.0 and attribution"
+    },
+    {
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+      "revision": "7cc49aa8749632adcd564c0e75f096dc43f6a4b8"
+    }
+  ]
+}

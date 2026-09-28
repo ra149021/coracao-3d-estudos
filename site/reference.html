@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5f1">
+  <title>Cortes anatômicos · Atlas local</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%23954249'/%3E%3Cpath d='M5 21h8l3-9 6 18 4-9h9' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="reference.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="back" href="./">← <span>Voltar ao atlas</span></a>
+    <div class="heading"><span class="eyebrow">ACERVO DE REFERÊNCIA · CORAÇÃO</span><h1>Cortes anatômicos</h1></div>
+    <button id="about-button" class="quiet">Fontes e contexto ↗</button>
+  </header>
+
+  <main class="workspace">
+    <aside class="sidebar">
+      <section class="introduction"><span class="eyebrow">OBSERVAR EM DETALHE</span><h2>Um corte.<br>Vários ângulos.</h2><p>Gire as peças e aproxime as paredes e cavidades. Compare esta referência com as estruturas identificadas no nosso atlas.</p></section>
+      <div class="section-heading"><h3>Escolha uma peça</h3><span>UMN / VHL</span></div>
+      <div id="cuts" class="cuts" role="group" aria-label="Selecionar corte anatômico"><p class="muted">Preparando os cortes…</p></div>
+      <button id="all-cuts" class="full-button" disabled>Ver conjunto original</button>
+      <section class="display-settings" aria-label="Ajustes da referência">
+        <label class="check-row"><input id="context" type="checkbox" disabled><span>Mostrar outras peças em transparência</span></label>
+        <label class="select-label" for="palette">Aparência</label>
+        <select id="palette" disabled><option value="tissue">Tons de tecido</option><option value="neutral">Superfície neutra</option><option value="cuts">Distinguir os cortes</option></select>
+        <p class="small">As cores são ilustrativas. O arquivo não contém textura de tecido.</p>
+      </section>
+      <div class="study-note"><span>i</span><p>As peças representam cortes de um modelo institucional. Seus detalhes internos ainda não têm identificação individual nesta referência.</p></div>
+    </aside>
+
+    <section class="view-section" aria-label="Visualizador dos cortes anatômicos">
+      <div class="view-heading"><div><span class="eyebrow">REFERÊNCIA TRIDIMENSIONAL</span><h2 id="selection-name">Modelo institucional</h2></div><span id="geometry-status" class="geometry-status" aria-live="polite">Carregando…</span></div>
+      <div id="viewport" class="viewport">
+        <canvas id="reference-canvas" tabindex="0" aria-label="Modelo tridimensional. Arraste para girar; roda do mouse para zoom; botão direito para mover. Use as setas para girar, mais ou menos para zoom, R para enquadrar."></canvas>
+        <div id="loading" class="loading" role="status"><span class="spinner"></span><strong>Preparando os detalhes</strong><span id="progress">Abrindo a referência local…</span></div>
+        <div id="error" class="error" role="alert" hidden><span class="eyebrow">ACERVO COMPLEMENTAR</span><h2 id="error-title">Referência local não instalada</h2><p id="error-message">Este material é disponibilizado separadamente. O atlas da Universidade de Minnesota oferece o arquivo MC_VALVES para download.</p><a class="primary-link" href="https://www.vhlab.umn.edu/atlas/echocardiography-tutorial/exam-views-models.shtml" target="_blank" rel="noopener noreferrer">Abrir a fonte oficial ↗</a><a href="./">Continuar no nosso atlas</a></div>
+        <span class="reference-badge">Referência independente · quatro cortes</span>
+        <div class="canvas-hint" aria-hidden="true"><span>Arraste <b>girar</b></span><span>Roda <b>aproximar</b></span><span>Botão direito <b>mover</b></span></div>
+      </div>
+      <div class="toolbar" aria-label="Controles da câmera">
+        <button id="fit" disabled>◎ Enquadrar</button><button id="opposite" disabled>↶ Ver outro lado</button><button id="auto-rotate" disabled aria-pressed="false">↻ Girar</button>
+        <div class="zoom"><button id="zoom-out" disabled aria-label="Afastar">−</button><button id="zoom-in" disabled aria-label="Aproximar">+</button></div>
+        <button id="fullscreen" aria-label="Abrir em tela cheia">⛶ <span>Tela cheia</span></button>
+      </div>
+      <p class="orientation-note">Vistas de inspeção: a orientação anatômica desta referência ainda não foi estabelecida. As relações entre os quatro arquivos originais foram preservadas.</p>
+    </section>
+  </main>
+
+  <footer><span>Visible Heart Laboratories · Universidade de Minnesota</span><span>Referência de estudo local · não adiciona itens à cobertura do roteiro</span></footer>
+
+  <dialog id="about">
+    <div class="dialog-heading"><span class="eyebrow">PROVENIÊNCIA E USO</span><button id="close-about" aria-label="Fechar">×</button></div>
+    <h2>Cortes do acervo institucional</h2>
+    <p>Fonte: <strong>Visible Heart Laboratories, Universidade de Minnesota</strong>, tutorial de vistas ecocardiográficas. O arquivo <strong>MC_VALVES.zip</strong> contém quatro cortes em STL e um projeto de impressão em 3MF.</p>
+    <p>Para esta visualização, as superfícies foram convertidas para GLB, com todos os triângulos preservados. A centralização, rotação de eixos e escala foram aplicadas ao conjunto inteiro. As cores são ilustrativas.</p>
+    <h3>Como usar no estudo</h3>
+    <p>Explore a forma das paredes, cavidades e superfícies expostas pelos cortes. Cada objeto contém várias regiões; ele não corresponde a uma estrutura anatômica isolada. O doador e os parâmetros de aquisição deste arquivo específico não foram identificados.</p>
+    <h3>Disponibilidade deste material</h3>
+    <p>A instituição oferece o download para impressão. Não encontramos uma licença permissiva de redistribuição. Por isso, o arquivo desta referência é mantido apenas na instalação local e não acompanha a distribuição pública do atlas.</p>
+    <p><a href="https://www.vhlab.umn.edu/atlas/echocardiography-tutorial/exam-views-models.shtml" target="_blank" rel="noopener noreferrer">Consultar o acervo e o download oficial ↗</a></p>
+    <p class="small">Esta referência é independente da montagem Z-Anatomy / BodyParts3D. Não houve registro, deformação ou fusão entre os dois modelos.</p>
+  </dialog>
+  <noscript><p class="noscript">Ative JavaScript para visualizar o modelo em 3D. <a href="https://www.vhlab.umn.edu/atlas/echocardiography-tutorial/exam-views-models.shtml">Consultar a fonte oficial.</a></p></noscript>
+  <script type="module" src="reference.js"></script>
+</body>
+</html>

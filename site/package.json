@@ -1,9 +1,13 @@
 {
   "name": "coracao-3d-local",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "description": "Exploração local do coração com geometria aberta de Z-Anatomy",
-  "scripts": {"start": "python3 ../scripts/serve_heart.py"},
-  "dependencies": {"three": "0.186.1"}
+  "scripts": {
+    "start": "python3 ../scripts/serve_heart.py"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  }
 }

@@ -1,0 +1,1527 @@
+{
+  "version": 1,
+  "parts": [
+    {
+      "id": "ctx_brachiocephalic_trunk",
+      "labelPT": "Tronco braquiocefálico",
+      "label": "Tronco braquiocefálico",
+      "sourceName": "Brachiocephalic trunk",
+      "requirementId": "85",
+      "requirement": {
+        "id": "85",
+        "label": "Tronco braquiocefálico",
+        "source": "roteiro",
+        "page": 3
+      },
+      "vertices": 144,
+      "faces": 236,
+      "triangles": 236,
+      "bounds": [
+        [
+          -0.9748974442481995,
+          1.9180667400360107,
+          -0.33080050349235535
+        ],
+        [
+          -0.07495877891778946,
+          2.756544589996338,
+          0.057376205921173096
+        ]
+      ],
+      "file": "meshes/ctx_brachiocephalic_trunk.npz",
+      "sha256": "d7bdb6b43a1d4cf1fe66447f5085d34b1aa3a7809524183e20586c043d6f1e9c",
+      "color": "#b76560",
+      "tipo": "arteria",
+      "grupo": "contexto",
+      "group": "contexto",
+      "defaultVisible": false,
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 324,
+      "sourceMesh": 315,
+      "sourcePrimitiveCount": 1,
+      "sourceWorldMatrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          0.1281584641043878
+        ],
+        [
+          0.0,
+          -1.629206303257725e-05,
+          99.99996960163315,
+          139.7300917032813
+        ],
+        [
+          0.0,
+          -99.99996960163315,
+          -1.629206303257725e-05,
+          1.4968604963968022
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceWorldBounds": [
+        [
+          -1.8995897187250543,
+          138.17226678538967,
+          0.6767980026277503
+        ],
+        [
+          1.7001648695772382,
+          141.52617880244733,
+          2.229504817855392
+        ]
+      ],
+      "processing": "Original primitive vertices and triangles; full node world transform; ((world - [2, 130.5, 2]) * 0.25). No cut, weld, smoothing, deformation, local registration or synthesized anatomy.",
+      "correspondence": "associated",
+      "anatomicalValidation": "pending_individual_review",
+      "quizEligible": false,
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual."
+    },
+    {
+      "id": "ctx_right_common_carotid",
+      "labelPT": "Artéria carótida comum direita",
+      "label": "Artéria carótida comum direita",
+      "sourceName": "Right common carotid artery",
+      "requirementId": "86",
+      "requirement": {
+        "id": "86",
+        "label": "Artéria carótida comum direita",
+        "source": "roteiro",
+        "page": 3
+      },
+      "vertices": 204,
+      "faces": 354,
+      "triangles": 354,
+      "bounds": [
+        [
+          -1.379794716835022,
+          2.620830535888672,
+          -0.6021929979324341
+        ],
+        [
+          -0.7665349841117859,
+          4.539417743682861,
+          0.0279142577201128
+        ]
+      ],
+      "file": "meshes/ctx_right_common_carotid.npz",
+      "sha256": "59c0b948a1e9b6abb5d2f1e06ce8d262146f8daaf4bcd11509c06ff110b0ce6e",
+      "color": "#b76560",
+      "tipo": "arteria",
+      "grupo": "contexto",
+      "group": "contexto",
+      "defaultVisible": false,
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 4,
+      "sourceMesh": 0,
+      "sourcePrimitiveCount": 1,
+      "sourceWorldMatrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          -2.0754826962947845
+        ],
+        [
+          0.0,
+          -1.629206836164726e-05,
+          99.9999994039527,
+          144.20129171015154
+        ],
+        [
+          0.0,
+          -99.9999994039527,
+          -1.629206836164726e-05,
+          0.9881084482271998
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceWorldBounds": [
+        [
+          -3.519179019238,
+          140.98332198784985,
+          -0.4087720056483648
+        ],
+        [
+          -1.0661400480666363,
+          148.65767038794473,
+          2.1116570343356287
+        ]
+      ],
+      "processing": "Original primitive vertices and triangles; full node world transform; ((world - [2, 130.5, 2]) * 0.25). No cut, weld, smoothing, deformation, local registration or synthesized anatomy.",
+      "correspondence": "associated",
+      "anatomicalValidation": "pending_individual_review",
+      "quizEligible": false,
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual."
+    },
+    {
+      "id": "ctx_right_subclavian",
+      "labelPT": "Artéria subclávia direita",
+      "label": "Artéria subclávia direita",
+      "sourceName": "Right subclavian artery",
+      "requirementId": "87",
+      "requirement": {
+        "id": "87",
+        "label": "Artéria subclávia direita",
+        "source": "roteiro",
+        "page": 3
+      },
+      "vertices": 205,
+      "faces": 354,
+      "triangles": 354,
+      "bounds": [
+        [
+          -2.5153605937957764,
+          2.579070568084717,
+          -0.6369945406913757
+        ],
+        [
+          -0.7817087173461914,
+          2.9634389877319336,
+          -0.02469327300786972
+        ]
+      ],
+      "file": "meshes/ctx_right_subclavian.npz",
+      "sha256": "c67f027224700030d6a15614e0b2037b4ef9084cc5f8485b485634dca29161ba",
+      "color": "#b76560",
+      "tipo": "arteria",
+      "grupo": "contexto",
+      "group": "contexto",
+      "defaultVisible": false,
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 72,
+      "sourceMesh": 68,
+      "sourcePrimitiveCount": 1,
+      "sourceWorldMatrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          -4.379436910152435
+        ],
+        [
+          0.0,
+          -1.629206836164726e-05,
+          99.9999994039527,
+          141.45414369676465
+        ],
+        [
+          0.0,
+          -99.9999994039527,
+          -1.629206836164726e-05,
+          0.5916488898049534
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceWorldBounds": [
+        [
+          -8.061441997915582,
+          140.81628232695527,
+          -0.5479781901635983
+        ],
+        [
+          -1.1268348656207028,
+          142.353755565431,
+          1.9012269064681735
+        ]
+      ],
+      "processing": "Original primitive vertices and triangles; full node world transform; ((world - [2, 130.5, 2]) * 0.25). No cut, weld, smoothing, deformation, local registration or synthesized anatomy.",
+      "correspondence": "associated",
+      "anatomicalValidation": "pending_individual_review",
+      "quizEligible": false,
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual."
+    },
+    {
+      "id": "ctx_left_common_carotid",
+      "labelPT": "Artéria carótida comum esquerda",
+      "label": "Artéria carótida comum esquerda",
+      "sourceName": "Left common carotid artery",
+      "requirementId": "88",
+      "requirement": {
+        "id": "88",
+        "label": "Artéria carótida comum esquerda",
+        "source": "roteiro",
+        "page": 3
+      },
+      "vertices": 270,
+      "faces": 472,
+      "triangles": 472,
+      "bounds": [
+        [
+          -0.19109578430652618,
+          2.2552502155303955,
+          -0.6047929525375366
+        ],
+        [
+          0.37981116771698,
+          4.5390706062316895,
+          -0.2528848648071289
+        ]
+      ],
+      "file": "meshes/ctx_left_common_carotid.npz",
+      "sha256": "6d3d8be2d8ad0c3994398edb3b3fa91785f3d61b361f0c23542c7f4c4b5f1e02",
+      "color": "#b76560",
+      "tipo": "arteria",
+      "grupo": "contexto",
+      "group": "contexto",
+      "defaultVisible": false,
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 137,
+      "sourceMesh": 133,
+      "sourcePrimitiveCount": 1,
+      "sourceWorldMatrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          2.0346002876758575
+        ],
+        [
+          0.0,
+          -1.629206836164726e-05,
+          99.9999994039527,
+          143.53109714821178
+        ],
+        [
+          0.0,
+          -99.9999994039527,
+          -1.629206836164726e-05,
+          0.32250460765056577
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceWorldBounds": [
+        [
+          1.2356168694945662,
+          139.52100104461002,
+          -0.4191717170023306
+        ],
+        [
+          3.5192446296609092,
+          148.6562817846189,
+          0.9884605852462562
+        ]
+      ],
+      "processing": "Original primitive vertices and triangles; full node world transform; ((world - [2, 130.5, 2]) * 0.25). No cut, weld, smoothing, deformation, local registration or synthesized anatomy.",
+      "correspondence": "associated",
+      "anatomicalValidation": "pending_individual_review",
+      "quizEligible": false,
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual."
+    },
+    {
+      "id": "ctx_left_subclavian",
+      "labelPT": "Artéria subclávia esquerda",
+      "label": "Artéria subclávia esquerda",
+      "sourceName": "Left subclavian artery",
+      "requirementId": "89",
+      "requirement": {
+        "id": "89",
+        "label": "Artéria subclávia esquerda",
+        "source": "roteiro",
+        "page": 3
+      },
+      "vertices": 265,
+      "faces": 472,
+      "triangles": 472,
+      "bounds": [
+        [
+          -0.02240963838994503,
+          2.0990264415740967,
+          -0.720031201839447
+        ],
+        [
+          1.515644907951355,
+          3.0577521324157715,
+          -0.39200636744499207
+        ]
+      ],
+      "file": "meshes/ctx_left_subclavian.npz",
+      "sha256": "12a755d794e442505672bf0eeac1cc6f0cc465fef0d851bcb9632acd2b32eaa6",
+      "color": "#b76560",
+      "tipo": "arteria",
+      "grupo": "contexto",
+      "group": "contexto",
+      "defaultVisible": false,
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 195,
+      "sourceMesh": 191,
+      "sourcePrimitiveCount": 1,
+      "sourceWorldMatrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          4.623364120721817
+        ],
+        [
+          0.0,
+          -1.629206836164726e-05,
+          99.9999994039527,
+          141.21331115251726
+        ],
+        [
+          0.0,
+          -99.9999994039527,
+          -1.629206836164726e-05,
+          0.08045505774486728
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceWorldBounds": [
+        [
+          1.9103614432662335,
+          138.89610548126112,
+          -0.8801249129878578
+        ],
+        [
+          8.06257974265837,
+          142.73100893750993,
+          0.43197451716291196
+        ]
+      ],
+      "processing": "Original primitive vertices and triangles; full node world transform; ((world - [2, 130.5, 2]) * 0.25). No cut, weld, smoothing, deformation, local registration or synthesized anatomy.",
+      "correspondence": "associated",
+      "anatomicalValidation": "pending_individual_review",
+      "quizEligible": false,
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual."
+    },
+    {
+      "id": "ctx_right_internal_carotid",
+      "labelPT": "Artéria carótida interna direita",
+      "label": "Artéria carótida interna direita",
+      "sourceName": "Internal carotid artery.r",
+      "requirementId": "90",
+      "requirement": {
+        "id": "90",
+        "label": "Artéria carótida interna",
+        "source": "roteiro",
+        "page": 4
+      },
+      "vertices": 656,
+      "faces": 1180,
+      "triangles": 1180,
+      "bounds": [
+        [
+          -1.4206957817077637,
+          4.516191482543945,
+          -0.6019115447998047
+        ],
+        [
+          -0.7268922924995422,
+          7.473173141479492,
+          0.1623060703277588
+        ]
+      ],
+      "file": "meshes/ctx_right_internal_carotid.npz",
+      "sha256": "11892bceb19ba3116223d0355b20e18889b3cb54fe8c40f88cc53d008d2b366b",
+      "color": "#b76560",
+      "tipo": "arteria",
+      "grupo": "contexto",
+      "group": "contexto",
+      "defaultVisible": false,
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 33,
+      "sourceMesh": 29,
+      "sourcePrimitiveCount": 1,
+      "sourceWorldMatrix": [
+        [
+          -100.00000149011612,
+          0.0,
+          0.0,
+          -2.066378831727745
+        ],
+        [
+          0.0,
+          -7.549790756407785e-06,
+          99.99999940395412,
+          156.1456094735858
+        ],
+        [
+          0.0,
+          -99.99999940395412,
+          -7.549790756407785e-06,
+          1.0920839173417087
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceWorldBounds": [
+        [
+          -3.6827832476392466,
+          148.56476513340135,
+          -0.4076461346272957
+        ],
+        [
+          -0.90756924572716,
+          160.39269342761386,
+          2.649224298946149
+        ]
+      ],
+      "processing": "Original primitive vertices and triangles; full node world transform; ((world - [2, 130.5, 2]) * 0.25). No cut, weld, smoothing, deformation, local registration or synthesized anatomy.",
+      "correspondence": "associated",
+      "anatomicalValidation": "pending_individual_review",
+      "quizEligible": false,
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual. Inclui a extensão original do vaso cervical/cranial; não foi recortada nem ampliada por dados de outros vasos."
+    },
+    {
+      "id": "ctx_left_internal_carotid",
+      "labelPT": "Artéria carótida interna esquerda",
+      "label": "Artéria carótida interna esquerda",
+      "sourceName": "Internal carotid artery.l",
+      "requirementId": "90",
+      "requirement": {
+        "id": "90",
+        "label": "Artéria carótida interna",
+        "source": "roteiro",
+        "page": 4
+      },
+      "vertices": 656,
+      "faces": 1180,
+      "triangles": 1180,
+      "bounds": [
+        [
+          -0.2731079161167145,
+          4.516191482543945,
+          -0.6019114255905151
+        ],
+        [
+          0.42069560289382935,
+          7.47317361831665,
+          0.16230596601963043
+        ]
+      ],
+      "file": "meshes/ctx_left_internal_carotid.npz",
+      "sha256": "8260048bf8a4a531cb2c044382795d34507968215ea86b863c73f2b88ba98ddb",
+      "color": "#b76560",
+      "tipo": "arteria",
+      "grupo": "contexto",
+      "group": "contexto",
+      "defaultVisible": false,
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 166,
+      "sourceMesh": 162,
+      "sourcePrimitiveCount": 1,
+      "sourceWorldMatrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          2.066377945717836
+        ],
+        [
+          0.0,
+          -1.629206836164726e-05,
+          99.9999994039527,
+          156.1456096419465
+        ],
+        [
+          0.0,
+          -99.9999994039527,
+          -1.629206836164726e-05,
+          1.0920837279643774
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceWorldBounds": [
+        [
+          0.907568359717251,
+          148.56476521785305,
+          -0.4076456673594693
+        ],
+        [
+          3.6827823616293376,
+          160.3926937023724,
+          2.6492238545577056
+        ]
+      ],
+      "processing": "Original primitive vertices and triangles; full node world transform; ((world - [2, 130.5, 2]) * 0.25). No cut, weld, smoothing, deformation, local registration or synthesized anatomy.",
+      "correspondence": "associated",
+      "anatomicalValidation": "pending_individual_review",
+      "quizEligible": false,
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual. Inclui a extensão original do vaso cervical/cranial; não foi recortada nem ampliada por dados de outros vasos."
+    },
+    {
+      "id": "ctx_right_external_carotid",
+      "labelPT": "Artéria carótida externa direita",
+      "label": "Artéria carótida externa direita",
+      "sourceName": "External carotid artery.r",
+      "requirementId": "91",
+      "requirement": {
+        "id": "91",
+        "label": "Artéria carótida externa",
+        "source": "roteiro",
+        "page": 4
+      },
+      "vertices": 395,
+      "faces": 708,
+      "triangles": 708,
+      "bounds": [
+        [
+          -1.6488920450210571,
+          4.517637729644775,
+          -0.5896104574203491
+        ],
+        [
+          -1.1951885223388672,
+          6.398981094360352,
+          -0.32713088393211365
+        ]
+      ],
+      "file": "meshes/ctx_right_external_carotid.npz",
+      "sha256": "a2bf10c3f67880a26c684289a92d36b5cf91ab2a0648a39b7780aa21ddfbd931",
+      "color": "#b76560",
+      "tipo": "arteria",
+      "grupo": "contexto",
+      "group": "contexto",
+      "defaultVisible": false,
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 5,
+      "sourceMesh": 1,
+      "sourcePrimitiveCount": 1,
+      "sourceWorldMatrix": [
+        [
+          -100.00000149011612,
+          0.0,
+          0.0,
+          -3.7037638966483053
+        ],
+        [
+          0.0,
+          -7.549790756407785e-06,
+          99.99999940395412,
+          152.42787693372887
+        ],
+        [
+          0.0,
+          -99.99999940395412,
+          -7.549790756407785e-06,
+          0.27873165247367493
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceWorldBounds": [
+        [
+          -4.595568046273073,
+          148.57055006419694,
+          -0.3584418960265733
+        ],
+        [
+          -2.78075429357993,
+          156.09592478177584,
+          0.6914764518098455
+        ]
+      ],
+      "processing": "Original primitive vertices and triangles; full node world transform; ((world - [2, 130.5, 2]) * 0.25). No cut, weld, smoothing, deformation, local registration or synthesized anatomy.",
+      "correspondence": "associated",
+      "anatomicalValidation": "pending_individual_review",
+      "quizEligible": false,
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual. Inclui a extensão original do vaso cervical/cranial; não foi recortada nem ampliada por dados de outros vasos."
+    },
+    {
+      "id": "ctx_left_external_carotid",
+      "labelPT": "Artéria carótida externa esquerda",
+      "label": "Artéria carótida externa esquerda",
+      "sourceName": "External carotid artery.l",
+      "requirementId": "91",
+      "requirement": {
+        "id": "91",
+        "label": "Artéria carótida externa",
+        "source": "roteiro",
+        "page": 4
+      },
+      "vertices": 395,
+      "faces": 708,
+      "triangles": 708,
+      "bounds": [
+        [
+          0.19518835842609406,
+          4.517637729644775,
+          -0.5896104574203491
+        ],
+        [
+          0.648891806602478,
+          6.398981094360352,
+          -0.32713091373443604
+        ]
+      ],
+      "file": "meshes/ctx_left_external_carotid.npz",
+      "sha256": "ff2919f8ad21183d82dbbaf869741e69f0fe462b357a03a1e9ce50a7815077b5",
+      "color": "#b76560",
+      "tipo": "arteria",
+      "grupo": "contexto",
+      "group": "contexto",
+      "defaultVisible": false,
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 138,
+      "sourceMesh": 134,
+      "sourcePrimitiveCount": 1,
+      "sourceWorldMatrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          3.7037630106383963
+        ],
+        [
+          0.0,
+          -1.629206836164726e-05,
+          99.9999994039527,
+          152.42787710208955
+        ],
+        [
+          0.0,
+          -99.9999994039527,
+          -1.629206836164726e-05,
+          0.2787314630963437
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceWorldBounds": [
+        [
+          2.780753407570021,
+          148.570550218169,
+          -0.35844175351775626
+        ],
+        [
+          4.595567160263164,
+          156.0959249613054,
+          0.6914763231772549
+        ]
+      ],
+      "processing": "Original primitive vertices and triangles; full node world transform; ((world - [2, 130.5, 2]) * 0.25). No cut, weld, smoothing, deformation, local registration or synthesized anatomy.",
+      "correspondence": "associated",
+      "anatomicalValidation": "pending_individual_review",
+      "quizEligible": false,
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual. Inclui a extensão original do vaso cervical/cranial; não foi recortada nem ampliada por dados de outros vasos."
+    },
+    {
+      "id": "ctx_thoracic_aorta",
+      "labelPT": "Aorta descendente torácica",
+      "label": "Aorta descendente torácica",
+      "sourceName": "Thoracic aorta",
+      "requirementId": "92",
+      "requirement": {
+        "id": "92",
+        "label": "Aorta descendente torácica",
+        "source": "roteiro",
+        "page": 4
+      },
+      "vertices": 205,
+      "faces": 354,
+      "triangles": 354,
+      "bounds": [
+        [
+          -0.5134778618812561,
+          -2.497533082962036,
+          -1.7360286712646484
+        ],
+        [
+          0.27597132325172424,
+          1.512195348739624,
+          -0.5280764102935791
+        ]
+      ],
+      "file": "meshes/ctx_thoracic_aorta.npz",
+      "sha256": "634f6d9464347bf8b48a62b62bf65a5d116499fa4a95109c4cbf131ea4e99103",
+      "color": "#b76560",
+      "tipo": "arteria",
+      "grupo": "contexto",
+      "group": "contexto",
+      "defaultVisible": false,
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 325,
+      "sourceMesh": 316,
+      "sourcePrimitiveCount": 1,
+      "sourceWorldMatrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          1.543725537136197
+        ],
+        [
+          0.0,
+          -1.629206303257725e-05,
+          99.99996960163315,
+          128.3720818859762
+        ],
+        [
+          0.0,
+          -99.99996960163315,
+          -1.629206303257725e-05,
+          -2.487861343241647
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceWorldBounds": [
+        [
+          -0.05391142476554123,
+          120.50986813388192,
+          -4.9441148851810235
+        ],
+        [
+          3.103885239886637,
+          136.54878136569445,
+          -0.1123056485947247
+        ]
+      ],
+      "processing": "Original primitive vertices and triangles; full node world transform; ((world - [2, 130.5, 2]) * 0.25). No cut, weld, smoothing, deformation, local registration or synthesized anatomy.",
+      "correspondence": "associated",
+      "anatomicalValidation": "pending_individual_review",
+      "quizEligible": false,
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual."
+    },
+    {
+      "id": "ctx_abdominal_aorta",
+      "labelPT": "Aorta descendente abdominal",
+      "label": "Aorta descendente abdominal",
+      "sourceName": "Abdominal aorta",
+      "requirementId": "93",
+      "requirement": {
+        "id": "93",
+        "label": "Aorta descendente abdominal",
+        "source": "roteiro",
+        "page": 4
+      },
+      "vertices": 459,
+      "faces": 826,
+      "triangles": 826,
+      "bounds": [
+        [
+          -0.5942531228065491,
+          -6.909012794494629,
+          -0.9796239733695984
+        ],
+        [
+          -0.021721752360463142,
+          -2.3607265949249268,
+          0.5110018253326416
+        ]
+      ],
+      "file": "meshes/ctx_abdominal_aorta.npz",
+      "sha256": "43c9f6035807a5261f431faa9b023e2d0f8af7d88a8427f6c3d2cd36dbff6ddc",
+      "color": "#b76560",
+      "tipo": "arteria",
+      "grupo": "contexto",
+      "group": "contexto",
+      "defaultVisible": false,
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 331,
+      "sourceMesh": 322,
+      "sourcePrimitiveCount": 1,
+      "sourceWorldMatrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          0.7945090639404953
+        ],
+        [
+          0.0,
+          -1.629206303257725e-05,
+          99.99996960163315,
+          111.5352321220739
+        ],
+        [
+          0.0,
+          -99.99996960163315,
+          -1.629206303257725e-05,
+          1.6202431198011027
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceWorldBounds": [
+        [
+          -0.377012423467211,
+          102.86394836403969,
+          -1.9184958302417092
+        ],
+        [
+          1.913112988134532,
+          121.05709330025205,
+          4.044007199443035
+        ]
+      ],
+      "processing": "Original primitive vertices and triangles; full node world transform; ((world - [2, 130.5, 2]) * 0.25). No cut, weld, smoothing, deformation, local registration or synthesized anatomy.",
+      "correspondence": "associated",
+      "anatomicalValidation": "pending_individual_review",
+      "quizEligible": false,
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual. Segmento abdominal do roteiro; mostrar apenas quando o contexto vascular for ativado."
+    },
+    {
+      "id": "ctx_right_musculophrenic",
+      "labelPT": "Artéria musculofrênica direita",
+      "label": "Artéria musculofrênica direita",
+      "sourceName": "Musculophrenic artery.r",
+      "requirementId": "116",
+      "requirement": {
+        "id": "116",
+        "label": "Artéria musculofrênica",
+        "source": "roteiro",
+        "page": 4
+      },
+      "vertices": 783,
+      "faces": 1416,
+      "triangles": 1416,
+      "bounds": [
+        [
+          -3.350752353668213,
+          -5.845954418182373,
+          -0.5206792950630188
+        ],
+        [
+          -0.858238935470581,
+          -1.3805373907089233,
+          2.10068416595459
+        ]
+      ],
+      "file": "meshes/ctx_right_musculophrenic.npz",
+      "sha256": "e0568a0ad7fc286c52e4766123c03895f84de64cac9a6922bfc5cb728b68fcbe",
+      "color": "#b76560",
+      "tipo": "arteria",
+      "grupo": "contexto",
+      "group": "contexto",
+      "defaultVisible": false,
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 94,
+      "sourceMesh": 90,
+      "sourcePrimitiveCount": 1,
+      "sourceWorldMatrix": [
+        [
+          -100.00000149011612,
+          0.0,
+          0.0,
+          -7.684933234833125
+        ],
+        [
+          0.0,
+          -7.549790756407785e-06,
+          99.99999940395412,
+          113.93837575076464
+        ],
+        [
+          0.0,
+          -99.99999940395412,
+          -7.549790756407785e-06,
+          6.615957077595978
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceWorldBounds": [
+        [
+          -11.403009191506687,
+          107.11618187281266,
+          -0.0827170802940067
+        ],
+        [
+          -1.432955757580979,
+          124.97785055524216,
+          10.402737096476006
+        ]
+      ],
+      "processing": "Original primitive vertices and triangles; full node world transform; ((world - [2, 130.5, 2]) * 0.25). No cut, weld, smoothing, deformation, local registration or synthesized anatomy.",
+      "correspondence": "associated",
+      "anatomicalValidation": "pending_individual_review",
+      "quizEligible": false,
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual."
+    },
+    {
+      "id": "ctx_left_musculophrenic",
+      "labelPT": "Artéria musculofrênica esquerda",
+      "label": "Artéria musculofrênica esquerda",
+      "sourceName": "Musculophrenic artery.l",
+      "requirementId": "116",
+      "requirement": {
+        "id": "116",
+        "label": "Artéria musculofrênica",
+        "source": "roteiro",
+        "page": 4
+      },
+      "vertices": 783,
+      "faces": 1416,
+      "triangles": 1416,
+      "bounds": [
+        [
+          -0.14176170527935028,
+          -5.845956325531006,
+          -0.5206786394119263
+        ],
+        [
+          2.3507516384124756,
+          -1.3805387020111084,
+          2.100684642791748
+        ]
+      ],
+      "file": "meshes/ctx_left_musculophrenic.npz",
+      "sha256": "55592148b26d5dbd14186ab436fbe2cc09783a8bf6204505287aa06842a0edd5",
+      "color": "#b76560",
+      "tipo": "arteria",
+      "grupo": "contexto",
+      "group": "contexto",
+      "defaultVisible": false,
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 199,
+      "sourceMesh": 195,
+      "sourcePrimitiveCount": 1,
+      "sourceWorldMatrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          7.684930668198563
+        ],
+        [
+          0.0,
+          -1.629206836164726e-05,
+          99.9999994039527,
+          113.93836998178558
+        ],
+        [
+          0.0,
+          -99.9999994039527,
+          -1.629206836164726e-05,
+          6.615959005394043
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceWorldBounds": [
+        [
+          1.4329531909464164,
+          107.11617551948305,
+          -0.0827145610294604
+        ],
+        [
+          11.403006624872123,
+          124.97784509168824,
+          10.402738278860824
+        ]
+      ],
+      "processing": "Original primitive vertices and triangles; full node world transform; ((world - [2, 130.5, 2]) * 0.25). No cut, weld, smoothing, deformation, local registration or synthesized anatomy.",
+      "correspondence": "associated",
+      "anatomicalValidation": "pending_individual_review",
+      "quizEligible": false,
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual."
+    },
+    {
+      "id": "ctx_superior_phrenic",
+      "labelPT": "Artérias frênicas superiores",
+      "label": "Artérias frênicas superiores",
+      "sourceName": "Superior phrenic arteries",
+      "requirementId": "119",
+      "requirement": {
+        "id": "119",
+        "label": "Artéria frênica superior",
+        "source": "roteiro",
+        "page": 4
+      },
+      "vertices": 3219,
+      "faces": 5784,
+      "triangles": 5784,
+      "bounds": [
+        [
+          -3.4537837505340576,
+          -4.657182216644287,
+          -1.6126463413238525
+        ],
+        [
+          -1.0542606115341187,
+          -0.9938415884971619,
+          0.8207724094390869
+        ]
+      ],
+      "file": "meshes/ctx_superior_phrenic.npz",
+      "sha256": "d2796176dc9a8a265922fa5492a1f9cd64980c71fcad9a9a3d346ee5097e9315",
+      "color": "#b76560",
+      "tipo": "arteria",
+      "grupo": "contexto",
+      "group": "contexto",
+      "defaultVisible": false,
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 330,
+      "sourceMesh": 321,
+      "sourcePrimitiveCount": 1,
+      "sourceWorldMatrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          -9.584219664379136
+        ],
+        [
+          0.0,
+          -1.629206303257725e-05,
+          99.99996960163315,
+          121.7311733768076
+        ],
+        [
+          0.0,
+          -99.99996960163315,
+          -1.629206303257725e-05,
+          1.0377683065914933
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceWorldBounds": [
+        [
+          -11.81513456603676,
+          111.8712704779102,
+          -4.450585226235331
+        ],
+        [
+          -2.2170422469938957,
+          126.52463371398557,
+          5.283089753426249
+        ]
+      ],
+      "processing": "Original primitive vertices and triangles; full node world transform; ((world - [2, 130.5, 2]) * 0.25). No cut, weld, smoothing, deformation, local registration or synthesized anatomy.",
+      "correspondence": "associated",
+      "anatomicalValidation": "pending_individual_review",
+      "quizEligible": false,
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual."
+    },
+    {
+      "id": "ctx_azygos",
+      "labelPT": "Veia ázigos",
+      "label": "Veia ázigos",
+      "sourceName": "Azygos vein",
+      "requirementId": "122a",
+      "requirement": {
+        "id": "122a",
+        "label": "Sistema ázigos: veia ázigos",
+        "source": "roteiro",
+        "page": 5
+      },
+      "vertices": 1227,
+      "faces": 2242,
+      "triangles": 2242,
+      "bounds": [
+        [
+          -0.9476515650749207,
+          -3.849106788635254,
+          -1.458182692527771
+        ],
+        [
+          -0.6429662704467773,
+          1.5276120901107788,
+          -0.1368374079465866
+        ]
+      ],
+      "file": "meshes/ctx_azygos.npz",
+      "sha256": "f2fe56d80137169c28a89d3efb82b2e877e20fddf1ac850ac48c7a5fd3625607",
+      "color": "#7597b1",
+      "tipo": "veia",
+      "grupo": "contexto",
+      "group": "contexto",
+      "defaultVisible": false,
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 509,
+      "sourceMesh": 445,
+      "sourcePrimitiveCount": 1,
+      "sourceWorldMatrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          -1.1495683058480237
+        ],
+        [
+          0.0,
+          -1.629206836164726e-05,
+          99.9999994039527,
+          126.6450594293528
+        ],
+        [
+          0.0,
+          -99.9999994039527,
+          -1.629206836164726e-05,
+          -2.101073772355768
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceWorldBounds": [
+        [
+          -1.7906063513741413,
+          115.10357329791645,
+          -3.832730676201173
+        ],
+        [
+          -0.571864992650779,
+          136.61044836256875,
+          1.4526503881153645
+        ]
+      ],
+      "processing": "Original primitive vertices and triangles; full node world transform; ((world - [2, 130.5, 2]) * 0.25). No cut, weld, smoothing, deformation, local registration or synthesized anatomy.",
+      "correspondence": "associated",
+      "anatomicalValidation": "pending_individual_review",
+      "quizEligible": false,
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual."
+    },
+    {
+      "id": "ctx_hemiazygos",
+      "labelPT": "Veia hemiázigos",
+      "label": "Veia hemiázigos",
+      "sourceName": "Hemi-azygos vein",
+      "requirementId": "122b",
+      "requirement": {
+        "id": "122b",
+        "label": "Sistema ázigos: veia hemiázigos",
+        "source": "roteiro",
+        "page": 5
+      },
+      "vertices": 785,
+      "faces": 1416,
+      "triangles": 1416,
+      "bounds": [
+        [
+          -0.896567702293396,
+          -3.9511830806732178,
+          -1.5778858661651611
+        ],
+        [
+          0.09783660620450974,
+          -1.4058083295822144,
+          -1.05409836769104
+        ]
+      ],
+      "file": "meshes/ctx_hemiazygos.npz",
+      "sha256": "9d682345b308fbccfedda6a2cbd9a18d1c6916af96738a33ff63508a6372b85f",
+      "color": "#7597b1",
+      "tipo": "veia",
+      "grupo": "contexto",
+      "group": "contexto",
+      "defaultVisible": false,
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 511,
+      "sourceMesh": 447,
+      "sourcePrimitiveCount": 1,
+      "sourceWorldMatrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          1.2084508949839137
+        ],
+        [
+          0.0,
+          -1.629206836164726e-05,
+          99.9999994039527,
+          121.73718899513564
+        ],
+        [
+          0.0,
+          -99.9999994039527,
+          -1.629206836164726e-05,
+          -3.149477689919035
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceWorldBounds": [
+        [
+          -1.5862708692635294,
+          114.69526765893988,
+          -4.311543374478778
+        ],
+        [
+          2.3913464389003707,
+          124.87676688969684,
+          -2.2163936374794937
+        ]
+      ],
+      "processing": "Original primitive vertices and triangles; full node world transform; ((world - [2, 130.5, 2]) * 0.25). No cut, weld, smoothing, deformation, local registration or synthesized anatomy.",
+      "correspondence": "associated",
+      "anatomicalValidation": "pending_individual_review",
+      "quizEligible": false,
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual."
+    },
+    {
+      "id": "ctx_accessory_hemiazygos",
+      "labelPT": "Veia hemiázigos acessória",
+      "label": "Veia hemiázigos acessória",
+      "sourceName": "Accessory hemi-azygos vein",
+      "requirementId": "122c",
+      "requirement": {
+        "id": "122c",
+        "label": "Sistema ázigos: veia hemiázigos acessória",
+        "source": "roteiro",
+        "page": 5
+      },
+      "vertices": 1231,
+      "faces": 2242,
+      "triangles": 2242,
+      "bounds": [
+        [
+          -0.8423399329185486,
+          -0.7832879424095154,
+          -1.883925437927246
+        ],
+        [
+          0.3039029538631439,
+          2.439964771270752,
+          0.07980689406394958
+        ]
+      ],
+      "file": "meshes/ctx_accessory_hemiazygos.npz",
+      "sha256": "508b75190ea6fb52f09d264932d907373e5798ed22ac97a059096fca5c487bfd",
+      "color": "#7597b1",
+      "tipo": "veia",
+      "grupo": "contexto",
+      "group": "contexto",
+      "defaultVisible": false,
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 510,
+      "sourceMesh": 446,
+      "sourcePrimitiveCount": 1,
+      "sourceWorldMatrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          1.26726335765371
+        ],
+        [
+          0.0,
+          -1.629206836164726e-05,
+          99.9999994039527,
+          133.86409967158176
+        ],
+        [
+          0.0,
+          -99.9999994039527,
+          -1.629206836164726e-05,
+          -2.7674820677227085
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceWorldBounds": [
+        [
+          -1.3693596916743642,
+          127.36684827635338,
+          -5.5357015635744755
+        ],
+        [
+          3.215611819465676,
+          140.25985891464495,
+          2.3192275765102472
+        ]
+      ],
+      "processing": "Original primitive vertices and triangles; full node world transform; ((world - [2, 130.5, 2]) * 0.25). No cut, weld, smoothing, deformation, local registration or synthesized anatomy.",
+      "correspondence": "associated",
+      "anatomicalValidation": "pending_individual_review",
+      "quizEligible": false,
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual."
+    }
+  ],
+  "summary": {
+    "objects": 17,
+    "requirementIds": [
+      "116",
+      "119",
+      "122a",
+      "122b",
+      "122c",
+      "85",
+      "86",
+      "87",
+      "88",
+      "89",
+      "90",
+      "91",
+      "92",
+      "93"
+    ],
+    "requirements": 14,
+    "arterias": 14,
+    "veias": 3,
+    "linfaticos": 0,
+    "vertices": 11882,
+    "triangles": 21360,
+    "anatomicallyValidatedParts": 0
+  },
+  "source": {
+    "file": "malhas/CardioVascular41.glb",
+    "sha256": "b88ed8d9be22b5d7a2ecec4da0519a61220d919beb601ef5eefd79f0aad38663",
+    "license": "CC BY-SA 4.0",
+    "upstream": "https://github.com/LluisV/Z-Anatomy/tree/PC-Version/Resources/Models",
+    "identityRecord": "fontes/z_app/CardioVascular41.fbx.provenance.json"
+  },
+  "transform": {
+    "method": "Same source node world transform and site centering as main builder",
+    "sourceUnits": "Original FBX/GLB world coordinates; site display units, not a clinical measurement scale",
+    "center": [
+      2.0,
+      130.5,
+      2.0
+    ],
+    "uniformScale": 0.25,
+    "formula": "(source_world_vertices - [2, 130.5, 2]) * 0.25"
+  },
+  "integration": {
+    "group": "contexto",
+    "defaultVisible": false,
+    "includeInInitialCameraFit": false,
+    "quizEligibleByDefault": false,
+    "instruction": "Optional context layer; keep main cardiac view and fit independent of distant cervical/abdominal extents. All source geometry was preserved."
+  },
+  "excludedCandidates": [
+    {
+      "requirementId": "30j",
+      "reason": "Aorta is a composite requirement. Existing ascending/arch and exported thoracic/abdominal segments can support a group selection; no duplicate mesh was created."
+    },
+    {
+      "requirementId": "117",
+      "reason": "Bronchial artery has a BP3D candidate FMA68109/FJ1933, but no exactly named mesh in this cardiovascular GLB."
+    },
+    {
+      "requirementId": "118",
+      "reason": "Esophageal artery has a BP3D candidate FMA4149/FJ1934, but no exactly named mesh in this cardiovascular GLB."
+    },
+    {
+      "requirementId": "123",
+      "reason": "Vagus meshes were not found in this GLB. Startup.blend inventories curve objects Vagus nerve (X).l/.r. No claim of complete or partial nerve coverage from this export."
+    },
+    {
+      "requirementId": "125",
+      "reason": "Sympathetic trunk curves are in Startup.blend, not this cardiovascular GLB."
+    },
+    {
+      "requirementId": "V42c",
+      "reason": "Inferior tracheobronchial nodes have a named nonempty MESH in Startup.blend, but are absent from this cardiovascular GLB; not exported."
+    },
+    {
+      "requirementId": "V42d",
+      "reason": "Paratracheal cervical/thoracic nodes have named nonempty MESH objects in Startup.blend, but are absent from this cardiovascular GLB; not exported."
+    }
+  ],
+  "validation": {
+    "finiteVertices": true,
+    "validIndices": true,
+    "sourceTriangleCountsPreserved": true,
+    "npzReadbackExact": true,
+    "anatomicalValidation": "not_performed"
+  },
+  "limitations": [
+    "Availability of a named source object is not anatomical validation.",
+    "The vessels were not individually repositioned or registered.",
+    "No phrenic nerve, pericardiacophrenic vessel, cardiac plexus, lymphatic duct or inferred connection was added.",
+    "Cervical/abdominal context is preserved at original extent; only the selected named objects were exported."
+  ]
+}

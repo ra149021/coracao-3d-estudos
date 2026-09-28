@@ -1,18 +1,20 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { initStudy } from './study.js';
 
 const $ = (id) => document.getElementById(id);
 const groups = {
   camaras: 'Câmaras cardíacas', grandes: 'Grandes vasos',
   coronarias: 'Artérias coronárias', veias: 'Veias cardíacas',
   valvas: 'Folhetos valvares', papilares: 'Músculos papilares',
+  contexto: 'Vasos de contexto',
 };
 const escapeHTML = (text) => String(text).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const normalize = (text) => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 const eye = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.5"/></svg>';
 const eyeOff = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 3 18 18M9.4 6.3A12 12 0 0 1 12 6c6.5 0 10 6 10 6a18 18 0 0 1-4 4M6 7.8A18 18 0 0 0 2 12s3.5 6 10 6a12 12 0 0 0 4-.7"/></svg>';
-const state = { selected: null, preset: 'exterior', labels: false, palette: 'tissue', transparency: 0, clipping: false, axis: 'z', cut: 50, flipped: false, ready: false };
+const state = { selected: null, preset: 'exterior', labels: false, palette: 'tissue', transparency: 0, clipping: false, axis: 'z', cut: 50, flipped: false, ready: false, examMode: false };
 const canvas = $('heart-canvas');
 const viewer = $('viewer');
 const meshes = new Map();
@@ -24,9 +26,9 @@ const clipPlane = new THREE.Plane(new THREE.Vector3(0, 0, -1), 0);
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(34, 1, 0.01, 150);
 const fullBounds = new THREE.Box3();
-let renderer, controls, catalog, entries = [], selectedId = null, moveAnimation = null;
+let renderer, controls, catalog, entries = [], moveAnimation = null;
 let frameRequested = false, lastTime = 0, dragging = false, pointerStart = null;
-let changeSource = 'code', naturalMaterialChanges = 0;
+const pickListeners = new Set();
 
 function fail(error) {
   console.error(error);
@@ -37,6 +39,7 @@ function fail(error) {
 }
 
 function tissueColor(part) {
+  if (part.group === 'contexto') return part.kind === 'veia' ? '#897b94' : '#bc8675';
   if (part.group === 'camaras') return '#a36661';
   if (part.group === 'valvas') return '#ddd0b5';
   if (part.group === 'papilares') return '#b47e6e';
@@ -68,7 +71,6 @@ function refreshMaterials() {
     mesh.renderOrder = transparent ? 1 : 0;
     if (state.selected === part.id) mesh.renderOrder = 2;
   }
-  naturalMaterialChanges++;
   requestFrame();
 }
 
@@ -118,7 +120,7 @@ function renderList() {
   const query = normalize($('search').value.trim());
   let html = '';
   for (const [group, name] of Object.entries(groups)) {
-    const parts = entries.filter(p => p.group === group && normalize(`${p.label} ${p.sourceName} ${name} ${p.requirement?.id || ''}`).includes(query));
+    const parts = entries.filter(p => p.group === group && normalize(`${p.label} ${p.sourceName} ${(p.aliases || []).join(' ')} ${name} ${p.requirement?.id || ''}`).includes(query));
     if (!parts.length) continue;
     const closed = !query && collapsedGroups.has(group);
     html += `<section class="structure-group"><div class="group-heading"><button class="group-name" data-group="${group}" aria-expanded="${!closed}">${closed ? '›' : '⌄'} ${name}<span>${parts.length}</span></button><button class="group-toggle" data-group="${group}">Ocultar</button></div><div ${closed ? 'hidden' : ''}>`;
@@ -133,7 +135,6 @@ function renderList() {
 
 function selectPart(id, scroll = false) {
   state.selected = id;
-  selectedId = id;
   $('selection-empty').hidden = !!id;
   $('selection-detail').hidden = !id;
   $('clear-selection').hidden = !id;
@@ -143,7 +144,7 @@ function selectPart(id, scroll = false) {
     $('selection-category').textContent = groups[part.group];
     $('selection-title').textContent = part.label;
     $('selection-description').textContent = part.note;
-    $('selection-source').textContent = `${part.sourceName} · ${part.sourceFile} · Z-Anatomy / CC BY-SA 4.0. Identificação do arquivo; revisão anatômica integral pendente.`;
+    $('selection-source').textContent = `${part.sourceName} · ${part.sourceFile} · ${part.source} / ${part.license}. Identificação do arquivo; revisão anatômica integral pendente.`;
     const ref = part.requirement;
     $('selection-requirement').textContent = ref ? `${ref.source === 'roteiro' ? 'Roteiro' : 'Slides'} · item ${ref.id} · página ${ref.page}` : 'Peça complementar da fonte';
     if (scroll) {
@@ -184,6 +185,14 @@ function stopAutoRotate() {
   $('rotate').setAttribute('aria-pressed', 'false');
 }
 
+function activeView(name=null) {
+  document.querySelectorAll('[data-view]').forEach(button=>{
+    const active=button.dataset.view===name;
+    button.classList.toggle('active',active);
+    button.setAttribute('aria-pressed',String(active));
+  });
+}
+
 function preset(name, animate = true) {
   state.preset = name;
   state.selected = null;
@@ -194,16 +203,19 @@ function preset(name, animate = true) {
   for (const part of entries) {
     const visible = name === 'valvas' ? ['valvas', 'papilares'].includes(part.group)
       : name === 'coronarias' ? ['camaras', 'coronarias', 'veias'].includes(part.group)
-      : name === 'interior' ? ['camaras', 'valvas', 'papilares'].includes(part.group) : true;
+      : name === 'interior' ? ['camaras', 'valvas', 'papilares'].includes(part.group)
+      : name === 'contexto' ? ['camaras', 'grandes', 'contexto'].includes(part.group)
+      : part.defaultVisible !== false;
     meshes.get(part.id).visible = visible;
   }
   document.querySelectorAll('[data-preset]').forEach(button => {
     button.classList.toggle('active', button.dataset.preset === name);
     button.setAttribute('aria-pressed', String(button.dataset.preset === name));
   });
-  $('mode-note').textContent = name === 'valvas' ? 'Conjunto incompleto: faltam duas cúspides anteriores'
+  $('mode-note').textContent = name === 'valvas' ? 'Folhetos disponíveis · inserções das cordas em revisão'
     : name === 'coronarias' ? 'Paredes transparentes para observar os vasos'
     : name === 'interior' ? 'Corte visual · detalhes internos simplificados'
+    : name === 'contexto' ? 'Vasos do roteiro · contexto cervical, torácico e abdominal'
     : 'Geometria original · cores ilustrativas';
   $('transparency').value = state.transparency;
   $('transparency-output').textContent = `${state.transparency}%`;
@@ -211,7 +223,7 @@ function preset(name, animate = true) {
   syncVisibility();
   stopAutoRotate();
   $('view-name').textContent = name === 'valvas' ? 'Valvas · vista oblíqua' : 'Vista anterior oblíqua';
-  document.querySelectorAll('[data-view]').forEach(b => b.classList.remove('active'));
+  activeView();
   cameraTo(currentBounds(), name === 'valvas' ? [0.45, 0.65, 1] : [0.26, 0.12, 1], animate);
 }
 
@@ -318,7 +330,7 @@ function attachEvents() {
     } else selectPart(state.selected === row.dataset.id ? null : row.dataset.id);
   });
   $('search').addEventListener('input', renderList);
-  $('show-all').addEventListener('click', () => {entries.forEach(p => meshes.get(p.id).visible = true); selectPart(null); syncVisibility();});
+  $('show-all').addEventListener('click', () => {entries.forEach(p => meshes.get(p.id).visible = true); selectPart(null); syncVisibility(); cameraTo(currentBounds());});
   $('clear-selection').addEventListener('click', () => selectPart(null));
   $('focus-part').addEventListener('click', () => {if (state.selected) cameraTo(meshes.get(state.selected).geometry.boundingBox);});
   $('isolate-part').addEventListener('click', () => {
@@ -334,7 +346,7 @@ function attachEvents() {
     const directions = { anterior:[0,0,1], posterior:[0,0,-1], direita:[-1,0,0], esquerda:[1,0,0], superior:[0,1,0.001] };
     stopAutoRotate();
     $('view-name').textContent = `Vista ${view}`;
-    document.querySelectorAll('[data-view]').forEach(b => b.classList.toggle('active', b === button));
+    activeView(view);
     cameraTo(currentBounds(), directions[view]);
   }));
   $('reset').addEventListener('click', reset);
@@ -348,7 +360,7 @@ function attachEvents() {
   $('rotate').addEventListener('click', () => {
     controls.autoRotate = !controls.autoRotate;
     $('rotate').setAttribute('aria-pressed', String(controls.autoRotate));
-    if (controls.autoRotate) { $('view-name').textContent='Exploração em rotação'; document.querySelectorAll('[data-view]').forEach(b => b.classList.remove('active')); }
+    if (controls.autoRotate) { $('view-name').textContent='Exploração em rotação'; activeView(); }
     requestFrame();
   });
   $('labels').addEventListener('click', () => {state.labels=!state.labels; $('labels').setAttribute('aria-pressed', String(state.labels)); requestFrame();});
@@ -359,7 +371,7 @@ function attachEvents() {
   canvas.addEventListener('pointerdown', event => {pointerStart={x:event.clientX,y:event.clientY,button:event.button}; dragging=false; $('hover-label').hidden=true;});
   canvas.addEventListener('pointermove', event => {
     if (pointerStart && Math.hypot(event.clientX-pointerStart.x,event.clientY-pointerStart.y)>5) dragging=true;
-    if (dragging || event.buttons) { $('hover-label').hidden=true; return; }
+    if (dragging || event.buttons || state.examMode) { $('hover-label').hidden=true; return; }
     const hit = hitsAt(event)[0];
     $('hover-label').hidden = !hit;
     if (hit) {
@@ -372,14 +384,16 @@ function attachEvents() {
   canvas.addEventListener('pointerup', event => {
     if (pointerStart?.button === 0 && !dragging) {
       const hit = hitsAt(event)[0];
-      selectPart(hit?.object.userData.part.id || null, false);
+      const id = hit?.object.userData.part.id || null;
+      if (!state.examMode) selectPart(id, false);
+      if (id) for (const callback of pickListeners) callback(id);
     }
     pointerStart=null; dragging=false;
   });
   canvas.addEventListener('pointercancel', () => {pointerStart=null; dragging=false;});
   canvas.addEventListener('pointerleave', () => { $('hover-label').hidden=true; });
   canvas.addEventListener('keydown', event => {
-    if (event.key === 'Escape') {selectPart(null); return;}
+    if (event.key === 'Escape') {if (!state.examMode) selectPart(null); return;}
     const angle = Math.PI / 24;
     if (['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','+','=','-','_'].includes(event.key)) {
       event.preventDefault(); moveAnimation=null; stopAutoRotate();
@@ -389,7 +403,7 @@ function attachEvents() {
       if (event.key==='ArrowDown') controls.rotateUp(-angle);
       if (['+','='].includes(event.key)) controls.dollyIn(1.12);
       if (['-','_'].includes(event.key)) controls.dollyOut(1.12);
-      controls.update(); $('view-name').textContent='Ângulo livre'; requestFrame();
+      controls.update(); $('view-name').textContent='Ângulo livre'; activeView(); requestFrame();
     }
   });
   canvas.addEventListener('webglcontextlost', event => {event.preventDefault(); fail(new Error('O navegador perdeu o acesso à placa gráfica. Recarregue a página para restaurar a cena.'));});
@@ -425,7 +439,7 @@ async function init() {
   controls.minDistance=.18; controls.maxDistance=55; controls.autoRotateSpeed=.6;
   camera.position.set(3,2,12);
   controls.addEventListener('change',requestFrame);
-  controls.addEventListener('start',() => {moveAnimation=null; stopAutoRotate(); $('view-name').textContent='Ângulo livre'; document.querySelectorAll('[data-view]').forEach(b=>b.classList.remove('active'));});
+  controls.addEventListener('start',() => {moveAnimation=null; stopAutoRotate(); $('view-name').textContent='Ângulo livre'; activeView();});
   const resize = () => {
     const w=viewer.clientWidth,h=viewer.clientHeight;
     renderer.setSize(w,h,false); camera.aspect=w/h; camera.updateProjectionMatrix(); requestFrame();
@@ -441,11 +455,10 @@ async function init() {
     if (!object.isMesh) return;
     const part=entries.find(p=>p.id===object.userData.partId || p.id===object.name);
     if (!part) throw new Error(`Peça sem identificação: ${object.name}`);
-    const oldMaterial = object.material;
     object.material=new THREE.MeshPhysicalMaterial({color:tissueColor(part),roughness:.55,metalness:0,clearcoat:.12,clearcoatRoughness:.48,side:THREE.DoubleSide,clippingPlanes:[],depthWrite:true});
     object.userData.part=part;
     object.geometry.computeBoundingBox(); object.geometry.computeBoundingSphere();
-    fullBounds.union(object.geometry.boundingBox);
+    if(part.defaultVisible !== false)fullBounds.union(object.geometry.boundingBox);
     meshes.set(part.id,object);
     if(part.group==='camaras') {
       const label=document.createElement('span'); label.className='mesh-label';label.textContent=part.label;label.hidden=true;
@@ -455,11 +468,12 @@ async function init() {
   if (meshes.size!==entries.length) throw new Error('A cena não carregou todas as peças do catálogo.');
   scene.add(gltf.scene);
   $('part-count').textContent=entries.length;
+  document.querySelectorAll('[data-part-count]').forEach(node=>node.textContent=entries.length);
   $('model-status').textContent=`${entries.length} peças · 3D local · sem CDN`;
   $('loading').hidden=true; state.ready=true;
   renderList(); attachEvents(); preset('exterior',false);
-  // Read-only diagnostics for verifying interaction and rendering; never sent anywhere.
-  window.heartViewer = Object.freeze({ snapshot:()=>({
+  // Local study controls and rendering diagnostics; no data is sent externally.
+  const snapshot = ()=>({
     ready:state.ready, parts:meshes.size, visible:entries.filter(p=>meshes.get(p.id).visible).length,
     selected:state.selected, preset:state.preset, camera:camera.position.toArray(),target:controls.target.toArray(),
     clipping:state.clipping,axis:state.axis,cut:state.cut,flipped:state.flipped,transparency:state.transparency,
@@ -467,7 +481,79 @@ async function init() {
     drawCalls:renderer.info.render.calls,triangles:renderer.info.render.triangles,
     modelBytes:catalog.model.bytes,gl:renderer.getContext().getParameter(renderer.getContext().VERSION),
     visibleParts:entries.filter(p=>meshes.get(p.id).visible).map(p=>p.id),
-  })});
+    viewName:$('view-name').textContent, modeNote:$('mode-note').textContent,examMode:state.examMode,
+    activeView:document.querySelector('[data-view].active')?.dataset.view || null,
+  });
+  const viewerAPI = Object.freeze({
+    snapshot,
+    select:id=>{if(meshes.has(id))selectPart(id);},
+    clear:()=>selectPart(null),
+    show:ids=>{
+      const visible=new Set(ids);
+      entries.forEach(p=>meshes.get(p.id).visible=visible.has(p.id));
+      if(state.selected&&!visible.has(state.selected))selectPart(null);
+      syncVisibility();
+    },
+    showAll:()=>{entries.forEach(p=>meshes.get(p.id).visible=true);syncVisibility();},
+    showContext:()=>preset('contexto',false),
+    showHeart:()=>preset('exterior',false),
+    isolate:id=>{if(!meshes.has(id))return;entries.forEach(p=>meshes.get(p.id).visible=p.id===id);selectPart(id);syncVisibility();},
+    view:name=>{
+      const direction={anterior:[0,0,1],posterior:[0,0,-1],direita:[-1,0,0],esquerda:[1,0,0],superior:[0,1,.001]}[name];
+      if(direction){stopAutoRotate();cameraTo(currentBounds(),direction,false);$('view-name').textContent=`Vista ${name}`;activeView(name);}
+    },
+    focus:id=>{if(meshes.has(id))cameraTo(meshes.get(id).geometry.boundingBox);},
+    labels:enabled=>{state.labels=Boolean(enabled);$('labels').setAttribute('aria-pressed',String(state.labels));requestFrame();},
+    setExamMode:enabled=>{
+      state.examMode=Boolean(enabled);
+      document.body.classList.toggle('exam-mode',state.examMode);
+      document.querySelector('.structures').inert=state.examMode;
+      document.querySelector('.inspector').inert=state.examMode;
+      document.querySelector('.presets').inert=state.examMode;
+      $('fullscreen').disabled=state.examMode;
+      $('reset').disabled=state.examMode;
+      if(state.examMode){
+        state.clipping=false;state.transparency=0;state.labels=false;
+        $('mode-note').textContent='Treino de identificação · gire para observar as relações';
+        stopAutoRotate();$('hover-label').hidden=true;updateClipping();
+        if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});
+      }
+      requestFrame();
+    },
+    onPick:callback=>{pickListeners.add(callback);return()=>pickListeners.delete(callback);},
+    restore:s=>{
+      if(!s)return;
+      moveAnimation=null;
+      const visible=new Set(s.visibleParts || entries.map(p=>p.id));
+      entries.forEach(p=>meshes.get(p.id).visible=visible.has(p.id));
+      for(const key of ['preset','palette','transparency','axis','cut','flipped','clipping','labels']) if(s[key]!==undefined)state[key]=s[key];
+      $('palette').value=state.palette;
+      $('transparency').value=state.transparency;
+      $('transparency-output').textContent=`${state.transparency}%`;
+      $('labels').setAttribute('aria-pressed',String(state.labels));
+      document.querySelectorAll('[data-preset]').forEach(b=>{b.classList.toggle('active',b.dataset.preset===state.preset);b.setAttribute('aria-pressed',String(b.dataset.preset===state.preset));});
+      updateClipping();selectPart(meshes.has(s.selected)?s.selected:null);syncVisibility();
+      controls.target.fromArray(s.target);camera.position.fromArray(s.camera);controls.update();
+      controls.autoRotate=Boolean(s.autoRotate);$('rotate').setAttribute('aria-pressed',String(controls.autoRotate));
+      $('view-name').textContent=s.viewName || 'Ângulo livre';$('mode-note').textContent=s.modeNote || 'Geometria original · cores ilustrativas';requestFrame();
+      activeView(s.activeView);
+    },
+  });
+  window.heartViewer=viewerAPI;
+  try {
+    const requirementsResponse=await fetch('auditoria/matriz_coracao.json');
+    if(!requirementsResponse.ok)throw new Error('Não foi possível ler a matriz do roteiro.');
+    const requirements=await requirementsResponse.json();
+    let evidence=null;
+    try {
+      const evidenceResponse=await fetch('assets/practice-evidence.json');
+      if(evidenceResponse.ok)evidence=await evidenceResponse.json();
+    } catch(error) { console.warn('Referências de aula indisponíveis nesta abertura.',error); }
+    initStudy({parts:entries,requirements:requirements.alvos,viewer:viewerAPI,evidence});
+  } catch(error) {
+    console.error(error);
+    $('model-status').textContent='Cena pronta; módulo de prática indisponível. Recarregue a página.';
+  }
 }
 
 init().catch(fail);

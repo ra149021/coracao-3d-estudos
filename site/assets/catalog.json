@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "parts": [
     {
       "id": "heart_00",
@@ -31,7 +31,10 @@
           1.012496829032898,
           1.1666405200958252
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_01",
@@ -63,7 +66,10 @@
           0.666095495223999,
           1.5316451787948608
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_02",
@@ -95,7 +101,10 @@
           0.8287476301193237,
           0.8666554093360901
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_03",
@@ -127,7 +136,10 @@
           0.5447344779968262,
           1.2987301349639893
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_04",
@@ -159,7 +171,10 @@
           1.4639065265655518,
           0.6046958565711975
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_05",
@@ -191,7 +206,10 @@
           2.2979540824890137,
           0.5532369613647461
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_06",
@@ -223,7 +241,10 @@
           1.3022658824920654,
           1.079555869102478
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_07",
@@ -250,7 +271,10 @@
           1.3772491216659546,
           0.4003400206565857
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_08",
@@ -282,7 +306,10 @@
           1.168676733970642,
           -0.20578420162200928
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_09",
@@ -314,7 +341,10 @@
           1.3464535474777222,
           -0.4993891716003418
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_10",
@@ -346,7 +376,10 @@
           1.8170901536941528,
           0.31518346071243286
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_11",
@@ -378,7 +411,10 @@
           -1.0435473918914795,
           0.3430069088935852
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_12",
@@ -410,7 +446,10 @@
           0.8805040717124939,
           -0.39114004373550415
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_13",
@@ -442,7 +481,10 @@
           -0.08264030516147614,
           -0.9248557686805725
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_14",
@@ -474,7 +516,10 @@
           0.4692522883415222,
           -0.5415026545524597
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_15",
@@ -506,335 +551,18 @@
           -0.12645451724529266,
           -0.9246909618377686
         ]
-      ]
-    },
-    {
-      "id": "heart_16",
-      "label": "Artéria coronária direita",
-      "sourceName": "Right coronary artery",
-      "group": "coronarias",
-      "color": "#dc8870",
-      "note": "Malha arterial com ramificações. Cada ramo do roteiro precisa de identificação própria.",
-      "sourceFile": "CardioVascular41.fbx",
-      "source": "Z-Anatomy",
-      "license": "CC BY-SA 4.0",
-      "sourceNode": 498,
-      "requirement": {
-        "id": "81",
-        "label": "Artéria coronária direita",
-        "page": 3,
-        "source": "roteiro"
-      },
-      "vertices": 6155,
-      "triangles": 11098,
-      "bounds": [
-        [
-          -1.064258098602295,
-          -1.61398446559906,
-          -0.6126230359077454
-        ],
-        [
-          0.9495631456375122,
-          0.7187934517860413,
-          1.531350016593933
-        ]
-      ]
-    },
-    {
-      "id": "heart_17",
-      "label": "Ramo inferolateral direito da coronária direita",
-      "sourceName": "Right inferolateral branch of right coronary artery",
-      "group": "coronarias",
-      "color": "#dc8870",
-      "note": "Nome traduzido do arquivo original. A equivalência de cada ramo com o roteiro requer conferência.",
-      "sourceFile": "CardioVascular41.fbx",
-      "source": "Z-Anatomy",
-      "license": "CC BY-SA 4.0",
-      "sourceNode": 499,
-      "requirement": {
-        "id": "102",
-        "label": "Ramo póstero-lateral direito",
-        "page": 4,
-        "source": "roteiro"
-      },
-      "vertices": 4244,
-      "triangles": 7556,
-      "bounds": [
-        [
-          0.023917336016893387,
-          -1.676867127418518,
-          -0.7423197627067566
-        ],
-        [
-          1.419945240020752,
-          -1.1722323894500732,
-          0.5642499923706055
-        ]
-      ]
-    },
-    {
-      "id": "heart_18",
-      "label": "Artéria coronária esquerda",
-      "sourceName": "Left coronary artery",
-      "group": "coronarias",
-      "color": "#dc8870",
-      "note": "Trecho inicial da coronária esquerda disponível no arquivo de origem.",
-      "sourceFile": "CardioVascular41.fbx",
-      "source": "Z-Anatomy",
-      "license": "CC BY-SA 4.0",
-      "sourceNode": 500,
-      "requirement": {
-        "id": "83",
-        "label": "Artéria coronária esquerda",
-        "page": 3,
-        "source": "roteiro"
-      },
-      "vertices": 143,
-      "triangles": 236,
-      "bounds": [
-        [
-          0.02426828071475029,
-          0.4248303472995758,
-          -0.020248806104063988
-        ],
-        [
-          0.40724343061447144,
-          0.6957523226737976,
-          0.15835662186145782
-        ]
-      ]
-    },
-    {
-      "id": "heart_19",
-      "label": "Ramo interventricular anterior",
-      "sourceName": "Anterior interventricular artery",
-      "group": "coronarias",
-      "color": "#dc8870",
-      "note": "Peça arterial original. Explore sua relação com a face anterior dos ventrículos.",
-      "sourceFile": "CardioVascular41.fbx",
-      "source": "Z-Anatomy",
-      "license": "CC BY-SA 4.0",
-      "sourceNode": 502,
-      "requirement": {
-        "id": "103",
-        "label": "Ramo interventricular anterior",
-        "page": 4,
-        "source": "roteiro"
-      },
-      "vertices": 2635,
-      "triangles": 4722,
-      "bounds": [
-        [
-          0.37689128518104553,
-          -1.5395817756652832,
-          0.06898657232522964
-        ],
-        [
-          1.3570165634155273,
-          0.5097274780273438,
-          1.4804080724716187
-        ]
-      ]
-    },
-    {
-      "id": "heart_20",
-      "label": "Ramo circunflexo",
-      "sourceName": "Circumflex artery of heart",
-      "group": "coronarias",
-      "color": "#dc8870",
-      "note": "Conjunto arterial original; alguns ramos permanecem unidos nesta mesma peça.",
-      "sourceFile": "CardioVascular41.fbx",
-      "source": "Z-Anatomy",
-      "license": "CC BY-SA 4.0",
-      "sourceNode": 501,
-      "requirement": {
-        "id": "104",
-        "label": "Ramo circunflexo",
-        "page": 4,
-        "source": "roteiro"
-      },
-      "vertices": 3738,
-      "triangles": 6730,
-      "bounds": [
-        [
-          0.37689149379730225,
-          -1.3621879816055298,
-          -0.7815505266189575
-        ],
-        [
-          1.5040485858917236,
-          0.5097268223762512,
-          0.6560717225074768
-        ]
-      ]
-    },
-    {
-      "id": "heart_21",
-      "label": "Ramos septais do interventricular anterior",
-      "sourceName": "Septal branches of anterior interventricular artery",
-      "group": "coronarias",
-      "color": "#dc8870",
-      "note": "Conjunto de ramos em uma única malha. Pode ficar encoberto pelas paredes ventriculares.",
-      "sourceFile": "CardioVascular41.fbx",
-      "source": "Z-Anatomy",
-      "license": "CC BY-SA 4.0",
-      "sourceNode": 503,
-      "requirement": {
-        "id": "103b",
-        "label": "Ramos interventriculares septais do ramo interventricular anterior",
-        "page": 4,
-        "source": "roteiro"
-      },
-      "vertices": 1631,
-      "triangles": 2832,
-      "bounds": [
-        [
-          0.596492350101471,
-          -0.90452641248703,
-          0.5427117347717285
-        ],
-        [
-          0.9051860570907593,
-          0.07298928499221802,
-          1.3455655574798584
-        ]
-      ]
-    },
-    {
-      "id": "heart_22",
-      "label": "Seio coronário",
-      "sourceName": "Coronary sinus",
-      "group": "veias",
-      "color": "#7597b1",
-      "note": "Explore pela vista posterior. A abertura no átrio direito não está individualizada.",
-      "sourceFile": "CardioVascular41.fbx",
-      "source": "Z-Anatomy",
-      "license": "CC BY-SA 4.0",
-      "sourceNode": 751,
-      "requirement": {
-        "id": "30k",
-        "label": "Seio coronário",
-        "page": 2,
-        "source": "roteiro"
-      },
-      "vertices": 332,
-      "triangles": 590,
-      "bounds": [
-        [
-          -0.6180643439292908,
-          -1.1079856157302856,
-          -0.9456294178962708
-        ],
-        [
-          0.707318127155304,
-          -0.5190606713294983,
-          -0.046826090663671494
-        ]
-      ]
-    },
-    {
-      "id": "heart_23",
-      "label": "Veia cardíaca magna",
-      "sourceName": "Great cardiac vein",
-      "group": "veias",
-      "color": "#7597b1",
-      "note": "Peça venosa original, selecionável independentemente das artérias.",
-      "sourceFile": "CardioVascular41.fbx",
-      "source": "Z-Anatomy",
-      "license": "CC BY-SA 4.0",
-      "sourceNode": 752,
-      "requirement": {
-        "id": "106",
-        "label": "Veia cardíaca magna",
-        "page": 4,
-        "source": "roteiro"
-      },
-      "vertices": 3363,
-      "triangles": 6021,
-      "bounds": [
-        [
-          0.501446545124054,
-          -1.5644441843032837,
-          -0.9008480310440063
-        ],
-        [
-          1.4401096105575562,
-          0.35187771916389465,
-          1.4369264841079712
-        ]
-      ]
-    },
-    {
-      "id": "heart_24",
-      "label": "Veia cardíaca média",
-      "sourceName": "Middle cardiac vein",
-      "group": "veias",
-      "color": "#7597b1",
-      "note": "Explore sua relação com a face posterior do coração.",
-      "sourceFile": "CardioVascular41.fbx",
-      "source": "Z-Anatomy",
-      "license": "CC BY-SA 4.0",
-      "sourceNode": 754,
-      "requirement": {
-        "id": "111",
-        "label": "Veia interventricular posterior (cardíaca média)",
-        "page": 4,
-        "source": "roteiro"
-      },
-      "vertices": 7304,
-      "triangles": 13106,
-      "bounds": [
-        [
-          -0.44845807552337646,
-          -1.6996026039123535,
-          -0.24047711491584778
-        ],
-        [
-          1.3373188972473145,
-          -0.875216543674469,
-          1.0129384994506836
-        ]
-      ]
-    },
-    {
-      "id": "heart_25",
-      "label": "Veia inferior do ventrículo esquerdo",
-      "sourceName": "Inferior vein of left ventricle (//Posterior '')",
-      "group": "veias",
-      "color": "#7597b1",
-      "note": "Nome do modelo de origem: veia inferior, também indicada nele como posterior.",
-      "sourceFile": "CardioVascular41.fbx",
-      "source": "Z-Anatomy",
-      "license": "CC BY-SA 4.0",
-      "sourceNode": 755,
-      "requirement": {
-        "id": "110",
-        "label": "Veia posterior do ventrículo esquerdo",
-        "page": 4,
-        "source": "roteiro"
-      },
-      "vertices": 5077,
-      "triangles": 9092,
-      "bounds": [
-        [
-          -0.0377427376806736,
-          -1.687802791595459,
-          -0.7679658532142639
-        ],
-        [
-          1.4370843172073364,
-          -1.0254237651824951,
-          0.6929903626441956
-        ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_26",
-      "label": "Tricúspide · cúspide inferior/posterior",
+      "label": "Tricúspide · cúspide posterior",
       "sourceName": "Inferior leaflet of right atrioventricular valve",
       "group": "valvas",
       "color": "#ead4af",
-      "note": "Folheto com cordas incorporadas. O conjunto tricúspide desta cena está incompleto: falta a cúspide anterior.",
+      "note": "Cúspide com cordas incorporadas. Use a vista superior e observe suas relações com os outros folhetos e os músculos papilares. Inserções finas ainda em revisão.",
       "sourceFile": "Startup.blend",
       "source": "Z-Anatomy",
       "license": "CC BY-SA 4.0",
@@ -858,7 +586,14 @@
           -0.6216777563095093,
           0.7238461375236511
         ]
-      ]
+      ],
+      "aliases": [
+        "cúspide inferior",
+        "válvula posterior"
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_27",
@@ -866,7 +601,7 @@
       "sourceName": "Septal leaflet of right atrioventricular valve",
       "group": "valvas",
       "color": "#ead4af",
-      "note": "Folheto com cordas incorporadas. O conjunto tricúspide desta cena está incompleto: falta a cúspide anterior.",
+      "note": "Cúspide com cordas incorporadas. Use a vista superior e observe suas relações com os outros folhetos e os músculos papilares. Inserções finas ainda em revisão.",
       "sourceFile": "Startup.blend",
       "source": "Z-Anatomy",
       "license": "CC BY-SA 4.0",
@@ -890,7 +625,10 @@
           -0.09870660305023193,
           0.5299130082130432
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_28",
@@ -898,7 +636,7 @@
       "sourceName": "Posterior leaflet of left atrioventricular valve",
       "group": "valvas",
       "color": "#ead4af",
-      "note": "Folheto com cordas incorporadas. A cúspide anterior ainda não está integrada a esta cena.",
+      "note": "Cúspide com cordas incorporadas. Use a vista superior e observe suas relações com os outros folhetos e os músculos papilares. Inserções finas ainda em revisão.",
       "sourceFile": "Startup.blend",
       "source": "Z-Anatomy",
       "license": "CC BY-SA 4.0",
@@ -922,7 +660,10 @@
           -0.22041034698486328,
           0.15618431568145752
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_29",
@@ -954,7 +695,10 @@
           0.4594610929489136,
           0.45686066150665283
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_30",
@@ -986,7 +730,10 @@
           0.48778223991394043,
           0.3039085268974304
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_31",
@@ -1018,7 +765,10 @@
           0.43802130222320557,
           0.2302396446466446
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_32",
@@ -1050,7 +800,10 @@
           0.5454407930374146,
           1.0942996740341187
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_33",
@@ -1082,7 +835,10 @@
           0.6442593336105347,
           1.0239421129226685
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_34",
@@ -1114,7 +870,10 @@
           0.5516217947006226,
           0.6465795040130615
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_35",
@@ -1146,11 +905,14 @@
           -0.8097125291824341,
           1.4322799444198608
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_36",
-      "label": "VD · músculo papilar inferior/posterior",
+      "label": "VD · músculo papilar posterior",
       "sourceName": "Inferior papillary muscle of right ventricle",
       "group": "papilares",
       "color": "#cf9982",
@@ -1178,7 +940,13 @@
           -1.2239141464233398,
           1.1163487434387207
         ]
-      ]
+      ],
+      "aliases": [
+        "músculo papilar inferior"
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_37",
@@ -1210,15 +978,18 @@
           0.0011281967163085938,
           0.6806726455688477
         ]
-      ]
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
     },
     {
       "id": "heart_38",
-      "label": "VE · músculo papilar inferior/posterior",
+      "label": "VE · músculo papilar posterior",
       "sourceName": "Inferior papillary muscle of left ventricle",
       "group": "papilares",
       "color": "#cf9982",
-      "note": "O outro grupo papilar esquerdo não está integrado nesta cena.",
+      "note": "Músculo papilar posterior do VE; inferior no nome da fonte. A peça anterior disponível representa apenas uma porção e continua indicada como parcial.",
       "sourceFile": "Startup.blend",
       "source": "Z-Anatomy",
       "license": "CC BY-SA 4.0",
@@ -1242,14 +1013,1776 @@
           -0.5696607828140259,
           0.7676465511322021
         ]
+      ],
+      "aliases": [
+        "músculo papilar inferior"
+      ],
+      "sourceAliases": [],
+      "quizEligible": true,
+      "correspondence": "associated"
+    },
+    {
+      "id": "bp_FJ2421",
+      "label": "Tricúspide · cúspide anterior",
+      "sourceName": "anterior leaflet of tricuspid valve",
+      "sourceAliases": [],
+      "group": "valvas",
+      "color": "#ead4af",
+      "note": "Cúspide com cordas incorporadas, registrada a partir de peças comuns aos dois acervos. Cada inserção das cordas e a coaptação ainda precisam de conferência.",
+      "sourceFile": "FJ2421 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA7238",
+      "sourceElements": [
+        "FJ2421"
+      ],
+      "sourceGeometrySha256": "67b11f12459764ded4fdd54abede7db7ce32706a9637d1ff90b65ee4b8e5d81c",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "46a",
+        "label": "Valva tricúspide: válvula anterior",
+        "page": 2,
+        "source": "roteiro"
+      },
+      "vertices": 4068,
+      "triangles": 8160,
+      "bounds": [
+        [
+          -1.0295140743255615,
+          -1.0899865627288818,
+          0.30944010615348816
+        ],
+        [
+          0.1146007552742958,
+          -0.10432712733745575,
+          1.0090640783309937
+        ]
       ]
+    },
+    {
+      "id": "bp_FJ2420",
+      "label": "Mitral · cúspide anterior",
+      "sourceName": "anterior leaflet of mitral valve",
+      "sourceAliases": [],
+      "group": "valvas",
+      "color": "#ead4af",
+      "note": "Cúspide com cordas incorporadas, registrada a partir de peças comuns aos dois acervos. Cada inserção das cordas e a coaptação ainda precisam de conferência.",
+      "sourceFile": "FJ2420 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA7242",
+      "sourceElements": [
+        "FJ2420"
+      ],
+      "sourceGeometrySha256": "210474daaa2538376fb9bc547cf31c70ab93cc9a3948e5b166aa0ab676b59b59",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "58a",
+        "label": "Valva mitral: válvula anterior",
+        "page": 3,
+        "source": "roteiro"
+      },
+      "vertices": 3757,
+      "triangles": 7558,
+      "bounds": [
+        [
+          -0.1820322871208191,
+          -0.9257511496543884,
+          -0.6233597993850708
+        ],
+        [
+          0.700951337814331,
+          -0.11162278056144714,
+          0.6299538016319275
+        ]
+      ]
+    },
+    {
+      "id": "bp_FJ2418",
+      "label": "VE · cabeça anterolateral de músculo papilar (porção)",
+      "sourceName": "anterolateral head of lateral papillary muscle of left ventricle",
+      "sourceAliases": [],
+      "group": "papilares",
+      "color": "#cf9982",
+      "note": "A fonte identifica uma cabeça anterolateral. É uma porção do aparelho papilar esquerdo; não equivale, por si só, ao grupo muscular anterior completo do roteiro.",
+      "sourceFile": "FJ2418 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA7265",
+      "sourceElements": [
+        "FJ2418"
+      ],
+      "sourceGeometrySha256": "92af8f367ff33ce0f8cb90d6b0b71808a70bcb9f1fc2ec729913f861fb2f9a0f",
+      "correspondence": "partial",
+      "quizEligible": false,
+      "requirement": {
+        "id": "59",
+        "label": "Músculo papilar anterior do VE",
+        "page": 3,
+        "source": "roteiro"
+      },
+      "vertices": 412,
+      "triangles": 816,
+      "bounds": [
+        [
+          0.33016130328178406,
+          -1.2532073259353638,
+          0.18757055699825287
+        ],
+        [
+          0.97708660364151,
+          -0.40460988879203796,
+          1.1055364608764648
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA3802",
+      "label": "Coronária direita · tronco",
+      "sourceName": "trunk of right coronary artery",
+      "sourceAliases": [
+        "Right coronary artery"
+      ],
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA3802 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA3802",
+      "sourceElements": [
+        "FJ2723"
+      ],
+      "sourceGeometrySha256": "de918f99787f40b3147672a79ca83639de93507d5f332fb01eb7e4150b3bc150",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "81",
+        "label": "Artéria coronária direita",
+        "page": 3,
+        "source": "roteiro"
+      },
+      "vertices": 2253,
+      "triangles": 4502,
+      "bounds": [
+        [
+          -1.0469636917114258,
+          -1.3515549898147583,
+          -0.61922287940979
+        ],
+        [
+          0.05063948780298233,
+          0.5373028516769409,
+          1.169967770576477
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA3855",
+      "label": "Coronária esquerda · tronco",
+      "sourceName": "trunk of left coronary artery",
+      "sourceAliases": [
+        "Left coronary artery"
+      ],
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA3855 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA3855",
+      "sourceElements": [
+        "FJ2737"
+      ],
+      "sourceGeometrySha256": "7c8d16cfa3518624d186da91925afa60be78d64ea8870e179c3088707cfaeb9d",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "83",
+        "label": "Artéria coronária esquerda",
+        "page": 3,
+        "source": "roteiro"
+      },
+      "vertices": 104,
+      "triangles": 204,
+      "bounds": [
+        [
+          0.12043638527393341,
+          0.35354650020599365,
+          0.0027499739080667496
+        ],
+        [
+          0.40501222014427185,
+          0.5312955975532532,
+          0.1608271449804306
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA3807",
+      "label": "Ramo do cone arterial direito",
+      "sourceName": "right conus artery",
+      "sourceAliases": [],
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA3807 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA3807",
+      "sourceElements": [
+        "FJ2670",
+        "FJ2676"
+      ],
+      "sourceGeometrySha256": "89447eaa09d55dc2d4e02d2e1fd4b8d61b1036f037008b16f5ad75b2444cc880",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "96",
+        "label": "Ramo do cone arterial da coronária direita",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 377,
+      "triangles": 746,
+      "bounds": [
+        [
+          -0.3028440773487091,
+          0.17353759706020355,
+          0.888494074344635
+        ],
+        [
+          0.36162665486335754,
+          0.4857514202594757,
+          1.354322075843811
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA3815",
+      "label": "Ramos ventriculares anteriores direitos · não marginais",
+      "sourceName": "first anterior ventricular branch of right coronary artery",
+      "sourceAliases": [],
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Ramos anteriores sem o ramo marginal, que tem sua própria seleção nesta cena. Para estudar o conjunto completo, observe também o item 98.",
+      "sourceFile": "FMA3815 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA3815",
+      "sourceElements": [
+        "FJ2671",
+        "FJ2673",
+        "FJ2677"
+      ],
+      "sourceGeometrySha256": "e80ace91a1582e2bdb86469f534457ae5abf8bb79f673422c67c9e6a1e627aeb",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "97",
+        "label": "Ramo ventricular anterior direito",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 540,
+      "triangles": 1068,
+      "bounds": [
+        [
+          -0.4734121859073639,
+          -0.4671744108200073,
+          1.0865647792816162
+        ],
+        [
+          0.3986167013645172,
+          0.13293428719043732,
+          1.5318024158477783
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA3818",
+      "label": "Ramo marginal direito",
+      "sourceName": "marginal branch of right coronary artery",
+      "sourceAliases": [],
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA3818 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA3818",
+      "sourceElements": [
+        "FJ2667",
+        "FJ2668",
+        "FJ2672",
+        "FJ2674",
+        "FJ2675"
+      ],
+      "sourceGeometrySha256": "7d3175059859f5149b695500c5033f055840f5a15aceb098ebe60c0e1a470cf7",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "98",
+        "label": "Ramo marginal direito",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 911,
+      "triangles": 1802,
+      "bounds": [
+        [
+          -0.8539316058158875,
+          -1.1869213581085205,
+          1.0682371854782104
+        ],
+        [
+          0.4380006194114685,
+          -0.5210238695144653,
+          1.4652694463729858
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA3840",
+      "label": "Ramo interventricular posterior",
+      "sourceName": "posterior interventricular branch of right coronary artery",
+      "sourceAliases": [],
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA3840 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA3840",
+      "sourceElements": [
+        "FJ2692",
+        "FJ2693",
+        "FJ2694",
+        "FJ2695",
+        "FJ2696",
+        "FJ2697",
+        "FJ2698",
+        "FJ2699",
+        "FJ2700"
+      ],
+      "sourceGeometrySha256": "7b64a740f73d82d1d498c9a7b30762bd33ce07d4943084056445a0835c410c14",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "100",
+        "label": "Ramo interventricular posterior",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 1777,
+      "triangles": 3518,
+      "bounds": [
+        [
+          -0.5084850788116455,
+          -1.6894687414169312,
+          0.008122868835926056
+        ],
+        [
+          1.2427034378051758,
+          -1.2621228694915771,
+          0.9970747232437134
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA3845",
+      "label": "Ramos septais do interventricular posterior",
+      "sourceName": "septal branch of right posterior interventricular artery",
+      "sourceAliases": [],
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA3845 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA3845",
+      "sourceElements": [
+        "FJ2735",
+        "FJ2736"
+      ],
+      "sourceGeometrySha256": "c88c035c9547465bb37898fd04daee1fe55bbbb55090d83d131a247838278e7f",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "101",
+        "label": "Ramos interventriculares septais da coronária direita",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 330,
+      "triangles": 652,
+      "bounds": [
+        [
+          -0.24532099068164825,
+          -1.5811742544174194,
+          0.0364372581243515
+        ],
+        [
+          0.290228933095932,
+          -1.043639898300171,
+          0.37629178166389465
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA3835",
+      "label": "Ramos ventriculares posteriores direitos",
+      "sourceName": "posterior ventricular branch of right coronary artery",
+      "sourceAliases": [],
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Conjunto de ramos ventriculares posteriores da coronária direita. A equivalência com o ramo póstero-lateral direito do roteiro ainda precisa ser delimitada.",
+      "sourceFile": "FMA3835 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA3835",
+      "sourceElements": [
+        "FJ2714",
+        "FJ2715",
+        "FJ2716",
+        "FJ2717",
+        "FJ2718",
+        "FJ2719",
+        "FJ2720",
+        "FJ2721",
+        "FJ2722"
+      ],
+      "sourceGeometrySha256": "47d685451dfdf8e352fedeb4ca268b0aba3011a0e8e167d734ceff578c4b7918",
+      "correspondence": "partial",
+      "quizEligible": false,
+      "requirement": {
+        "id": "102",
+        "label": "Ramo póstero-lateral direito",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 1541,
+      "triangles": 3046,
+      "bounds": [
+        [
+          0.014472953043878078,
+          -1.6725420951843262,
+          -0.7399659156799316
+        ],
+        [
+          1.4162834882736206,
+          -1.1682007312774658,
+          0.5640040040016174
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA74912",
+      "label": "Ramo interventricular anterior · tronco",
+      "sourceName": "trunk of anterior interventricular branch of left coronary artery",
+      "sourceAliases": [
+        "Anterior interventricular artery"
+      ],
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA74912 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA74912",
+      "sourceElements": [
+        "FJ2631"
+      ],
+      "sourceGeometrySha256": "f1eaaf7e6654b054155a0a402f9554e026daeab1bb4fcd07d55471aaf7697b0a",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "103",
+        "label": "Ramo interventricular anterior",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 1518,
+      "triangles": 3032,
+      "bounds": [
+        [
+          0.37626445293426514,
+          -1.5706754922866821,
+          0.07419411838054657
+        ],
+        [
+          1.164202094078064,
+          0.44836652278900146,
+          1.3111897706985474
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA3868",
+      "label": "Ramo do cone do interventricular anterior",
+      "sourceName": "conus branch of anterior interventricular branch of left coronary artery",
+      "sourceAliases": [],
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA3868 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA3868",
+      "sourceElements": [
+        "FJ2643",
+        "FJ2644"
+      ],
+      "sourceGeometrySha256": "db824f59877b5f62353c3d72a7c82040c66ba859e5e862066b522b084d9d8c24",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "103a",
+        "label": "Ramo do cone arterial do ramo interventricular anterior",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 396,
+      "triangles": 784,
+      "bounds": [
+        [
+          0.26083362102508545,
+          -0.02409500442445278,
+          0.6681976318359375
+        ],
+        [
+          0.8185420632362366,
+          0.17330153286457062,
+          1.4099411964416504
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA3892",
+      "label": "Ramos septais do interventricular anterior",
+      "sourceName": "septal branch of anterior interventricular artery",
+      "sourceAliases": [
+        "Septal branches of anterior interventricular artery"
+      ],
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA3892 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA3892",
+      "sourceElements": [
+        "FJ2732",
+        "FJ2733",
+        "FJ2734"
+      ],
+      "sourceGeometrySha256": "564b53f8370ad7cd8c33a02bd41d4744dbf5038e958cb4cdb7d6e5d2fd325993",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "103b",
+        "label": "Ramos interventriculares septais do ramo interventricular anterior",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 578,
+      "triangles": 1144,
+      "bounds": [
+        [
+          0.5997158288955688,
+          -0.9072925448417664,
+          0.5383865833282471
+        ],
+        [
+          0.9549320936203003,
+          0.0807085707783699,
+          1.2787996530532837
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA3860",
+      "label": "Ramo lateral (diagonal) do interventricular anterior",
+      "sourceName": "diagonal branch of anterior descending branch of left coronary artery",
+      "sourceAliases": [],
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA3860 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA3860",
+      "sourceElements": [
+        "FJ2633",
+        "FJ2634",
+        "FJ2635",
+        "FJ2636",
+        "FJ2637",
+        "FJ2638",
+        "FJ2639",
+        "FJ2640",
+        "FJ2642",
+        "FJ2648"
+      ],
+      "sourceGeometrySha256": "64f2d424761c6ac807d8fe253bdd7d4de76efe3bf38f35938b16c73461c2000d",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "103c",
+        "label": "Ramo lateral (diagonal) do ramo interventricular anterior",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 2012,
+      "triangles": 3984,
+      "bounds": [
+        [
+          0.8093711733818054,
+          -1.5729024410247803,
+          0.06389954686164856
+        ],
+        [
+          1.566495418548584,
+          0.08534419536590576,
+          1.3139313459396362
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA3895",
+      "label": "Ramo circunflexo · conjunto da fonte",
+      "sourceName": "circumflex branch of left coronary artery",
+      "sourceAliases": [
+        "Circumflex artery of heart"
+      ],
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Conjunto circunflexo da fonte. Ramos atriais, laterais e marginais não estão todos individualizados; não considere seus detalhes concluídos apenas por esta peça existir.",
+      "sourceFile": "FMA3895 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA3895",
+      "sourceElements": [
+        "FJ2649",
+        "FJ2650",
+        "FJ2651",
+        "FJ2652",
+        "FJ2653",
+        "FJ2654"
+      ],
+      "sourceGeometrySha256": "2f2bbf692f8d3c919c76c158ecf668fb8f5a2f5a64d72b86787456de45565b90",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "104",
+        "label": "Ramo circunflexo",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 1521,
+      "triangles": 3018,
+      "bounds": [
+        [
+          0.40371641516685486,
+          -1.3565701246261597,
+          -0.7818427681922913
+        ],
+        [
+          1.5001786947250366,
+          0.41451841592788696,
+          0.6607088446617126
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA3870",
+      "label": "Ramos anteriores direitos do interventricular anterior",
+      "sourceName": "right anterior branch of anterior interventricular branch of left coronary artery",
+      "sourceAliases": [],
+      "group": "coronarias",
+      "color": "#dc8870",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA3870 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA3870",
+      "sourceElements": [
+        "FJ2632",
+        "FJ2641",
+        "FJ2645",
+        "FJ2646",
+        "FJ2647"
+      ],
+      "sourceGeometrySha256": "98d8bd18e668574ffcb511fbf8df1783d9721ef2d57f2385dcbfbdf29579f6ae",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": null,
+      "vertices": 832,
+      "triangles": 1644,
+      "bounds": [
+        [
+          0.47527027130126953,
+          -1.5155540704727173,
+          0.9161539673805237
+        ],
+        [
+          0.926605224609375,
+          -0.12446872889995575,
+          1.434418797492981
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA4706",
+      "label": "Seio coronário",
+      "sourceName": "coronary sinus",
+      "sourceAliases": [
+        "Coronary sinus"
+      ],
+      "group": "veias",
+      "color": "#7597b1",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA4706 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA4706",
+      "sourceElements": [
+        "FJ2655"
+      ],
+      "sourceGeometrySha256": "d2518f358030dd4d8e0fc19d48e89d507b15deaf02001593a4e6ea4b0c5c2f7b",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "30k",
+        "label": "Seio coronário",
+        "page": 2,
+        "source": "roteiro"
+      },
+      "vertices": 314,
+      "triangles": 624,
+      "bounds": [
+        [
+          -0.6275455355644226,
+          -1.10407555103302,
+          -0.9339441657066345
+        ],
+        [
+          0.6332123279571533,
+          -0.6085671782493591,
+          -0.04344398155808449
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA66403",
+      "label": "Veia interventricular anterior",
+      "sourceName": "anterior interventricular vein",
+      "sourceAliases": [],
+      "group": "veias",
+      "color": "#7597b1",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA66403 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA66403",
+      "sourceElements": [
+        "FJ2657",
+        "FJ2658",
+        "FJ2659",
+        "FJ2660",
+        "FJ2661",
+        "FJ2662",
+        "FJ2663",
+        "FJ2664",
+        "FJ2665"
+      ],
+      "sourceGeometrySha256": "9aa23d11f3ef72272bac66b718ef37790802ad915d0959f6ae2b63fe7d1a807a",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "105",
+        "label": "Veia interventricular anterior",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 1672,
+      "triangles": 3308,
+      "bounds": [
+        [
+          0.5039379596710205,
+          -1.563123106956482,
+          0.17889276146888733
+        ],
+        [
+          1.4431620836257935,
+          0.3286215662956238,
+          1.4354095458984375
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA4707",
+      "label": "Veia cardíaca magna · segmento da fonte",
+      "sourceName": "great cardiac vein",
+      "sourceAliases": [
+        "Great cardiac vein"
+      ],
+      "group": "veias",
+      "color": "#7597b1",
+      "note": "Segmento da veia cardíaca magna. A continuidade interventricular anterior tem seleção própria no item 105.",
+      "sourceFile": "FMA4707 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA4707",
+      "sourceElements": [
+        "FJ2656"
+      ],
+      "sourceGeometrySha256": "f22e74b5c048f222752275d198d4b3aa4fbf556baac3dffe025193c98e80b30d",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "106",
+        "label": "Veia cardíaca magna",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 415,
+      "triangles": 826,
+      "bounds": [
+        [
+          0.5464199185371399,
+          -0.6836013197898865,
+          -0.9127515554428101
+        ],
+        [
+          0.7706770896911621,
+          0.34067556262016296,
+          0.24991174042224884
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA4708",
+      "label": "Veia marginal esquerda",
+      "sourceName": "left marginal vein",
+      "sourceAliases": [],
+      "group": "veias",
+      "color": "#7597b1",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA4708 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA4708",
+      "sourceElements": [
+        "FJ2703",
+        "FJ2704",
+        "FJ2705"
+      ],
+      "sourceGeometrySha256": "ffcfded5f6cd5d0e6af5f08317db7e0818829329fdb0f14d2fb5e021e51fc4a2",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "109",
+        "label": "Veia marginal esquerda",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 745,
+      "triangles": 1478,
+      "bounds": [
+        [
+          0.556069016456604,
+          -1.3728389739990234,
+          -0.89079749584198
+        ],
+        [
+          1.5159145593643188,
+          -0.5907992124557495,
+          0.5629207491874695
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA4712",
+      "label": "Veias posteriores do ventrículo esquerdo",
+      "sourceName": "posterior vein of left ventricle",
+      "sourceAliases": [
+        "Inferior vein of left ventricle (//Posterior '')"
+      ],
+      "group": "veias",
+      "color": "#7597b1",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA4712 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA4712",
+      "sourceElements": [
+        "FJ2701",
+        "FJ2702",
+        "FJ2706",
+        "FJ2707",
+        "FJ2708",
+        "FJ2709",
+        "FJ2710",
+        "FJ2711",
+        "FJ2712",
+        "FJ2713"
+      ],
+      "sourceGeometrySha256": "4c837c44b9f44d1e803330d45c18202ea698f3b9db17d8931d9c64bd8f7803bf",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "110",
+        "label": "Veia posterior do ventrículo esquerdo",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 1875,
+      "triangles": 3710,
+      "bounds": [
+        [
+          -0.0669243261218071,
+          -1.684696912765503,
+          -0.7677459120750427
+        ],
+        [
+          1.4839059114456177,
+          -1.0089133977890015,
+          0.6971679329872131
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA4713",
+      "label": "Veia interventricular posterior (cardíaca média)",
+      "sourceName": "middle cardiac vein",
+      "sourceAliases": [
+        "Middle cardiac vein"
+      ],
+      "group": "veias",
+      "color": "#7597b1",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA4713 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA4713",
+      "sourceElements": [
+        "FJ2678",
+        "FJ2679",
+        "FJ2680",
+        "FJ2681",
+        "FJ2682",
+        "FJ2683",
+        "FJ2684",
+        "FJ2685",
+        "FJ2686",
+        "FJ2687",
+        "FJ2688",
+        "FJ2689",
+        "FJ2690",
+        "FJ2691"
+      ],
+      "sourceGeometrySha256": "2e25489485fdf5213b2b1967af604e3ca11daa9d44fda93844adca8155e498f6",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "111",
+        "label": "Veia interventricular posterior (cardíaca média)",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 2342,
+      "triangles": 4628,
+      "bounds": [
+        [
+          -0.44363439083099365,
+          -1.6995139122009277,
+          -0.2390567660331726
+        ],
+        [
+          1.3388476371765137,
+          -0.8486345410346985,
+          1.0138897895812988
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA4716",
+      "label": "Veia marginal direita",
+      "sourceName": "right marginal vein",
+      "sourceAliases": [],
+      "group": "veias",
+      "color": "#7597b1",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA4716 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA4716",
+      "sourceElements": [
+        "FJ2727",
+        "FJ2728",
+        "FJ2729"
+      ],
+      "sourceGeometrySha256": "0de0dbba39ae46eaec0e49bf1c16064e34241259e000fe4d71117166c9135551",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "112",
+        "label": "Veia marginal direita",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 743,
+      "triangles": 1474,
+      "bounds": [
+        [
+          -1.0211493968963623,
+          -1.5920662879943848,
+          0.8041133880615234
+        ],
+        [
+          0.9314253330230713,
+          -0.6834028363227844,
+          1.4250843524932861
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA4714",
+      "label": "Veia cardíaca parva",
+      "sourceName": "small cardiac vein",
+      "sourceAliases": [],
+      "group": "veias",
+      "color": "#7597b1",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA4714 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA4714",
+      "sourceElements": [
+        "FJ2724",
+        "FJ2731"
+      ],
+      "sourceGeometrySha256": "ac1dfb51215f9b696f5d13e0662b34e5847dc9dcc4ff4154fc7488ec918787c1",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "113",
+        "label": "Veia cardíaca parva",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 735,
+      "triangles": 1462,
+      "bounds": [
+        [
+          -1.0234460830688477,
+          -1.3862453699111938,
+          -0.07516194134950638
+        ],
+        [
+          -0.3303525447845459,
+          0.02192630246281624,
+          1.1166503429412842
+        ]
+      ]
+    },
+    {
+      "id": "bp_FMA76767",
+      "label": "Veias anteriores do ventrículo direito",
+      "sourceName": "anterior cardiac vein",
+      "sourceAliases": [],
+      "group": "veias",
+      "color": "#7597b1",
+      "note": "Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.",
+      "sourceFile": "FMA76767 · BodyParts3D 4.0",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "fma": "FMA76767",
+      "sourceElements": [
+        "FJ2725",
+        "FJ2730"
+      ],
+      "sourceGeometrySha256": "fc374f4c57b97e1b80d4f52225f89e7b0b07220da759ade71329cfe790e75150",
+      "correspondence": "associated",
+      "quizEligible": true,
+      "requirement": {
+        "id": "114",
+        "label": "Veias anteriores do ventrículo direito",
+        "page": 4,
+        "source": "roteiro"
+      },
+      "vertices": 369,
+      "triangles": 730,
+      "bounds": [
+        [
+          -0.577187180519104,
+          -0.4489041864871979,
+          1.0731844902038574
+        ],
+        [
+          0.2783856987953186,
+          0.06957827508449554,
+          1.5345070362091064
+        ]
+      ]
+    },
+    {
+      "id": "ctx_brachiocephalic_trunk",
+      "label": "Tronco braquiocefálico",
+      "sourceName": "Brachiocephalic trunk",
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "group": "contexto",
+      "color": "#b76560",
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual.",
+      "requirement": {
+        "id": "85",
+        "label": "Tronco braquiocefálico",
+        "source": "roteiro",
+        "page": 3
+      },
+      "vertices": 144,
+      "triangles": 236,
+      "bounds": [
+        [
+          -0.9748974442481995,
+          1.9180667400360107,
+          -0.33080050349235535
+        ],
+        [
+          -0.07495877891778946,
+          2.756544589996338,
+          0.057376205921173096
+        ]
+      ],
+      "defaultVisible": false,
+      "correspondence": "associated",
+      "quizEligible": false,
+      "kind": "arteria",
+      "sourceAliases": [],
+      "sourceNode": 324,
+      "sourceGeometrySha256": "d7bdb6b43a1d4cf1fe66447f5085d34b1aa3a7809524183e20586c043d6f1e9c"
+    },
+    {
+      "id": "ctx_right_common_carotid",
+      "label": "Artéria carótida comum direita",
+      "sourceName": "Right common carotid artery",
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "group": "contexto",
+      "color": "#b76560",
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual.",
+      "requirement": {
+        "id": "86",
+        "label": "Artéria carótida comum direita",
+        "source": "roteiro",
+        "page": 3
+      },
+      "vertices": 204,
+      "triangles": 354,
+      "bounds": [
+        [
+          -1.379794716835022,
+          2.620830535888672,
+          -0.6021929979324341
+        ],
+        [
+          -0.7665349841117859,
+          4.539417743682861,
+          0.0279142577201128
+        ]
+      ],
+      "defaultVisible": false,
+      "correspondence": "associated",
+      "quizEligible": false,
+      "kind": "arteria",
+      "sourceAliases": [],
+      "sourceNode": 4,
+      "sourceGeometrySha256": "59c0b948a1e9b6abb5d2f1e06ce8d262146f8daaf4bcd11509c06ff110b0ce6e"
+    },
+    {
+      "id": "ctx_right_subclavian",
+      "label": "Artéria subclávia direita",
+      "sourceName": "Right subclavian artery",
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "group": "contexto",
+      "color": "#b76560",
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual.",
+      "requirement": {
+        "id": "87",
+        "label": "Artéria subclávia direita",
+        "source": "roteiro",
+        "page": 3
+      },
+      "vertices": 205,
+      "triangles": 354,
+      "bounds": [
+        [
+          -2.5153605937957764,
+          2.579070568084717,
+          -0.6369945406913757
+        ],
+        [
+          -0.7817087173461914,
+          2.9634389877319336,
+          -0.02469327300786972
+        ]
+      ],
+      "defaultVisible": false,
+      "correspondence": "associated",
+      "quizEligible": false,
+      "kind": "arteria",
+      "sourceAliases": [],
+      "sourceNode": 72,
+      "sourceGeometrySha256": "c67f027224700030d6a15614e0b2037b4ef9084cc5f8485b485634dca29161ba"
+    },
+    {
+      "id": "ctx_left_common_carotid",
+      "label": "Artéria carótida comum esquerda",
+      "sourceName": "Left common carotid artery",
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "group": "contexto",
+      "color": "#b76560",
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual.",
+      "requirement": {
+        "id": "88",
+        "label": "Artéria carótida comum esquerda",
+        "source": "roteiro",
+        "page": 3
+      },
+      "vertices": 270,
+      "triangles": 472,
+      "bounds": [
+        [
+          -0.19109578430652618,
+          2.2552502155303955,
+          -0.6047929525375366
+        ],
+        [
+          0.37981116771698,
+          4.5390706062316895,
+          -0.2528848648071289
+        ]
+      ],
+      "defaultVisible": false,
+      "correspondence": "associated",
+      "quizEligible": false,
+      "kind": "arteria",
+      "sourceAliases": [],
+      "sourceNode": 137,
+      "sourceGeometrySha256": "6d3d8be2d8ad0c3994398edb3b3fa91785f3d61b361f0c23542c7f4c4b5f1e02"
+    },
+    {
+      "id": "ctx_left_subclavian",
+      "label": "Artéria subclávia esquerda",
+      "sourceName": "Left subclavian artery",
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "group": "contexto",
+      "color": "#b76560",
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual.",
+      "requirement": {
+        "id": "89",
+        "label": "Artéria subclávia esquerda",
+        "source": "roteiro",
+        "page": 3
+      },
+      "vertices": 265,
+      "triangles": 472,
+      "bounds": [
+        [
+          -0.02240963838994503,
+          2.0990264415740967,
+          -0.720031201839447
+        ],
+        [
+          1.515644907951355,
+          3.0577521324157715,
+          -0.39200636744499207
+        ]
+      ],
+      "defaultVisible": false,
+      "correspondence": "associated",
+      "quizEligible": false,
+      "kind": "arteria",
+      "sourceAliases": [],
+      "sourceNode": 195,
+      "sourceGeometrySha256": "12a755d794e442505672bf0eeac1cc6f0cc465fef0d851bcb9632acd2b32eaa6"
+    },
+    {
+      "id": "ctx_right_internal_carotid",
+      "label": "Artéria carótida interna direita",
+      "sourceName": "Internal carotid artery.r",
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "group": "contexto",
+      "color": "#b76560",
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual. Inclui a extensão original do vaso cervical/cranial; não foi recortada nem ampliada por dados de outros vasos.",
+      "requirement": {
+        "id": "90",
+        "label": "Artéria carótida interna",
+        "source": "roteiro",
+        "page": 4
+      },
+      "vertices": 656,
+      "triangles": 1180,
+      "bounds": [
+        [
+          -1.4206957817077637,
+          4.516191482543945,
+          -0.6019115447998047
+        ],
+        [
+          -0.7268922924995422,
+          7.473173141479492,
+          0.1623060703277588
+        ]
+      ],
+      "defaultVisible": false,
+      "correspondence": "associated",
+      "quizEligible": false,
+      "kind": "arteria",
+      "sourceAliases": [],
+      "sourceNode": 33,
+      "sourceGeometrySha256": "11892bceb19ba3116223d0355b20e18889b3cb54fe8c40f88cc53d008d2b366b"
+    },
+    {
+      "id": "ctx_left_internal_carotid",
+      "label": "Artéria carótida interna esquerda",
+      "sourceName": "Internal carotid artery.l",
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "group": "contexto",
+      "color": "#b76560",
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual. Inclui a extensão original do vaso cervical/cranial; não foi recortada nem ampliada por dados de outros vasos.",
+      "requirement": {
+        "id": "90",
+        "label": "Artéria carótida interna",
+        "source": "roteiro",
+        "page": 4
+      },
+      "vertices": 656,
+      "triangles": 1180,
+      "bounds": [
+        [
+          -0.2731079161167145,
+          4.516191482543945,
+          -0.6019114255905151
+        ],
+        [
+          0.42069560289382935,
+          7.47317361831665,
+          0.16230596601963043
+        ]
+      ],
+      "defaultVisible": false,
+      "correspondence": "associated",
+      "quizEligible": false,
+      "kind": "arteria",
+      "sourceAliases": [],
+      "sourceNode": 166,
+      "sourceGeometrySha256": "8260048bf8a4a531cb2c044382795d34507968215ea86b863c73f2b88ba98ddb"
+    },
+    {
+      "id": "ctx_right_external_carotid",
+      "label": "Artéria carótida externa direita",
+      "sourceName": "External carotid artery.r",
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "group": "contexto",
+      "color": "#b76560",
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual. Inclui a extensão original do vaso cervical/cranial; não foi recortada nem ampliada por dados de outros vasos.",
+      "requirement": {
+        "id": "91",
+        "label": "Artéria carótida externa",
+        "source": "roteiro",
+        "page": 4
+      },
+      "vertices": 395,
+      "triangles": 708,
+      "bounds": [
+        [
+          -1.6488920450210571,
+          4.517637729644775,
+          -0.5896104574203491
+        ],
+        [
+          -1.1951885223388672,
+          6.398981094360352,
+          -0.32713088393211365
+        ]
+      ],
+      "defaultVisible": false,
+      "correspondence": "associated",
+      "quizEligible": false,
+      "kind": "arteria",
+      "sourceAliases": [],
+      "sourceNode": 5,
+      "sourceGeometrySha256": "a2bf10c3f67880a26c684289a92d36b5cf91ab2a0648a39b7780aa21ddfbd931"
+    },
+    {
+      "id": "ctx_left_external_carotid",
+      "label": "Artéria carótida externa esquerda",
+      "sourceName": "External carotid artery.l",
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "group": "contexto",
+      "color": "#b76560",
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual. Inclui a extensão original do vaso cervical/cranial; não foi recortada nem ampliada por dados de outros vasos.",
+      "requirement": {
+        "id": "91",
+        "label": "Artéria carótida externa",
+        "source": "roteiro",
+        "page": 4
+      },
+      "vertices": 395,
+      "triangles": 708,
+      "bounds": [
+        [
+          0.19518835842609406,
+          4.517637729644775,
+          -0.5896104574203491
+        ],
+        [
+          0.648891806602478,
+          6.398981094360352,
+          -0.32713091373443604
+        ]
+      ],
+      "defaultVisible": false,
+      "correspondence": "associated",
+      "quizEligible": false,
+      "kind": "arteria",
+      "sourceAliases": [],
+      "sourceNode": 138,
+      "sourceGeometrySha256": "ff2919f8ad21183d82dbbaf869741e69f0fe462b357a03a1e9ce50a7815077b5"
+    },
+    {
+      "id": "ctx_thoracic_aorta",
+      "label": "Aorta descendente torácica",
+      "sourceName": "Thoracic aorta",
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "group": "contexto",
+      "color": "#b76560",
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual.",
+      "requirement": {
+        "id": "92",
+        "label": "Aorta descendente torácica",
+        "source": "roteiro",
+        "page": 4
+      },
+      "vertices": 205,
+      "triangles": 354,
+      "bounds": [
+        [
+          -0.5134778618812561,
+          -2.497533082962036,
+          -1.7360286712646484
+        ],
+        [
+          0.27597132325172424,
+          1.512195348739624,
+          -0.5280764102935791
+        ]
+      ],
+      "defaultVisible": false,
+      "correspondence": "associated",
+      "quizEligible": false,
+      "kind": "arteria",
+      "sourceAliases": [],
+      "sourceNode": 325,
+      "sourceGeometrySha256": "634f6d9464347bf8b48a62b62bf65a5d116499fa4a95109c4cbf131ea4e99103"
+    },
+    {
+      "id": "ctx_abdominal_aorta",
+      "label": "Aorta descendente abdominal",
+      "sourceName": "Abdominal aorta",
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "group": "contexto",
+      "color": "#b76560",
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual. Segmento abdominal do roteiro; mostrar apenas quando o contexto vascular for ativado.",
+      "requirement": {
+        "id": "93",
+        "label": "Aorta descendente abdominal",
+        "source": "roteiro",
+        "page": 4
+      },
+      "vertices": 459,
+      "triangles": 826,
+      "bounds": [
+        [
+          -0.5942531228065491,
+          -6.909012794494629,
+          -0.9796239733695984
+        ],
+        [
+          -0.021721752360463142,
+          -2.3607265949249268,
+          0.5110018253326416
+        ]
+      ],
+      "defaultVisible": false,
+      "correspondence": "associated",
+      "quizEligible": false,
+      "kind": "arteria",
+      "sourceAliases": [],
+      "sourceNode": 331,
+      "sourceGeometrySha256": "43c9f6035807a5261f431faa9b023e2d0f8af7d88a8427f6c3d2cd36dbff6ddc"
+    },
+    {
+      "id": "ctx_right_musculophrenic",
+      "label": "Artéria musculofrênica direita",
+      "sourceName": "Musculophrenic artery.r",
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "group": "contexto",
+      "color": "#b76560",
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual.",
+      "requirement": {
+        "id": "116",
+        "label": "Artéria musculofrênica",
+        "source": "roteiro",
+        "page": 4
+      },
+      "vertices": 783,
+      "triangles": 1416,
+      "bounds": [
+        [
+          -3.350752353668213,
+          -5.845954418182373,
+          -0.5206792950630188
+        ],
+        [
+          -0.858238935470581,
+          -1.3805373907089233,
+          2.10068416595459
+        ]
+      ],
+      "defaultVisible": false,
+      "correspondence": "associated",
+      "quizEligible": false,
+      "kind": "arteria",
+      "sourceAliases": [],
+      "sourceNode": 94,
+      "sourceGeometrySha256": "e0568a0ad7fc286c52e4766123c03895f84de64cac9a6922bfc5cb728b68fcbe"
+    },
+    {
+      "id": "ctx_left_musculophrenic",
+      "label": "Artéria musculofrênica esquerda",
+      "sourceName": "Musculophrenic artery.l",
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "group": "contexto",
+      "color": "#b76560",
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual.",
+      "requirement": {
+        "id": "116",
+        "label": "Artéria musculofrênica",
+        "source": "roteiro",
+        "page": 4
+      },
+      "vertices": 783,
+      "triangles": 1416,
+      "bounds": [
+        [
+          -0.14176170527935028,
+          -5.845956325531006,
+          -0.5206786394119263
+        ],
+        [
+          2.3507516384124756,
+          -1.3805387020111084,
+          2.100684642791748
+        ]
+      ],
+      "defaultVisible": false,
+      "correspondence": "associated",
+      "quizEligible": false,
+      "kind": "arteria",
+      "sourceAliases": [],
+      "sourceNode": 199,
+      "sourceGeometrySha256": "55592148b26d5dbd14186ab436fbe2cc09783a8bf6204505287aa06842a0edd5"
+    },
+    {
+      "id": "ctx_superior_phrenic",
+      "label": "Artérias frênicas superiores",
+      "sourceName": "Superior phrenic arteries",
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "group": "contexto",
+      "color": "#b76560",
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual.",
+      "requirement": {
+        "id": "119",
+        "label": "Artéria frênica superior",
+        "source": "roteiro",
+        "page": 4
+      },
+      "vertices": 3219,
+      "triangles": 5784,
+      "bounds": [
+        [
+          -3.4537837505340576,
+          -4.657182216644287,
+          -1.6126463413238525
+        ],
+        [
+          -1.0542606115341187,
+          -0.9938415884971619,
+          0.8207724094390869
+        ]
+      ],
+      "defaultVisible": false,
+      "correspondence": "associated",
+      "quizEligible": false,
+      "kind": "arteria",
+      "sourceAliases": [],
+      "sourceNode": 330,
+      "sourceGeometrySha256": "d2796176dc9a8a265922fa5492a1f9cd64980c71fcad9a9a3d346ee5097e9315"
+    },
+    {
+      "id": "ctx_azygos",
+      "label": "Veia ázigos",
+      "sourceName": "Azygos vein",
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "group": "contexto",
+      "color": "#7597b1",
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual.",
+      "requirement": {
+        "id": "122a",
+        "label": "Sistema ázigos: veia ázigos",
+        "source": "roteiro",
+        "page": 5
+      },
+      "vertices": 1227,
+      "triangles": 2242,
+      "bounds": [
+        [
+          -0.9476515650749207,
+          -3.849106788635254,
+          -1.458182692527771
+        ],
+        [
+          -0.6429662704467773,
+          1.5276120901107788,
+          -0.1368374079465866
+        ]
+      ],
+      "defaultVisible": false,
+      "correspondence": "associated",
+      "quizEligible": false,
+      "kind": "veia",
+      "sourceAliases": [],
+      "sourceNode": 509,
+      "sourceGeometrySha256": "f2fe56d80137169c28a89d3efb82b2e877e20fddf1ac850ac48c7a5fd3625607"
+    },
+    {
+      "id": "ctx_hemiazygos",
+      "label": "Veia hemiázigos",
+      "sourceName": "Hemi-azygos vein",
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "group": "contexto",
+      "color": "#7597b1",
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual.",
+      "requirement": {
+        "id": "122b",
+        "label": "Sistema ázigos: veia hemiázigos",
+        "source": "roteiro",
+        "page": 5
+      },
+      "vertices": 785,
+      "triangles": 1416,
+      "bounds": [
+        [
+          -0.896567702293396,
+          -3.9511830806732178,
+          -1.5778858661651611
+        ],
+        [
+          0.09783660620450974,
+          -1.4058083295822144,
+          -1.05409836769104
+        ]
+      ],
+      "defaultVisible": false,
+      "correspondence": "associated",
+      "quizEligible": false,
+      "kind": "veia",
+      "sourceAliases": [],
+      "sourceNode": 511,
+      "sourceGeometrySha256": "9d682345b308fbccfedda6a2cbd9a18d1c6916af96738a33ff63508a6372b85f"
+    },
+    {
+      "id": "ctx_accessory_hemiazygos",
+      "label": "Veia hemiázigos acessória",
+      "sourceName": "Accessory hemi-azygos vein",
+      "source": "Z-Anatomy",
+      "sourceFile": "CardioVascular41.fbx via local GLB",
+      "license": "CC BY-SA 4.0",
+      "group": "contexto",
+      "color": "#7597b1",
+      "note": "Geometria original preservada; relações espaciais e continuidade com as estruturas vizinhas ainda precisam de conferência individual.",
+      "requirement": {
+        "id": "122c",
+        "label": "Sistema ázigos: veia hemiázigos acessória",
+        "source": "roteiro",
+        "page": 5
+      },
+      "vertices": 1231,
+      "triangles": 2242,
+      "bounds": [
+        [
+          -0.8423399329185486,
+          -0.7832879424095154,
+          -1.883925437927246
+        ],
+        [
+          0.3039029538631439,
+          2.439964771270752,
+          0.07980689406394958
+        ]
+      ],
+      "defaultVisible": false,
+      "correspondence": "associated",
+      "quizEligible": false,
+      "kind": "veia",
+      "sourceAliases": [],
+      "sourceNode": 510,
+      "sourceGeometrySha256": "508b75190ea6fb52f09d264932d907373e5798ed22ac97a059096fca5c487bfd"
     }
   ],
   "model": {
-    "parts": 39,
-    "triangles": 129008,
-    "bytes": 3235248,
-    "sha256": "a9d78dc8bac020062fb35929d7cccfdab1b85e72386f6b428960903d5bc7bd94",
+    "parts": 72,
+    "triangles": 152303,
+    "cardiacParts": 55,
+    "contextParts": 17,
+    "bytes": 3771380,
+    "sha256": "edc90628474a0b85cf552306d325a38f488ead05ba1ab111a78aebb9d6e9d799",
     "synthetic_anatomical_parts": 0,
     "individually_anatomically_validated": false
   },
@@ -1278,7 +2811,8 @@
     "regra_90": "Não satisfeito enquanto a cobertura individual validada não atingir 90%; geometrias disponíveis e parciais ainda exigem conferência anatômica."
   },
   "limitations": [
-    "Faltam as cúspides anteriores da mitral e da tricúspide nesta montagem.",
+    "As cúspides anteriores foram integradas; coaptação e inserções de cada corda ainda exigem conferência.",
+    "O conjunto papilar anterior esquerdo tem apenas uma porção identificada na fonte.",
     "Cordas tendíneas integram os folhetos; não são peças individualmente selecionáveis.",
     "Pericárdio, esqueleto fibroso e sistema de condução ainda não estão representados.",
     "Relevos finos, óstios e conexões entre peças precisam de revisão anatômica.",
@@ -1294,6 +2828,10 @@
       "label": "Z-Anatomy · vasos da aplicação",
       "url": "https://github.com/LluisV/Z-Anatomy/tree/PC-Version/Resources/Models",
       "revision": "6c7f9016bd5899ac8edafd31b9900c151df42ed6"
+    },
+    {
+      "label": "BodyParts3D · peças prontas registradas",
+      "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html"
     },
     {
       "label": "OpenStax · anatomia do coração",

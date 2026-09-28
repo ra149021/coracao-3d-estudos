@@ -1,0 +1,2360 @@
+{
+  "strategy": "Recommended as an alternate exclusive BP3D coronary/venous layer replacing all 10 current Z coronary and cardiac-vein objects. Never draw both networks simultaneously.",
+  "replace_Z_names": [
+    "Right coronary artery",
+    "Right inferolateral branch of right coronary artery",
+    "Left coronary artery",
+    "Anterior interventricular artery",
+    "Circumflex artery of heart",
+    "Septal branches of anterior interventricular artery",
+    "Coronary sinus",
+    "Great cardiac vein",
+    "Middle cardiac vein",
+    "Inferior vein of left ventricle (//Posterior '')"
+  ],
+  "parts": [
+    {
+      "fma": "FMA3802",
+      "id": "bp_FMA3802",
+      "sourceName": "trunk of right coronary artery",
+      "label": "Coronária direita · tronco",
+      "group": "coronarias",
+      "requirementId": "81",
+      "elements": [
+        "FJ2723"
+      ],
+      "file": "vascular/FMA3802.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "de918f99787f40b3147672a79ca83639de93507d5f332fb01eb7e4150b3bc150",
+      "source_meshes": [
+        {
+          "element": "FJ2723",
+          "sha256": "cd008769cb9d565a75bf6b91b5ad3bd482932e37c4747837f6c9446cd23b73a2"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 2253,
+        "triangles": 4502,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          2253
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 1344.015648295192,
+        "source_bounds_mm": [
+          [
+            -21.7476,
+            -162.494,
+            1187.94
+          ],
+          [
+            20.7385,
+            -93.3042,
+            1261.07
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          -1.0469636917114258,
+          -1.3515549898147583,
+          -0.61922287940979
+        ],
+        [
+          0.05063948780298233,
+          0.5373028516769409,
+          1.169967770576477
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.6884154460719041,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 0.8020417221482468,
+        "median_nearest_vertex_mm": 0.6976294824402743,
+        "p95_nearest_vertex_mm": 17.257731440369472,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Right coronary artery",
+            0.6573457612072792
+          ],
+          [
+            "Right inferolateral branch of right coronary artery",
+            0.017310252996005325
+          ],
+          [
+            "Middle cardiac vein",
+            0.013759431868619618
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA3855",
+      "id": "bp_FMA3855",
+      "sourceName": "trunk of left coronary artery",
+      "label": "Coronária esquerda · tronco",
+      "group": "coronarias",
+      "requirementId": "83",
+      "elements": [
+        "FJ2737"
+      ],
+      "file": "vascular/FMA3855.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "7c8d16cfa3518624d186da91925afa60be78d64ea8870e179c3088707cfaeb9d",
+      "source_meshes": [
+        {
+          "element": "FJ2737",
+          "sha256": "22aa075132e33f9a3d3be135515362b03ab84f12a0d641edde35e260fb2cd65b"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 104,
+        "triangles": 204,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          104
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 144.97923789940904,
+        "source_bounds_mm": [
+          [
+            23.3893,
+            -123.425,
+            1253.95
+          ],
+          [
+            34.405,
+            -117.304,
+            1260.82
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          0.12043638527393341,
+          0.35354650020599365,
+          0.0027499739080667496
+        ],
+        [
+          0.40501222014427185,
+          0.5312955975532532,
+          0.1608271449804306
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.1346153846153846,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 0.3269230769230769,
+        "median_nearest_vertex_mm": 2.655910939728038,
+        "p95_nearest_vertex_mm": 4.5390577505325105,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Left coronary artery",
+            0.09615384615384616
+          ],
+          [
+            "Circumflex artery of heart",
+            0.038461538461538464
+          ],
+          [
+            "Right coronary artery",
+            0.0
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA3807",
+      "id": "bp_FMA3807",
+      "sourceName": "right conus artery",
+      "label": "Ramo do cone arterial direito",
+      "group": "coronarias",
+      "requirementId": "96",
+      "elements": [
+        "FJ2670",
+        "FJ2676"
+      ],
+      "file": "vascular/FMA3807.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "89447eaa09d55dc2d4e02d2e1fd4b8d61b1036f037008b16f5ad75b2444cc880",
+      "source_meshes": [
+        {
+          "element": "FJ2670",
+          "sha256": "e734bab3fcf2ee2bfba0eb6f827f8894fd9ff86e261f4fff0cf1ec37c3f84073"
+        },
+        {
+          "element": "FJ2676",
+          "sha256": "5455ee32b46013949d56fbdbbe87d08988975d7e3504105b270ed942376a13f8"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 377,
+        "triangles": 746,
+        "connected_components_by_vertex_index": 2,
+        "component_vertex_counts": [
+          223,
+          154
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 161.24052452204742,
+        "source_bounds_mm": [
+          [
+            7.00791,
+            -169.622,
+            1247.03
+          ],
+          [
+            32.7239,
+            -151.582,
+            1259.08
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          -0.3028440773487091,
+          0.17353759706020355,
+          0.888494074344635
+        ],
+        [
+          0.36162665486335754,
+          0.4857514202594757,
+          1.354322075843811
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.9681697612732095,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 1.0,
+        "median_nearest_vertex_mm": 0.2935202417667344,
+        "p95_nearest_vertex_mm": 0.8349524032619919,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Right coronary artery",
+            0.9681697612732095
+          ],
+          [
+            "Right inferolateral branch of right coronary artery",
+            0.0
+          ],
+          [
+            "Left coronary artery",
+            0.0
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA3815",
+      "id": "bp_FMA3815",
+      "sourceName": "first anterior ventricular branch of right coronary artery",
+      "label": "Ramos ventriculares anteriores direitos · não marginais",
+      "group": "coronarias",
+      "requirementId": "97",
+      "elements": [
+        "FJ2671",
+        "FJ2673",
+        "FJ2677"
+      ],
+      "file": "vascular/FMA3815.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "e80ace91a1582e2bdb86469f534457ae5abf8bb79f673422c67c9e6a1e627aeb",
+      "source_meshes": [
+        {
+          "element": "FJ2671",
+          "sha256": "9ca85be93a017bc2a8aa7d565b3ec320620e4b22e78936b0d6f52b7cf3015be5"
+        },
+        {
+          "element": "FJ2673",
+          "sha256": "9ffff6952448478f178b3a4debe89cc0cb28035cf392f992c119768406f1cf32"
+        },
+        {
+          "element": "FJ2677",
+          "sha256": "475b16a4d4a365a732fa8dbc1757f57b81ca99847ef2d36dd160656994dae474"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 540,
+        "triangles": 1068,
+        "connected_components_by_vertex_index": 3,
+        "component_vertex_counts": [
+          241,
+          171,
+          128
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 252.6968852258807,
+        "source_bounds_mm": [
+          [
+            0.417048,
+            -176.517,
+            1222.24
+          ],
+          [
+            34.177,
+            -159.262,
+            1245.43
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          -0.4734121859073639,
+          -0.4671744108200073,
+          1.0865647792816162
+        ],
+        [
+          0.3986167013645172,
+          0.13293428719043732,
+          1.5318024158477783
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.9796296296296296,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 1.0,
+        "median_nearest_vertex_mm": 0.33379638816886115,
+        "p95_nearest_vertex_mm": 0.8767827459270912,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Right coronary artery",
+            0.9796296296296296
+          ],
+          [
+            "Right inferolateral branch of right coronary artery",
+            0.0
+          ],
+          [
+            "Left coronary artery",
+            0.0
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA3818",
+      "id": "bp_FMA3818",
+      "sourceName": "marginal branch of right coronary artery",
+      "label": "Ramo marginal direito",
+      "group": "coronarias",
+      "requirementId": "98",
+      "elements": [
+        "FJ2667",
+        "FJ2668",
+        "FJ2672",
+        "FJ2674",
+        "FJ2675"
+      ],
+      "file": "vascular/FMA3818.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "7d3175059859f5149b695500c5033f055840f5a15aceb098ebe60c0e1a470cf7",
+      "source_meshes": [
+        {
+          "element": "FJ2667",
+          "sha256": "4a43aa2911b4b1ee153d8948e5edfa99c078f374603a52c69100ab3ae2ef4362"
+        },
+        {
+          "element": "FJ2668",
+          "sha256": "512479cec370a4390d5f2f0555fbdfc7ba3c2e8fb7b78b242cb4382ede30287f"
+        },
+        {
+          "element": "FJ2672",
+          "sha256": "032c1562f06b7c960e1524fd8259fa321d59426ba0a9e6df32b42eb2c79e8e11"
+        },
+        {
+          "element": "FJ2674",
+          "sha256": "e4ff01e6ce03c7f0bfd28d099680623dd2e98829bde7efb9dbd9936029e3961d"
+        },
+        {
+          "element": "FJ2675",
+          "sha256": "18496992ff047cc1578789bb356e181e91fd0bc3f59332f392b64ef02a91cc45"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 911,
+        "triangles": 1802,
+        "connected_components_by_vertex_index": 5,
+        "component_vertex_counts": [
+          373,
+          182,
+          144,
+          110,
+          102
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 396.06859824292525,
+        "source_bounds_mm": [
+          [
+            -14.2896,
+            -173.963,
+            1194.38
+          ],
+          [
+            35.7176,
+            -158.58,
+            1220.11
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          -0.8539316058158875,
+          -1.1869213581085205,
+          1.0682371854782104
+        ],
+        [
+          0.4380006194114685,
+          -0.5210238695144653,
+          1.4652694463729858
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.995609220636663,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 1.0,
+        "median_nearest_vertex_mm": 0.3140147669878992,
+        "p95_nearest_vertex_mm": 0.6291355445696243,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Right coronary artery",
+            0.995609220636663
+          ],
+          [
+            "Right inferolateral branch of right coronary artery",
+            0.0
+          ],
+          [
+            "Left coronary artery",
+            0.0
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA3840",
+      "id": "bp_FMA3840",
+      "sourceName": "posterior interventricular branch of right coronary artery",
+      "label": "Ramo interventricular posterior",
+      "group": "coronarias",
+      "requirementId": "100",
+      "elements": [
+        "FJ2692",
+        "FJ2693",
+        "FJ2694",
+        "FJ2695",
+        "FJ2696",
+        "FJ2697",
+        "FJ2698",
+        "FJ2699",
+        "FJ2700"
+      ],
+      "file": "vascular/FMA3840.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "7b64a740f73d82d1d498c9a7b30762bd33ce07d4943084056445a0835c410c14",
+      "source_meshes": [
+        {
+          "element": "FJ2692",
+          "sha256": "c38882cfb2a4ff493aece22ced1f23c9e044bf9cc091f14d40c7256179d34ccf"
+        },
+        {
+          "element": "FJ2693",
+          "sha256": "2f089666f8301e52400250614677a5c824bfa37fee55bfeb545904c8acffc063"
+        },
+        {
+          "element": "FJ2694",
+          "sha256": "8579bbf2af9aa03a93604db0f05283334baf131b26ca17d9bbd9c1ff281ee048"
+        },
+        {
+          "element": "FJ2695",
+          "sha256": "8a50ff9ad16191e3fd6cadb480943d212796d9cba391659c186be731b8f68d6a"
+        },
+        {
+          "element": "FJ2696",
+          "sha256": "0d90aa40e3ac1a0d4423d19da7c8a9f4446063bdae1b7246f97669c6db3720df"
+        },
+        {
+          "element": "FJ2697",
+          "sha256": "da528958c3c9784dc6ed9c04cd0a8d1fe6678c66e3792e0c258b1b51c9a07874"
+        },
+        {
+          "element": "FJ2698",
+          "sha256": "d253c0270030d4f2845f99ec3658e0e0ac9a79bda8e6d2e3ec1cae9d1942c9bd"
+        },
+        {
+          "element": "FJ2699",
+          "sha256": "4434305060b28d0b294b33cc18cdeb62f7a525f1282500c24dfb558205ec54a5"
+        },
+        {
+          "element": "FJ2700",
+          "sha256": "2c4dacf7f7029de9075b4671085accefcf96200b4dbaba8a130ac1c3b177ebc6"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 1777,
+        "triangles": 3518,
+        "connected_components_by_vertex_index": 9,
+        "component_vertex_counts": [
+          467,
+          385,
+          214,
+          170,
+          142,
+          120,
+          112,
+          102,
+          65
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 843.034914418884,
+        "source_bounds_mm": [
+          [
+            -0.896807,
+            -155.87,
+            1174.92
+          ],
+          [
+            66.8785,
+            -117.587,
+            1191.4
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          -0.5084850788116455,
+          -1.6894687414169312,
+          0.008122868835926056
+        ],
+        [
+          1.2427034378051758,
+          -1.2621228694915771,
+          0.9970747232437134
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.48958919527293193,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 0.7788407428249859,
+        "median_nearest_vertex_mm": 1.0317066238940475,
+        "p95_nearest_vertex_mm": 3.7377255584151836,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Middle cardiac vein",
+            0.40911648846370285
+          ],
+          [
+            "Right coronary artery",
+            0.07484524479459764
+          ],
+          [
+            "Great cardiac vein",
+            0.005627462014631401
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA3845",
+      "id": "bp_FMA3845",
+      "sourceName": "septal branch of right posterior interventricular artery",
+      "label": "Ramos septais do interventricular posterior",
+      "group": "coronarias",
+      "requirementId": "101",
+      "elements": [
+        "FJ2735",
+        "FJ2736"
+      ],
+      "file": "vascular/FMA3845.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "c88c035c9547465bb37898fd04daee1fe55bbbb55090d83d131a247838278e7f",
+      "source_meshes": [
+        {
+          "element": "FJ2735",
+          "sha256": "090650433ebdf0d1ec7df5807ac81f9d9079aca903c47889ffe114ec651e5132"
+        },
+        {
+          "element": "FJ2736",
+          "sha256": "f2daf4617150a372441e1018b42e4a28ba3bc811c2064d6312bb9700fdd06338"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 330,
+        "triangles": 652,
+        "connected_components_by_vertex_index": 2,
+        "component_vertex_counts": [
+          166,
+          164
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 187.80294193439664,
+        "source_bounds_mm": [
+          [
+            9.2823,
+            -131.846,
+            1179.08
+          ],
+          [
+            30.0087,
+            -118.672,
+            1199.86
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          -0.24532099068164825,
+          -1.5811742544174194,
+          0.0364372581243515
+        ],
+        [
+          0.290228933095932,
+          -1.043639898300171,
+          0.37629178166389465
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.1,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 0.2545454545454545,
+        "median_nearest_vertex_mm": 5.838990019254811,
+        "p95_nearest_vertex_mm": 15.03936216254406,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Middle cardiac vein",
+            0.1
+          ],
+          [
+            "Right coronary artery",
+            0.0
+          ],
+          [
+            "Right inferolateral branch of right coronary artery",
+            0.0
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA3835",
+      "id": "bp_FMA3835",
+      "sourceName": "posterior ventricular branch of right coronary artery",
+      "label": "Ramos ventriculares posteriores direitos",
+      "group": "coronarias",
+      "requirementId": "102",
+      "elements": [
+        "FJ2714",
+        "FJ2715",
+        "FJ2716",
+        "FJ2717",
+        "FJ2718",
+        "FJ2719",
+        "FJ2720",
+        "FJ2721",
+        "FJ2722"
+      ],
+      "file": "vascular/FMA3835.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "47d685451dfdf8e352fedeb4ca268b0aba3011a0e8e167d734ceff578c4b7918",
+      "source_meshes": [
+        {
+          "element": "FJ2714",
+          "sha256": "d7d9ed93cb831b5beb98cdbbb814d2628e38efcc524028a4a291ee6144ea5c03"
+        },
+        {
+          "element": "FJ2715",
+          "sha256": "f18dda103cde54e3a21c811c33f2dc3cf25f000eaff460703c696e76cc6a0e3f"
+        },
+        {
+          "element": "FJ2716",
+          "sha256": "0efa7807739a27fd0fd8ee6fb043ebdc17c8c824b1d068ddcf8bc305a138ca19"
+        },
+        {
+          "element": "FJ2717",
+          "sha256": "3fb3cd79b66f9ec1be89382534eef8b9294328d6e7c17a7b48e87dd879316579"
+        },
+        {
+          "element": "FJ2718",
+          "sha256": "f08dbbc4cb90043b874b8483b378c0da44a573a6dccbb17530f8f07e8c32ba0c"
+        },
+        {
+          "element": "FJ2719",
+          "sha256": "56493dd7e056b7c7cb462293402c3fa42dbb82c572dc746dfee5685eb4afe94a"
+        },
+        {
+          "element": "FJ2720",
+          "sha256": "425ff09df45ea552c0d9a6d3cb57ec55a16ca5ca37e0736bf6ba5dea6cdf03a9"
+        },
+        {
+          "element": "FJ2721",
+          "sha256": "36858ad1fc4dd8f39de435eb42715c02b75976da212e9f322723e222d9862922"
+        },
+        {
+          "element": "FJ2722",
+          "sha256": "ba9b6f6885b2fa65dd32aa1799dd1d3c77f2a95baac9dcab816704ad74fcd0d3"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 1541,
+        "triangles": 3046,
+        "connected_components_by_vertex_index": 9,
+        "component_vertex_counts": [
+          399,
+          192,
+          172,
+          162,
+          162,
+          130,
+          118,
+          111,
+          95
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 513.0362142143554,
+        "source_bounds_mm": [
+          [
+            19.339,
+            -139.107,
+            1175.57
+          ],
+          [
+            73.5926,
+            -88.6317,
+            1195.03
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          0.014472953043878078,
+          -1.6725420951843262,
+          -0.7399659156799316
+        ],
+        [
+          1.4162834882736206,
+          -1.1682007312774658,
+          0.5640040040016174
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.9935107073329007,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 1.0,
+        "median_nearest_vertex_mm": 0.1822051010744636,
+        "p95_nearest_vertex_mm": 0.4515830459728061,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Right inferolateral branch of right coronary artery",
+            0.9286177806619078
+          ],
+          [
+            "Inferior vein of left ventricle (//Posterior '')",
+            0.0499675535366645
+          ],
+          [
+            "Right coronary artery",
+            0.014925373134328358
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA74912",
+      "id": "bp_FMA74912",
+      "sourceName": "trunk of anterior interventricular branch of left coronary artery",
+      "label": "Ramo interventricular anterior · tronco",
+      "group": "coronarias",
+      "requirementId": "103",
+      "elements": [
+        "FJ2631"
+      ],
+      "file": "vascular/FMA74912.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "f1eaaf7e6654b054155a0a402f9554e026daeab1bb4fcd07d55471aaf7697b0a",
+      "source_meshes": [
+        {
+          "element": "FJ2631",
+          "sha256": "ca7d8c0c82982ef1c838cd2224650c810adc3e52aaf6b345f0cdb77d7b068c5e"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 1518,
+        "triangles": 3032,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          1518
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 992.9974898250464,
+        "source_bounds_mm": [
+          [
+            33.2928,
+            -168.008,
+            1179.54
+          ],
+          [
+            63.8413,
+            -120.073,
+            1257.62
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          0.37626445293426514,
+          -1.5706754922866821,
+          0.07419411838054657
+        ],
+        [
+          1.164202094078064,
+          0.44836652278900146,
+          1.3111897706985474
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.5065876152832675,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 0.836627140974967,
+        "median_nearest_vertex_mm": 0.9827670931733459,
+        "p95_nearest_vertex_mm": 2.6546816168473697,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Anterior interventricular artery",
+            0.30632411067193677
+          ],
+          [
+            "Great cardiac vein",
+            0.1613965744400527
+          ],
+          [
+            "Middle cardiac vein",
+            0.016469038208168644
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA3868",
+      "id": "bp_FMA3868",
+      "sourceName": "conus branch of anterior interventricular branch of left coronary artery",
+      "label": "Ramo do cone do interventricular anterior",
+      "group": "coronarias",
+      "requirementId": "103a",
+      "elements": [
+        "FJ2643",
+        "FJ2644"
+      ],
+      "file": "vascular/FMA3868.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "db824f59877b5f62353c3d72a7c82040c66ba859e5e862066b522b084d9d8c24",
+      "source_meshes": [
+        {
+          "element": "FJ2643",
+          "sha256": "3ee93d012a24f6fb93c92faa6eb35d918a3875b58cb0dd52ca5e3dc010ee55cf"
+        },
+        {
+          "element": "FJ2644",
+          "sha256": "91b7c72f9fd221c63dd14932b7e66a0331e96d1b0aff3bfbec21f12187530467"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 396,
+        "triangles": 784,
+        "connected_components_by_vertex_index": 2,
+        "component_vertex_counts": [
+          241,
+          155
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 212.08529766345293,
+        "source_bounds_mm": [
+          [
+            28.8318,
+            -171.783,
+            1239.39
+          ],
+          [
+            50.4157,
+            -143.073,
+            1247.02
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          0.26083362102508545,
+          -0.02409500442445278,
+          0.6681976318359375
+        ],
+        [
+          0.8185420632362366,
+          0.17330153286457062,
+          1.4099411964416504
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.047979797979797977,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 0.1388888888888889,
+        "median_nearest_vertex_mm": 10.500649291053033,
+        "p95_nearest_vertex_mm": 13.081146664308772,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Anterior interventricular artery",
+            0.047979797979797977
+          ],
+          [
+            "Right coronary artery",
+            0.0
+          ],
+          [
+            "Right inferolateral branch of right coronary artery",
+            0.0
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA3892",
+      "id": "bp_FMA3892",
+      "sourceName": "septal branch of anterior interventricular artery",
+      "label": "Ramos septais do interventricular anterior",
+      "group": "coronarias",
+      "requirementId": "103b",
+      "elements": [
+        "FJ2732",
+        "FJ2733",
+        "FJ2734"
+      ],
+      "file": "vascular/FMA3892.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "564b53f8370ad7cd8c33a02bd41d4744dbf5038e958cb4cdb7d6e5d2fd325993",
+      "source_meshes": [
+        {
+          "element": "FJ2732",
+          "sha256": "672cacb1dba2bbf2f167714d76e81f2907d3dbb0e0237ca19b27f5182ba7e873"
+        },
+        {
+          "element": "FJ2733",
+          "sha256": "29d4fa48a545d030585ca73752f07cf8d74ab1173b39668ec12e169ef1a2063d"
+        },
+        {
+          "element": "FJ2734",
+          "sha256": "a7f47cc95c3016c2545b300d95d954ab203f7f3f35f3cc1eb993139c92f53629"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 578,
+        "triangles": 1144,
+        "connected_components_by_vertex_index": 3,
+        "component_vertex_counts": [
+          241,
+          169,
+          168
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 300.64674947320714,
+        "source_bounds_mm": [
+          [
+            41.9624,
+            -166.745,
+            1205.22
+          ],
+          [
+            55.7222,
+            -138.054,
+            1243.42
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          0.5997158288955688,
+          -0.9072925448417664,
+          0.5383865833282471
+        ],
+        [
+          0.9549320936203003,
+          0.0807085707783699,
+          1.2787996530532837
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.9792387543252595,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 1.0,
+        "median_nearest_vertex_mm": 0.22104310197849503,
+        "p95_nearest_vertex_mm": 0.8340637476614347,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Septal branches of anterior interventricular artery",
+            0.8754325259515571
+          ],
+          [
+            "Great cardiac vein",
+            0.058823529411764705
+          ],
+          [
+            "Anterior interventricular artery",
+            0.04498269896193772
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA3860",
+      "id": "bp_FMA3860",
+      "sourceName": "diagonal branch of anterior descending branch of left coronary artery",
+      "label": "Ramo lateral (diagonal) do interventricular anterior",
+      "group": "coronarias",
+      "requirementId": "103c",
+      "elements": [
+        "FJ2633",
+        "FJ2634",
+        "FJ2635",
+        "FJ2636",
+        "FJ2637",
+        "FJ2638",
+        "FJ2639",
+        "FJ2640",
+        "FJ2642",
+        "FJ2648"
+      ],
+      "file": "vascular/FMA3860.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "64f2d424761c6ac807d8fe253bdd7d4de76efe3bf38f35938b16c73461c2000d",
+      "source_meshes": [
+        {
+          "element": "FJ2633",
+          "sha256": "ba9e2eca1abc7946b27b8adb9846f1b626c7cc3e942da1a2cd2301e0c02bcf1f"
+        },
+        {
+          "element": "FJ2634",
+          "sha256": "575eec8663acbae025b51ad8fa42dc6229f35d6f5d25673912c76cb59f117aec"
+        },
+        {
+          "element": "FJ2635",
+          "sha256": "bc02d461ae79073f21f350b3c9751d7ccb973ea3c74f8c58bc9a2aeafc533281"
+        },
+        {
+          "element": "FJ2636",
+          "sha256": "119cc81d1816f1db4c3d64add10efa63c9148e3177b74d10184f7a1e579581e5"
+        },
+        {
+          "element": "FJ2637",
+          "sha256": "d4fa7aa9a6e224a3c7fea1264f4d81ea076ec7baaa8b1c8b3da8e1053bbf4e4a"
+        },
+        {
+          "element": "FJ2638",
+          "sha256": "bad6520fcbcea112ca400ba5328e52f7b2ff680346b5b2591db2e97394f9b6e5"
+        },
+        {
+          "element": "FJ2639",
+          "sha256": "a80ec5085d0430fa9ae5b643042742bb9757cfd23d3f0280e162751b91acda5f"
+        },
+        {
+          "element": "FJ2640",
+          "sha256": "7391892f7c4a8ab6165bf17e6e5ba1367267f14b2cf845233456cb5945f31e14"
+        },
+        {
+          "element": "FJ2642",
+          "sha256": "2f6dbb44742cd505762e3f24eb2ed3e9ed929f7a909ac28db4df68393e098888"
+        },
+        {
+          "element": "FJ2648",
+          "sha256": "33bdf6f3048e9c940710c1cfc27e59af549f37c14b58ba24bd12f3bd5b284d73"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 2012,
+        "triangles": 3984,
+        "connected_components_by_vertex_index": 10,
+        "component_vertex_counts": [
+          484,
+          385,
+          248,
+          212,
+          147,
+          145,
+          132,
+          100,
+          82,
+          77
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 893.9012836995494,
+        "source_bounds_mm": [
+          [
+            50.0626,
+            -168.108,
+            1179.45
+          ],
+          [
+            79.3913,
+            -119.706,
+            1243.61
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          0.8093711733818054,
+          -1.5729024410247803,
+          0.06389954686164856
+        ],
+        [
+          1.566495418548584,
+          0.08534419536590576,
+          1.3139313459396362
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.294234592445328,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 0.49254473161033796,
+        "median_nearest_vertex_mm": 2.0459069203043128,
+        "p95_nearest_vertex_mm": 11.574022451929993,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Great cardiac vein",
+            0.1779324055666004
+          ],
+          [
+            "Anterior interventricular artery",
+            0.09045725646123261
+          ],
+          [
+            "Middle cardiac vein",
+            0.02584493041749503
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA3895",
+      "id": "bp_FMA3895",
+      "sourceName": "circumflex branch of left coronary artery",
+      "label": "Ramo circunflexo · conjunto da fonte",
+      "group": "coronarias",
+      "requirementId": "104",
+      "elements": [
+        "FJ2649",
+        "FJ2650",
+        "FJ2651",
+        "FJ2652",
+        "FJ2653",
+        "FJ2654"
+      ],
+      "file": "vascular/FMA3895.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "2f2bbf692f8d3c919c76c158ecf668fb8f5a2f5a64d72b86787456de45565b90",
+      "source_meshes": [
+        {
+          "element": "FJ2649",
+          "sha256": "d4833bb0b60ee79f526150ad7ba9124e326aba8cd48000711bf3a6b0997b0ce0"
+        },
+        {
+          "element": "FJ2650",
+          "sha256": "dd2c38fdc784311c955fb8b0420d70dfbdf16f0ce6e236a086dc5f350faae04c"
+        },
+        {
+          "element": "FJ2651",
+          "sha256": "864567c4b15c3add5a8184edb142766538936e2ef17af4efa25acca67f4344d8"
+        },
+        {
+          "element": "FJ2652",
+          "sha256": "fd5ee304558da1d1ffebb01ca7f59b374087667e71d473fe5401f355a2ff161f"
+        },
+        {
+          "element": "FJ2653",
+          "sha256": "74fc42fbc783857619dccb5a753b06cbfce9abc6403f14e38f55bbb9fafdad80"
+        },
+        {
+          "element": "FJ2654",
+          "sha256": "4e8467b12ca3374d25807d5de058cfb8d147ad2decd99f6debe57847a83099a1"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 1521,
+        "triangles": 3018,
+        "connected_components_by_vertex_index": 6,
+        "component_vertex_counts": [
+          692,
+          257,
+          200,
+          156,
+          128,
+          88
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 657.8461194601255,
+        "source_bounds_mm": [
+          [
+            34.3553,
+            -142.845,
+            1187.82
+          ],
+          [
+            76.8311,
+            -86.9805,
+            1256.31
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          0.40371641516685486,
+          -1.3565701246261597,
+          -0.7818427681922913
+        ],
+        [
+          1.5001786947250366,
+          0.41451841592788696,
+          0.6607088446617126
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.9362261669953977,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 0.9855358316896778,
+        "median_nearest_vertex_mm": 0.28031950630405145,
+        "p95_nearest_vertex_mm": 1.137176685695396,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Circumflex artery of heart",
+            0.9026955950032873
+          ],
+          [
+            "Great cardiac vein",
+            0.02564102564102564
+          ],
+          [
+            "Anterior interventricular artery",
+            0.007889546351084813
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA3870",
+      "id": "bp_FMA3870",
+      "sourceName": "right anterior branch of anterior interventricular branch of left coronary artery",
+      "label": "Ramos anteriores direitos do interventricular anterior",
+      "group": "coronarias",
+      "requirementId": "",
+      "elements": [
+        "FJ2632",
+        "FJ2641",
+        "FJ2645",
+        "FJ2646",
+        "FJ2647"
+      ],
+      "file": "vascular/FMA3870.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "98d8bd18e668574ffcb511fbf8df1783d9721ef2d57f2385dcbfbdf29579f6ae",
+      "source_meshes": [
+        {
+          "element": "FJ2632",
+          "sha256": "74d743ebe7ccb06a69244bccb59789cbb094af1f3b279e24be5541b9d01d2f6c"
+        },
+        {
+          "element": "FJ2641",
+          "sha256": "0a9b2c86202434b7aa66c2499c680c40c5d3ebce6bc3ef73c927018ff2c81718"
+        },
+        {
+          "element": "FJ2645",
+          "sha256": "d6dcbc3294545f857df903393a6db47b268e3a97e8a0c87a0ab5bef056469eee"
+        },
+        {
+          "element": "FJ2646",
+          "sha256": "4549b2c6a0bf1d15057bd6185fdafbec846deecc464b6cbfb19f7cedb68b815c"
+        },
+        {
+          "element": "FJ2647",
+          "sha256": "18044f3caa4b23c89e8ce42555df29326c1ff1bdbf4b52559473dfb8368b040a"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 832,
+        "triangles": 1644,
+        "connected_components_by_vertex_index": 5,
+        "component_vertex_counts": [
+          237,
+          223,
+          161,
+          155,
+          56
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 386.1090825119003,
+        "source_bounds_mm": [
+          [
+            37.1664,
+            -172.766,
+            1181.67
+          ],
+          [
+            54.6271,
+            -152.68,
+            1235.5
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          0.47527027130126953,
+          -1.5155540704727173,
+          0.9161539673805237
+        ],
+        [
+          0.926605224609375,
+          -0.12446872889995575,
+          1.434418797492981
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.30528846153846156,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 0.46153846153846156,
+        "median_nearest_vertex_mm": 2.639732255158454,
+        "p95_nearest_vertex_mm": 6.933815525513662,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Great cardiac vein",
+            0.23197115384615385
+          ],
+          [
+            "Anterior interventricular artery",
+            0.07211538461538461
+          ],
+          [
+            "Septal branches of anterior interventricular artery",
+            0.001201923076923077
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA4706",
+      "id": "bp_FMA4706",
+      "sourceName": "coronary sinus",
+      "label": "Seio coronário",
+      "group": "veias",
+      "requirementId": "30k",
+      "elements": [
+        "FJ2655"
+      ],
+      "file": "vascular/FMA4706.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "d2518f358030dd4d8e0fc19d48e89d507b15deaf02001593a4e6ea4b0c5c2f7b",
+      "source_meshes": [
+        {
+          "element": "FJ2655",
+          "sha256": "6095f578e12b9a85dcf978692793f775494086ab09b7eb44e6a069049640bd82"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 314,
+        "triangles": 624,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          314
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 1098.571219917535,
+        "source_bounds_mm": [
+          [
+            -5.5224,
+            -115.565,
+            1197.5
+          ],
+          [
+            43.2693,
+            -81.1083,
+            1216.68
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          -0.6275455355644226,
+          -1.10407555103302,
+          -0.9339441657066345
+        ],
+        [
+          0.6332123279571533,
+          -0.6085671782493591,
+          -0.04344398155808449
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.6210191082802548,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 0.9840764331210191,
+        "median_nearest_vertex_mm": 0.885853914028352,
+        "p95_nearest_vertex_mm": 1.6983942838002544,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Coronary sinus",
+            0.6114649681528662
+          ],
+          [
+            "Middle cardiac vein",
+            0.006369426751592357
+          ],
+          [
+            "Inferior vein of left ventricle (//Posterior '')",
+            0.0031847133757961785
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA66403",
+      "id": "bp_FMA66403",
+      "sourceName": "anterior interventricular vein",
+      "label": "Veia interventricular anterior",
+      "group": "veias",
+      "requirementId": "105",
+      "elements": [
+        "FJ2657",
+        "FJ2658",
+        "FJ2659",
+        "FJ2660",
+        "FJ2661",
+        "FJ2662",
+        "FJ2663",
+        "FJ2664",
+        "FJ2665"
+      ],
+      "file": "vascular/FMA66403.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "9aa23d11f3ef72272bac66b718ef37790802ad915d0959f6ae2b63fe7d1a807a",
+      "source_meshes": [
+        {
+          "element": "FJ2657",
+          "sha256": "e1d1bd0e6ce8d34c6117bea684233fa470360feea8286538f3a2fa2e430d4e25"
+        },
+        {
+          "element": "FJ2658",
+          "sha256": "609f8552916b697645e880e6f9d0f2c34fd9f84756c190f846296de5f6753376"
+        },
+        {
+          "element": "FJ2659",
+          "sha256": "2c0da1ec77922c9709f3c02c980af8f20d9006a1d7f014793477854ed0f6fff8"
+        },
+        {
+          "element": "FJ2660",
+          "sha256": "7ba70585aa0890d1fad235f531bbbf49e0fba70a6ae3e691b3d7f03d4f12079d"
+        },
+        {
+          "element": "FJ2661",
+          "sha256": "cc0ff36616a12899ba8bed678ab70e6df1e54d1cf6fa04bf3ac61622abf6f1cd"
+        },
+        {
+          "element": "FJ2662",
+          "sha256": "f0391ef1e2c175d05303233619d4ad2ddb016693154aa7640835020537b83c3a"
+        },
+        {
+          "element": "FJ2663",
+          "sha256": "858e960b9b38248542f5da6b8d1fa915272c25513564eb64c4deb12c698d8b16"
+        },
+        {
+          "element": "FJ2664",
+          "sha256": "f35d2e55bf2c9f04d11497f55e1102aae88fd623e3086d11b53ed599926a6626"
+        },
+        {
+          "element": "FJ2665",
+          "sha256": "099b5929ba1bd8a4d713a9f68bc6b8fdff7986ece4b3220f061715b2f3c34bfd"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 1672,
+        "triangles": 3308,
+        "connected_components_by_vertex_index": 9,
+        "component_vertex_counts": [
+          314,
+          280,
+          217,
+          210,
+          170,
+          135,
+          121,
+          118,
+          107
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 1363.1326030246612,
+        "source_bounds_mm": [
+          [
+            38.2704,
+            -172.803,
+            1179.83
+          ],
+          [
+            74.6059,
+            -124.13,
+            1253.0
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          0.5039379596710205,
+          -1.563123106956482,
+          0.17889276146888733
+        ],
+        [
+          1.4431620836257935,
+          0.3286215662956238,
+          1.4354095458984375
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.9838516746411483,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 1.0,
+        "median_nearest_vertex_mm": 0.3358609079422703,
+        "p95_nearest_vertex_mm": 0.799761780828734,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Great cardiac vein",
+            0.9180622009569378
+          ],
+          [
+            "Anterior interventricular artery",
+            0.06160287081339713
+          ],
+          [
+            "Middle cardiac vein",
+            0.0029904306220095694
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA4707",
+      "id": "bp_FMA4707",
+      "sourceName": "great cardiac vein",
+      "label": "Veia cardíaca magna · segmento da fonte",
+      "group": "veias",
+      "requirementId": "106",
+      "elements": [
+        "FJ2656"
+      ],
+      "file": "vascular/FMA4707.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "f22e74b5c048f222752275d198d4b3aa4fbf556baac3dffe025193c98e80b30d",
+      "source_meshes": [
+        {
+          "element": "FJ2656",
+          "sha256": "cb9c6b4e10e43c92c8ea4e2e1a66215d98cf58d72fcc60aeadc8a0f87f6724fc"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 415,
+        "triangles": 826,
+        "connected_components_by_vertex_index": 1,
+        "component_vertex_counts": [
+          415
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 682.1143580073165,
+        "source_bounds_mm": [
+          [
+            39.9088,
+            -126.878,
+            1213.78
+          ],
+          [
+            48.5622,
+            -81.9228,
+            1253.46
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          0.5464199185371399,
+          -0.6836013197898865,
+          -0.9127515554428101
+        ],
+        [
+          0.7706770896911621,
+          0.34067556262016296,
+          0.24991174042224884
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.7975903614457831,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 1.0,
+        "median_nearest_vertex_mm": 0.7095149018129585,
+        "p95_nearest_vertex_mm": 1.2510172960101829,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Great cardiac vein",
+            0.6168674698795181
+          ],
+          [
+            "Circumflex artery of heart",
+            0.13493975903614458
+          ],
+          [
+            "Coronary sinus",
+            0.04578313253012048
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA4708",
+      "id": "bp_FMA4708",
+      "sourceName": "left marginal vein",
+      "label": "Veia marginal esquerda",
+      "group": "veias",
+      "requirementId": "109",
+      "elements": [
+        "FJ2703",
+        "FJ2704",
+        "FJ2705"
+      ],
+      "file": "vascular/FMA4708.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "ffcfded5f6cd5d0e6af5f08317db7e0818829329fdb0f14d2fb5e021e51fc4a2",
+      "source_meshes": [
+        {
+          "element": "FJ2703",
+          "sha256": "3818a89d7a14e6de2370b1676feb77f5b6bdc9bcf848ff9e49594160fe242d8c"
+        },
+        {
+          "element": "FJ2704",
+          "sha256": "94b76a06359ccb067810631f578b92dae1a25b51e3420a0d3301d1e5e1eba58d"
+        },
+        {
+          "element": "FJ2705",
+          "sha256": "bf1b51ca4df26fd8dfd263474e97cb97947e3c1df4c949a0cb36f114880e3f87"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 745,
+        "triangles": 1478,
+        "connected_components_by_vertex_index": 3,
+        "component_vertex_counts": [
+          482,
+          142,
+          121
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 447.37567523454766,
+        "source_bounds_mm": [
+          [
+            40.2833,
+            -139.057,
+            1187.18
+          ],
+          [
+            77.4408,
+            -82.7728,
+            1217.38
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          0.556069016456604,
+          -1.3728389739990234,
+          -0.89079749584198
+        ],
+        [
+          1.5159145593643188,
+          -0.5907992124557495,
+          0.5629207491874695
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.436241610738255,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 0.887248322147651,
+        "median_nearest_vertex_mm": 1.0860228181276521,
+        "p95_nearest_vertex_mm": 2.7921891609007696,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Circumflex artery of heart",
+            0.42953020134228187
+          ],
+          [
+            "Coronary sinus",
+            0.006711409395973154
+          ],
+          [
+            "Right coronary artery",
+            0.0
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA4712",
+      "id": "bp_FMA4712",
+      "sourceName": "posterior vein of left ventricle",
+      "label": "Veias posteriores do ventrículo esquerdo",
+      "group": "veias",
+      "requirementId": "110",
+      "elements": [
+        "FJ2701",
+        "FJ2702",
+        "FJ2706",
+        "FJ2707",
+        "FJ2708",
+        "FJ2709",
+        "FJ2710",
+        "FJ2711",
+        "FJ2712",
+        "FJ2713"
+      ],
+      "file": "vascular/FMA4712.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "4c837c44b9f44d1e803330d45c18202ea698f3b9db17d8931d9c64bd8f7803bf",
+      "source_meshes": [
+        {
+          "element": "FJ2701",
+          "sha256": "aeddb54faf0e08075715c563a992316d8b137bbca1668a2ce0cc7cbe61901656"
+        },
+        {
+          "element": "FJ2702",
+          "sha256": "73035dcb07bd1bafe2ed356fb03fbf7a6b18d34290fe0fbdd692eb0af40b20ba"
+        },
+        {
+          "element": "FJ2706",
+          "sha256": "7c972abb90924a9ff2eebff053894d14dab4a2e271436dd323bfcf4be75f5f00"
+        },
+        {
+          "element": "FJ2707",
+          "sha256": "2a69c902fa409ec5fd778fdfe98ec5e8cdd196d41d3d7d1c41eae11e0a8fa5fe"
+        },
+        {
+          "element": "FJ2708",
+          "sha256": "fa092fea71bd1901e12f022de9a125c69c5fd1a3d5765aee300cbeeb3b8e8a33"
+        },
+        {
+          "element": "FJ2709",
+          "sha256": "f94f68d04abc4763f4ec0d42e8bda4f86428852636031efc22ed2d956c852bd7"
+        },
+        {
+          "element": "FJ2710",
+          "sha256": "9d371fe11d21694c2b41e78e5223314614fc1bafe636b625c5eb71056953c23d"
+        },
+        {
+          "element": "FJ2711",
+          "sha256": "a2efd2e92c0bf27149db8d4f520e44093ee6a53fb1423a0842ad64c5c5b76933"
+        },
+        {
+          "element": "FJ2712",
+          "sha256": "b2a6b1ab8861d7f799a60ca7c0a6599399cb2e1dc0e9fdba3a5395042834d0a3"
+        },
+        {
+          "element": "FJ2713",
+          "sha256": "bdebad1caaa285aa732dc70e50eb3a8cb9b1df92c9c9906b009a45912c732ef1"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 1875,
+        "triangles": 3710,
+        "connected_components_by_vertex_index": 10,
+        "component_vertex_counts": [
+          419,
+          256,
+          236,
+          225,
+          180,
+          157,
+          129,
+          114,
+          94,
+          65
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 692.9103203670609,
+        "source_bounds_mm": [
+          [
+            16.1843,
+            -144.257,
+            1175.08
+          ],
+          [
+            76.2061,
+            -87.5541,
+            1201.18
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          -0.0669243261218071,
+          -1.684696912765503,
+          -0.7677459120750427
+        ],
+        [
+          1.4839059114456177,
+          -1.0089133977890015,
+          0.6971679329872131
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.9605333333333334,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 1.0,
+        "median_nearest_vertex_mm": 0.18554068630378628,
+        "p95_nearest_vertex_mm": 0.8173125484555888,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Inferior vein of left ventricle (//Posterior '')",
+            0.8848
+          ],
+          [
+            "Right inferolateral branch of right coronary artery",
+            0.04533333333333334
+          ],
+          [
+            "Circumflex artery of heart",
+            0.029333333333333333
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA4713",
+      "id": "bp_FMA4713",
+      "sourceName": "middle cardiac vein",
+      "label": "Veia interventricular posterior (cardíaca média)",
+      "group": "veias",
+      "requirementId": "111",
+      "elements": [
+        "FJ2678",
+        "FJ2679",
+        "FJ2680",
+        "FJ2681",
+        "FJ2682",
+        "FJ2683",
+        "FJ2684",
+        "FJ2685",
+        "FJ2686",
+        "FJ2687",
+        "FJ2688",
+        "FJ2689",
+        "FJ2690",
+        "FJ2691"
+      ],
+      "file": "vascular/FMA4713.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "2e25489485fdf5213b2b1967af604e3ca11daa9d44fda93844adca8155e498f6",
+      "source_meshes": [
+        {
+          "element": "FJ2678",
+          "sha256": "20a71237bc8a3b211c244e0695c1a6242abb3f684275c0b01061439c92b72ef7"
+        },
+        {
+          "element": "FJ2679",
+          "sha256": "754d84b147f9a8ba3eb7aa0cb434a74a7c047354bb689e8e89de6e4f0160f737"
+        },
+        {
+          "element": "FJ2680",
+          "sha256": "29c830d98097500bb09a506b05275942574a5ea9b18ad58e51bc5b7313f0ed8b"
+        },
+        {
+          "element": "FJ2681",
+          "sha256": "cfb2b3134737d33591f2518ce6338498d8c3a32cb0dbc93cfcd9c88b8c4996d5"
+        },
+        {
+          "element": "FJ2682",
+          "sha256": "1122684d5da8ea6953d03836244552fd33287185304d74e2a0e395f691e323e6"
+        },
+        {
+          "element": "FJ2683",
+          "sha256": "02757805e2e956e4a4425b2c54db8b54ee69f5f97da5aa63ca0cd12c4b159b1e"
+        },
+        {
+          "element": "FJ2684",
+          "sha256": "25a39f3d42a46af2008f426def111b4af3add424dc327543e51b2c7fa67f3d95"
+        },
+        {
+          "element": "FJ2685",
+          "sha256": "578c2f788d36149f535210004762558a7e533cc42c121d26a8f418cb04142263"
+        },
+        {
+          "element": "FJ2686",
+          "sha256": "172e06e35489ae2657678c6d340eace2daed2fb2329324aa40c48824b0e99666"
+        },
+        {
+          "element": "FJ2687",
+          "sha256": "56fa04e9a81334e4492f94eb51ff810f47c786581f098d69083013f4c9ae2a62"
+        },
+        {
+          "element": "FJ2688",
+          "sha256": "79e05aae03bab74714440fd5d4941f67b969293d57be99c6758c61fa15452e7b"
+        },
+        {
+          "element": "FJ2689",
+          "sha256": "2a5596c4d908ff4c6bbe50d36c18759753e9dc5fa9b10029ec7f91ca8a2b5f04"
+        },
+        {
+          "element": "FJ2690",
+          "sha256": "0914e4188f4952d2325f962dd97336d1b55ed40dd8532db46c9309975157f57f"
+        },
+        {
+          "element": "FJ2691",
+          "sha256": "e50b042a1f7e034839c5180a9fdfbf0165a57ce19d02dc0092166d7e6772cb63"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 2342,
+        "triangles": 4628,
+        "connected_components_by_vertex_index": 14,
+        "component_vertex_counts": [
+          387,
+          311,
+          190,
+          184,
+          182,
+          155,
+          142,
+          139,
+          134,
+          128,
+          120,
+          104,
+          86,
+          80
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 1174.555588427112,
+        "source_bounds_mm": [
+          [
+            1.60331,
+            -156.52,
+            1174.52
+          ],
+          [
+            70.5967,
+            -108.003,
+            1207.39
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          -0.44363439083099365,
+          -1.6995139122009277,
+          -0.2390567660331726
+        ],
+        [
+          1.3388476371765137,
+          -0.8486345410346985,
+          1.0138897895812988
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.9923142613151152,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 1.0,
+        "median_nearest_vertex_mm": 0.19325320278360464,
+        "p95_nearest_vertex_mm": 0.5473664182737118,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Middle cardiac vein",
+            0.9765157984628523
+          ],
+          [
+            "Right coronary artery",
+            0.008112724167378309
+          ],
+          [
+            "Coronary sinus",
+            0.007258753202391118
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA4716",
+      "id": "bp_FMA4716",
+      "sourceName": "right marginal vein",
+      "label": "Veia marginal direita",
+      "group": "veias",
+      "requirementId": "112",
+      "elements": [
+        "FJ2727",
+        "FJ2728",
+        "FJ2729"
+      ],
+      "file": "vascular/FMA4716.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "0de0dbba39ae46eaec0e49bf1c16064e34241259e000fe4d71117166c9135551",
+      "source_meshes": [
+        {
+          "element": "FJ2727",
+          "sha256": "d54aafb93539879b37513605156084a45d9161134ad4c64b16e6ceca2dff77e2"
+        },
+        {
+          "element": "FJ2728",
+          "sha256": "601bfbfb4d36b9a044995b8fddaecc8897fe7ff3f8e2d2b03ba8758de9318ba6"
+        },
+        {
+          "element": "FJ2729",
+          "sha256": "e69c55079d6a139103feb2117bf5c70599ccb28f0aaae75719b36e772a6cc9d8"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 743,
+        "triangles": 1474,
+        "connected_components_by_vertex_index": 3,
+        "component_vertex_counts": [
+          487,
+          143,
+          113
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 441.2489277121043,
+        "source_bounds_mm": [
+          [
+            -20.75,
+            -172.408,
+            1178.7
+          ],
+          [
+            54.8335,
+            -148.373,
+            1213.84
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          -1.0211493968963623,
+          -1.5920662879943848,
+          0.8041133880615234
+        ],
+        [
+          0.9314253330230713,
+          -0.6834028363227844,
+          1.4250843524932861
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.5127860026917901,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 0.9071332436069987,
+        "median_nearest_vertex_mm": 0.974119779643094,
+        "p95_nearest_vertex_mm": 2.384761577603617,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Right coronary artery",
+            0.5127860026917901
+          ],
+          [
+            "Right inferolateral branch of right coronary artery",
+            0.0
+          ],
+          [
+            "Left coronary artery",
+            0.0
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA4714",
+      "id": "bp_FMA4714",
+      "sourceName": "small cardiac vein",
+      "label": "Veia cardíaca parva",
+      "group": "veias",
+      "requirementId": "113",
+      "elements": [
+        "FJ2724",
+        "FJ2731"
+      ],
+      "file": "vascular/FMA4714.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "ac1dfb51215f9b696f5d13e0662b34e5847dc9dcc4ff4154fc7488ec918787c1",
+      "source_meshes": [
+        {
+          "element": "FJ2724",
+          "sha256": "1da253198ab9482187ad49300d2d8cc594a44ed4e805c01e027d1df481f3403c"
+        },
+        {
+          "element": "FJ2731",
+          "sha256": "69c00eaa21cf6e04da2b794ec4d56ec0900f502b59cbe616e129ee8099008296"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 735,
+        "triangles": 1462,
+        "connected_components_by_vertex_index": 2,
+        "component_vertex_counts": [
+          448,
+          287
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 616.6635825332537,
+        "source_bounds_mm": [
+          [
+            -20.8401,
+            -160.431,
+            1186.6
+          ],
+          [
+            5.9949,
+            -114.357,
+            1241.13
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          -1.0234460830688477,
+          -1.3862453699111938,
+          -0.07516194134950638
+        ],
+        [
+          -0.3303525447845459,
+          0.02192630246281624,
+          1.1166503429412842
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.4993197278911565,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 0.8408163265306122,
+        "median_nearest_vertex_mm": 1.0053482383051666,
+        "p95_nearest_vertex_mm": 2.6808141392780795,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Right coronary artery",
+            0.4340136054421769
+          ],
+          [
+            "Middle cardiac vein",
+            0.0653061224489796
+          ],
+          [
+            "Right inferolateral branch of right coronary artery",
+            0.0
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    },
+    {
+      "fma": "FMA76767",
+      "id": "bp_FMA76767",
+      "sourceName": "anterior cardiac vein",
+      "label": "Veias anteriores do ventrículo direito",
+      "group": "veias",
+      "requirementId": "114",
+      "elements": [
+        "FJ2725",
+        "FJ2730"
+      ],
+      "file": "vascular/FMA76767.npz",
+      "source": "BodyParts3D 4.0",
+      "license": "CC BY 4.0",
+      "sha256": "fc374f4c57b97e1b80d4f52225f89e7b0b07220da759ade71329cfe790e75150",
+      "source_meshes": [
+        {
+          "element": "FJ2725",
+          "sha256": "48063a8e366f2ad5c6745d9d20c31afc216a68561d5b4826de256444190f7634"
+        },
+        {
+          "element": "FJ2730",
+          "sha256": "bb15f6552044e7e9dbf7035fc0836b0ee10e1a46a22a0b2cc90c4eb711c11141"
+        }
+      ],
+      "validation": {
+        "finite": true,
+        "vertices": 369,
+        "triangles": 730,
+        "connected_components_by_vertex_index": 2,
+        "component_vertex_counts": [
+          228,
+          141
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "surface_area_mm2": 215.9927790944717,
+        "source_bounds_mm": [
+          [
+            -3.5955,
+            -176.62,
+            1222.95
+          ],
+          [
+            29.5233,
+            -158.749,
+            1242.98
+          ]
+        ]
+      },
+      "site_bounds": [
+        [
+          -0.577187180519104,
+          -0.4489041864871979,
+          1.0731844902038574
+        ],
+        [
+          0.2783856987953186,
+          0.06957827508449554,
+          1.5345070362091064
+        ]
+      ],
+      "overlap_with_existing_Z": {
+        "warning": "Nearest vertices approximate proximity only. Distances do not prove identity; pipeline does not automatically subtract or fuse surfaces.",
+        "fraction_bp_vertices_within_1mm_of_any_Z_vessel": 0.46883468834688347,
+        "fraction_bp_vertices_within_2mm_of_any_Z_vessel": 0.926829268292683,
+        "median_nearest_vertex_mm": 1.0696541651914433,
+        "p95_nearest_vertex_mm": 2.083818109227449,
+        "closest_z_objects_fraction_within_1mm": [
+          [
+            "Right coronary artery",
+            0.46883468834688347
+          ],
+          [
+            "Right inferolateral branch of right coronary artery",
+            0.0
+          ],
+          [
+            "Left coronary artery",
+            0.0
+          ]
+        ]
+      },
+      "anatomical_validation": "Do not count all branch labels as visually validated. Inspect render and vessel term maps before integrating."
+    }
+  ],
+  "unique_source_element_count": 104,
+  "duplicate_elements": 0,
+  "registration": "Same common similarity from registration.json; not fitted separately to vessel network.",
+  "term_notes": [
+    "FMA3813 includes FMA3815 plus FMA3818. This export separates nonmarginal anterior branches (FMA3815) and right marginal branch (FMA3818); together they address the broader item 97. Never export FMA3813 again on top.",
+    "Source FMA4707 represents FJ2656; its anterior interventricular continuation is exported separately as FMA66403. The complete great cardiac vein in conventional naming encompasses these connected segments; do not teach them as unrelated veins.",
+    "FMA3895 remains the source circumflex aggregate. Marginal/posterior/atrial branches are not individually validated by this export.",
+    "Right posterior ventricular branches (FMA3835) are not yet individually matched to the exact posterolateral term in the lecturer script.",
+    "Vascular anatomy varies. This is the source atlas pattern, not a claim of one invariant arterial dominance or drainage pattern."
+  ],
+  "unfilled_targets": [
+    "sinoatrial nodal branch",
+    "atrioventricular nodal branch",
+    "individually identified atrial branches",
+    "oblique vein of left atrium",
+    "pericardiacophrenic vessels"
+  ]
+}

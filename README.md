@@ -18,47 +18,41 @@ aberto. Endereço padrão: <http://127.0.0.1:8765>. `Ctrl+C` encerra o servidor.
 O serviço atende apenas o computador local. O HTML aberto diretamente como
 arquivo não consegue carregar o modelo; use o iniciador.
 
-## Primeira etapa — v0.1
+## Plano de três etapas
 
-- 39 peças prontas, 129.008 triângulos; GLB de aproximadamente 3,2 MB.
-- Girar, aproximar, mover, selecionar, destacar, ocultar e isolar estruturas.
-- Vistas anatômicas, transparência, corte em três planos e inversão do corte.
-- Conjuntos de câmaras, valvas/papilares e vasos coronários.
-- Paletas ilustrativas, nomes em português e identidade preservada da fonte.
-- Fontes, licenças, matriz de cobertura e download do GLB na própria página.
+1. **Prática do coração — em andamento.** Representar os alvos do roteiro, conferir relações anatômicas e oferecer exploração e treino. A referência principal são os materiais da professora. Dúvidas exigem Moore, Anatomy Learning ou fontes acadêmicas oficiais; uma fonte apenas localizada não é uma fonte efetivamente conferida.
+2. **Teoria — depois da prática.** Organizar a teoria de coração/circulatório a partir dos slides e aulas disponíveis, com referências. Os horários de aula que já aparecem no roteiro são apoio à prática, não um módulo de teoria concluído.
+3. **Refinamento e publicação pública.** Revisar anatomia, interface, acessibilidade, atribuição e arquivos redistribuíveis. Por enquanto, o GitHub funciona como backup privado.
 
-As quatro câmaras e peças internas usam superfícies extraídas de `Startup.blend`.
-Os vasos vêm de `CardioVascular41.fbx`, da aplicação Z-Anatomy. A conversão
-comum `(x,y,z) → (x,z,-y)` e uma escala uniforme preservam a disposição original.
-Os limites das 17 peças compartilhadas foram comparados entre os dois arquivos.
-Isso verifica registro técnico; não substitui a conferência anatômica.
+## Versão atual — v0.2
 
-### Limitações conhecidas
+- **72 peças prontas:** 55 cardíacas e 17 vasos de contexto, ocultos inicialmente.
+- 152.303 triângulos; GLB principal de 3.771.380 bytes. Não foram geradas formas anatômicas novas.
+- Cúspides anteriores mitral e tricúspide integradas; rede coronária e venosa organizada em 23 grupos de seleção.
+- Uma porção papilar esquerda e um conjunto vascular com equivalência pendente são identificados como parciais e excluídos das perguntas.
+- Rotação, zoom, movimento, seleção, isolamento, transparência, planos de corte e vistas anatômicas.
+- **Prática:** identificar a peça destacada ou encontrar pelo clique; revelar resposta, registrar revisão, pausar e retomar. O progresso fica apenas neste navegador.
+- **Roteiro:** 156 alvos principais e 22 complementos, pesquisáveis e associados à cena quando possível. Cada alvo apresenta critério de reconhecimento e referências disponíveis.
+- Evidências docentes: 89 alvos com trechos localizados nas três transcrições e 33 com figuras/quadros inspecionados. O áudio não foi integralmente reescutado; ASR não é tratada como transcrição revisada.
+- **Referência independente:** quatro cortes institucionais UMN em uma página própria, na instalação local. As malhas dessa referência não acompanham o Git porque a redistribuição não foi confirmada; a página oferece a fonte oficial quando os arquivos não estão instalados.
 
-Faltam, nesta montagem, as cúspides anteriores da mitral e da tricúspide,
-parte do conjunto papilar esquerdo, pericárdio, esqueleto fibroso, condução
-e vários relevos internos. As cordas integram as malhas dos folhetos.
-As malhas da base apresentam simplificações. Não há textura fotográfica nem
-validação especializada de cada alvo. Cortes não recebem tampas artificiais.
+A primeira versão, com 39 peças, está preservada no commit inicial e na tag `v0.1-prototipo`.
 
-O levantamento principal tem 156 alvos: 70 com geometria associada nos acervos,
-47 parciais e 39 não localizados. Esses números **não são a cobertura da cena**.
-Mesmo o potencial de 75% depende de conferir todos os parciais. Os 22 alvos
-complementares dos slides são contados separadamente.
+### Situação da prática
 
-## Segunda etapa
+O roteiro interativo distingue **65 alvos com peça associada, 54 com contexto parcial e 59 pendentes na cena**, somando os 178 alvos principais e complementares. Essas categorias não certificam anatomia. Uma peça nomeada pode omitir detalhes pedidos; referências institucionais separadas não aumentam a cobertura do modelo principal.
 
-Meta solicitada: correspondência de 100% com o roteiro, com realismo prioritário.
-A conclusão exige demonstrar e conferir cada item, sem contar rótulo, descrição
-ou forma genérica como representação anatômica completa.
+Faltam pericárdio e seus seios/reflexões, esqueleto fibroso, condução e vários relevos internos. As cordas integram as malhas dos folhetos. O conjunto papilar anterior esquerdo permanece parcial. Óstios, continuidade de vasos, inserções de cordas, superfícies e sulcos precisam de revisão individual. As malhas do atlas têm simplificações e não possuem textura fotográfica. Cortes visuais não recebem tampas artificiais.
 
-Prioridades:
+**100% de correlação ainda não foi demonstrado.** O levantamento dos acervos é histórico e distinto da cena: 70 dos 156 alvos principais tinham geometria associada, 47 eram parciais e 39 não localizados. A integração de novas peças não converte esses estados automaticamente em validação anatômica.
 
-1. Integrar peças prontas faltantes, verificando escala, posição e inserções.
-2. Relacionar cada alvo à geometria, fonte, estado e evidência de validação.
-3. Criar percurso de estudo e treino de identificação, incluindo lacunas.
-4. Melhorar materiais, iluminação, navegação e legibilidade sem inventar anatomia.
-5. Procurar fontes mais detalhadas para relevos internos e envoltórios.
+### Fontes geométricas e transformações
+
+As câmaras e peças internas Z foram extraídas de `Startup.blend`; os vasos Z vêm de `CardioVascular41.fbx`. A transformação comum preserva a disposição da fonte. Os limites das 17 peças compartilhadas entre esses arquivos foram comparados antes da integração.
+
+Os complementos BodyParts3D receberam uma única transformação de similaridade, estimada por sete peças homólogas, com escala uniforme 1,0336 e diferença máxima das caixas envolventes de 0,3935 mm nominais. Isso verifica registro técnico, não precisão clínica. A rede vascular BP substitui integralmente a camada correspondente Z para evitar vasos duplicados. Veja `refinamento/geometria/README.md`.
+
+Os 17 vasos de contexto foram extraídos do mesmo GLB Z, sem ajuste por peça ou corte. Os quatro cortes UMN mantêm uma transformação comum própria e não foram fundidos ao atlas.
 
 ## Organização
 
@@ -67,7 +61,10 @@ Prioridades:
 - `scripts/build_heart_site_assets.py`: geração do GLB a partir dos dados de origem.
 - `matriz_coracao.json` / `.csv`: todos os alvos e suas evidências.
 - `RELATORIO.md`: método da auditoria.
-- `output/playwright/`: evidências de verificação de interface, quando disponíveis.
+- `output/playwright/`: evidências de verificação de interface.
+- `refinamento/`: evidências das aulas, registro geométrico e próximas estruturas.
+- `site/study.js`: treino e roteiro.
+- `site/reference.html`: visualizador da referência local independente.
 
 Arquivos de aula originais, credenciais, ambientes Python, dependências npm e
 downloads brutos não fazem parte do repositório. A aplicação pronta não depende
@@ -79,10 +76,12 @@ deles. Os scripts de extração requerem os acervos locais indicados na auditori
 Geometria: [Z-Anatomy](https://github.com/Z-Anatomy/Models-of-human-anatomy),
 Gauthier Kervyn e colaboradores; aplicação por Lluis Vinent; base de
 BodyParts3D / Kousaku Okubo / The Database Center for Life Science.
-A derivação geométrica distribuída aqui permanece **CC BY-SA 4.0**.
+Os complementos do download independente BodyParts3D têm **CC BY 4.0**; a montagem com Z-Anatomy é distribuída sob **CC BY-SA 4.0**.
 Avisos históricos da origem são preservados em `site/LICENSES/`.
 Three.js 0.186.1 usa licença MIT. Consulte os avisos completos em
 [NOTICE](site/LICENSES/NOTICE.txt). Não há arquivos de ouvido ou rim de outras licenças.
 
 As notas breves usam o roteiro local e
 [OpenStax, Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy).
+
+A referência local [UMN / Visible Heart Laboratories](https://www.vhlab.umn.edu/atlas/echocardiography-tutorial/exam-views-models.shtml) tem atribuição própria. Ela é mantida fora do Git; não está incluída na licença da geometria principal.

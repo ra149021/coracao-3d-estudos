@@ -144,6 +144,103 @@ for num, (name, label, group, color, note, requirement_id) in enumerate(PARTS):
                 bounds=[vertices.min(0).tolist(), vertices.max(0).tolist()])
     geometry.append((meta, vertices, normals.astype('<f4'), faces.astype('<u4')))
 
+# Refinement: registered pre-existing BodyParts3D parts, never procedural anatomy.
+registration_file = ROOT / 'refinamento/geometria/registration.json'
+vascular_file = ROOT / 'refinamento/geometria/vascular.json'
+registered = []
+if registration_file.exists():
+    registered.extend(json.loads(registration_file.read_text())['candidate_parts'])
+if vascular_file.exists():
+    vascular = json.loads(vascular_file.read_text())
+    replace_names = set(vascular['replace_Z_names'])
+    geometry = [g for g in geometry if g[0]['sourceName'] not in replace_names]
+    registered.extend(vascular['parts'])
+
+source_aliases = {
+    'FMA3802': ['Right coronary artery'], 'FMA3855': ['Left coronary artery'],
+    'FMA74912': ['Anterior interventricular artery'], 'FMA3892': ['Septal branches of anterior interventricular artery'],
+    'FMA3895': ['Circumflex artery of heart'], 'FMA4706': ['Coronary sinus'],
+    'FMA4707': ['Great cardiac vein'], 'FMA4713': ['Middle cardiac vein'],
+    'FMA4712': ["Inferior vein of left ventricle (//Posterior '')"],
+}
+for part in registered:
+    path = ROOT / 'refinamento/geometria' / part['file']
+    assert hashlib.sha256(path.read_bytes()).hexdigest() == part['sha256']
+    npz = np.load(path, allow_pickle=False)
+    vertices, faces = npz['vertices'].astype('<f4'), npz['faces'].astype('<u4')
+    assert np.isfinite(vertices).all() and faces.max() < len(vertices)
+    assert np.abs(vertices).max() < 10 and len(faces) > 0
+    normals = np.zeros_like(vertices)
+    surface_normals = np.cross(vertices[faces[:, 1]] - vertices[faces[:, 0]], vertices[faces[:, 2]] - vertices[faces[:, 0]])
+    for column in range(3):
+        np.add.at(normals, faces[:, column], surface_normals)
+    normals /= np.maximum(np.linalg.norm(normals, axis=1)[:, None], 1e-12)
+    req_id = part['requirementId']
+    requirement = requirements.get(req_id)
+    partial = part['fma'] in ['FMA7265', 'FMA3835']
+    group = part.get('group', 'papilares' if part['fma'] == 'FMA7265' else 'valvas')
+    note = 'Explore o trajeto e as relações com os vasos vizinhos. Alguns ramos permanecem unidos nesta peça. As conexões finas ainda estão em revisão.'
+    if group == 'valvas':
+        note = 'Cúspide com cordas incorporadas, registrada a partir de peças comuns aos dois acervos. Cada inserção das cordas e a coaptação ainda precisam de conferência.'
+    if part['fma'] == 'FMA7265':
+        note = 'A fonte identifica uma cabeça anterolateral. É uma porção do aparelho papilar esquerdo; não equivale, por si só, ao grupo muscular anterior completo do roteiro.'
+    if part['fma'] == 'FMA3835':
+        note = 'Conjunto de ramos ventriculares posteriores da coronária direita. A equivalência com o ramo póstero-lateral direito do roteiro ainda precisa ser delimitada.'
+    if part['fma'] == 'FMA3815':
+        note = 'Ramos anteriores sem o ramo marginal, que tem sua própria seleção nesta cena. Para estudar o conjunto completo, observe também o item 98.'
+    if part['fma'] == 'FMA4707':
+        note = 'Segmento da veia cardíaca magna. A continuidade interventricular anterior tem seleção própria no item 105.'
+    if part['fma'] == 'FMA3895':
+        note = 'Conjunto circunflexo da fonte. Ramos atriais, laterais e marginais não estão todos individualizados; não considere seus detalhes concluídos apenas por esta peça existir.'
+    meta = dict(id=part.get('id', 'bp_' + part.get('element', part['fma'])), label=part['label'],
+                sourceName=part['sourceName'], sourceAliases=source_aliases.get(part['fma'], []),
+                group=group, color={'valvas':'#ead4af', 'papilares':'#cf9982', 'coronarias':'#dc8870', 'veias':'#7597b1'}[group],
+                note=note, sourceFile=part.get('element', part['fma']) + ' · BodyParts3D 4.0',
+                source=part['source'], license=part['license'], fma=part['fma'],
+                sourceElements=part.get('elements', [part.get('element')]),
+                sourceGeometrySha256=part['sha256'], correspondence='partial' if partial else 'associated',
+                quizEligible=not partial,
+                requirement={'id':req_id,'label':requirement['estrutura'],'page':requirement['pagina'],'source':requirement['fonte']} if requirement else None,
+                vertices=len(vertices), triangles=len(faces),bounds=[vertices.min(0).tolist(),vertices.max(0).tolist()])
+    geometry.append((meta, vertices, normals.astype('<f4'), faces))
+
+label_refinements = {
+    'heart_26': ('Tricúspide · cúspide posterior', ['cúspide inferior', 'válvula posterior']),
+    'heart_36': ('VD · músculo papilar posterior', ['músculo papilar inferior']),
+    'heart_38': ('VE · músculo papilar posterior', ['músculo papilar inferior']),
+}
+for meta, *_ in geometry:
+    if meta['id'] in label_refinements:
+        meta['label'], meta['aliases'] = label_refinements[meta['id']]
+    if meta['id'] in ['heart_26', 'heart_27', 'heart_28']:
+        meta['note'] = 'Cúspide com cordas incorporadas. Use a vista superior e observe suas relações com os outros folhetos e os músculos papilares. Inserções finas ainda em revisão.'
+    if meta['id'] == 'heart_38':
+        meta['note'] = 'Músculo papilar posterior do VE; inferior no nome da fonte. A peça anterior disponível representa apenas uma porção e continua indicada como parcial.'
+    meta.setdefault('sourceAliases', [])
+    meta.setdefault('quizEligible', True)
+    meta.setdefault('correspondence', 'associated')
+assert len({g[0]['id'] for g in geometry}) == len(geometry)
+
+# Optional vascular context from the same positioned Z-Anatomy source.
+context_file = ROOT / 'refinamento/contexto/context.json'
+if context_file.exists():
+    for part in json.loads(context_file.read_text())['parts']:
+        path = context_file.parent / part['file']
+        assert hashlib.sha256(path.read_bytes()).hexdigest() == part['sha256']
+        data = np.load(path, allow_pickle=False)
+        vertices, faces = data['vertices'].astype('<f4'), data['faces'].astype('<u4')
+        assert np.isfinite(vertices).all() and len(faces) and faces.max() < len(vertices)
+        assert len(vertices) == part['vertices'] and len(faces) == part['triangles']
+        normals = np.zeros_like(vertices)
+        face_normals = np.cross(vertices[faces[:, 1]] - vertices[faces[:, 0]], vertices[faces[:, 2]] - vertices[faces[:, 0]])
+        for column in range(3):
+            np.add.at(normals, faces[:, column], face_normals)
+        normals /= np.maximum(np.linalg.norm(normals, axis=1)[:, None], 1e-12)
+        meta = {key:part[key] for key in ['id','label','sourceName','source','sourceFile','license','group','color','note','requirement','vertices','triangles','bounds','defaultVisible','correspondence','quizEligible']}
+        meta.update(kind=part['tipo'], sourceAliases=[], sourceNode=part['sourceNode'], sourceGeometrySha256=part['sha256'])
+        geometry.append((meta, vertices, normals.astype('<f4'), faces))
+assert len({g[0]['id'] for g in geometry}) == len(geometry)
+
 # Write a small standards-compliant GLB with one selectable mesh per source object.
 out = {'asset': {'version': '2.0', 'generator': 'Local cardiac extraction; existing Z-Anatomy geometry',
                   'copyright': 'Z-Anatomy; BodyParts3D / The Database Center for Life Science. CC BY-SA 4.0. See LICENSES.'},
@@ -183,14 +280,17 @@ blob = (struct.pack('<4sII', b'glTF', 2, 28 + len(encoded) + len(chunks)) +
         struct.pack('<II', len(chunks), 0x004e4942) + chunks)
 (ASSETS / 'heart.glb').write_bytes(blob)
 catalog = {
-    'version': 1, 'parts': [p[0] for p in geometry],
+    'version': 2, 'parts': [p[0] for p in geometry],
     'model': {'parts': len(geometry), 'triangles': sum(len(p[3]) for p in geometry),
+              'cardiacParts': sum(p[0]['group'] != 'contexto' for p in geometry),
+              'contextParts': sum(p[0]['group'] == 'contexto' for p in geometry),
               'bytes': len(blob), 'sha256': hashlib.sha256(blob).hexdigest(),
               'synthetic_anatomical_parts': 0, 'individually_anatomically_validated': False},
     'orientation': {'xPositive': 'esquerda do corpo', 'yPositive': 'superior', 'zPositive': 'anterior'},
     'coverage': coverage['resumo'],
     'limitations': [
-        'Faltam as cúspides anteriores da mitral e da tricúspide nesta montagem.',
+        'As cúspides anteriores foram integradas; coaptação e inserções de cada corda ainda exigem conferência.',
+        'O conjunto papilar anterior esquerdo tem apenas uma porção identificada na fonte.',
         'Cordas tendíneas integram os folhetos; não são peças individualmente selecionáveis.',
         'Pericárdio, esqueleto fibroso e sistema de condução ainda não estão representados.',
         'Relevos finos, óstios e conexões entre peças precisam de revisão anatômica.',
@@ -199,6 +299,7 @@ catalog = {
     'sources': [
         {'label': 'Z-Anatomy · modelo Blender', 'url': 'https://github.com/Z-Anatomy/Models-of-human-anatomy', 'revision': '7cc49aa8749632adcd564c0e75f096dc43f6a4b8'},
         {'label': 'Z-Anatomy · vasos da aplicação', 'url': 'https://github.com/LluisV/Z-Anatomy/tree/PC-Version/Resources/Models', 'revision': '6c7f9016bd5899ac8edafd31b9900c151df42ed6'},
+        {'label': 'BodyParts3D · peças prontas registradas', 'url': 'https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html'},
         {'label': 'OpenStax · anatomia do coração', 'url': 'https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy'},
     ],
 }
@@ -224,12 +325,17 @@ Créditos: Gauthier Kervyn (design, 3D, anatomia), Lluis Vinent (aplicação),
 Kousaku Okubo / BodyParts3D, The Database Center for Life Science (modelo original).
 A licença histórica pedida pelos arquivos Z-Anatomy atribui BodyParts3D sob
 CC BY-SA 2.1 Japan; esse aviso é preservado em Z-Anatomy-original.txt.
-O download atual e independente de BodyParts3D está sob CC BY 4.0, mas não
-foi integrado a esta cena. A geometria derivada aqui permanece CC BY-SA 4.0.
+O download atual e independente de BodyParts3D está sob CC BY 4.0. Cúspides,
+uma porção papilar e a rede coronária segmentada foram integradas sob essa
+licença. BodyParts3D, © The Database Center for Life Science, CC BY 4.0.
+A montagem geométrica com Z-Anatomy é distribuída sob CC BY-SA 4.0;
+os metadados preservam a licença e a origem de cada peça.
 
-Alterações: seleção de 39 peças cardíacas já existentes; conversão para GLB;
+Alterações: seleção de peças cardíacas já existentes; conversão para GLB;
 conversão comum de eixos e escala; normais calculadas; cores didáticas e
-rótulos em português. Nenhuma nova estrutura anatômica foi gerada. Modelos
+rótulos em português; uma transformação de similaridade registrada em peças
+comuns para o complemento BodyParts3D, com solda de vértices exatamente
+coincidentes. Nenhuma nova estrutura anatômica foi gerada. Modelos
 de ouvido e rim de outros autores não foram incluídos.
 Os recortes e a transparência são efeitos de visualização, não novas malhas.
 
