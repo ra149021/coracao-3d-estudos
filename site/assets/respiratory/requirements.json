@@ -828,11 +828,14 @@
       "pagina": 34,
       "escopo": "principal",
       "tipo": "estrutura",
-      "status": "nao_localizado",
-      "z_evidencia": [],
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Sinus of frontal bone"
+      ],
       "validacao_visual": "pendente_individual",
       "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
-      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude.",
+      "observacao": "Superfície da cavidade nomeada na fonte, já presente na cena. Associação nominal; subdivisões e drenagem não validadas individualmente."
     },
     {
       "id": "R035",
@@ -856,11 +859,14 @@
       "pagina": 34,
       "escopo": "principal",
       "tipo": "estrutura",
-      "status": "nao_localizado",
-      "z_evidencia": [],
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Sinus of sphenoid bone"
+      ],
       "validacao_visual": "pendente_individual",
       "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
-      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude.",
+      "observacao": "Superfície da cavidade nomeada na fonte, já presente na cena. Associação nominal; subdivisões e drenagem não validadas individualmente."
     },
     {
       "id": "R037",

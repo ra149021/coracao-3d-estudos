@@ -11,6 +11,7 @@ Um ambiente de estudo de anatomia circulatória e respiratória que conecta mode
 | Recurso | Uso no estudo |
 | --- | --- |
 | **Anatomia em 3D** | Coração e sistema respiratório, com seleção de estruturas, rotação, isolamento, transparência e cortes. |
+| **Vistas do roteiro** | 15 vistas orientadas com transparência, seleção de peças e acesso ao slide correspondente. [Inspeção e limites](refinamento/qualidade/inspecao_roteiros/README.md). |
 | **Teoria e revisão** | 26 unidades e 94 questões originais, com referências e progresso salvo no navegador. |
 | **Aulas da professora Carmem** | 7 aulas gravadas, busca nas transcrições e retomada do ponto de reprodução. |
 | **Slides e roteiro** | 6 documentos e 354 páginas navegáveis, com acesso aos PDFs originais. |

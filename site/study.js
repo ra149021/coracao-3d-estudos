@@ -1,5 +1,5 @@
 /** Practical study tools. All questions use parts loaded by the viewer. */
-export function initStudy({ parts, requirements = [], evidence = null, viewer, system = 'circulatory', storageId = system, groupNames = null, scopeNote = null }) {
+export function initStudy({ guidedViews = [], parts, requirements = [], evidence = null, viewer, system = 'circulatory', storageId = system, groupNames = null, scopeNote = null }) {
   if (!viewer || !Array.isArray(parts)) throw new TypeError('Prática: catálogo ou visualizador indisponível.');
   const present = parts.filter(p => p.id && p.label && p.triangles > 0);
   const byId = new Map(present.map(p => [p.id, p]));
@@ -380,6 +380,12 @@ export function initStudy({ parts, requirements = [], evidence = null, viewer, s
           document.querySelector('#heart-canvas')?.focus({preventScroll:true});
         }));
         body.append(buttons);
+      }
+      for(const view of guidedViews.filter(v=>v.requirementIds.includes(String(item.id)))){
+        body.append(button(`Vista de estudo: ${view.label}`,'button',()=>{
+          route.close();pause();viewer.setExamMode(false);viewer.preset(view.id);
+          document.querySelector('#heart-canvas')?.focus({preventScroll:true});
+        }));
       }
       const audit = {geometria_disponivel:'geometria encontrada no acervo',parcial_ou_a_conferir:'parcial ou a conferir no acervo',nao_localizado:'geometria não localizada no acervo'}[item.status] || item.status;
       body.append(el('p','study-answer-reference',`Auditoria dos acervos: ${audit}. Validação anatômica individual: ${item.validacao_visual === 'nao_concluida_individualmente' ? 'ainda não concluída' : item.validacao_visual || 'a conferir'}.`));

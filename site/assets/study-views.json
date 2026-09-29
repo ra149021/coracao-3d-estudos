@@ -1,0 +1,487 @@
+{
+  "circulatory": [
+    {
+      "id": "av_direita",
+      "label": "Tricúspide, cordas e papilares",
+      "partIds": [
+        "heart_01",
+        "heart_26",
+        "heart_27",
+        "bp_FJ2421",
+        "heart_35",
+        "heart_36",
+        "heart_37"
+      ],
+      "requirementIds": [
+        "46a",
+        "46b",
+        "46c",
+        "47",
+        "48",
+        "49",
+        "51"
+      ],
+      "source": {
+        "document": "coracao",
+        "page": 37
+      },
+      "note": "Parede ventricular translúcida. As cordas integram as cúspides; confira suas inserções no slide.",
+      "direction": [
+        -0.5,
+        0.55,
+        1
+      ],
+      "transparency": 82
+    },
+    {
+      "id": "av_esquerda",
+      "label": "Mitral, cordas e papilares",
+      "partIds": [
+        "heart_03",
+        "heart_28",
+        "bp_FJ2420",
+        "heart_38",
+        "bp_FJ2418"
+      ],
+      "requirementIds": [
+        "58a",
+        "58b",
+        "59",
+        "60",
+        "61"
+      ],
+      "source": {
+        "document": "coracao",
+        "page": 39
+      },
+      "note": "O papilar anterolateral é uma porção de cabeça. Cordas e folhetos permanecem unidos na geometria.",
+      "direction": [
+        0.7,
+        0.4,
+        1
+      ],
+      "transparency": 82
+    },
+    {
+      "id": "atrio_direito",
+      "label": "Átrio direito e entradas cavas",
+      "partIds": [
+        "heart_00",
+        "heart_10",
+        "heart_11",
+        "heart_26",
+        "heart_27",
+        "bp_FJ2421"
+      ],
+      "requirementIds": [
+        "16",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
+      "source": {
+        "document": "coracao",
+        "page": 31
+      },
+      "note": "Observe a relação entre cavas, átrio e tricúspide. Pectíneos, fossa oval e pequenos relevos ainda não estão individualizados.",
+      "direction": [
+        -1,
+        0.25,
+        0.6
+      ],
+      "transparency": 82
+    },
+    {
+      "id": "atrio_esquerdo",
+      "label": "Átrio esquerdo e veias pulmonares",
+      "partIds": [
+        "heart_02",
+        "heart_12",
+        "heart_13",
+        "heart_14",
+        "heart_15",
+        "heart_28",
+        "bp_FJ2420"
+      ],
+      "requirementIds": [
+        "18",
+        "54a",
+        "54b",
+        "54c",
+        "54d",
+        "55",
+        "56"
+      ],
+      "source": {
+        "document": "coracao",
+        "page": 39
+      },
+      "note": "Vista posterior com as quatro veias. As aberturas e seus limites exigem conferência; a seleção do vaso não identifica o óstio.",
+      "direction": [
+        0.25,
+        0.2,
+        -1
+      ],
+      "transparency": 82
+    },
+    {
+      "id": "saida_direita",
+      "label": "VD e via de saída pulmonar",
+      "partIds": [
+        "heart_01",
+        "heart_06",
+        "heart_07",
+        "heart_32",
+        "heart_33",
+        "heart_34"
+      ],
+      "requirementIds": [
+        "20",
+        "43",
+        "44",
+        "45",
+        "53a",
+        "53b",
+        "53c"
+      ],
+      "source": {
+        "document": "coracao",
+        "page": 43
+      },
+      "note": "Compare ventrículo, valva e tronco pulmonar. A crista supraventricular permanece pendente.",
+      "direction": [
+        -0.45,
+        0.3,
+        1
+      ],
+      "transparency": 82
+    },
+    {
+      "id": "saida_esquerda",
+      "label": "VE e via de saída aórtica",
+      "partIds": [
+        "heart_03",
+        "heart_04",
+        "heart_29",
+        "heart_30",
+        "heart_31"
+      ],
+      "requirementIds": [
+        "21",
+        "63a",
+        "63b",
+        "63c",
+        "C41"
+      ],
+      "source": {
+        "document": "coracao",
+        "page": 43
+      },
+      "note": "Compare ventrículo, valva e aorta. A transparência permite inspecionar a relação sem deslocar as peças.",
+      "direction": [
+        0.6,
+        0.35,
+        1
+      ],
+      "transparency": 82
+    }
+  ],
+  "respiratory": [
+    {
+      "id": "arvore_superior_direito",
+      "label": "Lobo superior direito · brônquios",
+      "partIds": [
+        "resp_trachea",
+        "resp_right_main_bronchus",
+        "resp_right_superior_lobar_bronchus",
+        "resp_apical_segmental_bronchus_of_right_lung_bi",
+        "resp_posterior_segmental_bronchus_of_right_lung_bii",
+        "resp_anterior_segmental_bronchus_of_right_lung_biii",
+        "resp_superior_lobe_of_right_lung"
+      ],
+      "requirementIds": [
+        "R138",
+        "R119",
+        "R120",
+        "R121"
+      ],
+      "source": {
+        "document": "respiratorio",
+        "page": 92
+      },
+      "note": "Siga principal → lobar → segmentar dentro do lobo translúcido. Os limites dos volumes segmentares não estão modelados.",
+      "direction": [
+        -0.3,
+        0.15,
+        1
+      ],
+      "transparency": 85
+    },
+    {
+      "id": "arvore_medio_direito",
+      "label": "Lobo médio direito · brônquios",
+      "partIds": [
+        "resp_trachea",
+        "resp_right_main_bronchus",
+        "resp_intermediate_bronchus_r",
+        "resp_middle_lobar_bronchus_r",
+        "resp_lateral_segmental_bronchus_of_right_lung_biv",
+        "resp_medial_segmental_bronchus_of_right_lung_bv",
+        "resp_middle_lobe_of_right_lung"
+      ],
+      "requirementIds": [
+        "R139",
+        "R122",
+        "R123"
+      ],
+      "source": {
+        "document": "respiratorio",
+        "page": 92
+      },
+      "note": "Siga principal → lobar → segmentar dentro do lobo translúcido. Os limites dos volumes segmentares não estão modelados.",
+      "direction": [
+        -0.3,
+        0.15,
+        1
+      ],
+      "transparency": 85
+    },
+    {
+      "id": "arvore_inferior_direito",
+      "label": "Lobo inferior direito · brônquios",
+      "partIds": [
+        "resp_trachea",
+        "resp_right_main_bronchus",
+        "resp_intermediate_bronchus_r",
+        "resp_right_inferior_lobar_bronchus",
+        "resp_superior_segmental_bronchus_of_right_lung_bvi",
+        "resp_medial_basal_segmental_bronchus_of_right_lung_bvii",
+        "resp_anterior_basal_segmental_bronchus_of_right_lung_bviii",
+        "resp_lateral_basal_segmental_bronchus_of_right_lung_bix",
+        "resp_posterior_basal_segmental_bronchus_of_right_lung_bx",
+        "resp_inferior_lobe_of_right_lung"
+      ],
+      "requirementIds": [
+        "R140",
+        "R124",
+        "R125",
+        "R126",
+        "R127",
+        "R128"
+      ],
+      "source": {
+        "document": "respiratorio",
+        "page": 92
+      },
+      "note": "Siga principal → lobar → segmentar dentro do lobo translúcido. Os limites dos volumes segmentares não estão modelados.",
+      "direction": [
+        -0.3,
+        0.15,
+        1
+      ],
+      "transparency": 85
+    },
+    {
+      "id": "arvore_superior_esquerdo",
+      "label": "Lobo superior esquerdo · brônquios",
+      "partIds": [
+        "resp_trachea",
+        "resp_left_main_bronchus",
+        "resp_left_superior_lobar_bronchus",
+        "resp_apicoposterior_segmental_bronchus_of_left_lung_bi_bii",
+        "resp_anterior_segmental_bronchus_of_left_lung_biii",
+        "resp_superior_lingular_segmental_bronchus_of_left_lung_biv",
+        "resp_inferior_lingular_segmental_bronchus_of_left_lung_bv",
+        "resp_superior_lobe_of_left_lung"
+      ],
+      "requirementIds": [
+        "R141",
+        "R129",
+        "R130",
+        "R131",
+        "R132"
+      ],
+      "source": {
+        "document": "respiratorio",
+        "page": 93
+      },
+      "note": "Siga principal → lobar → segmentar dentro do lobo translúcido. Os limites dos volumes segmentares não estão modelados.",
+      "direction": [
+        0.3,
+        0.15,
+        1
+      ],
+      "transparency": 85
+    },
+    {
+      "id": "arvore_inferior_esquerdo",
+      "label": "Lobo inferior esquerdo · brônquios",
+      "partIds": [
+        "resp_trachea",
+        "resp_left_main_bronchus",
+        "resp_left_inferior_lobar_bronchus",
+        "resp_superior_segmental_bronchus_of_left_lung_bvi",
+        "resp_medial_basal_segmental_bronchus_of_left_lung_bvii",
+        "resp_anterior_basal_segmental_bronchus_of_left_lung_bviii",
+        "resp_lateral_basal_segmental_bronchus_of_left_lung_bix",
+        "resp_posterior_basal_segmental_bronchus_of_left_lung_bx",
+        "resp_inferior_lobe_of_left_lung"
+      ],
+      "requirementIds": [
+        "R142",
+        "R133",
+        "R134",
+        "R135",
+        "R136",
+        "R137"
+      ],
+      "source": {
+        "document": "respiratorio",
+        "page": 93
+      },
+      "note": "Siga principal → lobar → segmentar dentro do lobo translúcido. Os limites dos volumes segmentares não estão modelados.",
+      "direction": [
+        0.3,
+        0.15,
+        1
+      ],
+      "transparency": 85
+    },
+    {
+      "id": "hilo_direito",
+      "label": "Hilo direito · relações",
+      "partIds": [
+        "resp_right_main_bronchus",
+        "resp_superior_lobe_of_right_lung",
+        "resp_middle_lobe_of_right_lung",
+        "resp_inferior_lobe_of_right_lung",
+        "resp_right_pulmonary_artery",
+        "resp_right_superior_pulmonary_vein",
+        "resp_right_inferior_pulmonary_vein"
+      ],
+      "requirementIds": [
+        "R151",
+        "R152",
+        "R173",
+        "R175"
+      ],
+      "source": {
+        "document": "respiratorio",
+        "page": 105
+      },
+      "note": "Brônquio e vasos proximais do mesmo lado. Nervos, linfáticos e vasos brônquicos não completam esta raiz.",
+      "direction": [
+        1,
+        0.15,
+        -0.4
+      ],
+      "transparency": 82
+    },
+    {
+      "id": "hilo_esquerdo",
+      "label": "Hilo esquerdo · relações",
+      "partIds": [
+        "resp_left_main_bronchus",
+        "resp_superior_lobe_of_left_lung",
+        "resp_inferior_lobe_of_left_lung",
+        "resp_left_pulmonary_artery",
+        "resp_left_superior_pulmonary_vein",
+        "resp_left_inferior_pulmonary_vein"
+      ],
+      "requirementIds": [
+        "R151",
+        "R152",
+        "R174",
+        "R176"
+      ],
+      "source": {
+        "document": "respiratorio",
+        "page": 106
+      },
+      "note": "Brônquio e vasos proximais do mesmo lado. Nervos, linfáticos e vasos brônquicos não completam esta raiz.",
+      "direction": [
+        -1,
+        0.15,
+        -0.4
+      ],
+      "transparency": 82
+    },
+    {
+      "id": "pleura_inspecao",
+      "label": "Pleura · inspeção do conjunto",
+      "partIds": [
+        "resp_pleura",
+        "resp_superior_lobe_of_right_lung",
+        "resp_middle_lobe_of_right_lung",
+        "resp_inferior_lobe_of_right_lung",
+        "resp_superior_lobe_of_left_lung",
+        "resp_inferior_lobe_of_left_lung",
+        "resp_diaphragm_node"
+      ],
+      "requirementIds": [
+        "R161",
+        "R162",
+        "R163",
+        "R164",
+        "R165",
+        "R166",
+        "R170",
+        "R171",
+        "R172"
+      ],
+      "source": {
+        "document": "respiratorio",
+        "page": 118
+      },
+      "note": "Superfície agregada da fonte. Os componentes geométricos não identificam folhetos, reflexões ou recessos anatômicos.",
+      "direction": [
+        0.7,
+        0.15,
+        1
+      ],
+      "transparency": 75
+    },
+    {
+      "id": "seios_referencia",
+      "label": "Seios frontal e esfenoidal",
+      "partIds": [
+        "resp_sinus_of_frontal_bone",
+        "resp_sinus_of_sphenoid_bone",
+        "resp_anterior_cells_of_ethmoid_bone_l",
+        "resp_anterior_cells_of_ethmoid_bone_r",
+        "resp_middle_cells_of_ethmoid_bone_l",
+        "resp_middle_cells_of_ethmoid_bone_r",
+        "resp_posterior_cells_of_ethmoid_bone_l",
+        "resp_posterior_cells_of_ethmoid_bone_r",
+        "resp_ethmoid_bone",
+        "resp_vomer"
+      ],
+      "requirementIds": [
+        "R034",
+        "R036",
+        "R037",
+        "R038",
+        "R039"
+      ],
+      "source": {
+        "document": "respiratorio",
+        "page": 34
+      },
+      "note": "Superfícies das cavidades e células etmoidais. Os seios maxilares e as vias de drenagem não estão individualizados nesta vista.",
+      "direction": [
+        1,
+        0.15,
+        0.2
+      ],
+      "transparency": 0
+    }
+  ]
+}
