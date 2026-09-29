@@ -1,0 +1,467 @@
+{
+  "scope": "Topology inspection; component counts are not anatomical structures.",
+  "assets": [
+    {
+      "path": "site/assets/heart.glb",
+      "sha256": "32cc0d39169cd3562cde68d0e91de92bed41d9ad62357fa44fc06ce3d2fdef6c",
+      "parts": {
+        "heart_00": {
+          "vertices": 45600,
+          "uniquePositions": 45600,
+          "triangles": 90728,
+          "zeroAreaFaces": 0,
+          "components": [
+            {
+              "vertices": 45600,
+              "triangles": 90728,
+              "bounds": [
+                [
+                  -1.419731855392456,
+                  -1.471842646598816,
+                  -0.6933573484420776
+                ],
+                [
+                  -0.30271390080451965,
+                  0.9943233728408813,
+                  1.15082848072052
+                ]
+              ],
+              "boundaryEdges": 476,
+              "nonManifoldEdges": 0
+            }
+          ],
+          "method": "Components join exact coincident positions. No tolerance-based welding or anatomical labels inferred."
+        },
+        "heart_01": {
+          "vertices": 44978,
+          "uniquePositions": 44978,
+          "triangles": 89288,
+          "zeroAreaFaces": 0,
+          "components": [
+            {
+              "vertices": 44978,
+              "triangles": 89288,
+              "bounds": [
+                [
+                  -1.0391428470611572,
+                  -1.651210904121399,
+                  -0.14552563428878784
+                ],
+                [
+                  1.0252448320388794,
+                  0.6593959331512451,
+                  1.5300662517547607
+                ]
+              ],
+              "boundaryEdges": 668,
+              "nonManifoldEdges": 0
+            }
+          ],
+          "method": "Components join exact coincident positions. No tolerance-based welding or anatomical labels inferred."
+        },
+        "heart_02": {
+          "vertices": 41538,
+          "uniquePositions": 41538,
+          "triangles": 82600,
+          "zeroAreaFaces": 0,
+          "components": [
+            {
+              "vertices": 41536,
+              "triangles": 82600,
+              "bounds": [
+                [
+                  -1.0886516571044922,
+                  -1.0512096881866455,
+                  -1.2834339141845703
+                ],
+                [
+                  1.1286895275115967,
+                  0.8243756294250488,
+                  0.8598845601081848
+                ]
+              ],
+              "boundaryEdges": 484,
+              "nonManifoldEdges": 0
+            },
+            {
+              "vertices": 1,
+              "triangles": 0,
+              "bounds": [
+                [
+                  0.6814424991607666,
+                  0.6317483186721802,
+                  0.6303754448890686
+                ],
+                [
+                  0.6814424991607666,
+                  0.6317483186721802,
+                  0.6303754448890686
+                ]
+              ],
+              "boundaryEdges": 0,
+              "nonManifoldEdges": 0
+            },
+            {
+              "vertices": 1,
+              "triangles": 0,
+              "bounds": [
+                [
+                  0.9368699789047241,
+                  0.06274747848510742,
+                  0.6588828563690186
+                ],
+                [
+                  0.9368699789047241,
+                  0.06274747848510742,
+                  0.6588828563690186
+                ]
+              ],
+              "boundaryEdges": 0,
+              "nonManifoldEdges": 0
+            }
+          ],
+          "method": "Components join exact coincident positions. No tolerance-based welding or anatomical labels inferred."
+        },
+        "heart_03": {
+          "vertices": 44864,
+          "uniquePositions": 44864,
+          "triangles": 89008,
+          "zeroAreaFaces": 0,
+          "components": [
+            {
+              "vertices": 23689,
+              "triangles": 47096,
+              "bounds": [
+                [
+                  -0.43831366300582886,
+                  -1.4548821449279785,
+                  -0.8652698993682861
+                ],
+                [
+                  1.3272784948349,
+                  0.5347447395324707,
+                  1.0634037256240845
+                ]
+              ],
+              "boundaryEdges": 284,
+              "nonManifoldEdges": 0
+            },
+            {
+              "vertices": 21175,
+              "triangles": 41912,
+              "bounds": [
+                [
+                  -0.41040635108947754,
+                  -1.7066819667816162,
+                  -0.8894370198249817
+                ],
+                [
+                  1.5583469867706299,
+                  0.31650233268737793,
+                  1.2958548069000244
+                ]
+              ],
+              "boundaryEdges": 436,
+              "nonManifoldEdges": 0
+            }
+          ],
+          "method": "Components join exact coincident positions. No tolerance-based welding or anatomical labels inferred."
+        },
+        "heart_26": {
+          "vertices": 4912,
+          "uniquePositions": 4912,
+          "triangles": 9852,
+          "zeroAreaFaces": 0,
+          "components": [
+            {
+              "vertices": 4912,
+              "triangles": 9852,
+              "bounds": [
+                [
+                  -0.9741131067276001,
+                  -1.33418869972229,
+                  -0.09139744937419891
+                ],
+                [
+                  -0.05858853459358215,
+                  -0.6216777563095093,
+                  0.7238461375236511
+                ]
+              ],
+              "boundaryEdges": 0,
+              "nonManifoldEdges": 0
+            }
+          ],
+          "method": "Components join exact coincident positions. No tolerance-based welding or anatomical labels inferred."
+        },
+        "heart_27": {
+          "vertices": 4506,
+          "uniquePositions": 4506,
+          "triangles": 9040,
+          "zeroAreaFaces": 0,
+          "components": [
+            {
+              "vertices": 4506,
+              "triangles": 9040,
+              "bounds": [
+                [
+                  -0.652180016040802,
+                  -0.7022364139556885,
+                  -0.09533605724573135
+                ],
+                [
+                  0.2779645323753357,
+                  -0.09870660305023193,
+                  0.5299130082130432
+                ]
+              ],
+              "boundaryEdges": 0,
+              "nonManifoldEdges": 0
+            }
+          ],
+          "method": "Components join exact coincident positions. No tolerance-based welding or anatomical labels inferred."
+        },
+        "heart_28": {
+          "vertices": 3798,
+          "uniquePositions": 3798,
+          "triangles": 7640,
+          "zeroAreaFaces": 0,
+          "components": [
+            {
+              "vertices": 3798,
+              "triangles": 7640,
+              "bounds": [
+                [
+                  -0.135498508810997,
+                  -1.049651026725769,
+                  -0.822985827922821
+                ],
+                [
+                  1.1390191316604614,
+                  -0.22041034698486328,
+                  0.15618431568145752
+                ]
+              ],
+              "boundaryEdges": 0,
+              "nonManifoldEdges": 0
+            }
+          ],
+          "method": "Components join exact coincident positions. No tolerance-based welding or anatomical labels inferred."
+        },
+        "bp_FJ2421": {
+          "vertices": 4068,
+          "uniquePositions": 4068,
+          "triangles": 8160,
+          "zeroAreaFaces": 0,
+          "components": [
+            {
+              "vertices": 4068,
+              "triangles": 8160,
+              "bounds": [
+                [
+                  -1.0295140743255615,
+                  -1.0899865627288818,
+                  0.30944010615348816
+                ],
+                [
+                  0.1146007552742958,
+                  -0.10432712733745575,
+                  1.0090640783309937
+                ]
+              ],
+              "boundaryEdges": 0,
+              "nonManifoldEdges": 0
+            }
+          ],
+          "method": "Components join exact coincident positions. No tolerance-based welding or anatomical labels inferred."
+        },
+        "bp_FJ2420": {
+          "vertices": 3757,
+          "uniquePositions": 3757,
+          "triangles": 7558,
+          "zeroAreaFaces": 0,
+          "components": [
+            {
+              "vertices": 3757,
+              "triangles": 7558,
+              "bounds": [
+                [
+                  -0.1820322871208191,
+                  -0.9257511496543884,
+                  -0.6233597993850708
+                ],
+                [
+                  0.700951337814331,
+                  -0.11162278056144714,
+                  0.6299538016319275
+                ]
+              ],
+              "boundaryEdges": 0,
+              "nonManifoldEdges": 0
+            }
+          ],
+          "method": "Components join exact coincident positions. No tolerance-based welding or anatomical labels inferred."
+        }
+      }
+    },
+    {
+      "path": "site/assets/respiratory/model.glb",
+      "sha256": "986b8490cf76a2f0cb9b96a8f6637e3e4a6322acae55ede75ea8c4d6c6c8738a",
+      "parts": {
+        "resp_pleura": {
+          "vertices": 56160,
+          "uniquePositions": 56160,
+          "triangles": 112288,
+          "zeroAreaFaces": 0,
+          "components": [
+            {
+              "vertices": 7324,
+              "triangles": 14644,
+              "bounds": [
+                [
+                  -2.645768642425537,
+                  -4.992185115814209,
+                  -1.689858317375183
+                ],
+                [
+                  -0.03342099487781525,
+                  0.21463027596473694,
+                  2.074476957321167
+                ]
+              ],
+              "boundaryEdges": 0,
+              "nonManifoldEdges": 0
+            },
+            {
+              "vertices": 7324,
+              "triangles": 14644,
+              "bounds": [
+                [
+                  -2.635772228240967,
+                  -4.982421398162842,
+                  -1.679858922958374
+                ],
+                [
+                  -0.043414585292339325,
+                  0.20464351773262024,
+                  2.0644800662994385
+                ]
+              ],
+              "boundaryEdges": 0,
+              "nonManifoldEdges": 0
+            },
+            {
+              "vertices": 7324,
+              "triangles": 14644,
+              "bounds": [
+                [
+                  -2.6257760524749756,
+                  -4.972610950469971,
+                  -1.6698591709136963
+                ],
+                [
+                  -0.05340771749615669,
+                  0.1946565806865692,
+                  2.054483652114868
+                ]
+              ],
+              "boundaryEdges": 0,
+              "nonManifoldEdges": 0
+            },
+            {
+              "vertices": 7324,
+              "triangles": 14644,
+              "bounds": [
+                [
+                  -2.6157796382904053,
+                  -4.962815761566162,
+                  -1.6598596572875977
+                ],
+                [
+                  -0.0634010061621666,
+                  0.18466982245445251,
+                  2.0444869995117188
+                ]
+              ],
+              "boundaryEdges": 0,
+              "nonManifoldEdges": 0
+            },
+            {
+              "vertices": 6716,
+              "triangles": 13428,
+              "bounds": [
+                [
+                  0.15250033140182495,
+                  -5.034780979156494,
+                  -1.6802895069122314
+                ],
+                [
+                  2.6213486194610596,
+                  0.2453346848487854,
+                  2.054844379425049
+                ]
+              ],
+              "boundaryEdges": 0,
+              "nonManifoldEdges": 0
+            },
+            {
+              "vertices": 6716,
+              "triangles": 13428,
+              "bounds": [
+                [
+                  0.1623745858669281,
+                  -5.024789810180664,
+                  -1.6702938079833984
+                ],
+                [
+                  2.6113502979278564,
+                  0.23534159362316132,
+                  2.0448505878448486
+                ]
+              ],
+              "boundaryEdges": 0,
+              "nonManifoldEdges": 0
+            },
+            {
+              "vertices": 6716,
+              "triangles": 13428,
+              "bounds": [
+                [
+                  0.17222869396209717,
+                  -5.014792442321777,
+                  -1.6602973937988281
+                ],
+                [
+                  2.6013522148132324,
+                  0.22534868121147156,
+                  2.0348572731018066
+                ]
+              ],
+              "boundaryEdges": 0,
+              "nonManifoldEdges": 0
+            },
+            {
+              "vertices": 6716,
+              "triangles": 13428,
+              "bounds": [
+                [
+                  0.18208953738212585,
+                  -5.004824638366699,
+                  -1.6503016948699951
+                ],
+                [
+                  2.5913538932800293,
+                  0.21535558998584747,
+                  2.0248868465423584
+                ]
+              ],
+              "boundaryEdges": 0,
+              "nonManifoldEdges": 0
+            }
+          ],
+          "method": "Components join exact coincident positions. No tolerance-based welding or anatomical labels inferred."
+        }
+      }
+    }
+  ]
+}

@@ -677,10 +677,26 @@
           1.721161961555481
         ]
       ],
-      "requirement": null,
-      "requirementIds": [],
+      "requirement": {
+        "id": "R034",
+        "label": "Seios frontais",
+        "page": 34,
+        "source": "respiratorio"
+      },
+      "requirementIds": [
+        "R034"
+      ],
       "relatedRequirementIds": [],
-      "requirementMatches": []
+      "requirementMatches": [
+        {
+          "id": "R034",
+          "label": "Seios frontais",
+          "type": "estrutura",
+          "match": "source_name_candidate",
+          "visualValidation": "pending_individual",
+          "separateStructure": true
+        }
+      ]
     },
     {
       "sourceName": "Sinus of sphenoid bone",
@@ -711,10 +727,26 @@
           0.7941756248474121
         ]
       ],
-      "requirement": null,
-      "requirementIds": [],
+      "requirement": {
+        "id": "R036",
+        "label": "Seios esfenoidais",
+        "page": 34,
+        "source": "respiratorio"
+      },
+      "requirementIds": [
+        "R036"
+      ],
       "relatedRequirementIds": [],
-      "requirementMatches": []
+      "requirementMatches": [
+        {
+          "id": "R036",
+          "label": "Seios esfenoidais",
+          "type": "estrutura",
+          "match": "source_name_candidate",
+          "visualValidation": "pending_individual",
+          "separateStructure": true
+        }
+      ]
     },
     {
       "sourceName": "Anterior cells of ethmoid bone.l",

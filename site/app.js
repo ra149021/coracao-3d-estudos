@@ -35,7 +35,7 @@ const clipPlane = new THREE.Plane(new THREE.Vector3(0, 0, -1), 0);
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(34, 1, 0.01, 150);
 const fullBounds = new THREE.Box3();
-let renderer, anatomyRenderer, controls, catalog, entries = [], moveAnimation = null;
+let renderer, anatomyRenderer, controls, catalog, entries = [], studyViews = [], moveAnimation = null;
 let frameRequested = false, lastTime = 0, dragging = false, pointerStart = null;
 const pickListeners = new Set();
 
@@ -217,7 +217,7 @@ function preset(name, animate = true) {
   state.preset = name;
   state.selected = null;
   selectPart(null);
-  const custom = catalog.presets?.find(p=>p.id===name);
+  const custom = catalog.presets?.find(p=>p.id===name) || studyViews.find(p=>p.id===name);
   state.transparency = custom?.transparency ?? (name === 'coronarias' ? 72 : 0);
   state.clipping = custom ? Boolean(custom.clipping) : name === 'interior';
   state.axis = 'z'; state.cut = 54; state.flipped = false;
@@ -227,6 +227,7 @@ function preset(name, animate = true) {
       : name === 'interior' ? ['camaras', 'valvas', 'papilares'].includes(part.group)
       : name === 'contexto' ? ['camaras', 'grandes', 'contexto'].includes(part.group)
       : part.defaultVisible !== false;
+    if(custom?.partIds)visible=custom.partIds.includes(part.id);
     if(respiratory && !larynx && name==='exterior' && part.group==='respiracao' && part.id!=='resp_diaphragm_node')visible=false;
     meshes.get(part.id).visible = visible;
   }
@@ -234,6 +235,7 @@ function preset(name, animate = true) {
     button.classList.toggle('active', button.dataset.preset === name);
     button.setAttribute('aria-pressed', String(button.dataset.preset === name));
   });
+  syncStudyView();
   $('mode-note').textContent = custom?.note || (name === 'valvas' ? 'Folhetos disponíveis · inserções das cordas em revisão'
     : name === 'coronarias' ? 'Paredes transparentes para observar os vasos'
     : name === 'interior' ? 'Corte visual · detalhes internos simplificados'
@@ -443,6 +445,27 @@ function initAbout() {
 }
 
 
+function syncStudyView() {
+  const select=$('study-view');
+  if(!select)return;
+  const view=studyViews.find(v=>v.id===state.preset);
+  select.value=view?.id || '';
+  const link=$('study-view-source');link.hidden=!view;
+  if(view){link.href=`classroom.html?doc=${encodeURIComponent(view.source.document)}&page=${view.source.page}`;link.textContent=`Conferir no slide · p. ${view.source.page} ↗`;}
+}
+
+function addStudyViews() {
+  if(!studyViews.length)return;
+  const row=document.createElement('div');row.className='study-view-control';
+  const label=document.createElement('label');label.htmlFor='study-view';label.textContent='Estudar uma região';
+  const select=document.createElement('select');select.id='study-view';
+  const placeholder=new Option('Escolha uma vista do roteiro…','');placeholder.disabled=true;select.add(placeholder);
+  for(const view of studyViews)select.add(new Option(view.label,view.id));
+  select.addEventListener('change',()=>{if(select.value)preset(select.value);});
+  const link=document.createElement('a');link.id='study-view-source';link.hidden=true;link.target='_blank';link.rel='noopener';
+  row.append(label,select,link);document.querySelector('.presets').after(row);
+}
+
 function configureSystem() {
   const title=hraHeart ? 'Câmaras e septo · outro acervo' : larynx ? 'Laringe em detalhe' : respiratory ? 'Sistema respiratório' : 'Coração e circulação';
   document.title=title+' · Atlas de estudo';
@@ -532,7 +555,16 @@ async function init() {
   if (!response.ok) throw new Error('O catálogo local não foi encontrado. Reabra pelo iniciador do projeto.');
   catalog = await response.json(); entries = catalog.parts;
   if(catalog.groups){for(const key of Object.keys(groups))delete groups[key];Object.assign(groups,catalog.groups);}
+  if(!larynx && !hraHeart){
+    try {
+      const viewsResponse=await fetch('assets/study-views.json');
+      if(!viewsResponse.ok)throw new Error('Vistas de estudo indisponíveis');
+      const views=await viewsResponse.json();
+      studyViews=(views[system] || []).filter(view=>view.partIds.every(id=>entries.some(p=>p.id===id)));
+    } catch(error){console.warn('Vistas complementares não carregadas:',error);}
+  }
   configureSystem();
+  addStudyViews();
   $('limitations-list').innerHTML = catalog.limitations.map(t=>`<li>${escapeHTML(t)}</li>`).join('');
   $('sources-list').innerHTML = catalog.sources.map(s=>`<li><a href="${escapeHTML(s.url)}" target="_blank" rel="noopener">${escapeHTML(s.label || s.name || s.url)}</a></li>`).join('');
   const gltf = await new GLTFLoader().loadAsync(assetRoot+modelFile, event => {if(event.total) $('loading-progress').textContent=`Carregando peças locais · ${Math.round(event.loaded/event.total*100)}%`;});
@@ -572,6 +604,7 @@ async function init() {
   });
   const viewerAPI = Object.freeze({
     snapshot,
+    preset:name=>{if(studyViews.some(v=>v.id===name))preset(name,false);},
     select:id=>{if(meshes.has(id))selectPart(id);},
     clear:()=>selectPart(null),
     show:ids=>{
@@ -596,6 +629,7 @@ async function init() {
       document.querySelector('.structures').inert=state.examMode;
       document.querySelector('.inspector').inert=state.examMode;
       document.querySelector('.presets').inert=state.examMode;
+      const studyControl=document.querySelector('.study-view-control');if(studyControl)studyControl.inert=state.examMode;
       $('fullscreen').disabled=state.examMode;
       $('reset').disabled=state.examMode;
       if(state.examMode){
@@ -623,7 +657,7 @@ async function init() {
       controls.target.fromArray(s.target);camera.position.fromArray(s.camera);controls.update();
       controls.autoRotate=Boolean(s.autoRotate);$('rotate').setAttribute('aria-pressed',String(controls.autoRotate));
       $('view-name').textContent=s.viewName || 'Ângulo livre';$('mode-note').textContent=s.modeNote || 'Geometria original · cores ilustrativas';requestFrame();
-      activeView(s.activeView);
+      activeView(s.activeView);syncStudyView();
     },
   });
   window.heartViewer=viewerAPI;
@@ -636,7 +670,9 @@ async function init() {
       const evidenceResponse=await fetch(contentRoot+'practice-evidence.json');
       if(evidenceResponse.ok)evidence=await evidenceResponse.json();
     } catch(error) { console.warn('Referências de aula indisponíveis nesta abertura.',error); }
-    initStudy({parts:entries,requirements:requirements.alvos,viewer:viewerAPI,evidence,system,storageId:hraHeart?'heart-hra':larynx?'larynx':system,groupNames:groups,scopeNote:requirements.scopeNote || requirements.metodo?.oficialidade});
+    initStudy({guidedViews:studyViews,parts:entries,requirements:requirements.alvos,viewer:viewerAPI,evidence,system,storageId:hraHeart?'heart-hra':larynx?'larynx':system,groupNames:groups,scopeNote:requirements.scopeNote || requirements.metodo?.oficialidade});
+    const requestedView=params.get('preset');
+    if(studyViews.some(v=>v.id===requestedView))preset(requestedView,false);
     const requestedPart=new URLSearchParams(location.search).get('part');
     if(requestedPart && meshes.has(requestedPart)){selectPart(requestedPart);cameraTo(meshes.get(requestedPart).geometry.boundingBox);}
     if(new URLSearchParams(location.search).get('mode')==='practice')window.heartStudy.openPractice();
