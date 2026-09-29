@@ -38,6 +38,6 @@ for k,(title,names,elev,azim,cut) in enumerate(views):
  ax.view_init(elev=elev,azim=azim);ax.set_box_aspect((1,1,1));ax.set_axis_off();ax.set_title(title,fontsize=11)
 fig.suptitle('Z-Anatomy — geometria original, sem acréscimos\nCortes por remoção de faces para inspeção; nomes ainda não validados visualmente',fontsize=15)
 fig.tight_layout(rect=(0,0,1,.94))
-out=ROOT/'evidencias';out.mkdir(exist_ok=True)
+out=ROOT/'site/auditoria/evidencias';out.mkdir(parents=True,exist_ok=True)
 fig.savefig(out/'z_coracao_inspecao.png',dpi=150)
 print(out/'z_coracao_inspecao.png')

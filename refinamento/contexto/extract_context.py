@@ -81,7 +81,7 @@ center = np.array([2.0, 130.5, 2.0])
 scale = 0.25
 meshdir = OUT / 'meshes'
 meshdir.mkdir(exist_ok=True)
-requirements = {a['id']: a for a in json.loads((ROOT / 'matriz_coracao.json').read_text())['alvos']}
+requirements = {a['id']: a for a in json.loads((ROOT / 'site/auditoria/matriz_coracao.json').read_text())['alvos']}
 parts = []
 for suffix, name, label, rid, kind in PARTS:
     assert len(lookup.get(name, [])) == 1, (name, lookup.get(name))

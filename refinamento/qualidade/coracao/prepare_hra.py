@@ -36,7 +36,7 @@ buf=bytearray(original[boff+8:boff+8+blen])
 vertices=np.concatenate([d['vertices'] for d in data]).astype(np.float64)
 center=(vertices.min(0)+vertices.max(0))/2
 scale=4.0/np.ptp(vertices,axis=0).max()
-requirements={r['id']:r for r in json.loads((ROOT/'matriz_coracao.json').read_text())['alvos']}
+requirements={r['id']:r for r in json.loads((ROOT/'site/auditoria/matriz_coracao.json').read_text())['alvos']}
 parts=[];newnodes=[];stats=[]
 for i,(d,row) in enumerate(zip(data,rows)):
  pid,label,group,req,related,eligible,note=row
