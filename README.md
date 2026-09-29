@@ -24,7 +24,7 @@ Um ambiente de estudo de anatomia circulatória e respiratória que conecta mode
 4. Abra **Aulas e materiais** para relacionar o estudo aos slides e às gravações.
 5. Consulte **Sobre o projeto** para conhecer a proposta, as fontes e o escopo atual.
 
-O site público funciona no navegador, sem instalação. Os modelos 3D requerem WebGL 2; aulas e referências externas requerem conexão com a internet.
+O site público funciona no navegador, sem instalação e sem depender dos arquivos do computador do autor. Modelos e bibliotecas estão no repositório; vídeos e PDFs estão no GitHub Releases. Os modelos 3D requerem WebGL 2; aulas e referências externas requerem conexão com a internet.
 
 ## Escopo e rigor
 
@@ -57,6 +57,7 @@ Acesse `http://127.0.0.1:8765` e mantenha o terminal aberto. Os arquivos docente
 | `site/` | Aplicação estática, modelos, índices e páginas de slides. |
 | `scripts/` | Servidor local e preparação dos materiais. |
 | `refinamento/` | Registros de geometria, fontes e cobertura. |
+| [Revisão funcional final](VERIFICACAO_FINAL_SITE.md) | Correções de bugs, progresso, aulas e disponibilidade pública. |
 | [Revisão de apresentação](VERIFICACAO_APRESENTACAO.md) | Conferências de navegação, leitura, modelos e layout móvel. |
 | [Verificação das aulas](VERIFICACAO_AULAS.md) | Conferências de documentos, reprodução e navegação. |
 | [Histórico técnico](docs/HISTORICO_TECNICO.md) | Evolução dos modelos, métodos e verificações anteriores. |
