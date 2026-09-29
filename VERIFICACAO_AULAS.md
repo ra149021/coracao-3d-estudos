@@ -18,4 +18,4 @@ Verificações realizadas:
 
 Evidências locais, ignoradas pelo Git: `output/playwright/aula-local-slides-mobile.png` e `output/playwright/aula-local-video.png`.
 
-Victor confirmou explicitamente a publicação pública dos sete vídeos e seis documentos em 29/09/2026. Os arquivos são publicados na release `aulas-v1`; as páginas e os índices integram o GitHub Pages. A implantação e os links públicos serão conferidos após o envio.
+Victor confirmou explicitamente a publicação pública dos sete vídeos e seis documentos em 29/09/2026. Os arquivos são publicados na release `aulas-v1`; as páginas e os índices integram o GitHub Pages. Os 13 arquivos da release tiveram tamanho e SHA-256 comparados com as cópias locais, sem diferenças. Reprodução da aula R1 a partir do GitHub confirmada no navegador em 1920 × 1080. A implantação do site é conferida após a atualização de main.
