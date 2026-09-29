@@ -42,7 +42,7 @@ function selectChapter(id,scroll=false){
  const firstPart=chapter.partIds?.[0];$('go-atlas').href=`atlas.html?system=${system}${firstPart?'&part='+encodeURIComponent(firstPart):''}`;
  $('chapter-visual').replaceChildren();
  const firstRef=(chapter.sections||[]).flatMap(s=>s.references||[]).find(r=>docAliases[r.source]&&r.page);
- if(firstRef){const info=sourceInfo(firstRef),page=String(info.page).match(/\d+/)?.[0];if(page){const link=el('a','',`Conferir a figura: ${info.label} ↗`);link.href=info.url;const img=el('img');img.loading='lazy';img.alt=`Página ${page} do material ${info.source.label}`;img.src=`/local/page/${docAliases[firstRef.source]}/${page}`;img.addEventListener('error',()=>img.remove());link.prepend(img);$('chapter-visual').append(link);}}
+ if(firstRef){const info=sourceInfo(firstRef),page=String(info.page).match(/\d+/)?.[0];if(page){const link=el('a','',`Conferir a figura: ${info.label} ↗`);link.href=info.url;const img=el('img');img.loading='lazy';img.alt=`Página ${page} do material ${info.source.label}`;img.src=`assets/lectures/slides/${docAliases[firstRef.source]}/${page}.jpg`;img.addEventListener('error',()=>img.remove());link.prepend(img);$('chapter-visual').append(link);}}
  renderNavigation();if(scroll)article.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
 }
 function startReview(questions){
