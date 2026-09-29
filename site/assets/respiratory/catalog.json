@@ -322,10 +322,26 @@
           2.2882533073425293
         ]
       ],
-      "requirement": null,
-      "requirementIds": [],
+      "requirement": {
+        "id": "R010",
+        "label": "Cartilagens alares maiores",
+        "page": 10,
+        "source": "respiratorio"
+      },
+      "requirementIds": [
+        "R010"
+      ],
       "relatedRequirementIds": [],
-      "requirementMatches": []
+      "requirementMatches": [
+        {
+          "id": "R010",
+          "label": "Cartilagens alares maiores",
+          "type": "estrutura",
+          "match": "source_name_candidate",
+          "visualValidation": "pending_individual",
+          "separateStructure": true
+        }
+      ]
     },
     {
       "sourceName": "Major alar cartilage.r",
@@ -355,10 +371,26 @@
           2.2882533073425293
         ]
       ],
-      "requirement": null,
-      "requirementIds": [],
+      "requirement": {
+        "id": "R010",
+        "label": "Cartilagens alares maiores",
+        "page": 10,
+        "source": "respiratorio"
+      },
+      "requirementIds": [
+        "R010"
+      ],
       "relatedRequirementIds": [],
-      "requirementMatches": []
+      "requirementMatches": [
+        {
+          "id": "R010",
+          "label": "Cartilagens alares maiores",
+          "type": "estrutura",
+          "match": "source_name_candidate",
+          "visualValidation": "pending_individual",
+          "separateStructure": true
+        }
+      ]
     },
     {
       "sourceName": "Inferior nasal concha bone.l",
@@ -8561,6 +8593,488 @@
       "requirementIds": [],
       "relatedRequirementIds": [],
       "requirementMatches": []
+    },
+    {
+      "sourceName": "Pulmonary trunk",
+      "label": "Tronco pulmonar",
+      "group": "vascular_pulmonar",
+      "sourceFile": "CardioVascular41.fbx",
+      "note": "Trecho proximal do vaso no registro original do atlas; sem ramos intrapulmonares segmentares separados. Azul nas artérias e vermelho nas veias pulmonares são cores didáticas de oxigenação, não texturas do tecido.",
+      "defaultVisible": false,
+      "quizEligible": false,
+      "color": "#648cae",
+      "representation": "proximal_vessel",
+      "id": "resp_pulmonary_trunk",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 465,
+      "tissueColor": "#648cae",
+      "vertices": 61,
+      "triangles": 93,
+      "bounds": [
+        [
+          0.24277694523334503,
+          -1.9164785146713257,
+          0.5081610679626465
+        ],
+        [
+          0.8658688068389893,
+          -1.2581872940063477,
+          1.2636446952819824
+        ]
+      ],
+      "requirement": null,
+      "requirementIds": [],
+      "relatedRequirementIds": [],
+      "requirementMatches": []
+    },
+    {
+      "sourceName": "Bifurcation of pulmonary trunk",
+      "label": "Bifurcação do tronco pulmonar",
+      "group": "vascular_pulmonar",
+      "sourceFile": "CardioVascular41.fbx",
+      "note": "Trecho proximal do vaso no registro original do atlas; sem ramos intrapulmonares segmentares separados. Azul nas artérias e vermelho nas veias pulmonares são cores didáticas de oxigenação, não texturas do tecido.",
+      "defaultVisible": false,
+      "quizEligible": false,
+      "color": "#648cae",
+      "representation": "proximal_vessel",
+      "id": "resp_bifurcation_of_pulmonary_trunk",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 466,
+      "tissueColor": "#648cae",
+      "vertices": 286,
+      "triangles": 472,
+      "bounds": [
+        [
+          0.1073286160826683,
+          -1.793931484222412,
+          -0.17657490074634552
+        ],
+        [
+          0.9076362252235413,
+          -1.1982007026672363,
+          0.7202720046043396
+        ]
+      ],
+      "requirement": null,
+      "requirementIds": [],
+      "relatedRequirementIds": [],
+      "requirementMatches": []
+    },
+    {
+      "sourceName": "Right pulmonary artery",
+      "label": "Artéria pulmonar direita",
+      "group": "vascular_pulmonar",
+      "sourceFile": "CardioVascular41.fbx",
+      "note": "Trecho proximal do vaso no registro original do atlas; sem ramos intrapulmonares segmentares separados. Azul nas artérias e vermelho nas veias pulmonares são cores didáticas de oxigenação, não texturas do tecido.",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "color": "#648cae",
+      "representation": "proximal_vessel",
+      "id": "resp_right_pulmonary_artery",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 483,
+      "tissueColor": "#648cae",
+      "vertices": 143,
+      "triangles": 236,
+      "bounds": [
+        [
+          -0.7615125775337219,
+          -1.9212921857833862,
+          -0.2918107807636261
+        ],
+        [
+          0.2846643328666687,
+          -1.3650586605072021,
+          0.2353726327419281
+        ]
+      ],
+      "requirement": {
+        "id": "R173",
+        "label": "Artéria pulmonar direita",
+        "page": 126,
+        "source": "respiratorio"
+      },
+      "requirementIds": [
+        "R173"
+      ],
+      "relatedRequirementIds": [
+        "R151",
+        "R152"
+      ],
+      "requirementMatches": [
+        {
+          "id": "R173",
+          "label": "Artéria pulmonar direita",
+          "type": "estrutura",
+          "match": "source_name_candidate",
+          "visualValidation": "pending_individual",
+          "separateStructure": true
+        },
+        {
+          "id": "R151",
+          "label": "Hilos pulmonares",
+          "type": "regiao",
+          "match": "regional_context_only",
+          "visualValidation": "pending_individual",
+          "separateStructure": false
+        },
+        {
+          "id": "R152",
+          "label": "Raízes / pedículos pulmonares",
+          "type": "conjunto",
+          "match": "regional_context_only",
+          "visualValidation": "pending_individual",
+          "separateStructure": false
+        }
+      ]
+    },
+    {
+      "sourceName": "Left pulmonary artery",
+      "label": "Artéria pulmonar esquerda",
+      "group": "vascular_pulmonar",
+      "sourceFile": "CardioVascular41.fbx",
+      "note": "Trecho proximal do vaso no registro original do atlas; sem ramos intrapulmonares segmentares separados. Azul nas artérias e vermelho nas veias pulmonares são cores didáticas de oxigenação, não texturas do tecido.",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "color": "#648cae",
+      "representation": "proximal_vessel",
+      "id": "resp_left_pulmonary_artery",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 467,
+      "tissueColor": "#648cae",
+      "vertices": 462,
+      "triangles": 826,
+      "bounds": [
+        [
+          0.44895488023757935,
+          -3.0617892742156982,
+          -0.7963413000106812
+        ],
+        [
+          1.7972561120986938,
+          -1.2228370904922485,
+          0.0004886709502898157
+        ]
+      ],
+      "requirement": {
+        "id": "R174",
+        "label": "Artéria pulmonar esquerda",
+        "page": 126,
+        "source": "respiratorio"
+      },
+      "requirementIds": [
+        "R174"
+      ],
+      "relatedRequirementIds": [
+        "R151",
+        "R152"
+      ],
+      "requirementMatches": [
+        {
+          "id": "R174",
+          "label": "Artéria pulmonar esquerda",
+          "type": "estrutura",
+          "match": "source_name_candidate",
+          "visualValidation": "pending_individual",
+          "separateStructure": true
+        },
+        {
+          "id": "R151",
+          "label": "Hilos pulmonares",
+          "type": "regiao",
+          "match": "regional_context_only",
+          "visualValidation": "pending_individual",
+          "separateStructure": false
+        },
+        {
+          "id": "R152",
+          "label": "Raízes / pedículos pulmonares",
+          "type": "conjunto",
+          "match": "regional_context_only",
+          "visualValidation": "pending_individual",
+          "separateStructure": false
+        }
+      ]
+    },
+    {
+      "sourceName": "Right superior pulmonary vein",
+      "label": "Veia pulmonar superior direita",
+      "group": "vascular_pulmonar",
+      "sourceFile": "CardioVascular41.fbx",
+      "note": "Trecho proximal do vaso no registro original do atlas; sem ramos intrapulmonares segmentares separados. Azul nas artérias e vermelho nas veias pulmonares são cores didáticas de oxigenação, não texturas do tecido.",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "color": "#b87177",
+      "representation": "proximal_vessel",
+      "id": "resp_right_superior_pulmonary_vein",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 729,
+      "tissueColor": "#b87177",
+      "vertices": 398,
+      "triangles": 708,
+      "bounds": [
+        [
+          -0.9027529358863831,
+          -2.3025107383728027,
+          -0.32816779613494873
+        ],
+        [
+          -0.2573692798614502,
+          -1.5955967903137207,
+          0.0870879590511322
+        ]
+      ],
+      "requirement": {
+        "id": "R175",
+        "label": "Veias pulmonares direitas",
+        "page": 126,
+        "source": "respiratorio"
+      },
+      "requirementIds": [
+        "R175"
+      ],
+      "relatedRequirementIds": [
+        "R151",
+        "R152"
+      ],
+      "requirementMatches": [
+        {
+          "id": "R175",
+          "label": "Veias pulmonares direitas",
+          "type": "estrutura",
+          "match": "source_name_candidate",
+          "visualValidation": "pending_individual",
+          "separateStructure": true
+        },
+        {
+          "id": "R151",
+          "label": "Hilos pulmonares",
+          "type": "regiao",
+          "match": "regional_context_only",
+          "visualValidation": "pending_individual",
+          "separateStructure": false
+        },
+        {
+          "id": "R152",
+          "label": "Raízes / pedículos pulmonares",
+          "type": "conjunto",
+          "match": "regional_context_only",
+          "visualValidation": "pending_individual",
+          "separateStructure": false
+        }
+      ]
+    },
+    {
+      "sourceName": "Right inferior pulmonary vein",
+      "label": "Veia pulmonar inferior direita",
+      "group": "vascular_pulmonar",
+      "sourceFile": "CardioVascular41.fbx",
+      "note": "Trecho proximal do vaso no registro original do atlas; sem ramos intrapulmonares segmentares separados. Azul nas artérias e vermelho nas veias pulmonares são cores didáticas de oxigenação, não texturas do tecido.",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "color": "#b87177",
+      "representation": "proximal_vessel",
+      "id": "resp_right_inferior_pulmonary_vein",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 736,
+      "tissueColor": "#b87177",
+      "vertices": 156,
+      "triangles": 236,
+      "bounds": [
+        [
+          -0.5039624571800232,
+          -2.6587955951690674,
+          -0.603445291519165
+        ],
+        [
+          -0.033416133373975754,
+          -2.366112232208252,
+          -0.33988460898399353
+        ]
+      ],
+      "requirement": {
+        "id": "R175",
+        "label": "Veias pulmonares direitas",
+        "page": 126,
+        "source": "respiratorio"
+      },
+      "requirementIds": [
+        "R175"
+      ],
+      "relatedRequirementIds": [
+        "R151",
+        "R152"
+      ],
+      "requirementMatches": [
+        {
+          "id": "R175",
+          "label": "Veias pulmonares direitas",
+          "type": "estrutura",
+          "match": "source_name_candidate",
+          "visualValidation": "pending_individual",
+          "separateStructure": true
+        },
+        {
+          "id": "R151",
+          "label": "Hilos pulmonares",
+          "type": "regiao",
+          "match": "regional_context_only",
+          "visualValidation": "pending_individual",
+          "separateStructure": false
+        },
+        {
+          "id": "R152",
+          "label": "Raízes / pedículos pulmonares",
+          "type": "conjunto",
+          "match": "regional_context_only",
+          "visualValidation": "pending_individual",
+          "separateStructure": false
+        }
+      ]
+    },
+    {
+      "sourceName": "Left superior pulmonary vein",
+      "label": "Veia pulmonar superior esquerda",
+      "group": "vascular_pulmonar",
+      "sourceFile": "CardioVascular41.fbx",
+      "note": "Trecho proximal do vaso no registro original do atlas; sem ramos intrapulmonares segmentares separados. Azul nas artérias e vermelho nas veias pulmonares são cores didáticas de oxigenação, não texturas do tecido.",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "color": "#b87177",
+      "representation": "proximal_vessel",
+      "id": "resp_left_superior_pulmonary_vein",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 744,
+      "tissueColor": "#b87177",
+      "vertices": 232,
+      "triangles": 354,
+      "bounds": [
+        [
+          0.7625725865364075,
+          -2.17020583152771,
+          -0.29458552598953247
+        ],
+        [
+          1.1131702661514282,
+          -1.924598217010498,
+          -0.03320211544632912
+        ]
+      ],
+      "requirement": {
+        "id": "R176",
+        "label": "Veias pulmonares esquerdas",
+        "page": 126,
+        "source": "respiratorio"
+      },
+      "requirementIds": [
+        "R176"
+      ],
+      "relatedRequirementIds": [
+        "R151",
+        "R152"
+      ],
+      "requirementMatches": [
+        {
+          "id": "R176",
+          "label": "Veias pulmonares esquerdas",
+          "type": "estrutura",
+          "match": "source_name_candidate",
+          "visualValidation": "pending_individual",
+          "separateStructure": true
+        },
+        {
+          "id": "R151",
+          "label": "Hilos pulmonares",
+          "type": "regiao",
+          "match": "regional_context_only",
+          "visualValidation": "pending_individual",
+          "separateStructure": false
+        },
+        {
+          "id": "R152",
+          "label": "Raízes / pedículos pulmonares",
+          "type": "conjunto",
+          "match": "regional_context_only",
+          "visualValidation": "pending_individual",
+          "separateStructure": false
+        }
+      ]
+    },
+    {
+      "sourceName": "Left inferior pulmonary vein",
+      "label": "Veia pulmonar inferior esquerda",
+      "group": "vascular_pulmonar",
+      "sourceFile": "CardioVascular41.fbx",
+      "note": "Trecho proximal do vaso no registro original do atlas; sem ramos intrapulmonares segmentares separados. Azul nas artérias e vermelho nas veias pulmonares são cores didáticas de oxigenação, não texturas do tecido.",
+      "defaultVisible": false,
+      "quizEligible": true,
+      "color": "#b87177",
+      "representation": "proximal_vessel",
+      "id": "resp_left_inferior_pulmonary_vein",
+      "source": "Z-Anatomy",
+      "license": "CC BY-SA 4.0",
+      "sourceNode": 740,
+      "tissueColor": "#b87177",
+      "vertices": 219,
+      "triangles": 354,
+      "bounds": [
+        [
+          0.734639585018158,
+          -2.6788792610168457,
+          -0.5454789996147156
+        ],
+        [
+          1.0380219221115112,
+          -2.4011635780334473,
+          -0.33975276350975037
+        ]
+      ],
+      "requirement": {
+        "id": "R176",
+        "label": "Veias pulmonares esquerdas",
+        "page": 126,
+        "source": "respiratorio"
+      },
+      "requirementIds": [
+        "R176"
+      ],
+      "relatedRequirementIds": [
+        "R151",
+        "R152"
+      ],
+      "requirementMatches": [
+        {
+          "id": "R176",
+          "label": "Veias pulmonares esquerdas",
+          "type": "estrutura",
+          "match": "source_name_candidate",
+          "visualValidation": "pending_individual",
+          "separateStructure": true
+        },
+        {
+          "id": "R151",
+          "label": "Hilos pulmonares",
+          "type": "regiao",
+          "match": "regional_context_only",
+          "visualValidation": "pending_individual",
+          "separateStructure": false
+        },
+        {
+          "id": "R152",
+          "label": "Raízes / pedículos pulmonares",
+          "type": "conjunto",
+          "match": "regional_context_only",
+          "visualValidation": "pending_individual",
+          "separateStructure": false
+        }
+      ]
     }
   ],
   "groups": {
@@ -8577,7 +9091,8 @@
     "musculos_faringe": "Músculos da faringe",
     "contexto_torax": "Contexto torácico",
     "contexto_cabeca": "Contexto ósseo da cabeça",
-    "musculos_pescoco": "Músculos supra e infra-hióideos"
+    "musculos_pescoco": "Músculos supra e infra-hióideos",
+    "vascular_pulmonar": "Vasos pulmonares proximais"
   },
   "presets": [
     {
@@ -8692,6 +9207,22 @@
       ],
       "transparency": 72,
       "note": "Coração, costelas, esterno, pulmões e diafragma preservam o mesmo registro da fonte."
+    },
+    {
+      "id": "hilo",
+      "label": "Hilos e vasos pulmonares",
+      "groups": [
+        "pulmoes",
+        "arvore",
+        "vascular_pulmonar"
+      ],
+      "direction": [
+        0,
+        0.1,
+        -1
+      ],
+      "transparency": 85,
+      "note": "Examine brônquios e vasos proximais com os lobos translúcidos. As raízes também contêm estruturas que esta cena não individualiza."
     }
   ],
   "translucencyGroups": [
@@ -8711,10 +9242,10 @@
   ],
   "model": {
     "file": "model.glb",
-    "bytes": 23508628,
-    "sha256": "0d4fb455922ad0563712eaab12bb61e1c80ec3dd88eca61ad6f2c78c31515d1e",
-    "parts": 167,
-    "triangles": 955976
+    "bytes": 23603924,
+    "sha256": "986b8490cf76a2f0cb9b96a8f6637e3e4a6322acae55ede75ea8c4d6c6c8738a",
+    "parts": 175,
+    "triangles": 959255
   },
   "orientation": {
     "x": "esquerda anatômica",
@@ -8737,7 +9268,8 @@
     "Segmentos broncopulmonares, bronquíolos e alvéolos não são volumes independentes.",
     "Algumas peças do acervo original são marcadores/coleções; essas não foram exportadas como anatomia.",
     "Variações de ramificação brônquica pertencem ao espécime/atlas representado; não estabelecem padrão universal.",
-    "Não há simulação de ventilação, fluxo aéreo, fonação ou movimentos musculares."
+    "Não há simulação de ventilação, fluxo aéreo, fonação ou movimentos musculares.",
+    "Os vasos pulmonares representam trechos proximais; não individualizam a rede vascular segmentar nem completam todos os componentes das raízes pulmonares."
   ],
   "sources": [
     {

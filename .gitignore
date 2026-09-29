@@ -34,3 +34,6 @@ output/playwright/*aula-local*
 output/playwright/*teoria-local*
 refinamento/respiratorio/conteudo/slides_pages.json
 refinamento/respiratorio/geometria/bp3d_meshes/
+site/assets/heart-author/
+refinamento/qualidade/respiratorio/rijnstate_reference/model.glb
+output/playwright/*specimens-online*

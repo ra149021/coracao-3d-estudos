@@ -1,0 +1,2928 @@
+{
+  "version": 1,
+  "purpose": "Investigação de marcos autorais para o roteiro; nenhum ponto aprovado para anotação da cena.",
+  "source": {
+    "file": "fontes/z_anatomy/Startup.blend",
+    "sha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+    "readMethod": "SDNA/Mesh vertex layers using scripts/read_blend_data.py; no Blender or embedded-script execution"
+  },
+  "coordinateTransforms": {
+    "world_fbx_cm": "100 * [source_world_m.x, source_world_m.z, -source_world_m.y]",
+    "heartDisplay": "(world_fbx_cm - [2,130.5,2]) * 0.25",
+    "respiratoryDisplay": "(world_fbx_cm - [0,142,0]) * 0.2"
+  },
+  "method": "Both original vertices of each 2-vertex/0-polygon MESH annotation were transformed by its recorded matrix_world. Distances are to nearest vertices of heart chamber source meshes or current author FBX lung/arytenoid meshes; they are NOT closest-point-to-surface distances or proof of anatomy.",
+  "limits": [
+    "Origem do objeto, posição do texto e extremidades da linha não são automaticamente uma ponta anatômica.",
+    "Não aplicar snap automático nem deslocamento por objeto para encaixar o marco.",
+    "Nomes genéricos unilaterais não autorizam criar marcador contralateral espelhado.",
+    "Alguns marcadores têm lateridade/posição incompatível com a malha mais próxima; origem pode refletir disposição das anotações ou versões diferentes.",
+    "Seleções regionais ainda requerem inspeção de malha, contexto e referência docente."
+  ],
+  "referencesFBX": {
+    "file": "fontes/z_app/References100.fbx",
+    "sha256": "20a6a4d771b12d4a64dd013f2ad6b5fb42a685f99b813c29ab1f13e571de8872",
+    "readMethod": "Assimp glb2 conversion into /tmp; no original/source/site mutation",
+    "nodes": 57,
+    "meshes": 47,
+    "content": "Referências corporais: direções, movimentos, planos e linhas de superfície. Não foram encontrados nós para ápice/base cardíacos, fissuras pulmonares, língula, carina ou processo vocal.",
+    "nodeNames": [
+      "RootNode",
+      "Distal",
+      "Dorsal",
+      "Fibular",
+      "Plantar",
+      "Proximal",
+      "Radial",
+      "Tibial",
+      "Ulnar",
+      "Ventral",
+      "Transverse planes",
+      "Mamillary line.r",
+      "Midclavicular line.r",
+      "Parasternal line.r",
+      "Sternal line.r",
+      "Mamillary line.l",
+      "Midclavicular line.l",
+      "Parasternal line.l",
+      "Sternal line.l",
+      "Abduction",
+      "Adduction",
+      "Circumduction",
+      "Lateral rotation",
+      "Medial rotation",
+      "Anterior median line",
+      "Posterior median line",
+      "Paravertebral line.r",
+      "Paravertebral line.l",
+      "Scapular line.r",
+      "Scapular line.l",
+      "Anterior axillary line.l",
+      "Posterior axillary line.l",
+      "Posterior axillary line.r",
+      "Anterior axillary line.r",
+      "Frontal",
+      "Occipital",
+      "Cranial",
+      "Caudal",
+      "Supination",
+      "Pronation",
+      "Palmar",
+      "Inversion",
+      "Eversion",
+      "Plantar flexion",
+      "Dorsiflexion",
+      "Longitudinal planes.g",
+      "Coronal planes",
+      "Sagittal planes.g",
+      "Paramedian plane",
+      "Median plane",
+      "Oesophagus-profile",
+      "Cross Section X",
+      "Cross Section Z",
+      "Cross Section Y",
+      "Cross Section X.001",
+      "Cross Section Z.001",
+      "Cross Section Y.001"
+    ]
+  },
+  "markers": [
+    {
+      "name": "Anterior interventricular sulcus.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          0.10048536383621864,
+          -0.09641944786592038,
+          1.2782402333554685
+        ],
+        [
+          0.10134567394088512,
+          -0.09328756007016104,
+          1.2298491685512118
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          10.048536383621865,
+          127.82402333554685,
+          9.641944786592038
+        ],
+        [
+          10.134567394088512,
+          122.98491685512118,
+          9.328756007016104
+        ]
+      ],
+      "source_origin_world_m": [
+        0.10045875608921051,
+        -0.09651631116867065,
+        1.279736876487732
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Left_ventricle",
+            "vertex_distance_mm": 40.837,
+            "nearest_vertex_cm": [
+              7.349470257759094,
+              127.24099159240723,
+              6.633371114730835
+            ]
+          },
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 51.99,
+            "nearest_vertex_cm": [
+              5.611599981784821,
+              127.26398706436157,
+              6.99056088924408
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Left_ventricle",
+            "vertex_distance_mm": 46.706,
+            "nearest_vertex_cm": [
+              7.137510180473328,
+              124.98399019241333,
+              6.3561610877513885
+            ]
+          },
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 54.588,
+            "nearest_vertex_cm": [
+              5.928820371627808,
+              124.45398569107056,
+              6.174060329794884
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "26"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "heart",
+      "displayEndpoints": [
+        [
+          2.0121340959054663,
+          -0.6689941661132863,
+          1.9104861966480096
+        ],
+        [
+          2.033641848522128,
+          -1.8787707862197038,
+          1.8321890017540259
+        ]
+      ]
+    },
+    {
+      "name": "Anterior surface of heart.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          0.029506509984661866,
+          -0.12241149118228467,
+          1.2851366099652708
+        ],
+        [
+          0.03036682008932834,
+          -0.11927960338652532,
+          1.236745545161014
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          2.9506509984661866,
+          128.51366099652708,
+          12.241149118228467
+        ],
+        [
+          3.036682008932834,
+          123.67455451610141,
+          11.927960338652532
+        ]
+      ],
+      "source_origin_world_m": [
+        0.029479902237653732,
+        -0.12250835448503494,
+        1.2866332530975342
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 41.265,
+            "nearest_vertex_cm": [
+              2.6423102244734764,
+              128.56898307800293,
+              8.126580715179443
+            ]
+          },
+          {
+            "name": "Left_ventricle",
+            "vertex_distance_mm": 60.176,
+            "nearest_vertex_cm": [
+              5.611599981784821,
+              127.26398706436157,
+              6.99056088924408
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 49.865,
+            "nearest_vertex_cm": [
+              3.000660240650177,
+              125.94099044799805,
+              7.48647078871727
+            ]
+          },
+          {
+            "name": "Left_ventricle",
+            "vertex_distance_mm": 60.024,
+            "nearest_vertex_cm": [
+              5.689050257205963,
+              125.55398941040039,
+              6.882061064243317
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "7"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "heart",
+      "displayEndpoints": [
+        [
+          0.23766274961654665,
+          -0.4965847508682302,
+          2.5602872795571168
+        ],
+        [
+          0.2591705022332085,
+          -1.7063613709746477,
+          2.481990084663133
+        ]
+      ]
+    },
+    {
+      "name": "Apex of heart.j",
+      "local_vertices": [
+        [
+          -1.308144009781742e-10,
+          -1.4253378921580406e-08,
+          0.002499988302588463
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          0.09878154467564303,
+          -0.08908497942274884,
+          1.2426021498844972
+        ],
+        [
+          0.09971281214784389,
+          -0.08569477769196432,
+          1.190220066797977
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          9.878154467564302,
+          124.26021498844972,
+          8.908497942274884
+        ],
+        [
+          9.971281214784389,
+          119.0220066797977,
+          8.569477769196432
+        ]
+      ],
+      "source_origin_world_m": [
+        0.09882589429616928,
+        -0.08892352879047394,
+        1.240107774734497
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Left_ventricle",
+            "vertex_distance_mm": 37.451,
+            "nearest_vertex_cm": [
+              7.1850501000881195,
+              125.52298307418823,
+              6.632810831069946
+            ]
+          },
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 47.61,
+            "nearest_vertex_cm": [
+              5.797920376062393,
+              124.91298913955688,
+              6.543530523777008
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Left_ventricle",
+            "vertex_distance_mm": 67.529,
+            "nearest_vertex_cm": [
+              6.931959837675095,
+              124.40699338912964,
+              5.855460464954376
+            ]
+          },
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 70.473,
+            "nearest_vertex_cm": [
+              6.130310148000717,
+              124.13898706436157,
+              5.615090578794479
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "15"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "heart",
+      "displayEndpoints": [
+        [
+          1.9695386168910756,
+          -1.5599462528875705,
+          1.7271244855687211
+        ],
+        [
+          1.9928203036960972,
+          -2.8694983300505754,
+          1.642369442299108
+        ]
+      ]
+    },
+    {
+      "name": "Apex of lung.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          -0.03301747143268585,
+          0.017536262409722482,
+          1.4386684892773616
+        ],
+        [
+          -0.03301747143268585,
+          0.017536093356791523,
+          1.3901685416698513
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          -3.301747143268585,
+          143.86684892773616,
+          -1.7536262409722483
+        ],
+        [
+          -3.301747143268585,
+          139.01685416698513,
+          -1.7536093356791522
+        ]
+      ],
+      "source_origin_world_m": [
+        -0.03301747143268585,
+        0.017536267638206482,
+        1.4401684999465942
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Superior lobe of right lung",
+            "vertex_distance_mm": 9.52,
+            "nearest_vertex_cm": [
+              -3.3159974967525003,
+              142.91608073127446,
+              -1.7074211898583946
+            ]
+          },
+          {
+            "name": "Superior lobe of left lung",
+            "vertex_distance_mm": 54.678,
+            "nearest_vertex_cm": [
+              1.8373119149510628,
+              142.16454347973774,
+              -0.9860889023213294
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Superior lobe of right lung",
+            "vertex_distance_mm": 16.604,
+            "nearest_vertex_cm": [
+              -1.6709325104759514,
+              139.21324984140148,
+              -1.995935021968225
+            ]
+          },
+          {
+            "name": "Superior lobe of left lung",
+            "vertex_distance_mm": 53.214,
+            "nearest_vertex_cm": [
+              1.929381537470807,
+              139.98859269809643,
+              -1.8442409135700129
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "R143"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "respiratory",
+      "displayEndpoints": [
+        [
+          -0.660349428653717,
+          0.3733697855472315,
+          -0.35072524819444967
+        ],
+        [
+          -0.660349428653717,
+          -0.5966291666029747,
+          -0.3507218671358305
+        ]
+      ]
+    },
+    {
+      "name": "Base of heart.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          -0.06601109183318443,
+          0.001356246116919202,
+          1.319040804797119
+        ],
+        [
+          -0.06515078172851796,
+          0.004488133912678549,
+          1.2706497399928622
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          -6.601109183318443,
+          131.9040804797119,
+          -0.1356246116919202
+        ],
+        [
+          -6.515078172851796,
+          127.06497399928622,
+          -0.4488133912678549
+        ]
+      ],
+      "source_origin_world_m": [
+        -0.06603769958019257,
+        0.00125938281416893,
+        1.3205374479293823
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Right_atrium",
+            "vertex_distance_mm": 32.96,
+            "nearest_vertex_cm": [
+              -3.506849706172943,
+              131.23998641967773,
+              0.7854959927499294
+            ]
+          },
+          {
+            "name": "Left_atrium",
+            "vertex_distance_mm": 44.612,
+            "nearest_vertex_cm": [
+              -2.292719855904579,
+              131.7499876022339,
+              -1.2830378487706184
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Right_atrium",
+            "vertex_distance_mm": 33.462,
+            "nearest_vertex_cm": [
+              -3.3823899924755096,
+              127.63798236846924,
+              0.5783434025943279
+            ]
+          },
+          {
+            "name": "Left_atrium",
+            "vertex_distance_mm": 50.148,
+            "nearest_vertex_cm": [
+              -2.2092297673225403,
+              128.82598638534546,
+              -2.321448177099228
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "14"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "heart",
+      "displayEndpoints": [
+        [
+          -2.1502772958296106,
+          0.35102011992797344,
+          -0.53390615292298
+        ],
+        [
+          -2.128769543212949,
+          -0.8587565001784441,
+          -0.6122033478169637
+        ]
+      ]
+    },
+    {
+      "name": "Base of lung.j",
+      "local_vertices": [
+        [
+          0.0,
+          -1.394252180375588e-08,
+          0.00249998876824975
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          -0.0733671709895134,
+          0.03162989242557299,
+          1.1634201321937616
+        ],
+        [
+          -0.0733671709895134,
+          0.03162972337264159,
+          1.1109201848506984
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          -7.33671709895134,
+          116.34201321937616,
+          -3.162989242557299
+        ],
+        [
+          -7.33671709895134,
+          111.09201848506984,
+          -3.162972337264159
+        ]
+      ],
+      "source_origin_world_m": [
+        -0.0733671709895134,
+        0.03162989765405655,
+        1.1609201431274414
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Inferior lobe of right lung",
+            "vertex_distance_mm": 36.29,
+            "nearest_vertex_cm": [
+              -6.452726713479926,
+              117.60697363011623,
+              -6.4474985213618865
+            ]
+          },
+          {
+            "name": "Inferior lobe of left lung",
+            "vertex_distance_mm": 100.821,
+            "nearest_vertex_cm": [
+              1.9852683450266675,
+              120.09698696967962,
+              -2.3573029284638194
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Inferior lobe of right lung",
+            "vertex_distance_mm": 70.01,
+            "nearest_vertex_cm": [
+              -9.046718734891222,
+              117.01977257166024,
+              -6.4723253434896
+            ]
+          },
+          {
+            "name": "Inferior lobe of left lung",
+            "vertex_distance_mm": 128.46,
+            "nearest_vertex_cm": [
+              2.3225017544865594,
+              119.55977036122376,
+              -3.03401748823695
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "R144"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "respiratory",
+      "displayEndpoints": [
+        [
+          -1.467343419790268,
+          -5.131597356124769,
+          -0.6325978485114598
+        ],
+        [
+          -1.467343419790268,
+          -6.181596302986032,
+          -0.6325944674528319
+        ]
+      ]
+    },
+    {
+      "name": "Cardiac notch of left lung.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          -0.00921245664358139,
+          -0.08345560507293973,
+          1.2764724491238582
+        ],
+        [
+          -0.00921245664358139,
+          -0.08345577412587067,
+          1.2279725015163478
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          -0.921245664358139,
+          127.64724491238582,
+          8.345560507293973
+        ],
+        [
+          -0.921245664358139,
+          122.79725015163478,
+          8.345577412587067
+        ]
+      ],
+      "source_origin_world_m": [
+        -0.00921245664358139,
+        -0.08345559984445572,
+        1.2779724597930908
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Middle lobe of right lung",
+            "vertex_distance_mm": 2.125,
+            "nearest_vertex_cm": [
+              -0.8762562493187263,
+              127.67833366571176,
+              8.550854708565709
+            ]
+          },
+          {
+            "name": "Superior lobe of right lung",
+            "vertex_distance_mm": 23.421,
+            "nearest_vertex_cm": [
+              -1.5649368208754382,
+              129.81377713490366,
+              7.731492092320882
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Middle lobe of right lung",
+            "vertex_distance_mm": 19.443,
+            "nearest_vertex_cm": [
+              -1.7779537725414778,
+              124.48218988836085,
+              8.800787389378083
+            ]
+          },
+          {
+            "name": "Superior lobe of left lung",
+            "vertex_distance_mm": 49.103,
+            "nearest_vertex_cm": [
+              3.8695100176725465,
+              123.82734328169674,
+              8.659356874335291
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "R154"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "respiratory",
+      "displayEndpoints": [
+        [
+          -0.1842491328716278,
+          -2.8705510175228373,
+          1.6691121014587946
+        ],
+        [
+          -0.1842491328716278,
+          -3.8405499696730434,
+          1.6691154825174135
+        ]
+      ]
+    },
+    {
+      "name": "Coronary sulcus.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          -0.026653455709288787,
+          -0.08544837107940229,
+          1.298560291224426
+        ],
+        [
+          -0.025793145604622314,
+          -0.08231648328364294,
+          1.2501692264201694
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          -2.6653455709288787,
+          129.8560291224426,
+          8.544837107940229
+        ],
+        [
+          -2.5793145604622314,
+          125.01692264201694,
+          8.231648328364294
+        ]
+      ],
+      "source_origin_world_m": [
+        -0.02668006345629692,
+        -0.08554523438215256,
+        1.3000569343566895
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Right_atrium",
+            "vertex_distance_mm": 24.268,
+            "nearest_vertex_cm": [
+              -1.3118398375809193,
+              129.52399253845215,
+              6.558101624250412
+            ]
+          },
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 27.794,
+            "nearest_vertex_cm": [
+              -0.6548348348587751,
+              129.1839838027954,
+              6.747331470251083
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 29.66,
+            "nearest_vertex_cm": [
+              -0.9338567964732647,
+              126.58898830413818,
+              6.32949098944664
+            ]
+          },
+          {
+            "name": "Right_atrium",
+            "vertex_distance_mm": 35.033,
+            "nearest_vertex_cm": [
+              -2.234889753162861,
+              127.26699113845825,
+              5.568651109933853
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "28"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "heart",
+      "displayEndpoints": [
+        [
+          -1.1663363927322197,
+          -0.16099271938934834,
+          1.6362092769850571
+        ],
+        [
+          -1.1448286401155578,
+          -1.3707693394957658,
+          1.5579120820910735
+        ]
+      ]
+    },
+    {
+      "name": "Costal surface of lung.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          -0.06435847282409668,
+          -0.10211036132093701,
+          1.328361153423785
+        ],
+        [
+          -0.06435847282409668,
+          -0.10211053037386796,
+          1.2798612058162746
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          -6.435847282409668,
+          132.8361153423785,
+          10.211036132093701
+        ],
+        [
+          -6.435847282409668,
+          127.98612058162746,
+          10.211053037386796
+        ]
+      ],
+      "source_origin_world_m": [
+        -0.06435847282409668,
+        -0.102110356092453,
+        1.3298611640930176
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Superior lobe of right lung",
+            "vertex_distance_mm": 38.063,
+            "nearest_vertex_cm": [
+              -5.259569076666512,
+              130.93457083978356,
+              7.1306847849693815
+            ]
+          },
+          {
+            "name": "Middle lobe of right lung",
+            "vertex_distance_mm": 44.282,
+            "nearest_vertex_cm": [
+              -5.445866009943326,
+              129.0922987464211,
+              8.063305155408973
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Middle lobe of right lung",
+            "vertex_distance_mm": 14.916,
+            "nearest_vertex_cm": [
+              -6.18105655355872,
+              127.49017374231516,
+              8.827584889872275
+            ]
+          },
+          {
+            "name": "Superior lobe of right lung",
+            "vertex_distance_mm": 27.81,
+            "nearest_vertex_cm": [
+              -5.762868111945921,
+              129.2849051758635,
+              7.845809318968249
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "R145"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "respiratory",
+      "displayEndpoints": [
+        [
+          -1.2871694564819336,
+          -1.8327769315243019,
+          2.0422072264187405
+        ],
+        [
+          -1.2871694564819336,
+          -2.8027758836745083,
+          2.0422106074773594
+        ]
+      ]
+    },
+    {
+      "name": "Diaphragmatic surface of lung.j",
+      "local_vertices": [
+        [
+          0.0,
+          -1.394252180375588e-08,
+          0.00249998876824975
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          -0.09048017114400864,
+          0.010781689906454206,
+          1.16696327069779
+        ],
+        [
+          -0.09048017114400864,
+          0.010781520853522804,
+          1.1144633233547268
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          -9.048017114400864,
+          116.69632706977899,
+          -1.0781689906454206
+        ],
+        [
+          -9.048017114400864,
+          111.44633233547268,
+          -1.0781520853522804
+        ]
+      ],
+      "source_origin_world_m": [
+        -0.09048017114400864,
+        0.010781695134937763,
+        1.1644632816314697
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Inferior lobe of right lung",
+            "vertex_distance_mm": 30.997,
+            "nearest_vertex_cm": [
+              -11.997879685156787,
+              117.33268500382174,
+              -1.7862483245175407
+            ]
+          },
+          {
+            "name": "Middle lobe of right lung",
+            "vertex_distance_mm": 99.67,
+            "nearest_vertex_cm": [
+              -10.7227522470678,
+              124.22557999789993,
+              5.234191841912389
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Inferior lobe of right lung",
+            "vertex_distance_mm": 65.447,
+            "nearest_vertex_cm": [
+              -12.051537278898394,
+              117.2199964739264,
+              -1.7684526145805493
+            ]
+          },
+          {
+            "name": "Inferior lobe of left lung",
+            "vertex_distance_mm": 140.394,
+            "nearest_vertex_cm": [
+              2.061232419279097,
+              119.94510242938591,
+              -2.2869977670204706
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "R146"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "respiratory",
+      "displayEndpoints": [
+        [
+          -1.8096034228801727,
+          -5.060734586044203,
+          -0.21563379812908412
+        ],
+        [
+          -1.8096034228801727,
+          -6.110733532905465,
+          -0.21563041707045608
+        ]
+      ]
+    },
+    {
+      "name": "Hilum of lung.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          0.007365582510828972,
+          0.010936889225577985,
+          1.3269394634366023
+        ],
+        [
+          0.007365582510828972,
+          0.010936720172647026,
+          1.278439515829092
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          0.7365582510828972,
+          132.69394634366023,
+          -1.0936889225577986
+        ],
+        [
+          0.7365582510828972,
+          127.8439515829092,
+          -1.0936720172647025
+        ]
+      ],
+      "source_origin_world_m": [
+        0.007365582510828972,
+        0.010936894454061985,
+        1.328439474105835
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Inferior lobe of left lung",
+            "vertex_distance_mm": 28.043,
+            "nearest_vertex_cm": [
+              2.79335015705444,
+              132.14570705175024,
+              -2.9193275463333146
+            ]
+          },
+          {
+            "name": "Superior lobe of left lung",
+            "vertex_distance_mm": 29.766,
+            "nearest_vertex_cm": [
+              3.1362808394869726,
+              132.80121502613773,
+              -2.8514665476049874
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Inferior lobe of right lung",
+            "vertex_distance_mm": 14.081,
+            "nearest_vertex_cm": [
+              -0.4600274967550379,
+              127.13321348216644,
+              -1.307527801598071
+            ]
+          },
+          {
+            "name": "Inferior lobe of left lung",
+            "vertex_distance_mm": 22.08,
+            "nearest_vertex_cm": [
+              2.466590029207836,
+              126.73535823565084,
+              -1.9018862360214477
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "R151"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "respiratory",
+      "displayEndpoints": [
+        [
+          0.14731165021657944,
+          -1.8612107312679542,
+          -0.21873778451155973
+        ],
+        [
+          0.14731165021657944,
+          -2.8312096834181606,
+          -0.2187344034529405
+        ]
+      ]
+    },
+    {
+      "name": "Horizontal fissure of right lung.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          -0.1591915488243103,
+          0.011330587217545186,
+          1.3107786176800715
+        ],
+        [
+          -0.1591915488243103,
+          0.011330418164614227,
+          1.2622786700725612
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          -15.91915488243103,
+          131.07786176800715,
+          -1.1330587217545187
+        ],
+        [
+          -15.91915488243103,
+          126.22786700725612,
+          -1.1330418164614227
+        ]
+      ],
+      "source_origin_world_m": [
+        -0.1591915488243103,
+        0.011330592446029186,
+        1.3122786283493042
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Middle lobe of right lung",
+            "vertex_distance_mm": 39.455,
+            "nearest_vertex_cm": [
+              -12.059348467945396,
+              130.27918207467346,
+              -0.9573562303986679
+            ]
+          },
+          {
+            "name": "Superior lobe of right lung",
+            "vertex_distance_mm": 41.379,
+            "nearest_vertex_cm": [
+              -11.804223440566375,
+              131.51343916975156,
+              -1.1340162769514777
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Inferior lobe of right lung",
+            "vertex_distance_mm": 31.317,
+            "nearest_vertex_cm": [
+              -12.828417548107552,
+              125.8981696058577,
+              -0.7506235015882469
+            ]
+          },
+          {
+            "name": "Middle lobe of right lung",
+            "vertex_distance_mm": 44.642,
+            "nearest_vertex_cm": [
+              -12.281946494158358,
+              128.18233856949308,
+              0.5639891214700044
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "R148"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "respiratory",
+      "displayEndpoints": [
+        [
+          -3.183830976486206,
+          -2.1844276463985692,
+          -0.22661174435090375
+        ],
+        [
+          -3.183830976486206,
+          -3.154426598548776,
+          -0.22660836329228454
+        ]
+      ]
+    },
+    {
+      "name": "Inferior border of heart.j",
+      "local_vertices": [
+        [
+          0.0,
+          -1.394252180375588e-08,
+          0.00249998876824975
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          0.0323899501677148,
+          -0.035105861765092915,
+          1.2334118294013023
+        ],
+        [
+          0.03332121743987804,
+          -0.031715660268668344,
+          1.181029745829349
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          3.2389950167714803,
+          123.34118294013024,
+          3.5105861765092916
+        ],
+        [
+          3.3321217439878037,
+          118.1029745829349,
+          3.1715660268668344
+        ]
+      ],
+      "source_origin_world_m": [
+        0.03243429958820343,
+        -0.03494441136717796,
+        1.2309174537658691
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Left_ventricle",
+            "vertex_distance_mm": 7.924,
+            "nearest_vertex_cm": [
+              3.3761702477931976,
+              124.0649938583374,
+              3.2188408076763153
+            ]
+          },
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 8.063,
+            "nearest_vertex_cm": [
+              3.1042002141475677,
+              124.10198450088501,
+              3.7411104887723923
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Left_ventricle",
+            "vertex_distance_mm": 58.039,
+            "nearest_vertex_cm": [
+              4.440160095691681,
+              123.79999160766602,
+              3.129570558667183
+            ]
+          },
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 59.797,
+            "nearest_vertex_cm": [
+              3.5244300961494446,
+              123.98698329925537,
+              4.219340533018112
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "13"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "heart",
+      "displayEndpoints": [
+        [
+          0.30974875419287007,
+          -1.7897042649674404,
+          0.3776465441273229
+        ],
+        [
+          0.3330304359969509,
+          -3.0992563542662737,
+          0.2928915067167086
+        ]
+      ]
+    },
+    {
+      "name": "Inferior surface of heart.j",
+      "local_vertices": [
+        [
+          0.0,
+          -1.394252180375588e-08,
+          0.00249998876824975
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          0.035196948957025256,
+          -0.02969206501240165,
+          1.2279605077994347
+        ],
+        [
+          0.03612821622918849,
+          -0.026301863515977075,
+          1.1755784242274814
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          3.519694895702526,
+          122.79605077994347,
+          2.9692065012401647
+        ],
+        [
+          3.6128216229188492,
+          117.55784242274814,
+          2.6301863515977075
+        ]
+      ],
+      "source_origin_world_m": [
+        0.035241298377513885,
+        -0.029530614614486694,
+        1.2254661321640015
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Left_ventricle",
+            "vertex_distance_mm": 11.746,
+            "nearest_vertex_cm": [
+              3.782760351896286,
+              123.93299341201782,
+              3.102910704910755
+            ]
+          },
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 15.151,
+            "nearest_vertex_cm": [
+              3.5046905279159546,
+              124.1589903831482,
+              3.630770742893219
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Left_ventricle",
+            "vertex_distance_mm": 62.867,
+            "nearest_vertex_cm": [
+              4.348020255565643,
+              123.80099296569824,
+              2.700350619852543
+            ]
+          },
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 66.215,
+            "nearest_vertex_cm": [
+              3.6463700234889984,
+              124.04098510742188,
+              3.9762206375598907
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "8"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "heart",
+      "displayEndpoints": [
+        [
+          0.37992372392563145,
+          -1.9259873050141323,
+          0.24230162531004118
+        ],
+        [
+          0.4032054057297123,
+          -3.2355393943129656,
+          0.15754658789942688
+        ]
+      ]
+    },
+    {
+      "name": "Interlobar surface of lung.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          -0.06890407204627991,
+          -0.014323118714654769,
+          1.3231012819409358
+        ],
+        [
+          -0.06890407204627991,
+          -0.014323287767585728,
+          1.2746013343334255
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          -6.890407204627991,
+          132.31012819409358,
+          1.4323118714654768
+        ],
+        [
+          -6.890407204627991,
+          127.46013343334255,
+          1.4323287767585728
+        ]
+      ],
+      "source_origin_world_m": [
+        -0.06890407204627991,
+        -0.014323113486170769,
+        1.3246012926101685
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Middle lobe of right lung",
+            "vertex_distance_mm": 20.006,
+            "nearest_vertex_cm": [
+              -7.083423604610292,
+              130.37401305481916,
+              0.9667812509475611
+            ]
+          },
+          {
+            "name": "Superior lobe of right lung",
+            "vertex_distance_mm": 20.182,
+            "nearest_vertex_cm": [
+              -6.924098891887184,
+              130.3513394502639,
+              0.9472183566058469
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Middle lobe of right lung",
+            "vertex_distance_mm": 1.727,
+            "nearest_vertex_cm": [
+              -6.7245708444658465,
+              127.41202014007315,
+              1.433859497816144
+            ]
+          },
+          {
+            "name": "Inferior lobe of right lung",
+            "vertex_distance_mm": 1.978,
+            "nearest_vertex_cm": [
+              -6.735720638827578,
+              127.35717195155644,
+              1.5002518009944066
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "R148",
+        "R149",
+        "R150"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "respiratory",
+      "displayEndpoints": [
+        [
+          -1.3780814409255981,
+          -1.9379743611812843,
+          0.28646237429309535
+        ],
+        [
+          -1.3780814409255981,
+          -2.9079733133314907,
+          0.2864657553517146
+        ]
+      ]
+    },
+    {
+      "name": "Left surface of heart.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          -0.06865855879075355,
+          -0.035556444731192904,
+          1.2865848836240232
+        ],
+        [
+          -0.06779824868608708,
+          -0.03242455693543356,
+          1.2381938188197665
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          -6.865855879075355,
+          128.65848836240232,
+          3.5556444731192904
+        ],
+        [
+          -6.779824868608708,
+          123.81938188197665,
+          3.2424556935433557
+        ]
+      ],
+      "source_origin_world_m": [
+        -0.06868516653776169,
+        -0.035653308033943176,
+        1.2880815267562866
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Right_atrium",
+            "vertex_distance_mm": 34.485,
+            "nearest_vertex_cm": [
+              -3.4173399209976196,
+              128.65298986434937,
+              3.5653311759233475
+            ]
+          },
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 50.094,
+            "nearest_vertex_cm": [
+              -2.0352698862552643,
+              127.48998403549194,
+              4.18362133204937
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Right_atrium",
+            "vertex_distance_mm": 42.43,
+            "nearest_vertex_cm": [
+              -2.8181198984384537,
+              124.91499185562134,
+              2.189970947802067
+            ]
+          },
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 53.057,
+            "nearest_vertex_cm": [
+              -2.0907457917928696,
+              126.17131471633911,
+              4.037176072597504
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "10"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "heart",
+      "displayEndpoints": [
+        [
+          -2.2164639697688386,
+          -0.46037790939941914,
+          0.3889111182798226
+        ],
+        [
+          -2.194956217152177,
+          -1.6701545295058366,
+          0.31061392338583893
+        ]
+      ]
+    },
+    {
+      "name": "Lingula of left lung.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          0.11760368198156357,
+          -0.10429902897592816,
+          1.2711298463940608
+        ],
+        [
+          0.11760368198156357,
+          -0.1042991980288591,
+          1.2226298987865505
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          11.760368198156357,
+          127.11298463940608,
+          10.429902897592816
+        ],
+        [
+          11.760368198156357,
+          122.26298987865505,
+          10.42991980288591
+        ]
+      ],
+      "source_origin_world_m": [
+        0.11760368198156357,
+        -0.10429902374744415,
+        1.2726298570632935
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Superior lobe of left lung",
+            "vertex_distance_mm": 39.492,
+            "nearest_vertex_cm": [
+              9.120860878775664,
+              125.97164400019705,
+              7.723125207849454
+            ]
+          },
+          {
+            "name": "Inferior lobe of left lung",
+            "vertex_distance_mm": 50.694,
+            "nearest_vertex_cm": [
+              10.096428769877257,
+              123.68095428908967,
+              7.090520315876185
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Inferior lobe of left lung",
+            "vertex_distance_mm": 31.326,
+            "nearest_vertex_cm": [
+              9.800631021201415,
+              121.75950339369986,
+              8.038471744443198
+            ]
+          },
+          {
+            "name": "Superior lobe of left lung",
+            "vertex_distance_mm": 35.066,
+            "nearest_vertex_cm": [
+              9.120877270053711,
+              123.15909183555871,
+              8.302332539199977
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "R153"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "respiratory",
+      "displayEndpoints": [
+        [
+          2.3520736396312714,
+          -2.9774030721187845,
+          2.0859805795185635
+        ],
+        [
+          2.3520736396312714,
+          -3.9474020242689907,
+          2.0859839605771824
+        ]
+      ]
+    },
+    {
+      "name": "Medial surface of lung.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          0.02475997433066368,
+          0.04452557711485592,
+          1.2760528324246394
+        ],
+        [
+          0.02475997433066368,
+          0.04452540806192496,
+          1.227552884817129
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          2.475997433066368,
+          127.60528324246394,
+          -4.452557711485592
+        ],
+        [
+          2.475997433066368,
+          122.75528848171291,
+          -4.452540806192496
+        ]
+      ],
+      "source_origin_world_m": [
+        0.02475997433066368,
+        0.04452558234333992,
+        1.277552843093872
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Inferior lobe of left lung",
+            "vertex_distance_mm": 3.689,
+            "nearest_vertex_cm": [
+              2.1593683047920402,
+              127.77680624551502,
+              -4.372265678839473
+            ]
+          },
+          {
+            "name": "Inferior lobe of right lung",
+            "vertex_distance_mm": 34.339,
+            "nearest_vertex_cm": [
+              -0.7694180852795542,
+              127.74610413989508,
+              -3.339459340681227
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Inferior lobe of left lung",
+            "vertex_distance_mm": 2.737,
+            "nearest_vertex_cm": [
+              2.3245184404797845,
+              122.98328199329738,
+              -4.454947370976493
+            ]
+          },
+          {
+            "name": "Inferior lobe of right lung",
+            "vertex_distance_mm": 39.594,
+            "nearest_vertex_cm": [
+              -0.9898982838631657,
+              123.37185083710607,
+              -2.6402347165802196
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "R147"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "respiratory",
+      "displayEndpoints": [
+        [
+          0.4951994866132736,
+          -2.8789433515072123,
+          -0.8905115422971184
+        ],
+        [
+          0.4951994866132736,
+          -3.8489423036574184,
+          -0.8905081612384992
+        ]
+      ]
+    },
+    {
+      "name": "Mediastinal surface of lung.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          0.021425914019346237,
+          -0.015811821086371268,
+          1.3706456421017634
+        ],
+        [
+          0.021425914019346237,
+          -0.015811990139302227,
+          1.3221456944942531
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          2.1425914019346237,
+          137.06456421017634,
+          1.5811821086371267
+        ],
+        [
+          2.1425914019346237,
+          132.2145694494253,
+          1.5811990139302228
+        ]
+      ],
+      "source_origin_world_m": [
+        0.021425914019346237,
+        -0.015811815857887268,
+        1.372145652770996
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Superior lobe of left lung",
+            "vertex_distance_mm": 6.118,
+            "nearest_vertex_cm": [
+              2.736803228028182,
+              137.18493354554968,
+              1.6634235276291416
+            ]
+          },
+          {
+            "name": "Superior lobe of right lung",
+            "vertex_distance_mm": 41.878,
+            "nearest_vertex_cm": [
+              -1.7351952611133075,
+              137.17114723638818,
+              0.0034961369051005092
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Superior lobe of left lung",
+            "vertex_distance_mm": 25.402,
+            "nearest_vertex_cm": [
+              4.402360664623624,
+              132.94169123858737,
+              0.6772193786370444
+            ]
+          },
+          {
+            "name": "Inferior lobe of left lung",
+            "vertex_distance_mm": 43.101,
+            "nearest_vertex_cm": [
+              3.8619696572423496,
+              130.91103272420136,
+              -2.149940811921798
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "R147"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "respiratory",
+      "displayEndpoints": [
+        [
+          0.42851828038692474,
+          -0.9870871579647315,
+          0.3162364217274254
+        ],
+        [
+          0.42851828038692474,
+          -1.9570861101149377,
+          0.3162398027860446
+        ]
+      ]
+    },
+    {
+      "name": "Muscular process.i",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          0.010949989780783653,
+          -0.0034076945992248414,
+          1.474545562320948
+        ],
+        [
+          0.010949989780783653,
+          -0.0034077236459579357,
+          1.4696955698728544
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          1.0949989780783653,
+          147.4545562320948,
+          0.34076945992248414
+        ],
+        [
+          1.0949989780783653,
+          146.96955698728544,
+          0.3407723645957936
+        ]
+      ],
+      "source_origin_world_m": [
+        0.010949989780783653,
+        -0.003407693700864911,
+        1.4746955633163452
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Arytenoid cartilage.l",
+            "vertex_distance_mm": 3.243,
+            "nearest_vertex_cm": [
+              0.7931082509622209,
+              147.46153062812363,
+              0.45902599413426387
+            ]
+          },
+          {
+            "name": "Arytenoid cartilage.r",
+            "vertex_distance_mm": 13.798,
+            "nearest_vertex_cm": [
+              -0.2746631452959679,
+              147.44128879771466,
+              0.5074459257211814
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Arytenoid cartilage.l",
+            "vertex_distance_mm": 5.564,
+            "nearest_vertex_cm": [
+              0.7733072328207091,
+              147.40578003796503,
+              0.46668599608774
+            ]
+          },
+          {
+            "name": "Arytenoid cartilage.r",
+            "vertex_distance_mm": 14.399,
+            "nearest_vertex_cm": [
+              -0.28537832903166055,
+              147.3485294302561,
+              0.49691150417759783
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "R087"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "respiratory",
+      "displayEndpoints": [
+        [
+          0.21899979561567307,
+          1.0909112464189605,
+          0.06815389198449683
+        ],
+        [
+          0.21899979561567307,
+          0.9939113974570888,
+          0.06815447291915872
+        ]
+      ]
+    },
+    {
+      "name": "Muscular process.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          -0.010949989780783653,
+          -0.003407694832055741,
+          1.4745455622874202
+        ],
+        [
+          -0.010949989780783653,
+          -0.003407723878797106,
+          1.4696955687552684
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          -1.0949989780783653,
+          147.454556228742,
+          0.3407694832055741
+        ],
+        [
+          -1.0949989780783653,
+          146.96955687552685,
+          0.3407723878797106
+        ]
+      ],
+      "source_origin_world_m": [
+        -0.010949989780783653,
+        -0.0034076939336955547,
+        1.4746955633163452
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Arytenoid cartilage.r",
+            "vertex_distance_mm": 3.243,
+            "nearest_vertex_cm": [
+              -0.7931069098577135,
+              147.46153063334413,
+              0.4590259897441369
+            ]
+          },
+          {
+            "name": "Arytenoid cartilage.l",
+            "vertex_distance_mm": 13.798,
+            "nearest_vertex_cm": [
+              0.27466448640047536,
+              147.44128879403328,
+              0.5074459307547251
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Arytenoid cartilage.r",
+            "vertex_distance_mm": 5.564,
+            "nearest_vertex_cm": [
+              -0.7733058917162017,
+              147.40578004294204,
+              0.4666859899254956
+            ]
+          },
+          {
+            "name": "Arytenoid cartilage.l",
+            "vertex_distance_mm": 14.399,
+            "nearest_vertex_cm": [
+              0.285379670136168,
+              147.34852942623985,
+              0.4969115121596398
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "R087"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "respiratory",
+      "displayEndpoints": [
+        [
+          -0.21899979561567307,
+          1.0909112457484014,
+          0.06815389664111482
+        ],
+        [
+          -0.21899979561567307,
+          0.9939113751053696,
+          0.06815447757594212
+        ]
+      ]
+    },
+    {
+      "name": "Oblique fissure of left lung.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          0.16487203538417816,
+          -0.0029727794360760113,
+          1.284460425198077
+        ],
+        [
+          0.16487203538417816,
+          -0.0029729484890069695,
+          1.2359604775905666
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          16.487203538417816,
+          128.4460425198077,
+          0.2972779436076011
+        ],
+        [
+          16.487203538417816,
+          123.59604775905666,
+          0.29729484890069696
+        ]
+      ],
+      "source_origin_world_m": [
+        0.16487203538417816,
+        -0.0029727742075920105,
+        1.2859604358673096
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Inferior lobe of left lung",
+            "vertex_distance_mm": 40.668,
+            "nearest_vertex_cm": [
+              12.506234980118252,
+              127.64120569250969,
+              0.08959239148662039
+            ]
+          },
+          {
+            "name": "Superior lobe of left lung",
+            "vertex_distance_mm": 42.236,
+            "nearest_vertex_cm": [
+              12.28433954368699,
+              128.35764152855958,
+              0.706100806311214
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Inferior lobe of left lung",
+            "vertex_distance_mm": 35.235,
+            "nearest_vertex_cm": [
+              12.971215305145673,
+              123.36838756383253,
+              0.3245183588665655
+            ]
+          },
+          {
+            "name": "Superior lobe of left lung",
+            "vertex_distance_mm": 58.319,
+            "nearest_vertex_cm": [
+              12.15658219730616,
+              126.91646096982728,
+              2.3545018740025556
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "R150"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "respiratory",
+      "displayEndpoints": [
+        [
+          3.2974407076835632,
+          -2.7107914960384623,
+          0.05945558872152023
+        ],
+        [
+          3.2974407076835632,
+          -3.6807904481886684,
+          0.0594589697801394
+        ]
+      ]
+    },
+    {
+      "name": "Oblique fissure of right lung.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          -0.16704417765140533,
+          -0.02761400455054077,
+          1.2627586124539363
+        ],
+        [
+          -0.16704417765140533,
+          -0.02761417360347173,
+          1.214258664846426
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          -16.704417765140533,
+          126.27586124539363,
+          2.761400455054077
+        ],
+        [
+          -16.704417765140533,
+          121.4258664846426,
+          2.761417360347173
+        ]
+      ],
+      "source_origin_world_m": [
+        -0.16704417765140533,
+        -0.02761399932205677,
+        1.264258623123169
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Inferior lobe of right lung",
+            "vertex_distance_mm": 41.924,
+            "nearest_vertex_cm": [
+              -12.728357736333962,
+              125.38542666204536,
+              1.774323429151185
+            ]
+          },
+          {
+            "name": "Middle lobe of right lung",
+            "vertex_distance_mm": 45.067,
+            "nearest_vertex_cm": [
+              -12.25942711329746,
+              126.92763708334648,
+              2.4046553354811504
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Inferior lobe of right lung",
+            "vertex_distance_mm": 37.04,
+            "nearest_vertex_cm": [
+              -13.004327253980819,
+              121.29968365234075,
+              2.646221946460784
+            ]
+          },
+          {
+            "name": "Middle lobe of right lung",
+            "vertex_distance_mm": 63.911,
+            "nearest_vertex_cm": [
+              -11.709104109007463,
+              125.11739652281265,
+              4.2665004746003214
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "R149"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "respiratory",
+      "displayEndpoints": [
+        [
+          -3.3408835530281067,
+          -3.1448277509212748,
+          0.5522800910108154
+        ],
+        [
+          -3.3408835530281067,
+          -4.114826703071481,
+          0.5522834720694346
+        ]
+      ]
+    },
+    {
+      "name": "Right surface of heart.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          0.11598999225609474,
+          -0.02145777067227872,
+          1.2817254361447752
+        ],
+        [
+          0.11685030236076122,
+          -0.018325882876519373,
+          1.2333343713405185
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          11.598999225609475,
+          128.17254361447752,
+          2.145777067227872
+        ],
+        [
+          11.685030236076122,
+          123.33343713405185,
+          1.8325882876519373
+        ]
+      ],
+      "source_origin_world_m": [
+        0.11596338450908661,
+        -0.02155463397502899,
+        1.2832220792770386
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Left_ventricle",
+            "vertex_distance_mm": 35.498,
+            "nearest_vertex_cm": [
+              8.130180090665817,
+              127.64599323272705,
+              2.685031294822693
+            ]
+          },
+          {
+            "name": "Left_atrium",
+            "vertex_distance_mm": 58.436,
+            "nearest_vertex_cm": [
+              6.5185897052288055,
+              131.059992313385,
+              2.156672067940235
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Left_ventricle",
+            "vertex_distance_mm": 44.892,
+            "nearest_vertex_cm": [
+              7.789350301027298,
+              125.31999349594116,
+              2.847420796751976
+            ]
+          },
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 66.815,
+            "nearest_vertex_cm": [
+              5.970330536365509,
+              124.01899099349976,
+              5.2258506417274475
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "9"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "heart",
+      "displayEndpoints": [
+        [
+          2.399749806402369,
+          -0.5818640963806203,
+          0.036444266806967995
+        ],
+        [
+          2.4212575590190304,
+          -1.7916407164870378,
+          -0.041852928087015684
+        ]
+      ]
+    },
+    {
+      "name": "Inferior interventricular sulcus.j",
+      "local_vertices": [
+        [
+          -1.2051313280636577e-09,
+          -0.000429232488386333,
+          0.002476892899721861
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          0.03227692122070761,
+          -0.03551732800884372,
+          1.2217305796234803
+        ],
+        [
+          0.03332121743987804,
+          -0.031715660268668344,
+          1.1694002835872226
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          3.2276921220707613,
+          122.17305796234803,
+          3.5517328008843716
+        ],
+        [
+          3.3321217439878037,
+          116.94002835872226,
+          3.1715660268668344
+        ]
+      ],
+      "source_origin_world_m": [
+        0.03243429958820343,
+        -0.03494441136717796,
+        1.2192879915237427
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Left_ventricle",
+            "vertex_distance_mm": 18.956,
+            "nearest_vertex_cm": [
+              3.6331698298454285,
+              124.01598691940308,
+              3.3714305609464645
+            ]
+          },
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 19.192,
+            "nearest_vertex_cm": [
+              3.249780088663101,
+              124.00999069213867,
+              4.107200354337692
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Left_ventricle",
+            "vertex_distance_mm": 69.468,
+            "nearest_vertex_cm": [
+              4.600270092487335,
+              123.76298904418945,
+              2.8607407584786415
+            ]
+          },
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 71.27,
+            "nearest_vertex_cm": [
+              3.5244300961494446,
+              123.98698329925537,
+              4.219340533018112
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "27"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "heart",
+      "displayEndpoints": [
+        [
+          0.3069230305176903,
+          -2.0817355094129937,
+          0.3879332002210929
+        ],
+        [
+          0.3330304359969509,
+          -3.3899929103194353,
+          0.2928915067167086
+        ]
+      ]
+    },
+    {
+      "name": "Right border of heart.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          -0.06004669717438049,
+          -0.056287834253745395,
+          1.2598059472379148
+        ],
+        [
+          -0.05918638706971402,
+          -0.05315594645798605,
+          1.2114148824336581
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          -6.004669717438049,
+          125.98059472379148,
+          5.6287834253745395
+        ],
+        [
+          -5.918638706971402,
+          121.14148824336581,
+          5.315594645798605
+        ]
+      ],
+      "source_origin_world_m": [
+        -0.060073304921388626,
+        -0.056384697556495667,
+        1.2613025903701782
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Right_atrium",
+            "vertex_distance_mm": 35.424,
+            "nearest_vertex_cm": [
+              -2.7472998946905136,
+              126.91699266433716,
+              4.598561301827431
+            ]
+          },
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 40.084,
+            "nearest_vertex_cm": [
+              -2.1255098283290863,
+              126.63898468017578,
+              4.863430932164192
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Right_atrium",
+            "vertex_distance_mm": 56.635,
+            "nearest_vertex_cm": [
+              -2.6401689276099205,
+              124.77656602859497,
+              2.46733371168375
+            ]
+          },
+          {
+            "name": "Right_ventricle",
+            "vertex_distance_mm": 64.352,
+            "nearest_vertex_cm": [
+              -1.7536697909235954,
+              125.95398426055908,
+              4.364730790257454
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "11"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "heart",
+      "displayEndpoints": [
+        [
+          -2.001167429359512,
+          -1.129851319052129,
+          0.9071958563436349
+        ],
+        [
+          -1.9796596767428505,
+          -2.3396279391585466,
+          0.8288986614496512
+        ]
+      ]
+    },
+    {
+      "name": "Vocal process.j",
+      "local_vertices": [
+        [
+          0.0,
+          0.0,
+          -0.0015000104904174805
+        ],
+        [
+          0.0,
+          0.0,
+          -0.04999995231628418
+        ]
+      ],
+      "world_m": [
+        [
+          -0.001903492258861661,
+          -0.01281380277556079,
+          1.4739001631937922
+        ],
+        [
+          -0.001903492258861661,
+          -0.012813831822302155,
+          1.4690501696616405
+        ]
+      ],
+      "world_fbx_cm": [
+        [
+          -0.1903492258861661,
+          147.3900163193792,
+          1.281380277556079
+        ],
+        [
+          -0.1903492258861661,
+          146.90501696616406,
+          1.2813831822302155
+        ]
+      ],
+      "source_origin_world_m": [
+        -0.001903492258861661,
+        -0.012813801877200603,
+        1.4740501642227173
+      ],
+      "nearest_vertices": [
+        [
+          {
+            "name": "Arytenoid cartilage.r",
+            "vertex_distance_mm": 2.118,
+            "nearest_vertex_cm": [
+              -0.2750762102639771,
+              147.38668434813897,
+              1.0872928432241638
+            ]
+          },
+          {
+            "name": "Arytenoid cartilage.l",
+            "vertex_distance_mm": 4.953,
+            "nearest_vertex_cm": [
+              0.2578296267693081,
+              147.38735904426997,
+              1.070492591648287
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Arytenoid cartilage.r",
+            "vertex_distance_mm": 5.131,
+            "nearest_vertex_cm": [
+              -0.2904025480638044,
+              147.36383952577577,
+              1.0745181184677082
+            ]
+          },
+          {
+            "name": "Arytenoid cartilage.l",
+            "vertex_distance_mm": 6.87,
+            "nearest_vertex_cm": [
+              0.26072126780994326,
+              147.3758163405838,
+              1.0650233501598652
+            ]
+          }
+        ]
+      ],
+      "candidateRequirementIds": [
+        "R086"
+      ],
+      "status": "pending_not_approved_anchor",
+      "anatomicalPointIndex": null,
+      "mappingBasis": "Nome autoral; não valida posição nem limites da região.",
+      "displaySystem": "respiratory",
+      "displayEndpoints": [
+        [
+          -0.03806984517723322,
+          1.0780032638758428,
+          0.2562760555112158
+        ],
+        [
+          -0.03806984517723322,
+          0.981003393232811,
+          0.2562766364460431
+        ]
+      ]
+    }
+  ]
+}

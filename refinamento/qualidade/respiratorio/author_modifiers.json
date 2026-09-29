@@ -1,0 +1,1134 @@
+[
+  {
+    "name": "Anterior belly of digastric muscle.l",
+    "polygons": 392,
+    "vertices": 198,
+    "modifiers": []
+  },
+  {
+    "name": "Anterior belly of digastric muscle.r",
+    "polygons": 392,
+    "vertices": 198,
+    "modifiers": []
+  },
+  {
+    "name": "Anterior cells of ethmoid bone.l",
+    "polygons": 116,
+    "vertices": 72,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 1,
+        "subdivType": 0
+      }
+    ]
+  },
+  {
+    "name": "Anterior cells of ethmoid bone.r",
+    "polygons": 116,
+    "vertices": 72,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 1,
+        "subdivType": 0
+      }
+    ]
+  },
+  {
+    "name": "Ary-epiglottic part of oblique arytenoid muscle.l",
+    "polygons": 1022,
+    "vertices": 513,
+    "modifiers": []
+  },
+  {
+    "name": "Ary-epiglottic part of oblique arytenoid muscle.r",
+    "polygons": 1022,
+    "vertices": 513,
+    "modifiers": []
+  },
+  {
+    "name": "Arytenoid cartilage.r",
+    "polygons": 625,
+    "vertices": 322,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 2,
+        "subdivType": 0
+      }
+    ]
+  },
+  {
+    "name": "Arytenoid cartilage.l",
+    "polygons": 625,
+    "vertices": 322,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 2,
+        "subdivType": 0
+      }
+    ]
+  },
+  {
+    "name": "Body of sternum",
+    "polygons": 4466,
+    "vertices": 2240,
+    "modifiers": []
+  },
+  {
+    "name": "Corniculate cartilage.r",
+    "polygons": 136,
+    "vertices": 70,
+    "modifiers": []
+  },
+  {
+    "name": "Corniculate cartilage.l",
+    "polygons": 136,
+    "vertices": 70,
+    "modifiers": []
+  },
+  {
+    "name": "Cricoid cartilage",
+    "polygons": 1806,
+    "vertices": 941,
+    "modifiers": []
+  },
+  {
+    "name": "Cricopharyngeal ligament.l",
+    "polygons": 3119,
+    "vertices": 1540,
+    "modifiers": []
+  },
+  {
+    "name": "Cricopharyngeal ligament.r",
+    "polygons": 3119,
+    "vertices": 1540,
+    "modifiers": []
+  },
+  {
+    "name": "Eighth rib.l",
+    "polygons": 8257,
+    "vertices": 4137,
+    "modifiers": []
+  },
+  {
+    "name": "Eighth rib.r",
+    "polygons": 8257,
+    "vertices": 4137,
+    "modifiers": []
+  },
+  {
+    "name": "Eleventh rib.l",
+    "polygons": 5032,
+    "vertices": 2519,
+    "modifiers": []
+  },
+  {
+    "name": "Eleventh rib.r",
+    "polygons": 5032,
+    "vertices": 2519,
+    "modifiers": []
+  },
+  {
+    "name": "Epiglottis",
+    "polygons": 3326,
+    "vertices": 1650,
+    "modifiers": []
+  },
+  {
+    "name": "Ethmoid bone",
+    "polygons": 3775,
+    "vertices": 2108,
+    "modifiers": [
+      {
+        "sdna": "BooleanModifierData",
+        "mode": 3,
+        "type": 11
+      },
+      {
+        "sdna": "BooleanModifierData",
+        "mode": 3,
+        "type": 11
+      },
+      {
+        "sdna": "BooleanModifierData",
+        "mode": 3,
+        "type": 11
+      },
+      {
+        "sdna": "BooleanModifierData",
+        "mode": 3,
+        "type": 11
+      },
+      {
+        "sdna": "BooleanModifierData",
+        "mode": 3,
+        "type": 11
+      },
+      {
+        "sdna": "BooleanModifierData",
+        "mode": 3,
+        "type": 11
+      }
+    ]
+  },
+  {
+    "name": "External intercostal muscles.l",
+    "polygons": 41357,
+    "vertices": 20663,
+    "modifiers": []
+  },
+  {
+    "name": "External intercostal muscles.r",
+    "polygons": 41357,
+    "vertices": 20663,
+    "modifiers": []
+  },
+  {
+    "name": "Fifth rib.l",
+    "polygons": 9360,
+    "vertices": 4690,
+    "modifiers": []
+  },
+  {
+    "name": "Fifth rib.r",
+    "polygons": 9360,
+    "vertices": 4690,
+    "modifiers": []
+  },
+  {
+    "name": "First rib.l",
+    "polygons": 3208,
+    "vertices": 1607,
+    "modifiers": []
+  },
+  {
+    "name": "First rib.r",
+    "polygons": 3208,
+    "vertices": 1607,
+    "modifiers": []
+  },
+  {
+    "name": "Fourth rib.l",
+    "polygons": 8640,
+    "vertices": 4325,
+    "modifiers": []
+  },
+  {
+    "name": "Fourth rib.r",
+    "polygons": 8640,
+    "vertices": 4325,
+    "modifiers": []
+  },
+  {
+    "name": "Geniohyoid muscle.l",
+    "polygons": 530,
+    "vertices": 267,
+    "modifiers": []
+  },
+  {
+    "name": "Geniohyoid muscle.r",
+    "polygons": 530,
+    "vertices": 267,
+    "modifiers": []
+  },
+  {
+    "name": "Hyoid bone",
+    "polygons": 1310,
+    "vertices": 664,
+    "modifiers": []
+  },
+  {
+    "name": "Inferior lobe of left lung",
+    "polygons": 1177,
+    "vertices": 1142,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 2,
+        "subdivType": 0
+      }
+    ]
+  },
+  {
+    "name": "Inferior lobe of right lung",
+    "polygons": 1076,
+    "vertices": 1040,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 2,
+        "subdivType": 0
+      }
+    ]
+  },
+  {
+    "name": "Inferior nasal concha bone.l",
+    "polygons": 476,
+    "vertices": 238,
+    "modifiers": []
+  },
+  {
+    "name": "Inferior nasal concha bone.r",
+    "polygons": 476,
+    "vertices": 238,
+    "modifiers": []
+  },
+  {
+    "name": "Inferior pharyngeal constrictor.l",
+    "polygons": 3696,
+    "vertices": 1850,
+    "modifiers": []
+  },
+  {
+    "name": "Inferior pharyngeal constrictor.r",
+    "polygons": 3696,
+    "vertices": 1850,
+    "modifiers": []
+  },
+  {
+    "name": "Innermost intercostal muscles.l",
+    "polygons": 38254,
+    "vertices": 19091,
+    "modifiers": []
+  },
+  {
+    "name": "Innermost intercostal muscles.r",
+    "polygons": 38254,
+    "vertices": 19091,
+    "modifiers": []
+  },
+  {
+    "name": "Intermediate tendon of digastric muscle.l",
+    "polygons": 228,
+    "vertices": 116,
+    "modifiers": []
+  },
+  {
+    "name": "Intermediate tendon of digastric muscle.r",
+    "polygons": 228,
+    "vertices": 116,
+    "modifiers": []
+  },
+  {
+    "name": "Internal intercostal muscles.l",
+    "polygons": 40184,
+    "vertices": 20049,
+    "modifiers": []
+  },
+  {
+    "name": "Internal intercostal muscles.r",
+    "polygons": 40184,
+    "vertices": 20049,
+    "modifiers": []
+  },
+  {
+    "name": "Lacrimal bone.l",
+    "polygons": 588,
+    "vertices": 296,
+    "modifiers": []
+  },
+  {
+    "name": "Lacrimal bone.r",
+    "polygons": 588,
+    "vertices": 296,
+    "modifiers": []
+  },
+  {
+    "name": "Laryngopharynx",
+    "polygons": 72,
+    "vertices": 91,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 2,
+        "subdivType": 0
+      },
+      {
+        "sdna": "MirrorModifierData",
+        "mode": 7,
+        "type": 5
+      },
+      {
+        "sdna": "SolidifyModifierData",
+        "mode": 7,
+        "type": 33
+      }
+    ]
+  },
+  {
+    "name": "Lateral crico-arytenoid muscle.l",
+    "polygons": 1624,
+    "vertices": 815,
+    "modifiers": []
+  },
+  {
+    "name": "Lateral crico-arytenoid muscle.r",
+    "polygons": 1624,
+    "vertices": 815,
+    "modifiers": []
+  },
+  {
+    "name": "Lateral process of nasal septal cartilage.l",
+    "polygons": 347,
+    "vertices": 174,
+    "modifiers": []
+  },
+  {
+    "name": "Lateral process of nasal septal cartilage.r",
+    "polygons": 347,
+    "vertices": 174,
+    "modifiers": []
+  },
+  {
+    "name": "Lateral thyrohyoid ligament.l",
+    "polygons": 912,
+    "vertices": 458,
+    "modifiers": []
+  },
+  {
+    "name": "Lateral thyrohyoid ligament.r",
+    "polygons": 912,
+    "vertices": 458,
+    "modifiers": []
+  },
+  {
+    "name": "Left atrium",
+    "polygons": 2610,
+    "vertices": 2609,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 6,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 2,
+        "subdivType": 0
+      }
+    ]
+  },
+  {
+    "name": "Left ventricle",
+    "polygons": 2797,
+    "vertices": 2856,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 2,
+        "subdivType": 0
+      }
+    ]
+  },
+  {
+    "name": "Major alar cartilage.l",
+    "polygons": 344,
+    "vertices": 174,
+    "modifiers": []
+  },
+  {
+    "name": "Major alar cartilage.r",
+    "polygons": 344,
+    "vertices": 174,
+    "modifiers": []
+  },
+  {
+    "name": "Manubrium of sternum",
+    "polygons": 2662,
+    "vertices": 1336,
+    "modifiers": []
+  },
+  {
+    "name": "Maxilla.l",
+    "polygons": 4798,
+    "vertices": 2399,
+    "modifiers": []
+  },
+  {
+    "name": "Maxilla.r",
+    "polygons": 4798,
+    "vertices": 2399,
+    "modifiers": []
+  },
+  {
+    "name": "Median cricothyroid ligament",
+    "polygons": 1872,
+    "vertices": 1068,
+    "modifiers": []
+  },
+  {
+    "name": "Median thyrohyoid ligament",
+    "polygons": 2753,
+    "vertices": 1388,
+    "modifiers": []
+  },
+  {
+    "name": "Middle cells of ethmoid bone.l",
+    "polygons": 160,
+    "vertices": 84,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 1,
+        "subdivType": 0
+      }
+    ]
+  },
+  {
+    "name": "Middle cells of ethmoid bone.r",
+    "polygons": 160,
+    "vertices": 84,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 1,
+        "subdivType": 0
+      }
+    ]
+  },
+  {
+    "name": "Middle lobe of right lung",
+    "polygons": 940,
+    "vertices": 914,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 2,
+        "subdivType": 0
+      }
+    ]
+  },
+  {
+    "name": "Middle pharyngeal constrictor.l",
+    "polygons": 2948,
+    "vertices": 1476,
+    "modifiers": []
+  },
+  {
+    "name": "Middle pharyngeal constrictor.r",
+    "polygons": 2948,
+    "vertices": 1476,
+    "modifiers": []
+  },
+  {
+    "name": "Mucosa of nasal cavity",
+    "polygons": 308,
+    "vertices": 318,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 2,
+        "subdivType": 0
+      },
+      {
+        "sdna": "MirrorModifierData",
+        "mode": 7,
+        "type": 5
+      },
+      {
+        "sdna": "SolidifyModifierData",
+        "mode": 7,
+        "type": 33
+      }
+    ]
+  },
+  {
+    "name": "Mylohyoid muscle.l",
+    "polygons": 1122,
+    "vertices": 561,
+    "modifiers": []
+  },
+  {
+    "name": "Mylohyoid muscle.r",
+    "polygons": 1122,
+    "vertices": 561,
+    "modifiers": []
+  },
+  {
+    "name": "Nasal bone.l",
+    "polygons": 292,
+    "vertices": 148,
+    "modifiers": []
+  },
+  {
+    "name": "Nasal bone.r",
+    "polygons": 292,
+    "vertices": 148,
+    "modifiers": []
+  },
+  {
+    "name": "Nasal septal cartilage",
+    "polygons": 360,
+    "vertices": 182,
+    "modifiers": []
+  },
+  {
+    "name": "Nasopharynx",
+    "polygons": 56,
+    "vertices": 73,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 2,
+        "subdivType": 0
+      },
+      {
+        "sdna": "MirrorModifierData",
+        "mode": 7,
+        "type": 5
+      },
+      {
+        "sdna": "SolidifyModifierData",
+        "mode": 7,
+        "type": 33
+      }
+    ]
+  },
+  {
+    "name": "Ninth rib.l",
+    "polygons": 7743,
+    "vertices": 3891,
+    "modifiers": []
+  },
+  {
+    "name": "Ninth rib.r",
+    "polygons": 7743,
+    "vertices": 3891,
+    "modifiers": []
+  },
+  {
+    "name": "Omohyoid muscle.l",
+    "polygons": 2706,
+    "vertices": 1355,
+    "modifiers": []
+  },
+  {
+    "name": "Omohyoid muscle.r",
+    "polygons": 2706,
+    "vertices": 1355,
+    "modifiers": []
+  },
+  {
+    "name": "Oropharynx",
+    "polygons": 72,
+    "vertices": 92,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 2,
+        "subdivType": 0
+      },
+      {
+        "sdna": "MirrorModifierData",
+        "mode": 7,
+        "type": 5
+      },
+      {
+        "sdna": "SolidifyModifierData",
+        "mode": 7,
+        "type": 33
+      }
+    ]
+  },
+  {
+    "name": "Palatine bone.l",
+    "polygons": 1460,
+    "vertices": 732,
+    "modifiers": []
+  },
+  {
+    "name": "Palatine bone.r",
+    "polygons": 1460,
+    "vertices": 732,
+    "modifiers": []
+  },
+  {
+    "name": "Palatopharyngeus muscle.l",
+    "polygons": 15282,
+    "vertices": 7642,
+    "modifiers": []
+  },
+  {
+    "name": "Palatopharyngeus muscle.r",
+    "polygons": 15282,
+    "vertices": 7642,
+    "modifiers": []
+  },
+  {
+    "name": "Pleura",
+    "polygons": 3580,
+    "vertices": 3442,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 2,
+        "subdivType": 0
+      },
+      {
+        "sdna": "SolidifyModifierData",
+        "mode": 7,
+        "type": 33
+      },
+      {
+        "sdna": "SolidifyModifierData",
+        "mode": 7,
+        "type": 33
+      }
+    ]
+  },
+  {
+    "name": "Posterior cells of ethmoid bone.l",
+    "polygons": 196,
+    "vertices": 114,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 1,
+        "subdivType": 0
+      }
+    ]
+  },
+  {
+    "name": "Posterior cells of ethmoid bone.r",
+    "polygons": 196,
+    "vertices": 114,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 1,
+        "subdivType": 0
+      }
+    ]
+  },
+  {
+    "name": "Posterior crico-arytenoid muscle.l",
+    "polygons": 1812,
+    "vertices": 908,
+    "modifiers": []
+  },
+  {
+    "name": "Posterior crico-arytenoid muscle.r",
+    "polygons": 1812,
+    "vertices": 908,
+    "modifiers": []
+  },
+  {
+    "name": "Quadrangular membrane.l",
+    "polygons": 4592,
+    "vertices": 2296,
+    "modifiers": []
+  },
+  {
+    "name": "Quadrangular membrane.r",
+    "polygons": 4592,
+    "vertices": 2296,
+    "modifiers": []
+  },
+  {
+    "name": "Second rib.r",
+    "polygons": 5354,
+    "vertices": 2684,
+    "modifiers": []
+  },
+  {
+    "name": "Sphenoid bone",
+    "polygons": 7308,
+    "vertices": 3650,
+    "modifiers": []
+  },
+  {
+    "name": "External part of thyro-arytenoid muscle.l",
+    "polygons": 2236,
+    "vertices": 1120,
+    "modifiers": []
+  },
+  {
+    "name": "External part of thyro-arytenoid muscle.r",
+    "polygons": 2236,
+    "vertices": 1120,
+    "modifiers": []
+  },
+  {
+    "name": "Oblique part of cricothyroid muscle.l",
+    "polygons": 2060,
+    "vertices": 1032,
+    "modifiers": []
+  },
+  {
+    "name": "Oblique part of cricothyroid muscle.r",
+    "polygons": 2060,
+    "vertices": 1032,
+    "modifiers": []
+  },
+  {
+    "name": "Posterior belly of digastric muscle.l",
+    "polygons": 1276,
+    "vertices": 638,
+    "modifiers": []
+  },
+  {
+    "name": "Posterior belly of digastric muscle.r",
+    "polygons": 1276,
+    "vertices": 638,
+    "modifiers": []
+  },
+  {
+    "name": "Right atrium",
+    "polygons": 2850,
+    "vertices": 2878,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 2,
+        "subdivType": 0
+      }
+    ]
+  },
+  {
+    "name": "Right ventricle",
+    "polygons": 2814,
+    "vertices": 2850,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 2,
+        "subdivType": 0
+      }
+    ]
+  },
+  {
+    "name": "Second rib.l",
+    "polygons": 5354,
+    "vertices": 2684,
+    "modifiers": []
+  },
+  {
+    "name": "Seventh rib.l",
+    "polygons": 9741,
+    "vertices": 4890,
+    "modifiers": []
+  },
+  {
+    "name": "Seventh rib.r",
+    "polygons": 9741,
+    "vertices": 4890,
+    "modifiers": []
+  },
+  {
+    "name": "Sinus of frontal bone",
+    "polygons": 752,
+    "vertices": 770,
+    "modifiers": []
+  },
+  {
+    "name": "Sinus of sphenoid bone",
+    "polygons": 384,
+    "vertices": 210,
+    "modifiers": []
+  },
+  {
+    "name": "Sixth rib.l",
+    "polygons": 10092,
+    "vertices": 5078,
+    "modifiers": []
+  },
+  {
+    "name": "Sixth rib.r",
+    "polygons": 10092,
+    "vertices": 5078,
+    "modifiers": []
+  },
+  {
+    "name": "Soft palate",
+    "polygons": 111,
+    "vertices": 133,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 2,
+        "subdivType": 0
+      },
+      {
+        "sdna": "MirrorModifierData",
+        "mode": 7,
+        "type": 5
+      },
+      {
+        "sdna": "SolidifyModifierData",
+        "mode": 7,
+        "type": 33
+      }
+    ]
+  },
+  {
+    "name": "Sternohyoid muscle.l",
+    "polygons": 1394,
+    "vertices": 697,
+    "modifiers": []
+  },
+  {
+    "name": "Sternohyoid muscle.r",
+    "polygons": 1394,
+    "vertices": 697,
+    "modifiers": []
+  },
+  {
+    "name": "Sternothyroid muscle.l",
+    "polygons": 1088,
+    "vertices": 546,
+    "modifiers": []
+  },
+  {
+    "name": "Sternothyroid muscle.r",
+    "polygons": 1088,
+    "vertices": 546,
+    "modifiers": []
+  },
+  {
+    "name": "Straight part of cricothyroid muscle.l",
+    "polygons": 1180,
+    "vertices": 592,
+    "modifiers": []
+  },
+  {
+    "name": "Straight part of cricothyroid muscle.r",
+    "polygons": 1180,
+    "vertices": 592,
+    "modifiers": []
+  },
+  {
+    "name": "Stylohyoid muscle.l",
+    "polygons": 694,
+    "vertices": 349,
+    "modifiers": []
+  },
+  {
+    "name": "Stylohyoid muscle.r",
+    "polygons": 694,
+    "vertices": 349,
+    "modifiers": []
+  },
+  {
+    "name": "Stylopharyngeus muscle.l",
+    "polygons": 9478,
+    "vertices": 4740,
+    "modifiers": []
+  },
+  {
+    "name": "Stylopharyngeus muscle.r",
+    "polygons": 9478,
+    "vertices": 4740,
+    "modifiers": []
+  },
+  {
+    "name": "Superior lobe of left lung",
+    "polygons": 1190,
+    "vertices": 1141,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 2,
+        "subdivType": 0
+      }
+    ]
+  },
+  {
+    "name": "Superior lobe of right lung",
+    "polygons": 982,
+    "vertices": 968,
+    "modifiers": [
+      {
+        "sdna": "SubsurfModifierData",
+        "mode": 7,
+        "type": 1,
+        "levels": 1,
+        "renderLevels": 2,
+        "subdivType": 0
+      }
+    ]
+  },
+  {
+    "name": "Superior pharyngeal constrictor.l",
+    "polygons": 5334,
+    "vertices": 2669,
+    "modifiers": []
+  },
+  {
+    "name": "Superior pharyngeal constrictor.r",
+    "polygons": 5334,
+    "vertices": 2669,
+    "modifiers": []
+  },
+  {
+    "name": "Tenth rib.l",
+    "polygons": 7002,
+    "vertices": 3515,
+    "modifiers": []
+  },
+  {
+    "name": "Tenth rib.r",
+    "polygons": 7002,
+    "vertices": 3515,
+    "modifiers": []
+  },
+  {
+    "name": "Third rib.l",
+    "polygons": 6957,
+    "vertices": 3492,
+    "modifiers": []
+  },
+  {
+    "name": "Third rib.r",
+    "polygons": 6957,
+    "vertices": 3492,
+    "modifiers": []
+  },
+  {
+    "name": "Thyro-epiglottic part of thyro-arytenoid muscle.l",
+    "polygons": 3110,
+    "vertices": 1557,
+    "modifiers": []
+  },
+  {
+    "name": "Thyro-epiglottic part of thyro-arytenoid muscle.r",
+    "polygons": 3110,
+    "vertices": 1557,
+    "modifiers": []
+  },
+  {
+    "name": "Thyrohyoid muscle.l",
+    "polygons": 692,
+    "vertices": 352,
+    "modifiers": []
+  },
+  {
+    "name": "Thyrohyoid muscle.r",
+    "polygons": 692,
+    "vertices": 352,
+    "modifiers": []
+  },
+  {
+    "name": "Thyroid cartilage",
+    "polygons": 4482,
+    "vertices": 2247,
+    "modifiers": []
+  },
+  {
+    "name": "Tongue",
+    "polygons": 602,
+    "vertices": 343,
+    "modifiers": []
+  },
+  {
+    "name": "Trachea",
+    "polygons": 4516,
+    "vertices": 2400,
+    "modifiers": []
+  },
+  {
+    "name": "Transverse arytenoid muscle",
+    "polygons": 1822,
+    "vertices": 913,
+    "modifiers": []
+  },
+  {
+    "name": "Twelfth rib.l",
+    "polygons": 2995,
+    "vertices": 1503,
+    "modifiers": []
+  },
+  {
+    "name": "Twelfth rib.r",
+    "polygons": 2995,
+    "vertices": 1503,
+    "modifiers": []
+  },
+  {
+    "name": "Uvula of palate",
+    "polygons": 1502,
+    "vertices": 753,
+    "modifiers": []
+  },
+  {
+    "name": "Vomer",
+    "polygons": 946,
+    "vertices": 514,
+    "modifiers": []
+  },
+  {
+    "name": "Xiphoid process",
+    "polygons": 914,
+    "vertices": 459,
+    "modifiers": [
+      {
+        "sdna": "MirrorModifierData",
+        "mode": 7,
+        "type": 5
+      }
+    ]
+  }
+]

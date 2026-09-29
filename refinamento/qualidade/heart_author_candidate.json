@@ -1,0 +1,375 @@
+{
+  "candidateOnly": true,
+  "model": {
+    "parts": 72,
+    "triangles": 482116,
+    "cardiacParts": 55,
+    "contextParts": 17,
+    "bytes": 11708588,
+    "sha256": "32cc0d39169cd3562cde68d0e91de92bed41d9ad62357fa44fc06ce3d2fdef6c",
+    "synthetic_anatomical_parts": 0,
+    "individually_anatomically_validated": false
+  },
+  "surfaces": [
+    {
+      "id": "heart_00",
+      "name": "Right atrium",
+      "oldVertices": 2878,
+      "newVertices": 45600,
+      "oldTriangles": 5641,
+      "newTriangles": 90728,
+      "oldBounds": [
+        [
+          -1.4218974113464355,
+          -1.4802528619766235,
+          -0.6954513192176819
+        ],
+        [
+          -0.2971159517765045,
+          1.012496829032898,
+          1.1666405200958252
+        ]
+      ],
+      "newBounds": [
+        [
+          -1.419731855392456,
+          -1.471842646598816,
+          -0.6933573484420776
+        ],
+        [
+          -0.30271390080451965,
+          0.9943233728408813,
+          1.15082848072052
+        ]
+      ],
+      "boundsDifferenceNominalMm": 0.7269382476806641,
+      "normalFallbacks": 0,
+      "authorEvaluation": {
+        "name": "Right atrium",
+        "blender": "4.2.22 LTS",
+        "originalModifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "show_viewport": true,
+            "show_render": true,
+            "levels": 1,
+            "render_levels": 2,
+            "subdivision_type": "CATMULL_CLARK"
+          }
+        ],
+        "vertices": 45600,
+        "triangles": 90728,
+        "bounds_m": [
+          [
+            -0.03678927384316921,
+            -0.06603313929752969,
+            1.2461263381959649
+          ],
+          [
+            0.007891443558037281,
+            0.007734293538375968,
+            1.3447729692054136
+          ]
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.862645149230957e-09
+          ],
+          [
+            0.0,
+            -1.6292067073209182e-07,
+            -0.9999999403953552,
+            -6.63820287627459e-09
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            -1.6292067073209182e-07,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "file": "right_atrium.npz"
+      }
+    },
+    {
+      "id": "heart_01",
+      "name": "Right ventricle",
+      "oldVertices": 2850,
+      "newVertices": 44978,
+      "oldTriangles": 5533,
+      "newTriangles": 89288,
+      "oldBounds": [
+        [
+          -1.0432099103927612,
+          -1.6530020236968994,
+          -0.14629632234573364
+        ],
+        [
+          1.0325775146484375,
+          0.666095495223999,
+          1.5316451787948608
+        ]
+      ],
+      "newBounds": [
+        [
+          -1.0391428470611572,
+          -1.651210904121399,
+          -0.14552563428878784
+        ],
+        [
+          1.0252448320388794,
+          0.6593959331512451,
+          1.5300662517547607
+        ]
+      ],
+      "boundsDifferenceNominalMm": 0.2933073043823242,
+      "normalFallbacks": 0,
+      "authorEvaluation": {
+        "name": "Right ventricle",
+        "blender": "4.2.22 LTS",
+        "originalModifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "show_viewport": true,
+            "show_render": true,
+            "levels": 1,
+            "render_levels": 2,
+            "subdivision_type": "CATMULL_CLARK"
+          }
+        ],
+        "vertices": 44978,
+        "triangles": 89288,
+        "bounds_m": [
+          [
+            -0.021565712988376617,
+            -0.08120265098316128,
+            1.238951601019662
+          ],
+          [
+            0.06100979261100292,
+            -0.014178974147152875,
+            1.3313758695062106
+          ]
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.862645149230957e-09
+          ],
+          [
+            0.0,
+            -1.6292067073209182e-07,
+            -0.9999999403953552,
+            -6.63820287627459e-09
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            -1.6292067073209182e-07,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "file": "right_ventricle.npz"
+      }
+    },
+    {
+      "id": "heart_02",
+      "name": "Left atrium",
+      "oldVertices": 2609,
+      "newVertices": 41538,
+      "oldTriangles": 5105,
+      "newTriangles": 82600,
+      "oldBounds": [
+        [
+          -1.095847487449646,
+          -1.0520024299621582,
+          -1.291459560394287
+        ],
+        [
+          1.1390174627304077,
+          0.8287476301193237,
+          0.8666554093360901
+        ]
+      ],
+      "newBounds": [
+        [
+          -1.0886516571044922,
+          -1.0512096881866455,
+          -1.2834339141845703
+        ],
+        [
+          1.1286895275115967,
+          0.8243756294250488,
+          0.8598845601081848
+        ]
+      ],
+      "boundsDifferenceNominalMm": 0.4131174087524414,
+      "normalFallbacks": 2,
+      "authorEvaluation": {
+        "name": "Left atrium",
+        "blender": "4.2.22 LTS",
+        "originalModifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "show_viewport": false,
+            "show_render": true,
+            "levels": 1,
+            "render_levels": 2,
+            "subdivision_type": "CATMULL_CLARK"
+          }
+        ],
+        "vertices": 41538,
+        "triangles": 82600,
+        "bounds_m": [
+          [
+            -0.023546066135168076,
+            -0.05439538227569525,
+            1.2629516564074257
+          ],
+          [
+            0.06514758057892323,
+            0.03133735520296381,
+            1.337975060548129
+          ]
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.862645149230957e-09
+          ],
+          [
+            0.0,
+            -1.6292067073209182e-07,
+            -0.9999999403953552,
+            -6.63820287627459e-09
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            -1.6292067073209182e-07,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "file": "left_atrium.npz"
+      }
+    },
+    {
+      "id": "heart_03",
+      "name": "Left ventricle",
+      "oldVertices": 2856,
+      "newVertices": 44864,
+      "oldTriangles": 5532,
+      "newTriangles": 89008,
+      "oldBounds": [
+        [
+          -0.4406937062740326,
+          -1.7090035676956177,
+          -0.8914296627044678
+        ],
+        [
+          1.559054970741272,
+          0.5447344779968262,
+          1.2987301349639893
+        ]
+      ],
+      "newBounds": [
+        [
+          -0.43831366300582886,
+          -1.7066819667816162,
+          -0.8894370198249817
+        ],
+        [
+          1.5583469867706299,
+          0.5347447395324707,
+          1.2958548069000244
+        ]
+      ],
+      "boundsDifferenceNominalMm": 0.39958953857421875,
+      "normalFallbacks": 0,
+      "authorEvaluation": {
+        "name": "Left ventricle",
+        "blender": "4.2.22 LTS",
+        "originalModifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "show_viewport": true,
+            "show_render": true,
+            "levels": 1,
+            "render_levels": 2,
+            "subdivision_type": "CATMULL_CLARK"
+          }
+        ],
+        "vertices": 44864,
+        "triangles": 89008,
+        "bounds_m": [
+          [
+            0.002467453246936202,
+            -0.07183419148618317,
+            1.236732761762667
+          ],
+          [
+            0.082333879545331,
+            0.015577480733938663,
+            1.3263898240180245
+          ]
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.862645149230957e-09
+          ],
+          [
+            0.0,
+            -1.6292067073209182e-07,
+            -0.9999999403953552,
+            -6.63820287627459e-09
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            -1.6292067073209182e-07,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "file": "left_ventricle.npz"
+      }
+    }
+  ]
+}

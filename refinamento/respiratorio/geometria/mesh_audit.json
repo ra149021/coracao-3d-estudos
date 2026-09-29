@@ -3673,9 +3673,185 @@
       "source_triangles_preserved": true,
       "degenerate_triangles": 0,
       "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_pulmonary_trunk",
+      "sourceFile": "CardioVascular41.fbx",
+      "sourceNode": 465,
+      "sourceWorldBounds": [
+        [
+          1.2138846905424927,
+          132.41760728653946,
+          2.5408052452749272
+        ],
+        [
+          4.329343942691693,
+          135.70906340998653,
+          6.31822341385892
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_bifurcation_of_pulmonary_trunk",
+      "sourceFile": "CardioVascular41.fbx",
+      "sourceNode": 466,
+      "sourceWorldBounds": [
+        [
+          0.5366430727288135,
+          133.03034246240387,
+          -0.8828745174033448
+        ],
+        [
+          4.538181109120357,
+          136.00899646031866,
+          3.6013600885051753
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_right_pulmonary_artery",
+      "sourceFile": "CardioVascular41.fbx",
+      "sourceNode": 483,
+      "sourceWorldBounds": [
+        [
+          -3.8075629046667396,
+          132.3935390888342,
+          -1.4590539396199482
+        ],
+        [
+          1.4233216287092652,
+          135.17470695795723,
+          1.176863177974023
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_left_pulmonary_artery",
+      "sourceFile": "CardioVascular41.fbx",
+      "sourceNode": 467,
+      "sourceWorldBounds": [
+        [
+          2.244774402816803,
+          126.69105328185613,
+          -3.9817065608070257
+        ],
+        [
+          8.986280543496614,
+          135.88581430633843,
+          0.0024433547155824353
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_right_superior_pulmonary_vein",
+      "sourceFile": "CardioVascular41.fbx",
+      "sourceNode": 729,
+      "sourceWorldBounds": [
+        [
+          -4.513764630983086,
+          130.487445770841,
+          -1.6408389242333101
+        ],
+        [
+          -1.286846369484548,
+          134.02201624279635,
+          0.4354398022813515
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_right_inferior_pulmonary_vein",
+      "sourceFile": "CardioVascular41.fbx",
+      "sourceNode": 736,
+      "sourceWorldBounds": [
+        [
+          -2.5198123325831836,
+          128.70602211096397,
+          -3.0172266005901887
+        ],
+        [
+          -0.16708065767337033,
+          130.1694387761087,
+          -1.6994230897277256
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_left_superior_pulmonary_vein",
+      "sourceFile": "CardioVascular41.fbx",
+      "sourceNode": 744,
+      "sourceWorldBounds": [
+        [
+          3.812862927680573,
+          131.1489713573866,
+          -1.4729276807865408
+        ],
+        [
+          5.56585131644262,
+          132.3770091380323,
+          -0.16601057132378078
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_left_inferior_pulmonary_vein",
+      "sourceFile": "CardioVascular41.fbx",
+      "sourceNode": 740,
+      "sourceWorldBounds": [
+        [
+          3.6731980711204404,
+          128.60560341525817,
+          -2.727394949008047
+        ],
+        [
+          5.190109831093157,
+          129.99418191029997,
+          -1.6987638562571887
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
     }
   ],
-  "source_triangle_count": 955976,
+  "source_triangle_count": 959255,
   "display_transform": {
     "x": "esquerda anatômica",
     "y": "superior",

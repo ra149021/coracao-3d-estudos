@@ -1,0 +1,182 @@
+{
+  "source": {
+    "entry": "https://3d.nih.gov/entries/3DPX-021000",
+    "download": "https://3d.nih.gov/api/download?submissionId=29114&fileIds=741932",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceBytes": 4071500,
+    "sourceSha256": "b1237e7e765178e9357fd2ea7ccf19d55d0bf9ca55e187886635febe28244c70"
+  },
+  "transform": {
+    "formula": "display = (source - center) * scale",
+    "center": [
+      0.018727341666817665,
+      0.4760887771844864,
+      0.03758089942857623
+    ],
+    "scale": 32.166963313984276,
+    "axisMap": "[x,y,z]",
+    "sourceUnits": "metres by glTF convention; specimen dimensions not independently calibrated",
+    "displayUnits": "normalized; longest extent 4"
+  },
+  "topologyPreserved": true,
+  "verticesMovedOnlyByCommonTransform": true,
+  "meshes": [
+    {
+      "id": "hra_mitral",
+      "sourceName": "VH_M_mitral_valve",
+      "triangles": 6468,
+      "vertices": 3234,
+      "maxReconstructionErrorSourceUnits": 1.8452405159408158e-09,
+      "degenerateFacesAreaZero": 0,
+      "originalLabel": "mitral valve",
+      "originalOntologyId": "UBERON:0002135",
+      "originalRepresentationOf": "http://purl.obolibrary.org/obo/UBERON_0002135"
+    },
+    {
+      "id": "hra_tricuspid",
+      "sourceName": "VH_M_tricuspid_valve",
+      "triangles": 12490,
+      "vertices": 6245,
+      "maxReconstructionErrorSourceUnits": 1.8516553845771e-09,
+      "degenerateFacesAreaZero": 0,
+      "originalLabel": "tricuspid valve",
+      "originalOntologyId": "UBERON:0002134",
+      "originalRepresentationOf": "http://purl.obolibrary.org/obo/UBERON_0002134"
+    },
+    {
+      "id": "hra_aortic",
+      "sourceName": "VH_M_aortic_valve",
+      "triangles": 2680,
+      "vertices": 1372,
+      "maxReconstructionErrorSourceUnits": 1.7985883893345544e-09,
+      "degenerateFacesAreaZero": 0,
+      "originalLabel": "aortic valve",
+      "originalOntologyId": "UBERON:0002137",
+      "originalRepresentationOf": "http://purl.obolibrary.org/obo/UBERON_0002137"
+    },
+    {
+      "id": "hra_pulmonary",
+      "sourceName": "VH_M_pulmonary_valve",
+      "triangles": 13288,
+      "vertices": 6644,
+      "maxReconstructionErrorSourceUnits": 1.8518093725106155e-09,
+      "degenerateFacesAreaZero": 0,
+      "originalLabel": "pulmonary valve",
+      "originalOntologyId": "UBERON:0002146",
+      "originalRepresentationOf": "http://purl.obolibrary.org/obo/UBERON_0002146"
+    },
+    {
+      "id": "hra_papillary_anterior",
+      "sourceName": "VH_M_papillary_muscle_of_heart_anterior",
+      "triangles": 638,
+      "vertices": 341,
+      "maxReconstructionErrorSourceUnits": 1.8484910269123134e-09,
+      "degenerateFacesAreaZero": 0,
+      "originalLabel": "Anterior papillary muscle of left ventricle",
+      "originalOntologyId": "FMA:7264",
+      "originalRepresentationOf": "http://purl.org/sig/ont/fma/fma7264"
+    },
+    {
+      "id": "hra_papillary_anterolateral",
+      "sourceName": "VH_M_papillary_muscle_of_heart_anterolateral",
+      "triangles": 518,
+      "vertices": 261,
+      "maxReconstructionErrorSourceUnits": 1.8487114061827015e-09,
+      "degenerateFacesAreaZero": 0,
+      "originalLabel": "Anterolateral head of lateral papillary muscle of left ventricle",
+      "originalOntologyId": "FMA:7265",
+      "originalRepresentationOf": "http://purl.org/sig/ont/fma/fma72655"
+    },
+    {
+      "id": "hra_papillary_septal",
+      "sourceName": "VH_M_papillary_muscle_of_heart_medial",
+      "triangles": 152,
+      "vertices": 90,
+      "maxReconstructionErrorSourceUnits": 1.821988337979974e-09,
+      "degenerateFacesAreaZero": 0,
+      "originalLabel": "Septal papillary muscle of right ventricle",
+      "originalOntologyId": "FMA:7262",
+      "originalRepresentationOf": "http://purl.org/sig/ont/fma/fma7262"
+    },
+    {
+      "id": "hra_papillary_posterior",
+      "sourceName": "VH_M_papillary_muscle_of_heart_posterior",
+      "triangles": 131,
+      "vertices": 77,
+      "maxReconstructionErrorSourceUnits": 1.8482100294647807e-09,
+      "degenerateFacesAreaZero": 0,
+      "originalLabel": "Posterior papillary muscle of right ventricle",
+      "originalOntologyId": "FMA:7261",
+      "originalRepresentationOf": "http://purl.org/sig/ont/fma/fma72611"
+    },
+    {
+      "id": "hra_papillary_posteromedial",
+      "sourceName": "VH_M_papillary_muscle_of_heart_posteromedial",
+      "triangles": 576,
+      "vertices": 290,
+      "maxReconstructionErrorSourceUnits": 1.816280681410376e-09,
+      "degenerateFacesAreaZero": 0,
+      "originalLabel": "Posteromedial head of posterior papillary muscle of left ventricle",
+      "originalOntologyId": "FMA:7267",
+      "originalRepresentationOf": "http://purl.org/sig/ont/fma/fma7267"
+    },
+    {
+      "id": "hra_left_atrium",
+      "sourceName": "VH_M_left_cardiac_atrium",
+      "triangles": 33946,
+      "vertices": 16967,
+      "maxReconstructionErrorSourceUnits": 1.852859643491911e-09,
+      "degenerateFacesAreaZero": 0,
+      "originalLabel": "left cardiac atrium",
+      "originalOntologyId": "UBERON:0002079",
+      "originalRepresentationOf": "http://purl.obolibrary.org/obo/UBERON_0002079"
+    },
+    {
+      "id": "hra_right_atrium",
+      "sourceName": "VH_M_right_cardiac_atrium",
+      "triangles": 48186,
+      "vertices": 24068,
+      "maxReconstructionErrorSourceUnits": 1.8529469070216464e-09,
+      "degenerateFacesAreaZero": 820,
+      "originalLabel": "right cardiac atrium",
+      "originalOntologyId": "UBERON:0002078",
+      "originalRepresentationOf": "http://purl.obolibrary.org/obo/UBERON_0002078"
+    },
+    {
+      "id": "hra_right_ventricle",
+      "sourceName": "VH_M_heart_right_ventricle",
+      "triangles": 27622,
+      "vertices": 13761,
+      "maxReconstructionErrorSourceUnits": 1.8527762657427616e-09,
+      "degenerateFacesAreaZero": 0,
+      "originalLabel": "heart right ventricle",
+      "originalOntologyId": "UBERON:0002080",
+      "originalRepresentationOf": "http://purl.obolibrary.org/obo/UBERON_0002080"
+    },
+    {
+      "id": "hra_interventricular_septum",
+      "sourceName": "VH_M_interventricular_septum",
+      "triangles": 8074,
+      "vertices": 4039,
+      "maxReconstructionErrorSourceUnits": 1.8505545984481842e-09,
+      "degenerateFacesAreaZero": 0,
+      "originalLabel": "interventricular septum",
+      "originalOntologyId": "UBERON:0002094",
+      "originalRepresentationOf": "http://purl.obolibrary.org/obo/UBERON_0002094"
+    },
+    {
+      "id": "hra_left_ventricle",
+      "sourceName": "VH_M_heart_left_ventricle",
+      "triangles": 9350,
+      "vertices": 4677,
+      "maxReconstructionErrorSourceUnits": 1.8527003264878772e-09,
+      "degenerateFacesAreaZero": 0,
+      "originalLabel": "heart left ventricle",
+      "originalOntologyId": "UBERON:0002084",
+      "originalRepresentationOf": "http://purl.obolibrary.org/obo/UBERON_0002084"
+    }
+  ],
+  "images": 0,
+  "textures": 0,
+  "visualInspection": "Six matplotlib views reviewed; simplified chambers/valves and separate interventricular septum; no browser validation in this preparation."
+}

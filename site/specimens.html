@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5f1">
+  <title>Peças anatômicas reais · Atlas de estudo</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="shell.css">
+  <link rel="stylesheet" href="specimens.css">
+</head>
+<body>
+  <main class="page-wrap specimens-page" id="main-content">
+    <header class="specimens-heading">
+      <div>
+        <span class="overline">OBSERVAÇÃO ANATÔMICA / ACERVO INSTITUCIONAL</span>
+        <h1 class="page-title">Peças anatômicas reais</h1>
+        <p class="page-intro">Passe do modelo didático à superfície de uma peça humana. Gire, aproxime e compare os relevos com o roteiro e as figuras da professora.</p>
+      </div>
+      <a class="action back-to-atlas" href="atlas.html">← Voltar ao atlas</a>
+    </header>
+
+    <section class="specimen-choices" aria-labelledby="choose-heading">
+      <div class="section-heading"><h2 id="choose-heading">Escolha o que observar</h2><span id="collection-label">Visible Heart Laboratories · Universidade de Minnesota</span></div>
+      <div id="specimen-list" class="specimen-list" role="group" aria-label="Selecionar peça anatômica"><p class="loading-message" role="status">Preparando as referências…</p></div>
+    </section>
+
+    <div id="specimens-error" class="empty-state" role="alert" hidden>
+      <h2>As referências não puderam ser preparadas</h2>
+      <p>Recarregue esta página pelo servidor local ou consulte o acervo institucional.</p>
+      <a href="https://www.vhlab.umn.edu/atlas/" target="_blank" rel="noopener noreferrer">Abrir o Atlas da Universidade de Minnesota ↗</a>
+    </div>
+
+    <section id="specimen-workspace" class="specimen-workspace" aria-labelledby="model-title" hidden>
+      <div class="specimen-view">
+        <div class="viewer-heading"><div><span id="model-kicker" class="overline">PEÇA HUMANA / REFERÊNCIA EXTERNA</span><h2 id="model-title"></h2></div><span class="viewer-badge">Visualizador oficial</span></div>
+        <div class="specimen-stage">
+          <div id="embed-host" class="embed-host"></div>
+          <div id="player-placeholder" class="player-placeholder">
+            <div class="placeholder-mark" aria-hidden="true">↻</div>
+            <span id="placeholder-code" class="overline"></span>
+            <h3>Observe a peça por vários ângulos</h3>
+            <p>O modelo abre no visualizador oficial do Sketchfab.<br>Requer conexão com a internet.</p>
+            <button id="load-model" class="action primary" type="button">Carregar modelo oficial <span aria-hidden="true">↗</span></button>
+            <span class="placeholder-note">A conexão com o visualizador começa ao clicar.</span>
+          </div>
+        </div>
+        <div class="viewer-toolbar">
+          <p id="player-status" role="status" aria-live="polite">Selecione uma peça e carregue o modelo.</p>
+          <button id="stop-model" class="quiet-button" type="button" hidden>Encerrar visualização</button>
+          <a id="open-source" class="source-action" href="https://sketchfab.com/VisibleHeartLabs" target="_blank" rel="noopener noreferrer">Abrir na fonte ↗</a>
+        </div>
+        <p id="embed-help" class="inline-note embed-help">Se a peça não aparecer, use “Abrir na fonte”. Ao trocar de peça, a visualização anterior é encerrada.</p>
+      </div>
+
+      <aside class="specimen-context" aria-labelledby="context-heading">
+        <span class="overline">CONHEÇA A REFERÊNCIA</span>
+        <h2 id="context-heading">Origem e preparação</h2>
+        <p id="model-description"></p>
+        <dl class="provenance">
+          <dt>Acervo</dt><dd><a id="institution-link" href="https://www.vhlab.umn.edu/atlas/" target="_blank" rel="noopener noreferrer"></a></dd>
+          <dt>Autor do modelo</dt><dd><a id="author-link" href="https://sketchfab.com/VisibleHeartLabs" target="_blank" rel="noopener noreferrer"></a></dd>
+          <dt>Peça descrita pela fonte</dt><dd id="specimen-description"></dd>
+        </dl>
+        <div class="license-note"><strong>Licença do modelo original</strong><p id="license-label"></p><a id="license-source" href="https://sketchfab.com/VisibleHeartLabs" target="_blank" rel="noopener noreferrer">Consultar condições e créditos na fonte ↗</a></div>
+      </aside>
+    </section>
+
+    <section id="study-context" class="study-context" hidden>
+      <article class="observation-card" aria-labelledby="observe-heading"><span class="overline">DO ROTEIRO PARA A PEÇA</span><h2 id="observe-heading">O que observar</h2><ol id="observation-list"></ol><p class="inline-note">Estas orientações ajudam a comparar a peça com o roteiro. Não são identificação individual validada de todos os relevos do modelo.</p></article>
+      <article class="limits-card" aria-labelledby="limits-heading"><span class="overline">PARA INTERPRETAR A IMAGEM</span><h2 id="limits-heading">O que a preparação muda</h2><ul id="model-limits"></ul><div class="comparison-note"><strong>Compare forma e relações</strong><p>Use o atlas local para isolar estruturas nomeadas. Aqui, observe a peça completa: não há correspondência segmentada validada com cada alvo do nosso roteiro. Os rótulos internos, quando presentes, são os da fonte.</p><a href="atlas.html">Continuar no coração 3D →</a></div></article>
+    </section>
+
+    <noscript><div class="empty-state"><h2>Consulte os modelos oficiais</h2><p>Ative JavaScript para selecionar e carregar uma peça nesta página, ou abra diretamente a fonte:</p><ul><li><a href="https://sketchfab.com/3d-models/perfusion-fixed-human-heart-anatomy-612-f6d63aea48a14d27969067f2754c2d3b" target="_blank" rel="noopener noreferrer">Coração fixado por perfusão · UMN 612</a></li><li><a href="https://sketchfab.com/3d-models/plastinated-whole-human-heart-188-d4cc3d373db24d3ca9d08907d620d078" target="_blank" rel="noopener noreferrer">Janela do ventrículo direito · UMN 188</a></li><li><a href="https://sketchfab.com/3d-models/plastinated-human-hear-valve-view-heart0064-62abe2315c5648a8abc3d48bcced28bb" target="_blank" rel="noopener noreferrer">Relação entre as quatro valvas · UMN 064</a></li></ul></div></noscript>
+  </main>
+  <footer class="page-footer"><span>Modelos originais: VisibleHeartLabs · Universidade de Minnesota</span><span>Referências externas · a observação não altera a cobertura do roteiro local</span></footer>
+  <script type="module" src="navigation.js"></script>
+  <script type="module" src="specimens.js"></script>
+</body>
+</html>

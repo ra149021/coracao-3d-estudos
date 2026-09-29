@@ -2,15 +2,17 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { initStudy } from './study.js';
+import { createAnatomyRenderer } from './anatomy-renderer.js';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
 const respiratory = params.get('system') === 'respiratory';
 const larynx = respiratory && params.get('detail') === 'larynx';
+const hraHeart = !respiratory && params.get('detail') === 'hra';
 const system = respiratory ? 'respiratory' : 'circulatory';
-const assetRoot = larynx ? 'assets/larynx/' : respiratory ? 'assets/respiratory/' : 'assets/';
+const assetRoot = hraHeart ? 'assets/heart-hra/' : larynx ? 'assets/larynx/' : respiratory ? 'assets/respiratory/' : 'assets/';
 const contentRoot = respiratory ? 'assets/respiratory/' : 'assets/';
-const modelFile = respiratory ? 'model.glb' : 'heart.glb';
+const modelFile = respiratory || hraHeart ? 'model.glb' : 'heart.glb';
 const groups = {
   camaras: 'Câmaras cardíacas', grandes: 'Grandes vasos',
   coronarias: 'Artérias coronárias', veias: 'Veias cardíacas',
@@ -21,7 +23,7 @@ const escapeHTML = (text) => String(text).replace(/[&<>"']/g, c => ({'&':'&amp;'
 const normalize = (text) => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 const eye = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.5"/></svg>';
 const eyeOff = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 3 18 18M9.4 6.3A12 12 0 0 1 12 6c6.5 0 10 6 10 6a18 18 0 0 1-4 4M6 7.8A18 18 0 0 0 2 12s3.5 6 10 6a12 12 0 0 0 4-.7"/></svg>';
-const state = { selected: null, preset: 'exterior', labels: false, palette: 'tissue', transparency: 0, clipping: false, axis: 'z', cut: 50, flipped: false, ready: false, examMode: false };
+const state = { selected: null, preset: 'exterior', labels: false, palette: 'tissue', light: 'relief', depth: true, transparency: 0, clipping: false, axis: 'z', cut: 50, flipped: false, ready: false, examMode: false };
 const canvas = $('heart-canvas');
 const viewer = $('viewer');
 const meshes = new Map();
@@ -33,7 +35,7 @@ const clipPlane = new THREE.Plane(new THREE.Vector3(0, 0, -1), 0);
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(34, 1, 0.01, 150);
 const fullBounds = new THREE.Box3();
-let renderer, controls, catalog, entries = [], moveAnimation = null;
+let renderer, anatomyRenderer, controls, catalog, entries = [], moveAnimation = null;
 let frameRequested = false, lastTime = 0, dragging = false, pointerStart = null;
 const pickListeners = new Set();
 
@@ -103,6 +105,7 @@ function updateClipping() {
 
 function syncVisibility() {
   const visible = entries.filter(p => meshes.get(p.id).visible).length;
+  if(state.ready)anatomyRenderer.setScale(currentBounds());
   $('visible-count').textContent = `${visible} de ${entries.length} visíveis`;
   $('empty-scene').hidden = visible > 0;
   document.querySelectorAll('.structure-row').forEach(row => {
@@ -175,10 +178,18 @@ function currentBounds(predicate = () => true) {
 function cameraTo(bounds, direction = null, animate = true) {
   const center = bounds.getCenter(new THREE.Vector3());
   const radius = Math.max(bounds.getBoundingSphere(new THREE.Sphere()).radius, 0.09);
-  const fov = Math.min(camera.fov * Math.PI / 180, 2 * Math.atan(Math.tan(camera.fov * Math.PI / 360) * camera.aspect));
-  const distance = radius / Math.sin(fov / 2) * 1.09;
   const vector = direction ? new THREE.Vector3(...direction) : camera.position.clone().sub(controls.target).normalize();
   vector.normalize();
+  const right=new THREE.Vector3().crossVectors(camera.up,vector);
+  if(right.lengthSq()<1e-10)right.set(1,0,0);else right.normalize();
+  const up=new THREE.Vector3().crossVectors(vector,right).normalize();
+  const tanY=Math.tan(camera.fov*Math.PI/360),tanX=tanY*camera.aspect;
+  let distance=.18;
+  for(const x of [bounds.min.x,bounds.max.x])for(const y of [bounds.min.y,bounds.max.y])for(const z of [bounds.min.z,bounds.max.z]){
+    const point=new THREE.Vector3(x,y,z).sub(center),depth=point.dot(vector);
+    distance=Math.max(distance,Math.abs(point.dot(right))/tanX+depth,Math.abs(point.dot(up))/tanY+depth);
+  }
+  distance=Math.max(distance*1.12,radius+.1);
   const dest = center.clone().addScaledVector(vector, distance);
   moveAnimation = animate && !matchMedia('(prefers-reduced-motion: reduce)').matches ? { start: performance.now(), from: camera.position.clone(), to: dest, targetFrom: controls.target.clone(), targetTo: center } : null;
   if (!moveAnimation) {
@@ -241,6 +252,7 @@ function preset(name, animate = true) {
 function reset() {
   $('search').value = '';
   state.palette = 'tissue'; $('palette').value = 'tissue';
+  state.light='relief';state.depth=true;$('light-profile').value=state.light;$('depth-shading').checked=true;anatomyRenderer.setProfile(state.light);
   state.labels = false; $('labels').setAttribute('aria-pressed', 'false');
   preset('exterior');
   renderList();
@@ -254,6 +266,7 @@ function requestFrame() {
 
 function render(now) {
   frameRequested = false;
+  renderer.info.reset();
   const delta = Math.min((now - lastTime) / 1000, 0.05);
   lastTime = now;
   if (moveAnimation) {
@@ -264,7 +277,7 @@ function render(now) {
     if (t === 1) moveAnimation = null;
   }
   controls.update(delta);
-  renderer.render(scene, camera);
+  anatomyRenderer.render({depth:state.depth,clipping:state.clipping,transparent:[...meshes.values()].some(m=>m.visible&&m.material.transparent)});
   updateLabels();
   drawCompass();
   if (moveAnimation || controls.autoRotate) requestFrame();
@@ -316,6 +329,8 @@ function hitsAt(event) {
 }
 
 function attachEvents() {
+  $('light-profile').addEventListener('change',()=>{state.light=$('light-profile').value;anatomyRenderer.setProfile(state.light);requestFrame();});
+  $('depth-shading').addEventListener('change',()=>{state.depth=$('depth-shading').checked;requestFrame();});
   $('structure-list').addEventListener('click', event => {
     const groupToggle = event.target.closest('.group-toggle');
     if (groupToggle) {
@@ -429,7 +444,7 @@ function initAbout() {
 
 
 function configureSystem() {
-  const title=larynx ? 'Laringe em detalhe' : respiratory ? 'Sistema respiratório' : 'Coração e circulação';
+  const title=hraHeart ? 'Câmaras e septo · outro acervo' : larynx ? 'Laringe em detalhe' : respiratory ? 'Sistema respiratório' : 'Coração e circulação';
   document.title=title+' · Atlas de estudo';
   document.querySelector('h1').textContent=title;
   document.querySelector('.chapter').textContent=respiratory ? '02 / RESPIRATÓRIO' : '01 / CIRCULATÓRIO';
@@ -456,6 +471,7 @@ function configureSystem() {
       $('about').querySelector('h2').textContent='Laringe em detalhe · BodyParts3D';
       $('about').querySelectorAll('p')[0].textContent='Conjunto independente BodyParts3D. As peças mantêm as relações da própria fonte; não foram fundidas ao modelo respiratório Z-Anatomy.';
       document.querySelector('.viewer-caption .eyebrow').textContent='LARINGE · MODELO INDEPENDENTE';
+      $('about').querySelector('.credit').innerHTML='BodyParts3D, © The Database Center for Life Science. <a href="https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html" target="_blank" rel="noopener">CC BY 4.0</a>. Conversão, seleção e tradução documentadas no catálogo. Three.js: MIT.';
     }
     document.querySelector('.footer>span:nth-child(2)').textContent=larynx?'Geometria: BodyParts3D · CC BY 4.0':'Geometria: Z-Anatomy · CC BY-SA 4.0';
   }
@@ -463,7 +479,26 @@ function configureSystem() {
     const holder=document.querySelector('.presets');holder.replaceChildren();
     for(const p of catalog.presets){const b=document.createElement('button');b.className='preset';b.dataset.preset=p.id;b.textContent=p.label;b.setAttribute('aria-pressed','false');holder.append(b);}
   }
-  document.querySelector('.footer>span').textContent='Atlas de estudo · '+title+' / v0.3';
+  if(!respiratory){
+    const extra=document.createElement('a');extra.className='reference-link alternate-atlas';
+    extra.href=hraHeart?'atlas.html':'atlas.html?detail=hra';
+    extra.innerHTML=hraHeart?'<span>VOLTAR AO ATLAS PRINCIPAL</span><strong>Coração e vasos coronários ↗</strong><small>Conjunto segmentado Z-Anatomy e BodyParts3D.</small>':'<span>OUTRO CONJUNTO ANATÔMICO</span><strong>Câmaras e septo · HRA ↗</strong><small>Septo individualizado; representação simplificada, sem textura de tecido.</small>';
+    document.querySelector('.reference-link').before(extra);
+    const specimens=document.createElement('a');specimens.className='reference-link';specimens.href='specimens.html';
+    specimens.innerHTML='<span>COMPARAR COM A PEÇA HUMANA</span><strong>Peças anatômicas reais ↗</strong><small>Acervo da Universidade de Minnesota, com orientação de estudo. Requer internet.</small>';
+    extra.before(specimens);
+  }
+  if(hraHeart){
+    document.querySelector('.viewer-caption .eyebrow').textContent='HUMAN REFERENCE ATLAS · CONJUNTO INDEPENDENTE';
+    $('about').querySelector('h2').textContent='Coração · Human Reference Atlas';
+    $('about').querySelectorAll('p')[0].textContent='Modelo independente do Human Reference Atlas, disponibilizado pelo NIH 3D. As peças preservam a montagem dessa fonte e não foram encaixadas no atlas principal.';
+    $('about').querySelectorAll('p')[1].textContent='Use-o para comparar câmaras, valvas e septo interventricular. Nomes ambíguos do arquivo estão sinalizados e excluídos do treino. Uma associação não é validação anatômica integral.';
+    const download=$('about').querySelector('a[download]');download.href=assetRoot+modelFile;download.download='coracao-human-reference-atlas.glb';
+    document.querySelector('.footer>span:nth-child(2)').textContent='Human Reference Atlas · CC BY 4.0';
+    for(const node of document.querySelector('.structure-footer').childNodes)if(node.nodeType===Node.TEXT_NODE&&node.textContent.includes('Z-Anatomy'))node.textContent=' Human Reference Atlas ';
+    $('about').querySelector('.credit').innerHTML='Human Reference Atlas / HuBMAP, modelo Heart Male disponibilizado pelo NIH 3D. <a href="assets/heart-hra/ATTRIBUTION.md" target="_blank" rel="noopener">Atribuição, origem e alterações</a> · CC BY 4.0. Three.js: MIT.';
+  }
+  document.querySelector('.footer>span').textContent='Atlas de estudo · '+title+' / v0.4';
 }
 
 async function init() {
@@ -480,10 +515,8 @@ async function init() {
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
   renderer.toneMappingExposure = 1.13;
   renderer.localClippingEnabled = true;
-  scene.add(new THREE.HemisphereLight('#fff8ec','#8a8e86',2.15));
-  const key = new THREE.DirectionalLight('#fff5e6',3.4); key.position.set(-4,7,7); scene.add(key);
-  const fill = new THREE.DirectionalLight('#e2efff',1.6); fill.position.set(6,1,3); scene.add(fill);
-  const rim = new THREE.DirectionalLight('#ffe1ca',2.2); rim.position.set(1,5,-6); scene.add(rim);
+  renderer.info.autoReset = false;
+  anatomyRenderer=createAnatomyRenderer(renderer,scene,camera);anatomyRenderer.setProfile(state.light);
   controls = new OrbitControls(camera,canvas);
   controls.enableDamping = true; controls.dampingFactor=.1; controls.rotateSpeed=.7; controls.zoomSpeed=.9;
   controls.minDistance=.18; controls.maxDistance=55; controls.autoRotateSpeed=.6;
@@ -492,7 +525,7 @@ async function init() {
   controls.addEventListener('start',() => {moveAnimation=null; stopAutoRotate(); $('view-name').textContent='Ângulo livre'; activeView();});
   const resize = () => {
     const w=viewer.clientWidth,h=viewer.clientHeight;
-    renderer.setSize(w,h,false); camera.aspect=w/h; camera.updateProjectionMatrix(); requestFrame();
+    renderer.setSize(w,h,false); anatomyRenderer.resize(w,h); camera.aspect=w/h; camera.updateProjectionMatrix(); requestFrame();
   };
   new ResizeObserver(resize).observe(viewer); resize();
   const response = await fetch(assetRoot+'catalog.json');
@@ -501,7 +534,7 @@ async function init() {
   if(catalog.groups){for(const key of Object.keys(groups))delete groups[key];Object.assign(groups,catalog.groups);}
   configureSystem();
   $('limitations-list').innerHTML = catalog.limitations.map(t=>`<li>${escapeHTML(t)}</li>`).join('');
-  $('sources-list').innerHTML = catalog.sources.map(s=>`<li><a href="${escapeHTML(s.url)}" target="_blank" rel="noopener">${escapeHTML(s.label)}</a></li>`).join('');
+  $('sources-list').innerHTML = catalog.sources.map(s=>`<li><a href="${escapeHTML(s.url)}" target="_blank" rel="noopener">${escapeHTML(s.label || s.name || s.url)}</a></li>`).join('');
   const gltf = await new GLTFLoader().loadAsync(assetRoot+modelFile, event => {if(event.total) $('loading-progress').textContent=`Carregando peças locais · ${Math.round(event.loaded/event.total*100)}%`;});
   gltf.scene.traverse(object=> {
     if (!object.isMesh) return;
@@ -519,6 +552,7 @@ async function init() {
   });
   if (meshes.size!==entries.length) throw new Error('A cena não carregou todas as peças do catálogo.');
   scene.add(gltf.scene);
+  anatomyRenderer.setScale(fullBounds);
   $('part-count').textContent=entries.length;
   document.querySelectorAll('[data-part-count]').forEach(node=>node.textContent=entries.length);
   $('model-status').textContent=`${entries.length} peças · 3D local · sem CDN`;
@@ -529,7 +563,7 @@ async function init() {
     ready:state.ready, parts:meshes.size, visible:entries.filter(p=>meshes.get(p.id).visible).length,
     selected:state.selected, preset:state.preset, camera:camera.position.toArray(),target:controls.target.toArray(),
     clipping:state.clipping,axis:state.axis,cut:state.cut,flipped:state.flipped,transparency:state.transparency,
-    autoRotate:controls.autoRotate,labels:state.labels,palette:state.palette,
+    autoRotate:controls.autoRotate,labels:state.labels,palette:state.palette,light:state.light,depth:state.depth,shading:anatomyRenderer.snapshot(),
     drawCalls:renderer.info.render.calls,triangles:renderer.info.render.triangles,
     modelBytes:catalog.model.bytes,gl:renderer.getContext().getParameter(renderer.getContext().VERSION),
     visibleParts:entries.filter(p=>meshes.get(p.id).visible).map(p=>p.id),
@@ -578,8 +612,9 @@ async function init() {
       moveAnimation=null;
       const visible=new Set(s.visibleParts || entries.map(p=>p.id));
       entries.forEach(p=>meshes.get(p.id).visible=visible.has(p.id));
-      for(const key of ['preset','palette','transparency','axis','cut','flipped','clipping','labels']) if(s[key]!==undefined)state[key]=s[key];
+      for(const key of ['preset','palette','light','depth','transparency','axis','cut','flipped','clipping','labels']) if(s[key]!==undefined)state[key]=s[key];
       $('palette').value=state.palette;
+      $('light-profile').value=state.light;$('depth-shading').checked=state.depth;anatomyRenderer.setProfile(state.light);
       $('transparency').value=state.transparency;
       $('transparency-output').textContent=`${state.transparency}%`;
       $('labels').setAttribute('aria-pressed',String(state.labels));
@@ -601,7 +636,7 @@ async function init() {
       const evidenceResponse=await fetch(contentRoot+'practice-evidence.json');
       if(evidenceResponse.ok)evidence=await evidenceResponse.json();
     } catch(error) { console.warn('Referências de aula indisponíveis nesta abertura.',error); }
-    initStudy({parts:entries,requirements:requirements.alvos,viewer:viewerAPI,evidence,system,storageId:larynx?'larynx':system,groupNames:groups,scopeNote:requirements.scopeNote || requirements.metodo?.oficialidade});
+    initStudy({parts:entries,requirements:requirements.alvos,viewer:viewerAPI,evidence,system,storageId:hraHeart?'heart-hra':larynx?'larynx':system,groupNames:groups,scopeNote:requirements.scopeNote || requirements.metodo?.oficialidade});
     const requestedPart=new URLSearchParams(location.search).get('part');
     if(requestedPart && meshes.has(requestedPart)){selectPart(requestedPart);cameraTo(meshes.get(requestedPart).geometry.boundingBox);}
     if(new URLSearchParams(location.search).get('mode')==='practice')window.heartStudy.openPractice();

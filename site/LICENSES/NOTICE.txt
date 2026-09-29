@@ -32,3 +32,22 @@ A laringe BP mantém seu próprio conjunto de coordenadas e não foi fundida ao 
 Seleção, conversão de formato/eixos/escala, agrupamento e rótulos estão documentados.
 Teoria e questões são sínteses originais com atribuição das fontes nos JSONs.
 Slides, vídeos e transcrições brutas docentes não são redistribuídos no Git.
+
+Refinamento v0.4
+As quatro câmaras Z-Anatomy usam os modificadores Subsurf/Catmull-Clark
+preexistentes no Startup.blend, avaliados no nível de renderização original.
+Nenhum modificador ou detalhe anatômico novo foi acrescentado. As demais
+68 malhas cardíacas preservam os arrays de posições, normais e índices.
+Os oito vasos pulmonares proximais novos têm a mesma origem Z-Anatomy e registro
+das vias aéreas. Licença CC BY-SA 4.0, com as atribuições acima.
+
+Coração HRA independente: Human Reference Atlas / HuBMAP, Heart Male v1.2,
+Visible Human Male / National Library of Medicine, entrada NIH 3DPX-021000.
+CC BY 4.0. Atribuição e adaptações em ../assets/heart-hra/ATTRIBUTION.md.
+
+Peças humanas UMN 612, 188 e 064: modelos de VisibleHeartLabs / Universidade
+de Minnesota, incorporados pelo visualizador oficial Sketchfab após clique.
+As páginas de origem indicam CC Attribution–NonCommercial; não estão incluídos
+no GLB local nem na licença da montagem Z-Anatomy. Os arquivos não são copiados.
+Créditos, URLs, preparação e limites acompanham cada referência no site.
+Three.js e os passes GTAO/composição permanecem sob MIT.

@@ -1,12 +1,22 @@
-# Atlas cardiorrespiratório local — v0.3
+# Atlas cardiorrespiratório — v0.4
 
 Atlas em português para explorar coração e sistema respiratório em 3D, estudar a teoria e consultar o material docente local. A prioridade é fidelidade anatômica, com controles
 didáticos. **O modelo ainda não cobre integralmente o roteiro.**
 
-## Abrir
+## Acesso público
+
+**[Abrir o atlas por HTTPS](https://ra149021.github.io/coracao-3d-estudos/)**
+
+O GitHub Pages serve os modelos, a teoria e os exercícios. O progresso fica no
+navegador de cada pessoa. Vídeos, PDFs e páginas docentes originais continuam
+exclusivos da instalação local; não estão no repositório nem no site público.
+Alterações enviadas para `main` atualizam o site pelo workflow `Publicar atlas`.
+
+## Abrir localmente
 
 Requer Python 3 e um navegador com WebGL 2. Bibliotecas e peças já estão no
-repositório; não é necessário instalar npm nem acessar a internet para usar.
+repositório; não é necessário instalar npm nem acessar a internet para usar os
+modelos locais. As três peças humanas no visualizador oficial requerem internet.
 
 ```bash
 python3 scripts/serve_heart.py --open
@@ -17,22 +27,42 @@ aberto. Endereço padrão: <http://127.0.0.1:8765>. `Ctrl+C` encerra o servidor.
 O serviço atende apenas o computador local. O HTML aberto diretamente como
 arquivo não consegue carregar o modelo; use o iniciador.
 
-## Ampliação cardiorrespiratória — v0.3
+## Refinamento das estruturas — v0.4
 
-A pedido do usuário, o escopo foi ampliado para integrar prática, teoria e aulas dos dois sistemas antes da prova. O GitHub permanece um backup privado; publicação pública ainda pendente.
+- **Coração principal:** 72 peças e 482.116 triângulos. Foram avaliados os
+  modificadores de superfície originais das quatro câmaras, com os parâmetros
+  de renderização do autor. As outras 68 malhas permanecem idênticas; não há
+  aumento artificial de cobertura anatômica.
+- **Respiratório:** 175 peças, com oito vasos pulmonares proximais no registro
+  original. A vista **Hilos e vasos pulmonares** permite observar suas relações
+  com os brônquios e os lobos translúcidos.
+- **HRA independente:** 14 peças, incluindo septo interventricular selecionável.
+  As cinco peças papilares com identidade parcial ou conflitante estão fora do treino.
+- **Peças anatômicas reais:** três referências oficiais UMN, abertas somente ao
+  clicar, com orientações de observação ligadas às aulas. Não são parte da malha
+  segmentada nem ampliam sua cobertura. Fixação e plastinação alteram a aparência.
+- **Leitura do relevo:** iluminação lateral ou uniforme, sombras suaves opcionais
+  e enquadramento melhorado. Cores continuam ilustrativas, sem textura de tecido.
 
-- **3 cenas interativas:** 72 peças de coração/contexto, 167 do respiratório Z-Anatomy e 40 de laringe BodyParts3D em um conjunto independente. As peças não foram fundidas entre as duas laringes.
+Métodos, fontes e limites em [Qualidade 3D](refinamento/qualidade/QUALIDADE_3D.md).
+Conferências desta versão em [Verificação v0.4](VERIFICACAO_QUALIDADE_3D.md).
+
+## Estudo dos dois sistemas
+
+A pedido do usuário, o escopo integra prática, teoria e aulas dos dois sistemas.
+
+- **4 cenas interativas:** 72 peças de coração/contexto, 175 do respiratório Z-Anatomy, 40 de laringe BodyParts3D e 14 do coração HRA. Os conjuntos de fontes diferentes mantêm suas montagens independentes.
 - **26 unidades de teoria e 94 questões originais:** 14 unidades/36 questões circulatórias; 12/58 respiratórias. Referências com páginas e horários, objetivos, tabelas, busca, revisão e progresso local.
 - **Aulas e materiais locais:** 6 documentos, 354 páginas e 7 vídeos; transcrições pesquisáveis, velocidade e retomada. Os arquivos docentes originais e páginas renderizadas ficam fora do Git.
 - **Prática:** 178 alvos cardíacos e 222 respiratórios. O respiratório deriva dos slides disponíveis e inclui complemento identificado; não é um roteiro oficial de prova confirmado.
-- **Cobertura respiratória na cena principal:** 80 alvos com peça associada, 71 com contexto parcial e 71 pendentes. Esses estados não certificam validação anatômica. Recessos pleurais, superfícies, espaços e microestruturas exigem figuras e teoria.
+- **Cobertura respiratória na cena principal:** 85 alvos com peça associada, 71 com contexto parcial e 66 pendentes. Esses estados não certificam validação anatômica. Recessos pleurais, superfícies, espaços e microestruturas exigem figuras e teoria.
 - **Navegação:** início, atlas, teoria e sala de aula. Rotação, seleção, isolamento, transparência, cortes, treino de identificação e links entre o texto e as peças.
 
 Abra com `python3 scripts/serve_heart.py --open` ou `./Abrir_Atlas_Estudo.sh`. Não requer npm nem internet para estudar a instalação preparada. Para reconstruir a sala de aula a partir dos originais, use o Python com PyMuPDF em `scripts/build_classroom.py`; os caminhos são locais e ficam no manifesto ignorado.
 
 Conferências de navegador e limites em [VERIFICACAO_CARDIORRESPIRATORIO.md](VERIFICACAO_CARDIORRESPIRATORIO.md). Origem das malhas em [refinamento/respiratorio/geometria/README.md](refinamento/respiratorio/geometria/README.md); revisão do conteúdo em [refinamento/respiratorio/conteudo/ENTREGA_CONTEUDO.md](refinamento/respiratorio/conteudo/ENTREGA_CONTEUDO.md).
 
-## Base cardíaca preservada — v0.2
+## Base cardíaca — histórico v0.2
 
 
 
@@ -58,7 +88,7 @@ Faltam pericárdio e seus seios/reflexões, esqueleto fibroso, condução e vár
 
 ### Fontes geométricas e transformações
 
-As câmaras e peças internas Z foram extraídas de `Startup.blend`; os vasos Z vêm de `CardioVascular41.fbx`. A transformação comum preserva a disposição da fonte. Os limites das 17 peças compartilhadas entre esses arquivos foram comparados antes da integração.
+As câmaras e peças internas Z foram extraídas de `Startup.blend`; os vasos Z vêm de `CardioVascular41.fbx`. A transformação comum preserva a disposição da fonte. Os limites das 17 peças compartilhadas entre esses arquivos foram comparados antes da integração. Na v0.4, as quatro câmaras usam a superfície avaliada com os modificadores originais do autor; os outros 68 conjuntos de posições, normais e índices foram preservados integralmente.
 
 Os complementos BodyParts3D receberam uma única transformação de similaridade, estimada por sete peças homólogas, com escala uniforme 1,0336 e diferença máxima das caixas envolventes de 0,3935 mm nominais. Isso verifica registro técnico, não precisão clínica. A rede vascular BP substitui integralmente a camada correspondente Z para evitar vasos duplicados. Veja `refinamento/geometria/README.md`.
 
@@ -69,6 +99,7 @@ Os 17 vasos de contexto foram extraídos do mesmo GLB Z, sem ajuste por peça ou
 - `site/`: aplicação estática, dependências locais, modelo, créditos e auditoria.
 - `scripts/serve_heart.py`: servidor local com biblioteca padrão.
 - `scripts/build_heart_site_assets.py`: geração do GLB a partir dos dados de origem.
+- `scripts/evaluate_heart_author_surfaces.py`, `prepare_author_heart_candidate.py` e `promote_author_heart.py`: avaliação, comparação e promoção das superfícies cardíacas v0.4 (requerem os acervos originais, Blender Python e NumPy locais). O gerador inicial isoladamente reconstrói a superfície anterior.
 - `matriz_coracao.json` / `.csv`: todos os alvos e suas evidências.
 - `RELATORIO.md`: método da auditoria.
 - `output/playwright/`: evidências de verificação de interface.
@@ -95,3 +126,8 @@ As notas breves usam o roteiro local e
 [OpenStax, Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy).
 
 A referência local [UMN / Visible Heart Laboratories](https://www.vhlab.umn.edu/atlas/echocardiography-tutorial/exam-views-models.shtml) tem atribuição própria. Ela é mantida fora do Git; não está incluída na licença da geometria principal.
+
+O [coração HRA](https://3d.nih.gov/entries/3DPX-021000) usa CC BY 4.0, com
+[atribuição própria](site/assets/heart-hra/ATTRIBUTION.md). As três peças UMN
+da página `specimens.html` são incorporadas do visualizador oficial, com licença
+e condições indicadas junto de cada peça; seus arquivos não são redistribuídos.

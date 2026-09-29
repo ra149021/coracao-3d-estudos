@@ -1,0 +1,746 @@
+{
+  "version": "heart-hra-1.0-2026-09-28",
+  "title": "Câmaras e septo · outro acervo",
+  "parts": [
+    {
+      "id": "hra_mitral",
+      "label": "Valva mitral · conjunto",
+      "group": "valvas",
+      "sourceName": "VH_M_mitral_valve",
+      "sourceLabel": "mitral valve",
+      "source": "Human Reference Atlas / NIH 3D · Visible Human Male",
+      "sourceFile": "VH_M_Heart.glb",
+      "sourceUrl": "https://3d.nih.gov/entries/3DPX-021000",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "note": "Valva inteira na fonte; os dois folhetos e suas cordas não são peças independentes. Não identificar folhetos específicos apenas pela seleção desta malha.",
+      "requirementIds": [],
+      "relatedRequirementIds": [
+        "58a",
+        "58b",
+        "57",
+        "61"
+      ],
+      "quizEligible": true,
+      "correspondence": "partial",
+      "vertices": 3234,
+      "triangles": 6468,
+      "bounds": [
+        [
+          -0.4616941809654236,
+          -0.6291788816452026,
+          -1.322709083557129
+        ],
+        [
+          0.7155195474624634,
+          0.692411482334137,
+          -0.34301748871803284
+        ]
+      ],
+      "color": "#dac8a5",
+      "sourceAliases": [
+        "mitral valve"
+      ],
+      "defaultVisible": true
+    },
+    {
+      "id": "hra_tricuspid",
+      "label": "Valva tricúspide · conjunto",
+      "group": "valvas",
+      "sourceName": "VH_M_tricuspid_valve",
+      "sourceLabel": "tricuspid valve",
+      "source": "Human Reference Atlas / NIH 3D · Visible Human Male",
+      "sourceFile": "VH_M_Heart.glb",
+      "sourceUrl": "https://3d.nih.gov/entries/3DPX-021000",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "note": "Valva inteira na fonte; três folhetos não individualizados. Forma simplificada; cordas e inserções não foram validadas.",
+      "requirementIds": [],
+      "relatedRequirementIds": [
+        "46a",
+        "46b",
+        "46c",
+        "45",
+        "51"
+      ],
+      "quizEligible": true,
+      "correspondence": "partial",
+      "vertices": 6245,
+      "triangles": 12490,
+      "bounds": [
+        [
+          -1.385911226272583,
+          -1.2623175382614136,
+          -0.3439887762069702
+        ],
+        [
+          -0.17231914401054382,
+          0.2235538810491562,
+          0.8655180931091309
+        ]
+      ],
+      "color": "#dac8a5",
+      "sourceAliases": [
+        "tricuspid valve"
+      ],
+      "defaultVisible": true
+    },
+    {
+      "id": "hra_aortic",
+      "label": "Valva aórtica · conjunto",
+      "group": "valvas",
+      "sourceName": "VH_M_aortic_valve",
+      "sourceLabel": "aortic valve",
+      "source": "Human Reference Atlas / NIH 3D · Visible Human Male",
+      "sourceFile": "VH_M_Heart.glb",
+      "sourceUrl": "https://3d.nih.gov/entries/3DPX-021000",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "note": "Conjunto valvar simplificado. Selecionar esta peça não individualiza as cúspides direita, esquerda e posterior.",
+      "requirementIds": [],
+      "relatedRequirementIds": [
+        "63a",
+        "63b",
+        "63c"
+      ],
+      "quizEligible": true,
+      "correspondence": "partial",
+      "vertices": 1372,
+      "triangles": 2680,
+      "bounds": [
+        [
+          -0.7799928188323975,
+          0.33541780710220337,
+          -0.6327590346336365
+        ],
+        [
+          0.013694198802113533,
+          1.1527955532073975,
+          0.05744952708482742
+        ]
+      ],
+      "color": "#dac8a5",
+      "sourceAliases": [
+        "aortic valve"
+      ],
+      "defaultVisible": true
+    },
+    {
+      "id": "hra_pulmonary",
+      "label": "Valva pulmonar · conjunto",
+      "group": "valvas",
+      "sourceName": "VH_M_pulmonary_valve",
+      "sourceLabel": "pulmonary valve",
+      "source": "Human Reference Atlas / NIH 3D · Visible Human Male",
+      "sourceFile": "VH_M_Heart.glb",
+      "sourceUrl": "https://3d.nih.gov/entries/3DPX-021000",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "note": "Conjunto valvar simplificado. Selecionar esta peça não individualiza as cúspides anterior, direita e esquerda.",
+      "requirementIds": [],
+      "relatedRequirementIds": [
+        "53a",
+        "53b",
+        "53c"
+      ],
+      "quizEligible": true,
+      "correspondence": "partial",
+      "vertices": 6644,
+      "triangles": 13288,
+      "bounds": [
+        [
+          -0.4619877338409424,
+          0.6528757810592651,
+          -0.2191065549850464
+        ],
+        [
+          0.36525437235832214,
+          1.431989073753357,
+          0.5214501023292542
+        ]
+      ],
+      "color": "#dac8a5",
+      "sourceAliases": [
+        "pulmonary valve"
+      ],
+      "defaultVisible": true
+    },
+    {
+      "id": "hra_papillary_anterior",
+      "label": "Peça papilar anterior · identificação em revisão",
+      "group": "papilares",
+      "sourceName": "VH_M_papillary_muscle_of_heart_anterior",
+      "sourceLabel": "Anterior papillary muscle of left ventricle",
+      "source": "Human Reference Atlas / NIH 3D · Visible Human Male",
+      "sourceFile": "VH_M_Heart.glb",
+      "sourceUrl": "https://3d.nih.gov/entries/3DPX-021000",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "note": "O nome do nó diz anterior, mas o rótulo interno diz ventrículo esquerdo. A localização parece relacionada ao VD; a divergência impede usá-la como resposta de prova até revisão anatômica.",
+      "requirementIds": [],
+      "relatedRequirementIds": [
+        "47",
+        "59"
+      ],
+      "quizEligible": false,
+      "correspondence": "partial",
+      "vertices": 341,
+      "triangles": 638,
+      "bounds": [
+        [
+          -0.36661574244499207,
+          -0.9745067358016968,
+          1.0090028047561646
+        ],
+        [
+          0.38132211565971375,
+          -0.5101193189620972,
+          1.5359822511672974
+        ]
+      ],
+      "color": "#ae7665",
+      "sourceAliases": [
+        "Anterior papillary muscle of left ventricle"
+      ],
+      "defaultVisible": true
+    },
+    {
+      "id": "hra_papillary_anterolateral",
+      "label": "Peça papilar anterolateral do VE · porção",
+      "group": "papilares",
+      "sourceName": "VH_M_papillary_muscle_of_heart_anterolateral",
+      "sourceLabel": "Anterolateral head of lateral papillary muscle of left ventricle",
+      "source": "Human Reference Atlas / NIH 3D · Visible Human Male",
+      "sourceFile": "VH_M_Heart.glb",
+      "sourceUrl": "https://3d.nih.gov/entries/3DPX-021000",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "note": "A fonte descreve uma cabeça anterolateral, não o músculo anterior completo. Os identificadores FMA nos metadados divergem; peça excluída do treino.",
+      "requirementIds": [],
+      "relatedRequirementIds": [
+        "59"
+      ],
+      "quizEligible": false,
+      "correspondence": "partial",
+      "vertices": 261,
+      "triangles": 518,
+      "bounds": [
+        [
+          0.3899420499801636,
+          -0.6771785020828247,
+          -0.4546681344509125
+        ],
+        [
+          1.3307236433029175,
+          0.242336705327034,
+          0.7341435551643372
+        ]
+      ],
+      "color": "#ae7665",
+      "sourceAliases": [
+        "Anterolateral head of lateral papillary muscle of left ventricle"
+      ],
+      "defaultVisible": true
+    },
+    {
+      "id": "hra_papillary_septal",
+      "label": "Peça papilar septal do VD",
+      "group": "papilares",
+      "sourceName": "VH_M_papillary_muscle_of_heart_medial",
+      "sourceLabel": "Septal papillary muscle of right ventricle",
+      "source": "Human Reference Atlas / NIH 3D · Visible Human Male",
+      "sourceFile": "VH_M_Heart.glb",
+      "sourceUrl": "https://3d.nih.gov/entries/3DPX-021000",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "note": "Pequena representação papilar nomeada na fonte. Relação com cordas e completude ainda não conferidas; mantida para exploração e fora do treino.",
+      "requirementIds": [],
+      "relatedRequirementIds": [
+        "49"
+      ],
+      "quizEligible": false,
+      "correspondence": "partial",
+      "vertices": 90,
+      "triangles": 152,
+      "bounds": [
+        [
+          0.08111643046140671,
+          -1.1314857006072998,
+          0.40952005982398987
+        ],
+        [
+          0.2841458320617676,
+          -0.9343891739845276,
+          0.6827905774116516
+        ]
+      ],
+      "color": "#ae7665",
+      "sourceAliases": [
+        "Septal papillary muscle of right ventricle"
+      ],
+      "defaultVisible": true
+    },
+    {
+      "id": "hra_papillary_posterior",
+      "label": "Peça papilar posterior do VD",
+      "group": "papilares",
+      "sourceName": "VH_M_papillary_muscle_of_heart_posterior",
+      "sourceLabel": "Posterior papillary muscle of right ventricle",
+      "source": "Human Reference Atlas / NIH 3D · Visible Human Male",
+      "sourceFile": "VH_M_Heart.glb",
+      "sourceUrl": "https://3d.nih.gov/entries/3DPX-021000",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "note": "Nome anatômico da fonte preservado, mas os campos de identificador FMA divergem. Mantida para exploração e fora do treino até revisão.",
+      "requirementIds": [],
+      "relatedRequirementIds": [
+        "48"
+      ],
+      "quizEligible": false,
+      "correspondence": "partial",
+      "vertices": 77,
+      "triangles": 131,
+      "bounds": [
+        [
+          -0.33293798565864563,
+          -1.4369816780090332,
+          0.5706468820571899
+        ],
+        [
+          -0.06278673559427261,
+          -1.2616416215896606,
+          0.7907508015632629
+        ]
+      ],
+      "color": "#ae7665",
+      "sourceAliases": [
+        "Posterior papillary muscle of right ventricle"
+      ],
+      "defaultVisible": true
+    },
+    {
+      "id": "hra_papillary_posteromedial",
+      "label": "Peça papilar posteromedial do VE · porção",
+      "group": "papilares",
+      "sourceName": "VH_M_papillary_muscle_of_heart_posteromedial",
+      "sourceLabel": "Posteromedial head of posterior papillary muscle of left ventricle",
+      "source": "Human Reference Atlas / NIH 3D · Visible Human Male",
+      "sourceFile": "VH_M_Heart.glb",
+      "sourceUrl": "https://3d.nih.gov/entries/3DPX-021000",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "note": "A fonte descreve uma cabeça posteromedial. Não corresponde automaticamente ao músculo posterior inteiro; mantida fora do treino.",
+      "requirementIds": [],
+      "relatedRequirementIds": [
+        "60"
+      ],
+      "quizEligible": false,
+      "correspondence": "partial",
+      "vertices": 290,
+      "triangles": 576,
+      "bounds": [
+        [
+          0.42172515392303467,
+          -0.7757402062416077,
+          -0.4019712507724762
+        ],
+        [
+          1.297607421875,
+          -0.3711821734905243,
+          0.6809262633323669
+        ]
+      ],
+      "color": "#ae7665",
+      "sourceAliases": [
+        "Posteromedial head of posterior papillary muscle of left ventricle"
+      ],
+      "defaultVisible": true
+    },
+    {
+      "id": "hra_left_atrium",
+      "label": "Átrio esquerdo",
+      "group": "camaras",
+      "sourceName": "VH_M_left_cardiac_atrium",
+      "sourceLabel": "left cardiac atrium",
+      "source": "Human Reference Atlas / NIH 3D · Visible Human Male",
+      "sourceFile": "VH_M_Heart.glb",
+      "sourceUrl": "https://3d.nih.gov/entries/3DPX-021000",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "note": "Parede atrial da fonte HRA. Aurícula e óstios não são peças selecionáveis independentes; relevos finos não foram validados.",
+      "requirementIds": [
+        "18"
+      ],
+      "relatedRequirementIds": [
+        "19",
+        "22",
+        "54a",
+        "54b",
+        "54c",
+        "54d",
+        "55",
+        "56"
+      ],
+      "quizEligible": true,
+      "correspondence": "associated",
+      "vertices": 16967,
+      "triangles": 33946,
+      "bounds": [
+        [
+          -1.6353603601455688,
+          -0.628294050693512,
+          -1.6922273635864258
+        ],
+        [
+          0.7116015553474426,
+          1.692732334136963,
+          -0.1812921166419983
+        ]
+      ],
+      "color": "#b97870",
+      "sourceAliases": [
+        "left cardiac atrium"
+      ],
+      "defaultVisible": true,
+      "requirement": {
+        "id": "18",
+        "label": "Átrio esquerdo",
+        "page": 1,
+        "source": "roteiro"
+      }
+    },
+    {
+      "id": "hra_right_atrium",
+      "label": "Átrio direito",
+      "group": "camaras",
+      "sourceName": "VH_M_right_cardiac_atrium",
+      "sourceLabel": "right cardiac atrium",
+      "source": "Human Reference Atlas / NIH 3D · Visible Human Male",
+      "sourceFile": "VH_M_Heart.glb",
+      "sourceUrl": "https://3d.nih.gov/entries/3DPX-021000",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "note": "Parede atrial da fonte HRA. Aurícula e relevos internos estão incorporados ou simplificados; não equivalem a alvos confirmados separados.",
+      "requirementIds": [
+        "16"
+      ],
+      "relatedRequirementIds": [
+        "17",
+        "22",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "41",
+        "42"
+      ],
+      "quizEligible": true,
+      "correspondence": "associated",
+      "vertices": 24068,
+      "triangles": 48186,
+      "bounds": [
+        [
+          -2.0,
+          -1.3857916593551636,
+          -1.1132285594940186
+        ],
+        [
+          -0.3227089047431946,
+          1.695765495300293,
+          0.9071812629699707
+        ]
+      ],
+      "color": "#b97870",
+      "sourceAliases": [
+        "right cardiac atrium"
+      ],
+      "defaultVisible": true,
+      "requirement": {
+        "id": "16",
+        "label": "Átrio direito",
+        "page": 1,
+        "source": "roteiro"
+      }
+    },
+    {
+      "id": "hra_right_ventricle",
+      "label": "Ventrículo direito",
+      "group": "camaras",
+      "sourceName": "VH_M_heart_right_ventricle",
+      "sourceLabel": "heart right ventricle",
+      "source": "Human Reference Atlas / NIH 3D · Visible Human Male",
+      "sourceFile": "VH_M_Heart.glb",
+      "sourceUrl": "https://3d.nih.gov/entries/3DPX-021000",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "note": "Parede ventricular com interior simplificado. Não demonstra de modo validado toda a trabeculação nem a trabécula septomarginal.",
+      "requirementIds": [
+        "20"
+      ],
+      "relatedRequirementIds": [
+        "43",
+        "44",
+        "45",
+        "50",
+        "52"
+      ],
+      "quizEligible": true,
+      "correspondence": "associated",
+      "vertices": 13761,
+      "triangles": 27622,
+      "bounds": [
+        [
+          -1.3711516857147217,
+          -1.695765495300293,
+          -0.40968137979507446
+        ],
+        [
+          1.302532434463501,
+          1.4461214542388916,
+          1.6922273635864258
+        ]
+      ],
+      "color": "#b97870",
+      "sourceAliases": [
+        "heart right ventricle"
+      ],
+      "defaultVisible": true,
+      "requirement": {
+        "id": "20",
+        "label": "Ventrículo direito",
+        "page": 1,
+        "source": "roteiro"
+      }
+    },
+    {
+      "id": "hra_interventricular_septum",
+      "label": "Septo interventricular",
+      "group": "septos",
+      "sourceName": "VH_M_interventricular_septum",
+      "sourceLabel": "interventricular septum",
+      "source": "Human Reference Atlas / NIH 3D · Visible Human Male",
+      "sourceFile": "VH_M_Heart.glb",
+      "sourceUrl": "https://3d.nih.gov/entries/3DPX-021000",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "note": "Peça separada da própria fonte, entre os ventrículos. Permite selecionar o septo; sua porção membranácea não está individualizada nem validada.",
+      "requirementIds": [
+        "23"
+      ],
+      "relatedRequirementIds": [
+        "C47"
+      ],
+      "quizEligible": true,
+      "correspondence": "associated",
+      "vertices": 4039,
+      "triangles": 8074,
+      "bounds": [
+        [
+          -0.3887855112552643,
+          -1.578599214553833,
+          -0.6699559688568115
+        ],
+        [
+          1.2798089981079102,
+          0.7529473900794983,
+          1.4776052236557007
+        ]
+      ],
+      "color": "#a86e64",
+      "sourceAliases": [
+        "interventricular septum"
+      ],
+      "defaultVisible": true,
+      "requirement": {
+        "id": "23",
+        "label": "Septo interventricular",
+        "page": 1,
+        "source": "roteiro"
+      }
+    },
+    {
+      "id": "hra_left_ventricle",
+      "label": "Ventrículo esquerdo",
+      "group": "camaras",
+      "sourceName": "VH_M_heart_left_ventricle",
+      "sourceLabel": "heart left ventricle",
+      "source": "Human Reference Atlas / NIH 3D · Visible Human Male",
+      "sourceFile": "VH_M_Heart.glb",
+      "sourceUrl": "https://3d.nih.gov/entries/3DPX-021000",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "note": "Parede ventricular da mesma fonte. Não individualiza camadas de fibras, endocárdio, trabéculas ou detalhes valvares finos.",
+      "requirementIds": [
+        "21"
+      ],
+      "relatedRequirementIds": [
+        "15",
+        "57",
+        "62"
+      ],
+      "quizEligible": true,
+      "correspondence": "associated",
+      "vertices": 4677,
+      "triangles": 9350,
+      "bounds": [
+        [
+          -0.45640501379966736,
+          -1.614594578742981,
+          -1.364439606666565
+        ],
+        [
+          2.0,
+          0.8562141060829163,
+          1.614382266998291
+        ]
+      ],
+      "color": "#b97870",
+      "sourceAliases": [
+        "heart left ventricle"
+      ],
+      "defaultVisible": true,
+      "requirement": {
+        "id": "21",
+        "label": "Ventrículo esquerdo",
+        "page": 1,
+        "source": "roteiro"
+      }
+    }
+  ],
+  "groups": {
+    "camaras": "Câmaras cardíacas",
+    "septos": "Septo interventricular",
+    "valvas": "Valvas · conjuntos",
+    "papilares": "Peças papilares · em revisão"
+  },
+  "labelGroups": [
+    "camaras",
+    "septos"
+  ],
+  "model": {
+    "parts": 14,
+    "triangles": 164119,
+    "vertices": 82066,
+    "bytes": 4073080,
+    "sha256": "9f21984a76ddaea65b9e21e6a7c6a6005979d4c187f9b18ae0c197b6c498f566",
+    "sourceSha256": "b1237e7e765178e9357fd2ea7ccf19d55d0bf9ca55e187886635febe28244c70",
+    "sourceEntry": "3DPX-021000",
+    "sourceVersion": "1.01",
+    "sourceModelVersion": "heart-male/v1.2",
+    "individually_anatomically_validated": false,
+    "synthetic_anatomical_parts": 0,
+    "photoTexture": false,
+    "quizEligibleParts": 9
+  },
+  "orientation": {
+    "x": "esquerda anatômica",
+    "y": "superior",
+    "z": "anterior",
+    "transform": {
+      "formula": "display = (source - center) * scale",
+      "center": [
+        0.018727341666817665,
+        0.4760887771844864,
+        0.03758089942857623
+      ],
+      "scale": 32.166963313984276,
+      "axisMap": "[x,y,z]",
+      "sourceUnits": "metres by glTF convention; specimen dimensions not independently calibrated",
+      "displayUnits": "normalized; longest extent 4"
+    },
+    "preserved": "Uma transformação comum; topologia e relações espaciais originais preservadas."
+  },
+  "presets": [
+    {
+      "id": "exterior",
+      "label": "Conjunto",
+      "groups": [
+        "camaras",
+        "septos",
+        "valvas",
+        "papilares"
+      ],
+      "direction": [
+        0,
+        0.2,
+        1
+      ],
+      "note": "Outro acervo HRA · anatomia simplificada, sem fotografia de tecido."
+    },
+    {
+      "id": "interior",
+      "label": "Abrir câmaras",
+      "groups": [
+        "camaras",
+        "septos",
+        "valvas",
+        "papilares"
+      ],
+      "direction": [
+        0,
+        0.1,
+        1
+      ],
+      "clipping": true,
+      "note": "Corte visual das câmaras. O septo tem seleção própria."
+    },
+    {
+      "id": "septo",
+      "label": "Septo",
+      "groups": [
+        "septos"
+      ],
+      "direction": [
+        0.9,
+        0.1,
+        0.7
+      ],
+      "note": "Septo interventricular isolado. A parte membranácea não está individualizada."
+    },
+    {
+      "id": "valvas",
+      "label": "Valvas",
+      "groups": [
+        "valvas",
+        "papilares"
+      ],
+      "direction": [
+        0.1,
+        1,
+        0.3
+      ],
+      "note": "Valvas inteiras e peças papilares da fonte; nomenclatura papilar em revisão."
+    }
+  ],
+  "limitations": [
+    "Acervo HRA independente: 14 peças desta fonte; não são 14 novas estruturas confirmadas no roteiro principal.",
+    "Modelo de referência simplificado, sem textura fotográfica. Sua principal contribuição é o septo interventricular selecionável.",
+    "As quatro valvas são conjuntos; seus folhetos e cordas não são peças independentes.",
+    "Cinco peças papilares ficam fora do treino por nomenclatura ambígua, representação parcial ou relação com cordas ainda não conferida.",
+    "Pericárdio, esqueleto fibroso e sistema de condução não estão presentes.",
+    "A porção membranácea do septo, trabeculação fina, crista terminal e outros pequenos relevos não foram validados.",
+    "Mesma transformação aplicada a todas as peças; não houve registro, fusão ou substituição do modelo Z-Anatomy/BodyParts3D."
+  ],
+  "sources": [
+    {
+      "label": "Human Reference Atlas · NIH 3DPX-021000",
+      "url": "https://3d.nih.gov/entries/3DPX-021000"
+    },
+    {
+      "label": "HRA · heart-male v1.2",
+      "url": "https://purl.humanatlas.io/ref-organ/heart-male/v1.2"
+    },
+    {
+      "label": "Licença CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "label": "NLM · Visible Human Project",
+      "url": "https://www.nlm.nih.gov/research/visible/visible_human.html"
+    }
+  ]
+}

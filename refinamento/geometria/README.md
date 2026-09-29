@@ -66,10 +66,10 @@ Recomendação: substituir os seis objetos coronários Z e as quatro veias Z pel
 No diretório raiz do projeto, com o Python preparado que contém NumPy, SciPy e Matplotlib:
 
 ```bash
-/home/victorhugo/.local/share/codex-tools/venv/bin/python refinamento/geometria/register_bp3d.py
-/home/victorhugo/.local/share/codex-tools/venv/bin/python refinamento/geometria/render_registration.py
-/home/victorhugo/.local/share/codex-tools/venv/bin/python refinamento/geometria/prepare_vascular.py
-/home/victorhugo/.local/share/codex-tools/venv/bin/python refinamento/geometria/render_vascular.py
+"$HOME/.local/share/codex-tools/venv/bin/python" refinamento/geometria/register_bp3d.py
+"$HOME/.local/share/codex-tools/venv/bin/python" refinamento/geometria/render_registration.py
+"$HOME/.local/share/codex-tools/venv/bin/python" refinamento/geometria/prepare_vascular.py
+"$HOME/.local/share/codex-tools/venv/bin/python" refinamento/geometria/render_vascular.py
 ```
 
 Os scripts leem somente arquivos já disponíveis em `fontes/bp3d`, `malhas/heart_source` e `malhas/CardioVascular41.glb`. Não executam o conteúdo do Blender nem acessam rede.

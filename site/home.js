@@ -1,9 +1,10 @@
 import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {createAnatomyRenderer} from './anatomy-renderer.js';
 let reviewed=0;
 try{for(const system of ['circulatory','respiratory']){reviewed+=JSON.parse(localStorage.getItem(`atlas:practice-summary:${system}`)||'{}').reviewed||0;const progress=JSON.parse(localStorage.getItem(`atlas:theory:${system}`)||'{}');reviewed+=Object.keys(progress.answers||{}).length;}}catch{}
-try{reviewed+=JSON.parse(localStorage.getItem('atlas:practice-summary:larynx')||'{}').reviewed||0;}catch{}
+try{for(const scope of ['larynx','heart-hra'])reviewed+=JSON.parse(localStorage.getItem(`atlas:practice-summary:${scope}`)||'{}').reviewed||0;}catch{}
 document.getElementById('review-count').textContent=reviewed;
 async function preview(holder){
  const respiratory=holder.dataset.model==='respiratory',root=respiratory?'assets/respiratory/':'assets/';
@@ -12,7 +13,7 @@ async function preview(holder){
   document.getElementById(respiratory?'resp-count':'heart-count').textContent=`${catalog.parts.length} peças disponíveis`;
   const renderer=new THREE.WebGLRenderer({antialias:true,alpha:true});renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.15;
   const scene=new THREE.Scene(),camera=new THREE.PerspectiveCamera(32,1,.01,200);const controls=new OrbitControls(camera,renderer.domElement);controls.enableZoom=false;controls.enablePan=false;controls.enableDamping=true;controls.rotateSpeed=.55;
-  scene.add(new THREE.HemisphereLight('#fff8ed','#8d9487',2.2));const key=new THREE.DirectionalLight('#fff3e0',3);key.position.set(-4,7,8);scene.add(key);const fill=new THREE.DirectionalLight('#e1edf0',1.6);fill.position.set(5,3,-4);scene.add(fill);
+  const lighting=createAnatomyRenderer(renderer,scene,camera);lighting.setProfile('relief');
   const gltf=await new GLTFLoader().loadAsync(root+(respiratory?'model.glb':'heart.glb'));const box=new THREE.Box3();
   gltf.scene.traverse(node=>{if(!node.isMesh)return;const p=catalog.parts.find(p=>p.id===(node.userData.partId||node.name));if(!p){node.visible=false;return;}node.visible=respiratory?['pulmoes','arvore'].includes(p.group):p.defaultVisible!==false&&!['papilares','valvas'].includes(p.group);node.material=new THREE.MeshStandardMaterial({color:p.tissueColor||(p.group==='veias'?'#968797':p.group==='coronarias'?'#c3987f':respiratory?'#c29a97':'#b57c72'),roughness:.62,side:THREE.DoubleSide});if(node.visible){node.geometry.computeBoundingBox();box.union(node.geometry.boundingBox);}});
   scene.add(gltf.scene);if(box.isEmpty())throw new Error('Prévia sem superfície');

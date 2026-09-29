@@ -443,11 +443,15 @@
       "pagina": 10,
       "escopo": "principal",
       "tipo": "estrutura",
-      "status": "nao_localizado",
-      "z_evidencia": [],
+      "status": "geometria_disponivel",
+      "z_evidencia": [
+        "Major alar cartilage.l",
+        "Major alar cartilage.r"
+      ],
       "validacao_visual": "pendente_individual",
       "origem_escopo": "Derivado dos slides de Carmem; não é roteiro oficial de prova confirmado.",
-      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude."
+      "coverageClaim": "Disponibilidade nominal não certifica forma, posição ou completude.",
+      "observacao": "Associação nominal corrigida para o par Major alar cartilage.l/r, presente no inventário e no catálogo. Figura docente10 identifica cartilagens alares maiores; forma e relações de cada malha ainda requerem validação visual individual."
     },
     {
       "id": "R011",

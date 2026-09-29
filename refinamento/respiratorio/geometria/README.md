@@ -4,10 +4,12 @@
 
 | Modelo | Arquivos públicos derivados | Peças | Triângulos | Tamanho |
 |---|---|---:|---:|---:|
-| Respiratório Z-Anatomy | `site/assets/respiratory/model.glb` e `catalog.json` | 167 | 955.976 | 23.508.628 bytes |
+| Respiratório Z-Anatomy | `site/assets/respiratory/model.glb` e `catalog.json` | 175 | 959.255 | 23.603.924 bytes |
 | Laringe BodyParts3D independente | `site/assets/larynx/model.glb` e `catalog.json` | 40 | 149.758 | 3.633.868 bytes |
 
 Nenhuma estrutura anatômica foi sintetizada. Os dois conjuntos preservam as superfícies prontas de seus respectivos acervos. As cores são ilustrativas; não há textura fotográfica, movimento respiratório ou simulação de fluxo/fonação.
+
+Refinamento de 28/09: oito vasos pulmonares proximais acrescentados no mesmo registro, com preset `hilo`; R173–R176 têm associações nominais e R151/R152 apenas contexto parcial. Comparação de fontes, inspeção e referência independente de CT em `refinamento/qualidade/respiratorio/README.md`.
 
 ## Respiratório: superfícies Z-Anatomy
 
@@ -50,9 +52,9 @@ O modelo independente evita deslocar, deformar ou adaptar os tecidos BP às cart
 
 ## Verificação
 
-`verify_assets.py` confirmou hashes, tamanhos, correspondência de IDs, contagens, limites geométricos, índices válidos, coordenadas finitas e normais unitárias em todas as **207 peças**. O relatório final é `asset_validation.json`.
+`verify_assets.py` confirmou hashes, tamanhos, correspondência de IDs, contagens, limites geométricos, índices válidos, coordenadas finitas e normais unitárias em todas as **215 peças**. O relatório final é `asset_validation.json`.
 
-Foram preservadas faces de área nula da representação exportada: **4 no esfenoide Z** e **30 na laringe BP** (3 ariepiglótico direito; 2 cricotireóideo mediano; 23 ligamento vocal esquerdo; 2 cone elástico direito). Elas não acrescentam superfície visível; não foram eliminadas, preenchidas ou convertidas em anatomia nova. A análise de topologia após solda exata, feita apenas para inspeção, registra bordas em 58 peças Z e arestas não manifold em 18 peças Z / 4 BP. Curvas ramificadas e superfícies do autor podem ter partes abertas ou desconectadas: não declarar esses arquivos como sólidos prontos para impressão.
+Foram preservadas faces de área nula da representação exportada: **4 no esfenoide Z** e **30 na laringe BP** (3 ariepiglótico direito; 2 cricotireóideo mediano; 23 ligamento vocal esquerdo; 2 cone elástico direito). Elas não acrescentam superfície visível; não foram eliminadas, preenchidas ou convertidas em anatomia nova. A análise de topologia após solda exata, feita apenas para inspeção, registra bordas em 66 peças Z e arestas não manifold em 18 peças Z / 4 BP. Curvas ramificadas e superfícies do autor podem ter partes abertas ou desconectadas: não declarar esses arquivos como sólidos prontos para impressão.
 
 `mesh_audit.json` e `larynx_mesh_audit.json` preservam também as medidas na preparação da malha; contagens numéricas de faces quase colineares podem diferir com a precisão usada. Para a representação GLB final, usar `asset_validation.json`.
 
@@ -74,11 +76,11 @@ No respiratório, `requirementIds` reúne correspondências nominais explícitas
 Com os arquivos oficiais já preparados em `fontes/` e as conversões em `malhas/`:
 
 ```bash
-/home/victorhugo/.local/share/codex-tools/venv/bin/python scripts/build_respiratory_assets.py
-/home/victorhugo/.local/share/codex-tools/venv/bin/python scripts/build_larynx_assets.py
-/home/victorhugo/.local/share/codex-tools/venv/bin/python refinamento/respiratorio/geometria/verify_assets.py
-/home/victorhugo/.local/share/codex-tools/venv/bin/python refinamento/respiratorio/geometria/inspect_respiratory.py
-/home/victorhugo/.local/share/codex-tools/venv/bin/python refinamento/respiratorio/geometria/inspect_larynx.py
+"$HOME/.local/share/codex-tools/venv/bin/python" scripts/build_respiratory_assets.py
+"$HOME/.local/share/codex-tools/venv/bin/python" scripts/build_larynx_assets.py
+"$HOME/.local/share/codex-tools/venv/bin/python" refinamento/respiratorio/geometria/verify_assets.py
+"$HOME/.local/share/codex-tools/venv/bin/python" refinamento/respiratorio/geometria/inspect_respiratory.py
+"$HOME/.local/share/codex-tools/venv/bin/python" refinamento/respiratorio/geometria/inspect_larynx.py
 ```
 
 Os construtores não acessam rede. As fontes brutas, arquivos de aulas e ambientes locais não precisam ser publicados para servir os dois GLB derivados.

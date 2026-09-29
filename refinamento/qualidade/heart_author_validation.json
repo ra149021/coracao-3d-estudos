@@ -1,0 +1,21 @@
+{
+  "accepted": true,
+  "method": "Somente SUBSURF com parâmetros de renderização originais do autor",
+  "changed": [
+    "heart_00",
+    "heart_01",
+    "heart_02",
+    "heart_03"
+  ],
+  "unchangedMeshes": 68,
+  "oldTriangles": 152303,
+  "newTriangles": 482116,
+  "bytes": 11708588,
+  "baselineSha256": "edc90628474a0b85cf552306d325a38f488ead05ba1ab111a78aebb9d6e9d799",
+  "sha256": "32cc0d39169cd3562cde68d0e91de92bed41d9ad62357fa44fc06ce3d2fdef6c",
+  "finite": true,
+  "validIndices": true,
+  "unitNormals": true,
+  "anatomicalCoverageChanged": false,
+  "newStructures": 0
+}

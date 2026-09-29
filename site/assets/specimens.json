@@ -1,0 +1,374 @@
+{
+  "version": "2026-09-29",
+  "title": "Peças anatômicas reais",
+  "purpose": "Observação de peças humanas digitalizadas, com orientações de comparação com o roteiro.",
+  "models": [
+    {
+      "id": "umn-heart-612",
+      "title": "Coração humano fixado por perfusão · UMN 612",
+      "sketchfabId": "f6d63aea48a14d27969067f2754c2d3b",
+      "url": "https://sketchfab.com/3d-models/perfusion-fixed-human-heart-anatomy-612-f6d63aea48a14d27969067f2754c2d3b",
+      "embedUrl": "https://sketchfab.com/models/f6d63aea48a14d27969067f2754c2d3b/embed",
+      "originalTitle": "Perfusion Fixed Human Heart Anatomy 612",
+      "author": "VisibleHeartLabs",
+      "institution": "University of Minnesota · Visible Heart Laboratories",
+      "institutionUrl": "https://www.vhlab.umn.edu/atlas/",
+      "authorUrl": "https://sketchfab.com/VisibleHeartLabs",
+      "license": "CC Attribution-NonCommercial (rótulo exibido na página)",
+      "priority": 1,
+      "focus": [
+        "superfície cardíaca",
+        "vasos coronários",
+        "aurícula direita"
+      ],
+      "description": "Peça humana fixada por perfusão. A fonte informa digitalização até dois dias depois da fixação e preservação de cores próximas ao tecido vivo.",
+      "specimen": "Homem de 64 anos, sem doença cardíaca conhecida segundo a fonte; espécime Heart0612.",
+      "limits": [
+        "Peça fixada: não demonstra contração fisiológica.",
+        "A fixação e a digitalização influenciam a aparência do tecido; a cor na tela não é um critério isolado de identificação.",
+        "A observação da superfície não demonstra, por si, estruturas internas ou o sistema de condução."
+      ],
+      "loadOnDemand": true,
+      "external": true,
+      "countsTowardLocalCoverage": false,
+      "quizEligible": false,
+      "code": "UMN 612",
+      "shortTitle": "Superfície e vasos coronários",
+      "observations": [
+        {
+          "title": "Oriente a peça antes de nomear os relevos",
+          "text": "Gire o coração e compare suas faces e margens com as figuras da aula. Use as câmaras e os grandes vasos como referências; a posição inicial do visualizador não define a vista anatômica.",
+          "references": [
+            {
+              "source": "coracao",
+              "page": 18,
+              "label": "Coração · slide 18"
+            },
+            {
+              "source": "coracao",
+              "page": 19,
+              "label": "Coração · slide 19"
+            },
+            {
+              "source": "roteiro",
+              "page": 1,
+              "label": "Roteiro · página 1"
+            }
+          ],
+          "requirementIds": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ]
+        },
+        {
+          "title": "Compare a aurícula com o corpo do átrio",
+          "text": "Procure a aurícula direita descrita pela fonte e observe seu contorno e sua continuidade com o átrio. Compare o relevo real com a figura das duas aurículas.",
+          "references": [
+            {
+              "source": "coracao",
+              "page": 21,
+              "label": "Coração · slide 21"
+            },
+            {
+              "source": "roteiro",
+              "page": 1,
+              "label": "Roteiro · página 1"
+            }
+          ],
+          "requirementIds": [
+            "17"
+          ]
+        },
+        {
+          "title": "Siga os sulcos e os vasos da superfície",
+          "text": "Compare os trajetos visíveis com os sulcos coronário e interventriculares. Para distinguir artéria de veia, acompanhe origem, continuidade e posição; a cor da preparação, sozinha, não identifica o vaso.",
+          "references": [
+            {
+              "source": "coracao",
+              "page": 22,
+              "label": "Coração · slide 22"
+            },
+            {
+              "source": "vasos",
+              "page": 22,
+              "label": "Vasos · slide 22"
+            },
+            {
+              "source": "vasos",
+              "page": 25,
+              "label": "Vasos · slide 25"
+            },
+            {
+              "source": "vasos",
+              "page": 33,
+              "label": "Vasos · slide 33"
+            },
+            {
+              "source": "roteiro",
+              "page": 1,
+              "label": "Roteiro · página 1"
+            },
+            {
+              "source": "roteiro",
+              "page": 3,
+              "label": "Roteiro · página 3"
+            },
+            {
+              "source": "roteiro",
+              "page": 4,
+              "label": "Roteiro · página 4"
+            }
+          ],
+          "requirementIds": [
+            "26",
+            "27",
+            "28",
+            "81",
+            "83",
+            "103",
+            "104"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umn-heart-188",
+      "title": "Janela do ventrículo direito · UMN 188",
+      "sketchfabId": "d4cc3d373db24d3ca9d08907d620d078",
+      "url": "https://sketchfab.com/3d-models/plastinated-whole-human-heart-188-d4cc3d373db24d3ca9d08907d620d078",
+      "embedUrl": "https://sketchfab.com/models/d4cc3d373db24d3ca9d08907d620d078/embed",
+      "originalTitle": "Plastinated Whole Human Heart #188",
+      "author": "VisibleHeartLabs",
+      "institution": "University of Minnesota · Visible Heart Laboratories",
+      "institutionUrl": "https://www.vhlab.umn.edu/atlas/",
+      "authorUrl": "https://sketchfab.com/VisibleHeartLabs",
+      "license": "CC Attribution-NonCommercial (rótulo exibido na página)",
+      "priority": 2,
+      "focus": [
+        "parede do ventrículo direito",
+        "trabéculas cárneas",
+        "músculos papilares",
+        "valva aórtica em vista superior"
+      ],
+      "description": "Peça humana plastinada com abertura do VD, útil para comparar o relevo interno e a espessura aparente da parede com o modelo didático.",
+      "specimen": "Mulher de 61 anos, sem doença cardíaca conhecida segundo a fonte; espécime Heart0188.",
+      "limits": [
+        "Plastinação e spray de digitalização alteram a aparência da superfície.",
+        "A janela é um corte de preparação, não uma abertura anatômica normal.",
+        "Relevos não foram segmentados nem identificados individualmente no nosso roteiro."
+      ],
+      "loadOnDemand": true,
+      "external": true,
+      "countsTowardLocalCoverage": false,
+      "quizEligible": false,
+      "code": "UMN 188",
+      "shortTitle": "Interior do ventrículo direito",
+      "observations": [
+        {
+          "title": "Observe a transição entre entrada e saída",
+          "text": "Explore a janela preparada no ventrículo direito. Compare a região trabeculada com a descrição da via de saída lisa, o cone arterial. Só atribua um nome ao relevo quando o trajeto e as relações estiverem visíveis.",
+          "references": [
+            {
+              "source": "coracao",
+              "page": 34,
+              "label": "Coração · slide 34"
+            },
+            {
+              "source": "roteiro",
+              "page": 2,
+              "label": "Roteiro · página 2"
+            }
+          ],
+          "requirementIds": [
+            "43",
+            "44",
+            "52"
+          ]
+        },
+        {
+          "title": "Diferencie papilares, cordas e trabéculas",
+          "text": "Compare os relevos musculares visíveis com o esquema da aula. Para reconhecer um músculo papilar, procure sua relação com as cordas e a valva; uma elevação isolada não permite identificar todos os componentes do aparelho valvar.",
+          "references": [
+            {
+              "source": "coracao",
+              "page": 36,
+              "label": "Coração · slide 36"
+            },
+            {
+              "source": "coracao",
+              "page": 37,
+              "label": "Coração · slide 37"
+            },
+            {
+              "source": "roteiro",
+              "page": 2,
+              "label": "Roteiro · página 2"
+            }
+          ],
+          "requirementIds": [
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52"
+          ]
+        },
+        {
+          "title": "Compare entrada e saída do ventrículo direito",
+          "text": "A fonte inclui uma vista superior da valva aórtica. Compare o aspecto semilunar com o aparelho atrioventricular e retome a figura dos seios da aorta. A janela no ventrículo direito é uma abertura feita na preparação.",
+          "references": [
+            {
+              "source": "coracao",
+              "page": 42,
+              "label": "Coração · slide 42"
+            },
+            {
+              "source": "coracao",
+              "page": 47,
+              "label": "Coração · slide 47"
+            },
+            {
+              "source": "coracao",
+              "page": 45,
+              "label": "Coração · slide 45"
+            },
+            {
+              "source": "roteiro",
+              "page": 3,
+              "label": "Roteiro · página 3"
+            }
+          ],
+          "requirementIds": [
+            "63a",
+            "63b",
+            "63c"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umn-heart-064",
+      "title": "Relação entre as quatro valvas · UMN 064",
+      "sketchfabId": "62abe2315c5648a8abc3d48bcced28bb",
+      "url": "https://sketchfab.com/3d-models/plastinated-human-hear-valve-view-heart0064-62abe2315c5648a8abc3d48bcced28bb",
+      "embedUrl": "https://sketchfab.com/models/62abe2315c5648a8abc3d48bcced28bb/embed",
+      "originalTitle": "Plastinated Human Hear Valve View Heart0064",
+      "author": "VisibleHeartLabs",
+      "institution": "University of Minnesota · Visible Heart Laboratories",
+      "institutionUrl": "https://www.vhlab.umn.edu/atlas/",
+      "authorUrl": "https://sketchfab.com/VisibleHeartLabs",
+      "license": "CC Attribution-NonCommercial (rótulo exibido na página)",
+      "priority": 3,
+      "focus": [
+        "relações entre as quatro valvas",
+        "vista das quatro valvas"
+      ],
+      "description": "Peça plastinada preparada para a vista das quatro valvas. A fonte descreve mitral e aórtica fechadas, tricúspide e pulmonar abertas.",
+      "specimen": "Mulher de 89 anos, segundo a fonte; espécime Heart0064.",
+      "limits": [
+        "Não interpretar o estado fixado de todas as valvas como fase normal do ciclo cardíaco.",
+        "Plastinação e spray de digitalização alteram a cor.",
+        "A vista foi preparada para expor as valvas; cortes e remoções de tecido alteram o contexto que existia no órgão íntegro."
+      ],
+      "loadOnDemand": true,
+      "external": true,
+      "countsTowardLocalCoverage": false,
+      "quizEligible": false,
+      "code": "UMN 064",
+      "shortTitle": "Relação entre as quatro valvas",
+      "observations": [
+        {
+          "title": "Construa um mapa das quatro valvas",
+          "text": "Use a vista preparada para comparar a posição relativa das valvas tricúspide, pulmonar, mitral e aórtica. Relacione cada conjunto à câmara ou ao vaso correspondente antes de tentar nomear as válvulas individuais.",
+          "references": [
+            {
+              "source": "coracao",
+              "page": 47,
+              "label": "Coração · slide 47"
+            },
+            {
+              "source": "roteiro",
+              "page": 2,
+              "label": "Roteiro · página 2"
+            },
+            {
+              "source": "roteiro",
+              "page": 3,
+              "label": "Roteiro · página 3"
+            }
+          ],
+          "requirementIds": [
+            "46a",
+            "46b",
+            "46c",
+            "53a",
+            "53b",
+            "53c",
+            "58a",
+            "58b",
+            "63a",
+            "63b",
+            "63c"
+          ]
+        },
+        {
+          "title": "Compare valvas atrioventriculares e semilunares",
+          "text": "Retome o mecanismo valvar: as valvas atrioventriculares se relacionam com cordas tendíneas e músculos papilares; as semilunares não têm cordas. Compare essas relações nas figuras antes de procurar detalhes na peça.",
+          "references": [
+            {
+              "source": "coracao",
+              "page": 42,
+              "label": "Coração · slide 42"
+            },
+            {
+              "source": "coracao",
+              "page": 47,
+              "label": "Coração · slide 47"
+            },
+            {
+              "source": "roteiro",
+              "page": 2,
+              "label": "Roteiro · página 2"
+            },
+            {
+              "source": "roteiro",
+              "page": 3,
+              "label": "Roteiro · página 3"
+            }
+          ],
+          "requirementIds": [
+            "46a",
+            "46b",
+            "46c",
+            "53a",
+            "53b",
+            "53c",
+            "58a",
+            "58b",
+            "63a",
+            "63b",
+            "63c"
+          ]
+        },
+        {
+          "title": "Separe a forma preservada do movimento",
+          "text": "A fonte descreve mitral e aórtica fechadas, tricúspide e pulmonar abertas. Essa combinação foi preservada na preparação e não deve ser usada para deduzir uma fase normal do ciclo cardíaco. Use a peça para relações espaciais e a aula para o mecanismo de abertura e fechamento.",
+          "references": [
+            {
+              "source": "coracao",
+              "page": 42,
+              "label": "Coração · slide 42"
+            }
+          ],
+          "requirementIds": []
+        }
+      ]
+    }
+  ]
+}

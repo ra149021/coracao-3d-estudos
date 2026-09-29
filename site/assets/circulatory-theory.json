@@ -143,6 +143,12 @@
       "label": "OpenStax · Fetal circulation, §20.6",
       "type": "academic-textbook",
       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-6-development-of-blood-vessels-and-fetal-circulation"
+    },
+    {
+      "id": "vhl-valve-nomenclature",
+      "label": "University of Minnesota · Cardiac Valve Nomenclature",
+      "type": "university-anatomy",
+      "url": "https://www.vhlab.umn.edu/atlas/anatomy-tutorial/cardiac-valve-nomenclature.shtml"
     }
   ],
   "chapters": [
@@ -1278,7 +1284,9 @@
       "sections": [
         {
           "heading": "Quatro valvas: nomes e relações",
-          "paragraphs": [],
+          "paragraphs": [
+            "Nota sobre a figura docente: na página física 43 de Coração, as legendas AVE e AVD parecem trocadas. A mitral é a valva atrioventricular esquerda, com dois folhetos principais; a tricúspide é a direita, com três. Para identificar, compare a página 47 e a nomenclatura do Visible Heart Laboratories. A imagem original da aula foi preservada."
+          ],
           "bullets": [],
           "references": [
             {
@@ -1287,15 +1295,11 @@
             },
             {
               "source": "coracao",
-              "page": 43
+              "page": 47
             },
             {
               "source": "coracao",
               "page": 44
-            },
-            {
-              "source": "coracao",
-              "page": 47
             },
             {
               "source": "roteiro",
@@ -1304,6 +1308,9 @@
             {
               "source": "roteiro",
               "page": 3
+            },
+            {
+              "source": "vhl-valve-nomenclature"
             }
           ],
           "table": {
@@ -1352,7 +1359,7 @@
           "references": [
             {
               "source": "coracao",
-              "page": 43
+              "page": 42
             },
             {
               "source": "coracao",
@@ -1417,10 +1424,6 @@
             {
               "source": "coracao",
               "page": 42
-            },
-            {
-              "source": "coracao",
-              "page": 43
             },
             {
               "source": "coracao",

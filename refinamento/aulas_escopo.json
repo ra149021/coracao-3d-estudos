@@ -31,25 +31,25 @@
   "fontes": [
     {
       "id": "roteiro",
-      "path": "/home/victorhugo/Documentos/Auditoria_Coracao_3D_2026-09-28/materiais/roteiro_pages.json",
+      "path": "materiais/roteiro_pages.json",
       "sha256": "cbfd45abc41cb214a885e4e46475ce53bb1b6829e42e28bcee594940b21606ef",
       "metodo": "texto previamente extraído, por página física; páginas visuais selecionadas conferidas nesta revisão"
     },
     {
       "id": "coracao",
-      "path": "/home/victorhugo/Documentos/Auditoria_Coracao_3D_2026-09-28/materiais/coracao_pages.json",
+      "path": "materiais/coracao_pages.json",
       "sha256": "0387a21cda8e0f238e24003d442535885cb8dc847e5cae8a32fab185e6158e29",
       "metodo": "texto previamente extraído, por página física; páginas visuais selecionadas conferidas nesta revisão"
     },
     {
       "id": "vasos",
-      "path": "/home/victorhugo/Documentos/Auditoria_Coracao_3D_2026-09-28/materiais/vasos_pages.json",
+      "path": "materiais/vasos_pages.json",
       "sha256": "bd8e49af4ed8ee73d3580fb5258a5d98bf7ed1420f55d65887fa6a23518e6da7",
       "metodo": "texto previamente extraído, por página física; páginas visuais selecionadas conferidas nesta revisão"
     },
     {
       "id": "C1",
-      "path": "/home/victorhugo/Documentos/My vault/Obsidian vault/Medicina Uem/Anatomia/Aulas Carmem - Circulatório e Respiratório/Transcrições/C1.json",
+      "path": "C1.json",
       "sha256": "ced5766549cc8f70b3ab6222500af22f20e16b1276412b2e92a2f382c983de11",
       "video_source_sha256_informado": "7d4fce4b9965865e224f7d7d6071728eed1be80a70662d90d84d332d306ee94c",
       "duracao_s": 686.3666875,
@@ -59,7 +59,7 @@
     },
     {
       "id": "C2",
-      "path": "/home/victorhugo/Documentos/My vault/Obsidian vault/Medicina Uem/Anatomia/Aulas Carmem - Circulatório e Respiratório/Transcrições/C2.json",
+      "path": "C2.json",
       "sha256": "2a321d4f70c778401a94f6790be27b4357c867e9a9a8ca48b694f09380958bb7",
       "video_source_sha256_informado": "469505ddb5ac50872058066a09fdaa11d94f714291cf31c0b1c8d27c4891abe4",
       "duracao_s": 1615.3693125,
@@ -69,7 +69,7 @@
     },
     {
       "id": "C3",
-      "path": "/home/victorhugo/Documentos/My vault/Obsidian vault/Medicina Uem/Anatomia/Aulas Carmem - Circulatório e Respiratório/Transcrições/C3.json",
+      "path": "C3.json",
       "sha256": "d787d014c8a10362c20f64f7e07481ce09e01a5b19552b337725c9f78e5b60d6",
       "video_source_sha256_informado": "c889bba969525486f26fe002f1310b09f96a22ca76f40c1966195fc4ac8be832",
       "duracao_s": 1256.628,
@@ -146,7 +146,7 @@
       "observacao": "Esquema de níveis de drenagem e linfonodos/ductos; densidade/volumes não são referência realista."
     },
     {
-      "arquivo": "/home/victorhugo/Documentos/My vault/Obsidian vault/Medicina Uem/Anatomia/Aulas Carmem - Circulatório e Respiratório/Quadros/C2-2.jpg",
+      "arquivo": "C2-2.jpg",
       "aula": "C2",
       "horario": "13:27",
       "alvos": [
@@ -162,7 +162,7 @@
       "observacao": "Quadro confirma correspondência com slide coronária esquerda; números/posição individual dos ramos ainda não validados no3D."
     },
     {
-      "arquivo": "/home/victorhugo/Documentos/My vault/Obsidian vault/Medicina Uem/Anatomia/Aulas Carmem - Circulatório e Respiratório/Quadros/C3-1.jpg",
+      "arquivo": "C3-1.jpg",
       "aula": "C3",
       "horario": "00:30",
       "alvos": [
@@ -174,7 +174,7 @@
       "observacao": "Quadro corresponde ao slide57 de pericárdio."
     },
     {
-      "arquivo": "/home/victorhugo/Documentos/My vault/Obsidian vault/Medicina Uem/Anatomia/Aulas Carmem - Circulatório e Respiratório/Quadros/C3-2.jpg",
+      "arquivo": "C3-2.jpg",
       "aula": "C3",
       "horario": "10:28",
       "alvos": [

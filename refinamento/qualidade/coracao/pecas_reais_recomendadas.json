@@ -1,0 +1,112 @@
+{
+  "version": "2026-09-28",
+  "purpose": "Referência visual real por incorporação oficial externa, independente da cena local e da cobertura do roteiro.",
+  "integrationNotes": [
+    "Carregar um único iframe somente após clique, mantendo botão para abrir a página original.",
+    "Mostrar autoria, origem, licença e preparação do espécime junto ao player.",
+    "Não baixar ou extrair os arquivos de renderização; seguir o fluxo oficial de download se disponível.",
+    "Não enviar progresso de estudo ou respostas ao player.",
+    "Não tratar observação geral da peça como identificação validada de todos os alvos."
+  ],
+  "models": [
+    {
+      "id": "umn-heart-612",
+      "title": "Coração humano fixado por perfusão · UMN 612",
+      "sketchfabId": "f6d63aea48a14d27969067f2754c2d3b",
+      "url": "https://sketchfab.com/3d-models/perfusion-fixed-human-heart-anatomy-612-f6d63aea48a14d27969067f2754c2d3b",
+      "originalTitle": "Perfusion Fixed Human Heart Anatomy 612",
+      "trianglesApprox": 500000,
+      "priority": 1,
+      "focus": [
+        "superfície cardíaca",
+        "vasos coronários",
+        "aurícula direita"
+      ],
+      "description": "Peça humana fixada por perfusão. A fonte informa digitalização até dois dias depois da fixação e preservação de cores próximas ao tecido vivo.",
+      "specimen": "Homem de 64 anos, sem doença cardíaca conhecida segundo a fonte; espécime Heart0612.",
+      "limits": [
+        "Peça fixada: não demonstra contração fisiológica.",
+        "Ótima referência superficial; não há segmentação independente validada de cada alvo do roteiro.",
+        "Não preenche as lacunas de pericárdio, esqueleto fibroso ou condução."
+      ],
+      "author": "VisibleHeartLabs",
+      "institution": "University of Minnesota · Visible Heart Laboratories",
+      "institutionUrl": "https://www.vhlab.umn.edu/atlas/",
+      "authorUrl": "https://sketchfab.com/VisibleHeartLabs",
+      "license": "CC Attribution-NonCommercial (rótulo exibido na página)",
+      "embedUrl": "https://sketchfab.com/models/f6d63aea48a14d27969067f2754c2d3b/embed",
+      "loadOnDemand": true,
+      "external": true,
+      "countsTowardLocalCoverage": false,
+      "quizEligible": false,
+      "downloadStatus": "A página pública anuncia download; nenhum arquivo deste modelo foi obtido. Não foi extraída geometria do player.",
+      "accessCheck": "Informação da página oficial indexada verificada em 2026-09-28; a abertura direta pelo serviço de pesquisa retornou HTTP 403. Execução do iframe requer conferência no navegador."
+    },
+    {
+      "id": "umn-heart-188",
+      "title": "Janela do ventrículo direito · UMN 188",
+      "sketchfabId": "d4cc3d373db24d3ca9d08907d620d078",
+      "url": "https://sketchfab.com/3d-models/plastinated-whole-human-heart-188-d4cc3d373db24d3ca9d08907d620d078",
+      "originalTitle": "Plastinated Whole Human Heart #188",
+      "trianglesApprox": 499500,
+      "priority": 2,
+      "focus": [
+        "parede do ventrículo direito",
+        "trabéculas cárneas",
+        "músculos papilares",
+        "valva aórtica em vista superior"
+      ],
+      "description": "Peça humana plastinada com abertura do VD, útil para comparar o relevo interno e a espessura aparente da parede com o modelo didático.",
+      "specimen": "Mulher de 61 anos, sem doença cardíaca conhecida segundo a fonte; espécime Heart0188.",
+      "limits": [
+        "Plastinação e spray de digitalização alteram a aparência da superfície.",
+        "A janela é um corte de preparação, não uma abertura anatômica normal.",
+        "Relevos não foram segmentados nem identificados individualmente no nosso roteiro."
+      ],
+      "author": "VisibleHeartLabs",
+      "institution": "University of Minnesota · Visible Heart Laboratories",
+      "institutionUrl": "https://www.vhlab.umn.edu/atlas/",
+      "authorUrl": "https://sketchfab.com/VisibleHeartLabs",
+      "license": "CC Attribution-NonCommercial (rótulo exibido na página)",
+      "embedUrl": "https://sketchfab.com/models/d4cc3d373db24d3ca9d08907d620d078/embed",
+      "loadOnDemand": true,
+      "external": true,
+      "countsTowardLocalCoverage": false,
+      "quizEligible": false,
+      "downloadStatus": "A página pública anuncia download; nenhum arquivo deste modelo foi obtido. Não foi extraída geometria do player.",
+      "accessCheck": "Informação da página oficial indexada verificada em 2026-09-28; a abertura direta pelo serviço de pesquisa retornou HTTP 403. Execução do iframe requer conferência no navegador."
+    },
+    {
+      "id": "umn-heart-064",
+      "title": "Relação entre as quatro valvas · UMN 064",
+      "sketchfabId": "62abe2315c5648a8abc3d48bcced28bb",
+      "url": "https://sketchfab.com/3d-models/plastinated-human-hear-valve-view-heart0064-62abe2315c5648a8abc3d48bcced28bb",
+      "originalTitle": "Plastinated Human Hear Valve View Heart0064",
+      "trianglesApprox": 200000,
+      "priority": 3,
+      "focus": [
+        "relações entre as quatro valvas",
+        "vista superior da base"
+      ],
+      "description": "Peça plastinada preparada para a vista das quatro valvas. A fonte descreve mitral e aórtica fechadas, tricúspide e pulmonar abertas.",
+      "specimen": "Mulher de 89 anos, com diabetes e histórico de crises convulsivas segundo a fonte; espécime Heart0064.",
+      "limits": [
+        "Não interpretar o estado fixado de todas as valvas como fase normal do ciclo cardíaco.",
+        "Plastinação e spray de digitalização alteram a cor.",
+        "A descrição original contém um provável lapso ao situar trabéculas cárneas no átrio direito; esse trecho não é adotado."
+      ],
+      "author": "VisibleHeartLabs",
+      "institution": "University of Minnesota · Visible Heart Laboratories",
+      "institutionUrl": "https://www.vhlab.umn.edu/atlas/",
+      "authorUrl": "https://sketchfab.com/VisibleHeartLabs",
+      "license": "CC Attribution-NonCommercial (rótulo exibido na página)",
+      "embedUrl": "https://sketchfab.com/models/62abe2315c5648a8abc3d48bcced28bb/embed",
+      "loadOnDemand": true,
+      "external": true,
+      "countsTowardLocalCoverage": false,
+      "quizEligible": false,
+      "downloadStatus": "A página pública anuncia download; nenhum arquivo deste modelo foi obtido. Não foi extraída geometria do player.",
+      "accessCheck": "Informação da página oficial indexada verificada em 2026-09-28; a abertura direta pelo serviço de pesquisa retornou HTTP 403. Execução do iframe requer conferência no navegador."
+    }
+  ]
+}

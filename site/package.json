@@ -1,6 +1,6 @@
 {
   "name": "atlas-cardiorrespiratorio-local",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "type": "module",
   "description": "Atlas local de coração e sistema respiratório com teoria, prática e aulas locais",

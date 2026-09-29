@@ -601,7 +601,9 @@
         "resp_maxilla_r",
         "resp_lacrimal_bone_l",
         "resp_lacrimal_bone_r",
-        "resp_sphenoid_bone"
+        "resp_sphenoid_bone",
+        "resp_major_alar_cartilage_l",
+        "resp_major_alar_cartilage_r"
       ],
       "requirementIds": [
         "R001",

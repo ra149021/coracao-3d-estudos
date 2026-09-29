@@ -1,7 +1,7 @@
 [
   {
     "system": "respiratory",
-    "sha256": "0d4fb455922ad0563712eaab12bb61e1c80ec3dd88eca61ad6f2c78c31515d1e",
+    "sha256": "986b8490cf76a2f0cb9b96a8f6637e3e4a6322acae55ede75ea8c4d6c6c8738a",
     "parts": [
       {
         "id": "resp_mucosa_of_nasal_cavity",
@@ -2998,6 +2998,147 @@
             1911
           ],
           "boundary_edges": 314,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_pulmonary_trunk",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 93,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            61
+          ],
+          "boundary_edges": 29,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_bifurcation_of_pulmonary_trunk",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 472,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            157,
+            103
+          ],
+          "boundary_edges": 48,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_right_pulmonary_artery",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 236,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            130
+          ],
+          "boundary_edges": 24,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_left_pulmonary_artery",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 826,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            425
+          ],
+          "boundary_edges": 24,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_right_superior_pulmonary_vein",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 708,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 1,
+          "component_vertex_counts": [
+            366
+          ],
+          "boundary_edges": 24,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_right_inferior_pulmonary_vein",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 236,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            71,
+            71
+          ],
+          "boundary_edges": 48,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_left_superior_pulmonary_vein",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 354,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 3,
+          "component_vertex_counts": [
+            94,
+            92,
+            27
+          ],
+          "boundary_edges": 72,
+          "nonmanifold_edges": 0
+        }
+      },
+      {
+        "id": "resp_left_inferior_pulmonary_vein",
+        "finite": true,
+        "indices_valid": true,
+        "bounds_match": true,
+        "normals_unit": true,
+        "triangles": 354,
+        "exact_zero_area_triangles": 0,
+        "topology_after_exact_position_weld": {
+          "connected_components_by_vertex_index": 2,
+          "component_vertex_counts": [
+            129,
+            72
+          ],
+          "boundary_edges": 48,
           "nonmanifold_edges": 0
         }
       }

@@ -127,7 +127,7 @@ export function initStudy({ parts, requirements = [], evidence = null, viewer, s
     newButton.textContent = remaining ? 'Iniciar outra rodada' : 'Começar rodada';
     newButton.className = remaining ? 'button' : 'button primary';
     if (session) { mode.value = session.mode; group.value = session.group; }
-    setupStatus.textContent = storageAvailable ? 'O progresso fica salvo apenas neste navegador e neste endereço local.' : 'O navegador não permitiu salvar. O progresso fica disponível enquanto esta página estiver aberta.';
+    setupStatus.textContent = storageAvailable ? 'O progresso fica salvo apenas neste navegador e neste endereço.' : 'O navegador não permitiu salvar. O progresso fica disponível enquanto esta página estiver aberta.';
     setup.showModal();
   }
   function currentPart() { return byId.get(progress.session?.queue?.[0]); }

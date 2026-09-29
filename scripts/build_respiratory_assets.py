@@ -26,6 +26,7 @@ GROUPS = {
     'pleuras': 'Pleura · conjunto', 'respiracao': 'Músculos da respiração',
     'musculos_faringe': 'Músculos da faringe', 'contexto_torax': 'Contexto torácico',
     'contexto_cabeca': 'Contexto ósseo da cabeça', 'musculos_pescoco': 'Músculos supra e infra-hióideos',
+    'vascular_pulmonar': 'Vasos pulmonares proximais',
 }
 COLORS = {
     'nariz': '#c8bba6', 'seios': '#a8c2bc', 'faringe': '#b87878', 'laringe': '#bcc6bd',
@@ -33,6 +34,7 @@ COLORS = {
     'pulmoes': '#c997a0', 'pleuras': '#b5ced0', 'respiracao': '#a86766',
     'musculos_faringe': '#b66f6b', 'contexto_torax': '#d0c6b0',
     'contexto_cabeca': '#d9cdb8', 'musculos_pescoco': '#b87c73',
+    'vascular_pulmonar': '#658ba9',
 }
 PARTS = []
 
@@ -197,6 +199,22 @@ for name, label in [('Right atrium', 'Átrio direito'), ('Right ventricle', 'Ven
         'Câmara cardíaca da mesma fonte e no mesmo registro; incluída para estudar relações torácicas.',
         color='#a96569')
 
+for name, label, color in [
+    ('Pulmonary trunk', 'Tronco pulmonar', '#648cae'),
+    ('Bifurcation of pulmonary trunk', 'Bifurcação do tronco pulmonar', '#648cae'),
+    ('Right pulmonary artery', 'Artéria pulmonar direita', '#648cae'),
+    ('Left pulmonary artery', 'Artéria pulmonar esquerda', '#648cae'),
+    ('Right superior pulmonary vein', 'Veia pulmonar superior direita', '#b87177'),
+    ('Right inferior pulmonary vein', 'Veia pulmonar inferior direita', '#b87177'),
+    ('Left superior pulmonary vein', 'Veia pulmonar superior esquerda', '#b87177'),
+    ('Left inferior pulmonary vein', 'Veia pulmonar inferior esquerda', '#b87177'),
+]:
+    add(name, label, 'vascular_pulmonar', 'CardioVascular41',
+        'Trecho proximal do vaso no registro original do atlas; sem ramos intrapulmonares segmentares separados. '
+        'Azul nas artérias e vermelho nas veias pulmonares são cores didáticas de oxigenação, não texturas do tecido.',
+        color=color, defaultVisible=False, representation='proximal_vessel',
+        quizEligible=name not in ('Pulmonary trunk', 'Bifurcation of pulmonary trunk'))
+
 
 class SourceGLB:
     def __init__(self, name, path=None):
@@ -289,6 +307,13 @@ def main():
         meta['requirementMatches'] = [{'id': r['id'], 'label': r['estrutura'], 'type': r.get('tipo'),
                                        'match': 'source_name_candidate', 'visualValidation': 'pending_individual',
                                        'separateStructure': r in exact} for r in matches]
+        if meta['group'] == 'vascular_pulmonar' and meta['quizEligible']:
+            for region in requirements:
+                if region['id'] in ('R151', 'R152'):
+                    meta['relatedRequirementIds'].append(region['id'])
+                    meta['requirementMatches'].append({'id': region['id'], 'label': region['estrutura'],
+                        'type': region.get('tipo'), 'match': 'regional_context_only',
+                        'visualValidation': 'pending_individual', 'separateStructure': False})
         if exact:
             primary = exact[0]
             meta['requirement'] = {'id': primary['id'], 'label': primary['estrutura'],
@@ -339,6 +364,7 @@ def main():
         'Algumas peças do acervo original são marcadores/coleções; essas não foram exportadas como anatomia.',
         'Variações de ramificação brônquica pertencem ao espécime/atlas representado; não estabelecem padrão universal.',
         'Não há simulação de ventilação, fluxo aéreo, fonação ou movimentos musculares.',
+        'Os vasos pulmonares representam trechos proximais; não individualizam a rede vascular segmentar nem completam todos os componentes das raízes pulmonares.',
     ]
     presets = [
         dict(id='exterior', label='Visão geral', groups=['pulmoes','arvore','laringe','respiracao'], direction=[0,.05,1], transparency=0,
@@ -355,6 +381,8 @@ def main():
              note='A pleura é uma superfície única do acervo. Seus folhetos e recessos não são peças distintas.'),
         dict(id='torax', label='Relações torácicas', groups=['pulmoes','arvore','respiracao','contexto_torax'], direction=[.4,.1,1], transparency=72,
              note='Coração, costelas, esterno, pulmões e diafragma preservam o mesmo registro da fonte.'),
+        dict(id='hilo', label='Hilos e vasos pulmonares', groups=['pulmoes','arvore','vascular_pulmonar'], direction=[0,.1,-1], transparency=85,
+             note='Examine brônquios e vasos proximais com os lobos translúcidos. As raízes também contêm estruturas que esta cena não individualiza.'),
     ]
     sources = []
     for name in sorted(readers):

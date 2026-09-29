@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://threejs.org/docs/pages/GTAOPass.html",
+      "title": "",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 2,
+      "url": "https://threejs.org/docs/pages/OutputPass.html",
+      "title": "",
+      "accessed": "2026-09-28"
+    }
+  ]
+}
