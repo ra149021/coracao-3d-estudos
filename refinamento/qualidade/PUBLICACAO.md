@@ -1,5 +1,11 @@
 # Auditoria de prontidão para publicação
 
+Publicação concluída pelo agente principal: repositório público, GitHub Pages
+com HTTPS obrigatório em https://ra149021.github.io/coracao-3d-estudos/.
+Implantação inicial `16a024e`, execução 36582086261 bem-sucedida. As quatro
+cenas 3D foram carregadas e conferidas pelo endereço público; resultados em
+`VERIFICACAO_QUALIDADE_3D.md` na raiz.
+
 Data: 29/09/2026. Revisão do histórico alcançável até `b392061` e dos arquivos atuais preparados para o próximo commit. Publicação HTTPS/GitHub autorizada pelo usuário; commit, push e implantação a cargo do agente principal.
 
 ## Resultado

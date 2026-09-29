@@ -58,3 +58,18 @@ Capturas do atlas local: `output/playwright/36-heart-quality.png`,
 
 Verificações anteriores de teoria, aulas locais, retomada e servidor permanecem
 registradas em `VERIFICACAO_CARDIORRESPIRATORIO.md`.
+
+## Publicação HTTPS conferida
+
+Endereço: https://ra149021.github.io/coracao-3d-estudos/
+
+- Implantação do commit `16a024e`: workflow 36582086261 concluído com sucesso.
+- GitHub confirma repositório/Pages públicos e HTTPS obrigatório.
+- Página inicial pública: HTTP 200, duas prévias carregadas, 72/175 peças.
+- Quatro cenas públicas: HTTP 200 e estado 3D pronto — coração 72,
+  respiratório 175, HRA 14 e laringe 40; bytes iguais aos catálogos locais.
+- Teoria abre pelo endereço público; sala de aula mostra a indisponibilidade
+  dos originais fora da instalação local e oferece continuar na teoria.
+- Nenhuma exceção JavaScript de página nessas navegações. A consulta de
+  disponibilidade `/local/status` retorna 404 esperado no servidor estático.
+- Captura pública: `output/playwright/42-public-home.png`.
