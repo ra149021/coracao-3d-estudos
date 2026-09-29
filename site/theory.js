@@ -4,7 +4,8 @@ const system=params.get('system')==='respiratory'?'respiratory':'circulatory';
 const key=`atlas:theory:${system}`;
 const normalize=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 let data,chapter,partsById=new Map(),progress={read:{},answers:{}},queue=[],questionIndex=0,reviewedNow=0;
-try{const saved=JSON.parse(localStorage.getItem(key)||'null');if(saved&&typeof saved.read==='object'&&typeof saved.answers==='object')progress=saved;}catch{}
+const record=value=>value&&typeof value==='object'&&!Array.isArray(value);
+try{const saved=JSON.parse(localStorage.getItem(key)||'null');if(record(saved)){if(record(saved.read))progress.read=Object.fromEntries(Object.entries(saved.read).filter(([,value])=>value===true));if(record(saved.answers))progress.answers=Object.fromEntries(Object.entries(saved.answers).filter(([,value])=>record(value)&&['known','review'].includes(value.rating)));}}catch{}
 const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
 const button=(label,cls,handler)=>{const b=el('button',cls,label);b.type='button';b.addEventListener('click',handler);return b;};
 function save(){try{localStorage.setItem(key,JSON.stringify(progress));$('theory-status').textContent='Progresso salvo neste navegador';}catch{$('theory-status').textContent='Progresso disponível somente nesta sessão';}}

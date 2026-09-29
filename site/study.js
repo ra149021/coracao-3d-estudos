@@ -16,7 +16,10 @@ export function initStudy({ parts, requirements = [], evidence = null, viewer, s
   try {
     const legacy = system === 'circulatory' ? localStorage.getItem('heart-atlas:practice:v2:/') || localStorage.getItem('heart-atlas:practice:v2:/index.html') : null;
     const saved = JSON.parse(localStorage.getItem(storageKey) || legacy || 'null');
-    if (saved?.version === 2 && saved.ratings && typeof saved.ratings === 'object') progress = saved;
+    if (saved?.version === 2 && saved.ratings && typeof saved.ratings === 'object' && !Array.isArray(saved.ratings)) {
+      progress.ratings = Object.fromEntries(Object.entries(saved.ratings).filter(([id, rating]) => eligibleIds.has(id) && rating && typeof rating === 'object' && ['known','review'].includes(rating.rating)));
+      progress.session = saved.session;
+    }
   } catch { storageAvailable = false; }
   const validSession = progress.session;
   if (validSession && Array.isArray(validSession.queue) && Array.isArray(validSession.done) && ['identify','find'].includes(validSession.mode)) {

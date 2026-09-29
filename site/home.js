@@ -3,8 +3,9 @@ import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 import {createAnatomyRenderer} from './anatomy-renderer.js';
 let reviewed=0;
-try{for(const system of ['circulatory','respiratory']){reviewed+=JSON.parse(localStorage.getItem(`atlas:practice-summary:${system}`)||'{}').reviewed||0;const progress=JSON.parse(localStorage.getItem(`atlas:theory:${system}`)||'{}');reviewed+=Object.keys(progress.answers||{}).length;}}catch{}
-try{for(const scope of ['larynx','heart-hra'])reviewed+=JSON.parse(localStorage.getItem(`atlas:practice-summary:${scope}`)||'{}').reviewed||0;}catch{}
+function savedRecord(key){try{const value=JSON.parse(localStorage.getItem(key)||'{}');return value&&typeof value==='object'&&!Array.isArray(value)?value:{};}catch{return {};}}
+for(const scope of ['circulatory','respiratory','larynx','heart-hra']){const count=savedRecord(`atlas:practice-summary:${scope}`).reviewed;if(typeof count==='number'&&Number.isFinite(count)&&count>=0)reviewed+=Math.floor(count);}
+for(const system of ['circulatory','respiratory']){const answers=savedRecord(`atlas:theory:${system}`).answers;if(answers&&typeof answers==='object'&&!Array.isArray(answers))reviewed+=Object.values(answers).filter(answer=>answer&&['known','review'].includes(answer.rating)).length;}
 document.getElementById('review-count').textContent=reviewed;
 async function preview(holder){
  const respiratory=holder.dataset.model==='respiratory',root=respiratory?'assets/respiratory/':'assets/';
