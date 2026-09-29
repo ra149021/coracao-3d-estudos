@@ -94,7 +94,7 @@ def accessor(index):
 
 nodes_by_name = {n['name']: i for i, n in enumerate(gltf['nodes']) if 'mesh' in n}
 high_res = {p['name']: p for p in json.loads((ROOT / 'malhas/heart_source/manifest.json').read_text())}
-coverage = json.loads((ROOT / 'matriz_coracao.json').read_text())
+coverage = json.loads((ROOT / 'site/auditoria/matriz_coracao.json').read_text())
 requirements = {row['id']: row for row in coverage['alvos']}
 geometry = []
 alignment = []
@@ -343,10 +343,4 @@ Three.js 0.186.1 — MIT. Cópia da licença em Three-MIT.txt.
 Notas anatômicas: roteiro local e resumo de OpenStax, Anatomy and Physiology 2e,
 19.1 Heart Anatomy. A cena ainda não é uma validação integral do roteiro.
 ''')
-audit = SITE / 'auditoria'
-audit.mkdir(exist_ok=True)
-for name in ['auditoria.html', 'matriz_coracao.csv', 'matriz_coracao.json', 'RELATORIO.md', 'verificacao.json']:
-    shutil.copy2(ROOT / name, audit / name)
-(audit / 'evidencias').mkdir(exist_ok=True)
-shutil.copy2(ROOT / 'evidencias/z_coracao_inspecao.png', audit / 'evidencias/z_coracao_inspecao.png')
 print(json.dumps({'parts': len(geometry), 'triangles': catalog['model']['triangles'], 'glb_bytes': len(blob), 'max_alignment_bbox_delta': max(c['bounding_box_difference_source_units'] for c in alignment)}, indent=2))

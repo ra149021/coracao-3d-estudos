@@ -55,6 +55,7 @@ Acesse `http://127.0.0.1:8765` e mantenha o terminal aberto. Os arquivos docente
 | Local | Conteúdo |
 | --- | --- |
 | `site/` | Aplicação estática, modelos, índices e páginas de slides. |
+| `site/auditoria/` | Relatório, matriz de cobertura e evidências da auditoria. |
 | `scripts/` | Servidor local e preparação dos materiais. |
 | `refinamento/` | Registros de geometria, fontes e cobertura. |
 | [Revisão funcional final](VERIFICACAO_FINAL_SITE.md) | Correções de bugs, progresso, aulas e disponibilidade pública. |

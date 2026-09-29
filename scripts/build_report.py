@@ -3,7 +3,9 @@ import json,csv,html,math
 from collections import Counter
 
 ROOT=Path(__file__).resolve().parents[1]
-d=json.loads((ROOT/'matriz_coracao.json').read_text())
+AUDIT=ROOT/'site/auditoria'
+AUDIT.mkdir(parents=True,exist_ok=True)
+d=json.loads((AUDIT/'matriz_coracao.json').read_text())
 rows=d['alvos'];p=d['resumo']['principal'];e=d['resumo']['complemento_docente']
 counts=Counter(r['status'] for r in rows)
 total=len(rows);potential=counts['geometria_disponivel']+counts['parcial_ou_a_conferir']
@@ -93,7 +95,7 @@ BodyParts3D, © The Database Center for Life Science licensed under CC Attributi
 - `malhas/`: inventários e geometrias extraídas para inspeção.
 - `scripts/`: procedimentos da auditoria.
 '''
-(ROOT/'RELATORIO.md').write_text(text,encoding='utf-8')
+(AUDIT/'RELATORIO.md').write_text(text,encoding='utf-8')
 
 groups=[]
 for group in dict.fromkeys(r['grupo'] for r in rows):
@@ -118,5 +120,5 @@ htmltext='''<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="
 <h2>Inspeção da base disponível</h2><p>Geometria original do Z-Anatomy, renderizada sem acrescentar estruturas. As cordas aparecem incorporadas aos folhetos. Os cortes servem para inspecionar o interior; não são reconstruções de dissecções.</p><img src="evidencias/z_coracao_inspecao.png" alt="Seis vistas renderizadas das câmaras, folhetos e músculos papilares do modelo original">
 <h2>Matriz de estruturas</h2><div class="filters"><input id="q" placeholder="Buscar estrutura, fonte ou identificação"><select id="status"><option value="">Todos os resultados</option value="geometria_disponivel">Geometria localizada</option><option value="parcial_ou_a_conferir">Parcial / a conferir</option><option value="nao_localizado">Não localizado</option></select><select id="scope"><option value="">Roteiro e slides</option value="principal">Roteiro prático</option><option value="complemento_docente">Adições dos slides</option></select></div><p id="count" class="muted"></p><div class="table"><table><thead><tr><th>Item</th><th>Estrutura / fonte</th><th>Resultado</th><th>Evidência e limites</th><th>Trabalho no modelo próprio</th></tr></thead><tbody>'''+''.join(body)+'''</tbody></table></div><p class="muted">Fontes: BodyParts3D / DBCLS (CC BY 4.0) e Z-Anatomy (CC BY-SA 4.0). Ver arquivos de licença e detalhes no relatório.</p></main>
 <script>const q=document.querySelector('#q'),s=document.querySelector('#status'),c=document.querySelector('#scope'),rows=[...document.querySelectorAll('tbody tr')];const norm=t=>t.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();function filter(){let n=0;for(const r of rows){const show=norm(r.textContent).includes(norm(q.value))&&(!s.value||r.dataset.status===s.value)&&(!c.value||r.dataset.scope===c.value);r.hidden=!show;if(show)n++}document.querySelector('#count').textContent=n+' de '+rows.length+' alvos exibidos'}[q,s,c].forEach(x=>x.addEventListener('input',filter));filter();</script></html>'''
-(ROOT/'auditoria.html').write_text(htmltext,encoding='utf-8')
+(AUDIT/'auditoria.html').write_text(htmltext,encoding='utf-8')
 print(json.dumps({'principal':p,'total':total,'minimum_90':minimum,'potential':potential,'remaining_if_partials_pass':gap},ensure_ascii=False))

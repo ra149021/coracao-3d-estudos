@@ -233,8 +233,10 @@ for scope in ['principal','complemento_docente']:
     summary[scope]=counts
 summary['regra_90']='Não satisfeito enquanto a cobertura individual validada não atingir 90%; geometrias disponíveis e parciais ainda exigem conferência anatômica.'
 out={'metodo':requirements['metodo'],'resumo':summary,'alvos':allrows}
-(ROOT/'matriz_coracao.json').write_text(json.dumps(out,ensure_ascii=False,indent=2))
-with (ROOT/'matriz_coracao.csv').open('w',encoding='utf-8-sig',newline='') as f:
+audit=ROOT/'site/auditoria'
+audit.mkdir(parents=True,exist_ok=True)
+(audit/'matriz_coracao.json').write_text(json.dumps(out,ensure_ascii=False,indent=2))
+with (audit/'matriz_coracao.csv').open('w',encoding='utf-8-sig',newline='') as f:
     writer=csv.DictWriter(f,fieldnames=list(allrows[0]));writer.writeheader()
     for row in allrows:writer.writerow({k:'; '.join(v) if isinstance(v,list) else v for k,v in row.items()})
 print(json.dumps(summary,ensure_ascii=False,indent=2))

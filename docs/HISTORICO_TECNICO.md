@@ -27,7 +27,7 @@ modelos locais. As três peças humanas no visualizador oficial requerem interne
 python3 scripts/serve_heart.py --open
 ```
 
-No Linux, também é possível executar `./Abrir_Coracao_3D.sh`. Deixe o terminal
+No Linux, também é possível executar `./Abrir_Atlas_Estudo.sh`. Deixe o terminal
 aberto. Endereço padrão: <http://127.0.0.1:8765>. `Ctrl+C` encerra o servidor.
 O serviço atende apenas o computador local. O HTML aberto diretamente como
 arquivo não consegue carregar o modelo; use o iniciador.
@@ -105,8 +105,8 @@ Os 17 vasos de contexto foram extraídos do mesmo GLB Z, sem ajuste por peça ou
 - `scripts/serve_heart.py`: servidor local com biblioteca padrão.
 - `scripts/build_heart_site_assets.py`: geração do GLB a partir dos dados de origem.
 - `scripts/evaluate_heart_author_surfaces.py`, `prepare_author_heart_candidate.py` e `promote_author_heart.py`: avaliação, comparação e promoção das superfícies cardíacas v0.4 (requerem os acervos originais, Blender Python e NumPy locais). O gerador inicial isoladamente reconstrói a superfície anterior.
-- `matriz_coracao.json` / `.csv`: todos os alvos e suas evidências.
-- `RELATORIO.md`: método da auditoria.
+- `site/auditoria/matriz_coracao.json` / `.csv`: todos os alvos e suas evidências.
+- `site/auditoria/RELATORIO.md`: método da auditoria.
 - `output/playwright/`: evidências de verificação de interface.
 - `refinamento/`: evidências das aulas, registro geométrico e próximas estruturas.
 - `site/study.js`: treino e roteiro.

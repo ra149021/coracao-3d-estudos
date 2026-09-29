@@ -199,7 +199,7 @@ Esta auditoria propõe **15 melhorias**. Na primeira entrega houve apenas leitur
 
 ## Rastreabilidade
 
-Arquivos de referência locais: `matriz_coracao.json`, `requisitos.json`, `site/assets/catalog.json`, `site/assets/practice-evidence.json`, `site/assets/circulatory-theory.json`; arquivos homólogos respiratórios; catálogo laríngeo; `refinamento/geometria/README.md`; `refinamento/respiratorio/geometria/README.md`. As páginas citadas são físicas, 1-based, nas fontes `roteiro`, `coracao`, `vasos`, `respiratorio`.
+Arquivos de referência locais: `site/auditoria/matriz_coracao.json`, `requisitos.json`, `site/assets/catalog.json`, `site/assets/practice-evidence.json`, `site/assets/circulatory-theory.json`; arquivos homólogos respiratórios; catálogo laríngeo; `refinamento/geometria/README.md`; `refinamento/respiratorio/geometria/README.md`. As páginas citadas são físicas, 1-based, nas fontes `roteiro`, `coracao`, `vasos`, `respiratorio`.
 
 Pranchas conferidas: `refinamento/geometria/registro_inspecao.png`, `vascular_inspecao.png`; `refinamento/respiratorio/geometria/inspecao_geometrica.png`, `larynx_inspecao.png`. A redação das ações distingue observação dessas pranchas de hipóteses que ainda pedem inspeção.
 

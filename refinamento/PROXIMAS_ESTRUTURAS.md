@@ -125,7 +125,7 @@ Os 21 alvos abaixo já têm candidatos nomeados no acervo local. Priorizar conti
 
 ## Proveniência da inspeção
 
-- `matriz_coracao.json`: fonte da associação entre requisitos e candidatos, não prova geométrica atual.
+- `site/auditoria/matriz_coracao.json`: fonte da associação entre requisitos e candidatos, não prova geométrica atual.
 - `malhas/z_blend_inventory.json`: objetos MESH e CURVE; somente superfícies não vazias contam como candidatos.
 - `malhas/bp3d_inventory.json`: conceitos FMA e elementos OBJ efetivamente presentes.
 - `malhas/z_fbx_gltf.json`: nomes e índices de nós exportados; índices pertencem a esse arquivo, não ao GLB final do site.

@@ -38,7 +38,7 @@ A referência local UMN MC_VALVES continua excluída porque sua redistribuição
 ## Sanitização efetuada
 
 - `refinamento/aulas_escopo.json`: nove caminhos absolutos substituídos por referências internas relativas ou nomes de arquivos. Dez hashes de origem preservados.
-- `verificacao.json`: três caminhos de PDFs substituídos por nomes dos arquivos; três hashes preservados.
+- `site/auditoria/verificacao.json`: três caminhos de PDFs substituídos por nomes dos arquivos; três hashes preservados.
 - `refinamento/geometria/README.md` e `refinamento/respiratorio/geometria/README.md`: nove comandos usam `$HOME` com aspas.
 - `refinamento/respiratorio/conteudo/build_content.py`: constantes `SRC` e `VAULT` usam `Path.home()`; os caminhos resolvidos nesta instalação permanecem iguais. Sintaxe Python conferida sem executar a geração de conteúdo.
 
