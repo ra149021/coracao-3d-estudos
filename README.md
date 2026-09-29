@@ -9,7 +9,7 @@ didáticos. **O modelo ainda não cobre integralmente o roteiro.**
 
 O GitHub Pages serve os modelos, a teoria e os exercícios.
 
-**Integração de aulas preparada localmente em 29/09/2026; publicação dos materiais adicionais pendente de confirmação.** O progresso fica no
+**Aulas gravadas e slides integrados em 29/09/2026, com publicação autorizada por Victor.** O progresso fica no
 navegador de cada pessoa. A sala de aulas reúne sete videoaulas e seis documentos da professora Carmem: 354 páginas de slides e roteiro. As páginas são consultadas no próprio site; vídeos e PDFs originais ficam na release `aulas-v1`. As transcrições são automáticas e pesquisáveis.
 Alterações enviadas para `main` atualizam o site pelo workflow `Publicar atlas`.
 

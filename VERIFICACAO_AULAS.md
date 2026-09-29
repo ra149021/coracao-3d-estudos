@@ -18,4 +18,4 @@ Verificações realizadas:
 
 Evidências locais, ignoradas pelo Git: `output/playwright/aula-local-slides-mobile.png` e `output/playwright/aula-local-video.png`.
 
-Publicação dos novos materiais aguardando confirmação explícita após bloqueio pela revisão automática. Nenhum material adicional foi enviado nesta etapa. O comportamento online e a implantação precisam ser verificados após a publicação.
+Victor confirmou explicitamente a publicação pública dos sete vídeos e seis documentos em 29/09/2026. Os arquivos são publicados na release `aulas-v1`; as páginas e os índices integram o GitHub Pages. A implantação e os links públicos serão conferidos após o envio.
