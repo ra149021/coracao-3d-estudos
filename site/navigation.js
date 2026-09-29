@@ -10,6 +10,6 @@ function closeMenu(){toggle.setAttribute('aria-expanded','false');nav.classList.
 toggle.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));nav.classList.toggle('nav-open',open);});
 nav.addEventListener('keydown',event=>{if(event.key==='Escape'&&toggle.getAttribute('aria-expanded')==='true'){closeMenu();toggle.focus();}});
 nav.append(toggle,items);document.body.prepend(nav);
-const css=document.createElement('link');css.rel='stylesheet';css.href='shell.css';document.head.append(css);
+if(!document.querySelector('link[rel="stylesheet"][href="shell.css"]')){const css=document.createElement('link');css.rel='stylesheet';css.href='shell.css';document.head.append(css);}
 const skip=document.createElement('a');skip.className='skip-link';skip.href='#main-content';skip.textContent='Ir para o conteúdo';document.body.prepend(skip);
 const main=document.querySelector('main');if(main){main.id='main-content';main.tabIndex=-1;}
