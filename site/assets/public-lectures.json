@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "author": "Material docente · Carmem / UEM",
+  "videos": [
+    {
+      "id": "R1",
+      "title": "Respiratório - Parte 1",
+      "duration": 705.791667,
+      "url": "https://github.com/ra149021/coracao-3d-estudos/releases/download/aulas-v1/R1.mp4",
+      "transcriptUrl": "assets/lectures/transcripts/R1.json",
+      "bytes": 60519065,
+      "sha256": "65c036c72813d6db23ebd78eb59f2f43cbda84c84e7bcb1825e2173eac8f5144",
+      "resolution": "1920×1080",
+      "format": "H.264 / AAC",
+      "fps": 12
+    },
+    {
+      "id": "R2",
+      "title": "Respiratório - Parte 2",
+      "duration": 2755.833333,
+      "url": "https://github.com/ra149021/coracao-3d-estudos/releases/download/aulas-v1/R2.mp4",
+      "transcriptUrl": "assets/lectures/transcripts/R2.json",
+      "bytes": 239631070,
+      "sha256": "c5c6872c978dd88bc5b2165ce9559f0fafa47e4deb4ace575efcd6c92fe8411d",
+      "resolution": "1920×1080",
+      "format": "H.264 / AAC",
+      "fps": 12
+    },
+    {
+      "id": "R3",
+      "title": "Respiratório - Parte 3",
+      "duration": 417.166667,
+      "url": "https://github.com/ra149021/coracao-3d-estudos/releases/download/aulas-v1/R3.mp4",
+      "transcriptUrl": "assets/lectures/transcripts/R3.json",
+      "bytes": 35809874,
+      "sha256": "b3c40394ea265179a8bbde9ea915f4058516dd6a9e8ad885d793721e23273f25",
+      "resolution": "1920×1080",
+      "format": "H.264 / AAC",
+      "fps": 12
+    },
+    {
+      "id": "R4",
+      "title": "Respiratório - Parte 4",
+      "duration": 1648.875,
+      "url": "https://github.com/ra149021/coracao-3d-estudos/releases/download/aulas-v1/R4.mp4",
+      "transcriptUrl": "assets/lectures/transcripts/R4.json",
+      "bytes": 140669824,
+      "sha256": "3daef0cad60ccb4c8d2876e84b49b89fcdae0552118a9176c6afb3a2fa173123",
+      "resolution": "1920×1080",
+      "format": "H.264 / AAC",
+      "fps": 12
+    },
+    {
+      "id": "C1",
+      "title": "Circulatório - Vasos 1",
+      "duration": 686.416667,
+      "url": "https://github.com/ra149021/coracao-3d-estudos/releases/download/aulas-v1/C1.mp4",
+      "transcriptUrl": "assets/lectures/transcripts/C1.json",
+      "bytes": 57071910,
+      "sha256": "eb39f6ec71a125d2395015f3b46604d887e51e0f730e64d38a38673c450433a7",
+      "resolution": "1920×1080",
+      "format": "H.264 / AAC",
+      "fps": 12
+    },
+    {
+      "id": "C2",
+      "title": "Circulatório - Vasos 2",
+      "duration": 1615.416667,
+      "url": "https://github.com/ra149021/coracao-3d-estudos/releases/download/aulas-v1/C2.mp4",
+      "transcriptUrl": "assets/lectures/transcripts/C2.json",
+      "bytes": 134949960,
+      "sha256": "d4a96efdcadf5bc9dfc29e6679007c17f07d82bd2e0082a91c7c9c3b508e2f83",
+      "resolution": "1920×1080",
+      "format": "H.264 / AAC",
+      "fps": 12
+    },
+    {
+      "id": "C3",
+      "title": "Circulatório - Aula de 03-09-2026",
+      "duration": 1256.666667,
+      "url": "https://github.com/ra149021/coracao-3d-estudos/releases/download/aulas-v1/C3.mp4",
+      "transcriptUrl": "assets/lectures/transcripts/C3.json",
+      "bytes": 102961112,
+      "sha256": "39763e2373534709ec8858b3023dbbfc6c2a0323598970185fa395785391589a",
+      "resolution": "1920×1080",
+      "format": "H.264 / AAC",
+      "fps": 12
+    }
+  ],
+  "notice": "Cópias web das videoaulas. Publicação autorizada pelo usuário, que confirmou autorização docente. O material tem autoria própria e não integra as licenças das malhas ou figuras do atlas."
+}

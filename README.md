@@ -7,9 +7,10 @@ didáticos. **O modelo ainda não cobre integralmente o roteiro.**
 
 **[Abrir o atlas por HTTPS](https://ra149021.github.io/coracao-3d-estudos/)**
 
-O GitHub Pages serve os modelos, a teoria e os exercícios. O progresso fica no
-navegador de cada pessoa. Vídeos, PDFs e páginas docentes originais continuam
-exclusivos da instalação local; não estão no repositório nem no site público.
+O GitHub Pages serve os modelos, a teoria e os exercícios.
+
+**Integração de aulas preparada localmente em 29/09/2026; publicação dos materiais adicionais pendente de confirmação.** O progresso fica no
+navegador de cada pessoa. A sala de aulas reúne sete videoaulas e seis documentos da professora Carmem: 354 páginas de slides e roteiro. As páginas são consultadas no próprio site; vídeos e PDFs originais ficam na release `aulas-v1`. As transcrições são automáticas e pesquisáveis.
 Alterações enviadas para `main` atualizam o site pelo workflow `Publicar atlas`.
 
 ## Abrir localmente
@@ -53,7 +54,7 @@ A pedido do usuário, o escopo integra prática, teoria e aulas dos dois sistema
 
 - **4 cenas interativas:** 72 peças de coração/contexto, 175 do respiratório Z-Anatomy, 40 de laringe BodyParts3D e 14 do coração HRA. Os conjuntos de fontes diferentes mantêm suas montagens independentes.
 - **26 unidades de teoria e 94 questões originais:** 14 unidades/36 questões circulatórias; 12/58 respiratórias. Referências com páginas e horários, objetivos, tabelas, busca, revisão e progresso local.
-- **Aulas e materiais locais:** 6 documentos, 354 páginas e 7 vídeos; transcrições pesquisáveis, velocidade e retomada. Os arquivos docentes originais e páginas renderizadas ficam fora do Git.
+- **Aulas e materiais:** 6 documentos, 354 páginas e 7 vídeos; transcrições pesquisáveis, velocidade e retomada. Vídeos e PDFs ficam na release; páginas renderizadas e transcrições integram o site.
 - **Prática:** 178 alvos cardíacos e 222 respiratórios. O respiratório deriva dos slides disponíveis e inclui complemento identificado; não é um roteiro oficial de prova confirmado.
 - **Cobertura respiratória na cena principal:** 85 alvos com peça associada, 71 com contexto parcial e 66 pendentes. Esses estados não certificam validação anatômica. Recessos pleurais, superfícies, espaços e microestruturas exigem figuras e teoria.
 - **Navegação:** início, atlas, teoria e sala de aula. Rotação, seleção, isolamento, transparência, cortes, treino de identificação e links entre o texto e as peças.

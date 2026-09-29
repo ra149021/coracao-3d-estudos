@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "documents": [
+    {
+      "id": "coracao",
+      "pages": 75,
+      "pageBaseUrl": "assets/lectures/slides/coracao",
+      "pdfUrl": "https://github.com/ra149021/coracao-3d-estudos/releases/download/aulas-v1/coracao.pdf",
+      "bytes": 6426386,
+      "sha256": "c2db9c15beb6e65f55520225dc4f1d1e87edf2c67e4c2e1f49ca9e1f0c0c8e26"
+    },
+    {
+      "id": "vasos",
+      "pages": 44,
+      "pageBaseUrl": "assets/lectures/slides/vasos",
+      "pdfUrl": "https://github.com/ra149021/coracao-3d-estudos/releases/download/aulas-v1/vasos.pdf",
+      "bytes": 3595777,
+      "sha256": "773ed6fd8e5d001af6433be7ae324b5fde6fb985691ad87bd6a9dfe8d69cc596"
+    },
+    {
+      "id": "linfatico",
+      "pages": 56,
+      "pageBaseUrl": "assets/lectures/slides/linfatico",
+      "pdfUrl": "https://github.com/ra149021/coracao-3d-estudos/releases/download/aulas-v1/linfatico.pdf",
+      "bytes": 4481750,
+      "sha256": "36aed27de87304a3d8223811e61612e9cd5288e8e4be0bf2c0c11c08463fe42e"
+    },
+    {
+      "id": "respiratorio",
+      "pages": 144,
+      "pageBaseUrl": "assets/lectures/slides/respiratorio",
+      "pdfUrl": "https://github.com/ra149021/coracao-3d-estudos/releases/download/aulas-v1/respiratorio.pdf",
+      "bytes": 13324691,
+      "sha256": "73805e01372d2726909176ba018b2c5ddc8d9044261defb7be3fab2f1d365e66"
+    },
+    {
+      "id": "roteiro",
+      "pages": 5,
+      "pageBaseUrl": "assets/lectures/slides/roteiro",
+      "pdfUrl": "https://github.com/ra149021/coracao-3d-estudos/releases/download/aulas-v1/roteiro.pdf",
+      "bytes": 257993,
+      "sha256": "6191d11f20d1799b3d71fc5392042a7dd7b76bd7a7b86f7647da1200f98058f0"
+    },
+    {
+      "id": "mediastino",
+      "pages": 30,
+      "pageBaseUrl": "assets/lectures/slides/mediastino",
+      "pdfUrl": "https://github.com/ra149021/coracao-3d-estudos/releases/download/aulas-v1/mediastino.pdf",
+      "bytes": 2932706,
+      "sha256": "a87d671c8bd386348834cb35c243b11463b8af92492c9d1cce3b21a8a875c493"
+    }
+  ],
+  "notice": "Material docente · Carmem / UEM. Páginas e legendas preservadas; autoria independente das licenças das malhas do atlas."
+}
