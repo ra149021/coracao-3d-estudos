@@ -14,3 +14,49 @@
 .tool-card span,.tool-note p,.chapter-visual a,.theory-sidebar>.inline-note{font-size:12px;color:#53614f}
 @media(max-width:720px){.lesson-section p,.lesson-section li,.chapter-summary{font-size:15px}.chapter-title{font-size:29px}}
 @media print{.lesson-section p,.lesson-section li{font-size:11pt}}
+
+/* Figures belong to their section; only the selected pages load. */
+.lesson-figures{margin:22px 0;border:1px solid var(--line);border-radius:10px;padding:14px;background:#f8f8f1;min-width:0}
+.figure-controls{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-bottom:14px}
+.figure-field{display:flex;flex-direction:column;gap:6px;flex:1 1 190px;min-width:0;font-size:12px;color:#53614f}
+.figure-field select{width:100%;min-width:0;max-width:100%;padding:9px;border:1px solid var(--line);border-radius:6px;background:var(--panel);font:inherit;color:var(--ink)}
+.figure-compare-toggle{display:flex;align-items:center;gap:8px;font-size:12px;color:#53614f;cursor:pointer}
+.figure-compare-toggle input{accent-color:#546d4d}
+.figure-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:14px;align-items:start}
+.figure-grid.is-comparison{grid-template-columns:repeat(2,minmax(0,1fr))}
+.teaching-figure{margin:0;min-width:0}
+.figure-image-link{display:block;color:inherit;text-decoration:none}
+.teaching-figure img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:5px;background:white}
+.teaching-figure figcaption{margin-top:8px;font-size:12px;line-height:1.7;color:#53614f;overflow-wrap:anywhere}
+.teaching-figure figcaption a{color:#695b49;text-decoration:underline;text-underline-offset:3px}
+.figure-description{display:block;margin-bottom:4px}
+.lesson-section .figure-note,.figure-note{font-size:11px;line-height:1.6;color:#695b49;margin:12px 0 0}
+.figure-unavailable{border:1px dashed var(--line);border-radius:6px;padding:16px;font-size:13px;line-height:1.6}
+.figure-field[hidden],.figure-unavailable[hidden],.teaching-figure img[hidden]{display:none}
+.visual-review{border-color:#b6c8aa;background:#edf2e7;color:#425b3d}
+.theory-sidebar .visual-review{margin-top:5px}
+.chapter-recall .visual-review{background:#edf2e7;color:#425b3d}
+.theory-requirements{margin:22px 0;padding:15px;border:1px solid var(--line);border-radius:9px;background:#f5f5ed}
+.theory-requirements summary{font-size:14px;line-height:1.6;cursor:pointer;color:#425b3d}
+.theory-requirements details{border-top:1px solid var(--line);padding:12px 0;margin-top:10px}
+.theory-requirements a,.theory-views a,.theory-section-connections a{color:#69424a;overflow-wrap:anywhere}
+.theory-requirements p,.theory-requirements li{font-size:13px;line-height:1.8}
+.theory-views,.theory-section-connections{border:1px solid var(--line);border-radius:9px;margin:20px 0;padding:16px;background:#f3f5ef}
+.theory-views h2,.theory-section-connections h3{font-size:18px;color:#425b3d;margin:0 0 12px}
+.theory-views p,.theory-section-connections p{font-size:13px;line-height:1.8;color:#53614f}
+.theory-view-links{display:flex;flex-wrap:wrap;gap:10px}
+.theory-view-links a{display:block;padding:9px 12px;border:1px solid var(--line);border-radius:6px;background:var(--panel);font-size:13px}
+.theory-requirement-list{padding:0;list-style:none}
+.theory-requirement-list li{border-top:1px solid var(--line);padding:12px 0}
+.theory-requirement-status{display:inline-block;border-radius:5px;padding:3px 7px;margin:5px 8px;font-size:11px;color:#53614f;background:#e5eadc}
+.theory-requirement-status.pending{background:#f3e5df;color:#754b44}
+.theory-requirement-status.related{background:#ede8d9;color:#6a5c3d}
+.theory-requirement-source{display:block;font-size:12px;color:#695b49;margin:5px 0}
+.theory-specimen-observation{display:block;margin-top:12px;font-size:14px;color:#425b3d}
+.theory-specimens h3{font-size:18px;color:#425b3d;margin:20px 0 12px}
+.theory-specimen-card{padding:14px;border:1px solid var(--line);border-radius:8px;margin:12px 0;background:var(--panel)}
+.theory-specimen-card h3{margin:0 0 9px;font-size:16px;color:#69424a}
+.theory-specimen-card p,.theory-specimen-card li{font-size:13px;line-height:1.75}
+.theory-specimen-card a{display:inline-block;margin-top:8px;font-size:13px;color:#69424a}
+@media(max-width:720px){.figure-grid.is-comparison{grid-template-columns:minmax(0,1fr)}.lesson-figures{padding:10px}.theory-requirements,.theory-views,.theory-section-connections{padding:12px}.recall-dialog .figure-grid.is-comparison{grid-template-columns:minmax(0,1fr)}.theory-sidebar>#review-counts{display:block}}
+@media print{.figure-controls,.figure-note{display:none}.lesson-figures{padding:0;border:0;background:none}.teaching-figure{break-inside:avoid}.theory-views,.theory-section-connections{background:none}.theory-requirements{display:none}.theory-specimen-card a::after{content:' (' attr(href) ')';font-size:9pt}}

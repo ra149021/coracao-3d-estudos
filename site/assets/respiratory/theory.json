@@ -129,6 +129,16 @@
               "source": "R1",
               "time": "01:27–03:52"
             }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 4
+            },
+            {
+              "source": "respiratorio",
+              "page": 125
+            }
           ]
         },
         {
@@ -168,6 +178,16 @@
             {
               "source": "R3",
               "time": "02:44–06:29"
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 6
+            },
+            {
+              "source": "respiratorio",
+              "page": 8
             }
           ]
         },
@@ -220,7 +240,17 @@
                 "Um pulmão ou brônquio é reconhecível na peça; pneumócitos e barreira de difusão exigem imagem de outra escala."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 7
+            },
+            {
+              "source": "respiratorio",
+              "page": 8
+            }
+          ]
         },
         {
           "heading": "Reconhecer sem depender da cor",
@@ -245,6 +275,17 @@
             {
               "source": "respiratorio",
               "page": 131
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 92
+            },
+            {
+              "source": "respiratorio",
+              "page": 131,
+              "caption": "Esquema de microanatomia: compare pneumócitos, capilar e sentido das trocas gasosas."
             }
           ]
         }
@@ -390,6 +431,16 @@
               "source": "R2",
               "time": "00:03–02:15"
             }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 11
+            },
+            {
+              "source": "respiratorio",
+              "page": 14
+            }
           ]
         },
         {
@@ -441,7 +492,17 @@
                 "Não confundir a crista galli, intracraniana, com uma concha nasal."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 17
+            },
+            {
+              "source": "respiratorio",
+              "page": 19
+            }
+          ]
         },
         {
           "heading": "Concha não é meato",
@@ -451,6 +512,16 @@
           ],
           "bullets": [],
           "references": [
+            {
+              "source": "respiratorio",
+              "page": 19
+            },
+            {
+              "source": "respiratorio",
+              "page": 36
+            }
+          ],
+          "figures": [
             {
               "source": "respiratorio",
               "page": 19
@@ -504,6 +575,16 @@
             {
               "source": "R2",
               "time": "07:15–15:35"
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 20
+            },
+            {
+              "source": "respiratorio",
+              "page": 24
             }
           ]
         }
@@ -678,6 +759,16 @@
               "source": "R2",
               "time": "15:35–19:42"
             }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 34
+            },
+            {
+              "source": "respiratorio",
+              "page": 35
+            }
           ]
         },
         {
@@ -737,7 +828,13 @@
                 "É uma via de drenagem lacrimal, não um seio paranasal."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 36
+            }
+          ]
         },
         {
           "heading": "Bolha e hiato: reconhecer relações",
@@ -747,6 +844,16 @@
           ],
           "bullets": [],
           "references": [
+            {
+              "source": "respiratorio",
+              "page": 36
+            },
+            {
+              "source": "respiratorio",
+              "page": 37
+            }
+          ],
+          "figures": [
             {
               "source": "respiratorio",
               "page": 36
@@ -888,7 +995,17 @@
                 "Segue inferiormente ao esôfago, próximo à borda inferior da cricóidea/C6."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 42
+            },
+            {
+              "source": "respiratorio",
+              "page": 43
+            }
+          ]
         },
         {
           "heading": "Nasofaringe e orelha média",
@@ -908,6 +1025,16 @@
             },
             {
               "source": "openstax_ear"
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 44
+            },
+            {
+              "source": "respiratorio",
+              "page": 45
             }
           ]
         },
@@ -938,6 +1065,17 @@
             {
               "source": "R2",
               "time": "23:26–25:07"
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 46
+            },
+            {
+              "source": "respiratorio",
+              "page": 72,
+              "caption": "Compare a posição das pregas e dos espaços laríngeos no corte e na vista superior."
             }
           ]
         },
@@ -971,6 +1109,16 @@
             },
             {
               "source": "uams_nerves"
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 47
+            },
+            {
+              "source": "respiratorio",
+              "page": 49
             }
           ]
         }
@@ -1124,6 +1272,16 @@
               "source": "respiratorio",
               "page": 64
             }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 53
+            },
+            {
+              "source": "respiratorio",
+              "page": 64
+            }
           ]
         },
         {
@@ -1187,7 +1345,17 @@
                 "O pecíolo é a extremidade inferior; as valéculas são depressões entre raiz da língua e epiglote, não furos na cartilagem."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 55
+            },
+            {
+              "source": "respiratorio",
+              "page": 64
+            }
+          ]
         },
         {
           "heading": "Movimento depende da articulação",
@@ -1213,6 +1381,16 @@
               "source": "utah_larynx",
               "page": 79
             }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 57
+            },
+            {
+              "source": "respiratorio",
+              "page": 64
+            }
           ]
         },
         {
@@ -1233,6 +1411,16 @@
               "source": "respiratorio",
               "page": 57
             },
+            {
+              "source": "respiratorio",
+              "page": 62
+            },
+            {
+              "source": "respiratorio",
+              "page": 65
+            }
+          ],
+          "figures": [
             {
               "source": "respiratorio",
               "page": 62
@@ -1386,6 +1574,18 @@
             {
               "source": "uams_head"
             }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 72,
+              "caption": "Compare a posição das pregas e dos espaços laríngeos no corte e na vista superior."
+            },
+            {
+              "source": "respiratorio",
+              "page": 73,
+              "caption": "Compare a abertura entre as pregas nas imagens endoscópicas; os números não classificam fases."
+            }
           ]
         },
         {
@@ -1439,7 +1639,17 @@
                 "Integra a massa muscular da prega vocal."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 66
+            },
+            {
+              "source": "respiratorio",
+              "page": 70
+            }
+          ]
         },
         {
           "heading": "Fonação e fechamento protetor",
@@ -1472,6 +1682,17 @@
             {
               "source": "R2",
               "time": "35:02–40:48"
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 70
+            },
+            {
+              "source": "respiratorio",
+              "page": 72,
+              "caption": "Compare a posição das pregas e dos espaços laríngeos no corte e na vista superior."
             }
           ]
         },
@@ -1512,7 +1733,13 @@
                 "Direito contorna subclávia direita; esquerdo contorna arco aórtico."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 81
+            }
+          ]
         },
         {
           "heading": "Irrigação e relações com a tireoide",
@@ -1533,6 +1760,16 @@
             {
               "source": "respiratorio",
               "page": 81
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 79
+            },
+            {
+              "source": "respiratorio",
+              "page": 80
             }
           ]
         }
@@ -1684,6 +1921,55 @@
         "R215",
         "R216",
         "R222"
+      ],
+      "visualRecall": [
+        {
+          "id": "resp_06_visual_01",
+          "question": "Com as legendas originais preservadas na página 72, percorra o corte de cima para baixo e explique a posição relativa de vestíbulo, prega vestibular, ventrículo, prega vocal e cavidade infraglótica.",
+          "answer": "O vestíbulo vai do ádito às pregas vestibulares. A prega vestibular está superior à vocal; o ventrículo laríngeo fica entre as duas. A cavidade infraglótica fica abaixo das pregas vocais e continua com a traqueia.",
+          "explanation": "Compare tecido e espaço: as pregas delimitam regiões da cavidade, enquanto o ventrículo é um espaço entre pregas. Os componentes vocais do 3D não demonstram automaticamente todo o revestimento interno.",
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 72,
+              "caption": "Compare a posição das pregas e dos espaços laríngeos no corte e na vista superior."
+            }
+          ],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 72
+            }
+          ]
+        },
+        {
+          "id": "resp_06_visual_02",
+          "question": "Compare a vista superior da página 72 com as imagens da página 73, mantendo as legendas e a numeração originais. Explique a diferença entre prega vocal, rima da glote e glote, descrevendo apenas as diferenças visíveis de abertura.",
+          "answer": "As pregas vocais são os elementos de tecido; a rima é a abertura entre elas. Glote compreende pregas vocais e rima. Compare maior ou menor afastamento das pregas para descrever a abertura, sem atribuir uma fase fisiológica pelo número do quadro.",
+          "explanation": "As imagens permitem comparar forma e abertura. A numeração não funciona como gabarito de respiração ou fonação, e a comparação não equivale a identificação sem legendas.",
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 72,
+              "caption": "Compare a posição das pregas e dos espaços laríngeos no corte e na vista superior."
+            },
+            {
+              "source": "respiratorio",
+              "page": 73,
+              "caption": "Compare a abertura entre as pregas nas imagens endoscópicas; os números não classificam fases."
+            }
+          ],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 72
+            },
+            {
+              "source": "respiratorio",
+              "page": 73
+            }
+          ]
+        }
       ]
     },
     {
@@ -1720,6 +2006,16 @@
               "source": "R3",
               "time": "00:00–01:36"
             }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 85
+            },
+            {
+              "source": "respiratorio",
+              "page": 86
+            }
           ]
         },
         {
@@ -1740,6 +2036,16 @@
             },
             {
               "source": "uams_thorax"
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 84
+            },
+            {
+              "source": "respiratorio",
+              "page": 85
             }
           ]
         },
@@ -1793,7 +2099,17 @@
                 "Percorre um trajeto mais longo até o hilo"
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 90
+            },
+            {
+              "source": "respiratorio",
+              "page": 91
+            }
+          ]
         },
         {
           "heading": "Da cartilagem à parede bronquiolar",
@@ -1822,6 +2138,16 @@
             {
               "source": "R3",
               "time": "05:14–06:29"
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 95
+            },
+            {
+              "source": "respiratorio",
+              "page": 99
             }
           ]
         }
@@ -1946,6 +2272,16 @@
               "source": "R3",
               "time": "04:11–05:14"
             }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 92
+            },
+            {
+              "source": "respiratorio",
+              "page": 93
+            }
           ]
         },
         {
@@ -2016,7 +2352,13 @@
                 "Basal posterior"
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 92
+            }
+          ]
         },
         {
           "heading": "Pulmão esquerdo: siga a convenção do slide93",
@@ -2081,7 +2423,13 @@
                 "Basal posterior"
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 93
+            }
+          ]
         },
         {
           "heading": "Como lidar com variação e treinar",
@@ -2102,6 +2450,16 @@
             {
               "source": "respiratorio",
               "page": 95
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 92
+            },
+            {
+              "source": "respiratorio",
+              "page": 93
             }
           ]
         }
@@ -2283,6 +2641,16 @@
               "source": "respiratorio",
               "page": 105
             }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 103
+            },
+            {
+              "source": "respiratorio",
+              "page": 105
+            }
           ]
         },
         {
@@ -2317,7 +2685,17 @@
                 "Oblíqua separa os dois; incisura cardíaca e língula pertencem à região do lobo superior."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 103
+            },
+            {
+              "source": "respiratorio",
+              "page": 104
+            }
+          ]
         },
         {
           "heading": "Hilo é uma região; raiz é um conjunto",
@@ -2342,6 +2720,16 @@
             {
               "source": "R4",
               "time": "03:00–05:16"
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 105
+            },
+            {
+              "source": "respiratorio",
+              "page": 106
             }
           ]
         },
@@ -2381,7 +2769,17 @@
                 "Relacione a impressão maior ao coração e diferencie incisura de impressão cardíaca."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 108
+            },
+            {
+              "source": "respiratorio",
+              "page": 109
+            }
+          ]
         }
       ],
       "recall": [
@@ -2528,6 +2926,18 @@
               "source": "R4",
               "time": "05:16–07:40"
             }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 110,
+              "caption": "O esquema de balões ajuda a comparar os folhetos e o espaço pleural."
+            },
+            {
+              "source": "respiratorio",
+              "page": 112,
+              "caption": "Compare a pleura na parede torácica com o revestimento da superfície pulmonar."
+            }
           ]
         },
         {
@@ -2580,7 +2990,17 @@
                 "Membrana suprapleural, ou fáscia de Sibson, como reforço."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 113
+            },
+            {
+              "source": "respiratorio",
+              "page": 115
+            }
+          ]
         },
         {
           "heading": "Recessos e ligamento pulmonar",
@@ -2600,6 +3020,17 @@
             },
             {
               "source": "uams_thorax"
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 117
+            },
+            {
+              "source": "respiratorio",
+              "page": 118,
+              "caption": "Compare os limites costodiafragmático e costomediastinal no esquema docente."
             }
           ]
         },
@@ -2630,6 +3061,16 @@
             {
               "source": "R4",
               "time": "16:45–17:14"
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 119
+            },
+            {
+              "source": "respiratorio",
+              "page": 128
             }
           ]
         }
@@ -2716,6 +3157,64 @@
         "R172",
         "R182",
         "R183"
+      ],
+      "visualRecall": [
+        {
+          "id": "resp_10_visual_01",
+          "question": "Com as legendas originais preservadas, compare o esquema da página 110 com as vistas da página 112: explique qual folheto acompanha o pulmão, qual reveste a parede e onde fica a cavidade pleural.",
+          "answer": "A pleura visceral adere ao pulmão e acompanha as fissuras; a parietal reveste parede torácica, diafragma e face lateral do mediastino. Entre ambas está a cavidade pleural, um espaço potencial com pequena quantidade de líquido.",
+          "explanation": "Os folhetos tornam-se contínuos na raiz. A distância ampliada no desenho serve para mostrar camadas; não indica uma cavidade normalmente cheia de ar nem certifica a separação dos folhetos no 3D.",
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 110,
+              "caption": "O esquema de balões ajuda a comparar os folhetos e o espaço pleural."
+            },
+            {
+              "source": "respiratorio",
+              "page": 112,
+              "caption": "Compare a pleura na parede torácica com o revestimento da superfície pulmonar."
+            }
+          ],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 110
+            },
+            {
+              "source": "respiratorio",
+              "page": 112
+            }
+          ]
+        },
+        {
+          "id": "resp_10_visual_02",
+          "question": "Compare a superfície pulmonar da página 112 com os recessos da página 118, com as legendas originais preservadas. Explique os limites dos dois recessos e por que uma fissura pulmonar representa outra relação.",
+          "answer": "O recesso costodiafragmático fica entre pleuras parietais costal e diafragmática; o costomediastinal, entre costal e mediastinal. São regiões de reflexão disponíveis para expansão do pulmão. A fissura é uma separação entre lobos acompanhada pela pleura visceral.",
+          "explanation": "Compare parede, diafragma e mediastino no esquema com as superfícies interlobares. Uma superfície pleural agregada no modelo não individualiza recessos automaticamente.",
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 112,
+              "caption": "Compare a pleura na parede torácica com o revestimento da superfície pulmonar."
+            },
+            {
+              "source": "respiratorio",
+              "page": 118,
+              "caption": "Compare os limites costodiafragmático e costomediastinal no esquema docente."
+            }
+          ],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 112
+            },
+            {
+              "source": "respiratorio",
+              "page": 118
+            }
+          ]
+        }
       ]
     },
     {
@@ -2772,7 +3271,17 @@
                 "Nutrir paredes brônquicas e tecidos de suporte; contribui para pleura visceral e estruturas da raiz."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 124
+            },
+            {
+              "source": "respiratorio",
+              "page": 125
+            }
+          ]
         },
         {
           "heading": "Artéria e veia não são nomes de oxigenação",
@@ -2789,6 +3298,16 @@
             {
               "source": "respiratorio",
               "page": 124
+            },
+            {
+              "source": "respiratorio",
+              "page": 126
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 123
             },
             {
               "source": "respiratorio",
@@ -2816,6 +3335,16 @@
               "source": "R4",
               "time": "17:14–18:39"
             }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 129
+            },
+            {
+              "source": "respiratorio",
+              "page": 130
+            }
           ]
         },
         {
@@ -2841,6 +3370,16 @@
             {
               "source": "R4",
               "time": "14:54–17:14"
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 127
+            },
+            {
+              "source": "respiratorio",
+              "page": 128
             }
           ]
         }
@@ -2999,6 +3538,18 @@
               "source": "R4",
               "time": "18:39–20:32"
             }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 131,
+              "caption": "Esquema de microanatomia: compare pneumócitos, capilar e sentido das trocas gasosas."
+            },
+            {
+              "source": "respiratorio",
+              "page": 132,
+              "caption": "Relacione o surfactante à interface líquida ilustrada e à estabilidade alveolar."
+            }
           ]
         },
         {
@@ -3024,6 +3575,16 @@
             {
               "source": "R4",
               "time": "24:31–25:57"
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 133
+            },
+            {
+              "source": "respiratorio",
+              "page": 141
             }
           ]
         },
@@ -3085,7 +3646,17 @@
                 "O aumento de pressão favorece saída de ar, limitado também pelo calibre da via."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 136
+            },
+            {
+              "source": "respiratorio",
+              "page": 138
+            }
+          ]
         },
         {
           "heading": "Duas pressões que não devem ser confundidas",
@@ -3109,6 +3680,17 @@
             },
             {
               "source": "openstax_mechanics"
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 110,
+              "caption": "O esquema de balões ajuda a comparar os folhetos e o espaço pleural."
+            },
+            {
+              "source": "respiratorio",
+              "page": 136
             }
           ]
         },
@@ -3141,6 +3723,17 @@
             {
               "source": "respiratorio",
               "page": 138
+            }
+          ],
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 8
+            },
+            {
+              "source": "respiratorio",
+              "page": 131,
+              "caption": "Esquema de microanatomia: compare pneumócitos, capilar e sentido das trocas gasosas."
             }
           ]
         }
@@ -3247,6 +3840,55 @@
         "R164",
         "R165",
         "R166"
+      ],
+      "visualRecall": [
+        {
+          "id": "resp_12_visual_01",
+          "question": "No esquema da página 131, com as legendas originais preservadas, compare pneumócitos I e II, localize o capilar e explique o trajeto de O₂ e CO₂ entre ar alveolar e sangue.",
+          "answer": "O tipo I é delgado e reveste grande parte da superfície de troca; o tipo II produz surfactante e participa da manutenção do epitélio. O O₂ passa do ar alveolar para o sangue e o CO₂ faz o caminho inverso, pela barreira alveolocapilar.",
+          "explanation": "Relacione epitélio alveolar, interface das membranas basais e endotélio capilar. A página é uma ilustração de microanatomia, não uma micrografia nem uma estrutura microscópica demonstrada pelo modelo do pulmão.",
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 131,
+              "caption": "Esquema de microanatomia: compare pneumócitos, capilar e sentido das trocas gasosas."
+            }
+          ],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 131
+            }
+          ]
+        },
+        {
+          "id": "resp_12_visual_02",
+          "question": "Com as legendas originais preservadas, compare as páginas 131–132: explique como a célula que produz surfactante se relaciona com a interface líquida e com a estabilidade do alvéolo.",
+          "answer": "O pneumócito tipo II produz surfactante. Na superfície úmida alveolar, o surfactante reduz a tensão superficial e contribui para manter o alvéolo estável, especialmente quando seu volume diminui.",
+          "explanation": "Use o primeiro esquema para relacionar célula e função, e o segundo para explicar a interface. As figuras ilustram o mecanismo; não permitem medir espessura, pressão ou quantidade de surfactante.",
+          "figures": [
+            {
+              "source": "respiratorio",
+              "page": 131,
+              "caption": "Esquema de microanatomia: compare pneumócitos, capilar e sentido das trocas gasosas."
+            },
+            {
+              "source": "respiratorio",
+              "page": 132,
+              "caption": "Relacione o surfactante à interface líquida ilustrada e à estabilidade alveolar."
+            }
+          ],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 131
+            },
+            {
+              "source": "respiratorio",
+              "page": 132
+            }
+          ]
+        }
       ]
     }
   ],

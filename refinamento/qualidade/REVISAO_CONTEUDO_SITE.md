@@ -8,6 +8,10 @@ Escopo: anatomia circulatória e respiratória, orientada pelos materiais de Car
 
 [Ampliação mediastinal](mediastino/README.md): 15 superfícies originais acrescentadas, quatro vistas, cinco associações nominais que faltavam da cena e links teóricos atualizados. A preservação geométrica e os testes estão documentados. Pericárdio, detalhes internos, folhetos pleurais, volumes segmentares e microestruturas continuam com seus limites explícitos.
 
+## Continuação de 30/09/2026
+
+As prioridades 1–5 abaixo foram implementadas na etapa [Teoria, figuras e prática](teoria_visual/README.md): 108 seções com figuras escolhidas, dez tarefas visuais separadas das 94 perguntas textuais, alvos e evidências do roteiro na teoria, links para vistas/brônquios e quatro cartões de peças humanas. O relatório registra os testes e os limites. As prioridades 6–10 e o próximo ciclo geométrico continuam como propostas.
+
 ## Oportunidades prioritárias
 
 Esforço baixo/médio/alto é uma estimativa de implementação e curadoria, não um cronograma. A ordem considera ganho de estudo e aproveitamento do material existente.

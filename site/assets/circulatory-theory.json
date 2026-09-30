@@ -187,6 +187,16 @@
               "source": "C3",
               "time": "16:46–18:01"
             }
+          ],
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 20
+            },
+            {
+              "source": "coracao",
+              "page": 26
+            }
           ]
         },
         {
@@ -242,7 +252,17 @@
                 "Valva aórtica → aorta → artérias → capilares dos tecidos → veias"
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 15
+            },
+            {
+              "source": "coracao",
+              "page": 71
+            }
+          ]
         },
         {
           "heading": "Duas distinções que evitam erros",
@@ -275,6 +295,16 @@
             {
               "source": "vasos",
               "page": 7
+            },
+            {
+              "source": "vasos",
+              "page": 42
+            }
+          ],
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 4
             },
             {
               "source": "vasos",
@@ -376,6 +406,16 @@
               "source": "roteiro",
               "page": 1
             }
+          ],
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 16
+            },
+            {
+              "source": "coracao",
+              "page": 18
+            }
           ]
         },
         {
@@ -435,7 +475,17 @@
                 "Extremidade formada pelo ventrículo esquerdo."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 18
+            },
+            {
+              "source": "coracao",
+              "page": 19
+            }
+          ]
         },
         {
           "heading": "Sulcos como caminhos de reconhecimento",
@@ -456,6 +506,16 @@
             {
               "source": "roteiro",
               "page": 1
+            }
+          ],
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 20
+            },
+            {
+              "source": "coracao",
+              "page": 22
             }
           ]
         }
@@ -569,7 +629,17 @@
                 "Lâmina visceral do pericárdio seroso sobre a superfície do coração; relaciona-se ao tecido subepicárdico e aos vasos coronários."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 23
+            },
+            {
+              "source": "coracao",
+              "page": 51
+            }
+          ]
         },
         {
           "heading": "Camadas musculares e torção",
@@ -600,6 +670,16 @@
               "source": "coracao",
               "page": 40
             }
+          ],
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 24
+            },
+            {
+              "source": "coracao",
+              "page": 25
+            }
           ]
         },
         {
@@ -628,6 +708,17 @@
             },
             {
               "source": "mori2019"
+            }
+          ],
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 31,
+              "caption": "Átrio direito: compare depressão, margem septal e relevos musculares na figura docente."
+            },
+            {
+              "source": "coracao",
+              "page": 47
             }
           ]
         }
@@ -735,6 +826,17 @@
               "source": "C3",
               "time": "00:00–01:41"
             }
+          ],
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 51
+            },
+            {
+              "source": "coracao",
+              "page": 57,
+              "caption": "Compare as reflexões serosas e a posição dos dois seios no esquema docente."
+            }
           ]
         },
         {
@@ -770,7 +872,19 @@
                 "Recesso posterior ao átrio esquerdo, limitado pelas reflexões serosas em torno das veias pulmonares e da VCI. Termina superiormente em fundo cego."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 57,
+              "caption": "Compare as reflexões serosas e a posição dos dois seios no esquema docente."
+            },
+            {
+              "source": "coracao",
+              "page": 58,
+              "caption": "Observe a passagem do seio transverso em relação aos grandes vasos."
+            }
+          ]
         },
         {
           "heading": "Vasos e nervos: distinguir o saco da lâmina visceral",
@@ -795,6 +909,16 @@
             {
               "source": "C2",
               "time": "22:58–24:36"
+            }
+          ],
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 39
+            },
+            {
+              "source": "vasos",
+              "page": 41
             }
           ]
         }
@@ -871,6 +995,36 @@
         "119",
         "121",
         "124"
+      ],
+      "visualRecall": [
+        {
+          "id": "circ-pericardio_visual_01",
+          "question": "Com as legendas originais preservadas, compare as páginas 57–58: explique como os vasos ajudam a distinguir o seio transverso do seio oblíquo.",
+          "answer": "O transverso é a passagem posterior à aorta ascendente e ao tronco pulmonar, anterior à VCS e superior aos átrios. O oblíquo fica atrás do átrio esquerdo, entre reflexões ao redor das veias pulmonares e da VCI, terminando superiormente em fundo cego.",
+          "explanation": "Use as relações entre estruturas para explicar a diferença. As figuras são esquemas das reflexões serosas; vasos presentes no modelo não demonstram que o pericárdio e seus seios estejam representados.",
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 57,
+              "caption": "Compare as reflexões serosas e a posição dos dois seios no esquema docente."
+            },
+            {
+              "source": "coracao",
+              "page": 58,
+              "caption": "Observe a passagem do seio transverso em relação aos grandes vasos."
+            }
+          ],
+          "references": [
+            {
+              "source": "coracao",
+              "page": 57
+            },
+            {
+              "source": "coracao",
+              "page": 58
+            }
+          ]
+        }
       ]
     },
     {
@@ -916,6 +1070,17 @@
               "source": "roteiro",
               "page": 2
             }
+          ],
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 31,
+              "caption": "Átrio direito: compare depressão, margem septal e relevos musculares na figura docente."
+            },
+            {
+              "source": "vasos",
+              "page": 31
+            }
           ]
         },
         {
@@ -949,6 +1114,16 @@
             },
             {
               "source": "atrial-septum"
+            }
+          ],
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 38
+            },
+            {
+              "source": "coracao",
+              "page": 21
             }
           ]
         },
@@ -1009,7 +1184,18 @@
                 "Cristas musculares atriais, diferentes das trabéculas cárneas ventriculares."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 31,
+              "caption": "Átrio direito: compare depressão, margem septal e relevos musculares na figura docente."
+            },
+            {
+              "source": "coracao",
+              "page": 38
+            }
+          ]
         }
       ],
       "recall": [
@@ -1073,6 +1259,46 @@
         "55",
         "56",
         "C21"
+      ],
+      "visualRecall": [
+        {
+          "id": "circ-atrios_visual_01",
+          "question": "Na página 31, com as legendas originais preservadas, compare a fossa oval com seu limbo e explique por que uma depressão no septo não deve ser tratada como um orifício aberto.",
+          "answer": "A fossa oval é a depressão septal vista pelo átrio direito; seu limbo é a margem elevada. A fossa do adulto não é uma abertura obrigatoriamente patente.",
+          "explanation": "A diferença é de forma e relação: depressão e margem do mesmo conjunto septal. Uma superfície externa lisa ou um nome no catálogo não comprova esses detalhes internos.",
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 31,
+              "caption": "Átrio direito: compare depressão, margem septal e relevos musculares na figura docente."
+            }
+          ],
+          "references": [
+            {
+              "source": "coracao",
+              "page": 31
+            }
+          ]
+        },
+        {
+          "id": "circ-atrios_visual_02",
+          "question": "Com as legendas originais preservadas na página 31, compare a região com músculos pectíneos com a região relativamente lisa e explique o papel da crista terminal nessa organização.",
+          "answer": "Os pectíneos ocupam a região anterior e a aurícula direita. A região posterior, o seio das veias cavas, é relativamente lisa; a crista terminal demarca internamente essas regiões.",
+          "explanation": "Descreva a textura da parede e suas relações, usando as legendas como apoio. A crista terminal não é a fossa oval nem seu limbo.",
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 31,
+              "caption": "Átrio direito: compare depressão, margem septal e relevos musculares na figura docente."
+            }
+          ],
+          "references": [
+            {
+              "source": "coracao",
+              "page": 31
+            }
+          ]
+        }
       ]
     },
     {
@@ -1109,6 +1335,17 @@
               "source": "roteiro",
               "page": 2
             }
+          ],
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 34
+            },
+            {
+              "source": "coracao",
+              "page": 37,
+              "caption": "Peça cardíaca: siga a relação entre folheto, cordas, papilares e parede trabeculada."
+            }
           ]
         },
         {
@@ -1134,6 +1371,16 @@
             {
               "source": "roteiro",
               "page": 3
+            }
+          ],
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 39
+            },
+            {
+              "source": "coracao",
+              "page": 40
             }
           ]
         },
@@ -1194,7 +1441,18 @@
                 "Banda muscular do VD associada à condução para a região papilar anterior."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 37,
+              "caption": "Peça cardíaca: siga a relação entre folheto, cordas, papilares e parede trabeculada."
+            },
+            {
+              "source": "coracao",
+              "page": 42
+            }
+          ]
         },
         {
           "heading": "Como interpretar números de papilares",
@@ -1270,6 +1528,35 @@
         "61",
         "62",
         "C41"
+      ],
+      "visualRecall": [
+        {
+          "id": "circ-ventriculos_visual_01",
+          "question": "Na fotografia da página 37, com as legendas originais preservadas, compare folheto, cordas tendíneas, músculos papilares e trabéculas cárneas. Explique a sequência de ligação do aparelho subvalvar.",
+          "answer": "As cordas são elementos fibrosos ligados aos folhetos AV e aos papilares/parede. Os papilares são projeções musculares que recebem cordas; as trabéculas são relevos musculares irregulares da parede ventricular.",
+          "explanation": "Siga as conexões visíveis, sem deduzir um número universal de papilares pela fotografia. Papilares e cordas estabilizam as cúspides durante a elevação da pressão ventricular; não são um mecanismo ativo de abertura.",
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 37,
+              "caption": "Peça cardíaca: siga a relação entre folheto, cordas, papilares e parede trabeculada."
+            }
+          ],
+          "references": [
+            {
+              "source": "coracao",
+              "page": 37
+            },
+            {
+              "source": "coracao",
+              "page": 42
+            },
+            {
+              "source": "coracao",
+              "page": 46
+            }
+          ]
+        }
       ]
     },
     {
@@ -1346,7 +1633,17 @@
                 "Ausentes"
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 42
+            },
+            {
+              "source": "coracao",
+              "page": 47
+            }
+          ]
         },
         {
           "heading": "Folhetos, seios e óstios são estruturas distintas",
@@ -1381,6 +1678,16 @@
               "source": "vasos",
               "page": 21
             }
+          ],
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 44
+            },
+            {
+              "source": "coracao",
+              "page": 45
+            }
           ]
         },
         {
@@ -1410,6 +1717,16 @@
             },
             {
               "source": "mori2019"
+            }
+          ],
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 47
+            },
+            {
+              "source": "coracao",
+              "page": 48
             }
           ]
         }
@@ -1551,6 +1868,16 @@
               "source": "C3",
               "time": "10:36–13:21"
             }
+          ],
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 66
+            },
+            {
+              "source": "coracao",
+              "page": 67
+            }
           ]
         },
         {
@@ -1607,7 +1934,17 @@
                 "A pressão ventricular cai antes de as valvas AV reabrirem."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 49
+            },
+            {
+              "source": "coracao",
+              "page": 50
+            }
+          ]
         },
         {
           "heading": "Bulhas e registro elétrico",
@@ -1632,6 +1969,16 @@
             {
               "source": "C3",
               "time": "13:21–14:38"
+            }
+          ],
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 50
+            },
+            {
+              "source": "coracao",
+              "page": 68
             }
           ]
         },
@@ -1671,6 +2018,16 @@
               "source": "C3",
               "time": "09:27–10:36"
             }
+          ],
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 60
+            },
+            {
+              "source": "coracao",
+              "page": 62
+            }
           ]
         },
         {
@@ -1691,6 +2048,16 @@
             {
               "source": "C3",
               "time": "14:38–16:46"
+            }
+          ],
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 69
+            },
+            {
+              "source": "coracao",
+              "page": 70
             }
           ]
         }
@@ -1816,6 +2183,16 @@
               "source": "C2",
               "time": "11:54–16:05"
             }
+          ],
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 20
+            },
+            {
+              "source": "vasos",
+              "page": 22
+            }
           ]
         },
         {
@@ -1883,7 +2260,17 @@
                 "Segue para a superfície posterior/inferior ventricular, conforme a distribuição da árvore."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 22
+            },
+            {
+              "source": "vasos",
+              "page": 23
+            }
+          ]
         },
         {
           "heading": "Coronária esquerda: separar descendente anterior e circunflexa",
@@ -1954,7 +2341,17 @@
                 "Ramo da circunflexa para a parede ventricular posterior, com número e trajeto variáveis."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 25
+            },
+            {
+              "source": "vasos",
+              "page": 27
+            }
+          ]
         },
         {
           "heading": "Dominância e território não são sinônimos de tamanho",
@@ -1993,6 +2390,16 @@
               "source": "C2",
               "time": "13:53–14:20"
             }
+          ],
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 23
+            },
+            {
+              "source": "vasos",
+              "page": 28
+            }
           ]
         },
         {
@@ -2010,6 +2417,12 @@
             {
               "source": "C2",
               "time": "16:05–17:47"
+            }
+          ],
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 29
             }
           ]
         }
@@ -2151,6 +2564,16 @@
             {
               "source": "vhl-veins"
             }
+          ],
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 31
+            },
+            {
+              "source": "vasos",
+              "page": 32
+            }
           ]
         },
         {
@@ -2218,7 +2641,17 @@
                 "Segue a região direita do sulco AV e pode receber a marginal direita; sua presença e desenvolvimento variam."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 33
+            },
+            {
+              "source": "vasos",
+              "page": 34
+            }
+          ]
         },
         {
           "heading": "Duas vias que não precisam atravessar o seio",
@@ -2246,6 +2679,16 @@
             {
               "source": "C2",
               "time": "19:43–22:58"
+            }
+          ],
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 34
+            },
+            {
+              "source": "vasos",
+              "page": 35
             }
           ]
         }
@@ -2356,6 +2799,16 @@
               "source": "C2",
               "time": "03:30–05:11"
             }
+          ],
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 15
+            },
+            {
+              "source": "vasos",
+              "page": 16
+            }
           ]
         },
         {
@@ -2419,7 +2872,17 @@
                 "Chega inferiormente ao AD, trazendo o retorno predominantemente infradiafragmático."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 27
+            },
+            {
+              "source": "coracao",
+              "page": 38
+            }
+          ]
         },
         {
           "heading": "Sistema ázigos",
@@ -2440,6 +2903,12 @@
             {
               "source": "ttuhsc-azygos"
             }
+          ],
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 40
+            }
           ]
         },
         {
@@ -2456,6 +2925,12 @@
             },
             {
               "source": "os-regulation"
+            }
+          ],
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 17
             }
           ]
         }
@@ -2598,7 +3073,17 @@
                 "Sustenta e conecta o vaso aos tecidos vizinhos."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 2
+            },
+            {
+              "source": "vasos",
+              "page": 3
+            }
+          ]
         },
         {
           "heading": "Artérias e arteríolas",
@@ -2619,6 +3104,16 @@
             {
               "source": "C1",
               "time": "04:02–06:16"
+            }
+          ],
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 4
+            },
+            {
+              "source": "vasos",
+              "page": 5
             }
           ]
         },
@@ -2659,7 +3154,13 @@
                 "Fígado, medula óssea e baço."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 6
+            }
+          ]
         },
         {
           "heading": "Veias, perfurantes e anastomoses AV",
@@ -2693,6 +3194,16 @@
               "source": "C1",
               "time": "08:01–11:22"
             }
+          ],
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 7
+            },
+            {
+              "source": "vasos",
+              "page": 8
+            }
           ]
         },
         {
@@ -2717,6 +3228,16 @@
             {
               "source": "C2",
               "time": "01:21–03:30"
+            }
+          ],
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 12
+            },
+            {
+              "source": "vasos",
+              "page": 13
             }
           ]
         }
@@ -2792,6 +3313,16 @@
               "source": "linfatico",
               "page": 5
             }
+          ],
+          "figures": [
+            {
+              "source": "linfatico",
+              "page": 2
+            },
+            {
+              "source": "linfatico",
+              "page": 5
+            }
           ]
         },
         {
@@ -2817,6 +3348,16 @@
             {
               "source": "os-lymph"
             }
+          ],
+          "figures": [
+            {
+              "source": "linfatico",
+              "page": 7
+            },
+            {
+              "source": "linfatico",
+              "page": 9
+            }
           ]
         },
         {
@@ -2841,6 +3382,16 @@
             },
             {
               "source": "janeway-lymphoid"
+            }
+          ],
+          "figures": [
+            {
+              "source": "linfatico",
+              "page": 10
+            },
+            {
+              "source": "linfatico",
+              "page": 17
             }
           ]
         },
@@ -2901,7 +3452,17 @@
                 "Retorno do restante do corpo; recebe inferiormente a drenagem dos troncos lombares e intestinais."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "linfatico",
+              "page": 13
+            },
+            {
+              "source": "linfatico",
+              "page": 16
+            }
+          ]
         },
         {
           "heading": "Ducto torácico e ângulos venosos",
@@ -2917,6 +3478,12 @@
             },
             {
               "source": "os-lymph"
+            }
+          ],
+          "figures": [
+            {
+              "source": "linfatico",
+              "page": 16
             }
           ]
         },
@@ -2976,7 +3543,17 @@
                 "Proteção em superfícies de entrada; inclui folículos isolados ou agregados, como as placas de Peyer e o tecido linfoide do apêndice."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "linfatico",
+              "page": 18
+            },
+            {
+              "source": "linfatico",
+              "page": 27
+            }
+          ]
         },
         {
           "heading": "Timo: localização, arquitetura e vasos",
@@ -3014,6 +3591,16 @@
               "source": "linfatico",
               "page": 55
             }
+          ],
+          "figures": [
+            {
+              "source": "linfatico",
+              "page": 19
+            },
+            {
+              "source": "linfatico",
+              "page": 22
+            }
           ]
         },
         {
@@ -3044,6 +3631,16 @@
             {
               "source": "janeway-lymphoid"
             }
+          ],
+          "figures": [
+            {
+              "source": "linfatico",
+              "page": 26
+            },
+            {
+              "source": "linfatico",
+              "page": 28
+            }
           ]
         },
         {
@@ -3060,6 +3657,12 @@
             },
             {
               "source": "tonsils-review"
+            }
+          ],
+          "figures": [
+            {
+              "source": "linfatico",
+              "page": 24
             }
           ]
         },
@@ -3144,7 +3747,17 @@
                 "Relacionados ao esôfago e a outros territórios do mediastino posterior."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "linfatico",
+              "page": 46
+            },
+            {
+              "source": "linfatico",
+              "page": 49
+            }
+          ]
         },
         {
           "heading": "Integração com o coração e o pulmão",
@@ -3174,6 +3787,16 @@
               "source": "C2",
               "time": "24:36–25:53"
             }
+          ],
+          "figures": [
+            {
+              "source": "vasos",
+              "page": 42
+            },
+            {
+              "source": "linfatico",
+              "page": 47
+            }
           ]
         },
         {
@@ -3199,6 +3822,16 @@
             {
               "source": "linfatico",
               "page": 51
+            },
+            {
+              "source": "linfatico",
+              "page": 53
+            }
+          ],
+          "figures": [
+            {
+              "source": "linfatico",
+              "page": 11
             },
             {
               "source": "linfatico",
@@ -3364,6 +3997,12 @@
               "source": "C3",
               "time": "18:01–19:04"
             }
+          ],
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 72
+            }
           ]
         },
         {
@@ -3402,7 +4041,17 @@
                 "Transporta sinais hormonais hipotalâmicos diretamente à hipófise anterior."
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 73
+            },
+            {
+              "source": "coracao",
+              "page": 74
+            }
+          ]
         },
         {
           "heading": "Circulação fetal: a placenta faz as trocas",
@@ -3435,6 +4084,17 @@
             },
             {
               "source": "os-fetal"
+            }
+          ],
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 31,
+              "caption": "Átrio direito: compare depressão, margem septal e relevos musculares na figura docente."
+            },
+            {
+              "source": "coracao",
+              "page": 32
             }
           ]
         },
@@ -3491,7 +4151,17 @@
                 "A conexão redireciona sangue no contexto da circulação placentária?"
               ]
             ]
-          }
+          },
+          "figures": [
+            {
+              "source": "coracao",
+              "page": 71
+            },
+            {
+              "source": "coracao",
+              "page": 73
+            }
+          ]
         }
       ],
       "recall": [

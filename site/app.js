@@ -679,10 +679,10 @@ async function init() {
     if(requestedPart && meshes.has(requestedPart)){
       selectPart(requestedPart);
       const requestedRegion=studyViews.find(view=>view.id===requestedView);
-      if(!requestedRegion?.focusPartIds || !requestedRegion.partIds.includes(requestedPart))cameraTo(meshes.get(requestedPart).geometry.boundingBox);
+      if(!requestedRegion?.partIds.includes(requestedPart))cameraTo(meshes.get(requestedPart).geometry.boundingBox);
     }
     if(new URLSearchParams(location.search).get('mode')==='practice')window.heartStudy.openPractice();
-    if(new URLSearchParams(location.search).get('mode')==='route')window.heartStudy.openRoute();
+    if(new URLSearchParams(location.search).get('mode')==='route')window.heartStudy.openRoute(params.get('requirement'));
   } catch(error) {
     console.error(error);
     $('model-status').textContent='Cena pronta; módulo de prática indisponível. Recarregue a página.';

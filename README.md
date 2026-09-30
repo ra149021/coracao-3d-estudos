@@ -12,7 +12,7 @@ Um ambiente de estudo de anatomia circulatória e respiratória que conecta mode
 | --- | --- |
 | **Anatomia em 3D** | Coração e sistema respiratório, com seleção de estruturas, rotação, isolamento, transparência e cortes. |
 | **Vistas do roteiro** | 15 vistas orientadas com transparência, seleção de peças e acesso ao slide correspondente. [Inspeção e limites](refinamento/qualidade/inspecao_roteiros/README.md). |
-| **Teoria e revisão** | 26 unidades e 94 questões originais, com referências e progresso salvo no navegador. |
+| **Teoria e revisão** | 26 unidades, 94 perguntas textuais e 10 tarefas visuais, com figuras por seção, comparação de slides e progresso separado por tipo. |
 | **Aulas da professora Carmem** | 7 aulas gravadas, busca nas transcrições e retomada do ponto de reprodução. |
 | **Slides e roteiro** | 6 documentos e 354 páginas navegáveis, com acesso aos PDFs originais. |
 | **Peças anatômicas reais** | 3 referências do Visible Heart Laboratories, Universidade de Minnesota, no visualizador oficial. |
@@ -63,6 +63,7 @@ Acesse `http://127.0.0.1:8765` e mantenha o terminal aberto. Os arquivos docente
 | [Revisão de apresentação](VERIFICACAO_APRESENTACAO.md) | Conferências de navegação, leitura, modelos e layout móvel. |
 | [Verificação das aulas](VERIFICACAO_AULAS.md) | Conferências de documentos, reprodução e navegação. |
 | [Ampliação mediastinal](refinamento/qualidade/mediastino/README.md) | 15 peças adicionais, quatro vistas e preservação das malhas anteriores. |
+| [Teoria, figuras e prática](refinamento/qualidade/teoria_visual/README.md) | Figuras por seção, tarefas visuais e conexões com roteiro, vistas e peças humanas; resultados da verificação. |
 | [Melhorias fundamentadas no conteúdo](refinamento/qualidade/REVISAO_CONTEUDO_SITE.md) | Prioridades para figuras, reconhecimento visual e integração do site. |
 | [Histórico técnico](docs/HISTORICO_TECNICO.md) | Evolução dos modelos, métodos e verificações anteriores. |
 
