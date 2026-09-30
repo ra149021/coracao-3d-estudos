@@ -1,0 +1,117 @@
+{
+  "views": [
+    {
+      "id": "arvore_superior_direito",
+      "parts": 7,
+      "source": "classroom.html?doc=respiratorio&page=92"
+    },
+    {
+      "id": "arvore_medio_direito",
+      "parts": 7,
+      "source": "classroom.html?doc=respiratorio&page=92"
+    },
+    {
+      "id": "arvore_inferior_direito",
+      "parts": 10,
+      "source": "classroom.html?doc=respiratorio&page=92"
+    },
+    {
+      "id": "arvore_superior_esquerdo",
+      "parts": 8,
+      "source": "classroom.html?doc=respiratorio&page=93"
+    },
+    {
+      "id": "arvore_inferior_esquerdo",
+      "parts": 9,
+      "source": "classroom.html?doc=respiratorio&page=93"
+    },
+    {
+      "id": "hilo_direito",
+      "parts": 7,
+      "source": "classroom.html?doc=respiratorio&page=105"
+    },
+    {
+      "id": "hilo_esquerdo",
+      "parts": 6,
+      "source": "classroom.html?doc=respiratorio&page=106"
+    },
+    {
+      "id": "pleura_inspecao",
+      "parts": 7,
+      "source": "classroom.html?doc=respiratorio&page=118"
+    },
+    {
+      "id": "seios_referencia",
+      "parts": 10,
+      "source": "classroom.html?doc=respiratorio&page=34"
+    },
+    {
+      "id": "mediastino_direito",
+      "parts": 10,
+      "source": "classroom.html?doc=respiratorio&page=108"
+    },
+    {
+      "id": "mediastino_esquerdo",
+      "parts": 11,
+      "source": "classroom.html?doc=respiratorio&page=109"
+    },
+    {
+      "id": "mediastino_nervos",
+      "parts": 15,
+      "source": "classroom.html?doc=respiratorio&page=127"
+    },
+    {
+      "id": "linfonodos_torax",
+      "parts": 17,
+      "source": "classroom.html?doc=respiratorio&page=129"
+    }
+  ],
+  "addedParts": 15,
+  "totalParts": 190,
+  "practiceRestored": true,
+  "newPartsExcludedFromQuiz": true,
+  "routeLinks": true,
+  "mobile": [
+    {
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "horizontalOverflow": false
+    }
+  ],
+  "independent": [
+    {
+      "query": "",
+      "parts": 72,
+      "ready": true
+    },
+    {
+      "query": "?detail=hra",
+      "parts": 14,
+      "ready": true
+    },
+    {
+      "query": "?system=respiratory&detail=larynx",
+      "parts": 40,
+      "ready": true
+    }
+  ],
+  "directUrl": true,
+  "errors": [],
+  "integration": {
+    "combinedPresetPartKeepsThoracicFraming": true,
+    "theory": [
+      {
+        "chapter": "resp_09",
+        "partLinks": 12
+      },
+      {
+        "chapter": "resp_11",
+        "partLinks": 19
+      }
+    ],
+    "errors": []
+  }
+}

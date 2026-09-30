@@ -482,6 +482,158 @@
         0.2
       ],
       "transparency": 0
+    },
+    {
+      "id": "mediastino_direito",
+      "label": "Pulmão direito · relações mediastinais",
+      "partIds": [
+        "resp_superior_lobe_of_right_lung",
+        "resp_middle_lobe_of_right_lung",
+        "resp_inferior_lobe_of_right_lung",
+        "resp_right_main_bronchus",
+        "resp_right_pulmonary_artery",
+        "resp_right_superior_pulmonary_vein",
+        "resp_right_inferior_pulmonary_vein",
+        "resp_oesophagus",
+        "resp_superior_vena_cava",
+        "resp_azygos_vein"
+      ],
+      "requirementIds": [
+        "R156"
+      ],
+      "source": {
+        "document": "respiratorio",
+        "page": 108
+      },
+      "note": "Compare esôfago, cava superior e ázigos com a face medial direita. Os sulcos permanecem parciais; a cava inferior não está incluída nesta vista.",
+      "direction": [
+        1,
+        0.12,
+        -0.4
+      ],
+      "transparency": 82,
+      "focusPartIds": [
+        "resp_superior_lobe_of_right_lung",
+        "resp_middle_lobe_of_right_lung",
+        "resp_inferior_lobe_of_right_lung"
+      ]
+    },
+    {
+      "id": "mediastino_esquerdo",
+      "label": "Pulmão esquerdo · relações mediastinais",
+      "partIds": [
+        "resp_superior_lobe_of_left_lung",
+        "resp_inferior_lobe_of_left_lung",
+        "resp_left_main_bronchus",
+        "resp_left_pulmonary_artery",
+        "resp_left_superior_pulmonary_vein",
+        "resp_left_inferior_pulmonary_vein",
+        "resp_oesophagus",
+        "resp_ascending_aorta",
+        "resp_aortic_arch",
+        "resp_thoracic_aorta",
+        "resp_left_subclavian_artery"
+      ],
+      "requirementIds": [
+        "R157"
+      ],
+      "source": {
+        "document": "respiratorio",
+        "page": 109
+      },
+      "note": "Compare arco e aorta torácica, subclávia e esôfago com a face medial esquerda. A presença dos vasos não confirma cada sulco na superfície pulmonar.",
+      "direction": [
+        -1,
+        0.12,
+        -0.4
+      ],
+      "transparency": 82,
+      "focusPartIds": [
+        "resp_superior_lobe_of_left_lung",
+        "resp_inferior_lobe_of_left_lung"
+      ]
+    },
+    {
+      "id": "mediastino_nervos",
+      "label": "Vagos e troncos simpáticos · relações",
+      "partIds": [
+        "resp_superior_lobe_of_right_lung",
+        "resp_middle_lobe_of_right_lung",
+        "resp_inferior_lobe_of_right_lung",
+        "resp_superior_lobe_of_left_lung",
+        "resp_inferior_lobe_of_left_lung",
+        "resp_left_main_bronchus",
+        "resp_right_main_bronchus",
+        "resp_vagus_nerve_x_l",
+        "resp_vagus_nerve_x_r",
+        "resp_sympathetic_trunk_l",
+        "resp_sympathetic_trunk_r",
+        "resp_trachea",
+        "resp_oesophagus",
+        "resp_aortic_arch",
+        "resp_thoracic_aorta"
+      ],
+      "requirementIds": [
+        "R181",
+        "R184"
+      ],
+      "source": {
+        "document": "respiratorio",
+        "page": 127
+      },
+      "note": "Trajetos integrais da fonte, enquadrados no tórax. Gire e selecione cada lado; plexos pulmonares, frênicos e ramos terminais não estão individualizados ou validados.",
+      "direction": [
+        0.35,
+        0.08,
+        -1
+      ],
+      "transparency": 85,
+      "focusPartIds": [
+        "resp_superior_lobe_of_right_lung",
+        "resp_middle_lobe_of_right_lung",
+        "resp_inferior_lobe_of_right_lung",
+        "resp_superior_lobe_of_left_lung",
+        "resp_inferior_lobe_of_left_lung"
+      ]
+    },
+    {
+      "id": "linfonodos_torax",
+      "label": "Linfonodos · traqueia e brônquios",
+      "partIds": [
+        "resp_superior_lobe_of_right_lung",
+        "resp_middle_lobe_of_right_lung",
+        "resp_inferior_lobe_of_right_lung",
+        "resp_superior_lobe_of_left_lung",
+        "resp_inferior_lobe_of_left_lung",
+        "resp_left_main_bronchus",
+        "resp_right_main_bronchus",
+        "resp_left_superior_lobar_bronchus",
+        "resp_left_inferior_lobar_bronchus",
+        "resp_right_superior_lobar_bronchus",
+        "resp_middle_lobar_bronchus_r",
+        "resp_right_inferior_lobar_bronchus",
+        "resp_inferior_tracheobronchial_nodes",
+        "resp_superior_tracheobronchial_nodes",
+        "resp_paratracheal_cervical_nodes",
+        "resp_paratracheal_thoracic_nodes",
+        "resp_trachea"
+      ],
+      "requirementIds": [
+        "R186",
+        "R187",
+        "R188"
+      ],
+      "source": {
+        "document": "respiratorio",
+        "page": 129
+      },
+      "note": "Quatro grupos da fonte, incluindo paratraqueais cervicais. Os linfonodos de cada grupo não são selecionáveis separadamente; hilares, plexos e vasos linfáticos continuam pendentes.",
+      "direction": [
+        0.3,
+        0.1,
+        1
+      ],
+      "transparency": 88
     }
   ]
 }

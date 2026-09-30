@@ -27,6 +27,9 @@ GROUPS = {
     'musculos_faringe': 'Músculos da faringe', 'contexto_torax': 'Contexto torácico',
     'contexto_cabeca': 'Contexto ósseo da cabeça', 'musculos_pescoco': 'Músculos supra e infra-hióideos',
     'vascular_pulmonar': 'Vasos pulmonares proximais',
+    'contexto_mediastino': 'Contexto mediastinal',
+    'linfaticos_torax': 'Linfonodos traqueobronquiais e paratraqueais',
+    'nervos_torax': 'Nervos vagos e troncos simpáticos',
 }
 COLORS = {
     'nariz': '#c8bba6', 'seios': '#a8c2bc', 'faringe': '#b87878', 'laringe': '#bcc6bd',
@@ -35,6 +38,8 @@ COLORS = {
     'musculos_faringe': '#b66f6b', 'contexto_torax': '#d0c6b0',
     'contexto_cabeca': '#d9cdb8', 'musculos_pescoco': '#b87c73',
     'vascular_pulmonar': '#658ba9',
+    'contexto_mediastino': '#b87878', 'linfaticos_torax': '#91ae7d',
+    'nervos_torax': '#d6bd78',
 }
 PARTS = []
 
@@ -214,6 +219,44 @@ for name, label, color in [
         'Azul nas artérias e vermelho nas veias pulmonares são cores didáticas de oxigenação, não texturas do tecido.',
         color=color, defaultVisible=False, representation='proximal_vessel',
         quizEligible=name not in ('Pulmonary trunk', 'Bifurcation of pulmonary trunk'))
+
+# Append new context after the existing atlas pieces so their order and geometry
+# remain stable. Each addition uses its complete authored surface and the same
+# world transform; no thoracic cropping, fitting or procedural anatomy.
+add('Oesophagus', 'Esôfago · contexto mediastinal', 'contexto_mediastino', V,
+    'Superfície integral do esôfago da fonte, no mesmo registro da traqueia e dos pulmões. '
+    'Não individualiza regiões, camadas da parede ou impressões pulmonares; inspeção visual pendente.',
+    defaultVisible=False, quizEligible=False, representation='mediastinal_context')
+for name, label, color in [
+    ('Ascending aorta', 'Aorta ascendente', '#ba7275'),
+    ('Aortic arch', 'Arco da aorta', '#ba7275'),
+    ('Thoracic aorta', 'Aorta torácica', '#ba7275'),
+    ('Left subclavian artery', 'Artéria subclávia esquerda', '#ba7275'),
+    ('Superior vena cava', 'Veia cava superior', '#658ba9'),
+    ('Azygos vein', 'Veia ázigos', '#658ba9'),
+]:
+    add(name, label + ' · contexto mediastinal', 'contexto_mediastino', 'CardioVascular41',
+        'Superfície integral do vaso da fonte, sem recorte ou ajuste de trajeto. '
+        'Ajuda a examinar relações mediastinais; não individualiza sulcos pulmonares. '
+        'Cores didáticas; inspeção visual pendente.',
+        color=color, defaultVisible=False, quizEligible=False, representation='mediastinal_context')
+for name, label in [
+    ('Inferior tracheobronchial nodes', 'Linfonodos traqueobronquiais inferiores · conjunto'),
+    ('Superior tracheobronchial nodes', 'Linfonodos traqueobronquiais superiores · conjunto'),
+    ('Paratracheal cervical nodes', 'Linfonodos paratraqueais cervicais · conjunto'),
+    ('Paratracheal thoracic nodes', 'Linfonodos paratraqueais torácicos · conjunto'),
+]:
+    add(name, label, 'linfaticos_torax', 'LymphoidOrgans100',
+        'Conjunto original de linfonodos no mesmo registro anatômico. Cada linfonodo '
+        'e suas conexões linfáticas não são peças independentes; inspeção visual pendente.',
+        defaultVisible=False, quizEligible=False, representation='aggregate')
+for name, label in [('Vagus nerve (X)', 'Nervo vago (X)'),
+                    ('Sympathetic trunk', 'Tronco simpático')]:
+    paired(name, label, 'nervos_torax', 'NervousSystem100',
+           'Trajeto integral da peça original, incluindo extensões fora do tórax; sem recorte '
+           'ou ajuste por região. Ramos, plexos e gânglios não estão individualizados nesta peça; '
+           'inspeção visual pendente.',
+           defaultVisible=False, quizEligible=False, representation='authored_nerve_surface')
 
 
 class SourceGLB:

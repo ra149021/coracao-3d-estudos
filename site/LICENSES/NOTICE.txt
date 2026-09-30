@@ -41,6 +41,16 @@ Nenhum modificador ou detalhe anatômico novo foi acrescentado. As demais
 Os oito vasos pulmonares proximais novos têm a mesma origem Z-Anatomy e registro
 das vias aéreas. Licença CC BY-SA 4.0, com as atribuições acima.
 
+Ampliação mediastinal — 29/09/2026
+Esôfago, seis grandes vasos, quatro peças nervosas e quatro conjuntos de
+linfonodos: exportações oficiais Z-Anatomy VisceralSystem100, CardioVascular41,
+NervousSystem100 e LymphoidOrgans100, no commit
+6c7f9016bd5899ac8edafd31b9900c151df42ed6. CC BY-SA 4.0, atribuições acima.
+Conversão FBX/GLB, seleção, normais, cores e rótulos; transformação comum
+(FBX_world_cm - [0,142,0]) * 0,2. Trajetos e conjuntos íntegros, sem deformação,
+recorte geométrico ou alinhamento por peça. O enquadramento torácico afeta
+somente a câmera. Os grupos não individualizam todos os ramos ou linfonodos.
+
 Coração HRA independente: Human Reference Atlas / HuBMAP, Heart Male v1.2,
 Visible Human Male / National Library of Medicine, entrada NIH 3DPX-021000.
 CC BY 4.0. Atribuição e adaptações em ../assets/heart-hra/ATTRIBUTION.md.

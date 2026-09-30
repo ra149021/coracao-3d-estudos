@@ -248,7 +248,8 @@ function preset(name, animate = true) {
   stopAutoRotate();
   $('view-name').textContent = custom ? `${custom.label} · vista de estudo` : name === 'valvas' ? 'Valvas · vista oblíqua' : 'Vista anterior oblíqua';
   activeView();
-  cameraTo(currentBounds(), custom?.direction || (name === 'valvas' ? [0.45, 0.65, 1] : [0.26, 0.12, 1]), animate);
+  const focusIds = custom?.focusPartIds ? new Set(custom.focusPartIds) : null;
+  cameraTo(currentBounds(part => !focusIds || focusIds.has(part.id)), custom?.direction || (name === 'valvas' ? [0.45, 0.65, 1] : [0.26, 0.12, 1]), animate);
 }
 
 function reset() {
@@ -560,7 +561,8 @@ async function init() {
       const viewsResponse=await fetch('assets/study-views.json');
       if(!viewsResponse.ok)throw new Error('Vistas de estudo indisponíveis');
       const views=await viewsResponse.json();
-      studyViews=(views[system] || []).filter(view=>view.partIds.every(id=>entries.some(p=>p.id===id)));
+      studyViews=(views[system] || []).filter(view=>view.partIds.every(id=>entries.some(p=>p.id===id)) &&
+        (!view.focusPartIds || (view.focusPartIds.length > 0 && view.focusPartIds.every(id=>view.partIds.includes(id)))));
     } catch(error){console.warn('Vistas complementares não carregadas:',error);}
   }
   configureSystem();
@@ -674,7 +676,11 @@ async function init() {
     const requestedView=params.get('preset');
     if(studyViews.some(v=>v.id===requestedView))preset(requestedView,false);
     const requestedPart=new URLSearchParams(location.search).get('part');
-    if(requestedPart && meshes.has(requestedPart)){selectPart(requestedPart);cameraTo(meshes.get(requestedPart).geometry.boundingBox);}
+    if(requestedPart && meshes.has(requestedPart)){
+      selectPart(requestedPart);
+      const requestedRegion=studyViews.find(view=>view.id===requestedView);
+      if(!requestedRegion?.focusPartIds || !requestedRegion.partIds.includes(requestedPart))cameraTo(meshes.get(requestedPart).geometry.boundingBox);
+    }
     if(new URLSearchParams(location.search).get('mode')==='practice')window.heartStudy.openPractice();
     if(new URLSearchParams(location.search).get('mode')==='route')window.heartStudy.openRoute();
   } catch(error) {
