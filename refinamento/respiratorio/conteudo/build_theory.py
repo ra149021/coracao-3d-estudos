@@ -22,9 +22,9 @@ def section(heading,paragraphs=None,bullets=None,table=None,references=None):
  return s
 def question(q,a,e,references):return {'question':q,'answer':a,'explanation':e,'references':references}
 chapters=[]
-def chapter(id,title,summary,objectives,sections,recall,targets):
+def chapter(id,title,summary,objectives,sections,recall,targets,context_names=()):
  for n,q in enumerate(recall,1):q['id']=f'{id}_q{n:02d}'
- parts=[p['id'] for p in catalog['parts'] if set(targets)&set(p.get('requirementIds',[]))]
+ parts=[p['id'] for p in catalog['parts'] if set(targets)&set(p.get('requirementIds',[])) or p['sourceName'] in context_names]
  chapters.append(dict(id=id,title=title,summary=summary,objectives=objectives,sections=sections,recall=recall,partIds=parts,requirementIds=targets))
 
 chapter('resp_01','1. Caminho do ar e organização funcional',
@@ -249,7 +249,7 @@ chapter('resp_09','9. Pulmões: superfícies, fissuras, hilo e raiz',
  question('Qual a diferença entre hilo e raiz?','Hilo é a região de passagem; raiz é o conjunto de estruturas que passa por ela.','Essa distinção permite descrever localização e composição sem confundi-las.',refs(105,106)),
  question('Língula e incisura cardíaca são a mesma coisa?','Não.','A incisura é uma escavação da margem anterior; a língula é a projeção do lobo superior esquerdo inferior a essa região.',refs(104)),
  question('Por que o pulmão direito apresenta um sulco para a ázigos?','Porque o arco da veia ázigos relaciona-se com sua região mediastinal superior à raiz.','Sulcos são pistas das relações, e não vasos contidos dentro do parênquima.',refs(108))
- ],ids(138,160))
+ ],ids(138,160),context_names=['Oesophagus','Ascending aorta','Aortic arch','Thoracic aorta','Left subclavian artery','Superior vena cava','Azygos vein'])
 
 chapter('resp_10','10. Pleura: continuidade, recessos e sensibilidade',
  'Visualize uma membrana contínua com porções visceral e parietal e um espaço potencial entre elas.',

@@ -62,6 +62,8 @@ Acesse `http://127.0.0.1:8765` e mantenha o terminal aberto. Os arquivos docente
 | [Revisão funcional final](VERIFICACAO_FINAL_SITE.md) | Correções de bugs, progresso, aulas e disponibilidade pública. |
 | [Revisão de apresentação](VERIFICACAO_APRESENTACAO.md) | Conferências de navegação, leitura, modelos e layout móvel. |
 | [Verificação das aulas](VERIFICACAO_AULAS.md) | Conferências de documentos, reprodução e navegação. |
+| [Ampliação mediastinal](refinamento/qualidade/mediastino/README.md) | 15 peças adicionais, quatro vistas e preservação das malhas anteriores. |
+| [Melhorias fundamentadas no conteúdo](refinamento/qualidade/REVISAO_CONTEUDO_SITE.md) | Prioridades para figuras, reconhecimento visual e integração do site. |
 | [Histórico técnico](docs/HISTORICO_TECNICO.md) | Evolução dos modelos, métodos e verificações anteriores. |
 
 Alterações em `main` são publicadas pelo workflow **Publicar atlas**. Os vídeos e PDFs ficam fora do histórico Git, na release de aulas.

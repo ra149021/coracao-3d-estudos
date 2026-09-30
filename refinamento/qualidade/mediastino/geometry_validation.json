@@ -1,0 +1,1076 @@
+{
+  "report_version": 1,
+  "passed": true,
+  "verifier_sha256": "74ce1b4a3466d6f2784eea3189f409889d1fc0eeceac4cbc08ed3eef35a10240",
+  "baseline": {
+    "commit": "cc95e5f6cf91b4329ffa3542e5e5d354d5cad137",
+    "model_sha256": "986b8490cf76a2f0cb9b96a8f6637e3e4a6322acae55ede75ea8c4d6c6c8738a",
+    "parts": 175,
+    "triangles": 959255,
+    "bytes": 23603924
+  },
+  "model": {
+    "file": "site/assets/respiratory/model.glb",
+    "sha256": "cd2ab109267f61f17186c1dccaa2b0a19ce5fa507bd42cb2f1986b6c90aa0a23",
+    "parts": 190,
+    "vertices": 569647,
+    "triangles": 1095593,
+    "bytes": 27033052
+  },
+  "display_transform": {
+    "source": "FBX world centimetres",
+    "center": [
+      0.0,
+      142.0,
+      0.0
+    ],
+    "scale": 0.2
+  },
+  "preservation": {
+    "parts": 175,
+    "arrays": 525,
+    "bytes": 23406276,
+    "position_normal_indices_byte_exact": true,
+    "concatenated_array_sha256": "c1ac07c56bc792357065c07a0b160357b92f09d4670560673f5bb55eeee4be32",
+    "original_binary_prefix_byte_exact": true,
+    "original_metadata_unchanged": true
+  },
+  "geometry": {
+    "finite_parts": 190,
+    "indices_in_bounds_parts": 190,
+    "normalized_normal_parts": 190,
+    "normal_length_tolerance": 1e-06,
+    "maximum_normal_length_error": 1.4900581035703908e-07,
+    "degenerate_triangles": 4,
+    "new_part_degenerate_triangles": 0,
+    "ids_unique": true,
+    "manifest_and_audit_match": true
+  },
+  "requirements": {
+    "sha256": "11efc3ad24c67b26e43eb1eb552467f835f9b68d3df94b6377de54d400be15e4",
+    "unchanged_from_baseline": true,
+    "status_and_visual_validation_unchanged": true,
+    "new_associations_use_existing_ids": true
+  },
+  "raw_source_identities": [
+    {
+      "file": "fontes/z_app/NervousSystem100.fbx",
+      "official_pinned_url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/NervousSystem100.fbx",
+      "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "pinned_identity_matches": true,
+      "bytes": 53887724,
+      "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+      "git_blob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02"
+    },
+    {
+      "file": "fontes/z_app/LymphoidOrgans100.fbx",
+      "official_pinned_url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/LymphoidOrgans100.fbx",
+      "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "pinned_identity_matches": true,
+      "bytes": 2130876,
+      "sha256": "310ff82f502f4f3a79e85f99ddc2009bba9514338119af9edff87b20cf1b3609",
+      "git_blob": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e"
+    }
+  ],
+  "source_glb_identities": [
+    {
+      "file": "malhas/CardioVascular41.glb",
+      "bytes": 47625892,
+      "sha256": "b88ed8d9be22b5d7a2ecec4da0519a61220d919beb601ef5eefd79f0aad38663",
+      "generator": "Open Asset Import Library (assimp v6.0.0)"
+    },
+    {
+      "file": "malhas/LymphoidOrgans100.glb",
+      "bytes": 2611588,
+      "sha256": "a047c946f873ba7e82421f27205a9a0e0e913c8fe370af7975e069f66ee5de31",
+      "generator": "Open Asset Import Library (assimp v6.0.0)"
+    },
+    {
+      "file": "malhas/NervousSystem100.glb",
+      "bytes": 60137960,
+      "sha256": "589670f56d4c836104bd537f7f1ba1240e351aa9a73c4c4b26c57f752e96d751",
+      "generator": "Open Asset Import Library (assimp v6.0.0)"
+    },
+    {
+      "file": "malhas/VisceralSystem100.glb",
+      "bytes": 19428444,
+      "sha256": "26ee3fcbdabd1e5e72a934ec7605c4cffc186e4f572894bfab0f89884654f7c3",
+      "generator": "Open Asset Import Library (assimp v6.0.0)"
+    }
+  ],
+  "independent_fbx_reconversion": {
+    "assimp_version": "------------------------------------------------------ \nOpen Asset Import Library (\"Assimp\", https://github.com/assimp/assimp) \n -- Commandline toolchain --\n------------------------------------------------------ \n\nVersion 6.0 -debug -shared -st (GIT commit 0)",
+    "sources": [
+      {
+        "source_file": "fontes/z_app/NervousSystem100.fbx",
+        "command": [
+          "assimp",
+          "export",
+          "fontes/z_app/NervousSystem100.fbx",
+          "<temporary>/NervousSystem100.glb",
+          "-fglb2"
+        ],
+        "reconverted_glb_bytes": 60137960,
+        "reconverted_glb_sha256": "589670f56d4c836104bd537f7f1ba1240e351aa9a73c4c4b26c57f752e96d751",
+        "selected_source_world_positions_and_indices_byte_exact": true,
+        "compared_parts": [
+          "Vagus nerve (X).l",
+          "Vagus nerve (X).r",
+          "Sympathetic trunk.l",
+          "Sympathetic trunk.r"
+        ]
+      },
+      {
+        "source_file": "fontes/z_app/LymphoidOrgans100.fbx",
+        "command": [
+          "assimp",
+          "export",
+          "fontes/z_app/LymphoidOrgans100.fbx",
+          "<temporary>/LymphoidOrgans100.glb",
+          "-fglb2"
+        ],
+        "reconverted_glb_bytes": 2611588,
+        "reconverted_glb_sha256": "a047c946f873ba7e82421f27205a9a0e0e913c8fe370af7975e069f66ee5de31",
+        "selected_source_world_positions_and_indices_byte_exact": true,
+        "compared_parts": [
+          "Inferior tracheobronchial nodes",
+          "Superior tracheobronchial nodes",
+          "Paratracheal cervical nodes",
+          "Paratracheal thoracic nodes"
+        ]
+      }
+    ]
+  },
+  "new_parts": [
+    {
+      "source_name": "Oesophagus",
+      "source_file": "VisceralSystem100.fbx",
+      "source_node": 419,
+      "source_glb": "malhas/VisceralSystem100.glb",
+      "source_world_matrix": [
+        [
+          100.00000000000948,
+          1.3879237335297093e-11,
+          -5.232128176500208e-12,
+          0.25898552299906896
+        ],
+        [
+          5.232123604399111e-12,
+          6.034835973688905e-06,
+          99.99999375343441,
+          132.90169886218806
+        ],
+        [
+          -1.2221377810498032e-11,
+          -99.99999375344957,
+          6.034835973691858e-06,
+          -0.9520207152590121
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_world_bounds": [
+        [
+          -0.9000498914592967,
+          119.40613211919295,
+          -3.3722572927910663
+        ],
+        [
+          1.8326274937532308,
+          147.55379064629108,
+          1.8340679865753615
+        ]
+      ],
+      "vertices": 8330,
+      "triangles": 16320,
+      "position_float32_bytes_exact": true,
+      "indices_uint32_bytes_exact": true,
+      "position_sha256": "f6803bd79143ceafad483be5f95e76450b010e4a52d9924a881ff5b54d3c4c94",
+      "indices_sha256": "bdb491c0ad4234120527cba7b6056603254316ab669a6c07128b6586110f4d60",
+      "normal_sha256": "478f909aea52b23b9c86883a0c1871d4455ad8ce1d98e808e560e2db4b5fc18b",
+      "default_visible": false,
+      "quiz_eligible": false,
+      "requirement_ids": [],
+      "requirement_matches_validation": "pending_individual",
+      "id": "resp_oesophagus",
+      "finite": true,
+      "indices_in_bounds": true,
+      "unit_normal_max_abs_error": 1.1157362234115453e-07,
+      "degenerate_triangles": 0
+    },
+    {
+      "source_name": "Ascending aorta",
+      "source_file": "CardioVascular41.fbx",
+      "source_node": 369,
+      "source_glb": "malhas/CardioVascular41.glb",
+      "source_world_matrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          1.0749074155464768
+        ],
+        [
+          0.0,
+          -1.629206303257725e-05,
+          99.99996960163315,
+          133.59972212427763
+        ],
+        [
+          0.0,
+          -99.99996960163315,
+          -1.629206303257725e-05,
+          2.515366031898271
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_world_bounds": [
+        [
+          -0.9592853333308207,
+          130.8009493425865,
+          0.4325072592168162
+        ],
+        [
+          3.196410539507912,
+          136.355625938257,
+          4.418783331538233
+        ]
+      ],
+      "vertices": 138,
+      "triangles": 236,
+      "position_float32_bytes_exact": true,
+      "indices_uint32_bytes_exact": true,
+      "position_sha256": "2b5aa26892101bb46b02a3090bd62dd9edd4bc6f51e08694687d52b7d002bcaf",
+      "indices_sha256": "dfcedbf125c2fe0c3e51f4fa379128122df35bdd2cdb95115de7d66b5dda5ff8",
+      "normal_sha256": "8bb10a308f309b74f41e8f2fe1b591be03f6a163036131adce753848dde36b90",
+      "default_visible": false,
+      "quiz_eligible": false,
+      "requirement_ids": [],
+      "requirement_matches_validation": "pending_individual",
+      "id": "resp_ascending_aorta",
+      "finite": true,
+      "indices_in_bounds": true,
+      "unit_normal_max_abs_error": 9.25242893412559e-08,
+      "degenerate_triangles": 0
+    },
+    {
+      "source_name": "Aortic arch",
+      "source_file": "CardioVascular41.fbx",
+      "source_node": 323,
+      "source_glb": "malhas/CardioVascular41.glb",
+      "source_world_matrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          1.4401282407343388
+        ],
+        [
+          0.0,
+          -1.629206303257725e-05,
+          99.99996960163315,
+          136.7955887619017
+        ],
+        [
+          0.0,
+          -99.99996960163315,
+          -1.629206303257725e-05,
+          -0.2102451490045496
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_world_bounds": [
+        [
+          -0.7973761407659108,
+          135.53339655456213,
+          -4.302719264123935
+        ],
+        [
+          3.181143618986239,
+          139.69181675290238,
+          4.212947963767995
+        ]
+      ],
+      "vertices": 139,
+      "triangles": 236,
+      "position_float32_bytes_exact": true,
+      "indices_uint32_bytes_exact": true,
+      "position_sha256": "1ebc59f6ba9430435c4b84e383d21d83ca777acdd390e9266ea9879f56cf403a",
+      "indices_sha256": "cd613b1abd412abf2efea53da3ec066298ac84bfa60792e64a8b9a0ab429dc1a",
+      "normal_sha256": "869bc068ae7f5ff3d9306f51a151296bbe40e5d42a6c168f8422a70290c8a0d9",
+      "default_visible": false,
+      "quiz_eligible": false,
+      "requirement_ids": [],
+      "requirement_matches_validation": "pending_individual",
+      "id": "resp_aortic_arch",
+      "finite": true,
+      "indices_in_bounds": true,
+      "unit_normal_max_abs_error": 1.0027642960430683e-07,
+      "degenerate_triangles": 0
+    },
+    {
+      "source_name": "Thoracic aorta",
+      "source_file": "CardioVascular41.fbx",
+      "source_node": 325,
+      "source_glb": "malhas/CardioVascular41.glb",
+      "source_world_matrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          1.543725537136197
+        ],
+        [
+          0.0,
+          -1.629206303257725e-05,
+          99.99996960163315,
+          128.3720818859762
+        ],
+        [
+          0.0,
+          -99.99996960163315,
+          -1.629206303257725e-05,
+          -2.487861343241647
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_world_bounds": [
+        [
+          -0.05391142476554123,
+          120.50986813388192,
+          -4.9441148851810235
+        ],
+        [
+          3.103885239886637,
+          136.54878136569445,
+          -0.1123056485947247
+        ]
+      ],
+      "vertices": 205,
+      "triangles": 354,
+      "position_float32_bytes_exact": true,
+      "indices_uint32_bytes_exact": true,
+      "position_sha256": "43631f839d67befeb85d6643febd48f2d760c3ad681103cf904a0c2d28cccf69",
+      "indices_sha256": "d64aa710fbbf90bf3490fd7d835fe5936737f2ea93479f0929c20ebab7e75027",
+      "normal_sha256": "711c79fd48e11a0dfbeec31366cbf0a7fb15ff43ece803aef5bea3c8b19ec55b",
+      "default_visible": false,
+      "quiz_eligible": false,
+      "requirement_ids": [],
+      "requirement_matches_validation": "pending_individual",
+      "id": "resp_thoracic_aorta",
+      "finite": true,
+      "indices_in_bounds": true,
+      "unit_normal_max_abs_error": 1.04374583864697e-07,
+      "degenerate_triangles": 0
+    },
+    {
+      "source_name": "Left subclavian artery",
+      "source_file": "CardioVascular41.fbx",
+      "source_node": 195,
+      "source_glb": "malhas/CardioVascular41.glb",
+      "source_world_matrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          4.623364120721817
+        ],
+        [
+          0.0,
+          -1.629206836164726e-05,
+          99.9999994039527,
+          141.21331115251726
+        ],
+        [
+          0.0,
+          -99.9999994039527,
+          -1.629206836164726e-05,
+          0.08045505774486728
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_world_bounds": [
+        [
+          1.9103614432662335,
+          138.89610548126112,
+          -0.8801249129878578
+        ],
+        [
+          8.06257974265837,
+          142.73100893750993,
+          0.43197451716291196
+        ]
+      ],
+      "vertices": 265,
+      "triangles": 472,
+      "position_float32_bytes_exact": true,
+      "indices_uint32_bytes_exact": true,
+      "position_sha256": "81f178da4998f407d5474bd98406421890ae117d4c6be2c4592a1f622758d1a6",
+      "indices_sha256": "55a8a226543a88ef30d1b63f6776347124a4c72f029c6da5714704941483146b",
+      "normal_sha256": "3b4045c709c27c057b23331c31f387356f0b47e2e3ba9c2cbf62234d84a8d481",
+      "default_visible": false,
+      "quiz_eligible": false,
+      "requirement_ids": [],
+      "requirement_matches_validation": "pending_individual",
+      "id": "resp_left_subclavian_artery",
+      "finite": true,
+      "indices_in_bounds": true,
+      "unit_normal_max_abs_error": 1.0290329988116298e-07,
+      "degenerate_triangles": 0
+    },
+    {
+      "source_name": "Superior vena cava",
+      "source_file": "CardioVascular41.fbx",
+      "source_node": 508,
+      "source_glb": "malhas/CardioVascular41.glb",
+      "source_world_matrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          -1.5537028908729553
+        ],
+        [
+          0.0,
+          -1.629206836164726e-05,
+          99.9999994039527,
+          135.7844786533996
+        ],
+        [
+          0.0,
+          -99.9999994039527,
+          -1.629206836164726e-05,
+          2.0514503027629374
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_world_bounds": [
+        [
+          -2.878890929001391,
+          134.00102322522613,
+          0.5539356683390164
+        ],
+        [
+          -0.38549570116092013,
+          137.7683604536201,
+          3.260733893735395
+        ]
+      ],
+      "vertices": 77,
+      "triangles": 118,
+      "position_float32_bytes_exact": true,
+      "indices_uint32_bytes_exact": true,
+      "position_sha256": "7eaa720ab1fed14f393c5d165c29dead29939b29022e6f9bd40f7f853bbc710a",
+      "indices_sha256": "d15ba06097ec071ed59453aed1a2d67f285c830b051d1746e6d7a8e8957c9a04",
+      "normal_sha256": "5f1f9929e65360803156c2eca761f9810be9e4674743c92deb9846423997e53b",
+      "default_visible": false,
+      "quiz_eligible": false,
+      "requirement_ids": [],
+      "requirement_matches_validation": "pending_individual",
+      "id": "resp_superior_vena_cava",
+      "finite": true,
+      "indices_in_bounds": true,
+      "unit_normal_max_abs_error": 1.0399693417539879e-07,
+      "degenerate_triangles": 0
+    },
+    {
+      "source_name": "Azygos vein",
+      "source_file": "CardioVascular41.fbx",
+      "source_node": 509,
+      "source_glb": "malhas/CardioVascular41.glb",
+      "source_world_matrix": [
+        [
+          100.00000149011612,
+          0.0,
+          0.0,
+          -1.1495683058480237
+        ],
+        [
+          0.0,
+          -1.629206836164726e-05,
+          99.9999994039527,
+          126.6450594293528
+        ],
+        [
+          0.0,
+          -99.9999994039527,
+          -1.629206836164726e-05,
+          -2.101073772355768
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_world_bounds": [
+        [
+          -1.7906063513741413,
+          115.10357329791645,
+          -3.832730676201173
+        ],
+        [
+          -0.571864992650779,
+          136.61044836256875,
+          1.4526503881153645
+        ]
+      ],
+      "vertices": 1227,
+      "triangles": 2242,
+      "position_float32_bytes_exact": true,
+      "indices_uint32_bytes_exact": true,
+      "position_sha256": "8eef005ebfb3532d9705da9867cec6dcd593dadb64fbd4636b240f5328be5183",
+      "indices_sha256": "035cdc1c30e24672013ec5f2a39c9567659b08fe4b07eee09e477699f5f17736",
+      "normal_sha256": "20e6b658f0e138649cb1f333a7af3e172e1984b872ff9b99dfa459cb404863c6",
+      "default_visible": false,
+      "quiz_eligible": false,
+      "requirement_ids": [],
+      "requirement_matches_validation": "pending_individual",
+      "id": "resp_azygos_vein",
+      "finite": true,
+      "indices_in_bounds": true,
+      "unit_normal_max_abs_error": 1.1968544633145228e-07,
+      "degenerate_triangles": 0
+    },
+    {
+      "source_name": "Inferior tracheobronchial nodes",
+      "source_file": "LymphoidOrgans100.fbx",
+      "source_node": 274,
+      "source_glb": "malhas/LymphoidOrgans100.glb",
+      "source_world_matrix": [
+        [
+          0.6902522873133421,
+          -125.42088031768799,
+          34.19250845909119,
+          -2.1810462474823
+        ],
+        [
+          -98.30931867146865,
+          -22.876037402073734,
+          -81.9265839537361,
+          134.67847745279687
+        ],
+        [
+          85.05763358630065,
+          -25.422243324489955,
+          -94.96794214493184,
+          -0.1338854669952383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_world_bounds": [
+        [
+          -1.8683799176303972,
+          135.27026676220953,
+          -2.090951252451225
+        ],
+        [
+          1.7100510527880148,
+          137.00759477314824,
+          -0.35766672790065035
+        ]
+      ],
+      "vertices": 860,
+      "triangles": 1680,
+      "position_float32_bytes_exact": true,
+      "indices_uint32_bytes_exact": true,
+      "position_sha256": "c5010a479af1c61632740a31d52866902044a94c21b8e6c353e3b4ef6d1480b8",
+      "indices_sha256": "d400bb70e31d3fe5bad0c34baa88cf4fe05cb4569a9331381c6e51f4e96a31e9",
+      "normal_sha256": "58ad15b957b2f7d48c11a543132fda86b06a2cbdb5cde021597b517901c98027",
+      "default_visible": false,
+      "quiz_eligible": false,
+      "requirement_ids": [
+        "R186"
+      ],
+      "requirement_matches_validation": "pending_individual",
+      "id": "resp_inferior_tracheobronchial_nodes",
+      "finite": true,
+      "indices_in_bounds": true,
+      "unit_normal_max_abs_error": 1.2150749006956119e-07,
+      "degenerate_triangles": 0
+    },
+    {
+      "source_name": "Superior tracheobronchial nodes",
+      "source_file": "LymphoidOrgans100.fbx",
+      "source_node": 266,
+      "source_glb": "malhas/LymphoidOrgans100.glb",
+      "source_world_matrix": [
+        [
+          0.6902522873133421,
+          -125.42088031768799,
+          34.19250845909119,
+          -0.1682450771331787
+        ],
+        [
+          -98.30931867146865,
+          -22.876037402073734,
+          -81.9265839537361,
+          137.61553176967936
+        ],
+        [
+          85.05763358630065,
+          -25.422243324489955,
+          -94.96794214493184,
+          -0.8636708983728028
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_world_bounds": [
+        [
+          -1.280373953523386,
+          137.26311998060854,
+          -1.724167277543036
+        ],
+        [
+          1.2927663351635947,
+          138.08064850231156,
+          -0.1087665012726553
+        ]
+      ],
+      "vertices": 430,
+      "triangles": 840,
+      "position_float32_bytes_exact": true,
+      "indices_uint32_bytes_exact": true,
+      "position_sha256": "51b5e9ac9448172b2020fc7f77383b366b724309d0da857d4ac85854f8632257",
+      "indices_sha256": "3dfb402ddf20b481680ac2c25e1e82a2c6672a93d00d726dbc208166f170b7d3",
+      "normal_sha256": "7d414f66ba68d9836786c46f8cb094430381fa68c4693fd40b170be621987405",
+      "default_visible": false,
+      "quiz_eligible": false,
+      "requirement_ids": [
+        "R187"
+      ],
+      "requirement_matches_validation": "pending_individual",
+      "id": "resp_superior_tracheobronchial_nodes",
+      "finite": true,
+      "indices_in_bounds": true,
+      "unit_normal_max_abs_error": 1.0673942574257467e-07,
+      "degenerate_triangles": 0
+    },
+    {
+      "source_name": "Paratracheal cervical nodes",
+      "source_file": "LymphoidOrgans100.fbx",
+      "source_node": 78,
+      "source_glb": "malhas/LymphoidOrgans100.glb",
+      "source_world_matrix": [
+        [
+          48.6591637134552,
+          -98.23163747787476,
+          69.87729072570801,
+          -1.168785035610199
+        ],
+        [
+          -85.42533461186667,
+          -81.26658177249237,
+          -54.75633322667409,
+          144.69423919284506
+        ],
+        [
+          85.05763358630065,
+          -25.42225226518599,
+          -94.96794810539586,
+          0.6640241566083205
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_world_bounds": [
+        [
+          -1.3060257919511051,
+          143.49438236625048,
+          0.30955836013115573
+        ],
+        [
+          1.3061386782208855,
+          145.9066806158358,
+          1.0326196617242664
+        ]
+      ],
+      "vertices": 516,
+      "triangles": 1008,
+      "position_float32_bytes_exact": true,
+      "indices_uint32_bytes_exact": true,
+      "position_sha256": "aa64fbd7f483fae66d32e72782f48470b702b7beb0a1a78c91b4c2f8df14d1c8",
+      "indices_sha256": "8cf255052a4a4fdcd6dde46b4563622867acaf47d3b94de36fb64159dc52290d",
+      "normal_sha256": "150d3d6cb5663b9c2788cc9d8201103d2cfab5ab7a332a9f82d7ef155060075e",
+      "default_visible": false,
+      "quiz_eligible": false,
+      "requirement_ids": [
+        "R188"
+      ],
+      "requirement_matches_validation": "pending_individual",
+      "id": "resp_paratracheal_cervical_nodes",
+      "finite": true,
+      "indices_in_bounds": true,
+      "unit_normal_max_abs_error": 1.1337212746376224e-07,
+      "degenerate_triangles": 0
+    },
+    {
+      "source_name": "Paratracheal thoracic nodes",
+      "source_file": "LymphoidOrgans100.fbx",
+      "source_node": 268,
+      "source_glb": "malhas/LymphoidOrgans100.glb",
+      "source_world_matrix": [
+        [
+          48.65915775299072,
+          -98.2316255569458,
+          69.87729072570801,
+          -1.1500200033187866
+        ],
+        [
+          -85.42532269093863,
+          -81.26656985156433,
+          -54.75633322667409,
+          139.52141407595536
+        ],
+        [
+          85.05762166537261,
+          -25.422249284953978,
+          -94.96794810539586,
+          -0.4036272908014311
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_world_bounds": [
+        [
+          -1.2919866352787088,
+          137.21933138910455,
+          -1.169314056940673
+        ],
+        [
+          1.2919835402281024,
+          141.87793556497417,
+          0.3115136694926147
+        ]
+      ],
+      "vertices": 860,
+      "triangles": 1680,
+      "position_float32_bytes_exact": true,
+      "indices_uint32_bytes_exact": true,
+      "position_sha256": "ac5fcebc53c766b1feb6b962e1028609dfceda74863a96e0f7ed4fcc679a1062",
+      "indices_sha256": "67dee2f3a40810153529f0b4db4d63a546dba8456ae37e46b54bd82c22ac442a",
+      "normal_sha256": "63d16f50b6d17fef57139da76493a70256742e53811a69bd21b8a377b8c7f2b0",
+      "default_visible": false,
+      "quiz_eligible": false,
+      "requirement_ids": [
+        "R188"
+      ],
+      "requirement_matches_validation": "pending_individual",
+      "id": "resp_paratracheal_thoracic_nodes",
+      "finite": true,
+      "indices_in_bounds": true,
+      "unit_normal_max_abs_error": 1.1437128522029383e-07,
+      "degenerate_triangles": 0
+    },
+    {
+      "source_name": "Vagus nerve (X).l",
+      "source_file": "NervousSystem100.fbx",
+      "source_node": 586,
+      "source_glb": "malhas/NervousSystem100.glb",
+      "source_world_matrix": [
+        [
+          -99.99999673366437,
+          0.0,
+          0.0,
+          2.1801144024206796
+        ],
+        [
+          0.0,
+          1.6292065534433924e-05,
+          99.999981832505,
+          151.46830638005957
+        ],
+        [
+          0.0,
+          -99.99998658895493,
+          1.6292066309358004e-05,
+          0.23952462557026855
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_world_bounds": [
+        [
+          0.16298935350820987,
+          134.61698930639628,
+          -4.269894841959273
+        ],
+        [
+          2.8958525414406076,
+          157.58665940921526,
+          3.115688990013126
+        ]
+      ],
+      "vertices": 8059,
+      "triangles": 14540,
+      "position_float32_bytes_exact": true,
+      "indices_uint32_bytes_exact": true,
+      "position_sha256": "ea51ae90d5a9241cccaf388a91fcb161d6617127e5f04ed44337d5f4f777e25b",
+      "indices_sha256": "6ed3a6bee4e7c1a1c87eedb613c54e1c499c972ad625411592575571bb848a19",
+      "normal_sha256": "ede71fba9fb4ed7c9bd40f8b538121832d1f2f7aa3bec2718f685bf61afe4a1b",
+      "default_visible": false,
+      "quiz_eligible": false,
+      "requirement_ids": [
+        "R181"
+      ],
+      "requirement_matches_validation": "pending_individual",
+      "id": "resp_vagus_nerve_x_l",
+      "finite": true,
+      "indices_in_bounds": true,
+      "unit_normal_max_abs_error": 1.177002275642991e-07,
+      "degenerate_triangles": 0
+    },
+    {
+      "source_name": "Vagus nerve (X).r",
+      "source_file": "NervousSystem100.fbx",
+      "source_node": 585,
+      "source_glb": "malhas/NervousSystem100.glb",
+      "source_world_matrix": [
+        [
+          99.99999673366437,
+          0.0,
+          0.0,
+          -2.1801142320913787
+        ],
+        [
+          0.0,
+          -1.6292065534433924e-05,
+          99.999981832505,
+          151.46830638005957
+        ],
+        [
+          0.0,
+          -99.99998658895493,
+          -1.6292066309358004e-05,
+          0.23952462557026855
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_world_bounds": [
+        [
+          -2.8958523711113067,
+          110.49205212279463,
+          -4.587518984787515
+        ],
+        [
+          6.981646126680511,
+          157.58665878537624,
+          4.273554485450723
+        ]
+      ],
+      "vertices": 25425,
+      "triangles": 45924,
+      "position_float32_bytes_exact": true,
+      "indices_uint32_bytes_exact": true,
+      "position_sha256": "ee20f26e30644155f03e39e256bab190db851deb79b56464933fa494a2a362c8",
+      "indices_sha256": "c8b789511450475ca267c59c633998730ad8ba1df8d826099b626072e8ec3812",
+      "normal_sha256": "6242fef46b19eb5ad0c9a7506602f86f76231621d38c32f5bf66566eff4db8e3",
+      "default_visible": false,
+      "quiz_eligible": false,
+      "requirement_ids": [
+        "R181"
+      ],
+      "requirement_matches_validation": "pending_individual",
+      "id": "resp_vagus_nerve_x_r",
+      "finite": true,
+      "indices_in_bounds": true,
+      "unit_normal_max_abs_error": 1.25780485804583e-07,
+      "degenerate_triangles": 0
+    },
+    {
+      "source_name": "Sympathetic trunk.l",
+      "source_file": "NervousSystem100.fbx",
+      "source_node": 831,
+      "source_glb": "malhas/NervousSystem100.glb",
+      "source_world_matrix": [
+        [
+          -99.99999524354098,
+          -8.742273158941e-06,
+          8.742280185045634e-06,
+          0.9978202223616779
+        ],
+        [
+          8.742275240167318e-06,
+          1.795575785434878e-05,
+          99.99998481274002,
+          134.1092543759611
+        ],
+        [
+          8.742277418229575e-06,
+          -99.9999895691912,
+          1.7955756054901546e-05,
+          -3.485368352226793
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_world_bounds": [
+        [
+          0.4574339747959373,
+          113.31070860082625,
+          -6.273683594854949
+        ],
+        [
+          2.4766479150710587,
+          150.413815692772,
+          0.5141724873461255
+        ]
+      ],
+      "vertices": 13741,
+      "triangles": 25344,
+      "position_float32_bytes_exact": true,
+      "indices_uint32_bytes_exact": true,
+      "position_sha256": "51bf539e6289e19e8b405c8bfbec8e20050d2b06d04d6b8636e9af3c6dbff281",
+      "indices_sha256": "d5b11376eb212dfae1fb10261e27dc4a12223051e692ce89f35c4f66c7f290a7",
+      "normal_sha256": "e8dafb6d01a5559398c7db8dc584ab7f928061f205ec6ba76220c315030a2cd8",
+      "default_visible": false,
+      "quiz_eligible": false,
+      "requirement_ids": [
+        "R184"
+      ],
+      "requirement_matches_validation": "pending_individual",
+      "id": "resp_sympathetic_trunk_l",
+      "finite": true,
+      "indices_in_bounds": true,
+      "unit_normal_max_abs_error": 1.2041148722552464e-07,
+      "degenerate_triangles": 0
+    },
+    {
+      "source_name": "Sympathetic trunk.r",
+      "source_file": "NervousSystem100.fbx",
+      "source_node": 828,
+      "source_glb": "malhas/NervousSystem100.glb",
+      "source_world_matrix": [
+        [
+          100.00001908540344,
+          -8.742275521148336e-06,
+          8.742279575541615e-06,
+          -0.9978169606803572
+        ],
+        [
+          -8.742277371795456e-06,
+          2.856180756316793e-06,
+          99.99999673366656,
+          134.1092543759611
+        ],
+        [
+          -8.742279502551426e-06,
+          -100.00000149011831,
+          2.8561782386651478e-06,
+          -3.48536817776262
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_world_bounds": [
+        [
+          -2.4766488808711147,
+          113.31070616486625,
+          -6.273682571412971
+        ],
+        [
+          -0.45742824241801483,
+          150.41381818024786,
+          0.5141706573532114
+        ]
+      ],
+      "vertices": 13741,
+      "triangles": 25344,
+      "position_float32_bytes_exact": true,
+      "indices_uint32_bytes_exact": true,
+      "position_sha256": "ccc8044ad3b015d67ce5a8ce5316c4b014f3d6b00eb6371880a09129c972bced",
+      "indices_sha256": "2b912aec43b563c9bbe50be694963c2357cfe2d5cdae7f708cabd7cd0a0a7bd4",
+      "normal_sha256": "98b90b84f6dc77a4024866bd5aecfdcaf61de1701a04ab7c5e02ebc37c22cc48",
+      "default_visible": false,
+      "quiz_eligible": false,
+      "requirement_ids": [
+        "R184"
+      ],
+      "requirement_matches_validation": "pending_individual",
+      "id": "resp_sympathetic_trunk_r",
+      "finite": true,
+      "indices_in_bounds": true,
+      "unit_normal_max_abs_error": 1.207171702599652e-07,
+      "degenerate_triangles": 0
+    }
+  ],
+  "verified_claims": [
+    "All 175 original POSITION, NORMAL and index arrays are byte-identical to the pinned baseline.",
+    "All 15 new POSITION float32 and index uint32 arrays equal the on-disk converted source under one common transform.",
+    "The two added raw FBX files match independently pinned official Git blob identities and SHA-256 hashes.",
+    "The eight selected nerve and lymph-node source geometries equal independent temporary reconversions of the pinned raw FBX files.",
+    "New parts remain hidden by default, outside the quiz, with existing nominal requirement associations and pending individual visual validation."
+  ],
+  "limits": [
+    "Array equality proves preservation of converted source surfaces; it does not certify anatomical accuracy, completeness, nerve endings or lymphatic drainage.",
+    "Temporary FBX reconversion compares the eight selected pieces from the two new sources using the installed Assimp version; it does not certify the converter against the authoring application or other exports.",
+    "Finite unit normals and zero-area triangle checks do not certify manifoldness, absence of self-intersection or outward normal orientation.",
+    "Nominal requirement associations do not complete contextual grooves, pulmonary plexuses, individual ganglia or individual lymph nodes.",
+    "No online fetch, visual validation or classification promotion is performed."
+  ]
+}

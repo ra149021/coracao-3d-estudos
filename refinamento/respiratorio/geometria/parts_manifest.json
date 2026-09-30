@@ -673,10 +673,26 @@
         1.721161961555481
       ]
     ],
-    "requirement": null,
-    "requirementIds": [],
+    "requirement": {
+      "id": "R034",
+      "label": "Seios frontais",
+      "page": 34,
+      "source": "respiratorio"
+    },
+    "requirementIds": [
+      "R034"
+    ],
     "relatedRequirementIds": [],
-    "requirementMatches": []
+    "requirementMatches": [
+      {
+        "id": "R034",
+        "label": "Seios frontais",
+        "type": "estrutura",
+        "match": "source_name_candidate",
+        "visualValidation": "pending_individual",
+        "separateStructure": true
+      }
+    ]
   },
   {
     "sourceName": "Sinus of sphenoid bone",
@@ -707,10 +723,26 @@
         0.7941756248474121
       ]
     ],
-    "requirement": null,
-    "requirementIds": [],
+    "requirement": {
+      "id": "R036",
+      "label": "Seios esfenoidais",
+      "page": 34,
+      "source": "respiratorio"
+    },
+    "requirementIds": [
+      "R036"
+    ],
     "relatedRequirementIds": [],
-    "requirementMatches": []
+    "requirementMatches": [
+      {
+        "id": "R036",
+        "label": "Seios esfenoidais",
+        "type": "estrutura",
+        "match": "source_name_candidate",
+        "visualValidation": "pending_individual",
+        "separateStructure": true
+      }
+    ]
   },
   {
     "sourceName": "Anterior cells of ethmoid bone.l",
@@ -9069,6 +9101,644 @@
         "match": "regional_context_only",
         "visualValidation": "pending_individual",
         "separateStructure": false
+      }
+    ]
+  },
+  {
+    "sourceName": "Oesophagus",
+    "label": "Esôfago · contexto mediastinal",
+    "group": "contexto_mediastino",
+    "sourceFile": "VisceralSystem100.fbx",
+    "note": "Superfície integral do esôfago da fonte, no mesmo registro da traqueia e dos pulmões. Não individualiza regiões, camadas da parede ou impressões pulmonares; inspeção visual pendente.",
+    "defaultVisible": false,
+    "quizEligible": false,
+    "representation": "mediastinal_context",
+    "id": "resp_oesophagus",
+    "source": "Z-Anatomy",
+    "license": "CC BY-SA 4.0",
+    "sourceNode": 419,
+    "color": "#b87878",
+    "tissueColor": "#b87878",
+    "vertices": 8330,
+    "triangles": 16320,
+    "bounds": [
+      [
+        -0.18000997602939606,
+        -4.518773555755615,
+        -0.674451470375061
+      ],
+      [
+        0.3665255010128021,
+        1.1107581853866577,
+        0.366813600063324
+      ]
+    ],
+    "requirement": null,
+    "requirementIds": [],
+    "relatedRequirementIds": [],
+    "requirementMatches": []
+  },
+  {
+    "sourceName": "Ascending aorta",
+    "label": "Aorta ascendente · contexto mediastinal",
+    "group": "contexto_mediastino",
+    "sourceFile": "CardioVascular41.fbx",
+    "note": "Superfície integral do vaso da fonte, sem recorte ou ajuste de trajeto. Ajuda a examinar relações mediastinais; não individualiza sulcos pulmonares. Cores didáticas; inspeção visual pendente.",
+    "defaultVisible": false,
+    "quizEligible": false,
+    "color": "#ba7275",
+    "representation": "mediastinal_context",
+    "id": "resp_ascending_aorta",
+    "source": "Z-Anatomy",
+    "license": "CC BY-SA 4.0",
+    "sourceNode": 369,
+    "tissueColor": "#ba7275",
+    "vertices": 138,
+    "triangles": 236,
+    "bounds": [
+      [
+        -0.19185706973075867,
+        -2.2398102283477783,
+        0.08650144934654236
+      ],
+      [
+        0.6392821073532104,
+        -1.1288747787475586,
+        0.8837566375732422
+      ]
+    ],
+    "requirement": null,
+    "requirementIds": [],
+    "relatedRequirementIds": [],
+    "requirementMatches": []
+  },
+  {
+    "sourceName": "Aortic arch",
+    "label": "Arco da aorta · contexto mediastinal",
+    "group": "contexto_mediastino",
+    "sourceFile": "CardioVascular41.fbx",
+    "note": "Superfície integral do vaso da fonte, sem recorte ou ajuste de trajeto. Ajuda a examinar relações mediastinais; não individualiza sulcos pulmonares. Cores didáticas; inspeção visual pendente.",
+    "defaultVisible": false,
+    "quizEligible": false,
+    "color": "#ba7275",
+    "representation": "mediastinal_context",
+    "id": "resp_aortic_arch",
+    "source": "Z-Anatomy",
+    "license": "CC BY-SA 4.0",
+    "sourceNode": 323,
+    "tissueColor": "#ba7275",
+    "vertices": 139,
+    "triangles": 236,
+    "bounds": [
+      [
+        -0.15947522222995758,
+        -1.293320655822754,
+        -0.8605438470840454
+      ],
+      [
+        0.6362287402153015,
+        -0.46163666248321533,
+        0.8425896167755127
+      ]
+    ],
+    "requirement": null,
+    "requirementIds": [],
+    "relatedRequirementIds": [],
+    "requirementMatches": []
+  },
+  {
+    "sourceName": "Thoracic aorta",
+    "label": "Aorta torácica · contexto mediastinal",
+    "group": "contexto_mediastino",
+    "sourceFile": "CardioVascular41.fbx",
+    "note": "Superfície integral do vaso da fonte, sem recorte ou ajuste de trajeto. Ajuda a examinar relações mediastinais; não individualiza sulcos pulmonares. Cores didáticas; inspeção visual pendente.",
+    "defaultVisible": false,
+    "quizEligible": false,
+    "color": "#ba7275",
+    "representation": "mediastinal_context",
+    "id": "resp_thoracic_aorta",
+    "source": "Z-Anatomy",
+    "license": "CC BY-SA 4.0",
+    "sourceNode": 325,
+    "tissueColor": "#ba7275",
+    "vertices": 205,
+    "triangles": 354,
+    "bounds": [
+      [
+        -0.010782284662127495,
+        -4.2980265617370605,
+        -0.9888229966163635
+      ],
+      [
+        0.6207770705223083,
+        -1.0902436971664429,
+        -0.02246112935245037
+      ]
+    ],
+    "requirement": null,
+    "requirementIds": [],
+    "relatedRequirementIds": [],
+    "requirementMatches": []
+  },
+  {
+    "sourceName": "Left subclavian artery",
+    "label": "Artéria subclávia esquerda · contexto mediastinal",
+    "group": "contexto_mediastino",
+    "sourceFile": "CardioVascular41.fbx",
+    "note": "Superfície integral do vaso da fonte, sem recorte ou ajuste de trajeto. Ajuda a examinar relações mediastinais; não individualiza sulcos pulmonares. Cores didáticas; inspeção visual pendente.",
+    "defaultVisible": false,
+    "quizEligible": false,
+    "color": "#ba7275",
+    "representation": "mediastinal_context",
+    "id": "resp_left_subclavian_artery",
+    "source": "Z-Anatomy",
+    "license": "CC BY-SA 4.0",
+    "sourceNode": 195,
+    "tissueColor": "#ba7275",
+    "vertices": 265,
+    "triangles": 472,
+    "bounds": [
+      [
+        0.3820722997188568,
+        -0.6207789182662964,
+        -0.17602498829364777
+      ],
+      [
+        1.612515926361084,
+        0.14620178937911987,
+        0.08639490604400635
+      ]
+    ],
+    "requirement": null,
+    "requirementIds": [],
+    "relatedRequirementIds": [],
+    "requirementMatches": []
+  },
+  {
+    "sourceName": "Superior vena cava",
+    "label": "Veia cava superior · contexto mediastinal",
+    "group": "contexto_mediastino",
+    "sourceFile": "CardioVascular41.fbx",
+    "note": "Superfície integral do vaso da fonte, sem recorte ou ajuste de trajeto. Ajuda a examinar relações mediastinais; não individualiza sulcos pulmonares. Cores didáticas; inspeção visual pendente.",
+    "defaultVisible": false,
+    "quizEligible": false,
+    "color": "#658ba9",
+    "representation": "mediastinal_context",
+    "id": "resp_superior_vena_cava",
+    "source": "Z-Anatomy",
+    "license": "CC BY-SA 4.0",
+    "sourceNode": 508,
+    "tissueColor": "#658ba9",
+    "vertices": 77,
+    "triangles": 118,
+    "bounds": [
+      [
+        -0.5757781863212585,
+        -1.5997953414916992,
+        0.11078713089227676
+      ],
+      [
+        -0.07709913700819016,
+        -0.8463279008865356,
+        0.6521467566490173
+      ]
+    ],
+    "requirement": null,
+    "requirementIds": [],
+    "relatedRequirementIds": [],
+    "requirementMatches": []
+  },
+  {
+    "sourceName": "Azygos vein",
+    "label": "Veia ázigos · contexto mediastinal",
+    "group": "contexto_mediastino",
+    "sourceFile": "CardioVascular41.fbx",
+    "note": "Superfície integral do vaso da fonte, sem recorte ou ajuste de trajeto. Ajuda a examinar relações mediastinais; não individualiza sulcos pulmonares. Cores didáticas; inspeção visual pendente.",
+    "defaultVisible": false,
+    "quizEligible": false,
+    "color": "#658ba9",
+    "representation": "mediastinal_context",
+    "id": "resp_azygos_vein",
+    "source": "Z-Anatomy",
+    "license": "CC BY-SA 4.0",
+    "sourceNode": 509,
+    "tissueColor": "#658ba9",
+    "vertices": 1227,
+    "triangles": 2242,
+    "bounds": [
+      [
+        -0.35812127590179443,
+        -5.3792853355407715,
+        -0.7665461301803589
+      ],
+      [
+        -0.11437299847602844,
+        -1.077910304069519,
+        0.29053008556365967
+      ]
+    ],
+    "requirement": null,
+    "requirementIds": [],
+    "relatedRequirementIds": [],
+    "requirementMatches": []
+  },
+  {
+    "sourceName": "Inferior tracheobronchial nodes",
+    "label": "Linfonodos traqueobronquiais inferiores · conjunto",
+    "group": "linfaticos_torax",
+    "sourceFile": "LymphoidOrgans100.fbx",
+    "note": "Conjunto original de linfonodos no mesmo registro anatômico. Cada linfonodo e suas conexões linfáticas não são peças independentes; inspeção visual pendente.",
+    "defaultVisible": false,
+    "quizEligible": false,
+    "representation": "aggregate",
+    "id": "resp_inferior_tracheobronchial_nodes",
+    "source": "Z-Anatomy",
+    "license": "CC BY-SA 4.0",
+    "sourceNode": 274,
+    "color": "#91ae7d",
+    "tissueColor": "#91ae7d",
+    "vertices": 860,
+    "triangles": 1680,
+    "bounds": [
+      [
+        -0.37367597222328186,
+        -1.3459466695785522,
+        -0.41819024085998535
+      ],
+      [
+        0.3420102000236511,
+        -0.998481035232544,
+        -0.07153334468603134
+      ]
+    ],
+    "requirement": {
+      "id": "R186",
+      "label": "Linfonodos traqueobronquiais inferiores",
+      "page": 129,
+      "source": "respiratorio"
+    },
+    "requirementIds": [
+      "R186"
+    ],
+    "relatedRequirementIds": [],
+    "requirementMatches": [
+      {
+        "id": "R186",
+        "label": "Linfonodos traqueobronquiais inferiores",
+        "type": "estrutura",
+        "match": "source_name_candidate",
+        "visualValidation": "pending_individual",
+        "separateStructure": true
+      }
+    ]
+  },
+  {
+    "sourceName": "Superior tracheobronchial nodes",
+    "label": "Linfonodos traqueobronquiais superiores · conjunto",
+    "group": "linfaticos_torax",
+    "sourceFile": "LymphoidOrgans100.fbx",
+    "note": "Conjunto original de linfonodos no mesmo registro anatômico. Cada linfonodo e suas conexões linfáticas não são peças independentes; inspeção visual pendente.",
+    "defaultVisible": false,
+    "quizEligible": false,
+    "representation": "aggregate",
+    "id": "resp_superior_tracheobronchial_nodes",
+    "source": "Z-Anatomy",
+    "license": "CC BY-SA 4.0",
+    "sourceNode": 266,
+    "color": "#91ae7d",
+    "tissueColor": "#91ae7d",
+    "vertices": 430,
+    "triangles": 840,
+    "bounds": [
+      [
+        -0.25607478618621826,
+        -0.947376012802124,
+        -0.34483346343040466
+      ],
+      [
+        0.25855326652526855,
+        -0.783870279788971,
+        -0.021753299981355667
+      ]
+    ],
+    "requirement": {
+      "id": "R187",
+      "label": "Linfonodos traqueobronquiais superiores",
+      "page": 129,
+      "source": "respiratorio"
+    },
+    "requirementIds": [
+      "R187"
+    ],
+    "relatedRequirementIds": [],
+    "requirementMatches": [
+      {
+        "id": "R187",
+        "label": "Linfonodos traqueobronquiais superiores",
+        "type": "estrutura",
+        "match": "source_name_candidate",
+        "visualValidation": "pending_individual",
+        "separateStructure": true
+      }
+    ]
+  },
+  {
+    "sourceName": "Paratracheal cervical nodes",
+    "label": "Linfonodos paratraqueais cervicais · conjunto",
+    "group": "linfaticos_torax",
+    "sourceFile": "LymphoidOrgans100.fbx",
+    "note": "Conjunto original de linfonodos no mesmo registro anatômico. Cada linfonodo e suas conexões linfáticas não são peças independentes; inspeção visual pendente.",
+    "defaultVisible": false,
+    "quizEligible": false,
+    "representation": "aggregate",
+    "id": "resp_paratracheal_cervical_nodes",
+    "source": "Z-Anatomy",
+    "license": "CC BY-SA 4.0",
+    "sourceNode": 78,
+    "color": "#91ae7d",
+    "tissueColor": "#91ae7d",
+    "vertices": 516,
+    "triangles": 1008,
+    "bounds": [
+      [
+        -0.26120516657829285,
+        0.29887646436691284,
+        0.06191167235374451
+      ],
+      [
+        0.26122772693634033,
+        0.7813361287117004,
+        0.20652392506599426
+      ]
+    ],
+    "requirement": {
+      "id": "R188",
+      "label": "Linfonodos paratraqueais",
+      "page": 87,
+      "source": "respiratorio"
+    },
+    "requirementIds": [
+      "R188"
+    ],
+    "relatedRequirementIds": [],
+    "requirementMatches": [
+      {
+        "id": "R188",
+        "label": "Linfonodos paratraqueais",
+        "type": "estrutura",
+        "match": "source_name_candidate",
+        "visualValidation": "pending_individual",
+        "separateStructure": true
+      }
+    ]
+  },
+  {
+    "sourceName": "Paratracheal thoracic nodes",
+    "label": "Linfonodos paratraqueais torácicos · conjunto",
+    "group": "linfaticos_torax",
+    "sourceFile": "LymphoidOrgans100.fbx",
+    "note": "Conjunto original de linfonodos no mesmo registro anatômico. Cada linfonodo e suas conexões linfáticas não são peças independentes; inspeção visual pendente.",
+    "defaultVisible": false,
+    "quizEligible": false,
+    "representation": "aggregate",
+    "id": "resp_paratracheal_thoracic_nodes",
+    "source": "Z-Anatomy",
+    "license": "CC BY-SA 4.0",
+    "sourceNode": 268,
+    "color": "#91ae7d",
+    "tissueColor": "#91ae7d",
+    "vertices": 860,
+    "triangles": 1680,
+    "bounds": [
+      [
+        -0.25839734077453613,
+        -0.9561337232589722,
+        -0.23386281728744507
+      ],
+      [
+        0.258396714925766,
+        -0.024412887170910835,
+        0.062302734702825546
+      ]
+    ],
+    "requirement": {
+      "id": "R188",
+      "label": "Linfonodos paratraqueais",
+      "page": 87,
+      "source": "respiratorio"
+    },
+    "requirementIds": [
+      "R188"
+    ],
+    "relatedRequirementIds": [],
+    "requirementMatches": [
+      {
+        "id": "R188",
+        "label": "Linfonodos paratraqueais",
+        "type": "estrutura",
+        "match": "source_name_candidate",
+        "visualValidation": "pending_individual",
+        "separateStructure": true
+      }
+    ]
+  },
+  {
+    "sourceName": "Vagus nerve (X).l",
+    "label": "Nervo vago (X) · lado esquerdo",
+    "group": "nervos_torax",
+    "sourceFile": "NervousSystem100.fbx",
+    "note": "Trajeto integral da peça original, incluindo extensões fora do tórax; sem recorte ou ajuste por região. Ramos, plexos e gânglios não estão individualizados nesta peça; inspeção visual pendente.",
+    "defaultVisible": false,
+    "quizEligible": false,
+    "representation": "authored_nerve_surface",
+    "id": "resp_vagus_nerve_x_l",
+    "source": "Z-Anatomy",
+    "license": "CC BY-SA 4.0",
+    "sourceNode": 586,
+    "color": "#d6bd78",
+    "tissueColor": "#d6bd78",
+    "vertices": 8059,
+    "triangles": 14540,
+    "bounds": [
+      [
+        0.032597869634628296,
+        -1.4766021966934204,
+        -0.8539789915084839
+      ],
+      [
+        0.5791705250740051,
+        3.1173319816589355,
+        0.6231377720832825
+      ]
+    ],
+    "requirement": {
+      "id": "R181",
+      "label": "Nervos vagos",
+      "page": 127,
+      "source": "respiratorio"
+    },
+    "requirementIds": [
+      "R181"
+    ],
+    "relatedRequirementIds": [],
+    "requirementMatches": [
+      {
+        "id": "R181",
+        "label": "Nervos vagos",
+        "type": "estrutura",
+        "match": "source_name_candidate",
+        "visualValidation": "pending_individual",
+        "separateStructure": true
+      }
+    ]
+  },
+  {
+    "sourceName": "Vagus nerve (X).r",
+    "label": "Nervo vago (X) · lado direito",
+    "group": "nervos_torax",
+    "sourceFile": "NervousSystem100.fbx",
+    "note": "Trajeto integral da peça original, incluindo extensões fora do tórax; sem recorte ou ajuste por região. Ramos, plexos e gânglios não estão individualizados nesta peça; inspeção visual pendente.",
+    "defaultVisible": false,
+    "quizEligible": false,
+    "representation": "authored_nerve_surface",
+    "id": "resp_vagus_nerve_x_r",
+    "source": "Z-Anatomy",
+    "license": "CC BY-SA 4.0",
+    "sourceNode": 585,
+    "color": "#d6bd78",
+    "tissueColor": "#d6bd78",
+    "vertices": 25425,
+    "triangles": 45924,
+    "bounds": [
+      [
+        -0.5791704654693604,
+        -6.301589488983154,
+        -0.9175037741661072
+      ],
+      [
+        1.3963292837142944,
+        3.1173317432403564,
+        0.8547108769416809
+      ]
+    ],
+    "requirement": {
+      "id": "R181",
+      "label": "Nervos vagos",
+      "page": 127,
+      "source": "respiratorio"
+    },
+    "requirementIds": [
+      "R181"
+    ],
+    "relatedRequirementIds": [],
+    "requirementMatches": [
+      {
+        "id": "R181",
+        "label": "Nervos vagos",
+        "type": "estrutura",
+        "match": "source_name_candidate",
+        "visualValidation": "pending_individual",
+        "separateStructure": true
+      }
+    ]
+  },
+  {
+    "sourceName": "Sympathetic trunk.l",
+    "label": "Tronco simpático · lado esquerdo",
+    "group": "nervos_torax",
+    "sourceFile": "NervousSystem100.fbx",
+    "note": "Trajeto integral da peça original, incluindo extensões fora do tórax; sem recorte ou ajuste por região. Ramos, plexos e gânglios não estão individualizados nesta peça; inspeção visual pendente.",
+    "defaultVisible": false,
+    "quizEligible": false,
+    "representation": "authored_nerve_surface",
+    "id": "resp_sympathetic_trunk_l",
+    "source": "Z-Anatomy",
+    "license": "CC BY-SA 4.0",
+    "sourceNode": 831,
+    "color": "#d6bd78",
+    "tissueColor": "#d6bd78",
+    "vertices": 13741,
+    "triangles": 25344,
+    "bounds": [
+      [
+        0.09148679673671722,
+        -5.737858295440674,
+        -1.2547366619110107
+      ],
+      [
+        0.4953295886516571,
+        1.6827630996704102,
+        0.10283450037240982
+      ]
+    ],
+    "requirement": {
+      "id": "R184",
+      "label": "Troncos simpáticos",
+      "page": 127,
+      "source": "respiratorio"
+    },
+    "requirementIds": [
+      "R184"
+    ],
+    "relatedRequirementIds": [],
+    "requirementMatches": [
+      {
+        "id": "R184",
+        "label": "Troncos simpáticos",
+        "type": "estrutura",
+        "match": "source_name_candidate",
+        "visualValidation": "pending_individual",
+        "separateStructure": true
+      }
+    ]
+  },
+  {
+    "sourceName": "Sympathetic trunk.r",
+    "label": "Tronco simpático · lado direito",
+    "group": "nervos_torax",
+    "sourceFile": "NervousSystem100.fbx",
+    "note": "Trajeto integral da peça original, incluindo extensões fora do tórax; sem recorte ou ajuste por região. Ramos, plexos e gânglios não estão individualizados nesta peça; inspeção visual pendente.",
+    "defaultVisible": false,
+    "quizEligible": false,
+    "representation": "authored_nerve_surface",
+    "id": "resp_sympathetic_trunk_r",
+    "source": "Z-Anatomy",
+    "license": "CC BY-SA 4.0",
+    "sourceNode": 828,
+    "color": "#d6bd78",
+    "tissueColor": "#d6bd78",
+    "vertices": 13741,
+    "triangles": 25344,
+    "bounds": [
+      [
+        -0.49532976746559143,
+        -5.737858772277832,
+        -1.2547365427017212
+      ],
+      [
+        -0.0914856493473053,
+        1.6827635765075684,
+        0.10283412784337997
+      ]
+    ],
+    "requirement": {
+      "id": "R184",
+      "label": "Troncos simpáticos",
+      "page": 127,
+      "source": "respiratorio"
+    },
+    "requirementIds": [
+      "R184"
+    ],
+    "relatedRequirementIds": [],
+    "requirementMatches": [
+      {
+        "id": "R184",
+        "label": "Troncos simpáticos",
+        "type": "estrutura",
+        "match": "source_name_candidate",
+        "visualValidation": "pending_individual",
+        "separateStructure": true
       }
     ]
   }

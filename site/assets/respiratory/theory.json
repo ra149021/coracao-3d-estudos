@@ -590,6 +590,8 @@
         "resp_nasal_septal_cartilage",
         "resp_lateral_process_of_nasal_septal_cartilage_l",
         "resp_lateral_process_of_nasal_septal_cartilage_r",
+        "resp_major_alar_cartilage_l",
+        "resp_major_alar_cartilage_r",
         "resp_inferior_nasal_concha_bone_l",
         "resp_inferior_nasal_concha_bone_r",
         "resp_vomer",
@@ -601,9 +603,7 @@
         "resp_maxilla_r",
         "resp_lacrimal_bone_l",
         "resp_lacrimal_bone_r",
-        "resp_sphenoid_bone",
-        "resp_major_alar_cartilage_l",
-        "resp_major_alar_cartilage_r"
+        "resp_sphenoid_bone"
       ],
       "requirementIds": [
         "R001",
@@ -809,6 +809,8 @@
         }
       ],
       "partIds": [
+        "resp_sinus_of_frontal_bone",
+        "resp_sinus_of_sphenoid_bone",
         "resp_anterior_cells_of_ethmoid_bone_l",
         "resp_anterior_cells_of_ethmoid_bone_r",
         "resp_middle_cells_of_ethmoid_bone_l",
@@ -2457,7 +2459,14 @@
         "resp_middle_lobe_of_right_lung",
         "resp_inferior_lobe_of_right_lung",
         "resp_superior_lobe_of_left_lung",
-        "resp_inferior_lobe_of_left_lung"
+        "resp_inferior_lobe_of_left_lung",
+        "resp_oesophagus",
+        "resp_ascending_aorta",
+        "resp_aortic_arch",
+        "resp_thoracic_aorta",
+        "resp_left_subclavian_artery",
+        "resp_superior_vena_cava",
+        "resp_azygos_vein"
       ],
       "requirementIds": [
         "R138",
@@ -2915,7 +2924,21 @@
         "resp_external_intercostal_muscles_l",
         "resp_external_intercostal_muscles_r",
         "resp_internal_intercostal_muscles_l",
-        "resp_internal_intercostal_muscles_r"
+        "resp_internal_intercostal_muscles_r",
+        "resp_right_pulmonary_artery",
+        "resp_left_pulmonary_artery",
+        "resp_right_superior_pulmonary_vein",
+        "resp_right_inferior_pulmonary_vein",
+        "resp_left_superior_pulmonary_vein",
+        "resp_left_inferior_pulmonary_vein",
+        "resp_inferior_tracheobronchial_nodes",
+        "resp_superior_tracheobronchial_nodes",
+        "resp_paratracheal_cervical_nodes",
+        "resp_paratracheal_thoracic_nodes",
+        "resp_vagus_nerve_x_l",
+        "resp_vagus_nerve_x_r",
+        "resp_sympathetic_trunk_l",
+        "resp_sympathetic_trunk_r"
       ],
       "requirementIds": [
         "R173",

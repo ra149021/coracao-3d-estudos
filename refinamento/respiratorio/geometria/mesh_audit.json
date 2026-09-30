@@ -3849,9 +3849,339 @@
       "source_triangles_preserved": true,
       "degenerate_triangles": 0,
       "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_oesophagus",
+      "sourceFile": "VisceralSystem100.fbx",
+      "sourceNode": 419,
+      "sourceWorldBounds": [
+        [
+          -0.9000498914592967,
+          119.40613211919295,
+          -3.3722572927910663
+        ],
+        [
+          1.8326274937532308,
+          147.55379064629108,
+          1.8340679865753615
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_ascending_aorta",
+      "sourceFile": "CardioVascular41.fbx",
+      "sourceNode": 369,
+      "sourceWorldBounds": [
+        [
+          -0.9592853333308207,
+          130.8009493425865,
+          0.4325072592168162
+        ],
+        [
+          3.196410539507912,
+          136.355625938257,
+          4.418783331538233
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_aortic_arch",
+      "sourceFile": "CardioVascular41.fbx",
+      "sourceNode": 323,
+      "sourceWorldBounds": [
+        [
+          -0.7973761407659108,
+          135.53339655456213,
+          -4.302719264123935
+        ],
+        [
+          3.181143618986239,
+          139.69181675290238,
+          4.212947963767995
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_thoracic_aorta",
+      "sourceFile": "CardioVascular41.fbx",
+      "sourceNode": 325,
+      "sourceWorldBounds": [
+        [
+          -0.05391142476554123,
+          120.50986813388192,
+          -4.9441148851810235
+        ],
+        [
+          3.103885239886637,
+          136.54878136569445,
+          -0.1123056485947247
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_left_subclavian_artery",
+      "sourceFile": "CardioVascular41.fbx",
+      "sourceNode": 195,
+      "sourceWorldBounds": [
+        [
+          1.9103614432662335,
+          138.89610548126112,
+          -0.8801249129878578
+        ],
+        [
+          8.06257974265837,
+          142.73100893750993,
+          0.43197451716291196
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_superior_vena_cava",
+      "sourceFile": "CardioVascular41.fbx",
+      "sourceNode": 508,
+      "sourceWorldBounds": [
+        [
+          -2.878890929001391,
+          134.00102322522613,
+          0.5539356683390164
+        ],
+        [
+          -0.38549570116092013,
+          137.7683604536201,
+          3.260733893735395
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_azygos_vein",
+      "sourceFile": "CardioVascular41.fbx",
+      "sourceNode": 509,
+      "sourceWorldBounds": [
+        [
+          -1.7906063513741413,
+          115.10357329791645,
+          -3.832730676201173
+        ],
+        [
+          -0.571864992650779,
+          136.61044836256875,
+          1.4526503881153645
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_inferior_tracheobronchial_nodes",
+      "sourceFile": "LymphoidOrgans100.fbx",
+      "sourceNode": 274,
+      "sourceWorldBounds": [
+        [
+          -1.8683799176303972,
+          135.27026676220953,
+          -2.090951252451225
+        ],
+        [
+          1.7100510527880148,
+          137.00759477314824,
+          -0.35766672790065035
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_superior_tracheobronchial_nodes",
+      "sourceFile": "LymphoidOrgans100.fbx",
+      "sourceNode": 266,
+      "sourceWorldBounds": [
+        [
+          -1.280373953523386,
+          137.26311998060854,
+          -1.724167277543036
+        ],
+        [
+          1.2927663351635947,
+          138.08064850231156,
+          -0.1087665012726553
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_paratracheal_cervical_nodes",
+      "sourceFile": "LymphoidOrgans100.fbx",
+      "sourceNode": 78,
+      "sourceWorldBounds": [
+        [
+          -1.3060257919511051,
+          143.49438236625048,
+          0.30955836013115573
+        ],
+        [
+          1.3061386782208855,
+          145.9066806158358,
+          1.0326196617242664
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_paratracheal_thoracic_nodes",
+      "sourceFile": "LymphoidOrgans100.fbx",
+      "sourceNode": 268,
+      "sourceWorldBounds": [
+        [
+          -1.2919866352787088,
+          137.21933138910455,
+          -1.169314056940673
+        ],
+        [
+          1.2919835402281024,
+          141.87793556497417,
+          0.3115136694926147
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_vagus_nerve_x_l",
+      "sourceFile": "NervousSystem100.fbx",
+      "sourceNode": 586,
+      "sourceWorldBounds": [
+        [
+          0.16298935350820987,
+          134.61698930639628,
+          -4.269894841959273
+        ],
+        [
+          2.8958525414406076,
+          157.58665940921526,
+          3.115688990013126
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_vagus_nerve_x_r",
+      "sourceFile": "NervousSystem100.fbx",
+      "sourceNode": 585,
+      "sourceWorldBounds": [
+        [
+          -2.8958523711113067,
+          110.49205212279463,
+          -4.587518984787515
+        ],
+        [
+          6.981646126680511,
+          157.58665878537624,
+          4.273554485450723
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_sympathetic_trunk_l",
+      "sourceFile": "NervousSystem100.fbx",
+      "sourceNode": 831,
+      "sourceWorldBounds": [
+        [
+          0.4574339747959373,
+          113.31070860082625,
+          -6.273683594854949
+        ],
+        [
+          2.4766479150710587,
+          150.413815692772,
+          0.5141724873461255
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
+    },
+    {
+      "id": "resp_sympathetic_trunk_r",
+      "sourceFile": "NervousSystem100.fbx",
+      "sourceNode": 828,
+      "sourceWorldBounds": [
+        [
+          -2.4766488808711147,
+          113.31070616486625,
+          -6.273682571412971
+        ],
+        [
+          -0.45742824241801483,
+          150.41381818024786,
+          0.5141706573532114
+        ]
+      ],
+      "finite": true,
+      "indices_in_bounds": true,
+      "source_triangles_preserved": true,
+      "degenerate_triangles": 0,
+      "normal_fallbacks": 0
     }
   ],
-  "source_triangle_count": 959255,
+  "source_triangle_count": 1095593,
   "display_transform": {
     "x": "esquerda anatômica",
     "y": "superior",

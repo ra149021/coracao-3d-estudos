@@ -5,12 +5,16 @@ ROOT=Path(__file__).resolve().parents[1]
 heart=json.loads((ROOT/'site/assets/catalog.json').read_text())
 resp=json.loads((ROOT/'site/assets/respiratory/catalog.json').read_text())
 views={'circulatory':[],'respiratory':[]}
-def add(scope,id,label,ids,targets,doc,page,note,direction,transparency=0):
+def add(scope,id,label,ids,targets,doc,page,note,direction,transparency=0,focus_ids=None):
     known={p['id'] for p in (heart if scope=='circulatory' else resp)['parts']}
     assert set(ids)<=known,(id,set(ids)-known)
     assert ids and len(ids)==len(set(ids)),id
     assert (ROOT/f'site/assets/lectures/slides/{doc}/{page}.jpg').is_file(),(doc,page)
-    views[scope].append(dict(id=id,label=label,partIds=ids,requirementIds=targets,source={'document':doc,'page':page},note=note,direction=direction,transparency=transparency))
+    view=dict(id=id,label=label,partIds=ids,requirementIds=targets,source={'document':doc,'page':page},note=note,direction=direction,transparency=transparency)
+    if focus_ids is not None:
+        assert focus_ids and set(focus_ids)<=set(ids),(id,focus_ids)
+        view['focusPartIds']=focus_ids
+    views[scope].append(view)
 def h(id,label,ids,targets,page,note,direction,transparency=82):
     add('circulatory',id,label,ids,targets,'coracao',page,note,direction,transparency)
 h('av_direita','Tricúspide, cordas e papilares',['heart_01','heart_26','heart_27','bp_FJ2421','heart_35','heart_36','heart_37'],['46a','46b','46c','47','48','49','51'],37,'Parede ventricular translúcida. As cordas integram as cúspides; confira suas inserções no slide.',[-.5,.55,1])
@@ -35,6 +39,34 @@ for side,pt,main,lobes,vessels in [('right','direito','R111',['R138','R139','R14
     add('respiratory','hilo_'+pt,'Hilo '+pt+' · relações',rids([main]+lobes+vessels),['R151','R152']+vessels,'respiratorio',105 if side=='right' else 106,'Brônquio e vasos proximais do mesmo lado. Nervos, linfáticos e vasos brônquicos não completam esta raiz.',[1 if side=='right' else -1,.15,-.4],82)
 add('respiratory','pleura_inspecao','Pleura · inspeção do conjunto',['resp_pleura']+[p['id'] for p in parts if p['group']=='pulmoes']+['resp_diaphragm_node'],['R161','R162','R163','R164','R165','R166','R170','R171','R172'],'respiratorio',118,'Superfície agregada da fonte. Os componentes geométricos não identificam folhetos, reflexões ou recessos anatômicos.',[.7,.15,1],75)
 add('respiratory','seios_referencia','Seios frontal e esfenoidal',[p['id'] for p in parts if p['group']=='seios']+['resp_ethmoid_bone','resp_vomer'],['R034','R036','R037','R038','R039'],'respiratorio',34,'Superfícies das cavidades e células etmoidais. Os seios maxilares e as vias de drenagem não estão individualizados nesta vista.',[1,.15,.2],0)
+# Long source structures retain their complete geometry. Frame the lungs rather
+# than shrinking the thorax to fit cranial/abdominal nerve and vessel extensions.
+by_name={p['sourceName']:p['id'] for p in parts}
+def named(*names):
+    return [by_name[name] for name in names]
+right_lung=rids(['R138','R139','R140'])
+left_lung=rids(['R141','R142'])
+lungs=right_lung+left_lung
+add('respiratory','mediastino_direito','Pulmão direito · relações mediastinais',
+    right_lung+rids(['R111','R173','R175'])+named('Oesophagus','Superior vena cava','Azygos vein'),
+    ['R156'],'respiratorio',108,
+    'Compare esôfago, cava superior e ázigos com a face medial direita. Os sulcos permanecem parciais; a cava inferior não está incluída nesta vista.',
+    [1,.12,-.4],82,focus_ids=right_lung)
+add('respiratory','mediastino_esquerdo','Pulmão esquerdo · relações mediastinais',
+    left_lung+rids(['R112','R174','R176'])+named('Oesophagus','Ascending aorta','Aortic arch','Thoracic aorta','Left subclavian artery'),
+    ['R157'],'respiratorio',109,
+    'Compare arco e aorta torácica, subclávia e esôfago com a face medial esquerda. A presença dos vasos não confirma cada sulco na superfície pulmonar.',
+    [-1,.12,-.4],82,focus_ids=left_lung)
+add('respiratory','mediastino_nervos','Vagos e troncos simpáticos · relações',
+    lungs+rids(['R111','R112','R181','R184'])+named('Trachea','Oesophagus','Aortic arch','Thoracic aorta'),
+    ['R181','R184'],'respiratorio',127,
+    'Trajetos integrais da fonte, enquadrados no tórax. Gire e selecione cada lado; plexos pulmonares, frênicos e ramos terminais não estão individualizados ou validados.',
+    [.35,.08,-1],85,focus_ids=lungs)
+add('respiratory','linfonodos_torax','Linfonodos · traqueia e brônquios',
+    lungs+rids(['R111','R112','R113','R114','R115','R116','R117','R186','R187','R188'])+named('Trachea'),
+    ['R186','R187','R188'],'respiratorio',129,
+    'Quatro grupos da fonte, incluindo paratraqueais cervicais. Os linfonodos de cada grupo não são selecionáveis separadamente; hilares, plexos e vasos linfáticos continuam pendentes.',
+    [.3,.1,1],88)
 # Reject stale curriculum IDs rather than silently adding coverage.
 for scope,items in views.items():
     reqpath='site/auditoria/matriz_coracao.json' if scope=='circulatory' else 'site/assets/respiratory/requirements.json'
