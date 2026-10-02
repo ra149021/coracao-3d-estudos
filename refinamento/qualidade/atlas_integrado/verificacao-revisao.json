@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-02",
+  "passed": true,
+  "security_concerns": [],
+  "logic_errors": [],
+  "independentReview": true,
+  "unitTests": 12,
+  "browserChecks": 65,
+  "ruff": "passed",
+  "javascriptSyntax": "passed",
+  "pythonCompile": "passed",
+  "diffCheck": "passed",
+  "staticAddedLineScan": [],
+  "personalPathsInStage": [],
+  "fixedBugs": [
+    "Mobile chat width including scrollbar",
+    "Independent query cancellation and bounded index wait",
+    "Friendly failures for missing/corrupt index and malformed upstream JSON"
+  ],
+  "remoteTarget": "Existing draft PR #6, feat/teoria-visual based on feat/geometria-mediastino; no main merge or deployment"
+}

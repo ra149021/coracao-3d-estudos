@@ -1,0 +1,14 @@
+[
+  {
+    "model": "heart-ct",
+    "bytes": 11353016,
+    "sha256": "326d7ff9755b08714d02bd021eb09715c8314dadc1ef452192e6c9e81d4dae56",
+    "verified": true
+  },
+  {
+    "model": "lung-ct",
+    "bytes": 7506364,
+    "sha256": "ccd3875fb64351a8efa4acde7003607013420a8e0c3283ea23e27b7e6ea81a07",
+    "verified": true
+  }
+]

@@ -360,6 +360,7 @@ export function initStudy({ guidedViews = [], parts, requirements = [], evidence
       const {item,direct,related,status} = row;
       if (item.grupo !== lastGroup) { routeList.append(el('h3','study-route-group',item.grupo)); lastGroup=item.grupo; }
       const details = el('details',`study-route-item ${status}`);
+      details.dataset.requirementId = String(item.id);
       const summary = el('summary');
       const text = el('span','study-route-title'); text.append(el('strong','',item.estrutura),el('small','',sourceText(item)));
       const tag = el('span',`study-status ${status}`,status === 'present' ? 'Peça associada' : status === 'related' ? 'Contexto parcial' : 'Pendente');
@@ -394,11 +395,38 @@ export function initStudy({ guidedViews = [], parts, requirements = [], evidence
     }
     if (!shown.length) routeList.append(el('p','study-route-empty','Nenhum alvo corresponde a estes filtros. Tente outra palavra ou selecione “Todas”.'));
   }
+  function openRoute(requirementId = null) {
+    pause();
+    const targetId = requirementId === null ? null : String(requirementId);
+    const target = targetId === null ? null : rows.find(row => String(row.item.id) === targetId);
+    if (targetId !== null) {
+      // An exact item link must remain visible even after a previous filtered visit.
+      search.value = '';
+      statusFilter.value = 'all';
+      sourceFilter.value = [...sourceFilter.options].some(option => option.value === target?.item.escopo) ? target.item.escopo : 'all';
+    }
+    renderRoute();
+    if (!route.open) route.showModal();
+    if (target) {
+      const details = [...routeList.querySelectorAll('[data-requirement-id]')].find(node => node.dataset.requirementId === targetId);
+      if (details) {
+        details.open = true;
+        const references = details.querySelector('.study-evidence-details');
+        if (references) references.open = true;
+        requestAnimationFrame(() => {
+          details.scrollIntoView({block:'start',behavior:'instant'});
+          details.querySelector('summary')?.focus({preventScroll:true});
+        });
+      }
+    } else if (targetId !== null) {
+      routeCount.textContent = `O item ${targetId} não foi encontrado nesta cena. ${routeCount.textContent}`;
+    }
+  }
   search.addEventListener('input',renderRoute); statusFilter.addEventListener('change',renderRoute); sourceFilter.addEventListener('change',renderRoute);
   const diagnostics = Object.freeze({
     snapshot: () => ({ active, mode: progress.session?.mode || null, remaining: progress.session?.queue.length || 0, reviewed: progress.session?.done.length || 0, total: progress.session?.total || 0, revealed, storageAvailable, loadedParts:present.length, eligibleParts:eligible.length, cardiacEligibleParts:cardiacEligible.length, contextEligibleParts:eligible.filter(p=>p.group==='contexto').length, requirementCount:rows.length, evidenceTargets:evidenceTargets.size, route: {present:rows.filter(r=>r.status==='present').length,related:rows.filter(r=>r.status==='related').length,pending:rows.filter(r=>r.status==='pending').length} }),
     openPractice: openSetup,
-    openRoute: () => {pause(); renderRoute(); route.showModal();},
+    openRoute,
     destroy: () => { pause(); unsubscribePick?.(); document.removeEventListener('keydown',onEscape); toolbar.remove(); setup.remove(); route.remove(); sessionPanel.remove(); css.remove(); }
   });
   window.heartStudy = diagnostics;

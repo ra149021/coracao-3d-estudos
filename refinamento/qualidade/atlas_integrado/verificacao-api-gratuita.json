@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-01",
+  "provider": "Pollinations",
+  "officialModelsEndpoint": "https://text.pollinations.ai/models",
+  "advertisedAnonymousModel": "openai-fast",
+  "generationTests": [
+    {
+      "method": "POST",
+      "url": "https://text.pollinations.ai/openai",
+      "question": "Qual é a função geral da valva mitral?",
+      "httpStatus": 500,
+      "providerError": "ENOSPC: no space left on device, write"
+    },
+    {
+      "method": "GET",
+      "url": "https://text.pollinations.ai/{prompt}?model=openai-fast&private=true",
+      "sameGenericQuestion": true,
+      "httpStatus": 500,
+      "providerError": "ENOSPC: no space left on device, write"
+    }
+  ],
+  "actualGenerationConfirmed": false,
+  "groqConfigured": false,
+  "browserAIContractTests": "Simulated API success/failure responses; not real generation or medical validation.",
+  "status": "historical_provider_trial_replaced_by_llm7",
+  "currentProvider": "LLM7",
+  "currentEvidence": "verificacao-llm7-real.json and verificacao-publicacao.json"
+}

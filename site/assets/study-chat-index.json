@@ -1,0 +1,3110 @@
+{
+  "version": 2,
+  "externalContextPolicy": "verified-public-source-text-only",
+  "publicSourceBlobs": {
+    "assets/circulatory-theory.json": "b94e2215a4e8fa46eb281dda4f88e919680b8d91",
+    "assets/respiratory/theory.json": "43cd9077504a9a5a047995dcc277cf39f9d178e1"
+  },
+  "entries": [
+    {
+      "id": "circ-circuitos-0",
+      "system": "circulatory",
+      "chapterId": "circ-circuitos",
+      "chapter": "Entenda o percurso do sangue",
+      "heading": "Uma bomba dupla em um circuito contínuo",
+      "text": "Nesta revisão, AD e AE significam átrio direito e átrio esquerdo; VD e VE, ventrículo direito e ventrículo esquerdo. AV significa atrioventricular, e IV, interventricular. Direita e esquerda sempre se referem ao corpo estudado, não ao lado da tela.\nO lado direito recebe o retorno da circulação sistêmica e impulsiona sangue para os pulmões. O lado esquerdo recebe sangue proveniente dos pulmões e o envia para os tecidos pela aorta. Cada lado tem um átrio receptor e um ventrículo ejetor.\nAs circulações pulmonar e sistêmica estão conectadas em série: em condições estáveis, os dois ventrículos precisam ejetar volumes médios equivalentes. O ventrículo esquerdo gera maior pressão, pois enfrenta a resistência da circulação sistêmica; isso não significa que bombeie normalmente um volume muito maior que o direito.",
+      "href": "theory.html?system=circulatory&chapter=circ-circuitos",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 20
+        },
+        {
+          "source": "coracao",
+          "page": 26
+        },
+        {
+          "source": "coracao",
+          "page": 71
+        },
+        {
+          "source": "C3",
+          "time": "16:46–18:01"
+        }
+      ]
+    },
+    {
+      "id": "circ-circuitos-1",
+      "system": "circulatory",
+      "chapterId": "circ-circuitos",
+      "chapter": "Entenda o percurso do sangue",
+      "heading": "Percurso para reconstruir de memória",
+      "text": "Retorno sistêmico · Veias cavas e retorno venoso cardíaco → átrio direito\nPassagem direita · Átrio direito → valva tricúspide → ventrículo direito\nCirculação pulmonar · Valva pulmonar → tronco pulmonar → artérias pulmonares → capilares pulmonares\nRetorno pulmonar · Veias pulmonares → átrio esquerdo\nPassagem esquerda · Átrio esquerdo → valva mitral → ventrículo esquerdo\nCirculação sistêmica · Valva aórtica → aorta → artérias → capilares dos tecidos → veias",
+      "href": "theory.html?system=circulatory&chapter=circ-circuitos",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 15
+        },
+        {
+          "source": "coracao",
+          "page": 20
+        },
+        {
+          "source": "coracao",
+          "page": 42
+        },
+        {
+          "source": "coracao",
+          "page": 71
+        }
+      ]
+    },
+    {
+      "id": "circ-circuitos-2",
+      "system": "circulatory",
+      "chapterId": "circ-circuitos",
+      "chapter": "Entenda o percurso do sangue",
+      "heading": "Duas distinções que evitam erros",
+      "text": "Artéria conduz sangue para longe do coração; veia conduz sangue em direção ao coração. Esses nomes descrevem a direção, não a concentração de oxigênio. No circuito pulmonar do adulto, as artérias conduzem sangue menos oxigenado e as veias retornam sangue mais oxigenado.\nA circulação linfática recolhe líquido e proteínas do interstício e os devolve ao sistema venoso. Ela complementa a circulação sanguínea. O coração também participa da regulação do volume corporal: cardiomiócitos atriais secretam peptídeo natriurético atrial, associado à eliminação renal de sódio e água.",
+      "href": "theory.html?system=circulatory&chapter=circ-circuitos",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 5
+        },
+        {
+          "source": "coracao",
+          "page": 7
+        },
+        {
+          "source": "coracao",
+          "page": 13
+        },
+        {
+          "source": "coracao",
+          "page": 71
+        },
+        {
+          "source": "vasos",
+          "page": 4
+        },
+        {
+          "source": "vasos",
+          "page": 7
+        },
+        {
+          "source": "vasos",
+          "page": 42
+        }
+      ]
+    },
+    {
+      "id": "circ-orientacao-0",
+      "system": "circulatory",
+      "chapterId": "circ-orientacao",
+      "chapter": "Oriente o coração no tórax",
+      "heading": "Posição, tamanho e relações",
+      "text": "O coração ocupa o mediastino médio, entre os pulmões, posteriormente ao esterno e apoiado sobre o diafragma. Seu eixo é oblíquo: o ápice aponta para a esquerda, anteriormente e inferiormente. A base anatômica é predominantemente posterior, formada sobretudo pelo átrio esquerdo, com contribuição do direito.\nAnteriormente há esterno e cartilagens costais, separados do coração pelo pericárdio e tecidos adjacentes. Inferiormente, a face diafragmática relaciona-se com o centro tendíneo do diafragma. Posteriormente, o átrio esquerdo tem relação próxima com o esôfago; mais posteriormente ficam a aorta torácica e a coluna. Lateralmente encontram-se pleuras mediastinais e pulmões.\nPara a referência de prova da aula, o slide 14 mostra aproximadamente 12 cm por 9 cm, além das faixas de massa de 280–340 g no homem e 230–280 g na mulher. São valores didáticos aproximados, com variação corporal e individual. O ápice projeta-se habitualmente no quinto espaço intercostal esquerdo, próximo à linha medioclavicular.",
+      "href": "theory.html?system=circulatory&chapter=circ-orientacao",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 12
+        },
+        {
+          "source": "coracao",
+          "page": 14
+        },
+        {
+          "source": "coracao",
+          "page": 16
+        },
+        {
+          "source": "coracao",
+          "page": 18
+        },
+        {
+          "source": "roteiro",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "circ-orientacao-1",
+      "system": "circulatory",
+      "chapterId": "circ-orientacao",
+      "chapter": "Oriente o coração no tórax",
+      "heading": "Faces e margens",
+      "text": "Face esternocostal · Predominantemente ventrículo direito; voltada anteriormente.\nFace diafragmática · Predominantemente ventrículo esquerdo, com parte do direito; repousa no diafragma.\nFace pulmonar direita · Predominantemente átrio direito.\nFace pulmonar esquerda · Predominantemente ventrículo esquerdo; relaciona-se com a impressão cardíaca do pulmão esquerdo.\nMargem direita · Átrio direito entre as entradas das veias cavas.\nMargem inferior · Principalmente ventrículo direito, com contribuição do esquerdo próximo ao ápice.\nMargem esquerda · Principalmente ventrículo esquerdo, com a aurícula esquerda superiormente.\nÁpice · Extremidade formada pelo ventrículo esquerdo.",
+      "href": "theory.html?system=circulatory&chapter=circ-orientacao",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 18
+        },
+        {
+          "source": "coracao",
+          "page": 19
+        },
+        {
+          "source": "coracao",
+          "page": 20
+        }
+      ]
+    },
+    {
+      "id": "circ-orientacao-2",
+      "system": "circulatory",
+      "chapterId": "circ-orientacao",
+      "chapter": "Oriente o coração no tórax",
+      "heading": "Sulcos como caminhos de reconhecimento",
+      "text": "O sulco coronário marca externamente a separação entre átrios e ventrículos. Os sulcos interventriculares anterior e posterior acompanham externamente a separação ventricular e abrigam vasos. O sulco interatrial é uma referência externa da região entre os átrios; sua delimitação não equivale a enxergar todo o septo.\nNa face posterior, a crux cordis corresponde ao encontro dos sulcos coronário e interventricular posterior com a região interatrial. Para orientar uma peça, procure primeiro o ápice, a aorta e o tronco pulmonar; depois confirme a face pela predominância ventricular e pelo trajeto dos vasos.",
+      "href": "theory.html?system=circulatory&chapter=circ-orientacao",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 20
+        },
+        {
+          "source": "coracao",
+          "page": 22
+        },
+        {
+          "source": "roteiro",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "circ-parede-0",
+      "system": "circulatory",
+      "chapterId": "circ-parede",
+      "chapter": "Parede, miocárdio e septos",
+      "heading": "Da cavidade para a superfície",
+      "text": "Endocárdio · Revestimento interno das câmaras e valvas, contínuo com o endotélio vascular. Não corresponde à espessura muscular da parede.\nMiocárdio · Camada muscular estriada cardíaca que produz contração, pressão e ejeção.\nEpicárdio · Lâmina visceral do pericárdio seroso sobre a superfície do coração; relaciona-se ao tecido subepicárdico e aos vasos coronários.",
+      "href": "theory.html?system=circulatory&chapter=circ-parede",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 23
+        },
+        {
+          "source": "coracao",
+          "page": 24
+        },
+        {
+          "source": "coracao",
+          "page": 51
+        },
+        {
+          "source": "vasos",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "id": "circ-parede-1",
+      "system": "circulatory",
+      "chapterId": "circ-parede",
+      "chapter": "Parede, miocárdio e septos",
+      "heading": "Camadas musculares e torção",
+      "text": "O roteiro distingue camadas superficial e profunda nos átrios e no ventrículo direito; no ventrículo esquerdo, acrescenta uma camada média. Essa organização descreve conjuntos de fibras com orientações diferentes. As fibras miocárdicas formam uma arquitetura contínua e complexa, não placas independentes simplesmente empilhadas.\nA orientação helicoidal contribui para o encurtamento e a torção durante a contração. Na sístole ventricular, a pressão sobe e o volume da cavidade diminui durante a ejeção; na diástole, o relaxamento favorece o enchimento. A parede do ventrículo esquerdo é mais espessa porque precisa gerar pressão suficiente para impulsionar sangue pela circulação sistêmica.\nSincício funcional significa que células distintas atuam de maneira coordenada por suas conexões. Não significa uma única célula gigante, nem que átrios e ventrículos se contraiam todos ao mesmo tempo.",
+      "href": "theory.html?system=circulatory&chapter=circ-parede",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 23
+        },
+        {
+          "source": "coracao",
+          "page": 24
+        },
+        {
+          "source": "coracao",
+          "page": 25
+        },
+        {
+          "source": "coracao",
+          "page": 26
+        },
+        {
+          "source": "coracao",
+          "page": 40
+        }
+      ]
+    },
+    {
+      "id": "circ-parede-2",
+      "system": "circulatory",
+      "chapterId": "circ-parede",
+      "chapter": "Parede, miocárdio e septos",
+      "heading": "Septo não é sinônimo de sulco",
+      "text": "O septo interatrial separa os átrios e contém a região da fossa oval. O septo interventricular separa os ventrículos: a maior parte é muscular, com uma pequena porção membranácea próxima à raiz aórtica. O sulco é um acidente externo; o septo é a parede interna correspondente.\nA inserção septal da tricúspide é mais apical que a inserção da mitral. Isso ajuda a compreender a pequena relação septal entre átrio direito e ventrículo esquerdo na região atrioventricular. A porção membranácea tem componentes interventricular e atrioventricular; não deve ser confundida com a fossa oval ou denominada uma nova peça membranácea do septo interatrial.",
+      "href": "theory.html?system=circulatory&chapter=circ-parede",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 20
+        },
+        {
+          "source": "coracao",
+          "page": 31
+        },
+        {
+          "source": "coracao",
+          "page": 47
+        },
+        {
+          "source": "coracao",
+          "page": 67
+        },
+        {
+          "source": "mori2019"
+        }
+      ]
+    },
+    {
+      "id": "circ-pericardio-0",
+      "system": "circulatory",
+      "chapterId": "circ-pericardio",
+      "chapter": "Pericárdio e suas relações",
+      "heading": "Saco fibroso, serosa e cavidade",
+      "text": "O pericárdio fibroso é o envoltório externo resistente que se continua com a adventícia das raízes dos grandes vasos. Internamente, a lâmina parietal do pericárdio seroso reveste o saco; a lâmina visceral, ou epicárdio, adere à superfície cardíaca. A cavidade pericárdica fica entre as duas lâminas serosas e contém uma película de líquido que reduz atrito.\nO roteiro inclui ligamentos esternopericárdicos superior e inferior, pericardicofrênico e vertebropericárdico. Na aula, eles representam as fixações do saco ao esterno, ao diafragma e ao plano posterior. Para a identificação, siga as extremidades da fixação; um cordão desenhado perto do coração, sem essas relações, não comprova o ligamento.\nUma pequena quantidade de líquido entre lâminas próximas é a condição habitual. Um grande espaço vazio em um esquema serve para mostrar as camadas, não para estimar a distância real entre elas.",
+      "href": "theory.html?system=circulatory&chapter=circ-pericardio",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 51
+        },
+        {
+          "source": "coracao",
+          "page": 52
+        },
+        {
+          "source": "coracao",
+          "page": 54
+        },
+        {
+          "source": "coracao",
+          "page": 55
+        },
+        {
+          "source": "coracao",
+          "page": 56
+        },
+        {
+          "source": "coracao",
+          "page": 57
+        },
+        {
+          "source": "roteiro",
+          "page": 1
+        },
+        {
+          "source": "roteiro",
+          "page": 3
+        },
+        {
+          "source": "C3",
+          "time": "00:00–01:41"
+        }
+      ]
+    },
+    {
+      "id": "circ-pericardio-1",
+      "system": "circulatory",
+      "chapterId": "circ-pericardio",
+      "chapter": "Pericárdio e suas relações",
+      "heading": "Dois seios, duas relações",
+      "text": "Seio transverso · Passagem posterior à aorta ascendente e ao tronco pulmonar, anterior à VCS e superior aos átrios. Permite separar o pedículo arterial das estruturas venosas posteriores.\nSeio oblíquo · Recesso posterior ao átrio esquerdo, limitado pelas reflexões serosas em torno das veias pulmonares e da VCI. Termina superiormente em fundo cego.",
+      "href": "theory.html?system=circulatory&chapter=circ-pericardio",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 57
+        },
+        {
+          "source": "coracao",
+          "page": 58
+        },
+        {
+          "source": "C3",
+          "time": "00:46–02:13"
+        }
+      ]
+    },
+    {
+      "id": "circ-pericardio-2",
+      "system": "circulatory",
+      "chapterId": "circ-pericardio",
+      "chapter": "Pericárdio e suas relações",
+      "heading": "Vasos e nervos: distinguir o saco da lâmina visceral",
+      "text": "A artéria pericardicofrênica, ramo da torácica interna, acompanha o nervo frênico junto ao pericárdio. Contribuem ainda ramos musculofrênicos, brônquicos, esofágicos e frênicos superiores. A lâmina visceral recebe suprimento associado às coronárias, por estar aderida ao coração.\nA drenagem venosa utiliza veias pericardicofrênicas, com conexões para veias torácicas internas ou braquiocefálicas, e o sistema ázigos. No pericárdio fibroso e parietal, a sensibilidade dolorosa é conduzida principalmente pelos nervos frênicos, de C3–C5. Ramos simpáticos participam da regulação vasomotora; a aula também registra contribuição vagal, sem atribuir a ela a principal via dolorosa do saco.",
+      "href": "theory.html?system=circulatory&chapter=circ-pericardio",
+      "references": [
+        {
+          "source": "vasos",
+          "page": 39
+        },
+        {
+          "source": "vasos",
+          "page": 40
+        },
+        {
+          "source": "vasos",
+          "page": 41
+        },
+        {
+          "source": "C2",
+          "time": "22:58–24:36"
+        }
+      ]
+    },
+    {
+      "id": "circ-atrios-0",
+      "system": "circulatory",
+      "chapterId": "circ-atrios",
+      "chapter": "Átrios, aurículas e óstios",
+      "heading": "Átrio direito: organize a parede",
+      "text": "O átrio direito recebe as veias cavas superior e inferior e o seio coronário. Sua região posterior, o seio das veias cavas, é relativamente lisa. A região anterior e a aurícula direita apresentam músculos pectíneos. A crista terminal é o relevo interno que demarca essas regiões; o sulco terminal é a referência externa correspondente.\nO óstio da VCS fica superiormente, e o da VCI inferiormente. O óstio do seio coronário fica na região posteroinferior do AD, entre a abertura da VCI e o óstio atrioventricular direito. Não o coloque entre a VCS e a tricúspide: a figura docente de vasos, página 31, identifica VCI.\nA válvula da VCI, ou de Eustáquio, é um remanescente relacionado ao direcionamento do fluxo fetal. A válvula do seio coronário, ou de Thebesius, pode cobrir parcialmente seu óstio. Essas pequenas pregas não devem ser confundidas com a valva tricúspide.",
+      "href": "theory.html?system=circulatory&chapter=circ-atrios",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 27
+        },
+        {
+          "source": "coracao",
+          "page": 29
+        },
+        {
+          "source": "coracao",
+          "page": 30
+        },
+        {
+          "source": "coracao",
+          "page": 31
+        },
+        {
+          "source": "vasos",
+          "page": 31
+        },
+        {
+          "source": "roteiro",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "circ-atrios-1",
+      "system": "circulatory",
+      "chapterId": "circ-atrios",
+      "chapter": "Átrios, aurículas e óstios",
+      "heading": "Átrio esquerdo e aurícula esquerda",
+      "text": "O átrio esquerdo recebe habitualmente quatro veias pulmonares, duas de cada lado. Sua parede interna é predominantemente lisa. Os músculos pectíneos concentram-se na aurícula esquerda; não se deve preencher toda a parede lisa do AE com esses relevos.\nAurícula é um apêndice muscular do átrio, e não outra câmara independente. No lado esquerdo, a região do septo apresenta a valva do forame oval; no lado direito, a fossa oval e seu limbo são referências mais evidentes. A fossa é uma depressão no adulto, não uma abertura obrigatoriamente patente.\nO item “assoalho do forame oval” do roteiro refere-se à lâmina fina de fechamento, derivada do septum primum. Ela constitui o assoalho da fossa vista pelo AD e corresponde à valva observada pelo AE. São relações do mesmo conjunto septal vistas por lados diferentes; uma superfície externa lisa não basta para identificá-las.",
+      "href": "theory.html?system=circulatory&chapter=circ-atrios",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 21
+        },
+        {
+          "source": "coracao",
+          "page": 31
+        },
+        {
+          "source": "coracao",
+          "page": 38
+        },
+        {
+          "source": "roteiro",
+          "page": 2
+        },
+        {
+          "source": "roteiro",
+          "page": 3
+        },
+        {
+          "source": "atrial-septum"
+        }
+      ]
+    },
+    {
+      "id": "circ-atrios-2",
+      "system": "circulatory",
+      "chapterId": "circ-atrios",
+      "chapter": "Átrios, aurículas e óstios",
+      "heading": "Na peça: diferenças que você deve demonstrar",
+      "text": "Crista terminal · Relevo da parede interna do AD entre a região lisa e a pectinada.\nFossa oval e limbo · Depressão e margem elevada no septo vista pelo AD.\nValva do forame oval · Lâmina associada ao fechamento fetal, reconhecida pelo lado esquerdo do septo.\nÓstios pulmonares · Aberturas das veias no AE; um vaso próximo à parede não comprova que seu óstio esteja modelado.\nMúsculos pectíneos · Cristas musculares atriais, diferentes das trabéculas cárneas ventriculares.",
+      "href": "theory.html?system=circulatory&chapter=circ-atrios",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 27
+        },
+        {
+          "source": "coracao",
+          "page": 29
+        },
+        {
+          "source": "coracao",
+          "page": 31
+        },
+        {
+          "source": "coracao",
+          "page": 38
+        },
+        {
+          "source": "roteiro",
+          "page": 2
+        },
+        {
+          "source": "roteiro",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "circ-ventriculos-0",
+      "system": "circulatory",
+      "chapterId": "circ-ventriculos",
+      "chapter": "Ventrículos e aparelho subvalvar",
+      "heading": "Ventrículo direito: do óstio AV à via pulmonar",
+      "text": "O sangue entra pelo óstio atrioventricular direito e pela valva tricúspide. A região de entrada e a porção apical têm trabéculas cárneas. A saída é o cone arterial, ou infundíbulo, que conduz à valva pulmonar e ao tronco pulmonar.\nA crista supraventricular é uma saliência muscular que separa a região de entrada da via de saída. A trabécula septomarginal, ou banda moderadora, atravessa a cavidade em direção à região do músculo papilar anterior. Ela conduz parte da rede do ramo direito do fascículo AV, contribuindo para a ativação dessa região.",
+      "href": "theory.html?system=circulatory&chapter=circ-ventriculos",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 34
+        },
+        {
+          "source": "coracao",
+          "page": 36
+        },
+        {
+          "source": "coracao",
+          "page": 37
+        },
+        {
+          "source": "roteiro",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "circ-ventriculos-1",
+      "system": "circulatory",
+      "chapterId": "circ-ventriculos",
+      "chapter": "Ventrículos e aparelho subvalvar",
+      "heading": "Ventrículo esquerdo: pressão e continuidade com a aorta",
+      "text": "O sangue entra pelo óstio AV esquerdo, atravessa a valva mitral e é ejetado pela valva aórtica. O vestíbulo da aorta é a porção relativamente lisa da via de saída; não é uma quinta câmara.\nO VE possui parede mais espessa e trabéculas em geral mais finas e numerosas que as do VD. Seus grupos papilares são descritos no roteiro como anterior e posterior; a nomenclatura anatômica e clínica também utiliza anterolateral e posteromedial. Para relacionar um nome à peça, confira a posição e as inserções, não apenas uma tradução.",
+      "href": "theory.html?system=circulatory&chapter=circ-ventriculos",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 39
+        },
+        {
+          "source": "coracao",
+          "page": 40
+        },
+        {
+          "source": "coracao",
+          "page": 41
+        },
+        {
+          "source": "roteiro",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "circ-ventriculos-2",
+      "system": "circulatory",
+      "chapterId": "circ-ventriculos",
+      "chapter": "Ventrículos e aparelho subvalvar",
+      "heading": "Papilares, cordas e trabéculas",
+      "text": "Trabéculas cárneas · Relevos musculares irregulares das paredes ventriculares.\nMúsculos papilares · Projeções musculares que recebem cordas tendíneas. No VD, o roteiro distingue grupos anterior, posterior e septal; no VE, anterior e posterior.\nCordas tendíneas · Elementos fibrosos entre papilares/parede e cúspides das valvas AV. Mantêm as cúspides estáveis durante a elevação da pressão ventricular.\nTrabécula septomarginal · Banda muscular do VD associada à condução para a região papilar anterior.",
+      "href": "theory.html?system=circulatory&chapter=circ-ventriculos",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 36
+        },
+        {
+          "source": "coracao",
+          "page": 37
+        },
+        {
+          "source": "coracao",
+          "page": 39
+        },
+        {
+          "source": "coracao",
+          "page": 42
+        },
+        {
+          "source": "coracao",
+          "page": 46
+        },
+        {
+          "source": "roteiro",
+          "page": 2
+        },
+        {
+          "source": "roteiro",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "circ-ventriculos-3",
+      "system": "circulatory",
+      "chapterId": "circ-ventriculos",
+      "chapter": "Ventrículos e aparelho subvalvar",
+      "heading": "Como interpretar números de papilares",
+      "text": "Os nomes anterior, posterior e septal designam grupos topográficos. Um grupo pode ter mais de uma cabeça, e a organização varia. Uma única porção papilar presente no acervo não demonstra o grupo completo nem todas as suas conexões com as cúspides.",
+      "href": "theory.html?system=circulatory&chapter=circ-ventriculos",
+      "references": [
+        {
+          "source": "vhl-ventricles"
+        }
+      ]
+    },
+    {
+      "id": "circ-valvas-0",
+      "system": "circulatory",
+      "chapterId": "circ-valvas",
+      "chapter": "Valvas e esqueleto fibroso",
+      "heading": "Quatro valvas: nomes e relações",
+      "text": "Nota sobre a figura docente: na página física 43 de Coração, as legendas AVE e AVD parecem trocadas. A mitral é a valva atrioventricular esquerda, com dois folhetos principais; a tricúspide é a direita, com três. Para identificar, compare a página 47 e a nomenclatura do Visible Heart Laboratories. A imagem original da aula foi preservada.\nTricúspide · Entre AD e VD · Anterior, posterior e septal · Presentes\nMitral · Entre AE e VE · Anterior e posterior · Presentes\nPulmonar · Saída do VD para o tronco pulmonar · Semilunares anterior, direita e esquerda · Ausentes\nAórtica · Saída do VE para a aorta · Semilunares direita, esquerda e posterior · Ausentes",
+      "href": "theory.html?system=circulatory&chapter=circ-valvas",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 42
+        },
+        {
+          "source": "coracao",
+          "page": 47
+        },
+        {
+          "source": "coracao",
+          "page": 44
+        },
+        {
+          "source": "roteiro",
+          "page": 2
+        },
+        {
+          "source": "roteiro",
+          "page": 3
+        },
+        {
+          "source": "vhl-valve-nomenclature"
+        }
+      ]
+    },
+    {
+      "id": "circ-valvas-1",
+      "system": "circulatory",
+      "chapterId": "circ-valvas",
+      "chapter": "Valvas e esqueleto fibroso",
+      "heading": "Folhetos, seios e óstios são estruturas distintas",
+      "text": "Uma valva é o conjunto que controla uma abertura; cada cúspide ou folheto é uma de suas partes móveis. Nos materiais da aula, a palavra válvula também aparece para a peça individual. Nas semilunares, cada folheto relaciona-se a uma dilatação da parede arterial, chamada seio.\nOs seios aórticos direito e esquerdo dão origem às artérias coronárias correspondentes por seus óstios. O seio posterior é também chamado não coronário. Os seios pulmonares acompanham os três folhetos da valva pulmonar e não são a origem normal das coronárias.\nA abertura e o fechamento decorrem da diferença de pressão entre os dois lados da valva. As semilunares não possuem cordas nem músculos papilares; sua coaptação impede refluxo das grandes artérias para os ventrículos.",
+      "href": "theory.html?system=circulatory&chapter=circ-valvas",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 42
+        },
+        {
+          "source": "coracao",
+          "page": 44
+        },
+        {
+          "source": "coracao",
+          "page": 45
+        },
+        {
+          "source": "coracao",
+          "page": 46
+        },
+        {
+          "source": "vasos",
+          "page": 20
+        },
+        {
+          "source": "vasos",
+          "page": 21
+        }
+      ]
+    },
+    {
+      "id": "circ-valvas-2",
+      "system": "circulatory",
+      "chapterId": "circ-valvas",
+      "chapter": "Valvas e esqueleto fibroso",
+      "heading": "Esqueleto fibroso",
+      "text": "O esquema da aula organiza o esqueleto fibroso em quatro anéis em torno dos óstios valvares, dois trígonos fibrosos e tecido membranáceo septal associado. Essa rede sustenta inserções valvares e musculares, limita a dilatação dos óstios e contribui para o isolamento elétrico entre o miocárdio atrial e o ventricular.\nO trígono fibroso direito relaciona-se ao centro fibroso entre as regiões aórtica, mitral e tricúspide. O esquerdo relaciona-se à continuidade aortomitral. O tecido fibroso real não é composto por quatro argolas perfeitamente circulares e coplanares: esse desenho é uma representação de organização, não uma reprodução exata do relevo.\nA comunicação elétrica normal entre átrios e ventrículos atravessa essa barreira pelo fascículo atrioventricular. A porção membranácea próxima à raiz aórtica deve ser estudada em relação aos septos IV/AV; não use a expressão resumida do slide como prova de uma parte membranácea independente do septo interatrial.",
+      "href": "theory.html?system=circulatory&chapter=circ-valvas",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 47
+        },
+        {
+          "source": "coracao",
+          "page": 48
+        },
+        {
+          "source": "coracao",
+          "page": 66
+        },
+        {
+          "source": "coracao",
+          "page": 67
+        },
+        {
+          "source": "mori2019"
+        }
+      ]
+    },
+    {
+      "id": "circ-conducao-0",
+      "system": "circulatory",
+      "chapterId": "circ-conducao",
+      "chapter": "Do estímulo à ejeção",
+      "heading": "O próprio coração inicia o estímulo",
+      "text": "As células do complexo estimulante são cardiomiócitos especializados. O nó sinoatrial, próximo à junção da veia cava superior com o átrio direito, é o marcapasso fisiológico principal. O estímulo se propaga pelo miocárdio atrial e alcança o nó atrioventricular, situado na região inferior do septo atrial, próximo ao óstio do seio coronário.\nApós o atraso de condução no nó AV, a ativação segue pelo fascículo atrioventricular, seus ramos direito e esquerdo e a rede subendocárdica de Purkinje. Essa distribuição favorece contração ventricular coordenada. No VD, parte do ramo direito acompanha a trabécula septomarginal até a região papilar anterior.\nNó sinoatrial → miocárdio atrial → nó AV → fascículo AV → ramos direito e esquerdo → rede subendocárdica. Não confunda essas células musculares especializadas com os nervos vago e simpáticos, que modulam a atividade do coração.",
+      "href": "theory.html?system=circulatory&chapter=circ-conducao",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 36
+        },
+        {
+          "source": "coracao",
+          "page": 66
+        },
+        {
+          "source": "coracao",
+          "page": 67
+        },
+        {
+          "source": "vhl-conduction"
+        },
+        {
+          "source": "C3",
+          "time": "10:36–13:21"
+        }
+      ]
+    },
+    {
+      "id": "circ-conducao-1",
+      "system": "circulatory",
+      "chapterId": "circ-conducao",
+      "chapter": "Do estímulo à ejeção",
+      "heading": "Ciclo ventricular: a pressão determina o fluxo",
+      "text": "Enchimento ventricular · Abertas · Fechadas · Sangue passa dos átrios aos ventrículos; a sístole atrial completa o enchimento.\nContração isovolumétrica · Fechadas · Fechadas · A pressão sobe sem ejeção; o volume ventricular permanece aproximadamente constante.\nEjeção · Fechadas · Abertas · Pressão ventricular supera a da artéria correspondente; o sangue é ejetado.\nRelaxamento isovolumétrico · Fechadas · Fechadas · A pressão ventricular cai antes de as valvas AV reabrirem.",
+      "href": "theory.html?system=circulatory&chapter=circ-conducao",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 26
+        },
+        {
+          "source": "coracao",
+          "page": 49
+        },
+        {
+          "source": "coracao",
+          "page": 50
+        },
+        {
+          "source": "os-cycle"
+        }
+      ]
+    },
+    {
+      "id": "circ-conducao-2",
+      "system": "circulatory",
+      "chapterId": "circ-conducao",
+      "chapter": "Do estímulo à ejeção",
+      "heading": "Bulhas e registro elétrico",
+      "text": "A primeira bulha, B1, associa-se ao fechamento das valvas AV e ao início da sístole ventricular. A segunda, B2, associa-se ao fechamento das semilunares e ao início da diástole ventricular. Os sons resultam das vibrações produzidas pela mudança de fluxo e tensão no conjunto cardíaco.\nNo ECG introdutório da aula, a onda P representa a despolarização atrial; o complexo QRS, a despolarização ventricular; e a onda T, a repolarização ventricular. O ECG registra fenômenos elétricos: não é uma curva direta de pressão, volume ou movimento das valvas. A contração mecânica ocorre após a ativação elétrica.",
+      "href": "theory.html?system=circulatory&chapter=circ-conducao",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 49
+        },
+        {
+          "source": "coracao",
+          "page": 50
+        },
+        {
+          "source": "coracao",
+          "page": 68
+        },
+        {
+          "source": "C3",
+          "time": "13:21–14:38"
+        }
+      ]
+    },
+    {
+      "id": "circ-conducao-3",
+      "system": "circulatory",
+      "chapterId": "circ-conducao",
+      "chapter": "Do estímulo à ejeção",
+      "heading": "Inervação extrínseca e plexos cardíacos",
+      "text": "Os plexos cardíacos superficial e profundo reúnem fibras simpáticas, parassimpáticas e aferentes. As fibras simpáticas chegam pela cadeia simpática e pelos nervos cardíacos; as parassimpáticas seguem principalmente os nervos vagos. O slide 62 apresenta a origem simpática torácica superior como T1–T6: para a prova, reconheça esse recorte do material, sem transformar o intervalo em regra sem variações.\nA estimulação simpática tende a aumentar frequência, condução e força de contração. A ação vagal tende a reduzir a frequência do nó SA e a condução pelo nó AV, com efeito contrátil mais evidente nos átrios. O coração não depende de uma ordem nervosa a cada batimento: o automatismo é intrínseco.\nNas duas divisões autonômicas, o neurônio pré-ganglionar libera acetilcolina. Na via cardíaca simpática, a terminação pós-ganglionar libera principalmente noradrenalina; na parassimpática, acetilcolina. Esses circuitos moduladores devem ser separados, no estudo, do trajeto nó SA–nó AV–His–Purkinje.",
+      "href": "theory.html?system=circulatory&chapter=circ-conducao",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 60
+        },
+        {
+          "source": "coracao",
+          "page": 61
+        },
+        {
+          "source": "coracao",
+          "page": 62
+        },
+        {
+          "source": "coracao",
+          "page": 65
+        },
+        {
+          "source": "os-physiology"
+        },
+        {
+          "source": "C3",
+          "time": "04:16–07:31"
+        },
+        {
+          "source": "C3",
+          "time": "09:27–10:36"
+        }
+      ]
+    },
+    {
+      "id": "circ-conducao-4",
+      "system": "circulatory",
+      "chapterId": "circ-conducao",
+      "chapter": "Do estímulo à ejeção",
+      "heading": "Aferência e dor referida: reconhecer o mecanismo",
+      "text": "A aula relaciona dor referida à convergência de sinais viscerais e somáticos em circuitos centrais. Por isso, uma sensação de origem cardíaca pode ser percebida em outra região. Esse mecanismo ajuda a compreender a inervação; os desenhos de territórios dolorosos não são uma regra suficiente para identificar ou excluir uma doença.",
+      "href": "theory.html?system=circulatory&chapter=circ-conducao",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 69
+        },
+        {
+          "source": "coracao",
+          "page": 70
+        },
+        {
+          "source": "C3",
+          "time": "14:38–16:46"
+        }
+      ]
+    },
+    {
+      "id": "circ-coronarias-0",
+      "system": "circulatory",
+      "chapterId": "circ-coronarias",
+      "chapter": "Irrigação coronariana",
+      "heading": "Origem e lógica dos trajetos",
+      "text": "As coronárias direita e esquerda se originam da porção inicial da aorta, pelos óstios nos seios aórticos correspondentes. Seus principais troncos percorrem a superfície cardíaca, sobretudo os sulcos coronário e interventriculares, emitindo ramos para o miocárdio.\nA coronária direita segue o sulco AV direito. A coronária esquerda tem um tronco geralmente curto, entre a aurícula esquerda e a região do tronco pulmonar, e normalmente se divide em ramo interventricular anterior e ramo circunflexo. Uma trifurcação pode incluir um ramo intermédio: não force todas as variantes a caber em uma bifurcação idealizada.",
+      "href": "theory.html?system=circulatory&chapter=circ-coronarias",
+      "references": [
+        {
+          "source": "vasos",
+          "page": 18
+        },
+        {
+          "source": "vasos",
+          "page": 20
+        },
+        {
+          "source": "vasos",
+          "page": 21
+        },
+        {
+          "source": "vasos",
+          "page": 22
+        },
+        {
+          "source": "vasos",
+          "page": 25
+        },
+        {
+          "source": "vasos",
+          "page": 27
+        },
+        {
+          "source": "C2",
+          "time": "06:10–08:22"
+        },
+        {
+          "source": "C2",
+          "time": "11:54–16:05"
+        }
+      ]
+    },
+    {
+      "id": "circ-coronarias-1",
+      "system": "circulatory",
+      "chapterId": "circ-coronarias",
+      "chapter": "Irrigação coronariana",
+      "heading": "Coronária direita: ramos cobrados",
+      "text": "Atriais direitos · Dirigem-se ao miocárdio atrial direito.\nDo nó sinoatrial · Dirige-se à região do nó SA; sua origem pode ser na direita ou na circunflexa.\nDo cone arterial · Relacionado ao infundíbulo do VD; pode apresentar origem variável.\nVentricular anterior direito · Distribui-se na parede anterior do VD.\nMarginal direito · Acompanha a margem aguda/inferior direita.\nDo nó atrioventricular · Dirige-se à região do nó AV, habitualmente perto da crux.\nInterventricular posterior · Percorre o sulco IV posterior; no padrão dominante direito, origina-se da coronária direita.\nInterventriculares septais · Penetram o septo a partir do ramo IV posterior.\nPóstero-lateral direito · Segue para a superfície posterior/inferior ventricular, conforme a distribuição da árvore.",
+      "href": "theory.html?system=circulatory&chapter=circ-coronarias",
+      "references": [
+        {
+          "source": "vasos",
+          "page": 22
+        },
+        {
+          "source": "vasos",
+          "page": 23
+        },
+        {
+          "source": "roteiro",
+          "page": 4
+        },
+        {
+          "source": "C2",
+          "time": "08:22–11:54"
+        }
+      ]
+    },
+    {
+      "id": "circ-coronarias-2",
+      "system": "circulatory",
+      "chapterId": "circ-coronarias",
+      "chapter": "Irrigação coronariana",
+      "heading": "Coronária esquerda: separar descendente anterior e circunflexa",
+      "text": "Interventricular anterior · Segue o sulco IV anterior rumo ao ápice; também chamado descendente anterior.\nInterventriculares septais anteriores · Partem do ramo IV anterior e penetram o septo.\nDo cone arterial esquerdo · Ramo relacionado à região do cone; a origem e expressão anatômica variam.\nLaterais ou diagonais do IV anterior · Seguem obliquamente sobre a parede anterior/lateral do VE.\nCircunflexo · Percorre o sulco AV esquerdo em direção posterior.\nAtriais esquerdos · Distribuem-se no átrio esquerdo.\nMarginal esquerdo · Ramo da circunflexa que acompanha a margem obtusa/esquerda.\nLateral da circunflexa · O roteiro também usa “lateral (diagonal)” para esse ramo: mantenha a indicação de origem na circunflexa para não confundi-lo com o diagonal do IV anterior.\nPosterior do VE · Ramo da circunflexa para a parede ventricular posterior, com número e trajeto variáveis.",
+      "href": "theory.html?system=circulatory&chapter=circ-coronarias",
+      "references": [
+        {
+          "source": "vasos",
+          "page": 25
+        },
+        {
+          "source": "vasos",
+          "page": 26
+        },
+        {
+          "source": "vasos",
+          "page": 27
+        },
+        {
+          "source": "roteiro",
+          "page": 4
+        },
+        {
+          "source": "C2",
+          "time": "11:54–16:05"
+        }
+      ]
+    },
+    {
+      "id": "circ-coronarias-3",
+      "system": "circulatory",
+      "chapterId": "circ-coronarias",
+      "chapter": "Irrigação coronariana",
+      "heading": "Dominância e território não são sinônimos de tamanho",
+      "text": "Dominância coronariana é definida principalmente pela origem do ramo interventricular posterior. Se ele vem da coronária direita, o padrão é dominante direito; se vem da circunflexa, dominante esquerdo. Há padrões de codominância. Não classifique pela espessura aparente do tronco nem pela quantidade de ramos visíveis em uma malha incompleta.\nEm uma visão didática, a direita irriga grande parte do AD e do VD e, conforme a dominância, territórios inferiores/posteriores; a esquerda irriga grande parte do AE e do VE e a região anterior do septo. A origem dos ramos nodais e a extensão dos territórios variam. Um mapa de cores não confirma sozinho o território individual.\nOs materiais destacam anastomoses, inclusive entre ramos interventriculares próximos ao ápice. A existência de comunicações anatômicas não garante que consigam suprir imediatamente todo o território após uma interrupção súbita do fluxo.",
+      "href": "theory.html?system=circulatory&chapter=circ-coronarias",
+      "references": [
+        {
+          "source": "vasos",
+          "page": 23
+        },
+        {
+          "source": "vasos",
+          "page": 25
+        },
+        {
+          "source": "vasos",
+          "page": 27
+        },
+        {
+          "source": "vasos",
+          "page": 28
+        },
+        {
+          "source": "coracao",
+          "page": 72
+        },
+        {
+          "source": "C2",
+          "time": "08:52–11:54"
+        },
+        {
+          "source": "C2",
+          "time": "13:53–14:20"
+        }
+      ]
+    },
+    {
+      "id": "circ-coronarias-4",
+      "system": "circulatory",
+      "chapterId": "circ-coronarias",
+      "chapter": "Irrigação coronariana",
+      "heading": "Ponte miocárdica e momento da perfusão",
+      "text": "Na ponte miocárdica, um segmento arterial percorre um túnel sob fibras musculares, em vez de permanecer inteiramente na superfície. A contração pode comprimir esse trecho. O termo descreve uma relação anatômica e não uma ponte cirúrgica feita com um enxerto.\nA contração do miocárdio comprime seus vasos intramurais; por isso, no VE, a perfusão coronariana ocorre predominantemente durante a diástole. É diferente de afirmar que nenhum fluxo existe na sístole ou que toda a circulação coronária tem exatamente o mesmo comportamento.",
+      "href": "theory.html?system=circulatory&chapter=circ-coronarias",
+      "references": [
+        {
+          "source": "vasos",
+          "page": 29
+        },
+        {
+          "source": "C2",
+          "time": "16:05–17:47"
+        }
+      ]
+    },
+    {
+      "id": "circ-veias-0",
+      "system": "circulatory",
+      "chapterId": "circ-veias",
+      "chapter": "Retorno venoso do coração",
+      "heading": "Seio coronário: coletor venoso posterior",
+      "text": "O seio coronário percorre a parte posterior do sulco coronário, entre o átrio esquerdo e o ventrículo esquerdo, e desemboca no AD. Seu óstio fica na região entre o óstio da veia cava inferior e o óstio AV direito; pode apresentar uma válvula do seio coronário, tradicionalmente chamada de Tebésio.\nA transição da veia cardíaca magna para o seio é associada à chegada da veia oblíqua do átrio esquerdo, ou veia de Marshall. Reconheça o coletor pela posição e pelas tributárias, em vez de tratá-lo como uma das artérias coronárias.",
+      "href": "theory.html?system=circulatory&chapter=circ-veias",
+      "references": [
+        {
+          "source": "vasos",
+          "page": 30
+        },
+        {
+          "source": "vasos",
+          "page": 31
+        },
+        {
+          "source": "vasos",
+          "page": 32
+        },
+        {
+          "source": "coracao",
+          "page": 30
+        },
+        {
+          "source": "vhl-veins"
+        }
+      ]
+    },
+    {
+      "id": "circ-veias-1",
+      "system": "circulatory",
+      "chapterId": "circ-veias",
+      "chapter": "Retorno venoso do coração",
+      "heading": "Tributárias e trajetos",
+      "text": "Interventricular anterior · Ascende no sulco IV anterior, acompanhando o ramo arterial correspondente.\nCardíaca magna · Continua o trajeto venoso anterior e segue pelo sulco AV esquerdo até o seio coronário.\nOblíqua do átrio esquerdo · Desce obliquamente na parede posterior do AE e chega à região inicial do seio.\nMarginal esquerda · Relaciona-se à margem esquerda do coração.\nPosterior do VE · Drena a parede posterior/inferior do VE para o sistema do seio.\nCardíaca média ou IV posterior · Percorre o sulco IV posterior e chega ao seio perto de sua abertura no AD.\nMarginal direita · Acompanha a margem direita/aguda; sua conexão venosa pode variar.\nCardíaca parva · Segue a região direita do sulco AV e pode receber a marginal direita; sua presença e desenvolvimento variam.",
+      "href": "theory.html?system=circulatory&chapter=circ-veias",
+      "references": [
+        {
+          "source": "vasos",
+          "page": 33
+        },
+        {
+          "source": "vasos",
+          "page": 34
+        },
+        {
+          "source": "roteiro",
+          "page": 4
+        },
+        {
+          "source": "roteiro",
+          "page": 5
+        },
+        {
+          "source": "C2",
+          "time": "18:42–21:34"
+        }
+      ]
+    },
+    {
+      "id": "circ-veias-2",
+      "system": "circulatory",
+      "chapterId": "circ-veias",
+      "chapter": "Retorno venoso do coração",
+      "heading": "Duas vias que não precisam atravessar o seio",
+      "text": "As veias anteriores do ventrículo direito drenam diretamente para o AD. Já as veias cardíacas mínimas, ou de Tebésio, são pequenos vasos que se abrem diretamente nas câmaras cardíacas correspondentes. Portanto, não é correto enviar toda a drenagem venosa cardíaca obrigatoriamente para o seio coronário.\nNa região do sulco AV esquerdo, a magna e a circunflexa podem seguir no mesmo sentido espacial durante parte do trajeto, embora transportem sangue com funções circulatórias distintas. “Artéria afasta e veia aproxima do coração” é uma definição em relação ao circuito, não uma regra de setas opostas em cada segmento local.",
+      "href": "theory.html?system=circulatory&chapter=circ-veias",
+      "references": [
+        {
+          "source": "vasos",
+          "page": 34
+        },
+        {
+          "source": "vasos",
+          "page": 35
+        },
+        {
+          "source": "vasos",
+          "page": 36
+        },
+        {
+          "source": "vhl-veins"
+        },
+        {
+          "source": "C2",
+          "time": "19:43–22:58"
+        }
+      ]
+    },
+    {
+      "id": "circ-grandes-vasos-0",
+      "system": "circulatory",
+      "chapterId": "circ-grandes-vasos",
+      "chapter": "Grandes vasos e vias de retorno",
+      "heading": "Aorta e ramos do arco",
+      "text": "A aorta ascendente começa na saída do VE. Seus primeiros ramos são as coronárias. Em seguida, o arco da aorta curva-se superiormente e para trás; a aorta descendente segue no tórax e continua como aorta abdominal após atravessar o diafragma.\nNo padrão do roteiro, o arco emite, em sequência, tronco braquiocefálico, carótida comum esquerda e subclávia esquerda. O tronco braquiocefálico divide-se em carótida comum direita e subclávia direita. A assimetria das origens é um ponto útil para orientar a peça.\nCada carótida comum bifurca-se em carótida interna e externa. A interna segue para o crânio; a externa distribui ramos principalmente para estruturas extracranianas da cabeça e do pescoço. Aqui o objetivo é reconhecer essas origens e continuidades, sem ampliar a lista para todos os ramos regionais que não constam do roteiro cardíaco.",
+      "href": "theory.html?system=circulatory&chapter=circ-grandes-vasos",
+      "references": [
+        {
+          "source": "vasos",
+          "page": 14
+        },
+        {
+          "source": "vasos",
+          "page": 15
+        },
+        {
+          "source": "vasos",
+          "page": 16
+        },
+        {
+          "source": "vasos",
+          "page": 17
+        },
+        {
+          "source": "roteiro",
+          "page": 4
+        },
+        {
+          "source": "C2",
+          "time": "03:30–05:11"
+        }
+      ]
+    },
+    {
+      "id": "circ-grandes-vasos-1",
+      "system": "circulatory",
+      "chapterId": "circ-grandes-vasos",
+      "chapter": "Grandes vasos e vias de retorno",
+      "heading": "Vasos pulmonares e cavas",
+      "text": "Tronco pulmonar · Sai do VD e divide-se em artérias pulmonares direita e esquerda.\nArtéria pulmonar direita · Segue em direção ao pulmão direito, passando posteriormente à aorta ascendente e à VCS.\nArtéria pulmonar esquerda · Segue ao pulmão esquerdo; relaciona-se superiormente com o arco aórtico e o ligamento arterial.\nVeias pulmonares · Habitualmente duas direitas e duas esquerdas, superior e inferior de cada lado, desembocando no AE.\nVeia cava superior · Chega superiormente ao AD, recebendo principalmente o retorno da porção supradiafragmática do corpo.\nVeia cava inferior · Chega inferiormente ao AD, trazendo o retorno predominantemente infradiafragmático.",
+      "href": "theory.html?system=circulatory&chapter=circ-grandes-vasos",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 15
+        },
+        {
+          "source": "coracao",
+          "page": 16
+        },
+        {
+          "source": "coracao",
+          "page": 27
+        },
+        {
+          "source": "coracao",
+          "page": 38
+        },
+        {
+          "source": "roteiro",
+          "page": 1
+        },
+        {
+          "source": "roteiro",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "circ-grandes-vasos-2",
+      "system": "circulatory",
+      "chapterId": "circ-grandes-vasos",
+      "chapter": "Grandes vasos e vias de retorno",
+      "heading": "Sistema ázigos",
+      "text": "A veia ázigos ascende à direita da coluna torácica e arqueia-se sobre a raiz do pulmão direito para alcançar a veia cava superior. No lado esquerdo, hemiázigos e hemiázigos acessória recolhem parte do retorno da parede torácica e cruzam em direção à ázigos.\nEssas veias conectam territórios venosos da parede torácica e oferecem comunicações entre os sistemas cava superior e inferior. Não são tributárias do seio coronário. Na cena, são vasos de contexto: sua extensão fora do coração precisa ser interpretada com a orientação do tórax.",
+      "href": "theory.html?system=circulatory&chapter=circ-grandes-vasos",
+      "references": [
+        {
+          "source": "roteiro",
+          "page": 5
+        },
+        {
+          "source": "vasos",
+          "page": 40
+        },
+        {
+          "source": "ttuhsc-azygos"
+        }
+      ]
+    },
+    {
+      "id": "circ-grandes-vasos-3",
+      "system": "circulatory",
+      "chapterId": "circ-grandes-vasos",
+      "chapter": "Grandes vasos e vias de retorno",
+      "heading": "Seio carotídeo e corpo carotídeo",
+      "text": "O seio carotídeo é uma dilatação próxima à origem da carótida interna e contém barorreceptores sensíveis ao estiramento associado à pressão arterial. O corpo carotídeo, próximo à bifurcação, é um pequeno órgão quimiorreceptor, sensível à composição química do sangue, especialmente alterações de O₂, CO₂ e pH.\nPara evitar a mistura de termos presente em trechos automáticos da aula, associe seio a pressão e corpo a química. Nenhum dos dois deve ser identificado apenas como “um nervo” ou como sinônimo da carótida comum.",
+      "href": "theory.html?system=circulatory&chapter=circ-grandes-vasos",
+      "references": [
+        {
+          "source": "vasos",
+          "page": 17
+        },
+        {
+          "source": "os-regulation"
+        }
+      ]
+    },
+    {
+      "id": "circ-vasos-0",
+      "system": "circulatory",
+      "chapterId": "circ-vasos",
+      "chapter": "Artérias, capilares e veias",
+      "heading": "Três túnicas, proporções diferentes",
+      "text": "Íntima · Endotélio e tecido de suporte subendotelial · Interface com o sangue; participa das trocas e da regulação vascular.\nMédia · Músculo liso e componentes elásticos em proporções variáveis · Modifica o calibre e suporta a pressão.\nExterna/adventícia · Tecido conjuntivo, com vasos e nervos nos vasos maiores · Sustenta e conecta o vaso aos tecidos vizinhos.",
+      "href": "theory.html?system=circulatory&chapter=circ-vasos",
+      "references": [
+        {
+          "source": "vasos",
+          "page": 2
+        },
+        {
+          "source": "vasos",
+          "page": 3
+        },
+        {
+          "source": "C1",
+          "time": "00:04–04:02"
+        }
+      ]
+    },
+    {
+      "id": "circ-vasos-1",
+      "system": "circulatory",
+      "chapterId": "circ-vasos",
+      "chapter": "Artérias, capilares e veias",
+      "heading": "Artérias e arteríolas",
+      "text": "Artérias de grande calibre, como a aorta, têm importante componente elástico: distendem-se durante a ejeção e seu recuo contribui para manter o fluxo entre os batimentos. As artérias musculares distribuem o sangue aos órgãos. As pequenas artérias e arteríolas ajustam a resistência e o fluxo local pela contração e pelo relaxamento do músculo liso.\nRamo colateral parte de um tronco ao longo do seu trajeto; ramo terminal resulta da divisão final desse tronco; ramo recorrente retorna em direção oposta à continuidade predominante do vaso. Anastomose é uma comunicação entre vasos. “Ramo terminal”, como padrão de ramificação, não é automaticamente uma afirmação de ausência completa de anastomoses.",
+      "href": "theory.html?system=circulatory&chapter=circ-vasos",
+      "references": [
+        {
+          "source": "vasos",
+          "page": 4
+        },
+        {
+          "source": "vasos",
+          "page": 5
+        },
+        {
+          "source": "C1",
+          "time": "04:02–06:16"
+        }
+      ]
+    },
+    {
+      "id": "circ-vasos-2",
+      "system": "circulatory",
+      "chapterId": "circ-vasos",
+      "chapter": "Artérias, capilares e veias",
+      "heading": "Capilares: estrutura adequada à troca",
+      "text": "Contínuo · Endotélio contínuo, com propriedades de permeabilidade que dependem do tecido · Músculo, tecido conjuntivo e sistema nervoso central.\nFenestrado · Fenestras endoteliais favorecem passagem de água e pequenos solutos · Rins e glândulas endócrinas.\nSinusoidal/descontínuo · Lúmen mais irregular e barreira mais descontínua, permitindo intercâmbios maiores · Fígado, medula óssea e baço.",
+      "href": "theory.html?system=circulatory&chapter=circ-vasos",
+      "references": [
+        {
+          "source": "vasos",
+          "page": 6
+        },
+        {
+          "source": "C1",
+          "time": "06:16–08:01"
+        }
+      ]
+    },
+    {
+      "id": "circ-vasos-3",
+      "system": "circulatory",
+      "chapterId": "circ-vasos",
+      "chapter": "Artérias, capilares e veias",
+      "heading": "Veias, perfurantes e anastomoses AV",
+      "text": "As veias têm, em geral, paredes mais delgadas e lúmens mais amplos que artérias de calibre comparável. São vasos de grande capacidade de armazenamento de sangue; suas paredes podem colabar quando a pressão interna é baixa. Veias superficiais ficam no tecido subcutâneo; profundas acompanham trajetos profundos, frequentemente junto às artérias.\nVeias perfurantes atravessam a fáscia para conectar redes venosas superficiais e profundas. Uma conexão direta entre artéria e veia é uma anastomose ou comunicação arteriovenosa, e não a definição de veia perfurante. Esse contraste corrige um trecho ambíguo da transcrição automática C1.\nAs válvulas venosas são pregas da íntima que limitam refluxo. Elas não estão presentes em todas as veias. Sua atuação em conjunto com a contração muscular favorece o retorno do sangue, especialmente nos membros.",
+      "href": "theory.html?system=circulatory&chapter=circ-vasos",
+      "references": [
+        {
+          "source": "vasos",
+          "page": 7
+        },
+        {
+          "source": "vasos",
+          "page": 8
+        },
+        {
+          "source": "vasos",
+          "page": 9
+        },
+        {
+          "source": "vasos",
+          "page": 10
+        },
+        {
+          "source": "venous-consensus"
+        },
+        {
+          "source": "C1",
+          "time": "08:01–11:22"
+        }
+      ]
+    },
+    {
+      "id": "circ-vasos-4",
+      "system": "circulatory",
+      "chapterId": "circ-vasos",
+      "chapter": "Artérias, capilares e veias",
+      "heading": "Retorno venoso e feixes vasculonervosos",
+      "text": "A contração muscular comprime veias; com válvulas competentes, o sangue avança preferencialmente na direção do retorno. Na inspiração espontânea, a variação de pressão entre abdome e tórax também favorece esse retorno. O gradiente de pressão até o átrio direito continua sendo o fundamento do fluxo.\nA proximidade entre artérias e veias permite que pulsações arteriais contribuam para a mobilização do sangue venoso. Também permite troca de calor entre fluxos vizinhos em sentidos opostos, ajudando a conservar calor. Artéria, veia e nervo próximos compõem um feixe vasculonervoso; proximidade não significa mistura entre sangue arterial e venoso.",
+      "href": "theory.html?system=circulatory&chapter=circ-vasos",
+      "references": [
+        {
+          "source": "vasos",
+          "page": 12
+        },
+        {
+          "source": "vasos",
+          "page": 13
+        },
+        {
+          "source": "os-flow"
+        },
+        {
+          "source": "C2",
+          "time": "01:21–03:30"
+        }
+      ]
+    },
+    {
+      "id": "circ-linfatico-0",
+      "system": "circulatory",
+      "chapterId": "circ-linfatico",
+      "chapter": "Sistema linfático: retorno, órgãos e tórax",
+      "heading": "Da formação da linfa ao transporte de lipídios",
+      "text": "O sistema linfático recolhe líquido e proteínas do espaço intersticial e os devolve à circulação venosa. Também participa da defesa imunológica e transporta lipídios absorvidos no intestino delgado. O líquido intersticial passa a ser chamado linfa quando entra nos vasos linfáticos.\nA linfa intestinal rica em lipídios tem aspecto leitoso e recebe o nome de quilo. Os capilares linfáticos das vilosidades intestinais, chamados lácteos, absorvem partículas lipídicas e contribuem para o transporte de vitaminas lipossolúveis. A aparência e a composição da linfa variam conforme o território e a alimentação.",
+      "href": "theory.html?system=circulatory&chapter=circ-linfatico",
+      "references": [
+        {
+          "source": "linfatico",
+          "page": 2
+        },
+        {
+          "source": "linfatico",
+          "page": 3
+        },
+        {
+          "source": "linfatico",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "circ-linfatico-1",
+      "system": "circulatory",
+      "chapterId": "circ-linfatico",
+      "chapter": "Sistema linfático: retorno, órgãos e tórax",
+      "heading": "Capilares e vasos coletores",
+      "text": "Os capilares linfáticos começam em fundo cego no tecido. Sobreposições entre células endoteliais permitem entrada de líquido quando a pressão intersticial supera a interna; filamentos de ancoragem ajudam a manter essas aberturas. Essa organização não deve ser confundida com os poros dos capilares sanguíneos fenestrados.\nOs coletores recebem os capilares, têm válvulas e formam redes superficiais e profundas. Contrações da parede, movimento dos músculos e variações respiratórias contribuem para a progressão. As válvulas orientam o fluxo: interstício → capilares → coletores → linfonodos → troncos → ductos → veias.",
+      "href": "theory.html?system=circulatory&chapter=circ-linfatico",
+      "references": [
+        {
+          "source": "linfatico",
+          "page": 7
+        },
+        {
+          "source": "linfatico",
+          "page": 9
+        },
+        {
+          "source": "linfatico",
+          "page": 16
+        },
+        {
+          "source": "os-lymph"
+        }
+      ]
+    },
+    {
+      "id": "circ-linfatico-2",
+      "system": "circulatory",
+      "chapterId": "circ-linfatico",
+      "chapter": "Sistema linfático: retorno, órgãos e tórax",
+      "heading": "Linfonodo: entrada, filtro e saída",
+      "text": "Linfonodos são órgãos encapsulados interpostos nos vasos linfáticos. A linfa chega por vasos aferentes, atravessa espaços de circulação no órgão e sai por vasos eferentes, relacionados ao hilo. Na organização apresentada, cápsula e trabéculas sustentam córtex e medula; no córtex há folículos, que podem apresentar centros germinativos.\nO linfonodo reúne células que reconhecem antígenos, permitindo ativação e proliferação de linfócitos. Não o defina como o local de origem de todos os glóbulos brancos. Linfonodo também não é sinônimo de nódulo/folículo: este é uma organização microscópica de tecido linfoide, que pode existir dentro de órgãos ou em mucosas.",
+      "href": "theory.html?system=circulatory&chapter=circ-linfatico",
+      "references": [
+        {
+          "source": "linfatico",
+          "page": 10
+        },
+        {
+          "source": "linfatico",
+          "page": 17
+        },
+        {
+          "source": "linfatico",
+          "page": 34
+        },
+        {
+          "source": "janeway-lymphoid"
+        }
+      ]
+    },
+    {
+      "id": "circ-linfatico-3",
+      "system": "circulatory",
+      "chapterId": "circ-linfatico",
+      "chapter": "Sistema linfático: retorno, órgãos e tórax",
+      "heading": "Troncos e ductos: a drenagem é assimétrica",
+      "text": "Troncos jugulares · Cabeça e pescoço.\nTroncos subclávios · Membros superiores e territórios superficiais relacionados.\nTroncos broncomediastinais · Vísceras e regiões do tórax.\nTroncos lombares · Membros inferiores, pelve e parte das vísceras/parede abdominal.\nTroncos intestinais · Territórios abdominais associados ao intestino e à absorção de lipídios.\nDucto linfático direito · Quadrante superior direito: lado direito da cabeça/pescoço, membro superior direito e parte direita do tórax.\nDucto torácico · Retorno do restante do corpo; recebe inferiormente a drenagem dos troncos lombares e intestinais.",
+      "href": "theory.html?system=circulatory&chapter=circ-linfatico",
+      "references": [
+        {
+          "source": "linfatico",
+          "page": 13
+        },
+        {
+          "source": "linfatico",
+          "page": 14
+        },
+        {
+          "source": "linfatico",
+          "page": 15
+        },
+        {
+          "source": "linfatico",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "id": "circ-linfatico-4",
+      "system": "circulatory",
+      "chapterId": "circ-linfatico",
+      "chapter": "Sistema linfático: retorno, órgãos e tórax",
+      "heading": "Ducto torácico e ângulos venosos",
+      "text": "O ducto torácico pode iniciar-se em uma cisterna do quilo, apresentada na aula à frente de L2. A cisterna e as terminações dos troncos variam. O ducto atravessa o hiato aórtico, sobe no tórax e alcança o ângulo venoso esquerdo, na união da jugular interna com a subclávia. O slide usa aproximadamente 45 cm como referência de comprimento.\nO ducto linfático direito é curto e chega ao ângulo venoso direito, na junção jugular interna–subclávia. Não confunda “direito” com “todo o lado direito do corpo”: ambos os membros inferiores e grande parte do abdome pertencem ao território que chega ao ducto torácico.",
+      "href": "theory.html?system=circulatory&chapter=circ-linfatico",
+      "references": [
+        {
+          "source": "linfatico",
+          "page": 16
+        },
+        {
+          "source": "os-lymph"
+        }
+      ]
+    },
+    {
+      "id": "circ-linfatico-5",
+      "system": "circulatory",
+      "chapterId": "circ-linfatico",
+      "chapter": "Sistema linfático: retorno, órgãos e tórax",
+      "heading": "Órgãos primários, secundários e mucosas",
+      "text": "Medula óssea vermelha — primário · Produção das células sanguíneas e desenvolvimento de linfócitos B; fornece os precursores que seguirão para o timo.\nTimo — primário · Desenvolvimento, maturação e seleção de linfócitos T.\nLinfonodos — secundários · Contato de antígenos transportados pela linfa com células imunes e organização da resposta.\nBaço — secundário · Vigilância de antígenos no sangue e remoção de células sanguíneas envelhecidas.\nTecido linfoide associado à mucosa — MALT · Proteção em superfícies de entrada; inclui folículos isolados ou agregados, como as placas de Peyer e o tecido linfoide do apêndice.",
+      "href": "theory.html?system=circulatory&chapter=circ-linfatico",
+      "references": [
+        {
+          "source": "linfatico",
+          "page": 17
+        },
+        {
+          "source": "linfatico",
+          "page": 18
+        },
+        {
+          "source": "linfatico",
+          "page": 19
+        },
+        {
+          "source": "linfatico",
+          "page": 27
+        },
+        {
+          "source": "linfatico",
+          "page": 34
+        },
+        {
+          "source": "janeway-lymphoid"
+        }
+      ]
+    },
+    {
+      "id": "circ-linfatico-6",
+      "system": "circulatory",
+      "chapterId": "circ-linfatico",
+      "chapter": "Sistema linfático: retorno, órgãos e tórax",
+      "heading": "Timo: localização, arquitetura e vasos",
+      "text": "O timo é bilobulado e ocupa principalmente a região retroesternal, com extensão variável para a porção inferior do pescoço. Cápsula e septos delimitam lóbulos; cada lóbulo apresenta córtex periférico e medula central. O ambiente de células epiteliais, dendríticas e macrófagos participa da maturação dos linfócitos T.\nA aula cita ramos mediastinais e intercostais anteriores, associados à torácica interna, em sua irrigação; a drenagem venosa alcança veias torácicas internas, tireóideas inferiores e braquiocefálica esquerda. A linfa pode seguir para grupos paraesternais, mediastinais anteriores, traqueobronquiais e braquiocefálicos. Com o avanço da idade, há involução tímica e aumento relativo de tecido adiposo.",
+      "href": "theory.html?system=circulatory&chapter=circ-linfatico",
+      "references": [
+        {
+          "source": "linfatico",
+          "page": 19
+        },
+        {
+          "source": "linfatico",
+          "page": 20
+        },
+        {
+          "source": "linfatico",
+          "page": 21
+        },
+        {
+          "source": "linfatico",
+          "page": 22
+        },
+        {
+          "source": "linfatico",
+          "page": 23
+        },
+        {
+          "source": "linfatico",
+          "page": 45
+        },
+        {
+          "source": "linfatico",
+          "page": 55
+        }
+      ]
+    },
+    {
+      "id": "circ-linfatico-7",
+      "system": "circulatory",
+      "chapterId": "circ-linfatico",
+      "chapter": "Sistema linfático: retorno, órgãos e tórax",
+      "heading": "Baço: filtra sangue",
+      "text": "O baço fica no hipocôndrio esquerdo, relacionado ao diafragma e aproximadamente às costelas 9–11. Apresenta uma face diafragmática e uma face visceral, onde está o hilo e se reconhecem relações com estômago, rim esquerdo e cólon. A aula usa cerca de 12 cm como referência didática, não como limite universal de tamanho.\nA polpa vermelha contém cordões e sinusoides relacionados à filtragem do sangue e à retirada de hemácias envelhecidas. A polpa branca reúne tecido linfoide em torno de vasos e participa da resposta imune. Cápsula, trabéculas e trama conjuntiva compõem seu suporte.\nO baço também participa do armazenamento de plaquetas e da hematopoiese na vida fetal. Ao estudar linfócitos B, diferencie o desenvolvimento inicial na medula óssea das respostas e diferenciações posteriores nos órgãos secundários; “baço amadurece B” isoladamente é uma simplificação insuficiente.",
+      "href": "theory.html?system=circulatory&chapter=circ-linfatico",
+      "references": [
+        {
+          "source": "linfatico",
+          "page": 26
+        },
+        {
+          "source": "linfatico",
+          "page": 27
+        },
+        {
+          "source": "linfatico",
+          "page": 28
+        },
+        {
+          "source": "linfatico",
+          "page": 29
+        },
+        {
+          "source": "janeway-lymphoid"
+        }
+      ]
+    },
+    {
+      "id": "circ-linfatico-8",
+      "system": "circulatory",
+      "chapterId": "circ-linfatico",
+      "chapter": "Sistema linfático: retorno, órgãos e tórax",
+      "heading": "Tonsilas e anel de Waldeyer",
+      "text": "O anel linfático da faringe reúne as tonsilas faríngea, tubárias, palatinas e lingual. A faríngea situa-se no teto/parede posterior da nasofaringe; as tubárias, junto aos óstios faríngeos das tubas auditivas; as palatinas, nas fossas tonsilares; e a lingual, na raiz da língua.\nEsse conjunto fica na entrada das vias respiratória e digestória. Na revisão do slide 24, use esses quatro componentes clássicos; tecido linfoide eventualmente presente na laringe não deve ser acrescentado como uma quinta tonsila obrigatória do anel.",
+      "href": "theory.html?system=circulatory&chapter=circ-linfatico",
+      "references": [
+        {
+          "source": "linfatico",
+          "page": 24
+        },
+        {
+          "source": "tonsils-review"
+        }
+      ]
+    },
+    {
+      "id": "circ-linfatico-9",
+      "system": "circulatory",
+      "chapterId": "circ-linfatico",
+      "chapter": "Sistema linfático: retorno, órgãos e tórax",
+      "heading": "Linfonodos torácicos: organizar pela região",
+      "text": "Paraesternais · Junto aos vasos torácicos internos; recebem parede anterior do tórax, parte da mama e territórios próximos.\nIntercostais · Junto às regiões posteriores dos espaços intercostais; relacionados à parede torácica posterolateral.\nFrênicos · Junto ao diafragma, em grupos anteriores, médios e posteriores, com conexões entre as faces torácica e abdominal.\nMediastinais anteriores · Relacionados a timo, pericárdio e coração.\nPulmonares e broncopulmonares · Acompanham o pulmão e sua raiz; os broncopulmonares são também chamados hilares.\nTraqueobronquiais e paratraqueais · Situados em torno da bifurcação/brônquios principais e ao longo da traqueia; recebem cadeias intratorácicas.\nMediastinais posteriores/paraesofágicos · Relacionados ao esôfago e a outros territórios do mediastino posterior.",
+      "href": "theory.html?system=circulatory&chapter=circ-linfatico",
+      "references": [
+        {
+          "source": "linfatico",
+          "page": 35
+        },
+        {
+          "source": "linfatico",
+          "page": 37
+        },
+        {
+          "source": "linfatico",
+          "page": 38
+        },
+        {
+          "source": "linfatico",
+          "page": 39
+        },
+        {
+          "source": "linfatico",
+          "page": 40
+        },
+        {
+          "source": "linfatico",
+          "page": 42
+        },
+        {
+          "source": "linfatico",
+          "page": 43
+        },
+        {
+          "source": "linfatico",
+          "page": 44
+        },
+        {
+          "source": "linfatico",
+          "page": 46
+        },
+        {
+          "source": "linfatico",
+          "page": 49
+        }
+      ]
+    },
+    {
+      "id": "circ-linfatico-10",
+      "system": "circulatory",
+      "chapterId": "circ-linfatico",
+      "chapter": "Sistema linfático: retorno, órgãos e tórax",
+      "heading": "Integração com o coração e o pulmão",
+      "text": "No coração, o material de vasos apresenta plexos linfáticos subendocárdico e subepicárdico, com drenagem para linfonodos traqueobronquiais inferiores e cadeias paratraqueais. O retorno final alcança vias que desembocam no sistema venoso, pelos ductos torácico e linfático direito. O esquema mostra conexões regionais; não significa que cada vaso cardíaco percorra obrigatoriamente uma única sequência sem variação.\nNo pulmão, a aula distingue plexo superficial/subpleural e plexo profundo, associados aos trajetos intrapulmonares e broncovasculares. Sua drenagem converge para grupos pulmonares, broncopulmonares e traqueobronquiais, seguindo às vias mediastinais. Os espaços aéreos alveolares não devem ser desenhados como vasos linfáticos.",
+      "href": "theory.html?system=circulatory&chapter=circ-linfatico",
+      "references": [
+        {
+          "source": "vasos",
+          "page": 42
+        },
+        {
+          "source": "linfatico",
+          "page": 46
+        },
+        {
+          "source": "linfatico",
+          "page": 47
+        },
+        {
+          "source": "linfatico",
+          "page": 48
+        },
+        {
+          "source": "C2",
+          "time": "24:36–25:53"
+        }
+      ]
+    },
+    {
+      "id": "circ-linfatico-11",
+      "system": "circulatory",
+      "chapterId": "circ-linfatico",
+      "chapter": "Sistema linfático: retorno, órgãos e tórax",
+      "heading": "Vocabulário aplicado sem transformar sinais em diagnóstico",
+      "text": "Linfangite significa inflamação dos vasos linfáticos; linfadenite, inflamação dos linfonodos; linfedema, acúmulo de líquido intersticial relacionado à insuficiência do transporte linfático. Linfonodomegalia descreve aumento de tamanho do linfonodo, sem definir sua causa.\nAs vias linfática e sanguínea podem participar da disseminação de células tumorais; a contiguidade descreve extensão direta aos tecidos vizinhos. Para esta revisão anatômica, o objetivo é entender os caminhos e territórios. Características isoladas de um linfonodo e percentuais antigos dos slides não são usados como critérios diagnósticos ou prognósticos.",
+      "href": "theory.html?system=circulatory&chapter=circ-linfatico",
+      "references": [
+        {
+          "source": "linfatico",
+          "page": 11
+        },
+        {
+          "source": "linfatico",
+          "page": 12
+        },
+        {
+          "source": "linfatico",
+          "page": 50
+        },
+        {
+          "source": "linfatico",
+          "page": 51
+        },
+        {
+          "source": "linfatico",
+          "page": 53
+        }
+      ]
+    },
+    {
+      "id": "circ-especiais-0",
+      "system": "circulatory",
+      "chapterId": "circ-especiais",
+      "chapter": "Circuitos especiais e remanescentes fetais",
+      "heading": "Circulação colateral",
+      "text": "Vias colaterais são caminhos alternativos que se comunicam por anastomoses. Elas podem permitir redistribuição do fluxo quando uma via principal oferece maior resistência ou é interrompida. A efetividade depende do calibre, das conexões e do tempo disponível para adaptação.\nUma anastomose é a comunicação anatômica; circulação colateral descreve a possibilidade de fluxo por uma rota alternativa. Veias dilatadas ou vasos visíveis, por si sós, não demonstram o mecanismo específico que está atuando.",
+      "href": "theory.html?system=circulatory&chapter=circ-especiais",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 72
+        },
+        {
+          "source": "vasos",
+          "page": 5
+        },
+        {
+          "source": "vasos",
+          "page": 8
+        },
+        {
+          "source": "C3",
+          "time": "18:01–19:04"
+        }
+      ]
+    },
+    {
+      "id": "circ-especiais-1",
+      "system": "circulatory",
+      "chapterId": "circ-especiais",
+      "chapter": "Circuitos especiais e remanescentes fetais",
+      "heading": "Sistema porta: duas redes capilares em série",
+      "text": "Porta hepático · Capilares de vísceras digestivas/baço → veia porta → sinusoides hepáticos → veias hepáticas → VCI · Leva ao fígado o sangue vindo desses territórios antes do retorno sistêmico.\nPorta hipofisário · Plexo capilar da região hipotalâmica/eminência mediana → vasos porta → plexo da adeno-hipófise · Transporta sinais hormonais hipotalâmicos diretamente à hipófise anterior.",
+      "href": "theory.html?system=circulatory&chapter=circ-especiais",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 73
+        },
+        {
+          "source": "coracao",
+          "page": 74
+        },
+        {
+          "source": "C3",
+          "time": "19:04–20:44"
+        }
+      ]
+    },
+    {
+      "id": "circ-especiais-2",
+      "system": "circulatory",
+      "chapterId": "circ-especiais",
+      "chapter": "Circuitos especiais e remanescentes fetais",
+      "heading": "Circulação fetal: a placenta faz as trocas",
+      "text": "Antes do nascimento, o sangue mais oxigenado chega da placenta pela veia umbilical. Parte atravessa o fígado e parte utiliza o ducto venoso para alcançar o sistema da veia cava inferior. No AD, o forame oval permite passagem de sangue para o AE; o fluxo restante alcança o VD.\nO ducto arterial conecta o tronco/região inicial da artéria pulmonar esquerda à aorta, permitindo que grande parte do débito direito desvie dos pulmões fetais. O sangue retorna à placenta pelas artérias umbilicais. Esses desvios não significam que os pulmões ou o fígado recebam fluxo absolutamente zero.\nApós o nascimento, a alteração das pressões e da oxigenação favorece o fechamento funcional e, depois, a transformação anatômica dessas vias. O roteiro adulto cobra o ligamento arterial, relacionado ao antigo ducto arterial, e a fossa oval, na região do antigo forame oval.",
+      "href": "theory.html?system=circulatory&chapter=circ-especiais",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 31
+        },
+        {
+          "source": "coracao",
+          "page": 32
+        },
+        {
+          "source": "coracao",
+          "page": 33
+        },
+        {
+          "source": "roteiro",
+          "page": 1
+        },
+        {
+          "source": "roteiro",
+          "page": 2
+        },
+        {
+          "source": "os-fetal"
+        }
+      ]
+    },
+    {
+      "id": "circ-especiais-3",
+      "system": "circulatory",
+      "chapterId": "circ-especiais",
+      "chapter": "Circuitos especiais e remanescentes fetais",
+      "heading": "Comparação final para revisar",
+      "text": "Circulação pulmonar · O sangue vai do VD aos pulmões e retorna ao AE?\nCirculação sistêmica · O sangue sai do VE para os tecidos e retorna ao AD?\nCirculação colateral · Existe um caminho alternativo por conexões entre vasos?\nSistema porta · Há duas redes capilares ligadas em série antes do retorno ao coração?\nDesvio fetal · A conexão redireciona sangue no contexto da circulação placentária?",
+      "href": "theory.html?system=circulatory&chapter=circ-especiais",
+      "references": [
+        {
+          "source": "coracao",
+          "page": 32
+        },
+        {
+          "source": "coracao",
+          "page": 71
+        },
+        {
+          "source": "coracao",
+          "page": 72
+        },
+        {
+          "source": "coracao",
+          "page": 73
+        },
+        {
+          "source": "coracao",
+          "page": 74
+        }
+      ]
+    },
+    {
+      "id": "resp_01-0",
+      "system": "respiratory",
+      "chapterId": "resp_01",
+      "chapter": "1. Caminho do ar e organização funcional",
+      "heading": "Quatro processos que trabalham em sequência",
+      "text": "Ventilação é o movimento de ar entre ambiente e pulmões. Difusão é a passagem de O₂ e CO₂ pela barreira alveolocapilar. O sangue transporta os gases entre pulmões e tecidos; as células utilizam O₂ no metabolismo. Portanto, movimentar ar e efetuar troca gasosa são etapas diferentes.\nNos pulmões, o O₂ passa do ar alveolar para o sangue e o CO₂ faz o percurso inverso. Nos tecidos sistêmicos, a direção global se inverte. O fluxo sanguíneo precisa alcançar os alvéolos ventilados para que a troca contribua para a oxigenação.",
+      "href": "theory.html?system=respiratory&chapter=resp_01",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 3
+        },
+        {
+          "source": "respiratorio",
+          "page": 4
+        },
+        {
+          "source": "respiratorio",
+          "page": 5
+        },
+        {
+          "source": "respiratorio",
+          "page": 125
+        },
+        {
+          "source": "R1",
+          "time": "01:27–03:52"
+        }
+      ]
+    },
+    {
+      "id": "resp_01-1",
+      "system": "respiratory",
+      "chapterId": "resp_01",
+      "chapter": "1. Caminho do ar e organização funcional",
+      "heading": "O trajeto contínuo",
+      "text": "Narinas → vestíbulo e cavidade nasal → cóanos → nasofaringe.\nNasofaringe → orofaringe → laringofaringe → ádito e cavidade da laringe.\nTraqueia → brônquios principais → lobares → segmentares → ramificações menores → bronquíolos terminais.\nBronquíolos respiratórios → ductos alveolares → sacos alveolares e alvéolos.",
+      "href": "theory.html?system=respiratory&chapter=resp_01",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 6
+        },
+        {
+          "source": "respiratorio",
+          "page": 7
+        },
+        {
+          "source": "respiratorio",
+          "page": 8
+        },
+        {
+          "source": "respiratorio",
+          "page": 42
+        },
+        {
+          "source": "respiratorio",
+          "page": 72
+        },
+        {
+          "source": "respiratorio",
+          "page": 88
+        },
+        {
+          "source": "R3",
+          "time": "02:44–06:29"
+        }
+      ]
+    },
+    {
+      "id": "resp_01-2",
+      "system": "respiratory",
+      "chapterId": "resp_01",
+      "chapter": "1. Caminho do ar e organização funcional",
+      "heading": "Duas classificações, duas perguntas",
+      "text": "Topográfica · Vias superiores e inferiores · Na convenção da aula, nariz, cavidades e faringe/laringe compõem as vias superiores; a traqueia inicia as inferiores. Outras referências podem posicionar a laringe de modo diferente.\nFuncional · Zona condutora e zona respiratória · A condutora termina no bronquíolo terminal. A respiratória começa quando surgem alvéolos nas paredes dos bronquíolos respiratórios.\nEscala · Anatomia macroscópica e microanatomia · Um pulmão ou brônquio é reconhecível na peça; pneumócitos e barreira de difusão exigem imagem de outra escala.",
+      "href": "theory.html?system=respiratory&chapter=resp_01",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 7
+        },
+        {
+          "source": "respiratorio",
+          "page": 8
+        },
+        {
+          "source": "respiratorio",
+          "page": 9
+        },
+        {
+          "source": "respiratorio",
+          "page": 131
+        },
+        {
+          "source": "R1",
+          "time": "08:10–09:06"
+        }
+      ]
+    },
+    {
+      "id": "resp_01-3",
+      "system": "respiratory",
+      "chapterId": "resp_01",
+      "chapter": "1. Caminho do ar e organização funcional",
+      "heading": "Reconhecer sem depender da cor",
+      "text": "No modelo, siga conexões e posição. Uma cor é um recurso didático; não define a identidade anatômica. Ao ocultar o pulmão, a árvore brônquica aparece como um trajeto; ao recolocar os lobos, relacione cada ramo ao território que ventila.\nOs alvéolos não serão deduzidos de uma superfície pulmonar lisa. Para as estruturas microscópicas, use os slides de detalhe e diferencie explicitamente o esquema da geometria macroscópica.",
+      "href": "theory.html?system=respiratory&chapter=resp_01",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 8
+        },
+        {
+          "source": "respiratorio",
+          "page": 92
+        },
+        {
+          "source": "respiratorio",
+          "page": 93
+        },
+        {
+          "source": "respiratorio",
+          "page": 131
+        }
+      ]
+    },
+    {
+      "id": "resp_02-0",
+      "system": "respiratory",
+      "chapterId": "resp_02",
+      "chapter": "2. Nariz: forma, paredes e mucosa",
+      "heading": "Nariz externo e vestíbulo",
+      "text": "A raiz é a região superior de implantação; o dorso segue até o ápice. As asas delimitam lateralmente as narinas. Ossos nasais e maxilas sustentam a parte superior; cartilagem septal, cartilagens laterais e alares sustentam a porção mais móvel.\nO vestíbulo fica imediatamente após a narina e mantém características de pele, incluindo vibrissas. A filtração inicial de partículas maiores ali é diferente da limpeza mucociliar das regiões mais profundas. Prócero, nasal, levantador do lábio superior e da asa do nariz e abaixador do septo participam da forma e movimentação local.",
+      "href": "theory.html?system=respiratory&chapter=resp_02",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 10
+        },
+        {
+          "source": "respiratorio",
+          "page": 11
+        },
+        {
+          "source": "respiratorio",
+          "page": 12
+        },
+        {
+          "source": "respiratorio",
+          "page": 14
+        },
+        {
+          "source": "R2",
+          "time": "00:03–02:15"
+        }
+      ]
+    },
+    {
+      "id": "resp_02-1",
+      "system": "respiratory",
+      "chapterId": "resp_02",
+      "chapter": "2. Nariz: forma, paredes e mucosa",
+      "heading": "Paredes: use três referências",
+      "text": "Septo nasal · Cartilagem do septo anteriormente; lâmina perpendicular do etmoide superiormente; vômer posteroinferiormente. · Parede medial que separa as cavidades direita e esquerda.\nParede lateral · Conchas superior e média pertencem ao etmoide; a inferior é um osso próprio. Participam também maxila, lacrimal, palatino e esfenoide. · Saliências em prateleiras com espaços abaixo delas.\nTeto e assoalho · Região cribriforme do etmoide no teto; processos palatinos das maxilas e lâminas horizontais dos palatinos no palato duro. · Não confundir a crista galli, intracraniana, com uma concha nasal.",
+      "href": "theory.html?system=respiratory&chapter=resp_02",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 16
+        },
+        {
+          "source": "respiratorio",
+          "page": 17
+        },
+        {
+          "source": "respiratorio",
+          "page": 18
+        },
+        {
+          "source": "respiratorio",
+          "page": 19
+        },
+        {
+          "source": "R2",
+          "time": "03:49–07:00"
+        }
+      ]
+    },
+    {
+      "id": "resp_02-2",
+      "system": "respiratory",
+      "chapterId": "resp_02",
+      "chapter": "2. Nariz: forma, paredes e mucosa",
+      "heading": "Concha não é meato",
+      "text": "Conchas são saliências revestidas por mucosa. Meatos são passagens situadas abaixo das conchas correspondentes. Essa organização amplia a superfície de contato do ar com a mucosa e cria trajetos para drenagem de seios e do ducto nasolacrimal.\nO meato superior fica abaixo da concha superior. O recesso esfenoetmoidal está acima e posteriormente a ela: são espaços distintos. Os cóanos são as aberturas posteriores; não são um quarto meato.",
+      "href": "theory.html?system=respiratory&chapter=resp_02",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 19
+        },
+        {
+          "source": "respiratorio",
+          "page": 36
+        }
+      ]
+    },
+    {
+      "id": "resp_02-3",
+      "system": "respiratory",
+      "chapterId": "resp_02",
+      "chapter": "2. Nariz: forma, paredes e mucosa",
+      "heading": "Mucosa, vasos e nervos: forma explica função",
+      "text": "A região respiratória ocupa a maior parte da cavidade: vasos aquecem o ar, secreções o umidificam e retêm partículas, e cílios ajudam a deslocar o muco para a faringe. A região olfatória é superior, próxima ao teto, à concha superior e ao septo adjacente. A olfação envolve o nervo olfatório; sensibilidade geral não é a mesma modalidade.\nO material destaca contribuições arteriais dos territórios carotídeos externo e interno e redes venosas nas conchas. A comunicação das veias faciais com vias profundas ajuda a explicar por que infecções da região nasal merecem atenção anatômica. Epistaxe significa sangramento nasal; rinorreia, escoamento de secreção; anosmia, perda da olfação.",
+      "href": "theory.html?system=respiratory&chapter=resp_02",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 20
+        },
+        {
+          "source": "respiratorio",
+          "page": 24
+        },
+        {
+          "source": "respiratorio",
+          "page": 25
+        },
+        {
+          "source": "respiratorio",
+          "page": 26
+        },
+        {
+          "source": "respiratorio",
+          "page": 27
+        },
+        {
+          "source": "respiratorio",
+          "page": 30
+        },
+        {
+          "source": "respiratorio",
+          "page": 31
+        },
+        {
+          "source": "respiratorio",
+          "page": 33
+        },
+        {
+          "source": "R2",
+          "time": "07:15–15:35"
+        }
+      ]
+    },
+    {
+      "id": "resp_03-0",
+      "system": "respiratory",
+      "chapterId": "resp_03",
+      "chapter": "3. Seios paranasais e caminhos de drenagem",
+      "heading": "Cavidades aéreas que se comunicam com o nariz",
+      "text": "Os seios paranasais são cavidades nos ossos frontal, maxila, esfenoide e etmoide, revestidas por mucosa contínua com a nasal. Os etmoidais formam um conjunto de células, agrupadas em anteriores, médias e posteriores.\nNa peça ou no 3D, identificar o volume de um seio é apenas a primeira etapa. Sua relação com a cavidade nasal depende de uma abertura e de um trajeto de drenagem. Um volume fechado no modelo não demonstra que seu óstio esteja representado.",
+      "href": "theory.html?system=respiratory&chapter=resp_03",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 34
+        },
+        {
+          "source": "respiratorio",
+          "page": 35
+        },
+        {
+          "source": "respiratorio",
+          "page": 36
+        },
+        {
+          "source": "R2",
+          "time": "15:35–19:42"
+        }
+      ]
+    },
+    {
+      "id": "resp_03-1",
+      "system": "respiratory",
+      "chapterId": "resp_03",
+      "chapter": "3. Seios paranasais e caminhos de drenagem",
+      "heading": "Mapa de drenagem que precisa ser recuperado de memória",
+      "text": "Seio frontal · Meato médio · Via do ducto frontonasal e região do infundíbulo; trajeto apresenta variações.\nSeio maxilar · Meato médio · Óstio na parede medial do seio, próximo à região do hiato semilunar.\nCélulas etmoidais anteriores · Meato médio · Região anterior do complexo de drenagem.\nCélulas etmoidais médias · Meato médio · Relação com a bolha etmoidal.\nCélulas etmoidais posteriores · Meato superior · Abaixo da concha superior.\nSeio esfenoidal · Recesso esfenoetmoidal · Acima/posteriormente à concha superior.\nDucto nasolacrimal · Meato inferior · É uma via de drenagem lacrimal, não um seio paranasal.",
+      "href": "theory.html?system=respiratory&chapter=resp_03",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 36
+        },
+        {
+          "source": "R2",
+          "time": "17:07–18:31"
+        }
+      ]
+    },
+    {
+      "id": "resp_03-2",
+      "system": "respiratory",
+      "chapterId": "resp_03",
+      "chapter": "3. Seios paranasais e caminhos de drenagem",
+      "heading": "Bolha e hiato: reconhecer relações",
+      "text": "A bolha etmoidal é uma saliência da parede lateral na região do meato médio, relacionada às células etmoidais médias. O hiato semilunar é uma fenda curva dessa mesma região. Ao estudar, procure primeiro concha média e meato médio, depois os relevos menores.\nUm óstio obstruído dificulta ventilação e depuração do seio correspondente. Essa relação espacial ajuda a entender sinusite sem reduzir o mecanismo a uma simples cavidade cheia: mucosa, drenagem e comunicação precisam ser consideradas.",
+      "href": "theory.html?system=respiratory&chapter=resp_03",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 36
+        },
+        {
+          "source": "respiratorio",
+          "page": 37
+        }
+      ]
+    },
+    {
+      "id": "resp_04-0",
+      "system": "respiratory",
+      "chapterId": "resp_04",
+      "chapter": "4. Faringe: cruzamento entre ar e alimento",
+      "heading": "Três partes, um tubo musculofascial",
+      "text": "Nasofaringe · Cavidade nasal, pelos cóanos · Superior ao palato mole.\nOrofaringe · Cavidade oral, pelo istmo das fauces · Posterior à boca, inferior ao palato mole.\nLaringofaringe · Laringe e seu ádito · Segue inferiormente ao esôfago, próximo à borda inferior da cricóidea/C6.",
+      "href": "theory.html?system=respiratory&chapter=resp_04",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 41
+        },
+        {
+          "source": "respiratorio",
+          "page": 42
+        },
+        {
+          "source": "respiratorio",
+          "page": 43
+        },
+        {
+          "source": "R2",
+          "time": "19:42–21:12"
+        }
+      ]
+    },
+    {
+      "id": "resp_04-1",
+      "system": "respiratory",
+      "chapterId": "resp_04",
+      "chapter": "4. Faringe: cruzamento entre ar e alimento",
+      "heading": "Nasofaringe e orelha média",
+      "text": "Na parede lateral da nasofaringe, localize o óstio faríngeo da tuba auditiva e o toro tubário. As pregas salpingofaríngea e salpingopalatina relacionam-se com esse relevo. A tonsila faríngea ocupa a região superior/posterior; as tonsilas tubárias ficam próximas aos óstios.\nA tuba comunica a nasofaringe com a orelha média e participa da equalização de pressão e da depuração de secreções. A frase do slide44 que menciona drenagem de perilinfa dos canais semicirculares está incorreta: esses canais pertencem à orelha interna.",
+      "href": "theory.html?system=respiratory&chapter=resp_04",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 44
+        },
+        {
+          "source": "respiratorio",
+          "page": 45
+        },
+        {
+          "source": "openstax_ear"
+        }
+      ]
+    },
+    {
+      "id": "resp_04-2",
+      "system": "respiratory",
+      "chapterId": "resp_04",
+      "chapter": "4. Faringe: cruzamento entre ar e alimento",
+      "heading": "Tonsilas e deglutição",
+      "text": "Tonsilas faríngea, tubárias, palatinas e lingual constituem tecido linfoide ao redor da entrada dos tratos respiratório e digestório. A hipertrofia da tonsila faríngea é o contexto anatômico da chamada adenoide; ela pode reduzir o espaço da nasofaringe.\nDurante a deglutição, a coordenação do palato mole, faringe e laringe direciona o bolo ao esôfago. A elevação do palato mole ajuda a separar a nasofaringe; a proteção laríngea envolve elevação e fechamento em vários níveis, e não somente a epiglote.",
+      "href": "theory.html?system=respiratory&chapter=resp_04",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 44
+        },
+        {
+          "source": "respiratorio",
+          "page": 45
+        },
+        {
+          "source": "respiratorio",
+          "page": 46
+        },
+        {
+          "source": "respiratorio",
+          "page": 72
+        },
+        {
+          "source": "R2",
+          "time": "23:26–25:07"
+        }
+      ]
+    },
+    {
+      "id": "resp_04-3",
+      "system": "respiratory",
+      "chapterId": "resp_04",
+      "chapter": "4. Faringe: cruzamento entre ar e alimento",
+      "heading": "Músculos: estreitar e elevar",
+      "text": "Os constritores superior, médio e inferior envolvem a faringe e participam do transporte do bolo por contrações coordenadas. Estilofaríngeo, salpingofaríngeo e palatofaríngeo seguem uma orientação longitudinal e participam da elevação/encurtamento faríngeo.\nA inervação motora é predominantemente vagal pelo plexo faríngeo. Guarde a exceção: o estilofaríngeo recebe o glossofaríngeo (IX). O IX também tem papel sensitivo relevante na orofaringe; não resuma todo o plexo a uma única função ou a um único nervo.",
+      "href": "theory.html?system=respiratory&chapter=resp_04",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 47
+        },
+        {
+          "source": "respiratorio",
+          "page": 48
+        },
+        {
+          "source": "respiratorio",
+          "page": 49
+        },
+        {
+          "source": "respiratorio",
+          "page": 51
+        },
+        {
+          "source": "R2",
+          "time": "25:07–27:29"
+        },
+        {
+          "source": "uams_nerves"
+        }
+      ]
+    },
+    {
+      "id": "resp_05-0",
+      "system": "respiratory",
+      "chapterId": "resp_05",
+      "chapter": "5. Esqueleto da laringe e suas articulações",
+      "heading": "Um mapa de cima para baixo",
+      "text": "O hioide fica superior à laringe e conecta-se à tireóidea pela membrana tireo-hióidea. A tireóidea forma uma proteção anterior e lateral; a cricóidea situa-se inferiormente e forma um anel completo. A traqueia continua abaixo, ligada à cricóidea pelo ligamento cricotraqueal.\nA epiglote relaciona-se com a entrada laríngea, posteriormente à raiz da língua. As aritenóideas apoiam-se sobre a parte posterior da cricóidea; as corniculadas ficam sobre seus ápices. As cuneiformes situam-se nas pregas ariepiglóticas.",
+      "href": "theory.html?system=respiratory&chapter=resp_05",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 53
+        },
+        {
+          "source": "respiratorio",
+          "page": 54
+        },
+        {
+          "source": "respiratorio",
+          "page": 55
+        },
+        {
+          "source": "respiratorio",
+          "page": 56
+        },
+        {
+          "source": "respiratorio",
+          "page": 57
+        },
+        {
+          "source": "respiratorio",
+          "page": 58
+        },
+        {
+          "source": "respiratorio",
+          "page": 64
+        }
+      ]
+    },
+    {
+      "id": "resp_05-1",
+      "system": "respiratory",
+      "chapterId": "resp_05",
+      "chapter": "5. Esqueleto da laringe e suas articulações",
+      "heading": "Cartilagens que você precisa distinguir",
+      "text": "Ímpares · Tireóidea, cricóidea e epiglótica · Na tireóidea: lâminas, proeminência, linha oblíqua, incisuras e cornos. Na cricóidea: arco anterior estreito e lâmina posterior alta.\nPares · Aritenóideas, corniculadas e cuneiformes · Nas aritenóideas, processo vocal aponta anteriormente e recebe o ligamento vocal; processo muscular é lateral e recebe músculos.\nEpiglote e língua · Epiglote, pregas glossoepiglóticas e valéculas · O pecíolo é a extremidade inferior; as valéculas são depressões entre raiz da língua e epiglote, não furos na cartilagem.",
+      "href": "theory.html?system=respiratory&chapter=resp_05",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 53
+        },
+        {
+          "source": "respiratorio",
+          "page": 55
+        },
+        {
+          "source": "respiratorio",
+          "page": 56
+        },
+        {
+          "source": "respiratorio",
+          "page": 57
+        },
+        {
+          "source": "respiratorio",
+          "page": 58
+        },
+        {
+          "source": "respiratorio",
+          "page": 61
+        },
+        {
+          "source": "respiratorio",
+          "page": 63
+        },
+        {
+          "source": "respiratorio",
+          "page": 64
+        }
+      ]
+    },
+    {
+      "id": "resp_05-2",
+      "system": "respiratory",
+      "chapterId": "resp_05",
+      "chapter": "5. Esqueleto da laringe e suas articulações",
+      "heading": "Movimento depende da articulação",
+      "text": "Nas articulações cricotireóideas, o movimento relativo da tireóidea e da cricóidea muda a tensão das pregas vocais. Nas cricoaritenóideas, rotação e deslizamento das aritenóideas alteram a posição dos processos vocais, aproximando ou afastando as pregas.\nO processo vocal e o processo muscular pertencem à mesma cartilagem, mas exercem papéis mecânicos diferentes. Para fixar, identifique a cricóidea posteriormente, encontre a base da aritenóidea e só então indique seus processos.",
+      "href": "theory.html?system=respiratory&chapter=resp_05",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 57
+        },
+        {
+          "source": "respiratorio",
+          "page": 58
+        },
+        {
+          "source": "respiratorio",
+          "page": 64
+        },
+        {
+          "source": "utah_larynx",
+          "page": 79
+        }
+      ]
+    },
+    {
+      "id": "resp_05-3",
+      "system": "respiratory",
+      "chapterId": "resp_05",
+      "chapter": "5. Esqueleto da laringe e suas articulações",
+      "heading": "Membranas e ligamentos: relações que orientam",
+      "text": "Membrana tireo-hióidea: entre hioide e tireóidea, reforçada por ligamentos mediano e laterais.\nO ramo interno do laríngeo superior acompanha vasos laríngeos superiores através dessa membrana.\nLigamento cricotireóideo mediano: região anterior entre tireóidea e cricóidea; diferencie-o do cricotraqueal, abaixo da cricóidea.\nLigamentos tireoepiglótico e hioepiglótico relacionam a epiglote à tireóidea e ao hioide.",
+      "href": "theory.html?system=respiratory&chapter=resp_05",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 56
+        },
+        {
+          "source": "respiratorio",
+          "page": 57
+        },
+        {
+          "source": "respiratorio",
+          "page": 62
+        },
+        {
+          "source": "respiratorio",
+          "page": 65
+        }
+      ]
+    },
+    {
+      "id": "resp_06-0",
+      "system": "respiratory",
+      "chapterId": "resp_06",
+      "chapter": "6. Laringe: respiração, proteção e voz",
+      "heading": "Cavidade e pregas",
+      "text": "O vestíbulo estende-se do ádito até as pregas vestibulares. As pregas vocais ficam inferiores às vestibulares; entre cada prega vestibular e vocal existe um ventrículo laríngeo. Inferiormente às pregas vocais está a cavidade infraglótica, que continua com a traqueia.\nGlote compreende as pregas vocais e a rima da glote. A rima é a abertura entre as pregas; não use os dois termos como sinônimos absolutos. Em vista superior, relacione epiglote anterior, aritenóideas posteriores e pregas que convergem anteriormente.",
+      "href": "theory.html?system=respiratory&chapter=resp_06",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 72
+        },
+        {
+          "source": "respiratorio",
+          "page": 73
+        },
+        {
+          "source": "uams_head"
+        }
+      ]
+    },
+    {
+      "id": "resp_06-1",
+      "system": "respiratory",
+      "chapterId": "resp_06",
+      "chapter": "6. Laringe: respiração, proteção e voz",
+      "heading": "Ação muscular: o movimento é a pista",
+      "text": "Cricoaritenóideo posterior · Abduz as pregas vocais · Abre a rima para passagem de ar; único par abdutor.\nCricoaritenóideo lateral e aritenóideos · Aduzem pregas/aritenóideas · Aproximam os elementos durante fechamento e fonação.\nCricotireóideo · Alonga e aumenta a tensão das pregas · Não deve ser decorado apenas como adutor.\nTireoaritenóideo · Encurta e reduz a tensão, com participação na aproximação · Ajusta posição e tensão junto aos demais músculos.\nVocal · Ajuste fino local da tensão · Integra a massa muscular da prega vocal.",
+      "href": "theory.html?system=respiratory&chapter=resp_06",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 66
+        },
+        {
+          "source": "respiratorio",
+          "page": 70
+        },
+        {
+          "source": "utah_larynx",
+          "page": 81
+        }
+      ]
+    },
+    {
+      "id": "resp_06-2",
+      "system": "respiratory",
+      "chapterId": "resp_06",
+      "chapter": "6. Laringe: respiração, proteção e voz",
+      "heading": "Fonação e fechamento protetor",
+      "text": "Na respiração, a abertura varia conforme a demanda de fluxo. Para a fonação, as pregas são aproximadas e o fluxo expiratório sustenta sua oscilação. Músculos posicionam e tensionam as pregas; não contraem uma vez por cada vibração sonora. A altura da voz depende, entre outros fatores, de comprimento, tensão e massa vibrante.\nA proteção da via aérea combina elevação da laringe, aproximação de pregas e aritenóideas e movimento da epiglote. Os músculos extrínsecos movimentam o conjunto: supra-hióideos e alguns músculos faríngeos participam da elevação; infra-hióideos estabilizam ou deprimem conforme suas fixações.",
+      "href": "theory.html?system=respiratory&chapter=resp_06",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 66
+        },
+        {
+          "source": "respiratorio",
+          "page": 67
+        },
+        {
+          "source": "respiratorio",
+          "page": 68
+        },
+        {
+          "source": "respiratorio",
+          "page": 70
+        },
+        {
+          "source": "respiratorio",
+          "page": 72
+        },
+        {
+          "source": "R2",
+          "time": "35:02–40:48"
+        }
+      ]
+    },
+    {
+      "id": "resp_06-3",
+      "system": "respiratory",
+      "chapterId": "resp_06",
+      "chapter": "6. Laringe: respiração, proteção e voz",
+      "heading": "Inervação: guarde a exceção motora",
+      "text": "Laríngeo superior, ramo interno · Sensibilidade da mucosa superior às pregas vocais · Atravessa a membrana tireo-hióidea.\nLaríngeo superior, ramo externo · Motor para o cricotireóideo · Exceção entre os músculos intrínsecos.\nLaríngeo recorrente → laríngeo inferior · Demais músculos intrínsecos e sensibilidade abaixo das pregas · Direito contorna subclávia direita; esquerdo contorna arco aórtico.",
+      "href": "theory.html?system=respiratory&chapter=resp_06",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 81
+        },
+        {
+          "source": "utah_larynx",
+          "page": 83
+        }
+      ]
+    },
+    {
+      "id": "resp_06-4",
+      "system": "respiratory",
+      "chapterId": "resp_06",
+      "chapter": "6. Laringe: respiração, proteção e voz",
+      "heading": "Irrigação e relações com a tireoide",
+      "text": "A artéria laríngea superior deriva da tireóidea superior; a inferior relaciona-se à tireóidea inferior. O trajeto acompanha regiões onde também passam os nervos laríngeos. Localizar artérias, membrana e nervos no mesmo plano é mais útil do que decorar listas isoladas.\nPara treino prático, diferencie a cartilagem tireóidea da glândula tireoide. A semelhança do nome não implica que sejam o mesmo órgão ou o mesmo tipo de tecido.",
+      "href": "theory.html?system=respiratory&chapter=resp_06",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 79
+        },
+        {
+          "source": "respiratorio",
+          "page": 80
+        },
+        {
+          "source": "respiratorio",
+          "page": 81
+        }
+      ]
+    },
+    {
+      "id": "resp_07-0",
+      "system": "respiratory",
+      "chapterId": "resp_07",
+      "chapter": "7. Traqueia e brônquios principais",
+      "heading": "Traqueia: suporte anterior, flexibilidade posterior",
+      "text": "A traqueia continua a laringe inferiormente à cricóidea. Possui uma parte cervical e outra torácica. As cartilagens incompletas posteriormente sustentam a luz; entre elas há ligamentos anulares. A parede membranácea posterior contém o músculo traqueal e relaciona-se com o esôfago.\nO formato permite manter a via aérea aberta e acomodar movimentos e mudanças de calibre. Para orientar uma peça isolada, procure primeiro a interrupção posterior dos anéis e depois a bifurcação inferior.",
+      "href": "theory.html?system=respiratory&chapter=resp_07",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 84
+        },
+        {
+          "source": "respiratorio",
+          "page": 85
+        },
+        {
+          "source": "respiratorio",
+          "page": 86
+        },
+        {
+          "source": "R3",
+          "time": "00:00–01:36"
+        }
+      ]
+    },
+    {
+      "id": "resp_07-1",
+      "system": "respiratory",
+      "chapterId": "resp_07",
+      "chapter": "7. Traqueia e brônquios principais",
+      "heading": "Carina e nível da bifurcação",
+      "text": "A carina é a crista interna na bifurcação traqueal, entre as entradas dos brônquios principais. É um relevo dentro da luz, não uma peça externa separada. Um modelo que mostre apenas a superfície externa da bifurcação pode não demonstrá-la.\nUse como referência usual a origem em C6 e a bifurcação próxima do ângulo esternal/plano T4–T5 no adulto. A posição muda com respiração, postura e indivíduo; o T6 do slide84 não deve ser memorizado como nível fixo para todas as situações.",
+      "href": "theory.html?system=respiratory&chapter=resp_07",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 84
+        },
+        {
+          "source": "respiratorio",
+          "page": 85
+        },
+        {
+          "source": "uams_thorax"
+        }
+      ]
+    },
+    {
+      "id": "resp_07-2",
+      "system": "respiratory",
+      "chapterId": "resp_07",
+      "chapter": "7. Traqueia e brônquios principais",
+      "heading": "Assimetria dos brônquios principais",
+      "text": "Calibre e comprimento · Mais largo e mais curto · Mais estreito e mais longo\nDireção · Mais vertical · Mais oblíquo\nDivisão lobar · Superior, médio e inferior · Superior e inferior\nRelação de estudo · Após a saída do lobar superior, segue o brônquio intermédio · Percorre um trajeto mais longo até o hilo",
+      "href": "theory.html?system=respiratory&chapter=resp_07",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 89
+        },
+        {
+          "source": "respiratorio",
+          "page": 90
+        },
+        {
+          "source": "respiratorio",
+          "page": 91
+        },
+        {
+          "source": "R3",
+          "time": "02:44–04:11"
+        }
+      ]
+    },
+    {
+      "id": "resp_07-3",
+      "system": "respiratory",
+      "chapterId": "resp_07",
+      "chapter": "7. Traqueia e brônquios principais",
+      "heading": "Da cartilagem à parede bronquiolar",
+      "text": "A ramificação reduz progressivamente o calibre das vias. Brônquios intrapulmonares apresentam suporte cartilaginoso distribuído em placas; bronquíolos não têm cartilagem. A musculatura lisa passa a ser uma referência importante para entender variação de calibre e resistência ao fluxo.\nA maior verticalidade do principal direito ajuda a explicar a tendência de corpos estranhos aspirados seguirem para esse lado. É uma tendência anatômica, não uma regra absoluta para toda posição ou faixa etária.",
+      "href": "theory.html?system=respiratory&chapter=resp_07",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 89
+        },
+        {
+          "source": "respiratorio",
+          "page": 95
+        },
+        {
+          "source": "respiratorio",
+          "page": 98
+        },
+        {
+          "source": "respiratorio",
+          "page": 99
+        },
+        {
+          "source": "R3",
+          "time": "05:14–06:29"
+        }
+      ]
+    },
+    {
+      "id": "resp_08-0",
+      "system": "respiratory",
+      "chapterId": "resp_08",
+      "chapter": "8. Lobos e segmentos broncopulmonares",
+      "heading": "Principal → lobar → segmentar",
+      "text": "Cada brônquio principal dirige-se a um pulmão; brônquios lobares ventilam lobos; brônquios segmentares seguem para territórios broncopulmonares. Segmento é território de parênquima, e brônquio segmentar é a via que o ventila. Eles não são a mesma estrutura.\nUm segmento recebe um brônquio segmentar e um ramo arterial pulmonar. Veias pulmonares percorrem planos entre territórios; por isso, não descreva todo o conjunto vascular de um segmento como inteiramente isolado. A organização segmentar fornece referências para localização e ressecção anatômica.",
+      "href": "theory.html?system=respiratory&chapter=resp_08",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 92
+        },
+        {
+          "source": "respiratorio",
+          "page": 93
+        },
+        {
+          "source": "respiratorio",
+          "page": 95
+        },
+        {
+          "source": "R3",
+          "time": "04:11–05:14"
+        }
+      ]
+    },
+    {
+      "id": "resp_08-1",
+      "system": "respiratory",
+      "chapterId": "resp_08",
+      "chapter": "8. Lobos e segmentos broncopulmonares",
+      "heading": "Pulmão direito: dez segmentos no esquema da aula",
+      "text": "Superior · S1 / B1 · Apical\nSuperior · S2 / B2 · Posterior\nSuperior · S3 / B3 · Anterior\nMédio · S4 / B4 · Lateral\nMédio · S5 / B5 · Medial\nInferior · S6 / B6 · Superior\nInferior · S7 / B7 · Basal medial\nInferior · S8 / B8 · Basal anterior\nInferior · S9 / B9 · Basal lateral\nInferior · S10 / B10 · Basal posterior",
+      "href": "theory.html?system=respiratory&chapter=resp_08",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 92
+        }
+      ]
+    },
+    {
+      "id": "resp_08-2",
+      "system": "respiratory",
+      "chapterId": "resp_08",
+      "chapter": "8. Lobos e segmentos broncopulmonares",
+      "heading": "Pulmão esquerdo: siga a convenção do slide93",
+      "text": "Superior · S1+2 / B1+2 · Apicoposterior\nSuperior · S3 / B3 · Anterior\nSuperior, língula · S4 / B4 · Lingular superior\nSuperior, língula · S5 / B5 · Lingular inferior\nInferior · S6 / B6 · Superior\nInferior · S7 / B7 · Basal medial\nInferior · S8 / B8 · Basal anterior\nInferior · S9 / B9 · Basal lateral\nInferior · S10 / B10 · Basal posterior",
+      "href": "theory.html?system=respiratory&chapter=resp_08",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 93
+        }
+      ]
+    },
+    {
+      "id": "resp_08-3",
+      "system": "respiratory",
+      "chapterId": "resp_08",
+      "chapter": "8. Lobos e segmentos broncopulmonares",
+      "heading": "Como lidar com variação e treinar",
+      "text": "O slide esquerdo agrupa apical e posterior e mantém basais medial e anterior separados. Outros atlas mostram um basal anteromedial combinado; não transforme a contagem de um atlas em correção automática da figura da aula. S designa o território segmentar; B designa o brônquio correspondente.\nNo 3D, isole o lobo, oculte seu parênquima e siga o ramo lobar até os segmentares. Depois tente nomear os ramos sem rótulos. A malha da árvore mostra trajetos; os limites volumétricos completos dos segmentos exigem representação própria e não podem ser inferidos só por cor do brônquio.",
+      "href": "theory.html?system=respiratory&chapter=resp_08",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 92
+        },
+        {
+          "source": "respiratorio",
+          "page": 93
+        },
+        {
+          "source": "respiratorio",
+          "page": 95
+        }
+      ]
+    },
+    {
+      "id": "resp_09-0",
+      "system": "respiratory",
+      "chapterId": "resp_09",
+      "chapter": "9. Pulmões: superfícies, fissuras, hilo e raiz",
+      "heading": "Orientação antes de nomear",
+      "text": "O ápice aponta superiormente; a base, ou face diafragmática, é inferior e côncava. A face costal acompanha a parede torácica; a mediastinal volta-se medialmente e contém o hilo. Margens delimitam transições entre superfícies.\nComece por medial/lateral e superior/inferior. Só depois use fissuras e impressões para decidir direita/esquerda. Uma vista rodada pode inverter a aparência da tela, mas não a lateralidade anatômica.",
+      "href": "theory.html?system=respiratory&chapter=resp_09",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 101
+        },
+        {
+          "source": "respiratorio",
+          "page": 102
+        },
+        {
+          "source": "respiratorio",
+          "page": 103
+        },
+        {
+          "source": "respiratorio",
+          "page": 104
+        },
+        {
+          "source": "respiratorio",
+          "page": 105
+        }
+      ]
+    },
+    {
+      "id": "resp_09-1",
+      "system": "respiratory",
+      "chapterId": "resp_09",
+      "chapter": "9. Pulmões: superfícies, fissuras, hilo e raiz",
+      "heading": "Lobos e fissuras",
+      "text": "Direito · Superior, médio e inferior · Horizontal separa superior de médio; oblíqua separa inferior dos outros dois.\nEsquerdo · Superior e inferior · Oblíqua separa os dois; incisura cardíaca e língula pertencem à região do lobo superior.",
+      "href": "theory.html?system=respiratory&chapter=resp_09",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 103
+        },
+        {
+          "source": "respiratorio",
+          "page": 104
+        }
+      ]
+    },
+    {
+      "id": "resp_09-2",
+      "system": "respiratory",
+      "chapterId": "resp_09",
+      "chapter": "9. Pulmões: superfícies, fissuras, hilo e raiz",
+      "heading": "Hilo é uma região; raiz é um conjunto",
+      "text": "Hilo é a área da face mediastinal por onde estruturas entram e saem. Raiz, ou pedículo, é o conjunto que liga o pulmão ao mediastino: brônquio, artéria e veias pulmonares, vasos brônquicos, linfáticos/linfonodos e nervos, envolvidos pela continuidade pleural.\nA figura105 aproxima os termos, mas a distinção ajuda na prova prática: apontar o hilo significa localizar a região; descrever a raiz exige reconhecer seus componentes. Um brônquio isolado não constitui todo o pedículo.",
+      "href": "theory.html?system=respiratory&chapter=resp_09",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 105
+        },
+        {
+          "source": "respiratorio",
+          "page": 106
+        },
+        {
+          "source": "respiratorio",
+          "page": 107
+        },
+        {
+          "source": "R4",
+          "time": "03:00–05:16"
+        }
+      ]
+    },
+    {
+      "id": "resp_09-3",
+      "system": "respiratory",
+      "chapterId": "resp_09",
+      "chapter": "9. Pulmões: superfícies, fissuras, hilo e raiz",
+      "heading": "A superfície guarda a forma dos vizinhos",
+      "text": "Direito · Veia cava superior, cava inferior, arco da ázigos e esôfago · Localize cada sulco em relação ao hilo, ao ápice e à base.\nEsquerdo · Arco aórtico, subclávia, esôfago e impressão cardíaca · Relacione a impressão maior ao coração e diferencie incisura de impressão cardíaca.",
+      "href": "theory.html?system=respiratory&chapter=resp_09",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 108
+        },
+        {
+          "source": "respiratorio",
+          "page": 109
+        },
+        {
+          "source": "respiratorio",
+          "page": 117
+        }
+      ]
+    },
+    {
+      "id": "resp_10-0",
+      "system": "respiratory",
+      "chapterId": "resp_10",
+      "chapter": "10. Pleura: continuidade, recessos e sensibilidade",
+      "heading": "Do pulmão à parede",
+      "text": "A pleura visceral adere ao pulmão e acompanha as fissuras. A parietal reveste internamente a parede torácica, o diafragma e a face lateral do mediastino. Os folhetos tornam-se contínuos na região da raiz.\nEntre eles, a cavidade pleural é um espaço potencial com pequena quantidade de líquido, que permite deslizamento. Não é um compartimento normalmente cheio de ar. A separação gráfica de camadas em um atlas é um recurso para mostrar essa relação.",
+      "href": "theory.html?system=respiratory&chapter=resp_10",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 110
+        },
+        {
+          "source": "respiratorio",
+          "page": 111
+        },
+        {
+          "source": "respiratorio",
+          "page": 112
+        },
+        {
+          "source": "R4",
+          "time": "05:16–07:40"
+        }
+      ]
+    },
+    {
+      "id": "resp_10-1",
+      "system": "respiratory",
+      "chapterId": "resp_10",
+      "chapter": "10. Pleura: continuidade, recessos e sensibilidade",
+      "heading": "Partes da pleura parietal",
+      "text": "Costal · Face interna da parede torácica · Fáscia endotorácica entre pleura e parede.\nDiafragmática · Face superior do diafragma · Fáscia frenicopleural mencionada no material.\nMediastinal · Faces laterais do mediastino · Continuidade na raiz e em suas reflexões.\nCervical/cúpula · Prolongamento superior na raiz do pescoço · Membrana suprapleural, ou fáscia de Sibson, como reforço.",
+      "href": "theory.html?system=respiratory&chapter=resp_10",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 113
+        },
+        {
+          "source": "respiratorio",
+          "page": 114
+        },
+        {
+          "source": "respiratorio",
+          "page": 115
+        },
+        {
+          "source": "respiratorio",
+          "page": 116
+        }
+      ]
+    },
+    {
+      "id": "resp_10-2",
+      "system": "respiratory",
+      "chapterId": "resp_10",
+      "chapter": "10. Pleura: continuidade, recessos e sensibilidade",
+      "heading": "Recessos e ligamento pulmonar",
+      "text": "Os recessos são regiões de reflexão pleural disponíveis para expansão do pulmão. O costodiafragmático está entre pleuras costal e diafragmática; o costomediastinal, entre costal e mediastinal. Uma fissura entre lobos não é um recesso pleural.\nO ligamento pulmonar prolonga inferiormente a bainha pleural da raiz como uma dupla prega. É uma continuidade da reflexão pleural, e não um cordão ligamentar rígido. A frase do slide117 sobre “dobra da pleura visceral” precisa ser interpretada junto à continuidade dos folhetos na raiz.",
+      "href": "theory.html?system=respiratory&chapter=resp_10",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 117
+        },
+        {
+          "source": "respiratorio",
+          "page": 118
+        },
+        {
+          "source": "uams_thorax"
+        }
+      ]
+    },
+    {
+      "id": "resp_10-3",
+      "system": "respiratory",
+      "chapterId": "resp_10",
+      "chapter": "10. Pleura: continuidade, recessos e sensibilidade",
+      "heading": "Dor, líquido e movimento",
+      "text": "A pleura parietal tem sensibilidade somática: nervos intercostais suprem a parte costal e a periferia diafragmática; o frênico supre a mediastinal e a região central diafragmática. A visceral recebe fibras autonômicas pelo plexo pulmonar e não apresenta a mesma sensibilidade dolorosa somática da parietal.\nLíquido pleural excessivo pode acumular-se em regiões dependentes, incluindo recessos, e limitar a expansão. Para a prova, associe localização, folheto e nervo; as figuras de procedimentos servem aqui para reconhecer relações anatômicas.",
+      "href": "theory.html?system=respiratory&chapter=resp_10",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 119
+        },
+        {
+          "source": "respiratorio",
+          "page": 120
+        },
+        {
+          "source": "respiratorio",
+          "page": 127
+        },
+        {
+          "source": "respiratorio",
+          "page": 128
+        },
+        {
+          "source": "R4",
+          "time": "16:45–17:14"
+        }
+      ]
+    },
+    {
+      "id": "resp_11-0",
+      "system": "respiratory",
+      "chapterId": "resp_11",
+      "chapter": "11. Circulação, linfa e nervos dos pulmões",
+      "heading": "Duas circulações que se encontram",
+      "text": "Pulmonar · Ventrículo direito → tronco/artérias pulmonares → capilares alveolares → veias pulmonares → átrio esquerdo · Conduzir sangue à superfície de troca gasosa.\nBrônquico · Ramos da circulação sistêmica, principalmente ligados à aorta torácica e suas variações · Nutrir paredes brônquicas e tecidos de suporte; contribui para pleura visceral e estruturas da raiz.",
+      "href": "theory.html?system=respiratory&chapter=resp_11",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 123
+        },
+        {
+          "source": "respiratorio",
+          "page": 124
+        },
+        {
+          "source": "respiratorio",
+          "page": 125
+        },
+        {
+          "source": "respiratorio",
+          "page": 126
+        },
+        {
+          "source": "R4",
+          "time": "12:31–14:54"
+        }
+      ]
+    },
+    {
+      "id": "resp_11-1",
+      "system": "respiratory",
+      "chapterId": "resp_11",
+      "chapter": "11. Circulação, linfa e nervos dos pulmões",
+      "heading": "Artéria e veia não são nomes de oxigenação",
+      "text": "Artéria conduz sangue para fora do coração; veia, em direção ao coração. Assim, artérias pulmonares levam sangue relativamente pobre em O₂ aos pulmões, e veias pulmonares retornam sangue oxigenado ao átrio esquerdo. Cor vermelha/azul é uma convenção de desenho.\nA drenagem da circulação brônquica é compartilhada: parte segue por veias brônquicas sistêmicas e parte alcança veias pulmonares. Não memorize uma correspondência simples de toda artéria brônquica com uma única veia brônquica.",
+      "href": "theory.html?system=respiratory&chapter=resp_11",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 123
+        },
+        {
+          "source": "respiratorio",
+          "page": 124
+        },
+        {
+          "source": "respiratorio",
+          "page": 126
+        }
+      ]
+    },
+    {
+      "id": "resp_11-2",
+      "system": "respiratory",
+      "chapterId": "resp_11",
+      "chapter": "11. Circulação, linfa e nervos dos pulmões",
+      "heading": "Drenagem linfática: dos plexos à raiz",
+      "text": "O plexo superficial está próximo da pleura visceral; o profundo acompanha estruturas broncovasculares. A linfa segue para linfonodos broncopulmonares, ou hilares, e depois para grupos traqueobronquiais e paratraqueais, alcançando troncos broncomediastinais.\nA rede tem conexões e variações; a sequência é um mapa de estudo, não uma série de tubos obrigatoriamente isolados. A pleura parietal segue drenagem relacionada à parede torácica, ao mediastino e à região cervical, conforme o território.",
+      "href": "theory.html?system=respiratory&chapter=resp_11",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 129
+        },
+        {
+          "source": "respiratorio",
+          "page": 130
+        },
+        {
+          "source": "R4",
+          "time": "17:14–18:39"
+        }
+      ]
+    },
+    {
+      "id": "resp_11-3",
+      "system": "respiratory",
+      "chapterId": "resp_11",
+      "chapter": "11. Circulação, linfa e nervos dos pulmões",
+      "heading": "Autonômico nos brônquios; somático na bomba ventilatória",
+      "text": "Os plexos pulmonares anterior e posterior recebem componentes vagais e simpáticos. Na síntese da aula, ação parassimpática favorece broncoconstrição e secreção; ativação simpática/adrenérgica favorece broncodilatação. Isso modifica a via aérea, não substitui os movimentos da caixa torácica.\nO diafragma recebe comando motor pelos nervos frênicos; os músculos intercostais, pelos nervos intercostais. Diferencie esse controle somático dos músculos esqueléticos do controle autonômico da musculatura lisa e das glândulas da árvore brônquica.",
+      "href": "theory.html?system=respiratory&chapter=resp_11",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 99
+        },
+        {
+          "source": "respiratorio",
+          "page": 127
+        },
+        {
+          "source": "respiratorio",
+          "page": 128
+        },
+        {
+          "source": "R4",
+          "time": "14:54–17:14"
+        }
+      ]
+    },
+    {
+      "id": "resp_12-0",
+      "system": "respiratory",
+      "chapterId": "resp_12",
+      "chapter": "12. Alvéolos, surfactante e mecânica ventilatória",
+      "heading": "Superfície fina e estável para troca",
+      "text": "Pneumócitos tipo I são células delgadas que revestem grande parte da superfície de troca. Pneumócitos tipo II produzem surfactante e participam da manutenção do epitélio alveolar. A barreira alveolocapilar inclui o epitélio alveolar, a interface de membranas basais e o endotélio capilar.\nA espessura reduzida favorece difusão, mas o alvéolo também precisa permanecer aberto. A superfície úmida gera tensão superficial; o surfactante reduz essa tensão e contribui para a estabilidade, especialmente quando o volume alveolar diminui.",
+      "href": "theory.html?system=respiratory&chapter=resp_12",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 125
+        },
+        {
+          "source": "respiratorio",
+          "page": 131
+        },
+        {
+          "source": "respiratorio",
+          "page": 132
+        },
+        {
+          "source": "R4",
+          "time": "18:39–20:32"
+        }
+      ]
+    },
+    {
+      "id": "resp_12-1",
+      "system": "respiratory",
+      "chapterId": "resp_12",
+      "chapter": "12. Alvéolos, surfactante e mecânica ventilatória",
+      "heading": "Imaturidade pulmonar",
+      "text": "Na prematuridade, produção ou disponibilidade insuficiente de surfactante pode favorecer colapso alveolar, reduzir complacência e aumentar o esforço necessário para ventilar. O mecanismo básico é dificuldade de manter/reabrir unidades de troca; não é uma tendência primária de todos os alvéolos a romperem.\nO material também relaciona a ventilação neonatal à geometria das costelas, à complacência da parede e à maturação muscular. Esses fatores atuam em conjunto; não basta transportar diretamente a mecânica de um tórax adulto para o recém-nascido.",
+      "href": "theory.html?system=respiratory&chapter=resp_12",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 133
+        },
+        {
+          "source": "respiratorio",
+          "page": 141
+        },
+        {
+          "source": "respiratorio",
+          "page": 142
+        },
+        {
+          "source": "R4",
+          "time": "24:31–25:57"
+        }
+      ]
+    },
+    {
+      "id": "resp_12-2",
+      "system": "respiratory",
+      "chapterId": "resp_12",
+      "chapter": "12. Alvéolos, surfactante e mecânica ventilatória",
+      "heading": "Volume muda primeiro; o gradiente move o ar",
+      "text": "Inspiração tranquila · Diafragma contrai e desce; tórax expande com participação dos intercostais externos. · Pressão alveolar cai transitoriamente abaixo da atmosférica; ar entra.\nFim da inspiração · O volume atingiu o nível inspirado. · As pressões se igualam e o fluxo cessa, mesmo com volume aumentado.\nExpiração tranquila · Relaxamento inspiratório e recuo elástico reduzem o volume. · Pressão alveolar fica transitoriamente acima da atmosférica; ar sai.\nExpiração forçada · Músculos abdominais e componentes expiratórios da parede torácica contribuem ativamente. · O aumento de pressão favorece saída de ar, limitado também pelo calibre da via.",
+      "href": "theory.html?system=respiratory&chapter=resp_12",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 135
+        },
+        {
+          "source": "respiratorio",
+          "page": 136
+        },
+        {
+          "source": "respiratorio",
+          "page": 138
+        },
+        {
+          "source": "respiratorio",
+          "page": 139
+        },
+        {
+          "source": "respiratorio",
+          "page": 140
+        },
+        {
+          "source": "R4",
+          "time": "20:32–24:31"
+        }
+      ]
+    },
+    {
+      "id": "resp_12-3",
+      "system": "respiratory",
+      "chapterId": "resp_12",
+      "chapter": "12. Alvéolos, surfactante e mecânica ventilatória",
+      "heading": "Duas pressões que não devem ser confundidas",
+      "text": "Pressão alveolar é a do ar dentro dos alvéolos e determina o fluxo em relação à atmosfera. Pressão intrapleural refere-se ao espaço pleural e, na respiração tranquila normal, é subatmosférica. A diferença entre pressão alveolar e intrapleural contribui para manter o pulmão distendido.\nO líquido pleural permite deslizamento e transmite o movimento da parede ao pulmão. Quando o tórax expande, o pulmão acompanha essa expansão; o aumento de volume reduz a pressão alveolar e atrai ar. Não descreva a inspiração como entrada de ar que primeiro empurra e expande o tórax.",
+      "href": "theory.html?system=respiratory&chapter=resp_12",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 110
+        },
+        {
+          "source": "respiratorio",
+          "page": 135
+        },
+        {
+          "source": "respiratorio",
+          "page": 136
+        },
+        {
+          "source": "openstax_mechanics"
+        }
+      ]
+    },
+    {
+      "id": "resp_12-4",
+      "system": "respiratory",
+      "chapterId": "resp_12",
+      "chapter": "12. Alvéolos, surfactante e mecânica ventilatória",
+      "heading": "Um roteiro de revisão em três escalas",
+      "text": "Macroscopia: mostre diafragma, intercostais, pulmões e pleuras; explique que elementos se movem.\nVia aérea: siga traqueia, brônquios e bronquíolos; relacione calibre à passagem de ar.\nMicroanatomia: reconheça alvéolo, capilar, pneumócitos e surfactante em figura; explique difusão e estabilidade.\nFeche os rótulos e explique a cadeia: contração → aumento de volume → queda de pressão alveolar → entrada de ar.",
+      "href": "theory.html?system=respiratory&chapter=resp_12",
+      "references": [
+        {
+          "source": "respiratorio",
+          "page": 8
+        },
+        {
+          "source": "respiratorio",
+          "page": 125
+        },
+        {
+          "source": "respiratorio",
+          "page": 131
+        },
+        {
+          "source": "respiratorio",
+          "page": 136
+        },
+        {
+          "source": "respiratorio",
+          "page": 138
+        }
+      ]
+    }
+  ]
+}

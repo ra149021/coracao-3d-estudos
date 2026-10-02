@@ -1,0 +1,10 @@
+{
+  "source": "https://3d.nih.gov/entries/3DPX-002636",
+  "download": "https://3d.nih.gov/api/download?submissionId=3826&fileIds=80211",
+  "author": "Matthew Bramlet",
+  "license": "CC0 1.0 / Public Domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "sha256": "326d7ff9755b08714d02bd021eb09715c8314dadc1ef452192e6c9e81d4dae56",
+  "bytes": 11353016,
+  "changes": "Nenhuma alteração no GLB oficial; centralização, escala uniforme, iluminação e material fosco de cor neutra somente no visualizador."
+}

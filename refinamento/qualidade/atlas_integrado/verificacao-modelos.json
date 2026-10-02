@@ -1,0 +1,28 @@
+[
+  {
+    "model": "heart-ct",
+    "bytes": 11353016,
+    "headerLengthValid": true,
+    "meshes": [
+      {
+        "vertices": 315366,
+        "triangles": 630640,
+        "finite": true,
+        "indicesInBounds": true
+      }
+    ]
+  },
+  {
+    "model": "lung-ct",
+    "bytes": 7506364,
+    "headerLengthValid": true,
+    "meshes": [
+      {
+        "vertices": 156279,
+        "triangles": 312856,
+        "finite": true,
+        "indicesInBounds": true
+      }
+    ]
+  }
+]

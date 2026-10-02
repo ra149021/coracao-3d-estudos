@@ -1,0 +1,15 @@
+{
+  "status": 200,
+  "question": "Quais câmaras cardíacas a valva mitral separa?",
+  "answer": "A valva mitral separa o átrio esquerdo (AE) do ventrículo esquerdo (VE) [1].",
+  "model": "codestral-latest",
+  "sourceIds": [
+    "circ-valvas-0",
+    "circ-valvas-2",
+    "circ-circuitos-1"
+  ],
+  "publicSourceBlobs": [
+    "b94e2215a4e8fa46eb281dda4f88e919680b8d91",
+    "43cd9077504a9a5a047995dcc277cf39f9d178e1"
+  ]
+}
