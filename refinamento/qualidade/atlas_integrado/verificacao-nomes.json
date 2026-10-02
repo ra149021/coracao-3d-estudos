@@ -1,0 +1,20 @@
+{
+  "passed": 14,
+  "checks": [
+    "Nomes ativos por padrão no coração",
+    "Nove peças identificadas sem papilares em revisão",
+    "Clique no nome seleciona a peça e explica sua origem",
+    "Valva interna é revelada com seu nome e limite",
+    "Isolamento pode ser ativado",
+    "Ver conjunto restaura nomes principais",
+    "Nomes podem ser ocultados",
+    "Filtro respiratório prioriza modelo com nomes e encerra coração",
+    "Lobos pulmonares têm nomes visíveis",
+    "Brônquio principal pode ser identificado dentro dos lobos",
+    "Rótulo selecionado e controles cabem no celular",
+    "CT sem segmentação não recebe nomes inferidos",
+    "Cena anterior também inicia com nomes ativados",
+    "Nenhum erro JavaScript"
+  ],
+  "errors": []
+}

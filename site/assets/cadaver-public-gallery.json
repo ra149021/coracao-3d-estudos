@@ -1,0 +1,122 @@
+{
+  "version": 2,
+  "collection": "public",
+  "labelStatus": "Nomes das peças conforme as descrições da fonte; sem rótulos locais acrescentados.",
+  "counts": {
+    "baseImages": 4,
+    "crops": 0,
+    "photoViews": 4,
+    "sheets": 0
+  },
+  "regions": {
+    "coronarias": "Coronárias",
+    "valvas": "Valvas",
+    "pulmoes": "Pulmões"
+  },
+  "images": [
+    {
+      "id": "publiccirculatorio_001",
+      "system": "circulatory",
+      "region": "coronarias",
+      "kind": "cadaver",
+      "viewType": "photo",
+      "title": "Artérias coronárias — peça humana",
+      "terms": [
+        "coronárias",
+        "coração"
+      ],
+      "width": 960,
+      "height": 720,
+      "sourceFile": "Coronary arteries 1.jpg",
+      "package": "Wikimedia Commons · Anatomist90",
+      "noteIds": [],
+      "original": "assets/public-specimens/originals/publiccirculatorio_001.jpg",
+      "thumbnail": "assets/public-specimens/originals/publiccirculatorio_001.jpg",
+      "sha256": "0fface2b8eb73532c15f68bebde2f858b17cb1d5020ed0b47f74cd8b8a70f0c2",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coronary_arteries_1.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Coronary_arteries_1.jpg",
+      "author": "Anatomist90",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Original JPEG preservado sem alterações."
+    },
+    {
+      "id": "publiccirculatorio_002",
+      "system": "circulatory",
+      "region": "valvas",
+      "kind": "cadaver",
+      "viewType": "photo",
+      "title": "Valva aórtica — peça humana",
+      "terms": [
+        "valva aórtica",
+        "coração"
+      ],
+      "width": 960,
+      "height": 720,
+      "sourceFile": "Aortic valves.jpg",
+      "package": "Wikimedia Commons · Anatomist90",
+      "noteIds": [],
+      "original": "assets/public-specimens/originals/publiccirculatorio_002.jpg",
+      "thumbnail": "assets/public-specimens/originals/publiccirculatorio_002.jpg",
+      "sha256": "39dd23810b59261265f53401dd43cee6daf32fd34b36acb44381229d52fa9edb",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aortic_valves.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Aortic_valves.jpg",
+      "author": "Anatomist90",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Original JPEG preservado sem alterações."
+    },
+    {
+      "id": "publicrespiratorio_001",
+      "system": "respiratory",
+      "region": "pulmoes",
+      "kind": "cadaver",
+      "viewType": "photo",
+      "title": "Pulmão esquerdo — peça humana",
+      "terms": [
+        "pulmão esquerdo",
+        "pulmões"
+      ],
+      "width": 960,
+      "height": 720,
+      "sourceFile": "Human left lung.jpg",
+      "package": "Wikimedia Commons · Anatomist90",
+      "noteIds": [],
+      "original": "assets/public-specimens/originals/publicrespiratorio_001.jpg",
+      "thumbnail": "assets/public-specimens/originals/publicrespiratorio_001.jpg",
+      "sha256": "7952d40766c1a58305a0502bb141cde1121e8ee30fd3fa961ee4fed36e87b00e",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Human_left_lung.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Human_left_lung.jpg",
+      "author": "Anatomist90",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Original JPEG preservado sem alterações."
+    },
+    {
+      "id": "publicrespiratorio_002",
+      "system": "respiratory",
+      "region": "pulmoes",
+      "kind": "cadaver",
+      "viewType": "photo",
+      "title": "Pulmão direito — peça humana",
+      "terms": [
+        "pulmão direito",
+        "pulmões"
+      ],
+      "width": 960,
+      "height": 720,
+      "sourceFile": "Right lung.jpg",
+      "package": "Wikimedia Commons · Anatomist90",
+      "noteIds": [],
+      "original": "assets/public-specimens/originals/publicrespiratorio_002.jpg",
+      "thumbnail": "assets/public-specimens/originals/publicrespiratorio_002.jpg",
+      "sha256": "35bf7c10a8e4baf21e46ad7ede54dcf680efcfcaa188203c9e728de3a60c8f9c",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Right_lung.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Right_lung.jpg",
+      "author": "Anatomist90",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Original JPEG preservado sem alterações."
+    }
+  ]
+}

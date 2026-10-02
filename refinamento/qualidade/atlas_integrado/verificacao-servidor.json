@@ -1,0 +1,42 @@
+{
+  "passed": 9,
+  "checks": [
+    {
+      "check": "Estado Groq sem chave",
+      "status": 200
+    },
+    {
+      "check": "Groq sem chave retorna indisponível",
+      "status": 503
+    },
+    {
+      "check": "JSON inválido rejeitado",
+      "status": 400
+    },
+    {
+      "check": "Tipo de conteúdo inválido rejeitado",
+      "status": 400
+    },
+    {
+      "check": "Origem externa rejeitada",
+      "status": 403
+    },
+    {
+      "check": "Papel system enviado pelo cliente rejeitado",
+      "status": 400
+    },
+    {
+      "check": "Arquivo de configuração fora do site",
+      "status": 404
+    },
+    {
+      "check": "Acervo estático servido",
+      "status": 200
+    },
+    {
+      "check": "Biblioteca do tutor servida",
+      "status": 200
+    }
+  ],
+  "enabledGroq": false
+}

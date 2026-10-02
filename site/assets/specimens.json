@@ -1,8 +1,214 @@
 {
-  "version": "2026-09-29",
-  "title": "Peças anatômicas reais",
-  "purpose": "Observação de peças humanas digitalizadas, com orientações de comparação com o roteiro.",
+  "version": "2026-10-01",
+  "title": "Atlas 3D e peças reais",
+  "purpose": "Fotos originais dos Ankis, esquema do usuário e referências de peças humanas em 3D, com comparação orientada.",
   "models": [
+    {
+      "id": "hra-heart-named",
+      "type": "local",
+      "asset": "assets/heart-hra/model.glb",
+      "catalog": "assets/heart-hra/catalog.json",
+      "groups": [
+        "camaras",
+        "valvas",
+        "septos"
+      ],
+      "labels": [
+        "hra_left_atrium",
+        "hra_right_atrium",
+        "hra_right_ventricle",
+        "hra_left_ventricle",
+        "hra_interventricular_septum"
+      ],
+      "system": "circulatory",
+      "photoRegion": "camaras",
+      "code": "HRA · NOMES",
+      "title": "Coração · câmaras, valvas e septo com nomes",
+      "shortTitle": "Coração com nomes · HRA",
+      "url": "https://3d.nih.gov/entries/3DPX-021000",
+      "author": "Human Reference Atlas · Visible Human",
+      "authorUrl": "https://purl.humanatlas.io/ref-organ/heart-male/v1.2",
+      "institution": "HRA / NIH 3D · Visible Human Male",
+      "institutionUrl": "https://www.nlm.nih.gov/research/visible/visible_human.html",
+      "license": "CC BY 4.0 · fonte HRA preservada; seleção de peças, nomes em português, iluminação e escala para exibição.",
+      "focus": [
+        "nomes visíveis",
+        "9 peças selecionáveis",
+        "valvas e septo"
+      ],
+      "description": "Modelo de referência do HRA associado ao Visible Human Male. Os nomes seguem as peças individualizadas da fonte. Selecione uma valva ou o septo para revelar sua posição entre as câmaras.",
+      "specimen": "Modelo anatômico de referência, simplificado e sem textura fotográfica; não é a superfície de uma dissecção.",
+      "limits": [
+        "As quatro valvas são conjuntos: folhetos, cordas e cúspides não foram individualizados.",
+        "Cinco representações papilares em revisão não são exibidas nesta seleção.",
+        "Não representa pericárdio, condução elétrica ou pequenos relevos não segmentados."
+      ],
+      "observations": [
+        {
+          "title": "Identifique antes de comparar",
+          "text": "Os nomes acompanham as câmaras visíveis. Escolha a valva mitral para destacar o conjunto e compare com as fotografias das valvas."
+        },
+        {
+          "title": "Explore estruturas internas",
+          "text": "Ao selecionar, o restante fica translúcido. Use “Isolar seleção” para examinar a forma do septo ou de uma valva."
+        }
+      ],
+      "external": false,
+      "loadOnDemand": true,
+      "countsTowardLocalCoverage": false,
+      "quizEligible": false
+    },
+    {
+      "id": "respiratory-named",
+      "type": "local",
+      "asset": "assets/respiratory/model.glb",
+      "catalog": "assets/respiratory/catalog.json",
+      "groups": [
+        "arvore",
+        "pulmoes"
+      ],
+      "labels": [
+        "resp_trachea",
+        "resp_superior_lobe_of_right_lung",
+        "resp_middle_lobe_of_right_lung",
+        "resp_inferior_lobe_of_right_lung",
+        "resp_superior_lobe_of_left_lung",
+        "resp_inferior_lobe_of_left_lung"
+      ],
+      "system": "respiratory",
+      "photoRegion": "pulmoes",
+      "code": "Z · NOMES",
+      "title": "Pulmões e árvore brônquica com nomes",
+      "shortTitle": "Respiratório com nomes · Z-Anatomy",
+      "url": "https://github.com/LluisV/Z-Anatomy",
+      "author": "Z-Anatomy · BodyParts3D",
+      "authorUrl": "https://www.z-anatomy.com/",
+      "institution": "Z-Anatomy · acervo anatômico aberto",
+      "institutionUrl": "https://www.z-anatomy.com/",
+      "license": "CC BY-SA 4.0 · geometrias da fonte, nomes em português e seleção para exibição; cores ilustrativas.",
+      "focus": [
+        "nomes visíveis",
+        "lobos e brônquios",
+        "seleção por estrutura"
+      ],
+      "description": "Peças nomeadas do acervo Z-Anatomy no mesmo registro espacial. Os lobos ficam identificados na visão geral; selecione um brônquio para revelar a árvore dentro dos pulmões.",
+      "specimen": "Modelo anatômico de referência com superfícies e curvas brônquicas do autor; não é uma fotografia nem uma reconstrução de CT de paciente individual.",
+      "limits": [
+        "O nome se aplica à peça inteira da fonte. Ramos finos do mesmo território podem integrar uma única peça.",
+        "Correspondências com o roteiro não certificam cada detalhe anatômico.",
+        "A representação basal anteromedial esquerda da fonte não substitui a identificação de segmentos distintos."
+      ],
+      "observations": [
+        {
+          "title": "Dos lobos aos brônquios",
+          "text": "Comece pelos cinco lobos. Selecione a traqueia, um brônquio principal, lobar ou segmentar e observe sua posição com o pulmão translúcido."
+        },
+        {
+          "title": "Compare com a peça real",
+          "text": "Compare a seleção com as fotos dos pulmões, mantendo a orientação e o lado indicados na fonte."
+        }
+      ],
+      "external": false,
+      "loadOnDemand": true,
+      "countsTowardLocalCoverage": false,
+      "quizEligible": false
+    },
+    {
+      "id": "nih-heart-ct",
+      "type": "local",
+      "asset": "assets/heart-ct/model.glb",
+      "system": "circulatory",
+      "photoRegion": "camaras",
+      "code": "NIH CT",
+      "title": "Coração humano reconstruído de tomografia",
+      "shortTitle": "Coração de CT · reconstrução humana",
+      "url": "https://3d.nih.gov/entries/3DPX-002636",
+      "author": "Matthew Bramlet",
+      "authorUrl": "https://3d.nih.gov/entries/3DPX-002636",
+      "institution": "NIH 3D · Heart Library",
+      "institutionUrl": "https://3d.nih.gov/collections/heart-library",
+      "license": "Domínio público · CC0 1.0. GLB oficial preservado; ajuste de câmera, centralização e escala apenas para exibição.",
+      "focus": [
+        "geometria de exame",
+        "coração completo",
+        "relações espaciais"
+      ],
+      "description": "Reconstrução de CT disponibilizada no NIH 3D. A geometria vem do exame descrito pela fonte; o visualizador mantém o arquivo oficial e usa iluminação neutra.",
+      "specimen": "Caso descrito na fonte como coração normal de uma jovem de 17 anos; aquisição em diástole.",
+      "limits": [
+        "Reconstrução de tomografia sem textura fotográfica do tecido.",
+        "Um caso individual, com limites próprios da aquisição; não representa todas as variações anatômicas.",
+        "A fonte ressalta limites do CT para representar detalhes e movimentos das valvas.",
+        "Não possui seleção individual certificada de câmaras ou vasos; use a cena didática para isolar peças nomeadas."
+      ],
+      "observations": [
+        {
+          "title": "Compare o conjunto com a peça dissecada",
+          "text": "Gire o conjunto e compare a continuidade das cavidades e grandes vasos com as fotografias, consultando os rótulos da prancha.",
+          "photoIds": [
+            "circulatorio_012",
+            "circulatorio_016",
+            "circulatorio_021"
+          ]
+        },
+        {
+          "title": "Relacione forma e percurso do sangue",
+          "text": "Use a teoria para acompanhar a passagem entre câmaras; a reconstrução não simula o bombeamento nem o fluxo."
+        }
+      ],
+      "external": false,
+      "loadOnDemand": true,
+      "countsTowardLocalCoverage": false,
+      "quizEligible": false
+    },
+    {
+      "id": "rijnstate-lung-ct",
+      "type": "local",
+      "asset": "assets/lung-ct/model.glb",
+      "system": "respiratory",
+      "photoRegion": "traqueia",
+      "code": "CT 2023",
+      "title": "Árvore broncovascular reconstruída de tomografia",
+      "shortTitle": "Vias aéreas e vasos · CT com contraste",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10403471/",
+      "author": "Meershoek, Loonen, Maal, Hekma e Hugen",
+      "authorUrl": "https://doi.org/10.1007/s40670-023-01807-x",
+      "institution": "Rijnstate / Radboud · suplemento científico",
+      "institutionUrl": "https://doi.org/10.1007/s40670-023-01807-x",
+      "license": "CC BY-NC-SA 4.0 · uso não comercial, com atribuição e compartilhamento pela mesma licença. Conversão STL → GLB; 312.856 triângulos preservados.",
+      "focus": [
+        "reconstrução de exame",
+        "árvore broncovascular",
+        "relações com vasos"
+      ],
+      "description": "Reconstrução a partir de CT com contraste publicada como suplemento científico. Reúne vias aéreas, vasos e contexto cardíaco em uma malha preparada pelos autores para impressão.",
+      "specimen": "Modelo broncovascular de CT utilizado pelos autores no estudo de treinamento em anatomia pulmonar (2023).",
+      "limits": [
+        "Superfícies suavizadas e ramos truncados pelos autores para impressão; não é a digitalização de uma dissecção.",
+        "Sem cores ou rótulos individualizados de tecidos; a cor neutra não separa artérias, veias e brônquios.",
+        "Entalhes para ímãs e outras adaptações de impressão são artefatos da fonte.",
+        "Não demonstra pleura nem parênquima segmentar completo. A orientação anatômica dos eixos não foi certificada."
+      ],
+      "observations": [
+        {
+          "title": "Compare ramificações e continuidade",
+          "text": "Compare o conjunto com a árvore brônquica e a traqueia fotografadas. Use as pranchas e a teoria para identificar os ramos; o GLB não possui rótulos individuais.",
+          "photoIds": [
+            "respiratorio_016",
+            "respiratorio_018",
+            "respiratorio_019"
+          ]
+        },
+        {
+          "title": "Observe a relação entre vias aéreas e vasos",
+          "text": "Gire o conjunto para observar proximidade e trajetos. Entalhes e pontos de união de impressão não devem ser interpretados como anatomia."
+        }
+      ],
+      "external": false,
+      "loadOnDemand": true,
+      "countsTowardLocalCoverage": false,
+      "quizEligible": false
+    },
     {
       "id": "umn-heart-612",
       "title": "Coração humano fixado por perfusão · UMN 612",
@@ -134,7 +340,10 @@
             "104"
           ]
         }
-      ]
+      ],
+      "system": "circulatory",
+      "photoRegion": "superficie",
+      "checkedAt": "2026-10-01"
     },
     {
       "id": "umn-heart-188",
@@ -250,7 +459,10 @@
             "63c"
           ]
         }
-      ]
+      ],
+      "system": "circulatory",
+      "photoRegion": "camaras",
+      "checkedAt": "2026-10-01"
     },
     {
       "id": "umn-heart-064",
@@ -368,7 +580,387 @@
           ],
           "requirementIds": []
         }
-      ]
+      ],
+      "system": "circulatory",
+      "photoRegion": "valvas",
+      "checkedAt": "2026-10-01"
+    },
+    {
+      "id": "umn-coronary-064",
+      "code": "UMN COR 064",
+      "title": "Artérias coronárias de coração doado · UMN 064",
+      "shortTitle": "Artérias coronárias de coração doado",
+      "originalTitle": "Heart0064 Coronary Arteries",
+      "sketchfabId": "ee2badfb73e14d00b5453351a582d2b1",
+      "url": "https://sketchfab.com/3d-models/heart0064-coronary-arteries-ee2badfb73e14d00b5453351a582d2b1",
+      "embedUrl": "https://sketchfab.com/models/ee2badfb73e14d00b5453351a582d2b1/embed",
+      "author": "VisibleHeartLabs",
+      "institution": "University of Minnesota · Visible Heart Laboratories",
+      "institutionUrl": "https://www.vhlab.umn.edu/atlas/",
+      "authorUrl": "https://sketchfab.com/VisibleHeartLabs",
+      "system": "circulatory",
+      "photoRegion": "coronarias",
+      "description": "Modelo vascular associado ao coração humano Heart0064. A fonte descreve a presença das artérias coronárias e de seus ramos. Use para acompanhar os trajetos e compare com a superfície cardíaca nas suas fotos.",
+      "specimen": "Reconstrução de vasos de coração doado; não é a superfície texturizada de uma peça inteira.",
+      "focus": [
+        "coronária direita",
+        "interventricular anterior",
+        "circunflexo"
+      ],
+      "observations": [
+        {
+          "title": "Relacione o vaso à superfície",
+          "text": "Acompanhe os trajetos no modelo e compare com as anotações das fotos das coronárias direita e esquerda. Volte ao coração inteiro para situar cada ramo.",
+          "photoIds": [
+            "circulatorio_003",
+            "circulatorio_005"
+          ],
+          "references": []
+        },
+        {
+          "title": "Compare três formas de representação",
+          "text": "Alterne entre a reconstrução vascular, a peça fotografada e o esquema enviado por você. Use continuidade e relações para comparar os trajetos; as cores são recursos de apresentação.",
+          "photoIds": [
+            "esquema_001"
+          ],
+          "references": []
+        }
+      ],
+      "limits": [
+        "A representação mostra os vasos; não preserva a aparência integral da parede cardíaca.",
+        "Ramificação de um espécime: não representa todas as variações individuais.",
+        "A referência não foi segmentada ou auditada individualmente contra todos os itens do nosso roteiro."
+      ],
+      "license": "CC Attribution-NonCommercial, conforme a página do modelo. Uso pelo visualizador oficial, com créditos preservados.",
+      "loadOnDemand": true,
+      "external": true,
+      "countsTowardLocalCoverage": false,
+      "quizEligible": false,
+      "checkedAt": "2026-10-01"
+    },
+    {
+      "id": "umn-heart-lung-601",
+      "code": "UMN 601",
+      "title": "Bloco coração–pulmões semi-insuflado · UMN 601",
+      "shortTitle": "Bloco coração–pulmões semi-insuflado",
+      "originalTitle": "Fresh Heart/Lung Bloc Semi-inflated",
+      "sketchfabId": "b6a26cab3817459cbfd96945db2368bb",
+      "url": "https://sketchfab.com/3d-models/fresh-heartlung-bloc-semi-inflated-b6a26cab3817459cbfd96945db2368bb",
+      "embedUrl": "https://sketchfab.com/models/b6a26cab3817459cbfd96945db2368bb/embed",
+      "author": "VisibleHeartLabs",
+      "institution": "University of Minnesota · Visible Heart Laboratories",
+      "institutionUrl": "https://www.vhlab.umn.edu/atlas/",
+      "authorUrl": "https://sketchfab.com/VisibleHeartLabs",
+      "system": "both",
+      "photoRegion": "grandes_vasos",
+      "description": "Bloco humano fresco de coração e pulmões, fotografado e digitalizado semi-insuflado sobre uma mesa, segundo a fonte. Permite comparar os órgãos juntos.",
+      "specimen": "Bloco coração–pulmões humano, referência Heart0601.",
+      "focus": [
+        "coração e pulmões",
+        "relações espaciais",
+        "volume pulmonar"
+      ],
+      "observations": [
+        {
+          "title": "Oriente o bloco completo",
+          "text": "Gire o conjunto e situe coração, pulmões e os segmentos de vias e vasos que permaneceram na peça. Compare com as fotos isoladas, que têm outra preparação e orientação.",
+          "photoIds": [
+            "circulatorio_002",
+            "respiratorio_021"
+          ],
+          "references": []
+        },
+        {
+          "title": "Observe os limites da preparação",
+          "text": "Compare os contornos das fotos dos pulmões com o bloco semi-insuflado. O estado preservado na mesa não corresponde a uma fase dinâmica da ventilação.",
+          "photoIds": [
+            "respiratorio_022",
+            "respiratorio_023"
+          ],
+          "references": []
+        }
+      ],
+      "limits": [
+        "A digitalização é estática e não mostra respiração, circulação ou movimento fisiológico.",
+        "A preparação, os cortes e as remoções de tecido modificam o contexto da peça.",
+        "A referência não foi segmentada ou auditada individualmente contra todos os itens do nosso roteiro."
+      ],
+      "license": "CC Attribution-NonCommercial, conforme a página do modelo. Uso pelo visualizador oficial, com créditos preservados.",
+      "loadOnDemand": true,
+      "external": true,
+      "countsTowardLocalCoverage": false,
+      "quizEligible": false,
+      "checkedAt": "2026-10-01"
+    },
+    {
+      "id": "ubc-lungs-airways",
+      "code": "UBC VIAS",
+      "title": "Pulmões com laringe, traqueia e brônquios · UBC",
+      "shortTitle": "Pulmões com laringe, traqueia e brônquios",
+      "originalTitle": "Lungs with Bronchi and Trachea",
+      "sketchfabId": "98eae0ffe58a4e63b8d52c23813b3aaf",
+      "url": "https://sketchfab.com/3d-models/lungs-with-bronchi-and-trachea-98eae0ffe58a4e63b8d52c23813b3aaf",
+      "embedUrl": "https://sketchfab.com/models/98eae0ffe58a4e63b8d52c23813b3aaf/embed",
+      "author": "UBC Medicine · Educational Media",
+      "institution": "University of British Columbia · HIVE",
+      "institutionUrl": "https://www.clinicalanatomy.ca/thorax.html",
+      "authorUrl": "https://sketchfab.com/UBC.MEDVID",
+      "system": "respiratory",
+      "photoRegion": "traqueia",
+      "description": "A UBC descreve um par de pulmões humanos com laringe, traqueia e brônquios conectados. É uma referência para observar a continuidade das vias aéreas com os pulmões.",
+      "specimen": "Peça humana do acervo HIVE / UBC, com vias aéreas conectadas.",
+      "focus": [
+        "traqueia",
+        "brônquios",
+        "pulmões"
+      ],
+      "observations": [
+        {
+          "title": "Siga a continuidade das vias aéreas",
+          "text": "Comece no segmento superior do conjunto e acompanhe a traqueia até os brônquios. Compare com as fotografias da bifurcação e da carina.",
+          "photoIds": [
+            "respiratorio_016",
+            "respiratorio_020"
+          ],
+          "references": []
+        },
+        {
+          "title": "Compare órgão inteiro e árvore isolada",
+          "text": "Compare o conjunto com as fotos da árvore brônquica isolada. Procure as relações visíveis e confira os rótulos da fonte antes de nomear um ramo.",
+          "photoIds": [
+            "respiratorio_018",
+            "respiratorio_019",
+            "respiratorio_024"
+          ],
+          "references": []
+        }
+      ],
+      "limits": [
+        "A digitalização é estática e não mostra respiração, circulação ou movimento fisiológico.",
+        "A preparação, os cortes e as remoções de tecido modificam o contexto da peça.",
+        "A referência não foi segmentada ou auditada individualmente contra todos os itens do nosso roteiro."
+      ],
+      "license": "Visualização no acervo oficial. Os modelos da UBC consultados têm marca NoAI; consulte condições na fonte. Arquivos não redistribuídos.",
+      "loadOnDemand": true,
+      "external": true,
+      "countsTowardLocalCoverage": false,
+      "quizEligible": false,
+      "checkedAt": "2026-10-01"
+    },
+    {
+      "id": "ubc-right-lung",
+      "code": "UBC P D",
+      "title": "Pulmão direito · UBC",
+      "shortTitle": "Pulmão direito",
+      "originalTitle": "Right Lung",
+      "sketchfabId": "f417330f4aed47bd9c2927aad40d6682",
+      "url": "https://sketchfab.com/3d-models/right-lung-f417330f4aed47bd9c2927aad40d6682",
+      "embedUrl": "https://sketchfab.com/models/f417330f4aed47bd9c2927aad40d6682/embed",
+      "author": "UBC Medicine · Educational Media",
+      "institution": "University of British Columbia · HIVE",
+      "institutionUrl": "https://www.clinicalanatomy.ca/thorax.html",
+      "authorUrl": "https://sketchfab.com/UBC.MEDVID",
+      "system": "respiratory",
+      "photoRegion": "pulmoes",
+      "description": "Pulmão direito do acervo de fotogrametria da UBC. Compare a peça tridimensional com a prancha anotada do pulmão direito do seu baralho.",
+      "specimen": "Pulmão direito humano, apresentado no acervo Clinical Anatomy / UBC.",
+      "focus": [
+        "faces",
+        "fissuras",
+        "hilo"
+      ],
+      "observations": [
+        {
+          "title": "Oriente as faces da peça",
+          "text": "Gire a peça e procure seus contornos, fissuras e região do hilo. Use a imagem anotada como referência de comparação, preservando a orientação de cada preparação.",
+          "photoIds": [
+            "respiratorio_022"
+          ],
+          "references": []
+        },
+        {
+          "title": "Compare com o pulmão esquerdo",
+          "text": "Alterne entre as duas peças da UBC e as fotos do baralho. Descreva primeiro o que consegue observar antes de conferir os nomes.",
+          "photoIds": [
+            "respiratorio_021",
+            "respiratorio_023"
+          ],
+          "references": []
+        }
+      ],
+      "limits": [
+        "A digitalização é estática e não mostra respiração, circulação ou movimento fisiológico.",
+        "A preparação, os cortes e as remoções de tecido modificam o contexto da peça.",
+        "A referência não foi segmentada ou auditada individualmente contra todos os itens do nosso roteiro."
+      ],
+      "license": "Visualização no acervo oficial. Os modelos da UBC consultados têm marca NoAI; consulte condições na fonte. Arquivos não redistribuídos.",
+      "loadOnDemand": true,
+      "external": true,
+      "countsTowardLocalCoverage": false,
+      "quizEligible": false,
+      "checkedAt": "2026-10-01"
+    },
+    {
+      "id": "ubc-left-lung",
+      "code": "UBC P E",
+      "title": "Pulmão esquerdo · UBC",
+      "shortTitle": "Pulmão esquerdo",
+      "originalTitle": "Left Lung",
+      "sketchfabId": "c4a21afac55e4c498b57404abbcf3dd2",
+      "url": "https://www.clinicalanatomy.ca/thorax/lungL3D.html",
+      "embedUrl": "https://sketchfab.com/models/c4a21afac55e4c498b57404abbcf3dd2/embed",
+      "author": "UBC Medicine · Educational Media",
+      "institution": "University of British Columbia · HIVE",
+      "institutionUrl": "https://www.clinicalanatomy.ca/thorax.html",
+      "authorUrl": "https://sketchfab.com/UBC.MEDVID",
+      "system": "respiratory",
+      "photoRegion": "pulmoes",
+      "description": "Pulmão esquerdo publicado como fotogrametria e digitalização a laser no acervo Clinical Anatomy da UBC. Use a referência junto à foto anotada da face mediastinal.",
+      "specimen": "Pulmão esquerdo humano do acervo Clinical Anatomy / UBC.",
+      "focus": [
+        "face mediastinal",
+        "contornos",
+        "relações"
+      ],
+      "observations": [
+        {
+          "title": "Compare os contornos e as impressões",
+          "text": "Explore a superfície e compare com os contornos, a região cardíaca e os sulcos anotados na sua fotografia. A preparação pode modificar esses relevos.",
+          "photoIds": [
+            "respiratorio_023"
+          ],
+          "references": []
+        },
+        {
+          "title": "Retorne ao conjunto respiratório",
+          "text": "Depois de observar a peça isolada, abra o modelo de pulmões e vias aéreas para recuperar as relações espaciais.",
+          "photoIds": [
+            "respiratorio_021",
+            "respiratorio_018"
+          ],
+          "references": []
+        }
+      ],
+      "limits": [
+        "A digitalização é estática e não mostra respiração, circulação ou movimento fisiológico.",
+        "A preparação, os cortes e as remoções de tecido modificam o contexto da peça.",
+        "A referência não foi segmentada ou auditada individualmente contra todos os itens do nosso roteiro."
+      ],
+      "license": "Visualização no acervo oficial. Os modelos da UBC consultados têm marca NoAI; consulte condições na fonte. Arquivos não redistribuídos.",
+      "loadOnDemand": true,
+      "external": true,
+      "countsTowardLocalCoverage": false,
+      "quizEligible": false,
+      "checkedAt": "2026-10-01"
+    },
+    {
+      "id": "ubc-larynx",
+      "code": "UBC LAR",
+      "title": "Laringe e relações com faringe e traqueia · UBC",
+      "shortTitle": "Laringe e relações com faringe e traqueia",
+      "originalTitle": "Human Larynx",
+      "sketchfabId": "9cb56f0a20654072810a12959b812632",
+      "url": "https://sketchfab.com/3d-models/human-larynx-9cb56f0a20654072810a12959b812632",
+      "embedUrl": "https://sketchfab.com/models/9cb56f0a20654072810a12959b812632/embed",
+      "author": "UBC Medicine · Educational Media",
+      "institution": "University of British Columbia · HIVE",
+      "institutionUrl": "https://www.clinicalanatomy.ca/thorax.html",
+      "authorUrl": "https://sketchfab.com/UBC.MEDVID",
+      "system": "respiratory",
+      "photoRegion": "laringe",
+      "description": "Prosecção humana de laringe, faringe, mandíbula, traqueia e esôfago, conforme a descrição da UBC. A referência permite observar relações regionais.",
+      "specimen": "Prosecção humana produzida pelo HIVE / UBC.",
+      "focus": [
+        "laringe",
+        "faringe",
+        "traqueia",
+        "esôfago"
+      ],
+      "observations": [
+        {
+          "title": "Oriente a região antes dos detalhes",
+          "text": "Situe o conjunto laríngeo e sua continuidade com a traqueia. Compare com as fotos anotadas da cavidade laríngea e da cartilagem tireóidea.",
+          "photoIds": [
+            "respiratorio_026"
+          ],
+          "references": []
+        },
+        {
+          "title": "Compare cartilagens e músculos",
+          "text": "Use as fotos da epiglote, da cricóidea e dos músculos laríngeos para comparar os relevos que estiverem expostos no modelo. Um detalhe encoberto não pode ser certificado pela vista geral.",
+          "photoIds": [
+            "respiratorio_028",
+            "respiratorio_029",
+            "respiratorio_032"
+          ],
+          "references": []
+        }
+      ],
+      "limits": [
+        "A digitalização é estática e não mostra respiração, circulação ou movimento fisiológico.",
+        "A preparação, os cortes e as remoções de tecido modificam o contexto da peça.",
+        "A referência não foi segmentada ou auditada individualmente contra todos os itens do nosso roteiro."
+      ],
+      "license": "Visualização no acervo oficial. Os modelos da UBC consultados têm marca NoAI; consulte condições na fonte. Arquivos não redistribuídos.",
+      "loadOnDemand": true,
+      "external": true,
+      "countsTowardLocalCoverage": false,
+      "quizEligible": false,
+      "checkedAt": "2026-10-01"
+    },
+    {
+      "id": "ubc-mediastinum",
+      "code": "UBC MED",
+      "title": "Mediastino e parede torácica posterior · UBC",
+      "shortTitle": "Mediastino e parede torácica posterior",
+      "originalTitle": "Mediastinum & Posterior Thoracic Wall",
+      "sketchfabId": "35f1e5a6b6c54e38aa0fc0c660f51f75",
+      "url": "https://sketchfab.com/3d-models/mediastinum-posterior-thoracic-wall-35f1e5a6b6c54e38aa0fc0c660f51f75",
+      "embedUrl": "https://sketchfab.com/models/35f1e5a6b6c54e38aa0fc0c660f51f75/embed",
+      "author": "UBC Medicine · Educational Media",
+      "institution": "University of British Columbia · HIVE",
+      "institutionUrl": "https://www.clinicalanatomy.ca/thorax.html",
+      "authorUrl": "https://sketchfab.com/UBC.MEDVID",
+      "system": "both",
+      "photoRegion": "grandes_vasos",
+      "description": "Prosecção do mediastino e da parede torácica posterior produzida pela UBC com fotogrametria e digitalização a laser. Consulte as anotações institucionais para situar os relevos preservados.",
+      "specimen": "Prosecção humana do mediastino e da parede torácica posterior, HIVE / UBC.",
+      "focus": [
+        "contexto torácico",
+        "mediastino",
+        "relações posteriores"
+      ],
+      "observations": [
+        {
+          "title": "Recupere o contexto das peças isoladas",
+          "text": "Gire a preparação e compare os trajetos e superfícies preservados com as fotos dos grandes vasos e das pleuras. A dissecção remove parte do contexto original.",
+          "photoIds": [
+            "circulatorio_002",
+            "respiratorio_025",
+            "respiratorio_027"
+          ],
+          "references": []
+        },
+        {
+          "title": "Cruze a referência com o material de aula",
+          "text": "Use as anotações do visualizador e retorne ao roteiro e às aulas para conferir uma estrutura. Regiões e relevos da preparação não são automaticamente alvos validados.",
+          "photoIds": [
+            "circulatorio_015"
+          ],
+          "references": []
+        }
+      ],
+      "limits": [
+        "A digitalização é estática e não mostra respiração, circulação ou movimento fisiológico.",
+        "A preparação, os cortes e as remoções de tecido modificam o contexto da peça.",
+        "A referência não foi segmentada ou auditada individualmente contra todos os itens do nosso roteiro."
+      ],
+      "license": "Visualização no acervo oficial. Os modelos da UBC consultados têm marca NoAI; consulte condições na fonte. Arquivos não redistribuídos.",
+      "loadOnDemand": true,
+      "external": true,
+      "countsTowardLocalCoverage": false,
+      "quizEligible": false,
+      "checkedAt": "2026-10-01"
     }
   ]
 }

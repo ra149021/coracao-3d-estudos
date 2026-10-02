@@ -23,7 +23,7 @@ const escapeHTML = (text) => String(text).replace(/[&<>"']/g, c => ({'&':'&amp;'
 const normalize = (text) => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 const eye = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.5"/></svg>';
 const eyeOff = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 3 18 18M9.4 6.3A12 12 0 0 1 12 6c6.5 0 10 6 10 6a18 18 0 0 1-4 4M6 7.8A18 18 0 0 0 2 12s3.5 6 10 6a12 12 0 0 0 4-.7"/></svg>';
-const state = { selected: null, preset: 'exterior', labels: false, palette: 'tissue', light: 'relief', depth: true, transparency: 0, clipping: false, axis: 'z', cut: 50, flipped: false, ready: false, examMode: false };
+const state = { selected: null, preset: 'exterior', labels: true, palette: 'tissue', light: 'relief', depth: true, transparency: 0, clipping: false, axis: 'z', cut: 50, flipped: false, ready: false, examMode: false };
 const canvas = $('heart-canvas');
 const viewer = $('viewer');
 const meshes = new Map();
@@ -256,7 +256,7 @@ function reset() {
   $('search').value = '';
   state.palette = 'tissue'; $('palette').value = 'tissue';
   state.light='relief';state.depth=true;$('light-profile').value=state.light;$('depth-shading').checked=true;anatomyRenderer.setProfile(state.light);
-  state.labels = false; $('labels').setAttribute('aria-pressed', 'false');
+  state.labels = true; $('labels').setAttribute('aria-pressed', 'true');
   preset('exterior');
   renderList();
 }
@@ -290,7 +290,7 @@ function updateLabels() {
   for (const [id, label] of labels) {
     const mesh = meshes.get(id);
     const center = mesh.geometry.boundingBox.getCenter(new THREE.Vector3());
-    const visible = state.labels && mesh.visible && (!state.clipping || clipPlane.distanceToPoint(center) >= 0);
+    const visible = state.labels && mesh.visible && (state.selected ? state.selected === id : (catalog.labelGroups || ['camaras']).includes(mesh.userData.part.group)) && (!state.clipping || clipPlane.distanceToPoint(center) >= 0);
     label.hidden = !visible;
     if (!visible) continue;
     const projected = center.clone().project(camera);
@@ -508,10 +508,11 @@ function configureSystem() {
     extra.href=hraHeart?'atlas.html':'atlas.html?detail=hra';
     extra.innerHTML=hraHeart?'<span>VOLTAR AO ATLAS PRINCIPAL</span><strong>Coração e vasos coronários ↗</strong><small>Conjunto segmentado Z-Anatomy e BodyParts3D.</small>':'<span>OUTRO CONJUNTO ANATÔMICO</span><strong>Câmaras e septo · HRA ↗</strong><small>Septo individualizado; representação simplificada, sem textura de tecido.</small>';
     document.querySelector('.reference-link').before(extra);
-    const specimens=document.createElement('a');specimens.className='reference-link';specimens.href='specimens.html';
-    specimens.innerHTML='<span>COMPARAR COM A PEÇA HUMANA</span><strong>Peças anatômicas reais ↗</strong><small>Acervo da Universidade de Minnesota, com orientação de estudo. Requer internet.</small>';
-    extra.before(specimens);
   }
+  const photos=document.createElement('a');photos.className='reference-link';photos.id='specimen-gallery-link';
+  photos.href=`specimens.html?system=${respiratory?'respiratory':'circulatory'}#photographs`;
+  photos.innerHTML=`<span>COMPARAR COM A PEÇA REAL</span><strong>Fotos do ${respiratory?'respiratório':'circulatório'} ↗</strong><small>Fotografias das coleções disponíveis, com busca e ampliação.</small>`;
+  document.querySelector('.reference-link').before(photos);
   if(hraHeart){
     document.querySelector('.viewer-caption .eyebrow').textContent='HUMAN REFERENCE ATLAS · CONJUNTO INDEPENDENTE';
     $('about').querySelector('h2').textContent='Coração · Human Reference Atlas';
@@ -579,7 +580,7 @@ async function init() {
     object.geometry.computeBoundingBox(); object.geometry.computeBoundingSphere();
     if(part.defaultVisible !== false)fullBounds.union(object.geometry.boundingBox);
     meshes.set(part.id,object);
-    if((catalog.labelGroups || ['camaras']).includes(part.group)) {
+    {
       const label=document.createElement('span'); label.className='mesh-label';label.textContent=part.label;label.hidden=true;
       $('labels-layer').appendChild(label); labels.set(part.id,label);
     }

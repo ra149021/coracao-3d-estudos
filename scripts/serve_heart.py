@@ -10,12 +10,43 @@ from pathlib import Path
 import urllib.request
 from urllib.parse import unquote, urlsplit
 import webbrowser
+import study_chat
 
 SITE = Path(__file__).resolve().parents[1] / 'site'
 LIBRARY = SITE.parent / 'materiais/library-manifest.json'
-HEALTH = b'atlas-estudo-local-v2'
+HEALTH = b'atlas-estudo-local-v3'
 
 class Handler(SimpleHTTPRequestHandler):
+    def _json(self, status, data):
+        payload = json.dumps(data, ensure_ascii=False).encode()
+        self.send_response(status)
+        self.send_header('Content-Type', 'application/json; charset=utf-8')
+        self.send_header('Content-Length', str(len(payload)))
+        self.end_headers()
+        self.wfile.write(payload)
+
+    def _chat_origin_allowed(self):
+        host = self.headers.get('Host', '')
+        expected = {'127.0.0.1:' + str(self.server.server_port), 'localhost:' + str(self.server.server_port)}
+        return host in expected and self.headers.get('Origin') in (None, 'http://' + host)
+
+    def do_POST(self):
+        if urlsplit(self.path).path != '/api/chat':
+            self.send_error(404)
+            return
+        if not self._chat_origin_allowed():
+            self._json(403, {'error': 'Origem não autorizada.'})
+            return
+        try:
+            length = int(self.headers.get('Content-Length', '0'))
+            if not 0 < length <= 16000 or self.headers.get('Content-Type', '').split(';')[0] != 'application/json':
+                raise study_chat.ChatError(400, 'Envie uma pergunta JSON de até 16 KB.')
+            payload = json.loads(self.rfile.read(length))
+            self._json(200, study_chat.answer(payload))
+        except study_chat.ChatError as error:
+            self._json(error.code, {'error': str(error)})
+        except (ValueError, UnicodeError):
+            self._json(400, {'error': 'JSON inválido.'})
     def end_headers(self):
         self.send_header('Cache-Control', 'no-cache')
         self.send_header('X-Content-Type-Options', 'nosniff')
@@ -89,6 +120,12 @@ class Handler(SimpleHTTPRequestHandler):
         return super().do_HEAD()
 
     def do_GET(self):
+        if urlsplit(self.path).path == '/api/chat/status':
+            if not self._chat_origin_allowed():
+                self._json(403, {'error': 'Origem não autorizada.'})
+            else:
+                self._json(200, study_chat.status())
+            return
         if self.path == '/health':
             self.send_response(200)
             self.send_header('Content-Type', 'text/plain; charset=utf-8')
@@ -109,7 +146,9 @@ def main():
     args_parser = argparse.ArgumentParser(description='Atlas de estudo cardiorrespiratório')
     args_parser.add_argument('--port', type=int, default=8765)
     args_parser.add_argument('--open', action='store_true')
+    args_parser.add_argument('--page', choices=('index.html', 'specimens.html'), default='index.html')
     args = args_parser.parse_args()
+    study_chat.configure(SITE.parent / '.env.chat')
     # Reuse only our own existing server, never an arbitrary service on the port.
     for port in range(args.port, args.port + 20):
         address = f'http://127.0.0.1:{port}'
@@ -124,7 +163,7 @@ def main():
                     if response.read(80) == HEALTH:
                         print(address, flush=True)
                         if args.open:
-                            webbrowser.open(address)
+                            webbrowser.open(address + '/' + args.page)
                         return
             except (OSError, ValueError):
                 pass
@@ -132,7 +171,7 @@ def main():
         raise SystemExit('Não foi possível abrir uma porta local entre as 20 tentativas.')
     print(f'Atlas de estudo: {address}\nDeixe este processo aberto. Ctrl+C encerra o servidor.', flush=True)
     if args.open:
-        webbrowser.open(address)
+        webbrowser.open(address + '/' + args.page)
     try:
         server.serve_forever()
     except KeyboardInterrupt:

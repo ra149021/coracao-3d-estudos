@@ -1,0 +1,20 @@
+{
+  "passed": 11,
+  "checks": [
+    "Hospedagem pública usa quatro fotos licenciadas",
+    "Acervo pessoal indisponível na hospedagem pública",
+    "Nenhuma requisição aos originais ou manifesto pessoal",
+    "Referências pessoais não entram nas orientações públicas",
+    "Foto pública mostra autor, fonte e CC BY-SA",
+    "Galeria pública móvel sem overflow horizontal",
+    "LLM7 disponível sem chave no site estático",
+    "Groq não oferece rota inexistente no GitHub Pages",
+    "Geração real no navegador identifica AE e VE e oferece fontes",
+    "Instalação local preserva o acervo e permite trocar coleções",
+    "Nenhum erro JavaScript"
+  ],
+  "errors": [],
+  "realAIAnswer": "IA · LLM7 · minimax-m2.7 · confira com as fontesA valva mitral separa o átrio esquerdo (AE) do ventrículo esquerdo (VE) [1]. Ela é a valva atrioventricular esquerda, composta por dois folhetos principais (anterior e posterior) [1].[1] Valvas e esqueleto fibroso · Quatro valvas: nomes e relações[2] Valvas e esqueleto fibroso · Esqueleto fibroso[3] Entenda o percurso do sangue · Percurso para reconstruir de memória",
+  "provider": "LLM7",
+  "sourcePolicy": "verified-public-source-text-only"
+}

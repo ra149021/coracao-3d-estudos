@@ -194,7 +194,7 @@ function specimenSection(chapter, section) {
     if (!model || !observation) continue;
     const card = node('article', 'theory-specimen-card');
     card.dataset.model = model.id;
-    card.append(link(`${model.code} · ${model.shortTitle || model.title}`, `specimens.html?${new URLSearchParams({model: model.id})}`, 'theory-specimen-link'), node('strong', 'theory-specimen-observation', observation.title), node('p', '', observation.text));
+    card.append(link(`${model.code} · ${model.shortTitle || model.title}`, `specimens.html?${new URLSearchParams({model: model.id})}#institutional`, 'theory-specimen-link'), node('strong', 'theory-specimen-observation', observation.title), node('p', '', observation.text));
     const limits = node('ul', 'theory-specimen-limits');
     for (const limit of model.limits || []) limits.append(node('li', '', limit));
     card.append(limits, node('p', 'inline-note', 'Acervo externo da Universidade de Minnesota. A visualização é carregada somente na página da peça, mediante sua ação, e não amplia a cobertura do atlas local.'));
@@ -211,6 +211,20 @@ export function renderTheoryConnections(chapter, sectionIndex) {
     const requirements = requirementsDetails(chapter), views = viewsSection(relatedViews(chapter));
     if (requirements) fragment.append(requirements);
     if (views) fragment.append(views);
+    const photoRegions = {
+      'circ-orientacao': 'superficie', 'circ-parede': 'camaras', 'circ-pericardio': 'pericardio',
+      'circ-atrios': 'camaras', 'circ-ventriculos': 'camaras', 'circ-valvas': 'valvas',
+      'circ-coronarias': 'coronarias', 'circ-veias': 'coronarias', 'circ-grandes-vasos': 'grandes_vasos',
+      'resp_02': 'nariz', 'resp_03': 'nariz', 'resp_04': 'faringe', 'resp_05': 'laringe',
+      'resp_06': 'laringe', 'resp_07': 'traqueia', 'resp_08': 'traqueia', 'resp_09': 'pulmoes', 'resp_10': 'pleura'
+    };
+    if (photoRegions[chapter.id]) {
+      const photos = node('section', 'theory-specimens');
+      photos.append(node('h3', '', 'Compare com as fotografias da prática'),
+        link('Abrir as peças desta região →', `specimens.html?${new URLSearchParams({system: connections.system, region: photoRegions[chapter.id]})}#photographs`, 'theory-specimen-link'),
+        node('p', 'inline-note', 'Fotografias das coleções disponíveis nesta instalação. Consulte os rótulos originais, os créditos e as condições de cada imagem.'));
+      fragment.append(photos);
+    }
   } else {
     const section = chapter.sections?.[sectionIndex];
     if (!section) return fragment;

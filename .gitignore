@@ -37,3 +37,13 @@ refinamento/respiratorio/geometria/bp3d_meshes/
 site/assets/heart-author/
 refinamento/qualidade/respiratorio/rijnstate_reference/model.glb
 output/playwright/*specimens-online*
+
+# Personal Anki collection: local study only; public gallery is licensed separately
+site/assets/cadaver/
+site/assets/cadaver-gallery.json
+refinamento/qualidade/pecas_apkg/
+output/playwright/pecas-local-*
+output/playwright/recortes-browser-result.txt
+output/playwright/atlas-integrado-result.txt
+output/playwright/atlas-integrado-snapshot.txt
+output/playwright/atlas-integrado-imagens-separadas.png

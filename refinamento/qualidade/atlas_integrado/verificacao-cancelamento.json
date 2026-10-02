@@ -1,0 +1,11 @@
+{
+  "passed": 4,
+  "checks": [
+    "Timeout enquanto índice está retido libera Enviar e explica indisponibilidade",
+    "Cancelamento e callback antigo não abortam a nova pergunta",
+    "Primeira conversa limpa não reaparece",
+    "Nova resposta libera Enviar"
+  ],
+  "providerResponses": "simulated",
+  "timeout": "controlled callback; no real 40-second wait"
+}

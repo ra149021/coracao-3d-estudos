@@ -10,6 +10,17 @@
   <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
 <meta name="description" content="Atlas de estudo de anatomia circulatória e respiratória: modelos 3D, teoria, revisão e aulas da professora Carmem. Projeto de Victor Hugo."></head>
 <body>
+  <script>
+  // Old deep links to selected structures and guided study retain their scene.
+  { const p = new URLSearchParams(location.search);
+    if (p.get('view') !== 'didactic' && !['part','preset','detail','mode','requirement'].some(key => p.has(key))) {
+      const target = new URL('specimens.html', location.href);
+      target.search = location.search;
+      target.hash = location.hash || '#institutional';
+      location.replace(target);
+    }
+  }
+  </script>
   <header class="header">
     <a class="brand" href="./" aria-label="Atlas cardiorrespiratório, início">
       <span class="brand-icon"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M3 17h7l3-9 6 17 4-8h6"/></svg></span>
@@ -38,7 +49,7 @@
       </div>
       <div id="viewer" class="viewer">
         <div class="viewer-caption"><span class="eyebrow">EXPLORAR O CORAÇÃO</span><div id="view-name">Vista anterior oblíqua</div><span id="mode-note">Geometria original · cores ilustrativas</span></div>
-        <div class="viewer-tools"><button id="rotate" class="icon-button" title="Rotação automática" aria-label="Rotação automática" aria-pressed="false">↻</button><button id="labels" class="icon-button" title="Nomes das câmaras" aria-label="Nomes das câmaras" aria-pressed="false">Aa</button><button id="fullscreen" class="icon-button" title="Tela cheia" aria-label="Tela cheia">⛶</button></div>
+        <div class="viewer-tools"><button id="rotate" class="icon-button" title="Rotação automática" aria-label="Rotação automática" aria-pressed="false">↻</button><button id="labels" class="icon-button" title="Nomes das estruturas" aria-label="Nomes das estruturas" aria-pressed="true">Aa</button><button id="fullscreen" class="icon-button" title="Tela cheia" aria-label="Tela cheia">⛶</button></div>
         <canvas id="heart-canvas" tabindex="0" aria-label="Coração tridimensional. Arraste para girar, use a roda para aproximar e clique para selecionar. Setas giram; mais e menos alteram o zoom."></canvas>
         <div id="labels-layer" aria-hidden="true"></div>
         <div id="hover-label" role="tooltip" hidden></div>

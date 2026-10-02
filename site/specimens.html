@@ -4,25 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f5f1">
-  <title>Peças anatômicas reais · Atlas de estudo</title>
+  <title>Atlas 3D e peças reais · Atlas de estudo</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="shell.css">
   <link rel="stylesheet" href="specimens.css">
+  <link rel="stylesheet" href="specimen-gallery.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
 <meta name="description" content="Atlas de estudo de anatomia circulatória e respiratória: modelos 3D, teoria, revisão e aulas da professora Carmem. Projeto de Victor Hugo."></head>
 <body>
   <main class="page-wrap specimens-page" id="main-content">
     <header class="specimens-heading">
       <div>
-        <span class="overline">OBSERVAÇÃO ANATÔMICA / ACERVO INSTITUCIONAL</span>
-        <h1 class="page-title">Peças anatômicas reais</h1>
-        <p class="page-intro">Passe do modelo didático à superfície de uma peça humana. Gire, aproxime e compare os relevos com o roteiro e as figuras da professora.</p>
+        <span class="overline">OBSERVAÇÃO ANATÔMICA / CIRCULATÓRIO E RESPIRATÓRIO</span>
+        <h1 class="page-title">Atlas 3D e peças reais</h1>
+        <p class="page-intro">Identifique estruturas nos modelos com nomes visíveis, seleção e descrição. Explore também peças humanas digitalizadas e reconstruções de exames. Compare com as fotografias das coleções, organizadas por sistema no mesmo ambiente.</p>
       </div>
-      <a class="action back-to-atlas" href="atlas.html">← Voltar ao atlas</a>
+      <a class="action back-to-atlas" href="index.html">← Início</a>
     </header>
 
-    <section class="specimen-choices" aria-labelledby="choose-heading">
-      <div class="section-heading"><h2 id="choose-heading">Escolha o que observar</h2><span id="collection-label">Visible Heart Laboratories · Universidade de Minnesota</span></div>
-      <div id="specimen-list" class="specimen-list" role="group" aria-label="Selecionar peça anatômica"><p class="loading-message" role="status">Preparando as referências…</p></div>
+    <section class="specimen-choices" id="institutional" aria-labelledby="choose-heading">
+      <div class="section-heading"><h2 id="choose-heading">Modelos de anatomia humana</h2><span id="collection-label">NIH 3D · Meershoek et al. · UMN · UBC / HIVE</span></div>
+      <p class="photo-intro">Escolha um objetivo de observação. Cada referência tem origem, preparação e atalhos para as suas fotos e para o atlas. Os modelos com nomes e as reconstruções de CT carregam neste visualizador; as peças digitalizadas abrem nos visualizadores oficiais. Fonte e licença acompanham cada modelo.</p>
+      <label class="model-filter-label">Filtrar modelos por sistema <select id="model-filter"><option value="all">Todos os modelos</option><option value="circulatory">Circulatório</option><option value="respiratory">Respiratório</option></select></label>
+      <p id="model-count" class="photo-status" role="status" aria-live="polite"></p>
+      <label class="model-filter-label">Escolher referência <select id="model-picker" aria-label="Escolher referência 3D"></select></label>
+      <details class="model-catalog"><summary>Ver catálogo e objetivos de observação</summary><div id="specimen-list" class="specimen-list" role="group" aria-label="Selecionar peça anatômica"><p class="loading-message" role="status">Preparando as referências…</p></div></details>
     </section>
 
     <div id="specimens-error" class="empty-state" role="alert" hidden>
@@ -33,17 +39,24 @@
 
     <section id="specimen-workspace" class="specimen-workspace" aria-labelledby="model-title" hidden>
       <div class="specimen-view">
-        <div class="viewer-heading"><div><span id="model-kicker" class="overline">PEÇA HUMANA / REFERÊNCIA EXTERNA</span><h2 id="model-title"></h2></div><span class="viewer-badge">Visualizador oficial</span></div>
+        <div class="viewer-heading"><div><span id="model-kicker" class="overline">PEÇA HUMANA / REFERÊNCIA EXTERNA</span><h2 id="model-title"></h2></div><span id="viewer-badge" class="viewer-badge">Visualizador oficial</span></div>
         <div class="specimen-stage">
           <div id="embed-host" class="embed-host"></div>
+          <div id="native-tools" class="native-tools" hidden><button id="native-fit" class="action" type="button">Ajustar</button><button id="native-in" class="action" type="button" aria-label="Aproximar modelo">+</button><button id="native-out" class="action" type="button" aria-label="Afastar modelo">−</button><button id="native-rotate" class="action" type="button" aria-pressed="false">Girar</button><button id="native-names" class="action" type="button" aria-pressed="true" hidden>Nomes</button></div>
           <div id="player-placeholder" class="player-placeholder">
             <div class="placeholder-mark" aria-hidden="true">↻</div>
             <span id="placeholder-code" class="overline"></span>
             <h3>Observe a peça por vários ângulos</h3>
-            <p>O modelo abre no visualizador oficial do Sketchfab.<br>Requer conexão com a internet.</p>
+            <p id="model-load-note">O modelo abre no visualizador oficial do Sketchfab. Requer conexão com a internet.</p>
             <button id="load-model" class="action primary" type="button">Carregar modelo oficial <span aria-hidden="true">↗</span></button>
-            <span class="placeholder-note">A conexão com o visualizador começa ao clicar.</span>
+            <span id="model-load-detail" class="placeholder-note">A conexão com o visualizador começa ao clicar.</span>
           </div>
+        </div>
+        <div id="anatomy-study" class="anatomy-study" hidden>
+          <label>Identificar estrutura<select id="anatomy-part"><option value="">Visão geral · nomes principais</option></select></label>
+          <button id="anatomy-isolate" class="action" type="button" aria-pressed="false" disabled>Isolar seleção</button>
+          <button id="anatomy-reset" class="action" type="button">Ver conjunto</button>
+          <p id="anatomy-explanation" role="status">Clique em um nome ou na peça para destacar a estrutura. Escolha na lista para revelar as peças internas.</p>
         </div>
         <div class="viewer-toolbar">
           <p id="player-status" role="status" aria-live="polite">Selecione uma peça e carregue o modelo.</p>
@@ -66,15 +79,49 @@
       </aside>
     </section>
 
-    <section id="study-context" class="study-context" hidden>
+    <details id="study-context" class="study-context-wrapper" hidden><summary>O que observar e limites da preparação</summary><div class="study-context">
       <article class="observation-card" aria-labelledby="observe-heading"><span class="overline">DO ROTEIRO PARA A PEÇA</span><h2 id="observe-heading">O que observar</h2><ol id="observation-list"></ol><p class="inline-note">Estas orientações ajudam a comparar a peça com o roteiro. Não são identificação individual validada de todos os relevos do modelo.</p></article>
-      <article class="limits-card" aria-labelledby="limits-heading"><span class="overline">PARA INTERPRETAR A IMAGEM</span><h2 id="limits-heading">O que a preparação muda</h2><ul id="model-limits"></ul><div class="comparison-note"><strong>Compare forma e relações</strong><p>Use o atlas local para isolar estruturas nomeadas. Aqui, observe a peça completa: não há correspondência segmentada validada com cada alvo do nosso roteiro. Os rótulos internos, quando presentes, são os da fonte.</p><a href="atlas.html">Continuar no coração 3D →</a></div></article>
+      <article class="limits-card" aria-labelledby="limits-heading"><span class="overline">PARA INTERPRETAR A IMAGEM</span><h2 id="limits-heading">O que a preparação muda</h2><ul id="model-limits"></ul><div class="comparison-note"><strong>Compare forma e relações</strong><p>Use o atlas para isolar estruturas nomeadas. Aqui, observe a peça completa e as anotações da fonte. As orientações não certificam cada estrutura do roteiro.</p><div id="model-study-links" class="model-study-links"></div></div></article>
+    </div></details>
+
+    <div class="didactic-access"><span>Exploração didática por estrutura</span><a class="action" href="atlas.html?view=didactic">Coração e vasos →</a><a class="action" href="atlas.html?system=respiratory&amp;view=didactic">Vias aéreas e pulmões →</a><p>Use para isolar peças nomeadas e acompanhar o roteiro; as cores são ilustrativas.</p></div>
+
+    <section class="photo-collection" id="photographs" aria-labelledby="photos-heading">
+      <div class="photo-heading"><div><span class="overline">FOTOGRAFIAS PARA COMPARAÇÃO ANATÔMICA</span><h2 id="photos-heading">Fotografias de peças humanas</h2></div><a class="action" href="#institutional">Voltar aos modelos 3D ↑</a></div>
+      <p class="photo-intro" id="photo-intro">Fotografias de peças humanas organizadas por sistema, com busca, ampliação, fonte e licença. Na instalação local, você também pode consultar o acervo pessoal dos Ankis.</p>
+      <label class="model-filter-label">Acervo de imagens <select id="photo-collection-select"><option value="public">Fotografias com licença aberta</option><option value="personal" disabled>Acervo pessoal local · Ankis</option></select></label>
+      <div class="photo-shortcuts" aria-label="Atalhos de comparação"><a class="action" href="specimens.html?region=coronarias">Coronárias e veias →</a><a class="action" href="specimens.html?region=valvas">Valvas →</a><a class="action" href="specimens.html?region=pulmoes">Pulmões →</a><a class="action" href="specimens.html?region=laringe">Laringe →</a><a class="action" href="specimens.html?photo=esquema_001">Seu esquema das coronárias ↗</a></div>
+      <form id="photo-filters" class="photo-filters" role="search" aria-label="Buscar nas fotografias">
+        <label class="photo-search">Estrutura ou termo<input id="photo-search" type="search" placeholder="Ex.: mitral, carina, língula…" autocomplete="off"></label>
+        <label>Sistema<select id="photo-system"><option value="all">Todos os sistemas</option><option value="circulatory">Circulatório</option><option value="respiratory">Respiratório</option></select></label>
+        <label>Região<select id="photo-region"><option value="all">Todas as regiões</option></select></label>
+        <label>Tipo de imagem<select id="photo-kind"><option value="all">Todo o acervo</option><option value="cadaver">Peças cadavéricas</option><option value="mixed">Crânio seco / composição mista</option><option value="illustration">Esquema desenhado</option></select></label>
+        <label>Visualização<select id="photo-view-type"><option value="all">Fotos e pranchas</option><option value="photo">Fotos individuais</option><option value="sheet">Pranchas completas</option><option value="illustration">Esquema</option></select></label>
+        <button id="photo-reset" type="button" class="action">Limpar filtros</button>
+      </form>
+      <p class="photo-label-note" id="photo-label-note">Os nomes e as anotações são os das fontes originais e precisam de conferência anatômica.</p>
+      <p id="photo-status" class="photo-status" role="status" aria-live="polite">Preparando as fotografias…</p>
+      <section class="photo-system-section" aria-labelledby="photos-circulatory-title" id="images-circulatory">
+        <details id="photos-circulatory" open><summary><span><span class="overline">01 / IMAGENS</span><h3 id="photos-circulatory-title">Imagens do circulatório</h3></span><span id="photo-circulatory-count" class="section-photo-count"></span></summary><div id="photo-grid-circulatory" class="photo-grid"></div><button id="photo-more-circulatory" class="action photo-more" type="button" hidden>Mostrar mais do circulatório</button></details>
+      </section>
+      <section class="photo-system-section respiratory" aria-labelledby="photos-respiratory-title" id="images-respiratory">
+        <details id="photos-respiratory"><summary><span><span class="overline">02 / IMAGENS</span><h3 id="photos-respiratory-title">Imagens do respiratório</h3></span><span id="photo-respiratory-count" class="section-photo-count"></span></summary><div id="photo-grid-respiratory" class="photo-grid"></div><button id="photo-more-respiratory" class="action photo-more" type="button" hidden>Mostrar mais do respiratório</button></details>
+      </section>
+      <p id="photo-empty" class="empty-state" hidden>Nenhuma imagem corresponde aos filtros. Tente outro termo ou limpe os filtros.</p>
+      <p id="photo-error" class="empty-state" role="alert" hidden>Não foi possível carregar as fotografias. Reabra o atlas pelo servidor local e tente novamente.</p>
+      <noscript><p class="empty-state">Ative JavaScript para buscar e ampliar as fotos.</p></noscript>
     </section>
 
     <noscript><div class="empty-state"><h2>Consulte os modelos oficiais</h2><p>Ative JavaScript para selecionar e carregar uma peça nesta página, ou abra diretamente a fonte:</p><ul><li><a href="https://sketchfab.com/3d-models/perfusion-fixed-human-heart-anatomy-612-f6d63aea48a14d27969067f2754c2d3b" target="_blank" rel="noopener noreferrer">Coração fixado por perfusão · UMN 612</a></li><li><a href="https://sketchfab.com/3d-models/plastinated-whole-human-heart-188-d4cc3d373db24d3ca9d08907d620d078" target="_blank" rel="noopener noreferrer">Janela do ventrículo direito · UMN 188</a></li><li><a href="https://sketchfab.com/3d-models/plastinated-human-hear-valve-view-heart0064-62abe2315c5648a8abc3d48bcced28bb" target="_blank" rel="noopener noreferrer">Relação entre as quatro valvas · UMN 064</a></li></ul></div></noscript>
   </main>
-  <footer class="page-footer"><span>Modelos originais: VisibleHeartLabs · Universidade de Minnesota</span><span>Referências externas · a observação não altera a cobertura do roteiro local</span></footer>
+  <dialog id="photo-dialog" aria-labelledby="photo-title" class="photo-dialog">
+    <div class="photo-dialog-head"><div><span id="photo-code" class="overline"></span><h2 id="photo-title"></h2></div><button id="photo-close" class="action" type="button" autofocus>Fechar <span aria-hidden="true">×</span></button></div>
+    <div class="photo-dialog-body"><div class="photo-view"><div class="photo-tools"><button id="photo-previous" class="action" type="button" aria-label="Imagem anterior">← Anterior</button><span id="photo-position" role="status"></span><button id="photo-next" class="action" type="button" aria-label="Próxima imagem">Próxima →</button><button id="photo-zoom-out" class="action" type="button" aria-label="Diminuir imagem">−</button><button id="photo-zoom-in" class="action" type="button" aria-label="Ampliar imagem">+</button><button id="photo-fit" class="action" type="button">Ajustar</button><button id="photo-actual" class="action" type="button">Tamanho original</button></div><div id="photo-viewport" class="photo-viewport" tabindex="0" role="region" aria-label="Imagem ampliada; use as barras de rolagem para explorar"><img id="photo-full" alt=""></div><p id="photo-image-status" class="inline-note" role="status" aria-live="polite"></p></div>
+    <aside class="photo-details"><span class="overline">TERMOS DOS RÓTULOS ORIGINAIS</span><div id="photo-terms" class="photo-terms"></div><p id="photo-terms-note" class="inline-note">A lista ajuda a localizar a foto. Os rótulos dos baralhos e do esquema não têm auditoria anatômica individual.</p><dl><dt>Créditos e licença</dt><dd id="photo-license"></dd><dt>Preparação</dt><dd id="photo-preparation"></dd><dt>Origem</dt><dd id="photo-package"></dd><dt>Arquivo original</dt><dd id="photo-source"></dd><dt>Resolução</dt><dd id="photo-resolution"></dd></dl><div class="photo-links"><a id="photo-original-link" class="action" target="_blank" rel="noopener noreferrer">Abrir imagem original ↗</a><a id="photo-parent-link" class="action" hidden>Ver prancha completa e legendas →</a><div id="photo-crop-links" class="photo-links"></div><button id="photo-copy" class="action" type="button">Copiar link desta foto</button><a id="photo-atlas-link" class="action">Comparar no atlas 3D →</a><a id="photo-theory-link" class="action">Revisar a teoria →</a></div></aside></div>
+  </dialog>
+  <footer class="page-footer"><span>Fotografias: créditos junto à imagem · 3D: NIH / Bramlet, Meershoek et al., UMN e UBC / HIVE</span><span>Fontes, licenças e limites acompanham cada referência.</span></footer>
   <script type="module" src="navigation.js"></script>
   <script type="module" src="specimens.js"></script>
+  <script type="module" src="specimen-gallery.js"></script>
 </body>
 </html>

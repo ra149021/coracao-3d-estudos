@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "system": "respiratory",
+  "title": "Referência broncovascular de CT",
+  "description": "Modelo independente com adaptações de impressão; não registra nem substitui as peças do Z-Anatomy.",
+  "parts": [
+    {
+      "id": "rijnstate_broncovascular_model",
+      "label": "Modelo broncovascular de referência · conjunto",
+      "sourceName": "LongSegmentenModel",
+      "group": "referencia",
+      "source": "Meershoek et al., Rijnstate / Radboud (2023)",
+      "license": "CC BY-NC-SA 4.0",
+      "quizEligible": false,
+      "defaultVisible": true,
+      "requirementIds": [],
+      "color": "#c2ad8f",
+      "tissueColor": "#c2ad8f",
+      "vertices": 156279,
+      "triangles": 312856,
+      "bounds": [
+        [
+          -4.688912868499756,
+          -5.180899620056152,
+          -3.2864878177642822
+        ],
+        [
+          4.688912868499756,
+          5.180899620056152,
+          3.2864878177642822
+        ]
+      ],
+      "note": "Reconstrução de CT preparada pelos autores para impressão. Traqueia, brônquios, vasos e contexto cardíaco formam um conjunto sem rótulos individuais. Cores neutras não identificam tecidos."
+    }
+  ],
+  "groups": {
+    "referencia": "Conjunto da fonte"
+  },
+  "mainGroups": [
+    "referencia"
+  ],
+  "translucencyGroups": [],
+  "labelGroups": [],
+  "presets": [
+    {
+      "id": "exterior",
+      "label": "Conjunto original",
+      "groups": [
+        "referencia"
+      ],
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "note": "Modelo monocromático, sem separação editável de vasos, vias aéreas ou segmentos."
+    }
+  ],
+  "model": {
+    "file": "model.glb",
+    "bytes": 7506364,
+    "parts": 1,
+    "triangles": 312856,
+    "sha256": "ccd3875fb64351a8efa4acde7003607013420a8e0c3283ea23e27b7e6ea81a07"
+  },
+  "orientation": {
+    "x": "eixo +X da fonte, lado anatômico não certificado",
+    "y": "eixo +Z da fonte",
+    "z": "eixo −Y da fonte",
+    "transform": {
+      "source_center": [
+        462.6958007815,
+        114.54850387555,
+        4.640129089449999
+      ],
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "signed_scale": [
+        0.05,
+        0.05,
+        -0.05
+      ]
+    },
+    "preserved": "Uma transformação rígida com escala comum; sem registro ao atlas."
+  },
+  "limitations": [
+    "STL sem cores, texturas ou rótulos de tecidos; um grande componente fundido.",
+    "Superfícies manualmente suavizadas e truncadas pelos autores para impressão.",
+    "Entalhes para ímãs pertencem ao artefato didático, não à anatomia.",
+    "Não demonstra pleuras, paredes vasculares ou parênquima segmentar completo.",
+    "Não é um padrão anatômico universal nem soma estruturas à cobertura do roteiro."
+  ],
+  "sources": [
+    {
+      "name": "Meershoek et al. (2023)",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1007%2Fs40670-023-01807-x/MediaObjects/40670_2023_1807_MOESM1_ESM.stl",
+      "bytes": 85083832,
+      "sha256": "cdcc80f0eedf269f45d740c8a9a15a37e491f4ca79fc8a8fa699d9bc891084a3",
+      "license": "CC BY-NC-SA 4.0",
+      "article": "https://doi.org/10.1007/s40670-023-01807-x",
+      "format": "ASCII STL",
+      "triangles": 312856,
+      "unique_vertices": 156279,
+      "finite": true,
+      "bounds_original": [
+        [
+          368.917541504,
+          48.8187484741,
+          -98.9778594971
+        ],
+        [
+          556.474060059,
+          180.278259277,
+          108.258117676
+        ]
+      ],
+      "connected_components": 59,
+      "component_vertex_counts": [
+        155568,
+        95,
+        53,
+        48,
+        43,
+        38,
+        28,
+        21,
+        21,
+        20,
+        19,
+        17,
+        16,
+        15,
+        15,
+        14,
+        14,
+        13,
+        12,
+        12,
+        10,
+        9,
+        8,
+        8,
+        8,
+        7,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "solid_names": [
+        "\"LongSegmentenModel\"\r"
+      ]
+    }
+  ]
+}
