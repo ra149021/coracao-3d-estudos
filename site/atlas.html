@@ -7,6 +7,7 @@
   <title>Coração humano · Atlas cardiorrespiratório</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="cadaver-panel.css">
   <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
 <meta name="description" content="Atlas de estudo de anatomia circulatória e respiratória: modelos 3D, teoria, revisão e aulas da professora Carmem. Projeto de Victor Hugo."></head>
 <body>
@@ -49,21 +50,28 @@
         <canvas id="compass" width="220" height="220" aria-label="Orientação: anterior, posterior, superior, inferior, direita e esquerda do corpo"></canvas>
         <div class="interaction-hint"><span>Arraste <b>girar</b></span><span>Roda <b>zoom</b></span><span>Botão direito <b>mover</b></span><span>Clique <b>selecionar</b></span></div>
       </div>
+      <p id="label-status" class="control-help" hidden></p>
+      <button id="scene-controls-return" class="button" hidden>Voltar aos controles</button>
       <div class="view-bar"><span>VISTAS</span><div role="group" aria-label="Vistas anatômicas"><button data-view="anterior">Anterior</button><button data-view="posterior">Posterior</button><button data-view="direita">Direita</button><button data-view="esquerda">Esquerda</button><button data-view="superior">Superior</button></div><button id="reset" class="text-button" title="Restaurar todas as peças, a câmera e os controles">↺ Restaurar</button></div>
       <div class="study-note"><span class="note-mark">i</span><p><strong>Estudo prático em construção.</strong> Há peças internas ausentes ou simplificadas. <button class="text-button" id="limits-link">Ver o que falta</button></p></div>
     </section>
 
     <aside class="inspector" aria-label="Informações e controles">
+      <button id="scene-result" class="button primary">Ver resultado na cena</button>
       <section class="panel selection-panel">
         <div class="panel-heading"><h2>Em foco</h2><button id="clear-selection" class="text-button" hidden>Limpar</button></div>
         <div id="selection-empty"><div class="selection-symbol">◎</div><h3>Conheça cada estrutura</h3><p>Selecione uma peça no coração ou na lista para destacá-la e explorar suas relações.</p></div>
         <div id="selection-detail" hidden>
-          <span id="selection-category" class="eyebrow"></span><h3 id="selection-title"></h3><p id="selection-description"></p>
+          <span id="selection-category" class="eyebrow"></span><h3 id="selection-title"></h3><p id="selection-description"></p><p id="selection-policy" class="control-help"></p>
           <div class="selection-buttons"><button id="focus-part" class="button primary">Aproximar</button><button id="isolate-part" class="button">Isolar</button><button id="hide-part" class="button">Ocultar</button></div>
+          <div id="selection-relations" class="selection-relations" hidden></div>
           <div class="source-reference"><span id="selection-requirement"></span><details><summary>Identificação na fonte</summary><p id="selection-source"></p></details></div>
         </div>
+        <button id="restore-context" class="button" hidden>Voltar ao contexto anterior</button>
       </section>
 
+      <div id="cadaver-host"></div>
+      <section id="reading-context" class="panel selection-panel" aria-label="Leitura relacionada"></section>
       <section class="panel controls-panel">
         <div class="panel-heading"><h2>Visualização</h2><span class="eyebrow">AJUSTAR</span></div>
         <label class="control-label" for="palette">Cores</label><div class="select-wrap"><select id="palette"><option value="tissue">Tons de tecido</option><option value="didactic">Cores por estrutura</option></select></div><p class="control-help">Paletas ilustrativas; não são texturas de tecido real.</p>

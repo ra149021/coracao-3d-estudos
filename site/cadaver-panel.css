@@ -1,0 +1,13 @@
+.cadaver-panel { min-width: 0; padding: 1rem; border: 1px solid #64748b; border-radius: .75rem; overflow-wrap: anywhere; }
+.cadaver-panel *, .cadaver-panel-dialog * { box-sizing: border-box; }
+.cadaver-panel figure { margin: 1rem 0; }
+.cadaver-panel img { display: block; width: 100%; height: auto; object-fit: contain; }
+.cadaver-panel [hidden] { display: none !important; }
+.cadaver-panel figcaption { font-weight: 600; margin-top: .5rem; }
+.cadaver-panel button { cursor: pointer; max-width: 100%; white-space: normal; padding: .65rem .8rem; border: 1px solid #64748b; border-radius: .4rem; font: inherit; color: inherit; background: transparent; }
+.cadaver-panel button:focus-visible { outline: 3px solid #0ea5e9; outline-offset: 3px; }
+.cadaver-panel-dialog { box-sizing: border-box; width: min(96vw, 1400px); max-width: 96vw; max-height: 94dvh; padding: 1rem; overflow: auto; border: 1px solid #64748b; border-radius: .75rem; background: #111827; color: #f1f5f9; overflow-wrap: anywhere; }
+.cadaver-panel-dialog::backdrop { background: #020617d9; }
+.cadaver-panel-dialog > button { position: sticky; top: 0; background: #111827; margin-bottom: .75rem; }
+.cadaver-panel-dialog img { width: 100%; height: auto; object-fit: contain; }
+@media (max-width: 600px) { .cadaver-panel { padding: .75rem; } .cadaver-panel-dialog { padding: .5rem; } }

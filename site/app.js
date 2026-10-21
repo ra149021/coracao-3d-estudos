@@ -3,6 +3,8 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { initStudy } from './study.js';
 import { createAnatomyRenderer } from './anatomy-renderer.js';
+import { identificationExclusion, practiceParts } from './three-d-policy.js';
+import { mountCadaverPanel } from './cadaver-panel.js';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -10,6 +12,8 @@ const respiratory = params.get('system') === 'respiratory';
 const larynx = respiratory && params.get('detail') === 'larynx';
 const hraHeart = !respiratory && params.get('detail') === 'hra';
 const system = respiratory ? 'respiratory' : 'circulatory';
+const activeModelId = hraHeart ? 'hra' : larynx ? 'larynx' : respiratory ? 'respiratory' : 'heart';
+const cadaverPanel = mountCadaverPanel($('cadaver-host'));
 const assetRoot = hraHeart ? 'assets/heart-hra/' : larynx ? 'assets/larynx/' : respiratory ? 'assets/respiratory/' : 'assets/';
 const contentRoot = respiratory ? 'assets/respiratory/' : 'assets/';
 const modelFile = respiratory || hraHeart ? 'model.glb' : 'heart.glb';
@@ -36,10 +40,47 @@ const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(34, 1, 0.01, 150);
 const fullBounds = new THREE.Box3();
 let renderer, anatomyRenderer, controls, catalog, entries = [], studyViews = [], moveAnimation = null;
+let contextModel = null, contextViews = [], contextStatus = 'not-applicable';
 let frameRequested = false, lastTime = 0, dragging = false, pointerStart = null;
 const pickListeners = new Set();
+let isolationContext = null;
+let readingChapters = [], readingAvailable = false;
+
+function updateReadingContext() {
+  const host = $('reading-context');
+  const ids = new Set(state.selected ? [state.selected] : entries.filter(p => meshes.get(p.id)?.visible).map(p => p.id));
+  const matches = readingChapters.filter(c => c.partIds?.some(id => ids.has(id)));
+  host.replaceChildren();
+  const heading = document.createElement('h2'); heading.textContent = 'Leitura relacionada'; host.append(heading);
+  const note = document.createElement('p'); note.className = 'control-help';
+  note.textContent = matches.length ? 'Unidades associadas pelos mesmos partIds da base; não validam todos os detalhes da malha.' :
+    readingAvailable ? 'Sem correspondência exata de partId para esta seleção/cena. Não inferimos equivalência pelo nome.' : 'Base de leitura indisponível; acesso geral ao sistema abaixo.';
+  host.append(note);
+  for (const chapter of matches) {
+    const a = document.createElement('a'); a.className = 'reading-context-link'; a.dataset.chapter = chapter.id;
+    a.href = `theory.html?system=${system}&chapter=${encodeURIComponent(chapter.id)}`;
+    a.textContent = chapter.title; host.append(a);
+  }
+  if (!matches.length) {
+    const a = document.createElement('a'); a.href = `theory.html?system=${system}`; a.textContent = 'Abrir leitura geral deste sistema'; host.append(a);
+  }
+}
+
+// Preserve the assembled source relationship, camera and cut before isolation.
+// Repeated isolations keep the original context rather than a one-piece scene.
+function isolatePart(id) {
+  if (!meshes.has(id)) return;
+  if (!isolationContext) isolationContext = window.heartViewer.snapshot();
+  $('restore-context').hidden = false;
+  entries.forEach(part => { meshes.get(part.id).visible = part.id === id; });
+  selectPart(id);
+  state.clipping = false;
+  updateClipping(); syncVisibility(); stopAutoRotate();
+  cameraTo(currentBounds());
+}
 
 function fail(error) {
+  cadaverPanel.clear();
   console.error(error);
   $('loading').hidden = true;
   $('viewer-error').hidden = false;
@@ -104,6 +145,7 @@ function updateClipping() {
 }
 
 function syncVisibility() {
+  updateReadingContext();
   const visible = entries.filter(p => meshes.get(p.id).visible).length;
   if(state.ready)anatomyRenderer.setScale(currentBounds());
   $('visible-count').textContent = `${visible} de ${entries.length} visíveis`;
@@ -156,7 +198,24 @@ function selectPart(id, scroll = false) {
     $('selection-category').textContent = groups[part.group];
     $('selection-title').textContent = part.label;
     $('selection-description').textContent = part.note;
+    $('selection-policy').textContent = identificationExclusion(part) || 'Elegível ao treino no nível desta peça; isso não certifica detalhes internos ausentes.';
     $('selection-source').textContent = `${part.sourceName} · ${part.sourceFile} · ${part.source} / ${part.license}. Identificação do arquivo; revisão anatômica integral pendente.`;
+    const relationships = $('selection-relations');
+    relationships.replaceChildren();
+    const regions = studyViews.filter(view => view.partIds.includes(id));
+    relationships.hidden = regions.length === 0;
+    if (regions.length) {
+      const heading = document.createElement('p');
+      heading.textContent = 'Ver esta peça em relação às estruturas da região (vistas do roteiro):';
+      relationships.append(heading);
+      for (const region of regions) {
+        const button = document.createElement('button');
+        button.type = 'button'; button.className = 'button';
+        button.dataset.region = region.id; button.textContent = region.label;
+        button.addEventListener('click', () => preset(region.id));
+        relationships.append(button);
+      }
+    }
     const ref = part.requirement;
     $('selection-requirement').textContent = ref ? `${ref.source === 'roteiro' ? 'Roteiro' : 'Slides'} · item ${ref.id} · página ${ref.page}` : 'Peça complementar da fonte';
     if (scroll) {
@@ -167,6 +226,8 @@ function selectPart(id, scroll = false) {
   }
   refreshMaterials();
   syncVisibility();
+  if (id && !state.examMode) cadaverPanel.setSelection({modelId: activeModelId, system, partId: id});
+  else cadaverPanel.clear();
 }
 
 function currentBounds(predicate = () => true) {
@@ -248,10 +309,11 @@ function preset(name, animate = true) {
   stopAutoRotate();
   $('view-name').textContent = custom ? `${custom.label} · vista de estudo` : name === 'valvas' ? 'Valvas · vista oblíqua' : 'Vista anterior oblíqua';
   activeView();
-  cameraTo(currentBounds(), custom?.direction || (name === 'valvas' ? [0.45, 0.65, 1] : [0.26, 0.12, 1]), animate);
+  cameraTo(currentBounds(part => !custom?.focusPartIds || custom.focusPartIds.includes(part.id)), custom?.direction || (name === 'valvas' ? [0.45, 0.65, 1] : [0.26, 0.12, 1]), animate);
 }
 
 function reset() {
+  isolationContext = null; $('restore-context').hidden = true;
   $('search').value = '';
   state.palette = 'tissue'; $('palette').value = 'tissue';
   state.light='relief';state.depth=true;$('light-profile').value=state.light;$('depth-shading').checked=true;anatomyRenderer.setProfile(state.light);
@@ -286,18 +348,35 @@ function render(now) {
 }
 
 function updateLabels() {
-  for (const [id, label] of labels) {
-    const mesh = meshes.get(id);
+  if (!catalog || !state.ready) return; // Catalog can arrive before GLB meshes are ready.
+  const view = studyViews.find(v => v.id === state.preset) || catalog.presets?.find(v => v.id === state.preset);
+  const targetGroups = view?.groups || (state.preset === 'valvas' ? ['valvas', 'papilares'] : []);
+  const targets = new Set(view?.focusPartIds || view?.partIds || entries.filter(p => targetGroups.includes(p.group)).map(p => p.id));
+  const defaults = catalog.labelGroups || ['camaras'];
+  const candidates = entries.filter(p => meshes.get(p.id).visible &&
+    (p.id === state.selected || targets.has(p.id) || (!targets.size && defaults.includes(p.group))));
+  candidates.sort((a, b) => Number(b.id === state.selected) - Number(a.id === state.selected) ||
+    Number(targets.has(b.id)) - Number(targets.has(a.id)));
+  for (const label of labels.values()) label.hidden = true;
+  let omitted = 0;
+  const placed = [];
+  if (state.labels) for (const part of candidates) {
+    const mesh = meshes.get(part.id), label = labels.get(part.id);
+    // This is the original bounding-box center, NOT a new anatomical landmark or surface pick.
     const center = mesh.geometry.boundingBox.getCenter(new THREE.Vector3());
-    const visible = state.labels && mesh.visible && (!state.clipping || clipPlane.distanceToPoint(center) >= 0);
-    label.hidden = !visible;
-    if (!visible) continue;
     const projected = center.clone().project(camera);
-    label.hidden = projected.z < -1 || projected.z > 1 || Math.abs(projected.x) > 1 || Math.abs(projected.y) > 1;
-    // Label chamber centroids; no claim that the label marks an independently segmented substructure.
+    if ((state.clipping && clipPlane.distanceToPoint(center) < 0) || projected.z < -1 || projected.z > 1) { omitted++; continue; }
+    label.hidden = false;
+    label.classList.toggle('is-selected', part.id === state.selected);
     label.style.left = `${(projected.x * .5 + .5) * viewer.clientWidth}px`;
     label.style.top = `${(-projected.y * .5 + .5) * viewer.clientHeight}px`;
+    const r = label.getBoundingClientRect(), host = viewer.getBoundingClientRect();
+    const fits = r.left >= host.left + 8 && r.right <= host.right - 8 && r.top >= host.top + 100 && r.bottom <= host.bottom - 100;
+    const collision = placed.some(b => r.left < b.right + 4 && r.right + 4 > b.left && r.top < b.bottom + 4 && r.bottom + 4 > b.top);
+    if (!fits || collision) { label.hidden = true; omitted++; } else placed.push(r);
   }
+  $('label-status').hidden = !state.labels;
+  $('label-status').textContent = state.labels ? `${placed.length} nomes · ${omitted} omitidos por espaço/corte/enquadramento. Prioridade: seleção e alvos da vista. Referência: centro geométrico, não prova de superfície exposta. Selecione na lista para destacar.` : '';
 }
 
 function drawCompass() {
@@ -331,6 +410,19 @@ function hitsAt(event) {
 }
 
 function attachEvents() {
+  let controlScroll = 0;
+  $('scene-result').addEventListener('click', () => {
+    controlScroll = window.scrollY;
+    $('scene-controls-return').hidden = false;
+    viewer.scrollIntoView({block: 'start', behavior: 'instant'});
+    canvas.focus({preventScroll: true});
+  });
+  $('scene-controls-return').addEventListener('click', () => {
+    window.scrollTo({top: controlScroll, behavior: 'instant'});
+    $('scene-result').focus({preventScroll: true});
+  });
+  $('labels').title = 'Nomes: seleção e alvos da vista';
+  $('labels').setAttribute('aria-label', 'Nomes: seleção e alvos da vista');
   $('light-profile').addEventListener('change',()=>{state.light=$('light-profile').value;anatomyRenderer.setProfile(state.light);requestFrame();});
   $('depth-shading').addEventListener('change',()=>{state.depth=$('depth-shading').checked;requestFrame();});
   $('structure-list').addEventListener('click', event => {
@@ -361,11 +453,12 @@ function attachEvents() {
   $('show-all').addEventListener('click', () => {entries.forEach(p => meshes.get(p.id).visible = true); selectPart(null); syncVisibility(); cameraTo(currentBounds());});
   $('clear-selection').addEventListener('click', () => selectPart(null));
   $('focus-part').addEventListener('click', () => {if (state.selected) cameraTo(meshes.get(state.selected).geometry.boundingBox);});
-  $('isolate-part').addEventListener('click', () => {
-    if (!state.selected) return;
-    entries.forEach(p => meshes.get(p.id).visible = p.id === state.selected);
-    state.clipping = false; updateClipping(); syncVisibility();
-    cameraTo(currentBounds());
+  $('isolate-part').addEventListener('click', () => isolatePart(state.selected));
+  $('restore-context').addEventListener('click', () => {
+    if (!isolationContext) return;
+    const previous = isolationContext;
+    isolationContext = null; $('restore-context').hidden = true;
+    window.heartViewer.restore(previous);
   });
   $('hide-part').addEventListener('click', () => {if (state.selected) meshes.get(state.selected).visible = false; selectPart(null);});
   document.querySelectorAll('[data-preset]').forEach(b => b.addEventListener('click', () => preset(b.dataset.preset)));
@@ -421,6 +514,7 @@ function attachEvents() {
   canvas.addEventListener('pointercancel', () => {pointerStart=null; dragging=false;});
   canvas.addEventListener('pointerleave', () => { $('hover-label').hidden=true; });
   canvas.addEventListener('keydown', event => {
+    if (document.querySelector('.cadaver-panel-dialog[open]')) return;
     if (event.key === 'Escape') {if (!state.examMode) selectPart(null); return;}
     const angle = Math.PI / 24;
     if (['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','+','=','-','_'].includes(event.key)) {
@@ -521,6 +615,28 @@ function configureSystem() {
     for(const node of document.querySelector('.structure-footer').childNodes)if(node.nodeType===Node.TEXT_NODE&&node.textContent.includes('Z-Anatomy'))node.textContent=' Human Reference Atlas ';
     $('about').querySelector('.credit').innerHTML='Human Reference Atlas / HuBMAP, modelo Heart Male disponibilizado pelo NIH 3D. <a href="assets/heart-hra/ATTRIBUTION.md" target="_blank" rel="noopener">Atribuição, origem e alterações</a> · CC BY 4.0. Three.js: MIT.';
   }
+  const ctLink = document.createElement('a');
+  ctLink.className = 'reference-link';
+  ctLink.href = respiratory ? 'ct-reference.html?model=lung' : 'ct-reference.html?model=heart';
+  // Static authored markup only; no external data is inserted as HTML.
+  ctLink.innerHTML = '<span>COMPARAR FORMAS E RELAÇÕES</span><strong>Reconstrução de CT local ↗</strong><small>Outro caso, sem segmentação individual. Não substitui o atlas; fonte, licença e limites explícitos.</small>';
+  document.querySelector('.reference-link').before(ctLink);
+  if (respiratory && !larynx) {
+    const note = document.createElement('p');
+    note.id = 'context-note'; note.className = 'control-help'; note.setAttribute('role', 'status');
+    note.textContent = contextStatus === 'loaded'
+      ? '175 peças originais + 15 peças prontas recuperadas do mesmo acervo. Nenhuma anatomia gerada; revisão integral pendente. '
+      : contextStatus === 'fallback'
+        ? 'Contexto adicional indisponível; as 175 peças do modelo original foram preservadas. '
+        : 'Modo original de 175 peças; o contexto adicional está desativado. ';
+    const credits = document.createElement('a');
+    credits.href = 'assets/respiratory-context/NOTICE.md'; credits.textContent = 'Origem e licença';
+    const toggle = document.createElement('a');
+    toggle.href = contextStatus === 'loaded' ? 'atlas.html?system=respiratory&context=off' : 'atlas.html?system=respiratory';
+    toggle.textContent = contextStatus === 'loaded' ? 'Somente modelo original' : 'Tentar contexto pronto';
+    note.append(credits, ' · ', toggle);
+    document.querySelector('.study-note').after(note);
+  }
   document.querySelector('.footer>span').textContent='Atlas de estudo · '+title+' / v0.4';
 }
 
@@ -554,20 +670,54 @@ async function init() {
   const response = await fetch(assetRoot+'catalog.json');
   if (!response.ok) throw new Error('O catálogo local não foi encontrado. Reabra pelo iniciador do projeto.');
   catalog = await response.json(); entries = catalog.parts;
+  // Optional lossless subset from the same recovered coordinate system. The
+  // original catalog/model remain untouched and usable via ?context=off.
+  if (respiratory && !larynx) {
+    contextStatus = 'disabled';
+    if (params.get('context') !== 'off') {
+      try {
+        const contextResponse = await fetch('assets/respiratory-context/parts.json');
+        if (!contextResponse.ok) throw new Error('Metadados de contexto indisponíveis');
+        const extra = await contextResponse.json();
+        const loaded = await new GLTFLoader().loadAsync('assets/respiratory-context/model.glb');
+        const ids = [];
+        loaded.scene.traverse(node => { if (node.isMesh) ids.push(node.userData.partId || node.name); });
+        if (ids.length !== extra.parts.length || new Set(ids).size !== ids.length ||
+            extra.parts.some(part => !ids.includes(part.id) || entries.some(base => base.id === part.id))) {
+          throw new Error('Identidade das peças adicionais incompatível');
+        }
+        contextModel = loaded.scene; contextViews = extra.views;
+        entries = [...entries, ...extra.parts];
+        const sources = [...catalog.sources, ...extra.sources];
+        catalog = {...catalog, parts: entries, groups: {...catalog.groups, ...extra.groups},
+          sources: sources.filter((source, index) => sources.findIndex(item => item.url === source.url) === index),
+          limitations: [...catalog.limitations, ...extra.limitations]};
+        contextStatus = 'loaded';
+      } catch (error) {
+        contextStatus = 'fallback';
+        console.warn('Contexto adicional indisponível; modelo original de 175 peças preservado.', error);
+      }
+    }
+  }
   if(catalog.groups){for(const key of Object.keys(groups))delete groups[key];Object.assign(groups,catalog.groups);}
   if(!larynx && !hraHeart){
     try {
       const viewsResponse=await fetch('assets/study-views.json');
       if(!viewsResponse.ok)throw new Error('Vistas de estudo indisponíveis');
       const views=await viewsResponse.json();
-      studyViews=(views[system] || []).filter(view=>view.partIds.every(id=>entries.some(p=>p.id===id)));
+      studyViews=[...(views[system] || []), ...contextViews].filter(view=>view.partIds.every(id=>entries.some(p=>p.id===id)));
     } catch(error){console.warn('Vistas complementares não carregadas:',error);}
   }
   configureSystem();
+  try {
+    const response = await fetch(respiratory ? 'assets/respiratory/theory.json' : 'assets/circulatory-theory.json');
+    if (response.ok) { readingChapters = (await response.json()).chapters || []; readingAvailable = true; }
+  } catch (error) { console.warn('Leitura contextual indisponível', error); }
   addStudyViews();
   $('limitations-list').innerHTML = catalog.limitations.map(t=>`<li>${escapeHTML(t)}</li>`).join('');
   $('sources-list').innerHTML = catalog.sources.map(s=>`<li><a href="${escapeHTML(s.url)}" target="_blank" rel="noopener">${escapeHTML(s.label || s.name || s.url)}</a></li>`).join('');
   const gltf = await new GLTFLoader().loadAsync(assetRoot+modelFile, event => {if(event.total) $('loading-progress').textContent=`Carregando peças locais · ${Math.round(event.loaded/event.total*100)}%`;});
+  if (contextModel) gltf.scene.add(contextModel);
   gltf.scene.traverse(object=> {
     if (!object.isMesh) return;
     const part=entries.find(p=>p.id===object.userData.partId || p.id===object.name);
@@ -577,8 +727,8 @@ async function init() {
     object.geometry.computeBoundingBox(); object.geometry.computeBoundingSphere();
     if(part.defaultVisible !== false)fullBounds.union(object.geometry.boundingBox);
     meshes.set(part.id,object);
-    if((catalog.labelGroups || ['camaras']).includes(part.group)) {
-      const label=document.createElement('span'); label.className='mesh-label';label.textContent=part.label;label.hidden=true;
+    {
+      const label=document.createElement('span'); label.className='mesh-label';label.dataset.partId=part.id;label.textContent=part.label;label.hidden=true;
       $('labels-layer').appendChild(label); labels.set(part.id,label);
     }
   });
@@ -597,7 +747,7 @@ async function init() {
     clipping:state.clipping,axis:state.axis,cut:state.cut,flipped:state.flipped,transparency:state.transparency,
     autoRotate:controls.autoRotate,labels:state.labels,palette:state.palette,light:state.light,depth:state.depth,shading:anatomyRenderer.snapshot(),
     drawCalls:renderer.info.render.calls,triangles:renderer.info.render.triangles,
-    modelBytes:catalog.model.bytes,gl:renderer.getContext().getParameter(renderer.getContext().VERSION),
+    modelBytes:catalog.model.bytes,contextStatus,gl:renderer.getContext().getParameter(renderer.getContext().VERSION),
     visibleParts:entries.filter(p=>meshes.get(p.id).visible).map(p=>p.id),
     viewName:$('view-name').textContent, modeNote:$('mode-note').textContent,examMode:state.examMode,
     activeView:document.querySelector('[data-view].active')?.dataset.view || null,
@@ -616,7 +766,7 @@ async function init() {
     showAll:()=>{entries.forEach(p=>meshes.get(p.id).visible=true);syncVisibility();},
     showContext:()=>preset(respiratory?'torax':'contexto',false),
     showHeart:()=>preset('exterior',false),
-    isolate:id=>{if(!meshes.has(id))return;entries.forEach(p=>meshes.get(p.id).visible=p.id===id);selectPart(id);syncVisibility();},
+    isolate:isolatePart,
     view:name=>{
       const direction={anterior:[0,0,1],posterior:[0,0,-1],direita:[-1,0,0],esquerda:[1,0,0],superior:[0,1,.001]}[name];
       if(direction){stopAutoRotate();cameraTo(currentBounds(),direction,false);$('view-name').textContent=`Vista ${name}`;activeView(name);}
@@ -625,6 +775,7 @@ async function init() {
     labels:enabled=>{state.labels=Boolean(enabled);$('labels').setAttribute('aria-pressed',String(state.labels));requestFrame();},
     setExamMode:enabled=>{
       state.examMode=Boolean(enabled);
+      cadaverPanel.clear();
       document.body.classList.toggle('exam-mode',state.examMode);
       document.querySelector('.structures').inert=state.examMode;
       document.querySelector('.inspector').inert=state.examMode;
@@ -670,7 +821,10 @@ async function init() {
       const evidenceResponse=await fetch(contentRoot+'practice-evidence.json');
       if(evidenceResponse.ok)evidence=await evidenceResponse.json();
     } catch(error) { console.warn('Referências de aula indisponíveis nesta abertura.',error); }
-    initStudy({guidedViews:studyViews,parts:entries,requirements:requirements.alvos,viewer:viewerAPI,evidence,system,storageId:hraHeart?'heart-hra':larynx?'larynx':system,groupNames:groups,scopeNote:requirements.scopeNote || requirements.metodo?.oficialidade});
+    initStudy({guidedViews:studyViews,parts:practiceParts(entries),requirements:requirements.alvos,viewer:viewerAPI,evidence,system,storageId:hraHeart?'heart-hra':larynx?'larynx':system,groupNames:groups,scopeNote:requirements.scopeNote || requirements.metodo?.oficialidade});
+    const policyNote = document.createElement('p'); policyNote.className = 'control-help';
+    policyNote.textContent = 'Política de identificação/encontrar: conjuntos agregados e peças explicitamente ambíguas ficam fora das rodadas, inclusive retomadas. Permanecem disponíveis na exploração; metadados originais preservados.';
+    $('study-setup').querySelector('form').before(policyNote);
     const requestedView=params.get('preset');
     if(studyViews.some(v=>v.id===requestedView))preset(requestedView,false);
     const requestedPart=new URLSearchParams(location.search).get('part');

@@ -1,0 +1,107 @@
+{
+  "title": "Prioridades de revisão",
+  "scope": "Este percurso organiza a anatomia do acervo; não confirma o programa nem prevê as questões da prova. Histologia e Embriologia precisam de escopo próprio se fizerem parte da avaliação.",
+  "method": "Observe o trajeto. Explique a relação. Tente responder antes de conferir. Se travar, abra a unidade indicada e volte à mesma pergunta.",
+  "topics": [
+    {
+      "id": "sangue", "title": "Reconstrua o percurso do sangue", "group": "Base para integrar os sistemas",
+      "why": "Antes dos nomes isolados, construa o circuito. Cada câmara e valva passa a ter um lugar e uma função no trajeto.",
+      "flowLabel": "Percurso simplificado do sangue no adulto, não posição anatômica",
+      "flow": ["Corpo → cavas → átrio direito", "Tricúspide → ventrículo direito", "Valva pulmonar → artérias pulmonares → pulmões", "Veias pulmonares → átrio esquerdo", "Mitral → ventrículo esquerdo", "Valva aórtica → aorta → corpo"],
+      "targets": ["Dizer por quais câmaras, valvas e vasos o sangue passa.", "Separar direção do fluxo de teor de oxigênio.", "Explicar por que os ventrículos ejetam volumes médios equivalentes, mas trabalham contra pressões diferentes."],
+      "pitfall": "Artéria não é sinônimo de sangue oxigenado. A palavra descreve a direção para fora do coração.",
+      "chapters": [["circulatory", "circ-circuitos"], ["circulatory", "circ-parede"], ["respiratory", "resp_11"]],
+      "questions": [["circulatory", "circ-q02"], ["circulatory", "circ-q01"], ["circulatory", "circ-q05"]]
+    },
+    {
+      "id": "peca-coracao", "title": "Oriente o coração antes de nomear", "group": "Coração: reconhecimento e relações",
+      "why": "A mesma estrutura muda de aparência quando você gira a peça. Use faces, sulcos e conexões, não apenas a cor do modelo.",
+      "flowLabel": "Roteiro de observação; as setas indicam ordem do estudo",
+      "flow": ["Defina anterior, posterior e inferior", "Localize ápice e base", "Reconheça câmaras e grandes vasos", "Abra a cavidade e procure os marcos internos"],
+      "targets": ["Associar ápice ao ventrículo esquerdo, base principalmente ao átrio esquerdo e face anterior predominantemente ao ventrículo direito.", "Distinguir músculos pectíneos, trabéculas cárneas, músculos papilares e cordas.", "Usar os óstios e as conexões para identificar uma câmara."],
+      "pitfall": "Direita e esquerda são as do corpo estudado; não necessariamente as da sua tela.",
+      "chapters": [["circulatory", "circ-orientacao"], ["circulatory", "circ-atrios"], ["circulatory", "circ-ventriculos"]],
+      "questions": [["circulatory", "circ-q03"], ["circulatory", "circ-q10"], ["circulatory", "circ-q12"]]
+    },
+    {
+      "id": "valvas", "title": "Explique como a bomba mantém a direção", "group": "Coração: mecanismo",
+      "why": "Conecte pressão, abertura das valvas e contração. Memorizar só o nome da valva não explica por que o sangue avança.",
+      "flowLabel": "Relação causal simplificada durante a contração ventricular",
+      "flow": ["Ativação elétrica precede a contração", "Pressão ventricular supera a atrial → fechamento das valvas AV", "Breve fase com todas as valvas fechadas", "Pressão ventricular supera a arterial → abertura das semilunares"],
+      "targets": ["Diferenciar valvas atrioventriculares e semilunares.", "Explicar a função das cordas e músculos papilares sem atribuir a eles a abertura valvar.", "Reconstruir a sequência de condução e distinguir automatismo de modulação autonômica."],
+      "pitfall": "Na contração isovolumétrica, o ventrículo aumenta a pressão sem ejetar sangue: todas as valvas estão fechadas.",
+      "chapters": [["circulatory", "circ-valvas"], ["circulatory", "circ-ventriculos"], ["circulatory", "circ-conducao"]],
+      "questions": [["circulatory", "circ-q13"], ["circulatory", "circ-q39"], ["circulatory", "circ-q18"], ["circulatory", "circ-q17"]]
+    },
+    {
+      "id": "coronarias", "title": "Separe circulação das câmaras e nutrição da parede", "group": "Coração: irrigação e drenagem",
+      "why": "O miocárdio não é nutrido simplesmente pelo sangue que passa dentro das cavidades. Siga a circulação coronariana como um circuito próprio.",
+      "flowLabel": "Trajeto principal simplificado; existem vias alternativas de drenagem",
+      "flow": ["Raiz da aorta → coronárias direita e esquerda", "Ramos coronarianos → microcirculação do miocárdio", "Veias cardíacas → principalmente seio coronário", "Seio coronário → átrio direito"],
+      "targets": ["Localizar interventricular anterior, circunflexo e interventricular posterior e relacioná-los aos sulcos.", "Definir dominância pela origem do ramo interventricular posterior.", "Distinguir drenagem pelo seio coronário das veias que desembocam diretamente nas câmaras."],
+      "pitfall": "Dominância não quer dizer que uma coronária irriga todo o coração. Grandes vasos coronários normalmente têm trajeto subepicárdico; uma ponte miocárdica é um trecho recoberto por miocárdio.",
+      "chapters": [["circulatory", "circ-coronarias"], ["circulatory", "circ-veias"]],
+      "questions": [["circulatory", "circ-q20"], ["circulatory", "circ-q41"], ["circulatory", "circ-q43"]]
+    },
+    {
+      "id": "vias-superiores", "title": "Conecte nariz, faringe e laringe", "group": "Respiratório: caminho do ar",
+      "why": "Aprenda os espaços e suas comunicações. Na laringe, conecte cartilagens, movimento das pregas e passagem do ar.",
+      "flowLabel": "Percurso simplificado do ar; não representa drenagem dos seios",
+      "flow": ["Cavidade nasal → cóanos", "Nasofaringe → orofaringe → laringofaringe", "Ádito e cavidade da laringe", "Traqueia"],
+      "targets": ["Diferenciar conchas de meatos e localizar as drenagens nasais principais.", "Separar os compartimentos da faringe e a comunicação com a tuba auditiva.", "Reconhecer cartilagens laríngeas, pregas vestibulares e vocais e o músculo que abduz as pregas vocais."],
+      "pitfall": "A prega vestibular não é a prega vocal. Nomear uma cartilagem não substitui explicar como sua articulação permite o movimento.",
+      "chapters": [["respiratory", "resp_02"], ["respiratory", "resp_03"], ["respiratory", "resp_04"], ["respiratory", "resp_05"], ["respiratory", "resp_06"]],
+      "questions": [["respiratory", "resp_03_q01"], ["respiratory", "resp_04_q02"], ["respiratory", "resp_06_q03"], ["respiratory", "resp_06_q07"]]
+    },
+    {
+      "id": "arvore", "title": "Relacione cada ramo ao território ventilado", "group": "Respiratório: árvore brônquica",
+      "why": "A árvore não é uma lista de tubos: cada nível de ramificação organiza o território que recebe ar.",
+      "flowLabel": "Hierarquia simplificada das vias aéreas",
+      "flow": ["Traqueia → brônquios principais", "Brônquios lobares → lobos", "Brônquios segmentares → segmentos", "Bronquíolos terminais: fim da zona condutora", "Bronquíolos respiratórios e região alveolar: início das trocas"],
+      "targets": ["Comparar os brônquios principais direito e esquerdo e relacionar a anatomia à aspiração.", "Distinguir lobo, segmento e o brônquio correspondente.", "Localizar a transição condutora/respiratória e não a confundir com superior/inferior."],
+      "pitfall": "Língula é parte do lobo superior esquerdo; não é um terceiro lobo. Use a nomenclatura segmentar adotada na aula.",
+      "chapters": [["respiratory", "resp_01"], ["respiratory", "resp_07"], ["respiratory", "resp_08"]],
+      "questions": [["respiratory", "resp_07_q05"], ["respiratory", "resp_08_q02"], ["respiratory", "resp_08_q05"], ["respiratory", "resp_01_q01"]]
+    },
+    {
+      "id": "pulmoes", "title": "Diferencie pulmões, hilo e raiz", "group": "Respiratório: reconhecimento e relações",
+      "why": "Oriente a peça pelas fissuras, faces e impressões. Depois identifique por onde entram e saem ar, sangue e linfa.",
+      "flowLabel": "Ordem de observação; não é percurso de sangue ou ar",
+      "flow": ["Identifique lado, ápice e base", "Procure lobos, fissuras e faces", "Observe a face mediastinal e o hilo", "Diferencie brônquios, artérias e veias da raiz"],
+      "targets": ["Justificar o lado do pulmão com mais de um marco anatômico.", "Explicar a diferença entre hilo e raiz.", "Separar circulação pulmonar e brônquica e relacionar as estruturas aos vizinhos mediastinais."],
+      "pitfall": "O hilo é a região de passagem; a raiz é o conjunto de estruturas que faz a conexão. Cor artificial sozinha não identifica um vaso.",
+      "chapters": [["respiratory", "resp_09"], ["respiratory", "resp_11"]],
+      "questions": [["respiratory", "resp_09_q03"], ["respiratory", "resp_09_q06"], ["respiratory", "resp_11_q01"]]
+    },
+    {
+      "id": "pleura", "title": "Entenda por que o pulmão acompanha o tórax", "group": "Integração cardiorrespiratória",
+      "why": "Conecte pleuras, mecânica ventilatória e perfusão. Assim você consegue explicar o mecanismo em vez de decorar uma definição de pneumotórax.",
+      "flowLabel": "Cadeia causal da inspiração tranquila, simplificada",
+      "flow": ["Diafragma contrai → volume torácico aumenta", "Acoplamento pleural favorece a expansão pulmonar", "Pressão alveolar cai momentaneamente abaixo da atmosférica", "Ar entra até as pressões se igualarem"],
+      "targets": ["Distinguir pleura parietal, visceral, cavidade e recessos.", "Explicar como ar no espaço pleural compromete o acoplamento mecânico.", "Diferenciar ventilação, perfusão e difusão e explicar a função do surfactante."],
+      "pitfall": "O espaço pleural normal não contém ar. Surfactante atua na interface ar-líquido alveolar, não como lubrificante da pleura.",
+      "chapters": [["respiratory", "resp_10"], ["respiratory", "resp_12"], ["respiratory", "resp_01"]],
+      "questions": [["respiratory", "resp_10_q06"], ["respiratory", "resp_10_q04"], ["respiratory", "resp_12_q03"], ["respiratory", "resp_01_q02"]]
+    },
+    {
+      "id": "vasos", "title": "Revise vasos e relações do pericárdio", "group": "Complemento: confira no seu roteiro",
+      "why": "Depois da base, use o roteiro da prática para decidir quais vasos e relações precisam de reconhecimento específico.",
+      "flowLabel": "Perguntas para descrever um vaso; não é trajeto anatômico",
+      "flow": ["Onde começa?", "Por onde passa e com o que se relaciona?", "Quais ramos ou tributárias?", "Qual território irriga ou drena?"],
+      "targets": ["Reconhecer os ramos principais do arco aórtico e o sistema ázigos.", "Comparar artérias, veias e microcirculação pela estrutura e função.", "Distinguir as lâminas pericárdicas e localizar os seios em relação aos grandes vasos."],
+      "pitfall": "Pericárdio e pleura são compartimentos diferentes. Compare os dois, sem transferir automaticamente os nomes ou relações de um para o outro.",
+      "chapters": [["circulatory", "circ-grandes-vasos"], ["circulatory", "circ-vasos"], ["circulatory", "circ-pericardio"]],
+      "questions": [["circulatory", "circ-q25"], ["circulatory", "circ-q27"], ["circulatory", "circ-q08"]]
+    },
+    {
+      "id": "complementos", "title": "Confira linfa e remanescentes fetais", "group": "Complemento: não amplia o escopo por si só",
+      "why": "Esses temas existem no acervo e em materiais históricos. A presença deles não confirma que serão cobrados na avaliação atual.",
+      "flowLabel": "Retorno linfático simplificado",
+      "flow": ["Interstício → capilares linfáticos", "Vasos coletores e linfonodos", "Troncos e ductos linfáticos", "Retorno ao sistema venoso"],
+      "targets": ["Se linfático estiver no roteiro: explicar os territórios dos ductos, linfonodo versus baço e localização dos órgãos.", "Se circulação fetal estiver no roteiro: distinguir as conexões fetais de seus remanescentes no adulto.", "Separar anatomia do remanescente de uma explicação completa do desenvolvimento embrionário."],
+      "pitfall": "Não acrescente um curso inteiro de Embriologia só porque uma prova antiga contém uma questão fetal; confirme a disciplina e o escopo.",
+      "chapters": [["circulatory", "circ-linfatico"], ["circulatory", "circ-especiais"]],
+      "questions": [["circulatory", "circ-q29"], ["circulatory", "circ-q31"], ["circulatory", "circ-q36"]]
+    }
+  ]
+}

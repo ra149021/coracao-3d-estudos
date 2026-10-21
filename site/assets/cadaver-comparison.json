@@ -1,0 +1,749 @@
+{
+  "version": 1,
+  "publication": {
+    "userAuthorization": "Usuário declarou possuir autorização do autor/instituição e confirmou disponibilização pública: “Sim, possuo, prossiga”.",
+    "license": null,
+    "rightsEvidence": "Autorização declarada pelo usuário; não é licença aberta nem verificação documental independente.",
+    "publicReleaseStatus": "authorized-by-user-declaration",
+    "publicationWorkflow": "Coordenador verifica e publica; este executor não publica. Ausência de licença aberta não bloqueia a autorização declarada.",
+    "publicationAuthorizedByUser": true
+  },
+  "entries": [
+    {
+      "modelId": "heart",
+      "partId": "heart_04",
+      "label": "Aorta ascendente",
+      "photoIds": [
+        "circulatorio_002"
+      ],
+      "system": "circulatory"
+    },
+    {
+      "modelId": "heart",
+      "partId": "heart_05",
+      "label": "Arco da aorta",
+      "photoIds": [
+        "circulatorio_002"
+      ],
+      "system": "circulatory"
+    },
+    {
+      "modelId": "heart",
+      "partId": "heart_06",
+      "label": "Tronco pulmonar",
+      "photoIds": [
+        "circulatorio_002"
+      ],
+      "system": "circulatory"
+    },
+    {
+      "modelId": "heart",
+      "partId": "bp_FMA74912",
+      "label": "Ramo interventricular anterior · tronco",
+      "photoIds": [
+        "circulatorio_005"
+      ],
+      "system": "circulatory"
+    },
+    {
+      "modelId": "heart",
+      "partId": "bp_FMA3895",
+      "label": "Ramo circunflexo · conjunto da fonte",
+      "photoIds": [
+        "circulatorio_005"
+      ],
+      "system": "circulatory"
+    },
+    {
+      "modelId": "heart",
+      "partId": "bp_FMA4706",
+      "label": "Seio coronário",
+      "photoIds": [
+        "circulatorio_006"
+      ],
+      "system": "circulatory"
+    },
+    {
+      "modelId": "heart",
+      "partId": "bp_FMA4712",
+      "label": "Veias posteriores do ventrículo esquerdo",
+      "photoIds": [
+        "circulatorio_006"
+      ],
+      "system": "circulatory"
+    },
+    {
+      "modelId": "hra",
+      "partId": "hra_mitral",
+      "label": "Valva mitral · conjunto",
+      "photoIds": [
+        "circulatorio_025"
+      ],
+      "system": "circulatory"
+    },
+    {
+      "modelId": "hra",
+      "partId": "hra_aortic",
+      "label": "Valva aórtica · conjunto",
+      "photoIds": [
+        "circulatorio_025"
+      ],
+      "system": "circulatory"
+    },
+    {
+      "modelId": "hra",
+      "partId": "hra_pulmonary",
+      "label": "Valva pulmonar · conjunto",
+      "photoIds": [
+        "circulatorio_018"
+      ],
+      "system": "circulatory"
+    },
+    {
+      "modelId": "hra",
+      "partId": "hra_interventricular_septum",
+      "label": "Septo interventricular",
+      "photoIds": [
+        "circulatorio_010"
+      ],
+      "system": "circulatory"
+    },
+    {
+      "modelId": "respiratory",
+      "partId": "resp_trachea",
+      "label": "Traqueia",
+      "photoIds": [
+        "respiratorio_016"
+      ],
+      "system": "respiratory"
+    },
+    {
+      "modelId": "respiratory",
+      "partId": "resp_right_main_bronchus",
+      "label": "Brônquio principal direito",
+      "photoIds": [
+        "respiratorio_019"
+      ],
+      "system": "respiratory"
+    },
+    {
+      "modelId": "respiratory",
+      "partId": "resp_left_main_bronchus",
+      "label": "Brônquio principal esquerdo",
+      "photoIds": [
+        "respiratorio_019"
+      ],
+      "system": "respiratory"
+    },
+    {
+      "modelId": "respiratory",
+      "partId": "resp_thyroid_cartilage",
+      "label": "Cartilagem tireóidea",
+      "photoIds": [
+        "respiratorio_026"
+      ],
+      "system": "respiratory"
+    },
+    {
+      "modelId": "respiratory",
+      "partId": "resp_cricoid_cartilage",
+      "label": "Cartilagem cricóidea",
+      "photoIds": [
+        "respiratorio_029"
+      ],
+      "system": "respiratory"
+    },
+    {
+      "modelId": "respiratory",
+      "partId": "resp_epiglottis",
+      "label": "Epiglote",
+      "photoIds": [
+        "respiratorio_028"
+      ],
+      "system": "respiratory"
+    },
+    {
+      "modelId": "respiratory",
+      "partId": "resp_pulmonary_trunk",
+      "label": "Tronco pulmonar",
+      "photoIds": [
+        "circulatorio_002"
+      ],
+      "system": "respiratory"
+    },
+    {
+      "modelId": "larynx",
+      "partId": "larynx_fma9615",
+      "label": "Cartilagem cricóidea",
+      "photoIds": [
+        "respiratorio_029"
+      ],
+      "system": "respiratory"
+    },
+    {
+      "modelId": "larynx",
+      "partId": "larynx_fma55099",
+      "label": "Cartilagem tireóidea",
+      "photoIds": [
+        "respiratorio_026"
+      ],
+      "system": "respiratory"
+    },
+    {
+      "modelId": "larynx",
+      "partId": "larynx_fma55130",
+      "label": "Epiglote",
+      "photoIds": [
+        "respiratorio_028"
+      ],
+      "system": "respiratory"
+    },
+    {
+      "modelId": "larynx",
+      "partId": "larynx_fma7394",
+      "label": "Traqueia · contexto",
+      "photoIds": [
+        "respiratorio_016"
+      ],
+      "system": "respiratory"
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "ctx_brachiocephalic_trunk",
+      "label": "Tronco braquiocefálico",
+      "sourceName": "Brachiocephalic trunk",
+      "photoIds": [
+        "circulatorio_002"
+      ],
+      "status": "exact",
+      "evidence": "Tronco curto saindo do arco e bifurcando em carótida comum direita e subclávia direita; legenda tronco braquiocefálico.",
+      "visualLocator": "centro superior, traçado roxo",
+      "limits": "Lateralidade sustentada pela continuidade com o arco e bifurcação braquiocefálica, não pelo lado da tela. Grupo contexto do catálogo não transforma esta correspondência anatômica em mera foto regional.",
+      "selectionEvidence": {
+        "catalog": "assets/catalog.json",
+        "glb": "assets/heart.glb",
+        "nodeName": "ctx_brachiocephalic_trunk",
+        "partId": "ctx_brachiocephalic_trunk"
+      }
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "ctx_right_common_carotid",
+      "label": "Artéria carótida comum direita",
+      "sourceName": "Right common carotid artery",
+      "photoIds": [
+        "circulatorio_002"
+      ],
+      "status": "exact",
+      "evidence": "Seta carótida comum direita acompanha ramo vertical do tronco braquiocefálico, antes da bifurcação cervical não mostrada.",
+      "visualLocator": "ramo vertical superior à esquerda da tela",
+      "limits": "Lateralidade sustentada pela continuidade com o arco e bifurcação braquiocefálica, não pelo lado da tela. Grupo contexto do catálogo não transforma esta correspondência anatômica em mera foto regional.",
+      "selectionEvidence": {
+        "catalog": "assets/catalog.json",
+        "glb": "assets/heart.glb",
+        "nodeName": "ctx_right_common_carotid",
+        "partId": "ctx_right_common_carotid"
+      }
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "ctx_right_subclavian",
+      "label": "Artéria subclávia direita",
+      "sourceName": "Right subclavian artery",
+      "photoIds": [
+        "circulatorio_002"
+      ],
+      "status": "exact",
+      "evidence": "Seta subclávia direita aponta ramo lateral do tronco braquiocefálico; origem compartilhada visível.",
+      "visualLocator": "ramo superior curvo sob luva, esquerda da tela",
+      "limits": "Lateralidade sustentada pela continuidade com o arco e bifurcação braquiocefálica, não pelo lado da tela. Grupo contexto do catálogo não transforma esta correspondência anatômica em mera foto regional.",
+      "selectionEvidence": {
+        "catalog": "assets/catalog.json",
+        "glb": "assets/heart.glb",
+        "nodeName": "ctx_right_subclavian",
+        "partId": "ctx_right_subclavian"
+      }
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "ctx_left_common_carotid",
+      "label": "Artéria carótida comum esquerda",
+      "sourceName": "Left common carotid artery",
+      "photoIds": [
+        "circulatorio_002"
+      ],
+      "status": "exact",
+      "evidence": "Seta carótida comum esq. aponta ramo independente intermediário do arco.",
+      "visualLocator": "ramo vertical central",
+      "limits": "Lateralidade sustentada pela continuidade com o arco e bifurcação braquiocefálica, não pelo lado da tela. Grupo contexto do catálogo não transforma esta correspondência anatômica em mera foto regional.",
+      "selectionEvidence": {
+        "catalog": "assets/catalog.json",
+        "glb": "assets/heart.glb",
+        "nodeName": "ctx_left_common_carotid",
+        "partId": "ctx_left_common_carotid"
+      }
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "ctx_left_subclavian",
+      "label": "Artéria subclávia esquerda",
+      "sourceName": "Left subclavian artery",
+      "photoIds": [
+        "circulatorio_002"
+      ],
+      "status": "exact",
+      "evidence": "Seta subclávia esq. aponta último ramo visível do arco, separado da carótida esquerda.",
+      "visualLocator": "ramo superior direito da tela",
+      "limits": "Lateralidade sustentada pela continuidade com o arco e bifurcação braquiocefálica, não pelo lado da tela. Grupo contexto do catálogo não transforma esta correspondência anatômica em mera foto regional.",
+      "selectionEvidence": {
+        "catalog": "assets/catalog.json",
+        "glb": "assets/heart.glb",
+        "nodeName": "ctx_left_subclavian",
+        "partId": "ctx_left_subclavian"
+      }
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "bp_FMA3818",
+      "label": "Ramo marginal direito",
+      "sourceName": "marginal branch of right coronary artery",
+      "photoIds": [
+        "circulatorio_003"
+      ],
+      "status": "exact",
+      "evidence": "Legenda ramo marginal direito e contorno vermelho seguem vaso na margem aguda do coração. Não usar a foto inferior esquerda de ramos ventriculares anteriores como substituto.",
+      "visualLocator": "segunda foto superior da prancha",
+      "limits": "Não identifica subpartes nem outros espécimes pela posição na tela.",
+      "selectionEvidence": {
+        "catalog": "assets/catalog.json",
+        "glb": "assets/heart.glb",
+        "nodeName": "bp_FMA3818",
+        "partId": "bp_FMA3818"
+      }
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "bp_FMA3840",
+      "label": "Ramo interventricular posterior",
+      "sourceName": "posterior interventricular branch of right coronary artery",
+      "photoIds": [
+        "circulatorio_003"
+      ],
+      "status": "exact",
+      "evidence": "Legenda ramo interventricular posterior, trajeto marcado no sulco posterior e pinça junto ao vaso; não corresponde aos pequenos ramos septais inferiores.",
+      "visualLocator": "terceira foto superior",
+      "limits": "Não identifica subpartes nem outros espécimes pela posição na tela.",
+      "selectionEvidence": {
+        "catalog": "assets/catalog.json",
+        "glb": "assets/heart.glb",
+        "nodeName": "bp_FMA3840",
+        "partId": "bp_FMA3840"
+      }
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "bp_FMA4713",
+      "label": "Veia interventricular posterior (cardíaca média)",
+      "sourceName": "middle cardiac vein",
+      "photoIds": [
+        "circulatorio_006"
+      ],
+      "status": "exact",
+      "evidence": "Legenda veia interventricular posterior dirige-se ao vaso longitudinal no sulco interventricular posterior, com pinça e contorno vermelho. Não confundir com a artéria da prancha 003.",
+      "visualLocator": "foto inferior esquerda",
+      "limits": "Não identifica subpartes nem outros espécimes pela posição na tela.",
+      "selectionEvidence": {
+        "catalog": "assets/catalog.json",
+        "glb": "assets/heart.glb",
+        "nodeName": "bp_FMA4713",
+        "partId": "bp_FMA4713"
+      }
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "bp_FMA4716",
+      "label": "Veia marginal direita",
+      "sourceName": "right marginal vein",
+      "photoIds": [
+        "circulatorio_007"
+      ],
+      "status": "exact",
+      "evidence": "Legenda veia marginal direita aponta vaso assinalado ao longo da margem direita, distinto do conjunto de veias anteriores na foto inferior esquerda.",
+      "visualLocator": "foto superior esquerda",
+      "limits": "Não identifica subpartes nem outros espécimes pela posição na tela.",
+      "selectionEvidence": {
+        "catalog": "assets/catalog.json",
+        "glb": "assets/heart.glb",
+        "nodeName": "bp_FMA4716",
+        "partId": "bp_FMA4716"
+      }
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "bp_FMA4708",
+      "label": "Veia marginal esquerda",
+      "sourceName": "left marginal vein",
+      "photoIds": [
+        "circulatorio_007"
+      ],
+      "status": "exact",
+      "evidence": "Legenda veia marginal esq. aponta vaso na margem esquerda junto à pinça, com trajeto visível na superfície ventricular.",
+      "visualLocator": "foto superior direita",
+      "limits": "Não identifica subpartes nem outros espécimes pela posição na tela.",
+      "selectionEvidence": {
+        "catalog": "assets/catalog.json",
+        "glb": "assets/heart.glb",
+        "nodeName": "bp_FMA4708",
+        "partId": "bp_FMA4708"
+      }
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "bp_FMA4714",
+      "label": "Veia cardíaca parva",
+      "sourceName": "small cardiac vein",
+      "photoIds": [
+        "circulatorio_007"
+      ],
+      "status": "exact",
+      "evidence": "Legenda veia cardíaca parva e marca vermelha sobre o vaso no sulco atrioventricular direito; limitar ao segmento exposto.",
+      "visualLocator": "foto inferior direita",
+      "limits": "Não identifica subpartes nem outros espécimes pela posição na tela.",
+      "selectionEvidence": {
+        "catalog": "assets/catalog.json",
+        "glb": "assets/heart.glb",
+        "nodeName": "bp_FMA4714",
+        "partId": "bp_FMA4714"
+      }
+    },
+    {
+      "modelId": "hra",
+      "system": "circulatory",
+      "partId": "hra_tricuspid",
+      "label": "Valva tricúspide · conjunto",
+      "sourceName": "VH_M_tricuspid_valve",
+      "photoIds": [
+        "circulatorio_019"
+      ],
+      "status": "exact",
+      "evidence": "Prancha valva atrioventricular direita mostra aparelho valvar aberto com folhetos manipulados em três vistas; correspondência apenas da valva tricúspide inteira, não confirmação independente dos nomes de cada folheto.",
+      "visualLocator": "conjunto das três fotografias",
+      "limits": "Não identifica subpartes nem outros espécimes pela posição na tela.",
+      "selectionEvidence": {
+        "catalog": "assets/heart-hra/catalog.json",
+        "glb": "assets/heart-hra/model.glb",
+        "nodeName": "hra_tricuspid",
+        "partId": "hra_tricuspid"
+      }
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_median_thyrohyoid_ligament",
+      "label": "Ligamento tireo-hióideo mediano",
+      "sourceName": "Median thyrohyoid ligament",
+      "photoIds": [
+        "respiratorio_026"
+      ],
+      "status": "exact",
+      "evidence": "Legenda ligamento tireo-hióideo mediano e marca central na conexão hioide/cartilagem tireóidea; a membrana larga e o ligamento lateral são apontados separadamente.",
+      "visualLocator": "foto inferior direita, região central assinalada",
+      "limits": "Não identifica subpartes nem outros espécimes pela posição na tela.",
+      "selectionEvidence": {
+        "catalog": "assets/respiratory/catalog.json",
+        "glb": "assets/respiratory/model.glb",
+        "nodeName": "resp_median_thyrohyoid_ligament",
+        "partId": "resp_median_thyrohyoid_ligament"
+      }
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma55138",
+      "label": "Ligamento tireo-hióideo mediano",
+      "sourceName": "median thyrohyoid ligament",
+      "photoIds": [
+        "respiratorio_026"
+      ],
+      "status": "exact",
+      "evidence": "Legenda ligamento tireo-hióideo mediano e marca central na conexão hioide/cartilagem tireóidea; a membrana larga e o ligamento lateral são apontados separadamente.",
+      "visualLocator": "foto inferior direita, região central assinalada",
+      "limits": "Não identifica subpartes nem outros espécimes pela posição na tela.",
+      "selectionEvidence": {
+        "catalog": "assets/larynx/catalog.json",
+        "glb": "assets/larynx/model.glb",
+        "nodeName": "larynx_fma55138",
+        "partId": "larynx_fma55138"
+      }
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_median_cricothyroid_ligament",
+      "label": "Ligamento cricotireóideo mediano",
+      "sourceName": "Median cricothyroid ligament",
+      "photoIds": [
+        "respiratorio_029"
+      ],
+      "status": "exact",
+      "evidence": "Ligamento cricotireóideo mediano explicitamente circundado entre bordo inferior da tireóidea e arco cricóideo. Não é ligamento cricotraqueal marcado abaixo.",
+      "visualLocator": "foto esquerda, círculo rosa mediano",
+      "limits": "Não identifica subpartes nem outros espécimes pela posição na tela.",
+      "selectionEvidence": {
+        "catalog": "assets/respiratory/catalog.json",
+        "glb": "assets/respiratory/model.glb",
+        "nodeName": "resp_median_cricothyroid_ligament",
+        "partId": "resp_median_cricothyroid_ligament"
+      }
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma55237",
+      "label": "Ligamento cricotireóideo mediano",
+      "sourceName": "median cricothyroid ligament",
+      "photoIds": [
+        "respiratorio_029"
+      ],
+      "status": "exact",
+      "evidence": "Ligamento cricotireóideo mediano explicitamente circundado entre bordo inferior da tireóidea e arco cricóideo. Não é ligamento cricotraqueal marcado abaixo.",
+      "visualLocator": "foto esquerda, círculo rosa mediano",
+      "limits": "Não identifica subpartes nem outros espécimes pela posição na tela.",
+      "selectionEvidence": {
+        "catalog": "assets/larynx/catalog.json",
+        "glb": "assets/larynx/model.glb",
+        "nodeName": "larynx_fma55237",
+        "partId": "larynx_fma55237"
+      }
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_transverse_arytenoid_muscle",
+      "label": "Músculo aritenóideo transverso",
+      "sourceName": "Transverse arytenoid muscle",
+      "photoIds": [
+        "respiratorio_032"
+      ],
+      "status": "exact",
+      "evidence": "Legenda m. aritenóideo transverso acompanha feixes transversais entre aritenóideas na vista posterior; anotação oblíqua separada acima. Não se atribui lateralidade a músculos pares vizinhos.",
+      "visualLocator": "foto inferior, traços azuis horizontais",
+      "limits": "Não identifica subpartes nem outros espécimes pela posição na tela.",
+      "selectionEvidence": {
+        "catalog": "assets/respiratory/catalog.json",
+        "glb": "assets/respiratory/model.glb",
+        "nodeName": "resp_transverse_arytenoid_muscle",
+        "partId": "resp_transverse_arytenoid_muscle"
+      }
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma46582",
+      "label": "Músculo aritenóideo transverso",
+      "sourceName": "transverse arytenoid",
+      "photoIds": [
+        "respiratorio_032"
+      ],
+      "status": "exact",
+      "evidence": "Legenda m. aritenóideo transverso acompanha feixes transversais entre aritenóideas na vista posterior; anotação oblíqua separada acima. Não se atribui lateralidade a músculos pares vizinhos.",
+      "visualLocator": "foto inferior, traços azuis horizontais",
+      "limits": "Não identifica subpartes nem outros espécimes pela posição na tela.",
+      "selectionEvidence": {
+        "catalog": "assets/larynx/catalog.json",
+        "glb": "assets/larynx/model.glb",
+        "nodeName": "larynx_fma46582",
+        "partId": "larynx_fma46582"
+      }
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma55227",
+      "label": "Ligamento hioepiglótico",
+      "sourceName": "hyo-epiglottic ligament",
+      "photoIds": [
+        "respiratorio_028"
+      ],
+      "status": "exact",
+      "evidence": "Ligamento hioepiglótico explicitamente apontado na conexão superior à epiglote. Foto esquerda contém outro ligamento.",
+      "visualLocator": "foto direita, marca rosa superior",
+      "limits": "Preservar aviso: mapa antigo trocou a descrição do recorte esquerdo; hioepiglótico está na foto direita, tireoepiglótico na esquerda.",
+      "selectionEvidence": {
+        "catalog": "assets/larynx/catalog.json",
+        "glb": "assets/larynx/model.glb",
+        "nodeName": "larynx_fma55227",
+        "partId": "larynx_fma55227"
+      }
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma55230",
+      "label": "Ligamento tireoepiglótico",
+      "sourceName": "thyro-epiglottic ligament",
+      "photoIds": [
+        "respiratorio_028"
+      ],
+      "status": "exact",
+      "evidence": "Ligamento tireoepiglótico explicitamente apontado junto ao pecíolo epiglótico; não confundir com corpo adiposo pré-epiglótico anotado ao lado.",
+      "visualLocator": "foto esquerda, marca rosa no pecíolo",
+      "limits": "Preservar aviso: tireoepiglótico à esquerda da prancha, hioepiglótico à direita; não reutilizar descrição antiga invertida.",
+      "selectionEvidence": {
+        "catalog": "assets/larynx/catalog.json",
+        "glb": "assets/larynx/model.glb",
+        "nodeName": "larynx_fma55230",
+        "partId": "larynx_fma55230"
+      }
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_uvula_of_palate",
+      "label": "Úvula palatina",
+      "sourceName": "Uvula of palate",
+      "photoIds": [
+        "respiratorio_014"
+      ],
+      "status": "exact",
+      "evidence": "Legenda úvula palatina une dois círculos sobre a projeção pendente do palato mole: corte sagital à esquerda e exposição faríngea à direita. Não estende correspondência aos constritores pares inferiores.",
+      "visualLocator": "duas fotos superiores, círculos roxos",
+      "limits": "Não identifica subpartes nem outros espécimes pela posição na tela.",
+      "selectionEvidence": {
+        "catalog": "assets/respiratory/catalog.json",
+        "glb": "assets/respiratory/model.glb",
+        "nodeName": "resp_uvula_of_palate",
+        "partId": "resp_uvula_of_palate"
+      }
+    }
+  ],
+  "photos": {
+    "circulatorio_002": {
+      "src": "assets/cadaver-comparison/circulatorio_002.png",
+      "title": "Original Anki anotado · circulatorio_002",
+      "evidence": "Origem Anki: ANATOMIA__P7__prática circulatório.apkg. Peça cardíaca e vasos: parte ascendente delimitada em vermelho, arco da aorta em roxo e tronco pulmonar indicado pela seta longa. Não confundir o vaso anterior seccionado com aorta. Ramos cervicais não incluídos nesta revisão.  Mesma estrutura em espécimes diferentes, sem registro espacial. Uso de estudo; publicação autorizada por declaração do usuário de autorização do autor/instituição. Não há licença aberta atribuída. Revisão ampliada (as restrições da revisão inicial acima permanecem históricas; os alvos adicionais abaixo foram revisados explicitamente): centro superior, traçado roxo: Tronco curto saindo do arco e bifurcando em carótida comum direita e subclávia direita; legenda tronco braquiocefálico. Lateralidade sustentada pela continuidade com o arco e bifurcação braquiocefálica, não pelo lado da tela. Grupo contexto do catálogo não transforma esta correspondência anatômica em mera foto regional. ramo vertical superior à esquerda da tela: Seta carótida comum direita acompanha ramo vertical do tronco braquiocefálico, antes da bifurcação cervical não mostrada. Lateralidade sustentada pela continuidade com o arco e bifurcação braquiocefálica, não pelo lado da tela. Grupo contexto do catálogo não transforma esta correspondência anatômica em mera foto regional. ramo superior curvo sob luva, esquerda da tela: Seta subclávia direita aponta ramo lateral do tronco braquiocefálico; origem compartilhada visível. Lateralidade sustentada pela continuidade com o arco e bifurcação braquiocefálica, não pelo lado da tela. Grupo contexto do catálogo não transforma esta correspondência anatômica em mera foto regional. ramo vertical central: Seta carótida comum esq. aponta ramo independente intermediário do arco. Lateralidade sustentada pela continuidade com o arco e bifurcação braquiocefálica, não pelo lado da tela. Grupo contexto do catálogo não transforma esta correspondência anatômica em mera foto regional. ramo superior direito da tela: Seta subclávia esq. aponta último ramo visível do arco, separado da carótida esquerda. Lateralidade sustentada pela continuidade com o arco e bifurcação braquiocefálica, não pelo lado da tela. Grupo contexto do catálogo não transforma esta correspondência anatômica em mera foto regional. Revisão visual educacional, não certificação anatômica. Original anotado integral; publicação autorizada por declaração do usuário, sem licença aberta atribuída.",
+      "sha256": "cb63f96f23123f9150965c2a30fc63e2ddc7d3c7990ada5130d4b7cc11387e0e"
+    },
+    "circulatorio_005": {
+      "src": "assets/cadaver-comparison/circulatorio_005.png",
+      "title": "Original Anki anotado · circulatorio_005",
+      "evidence": "Origem Anki: ANATOMIA__P7__prática circulatório.apkg. Prancha inteira: primeira foto superior mostra ramo interventricular anterior no sulco indicado e quarta superior ramo circunflexo circulado. Ramos septais e árvores completas não inferidos. Escrita cursiva preservada.  Mesma estrutura em espécimes diferentes, sem registro espacial. Uso de estudo; publicação autorizada por declaração do usuário de autorização do autor/instituição. Não há licença aberta atribuída.",
+      "sha256": "aab751cbb4b8d9c2e9c13d9ed4503b37b8c4a8b3b78e2c43cc3e1f842c5bf76a"
+    },
+    "circulatorio_006": {
+      "src": "assets/cadaver-comparison/circulatorio_006.png",
+      "title": "Original Anki anotado · circulatorio_006",
+      "evidence": "Origem Anki: ANATOMIA__P7__prática circulatório.apkg. Primeira foto superior esquerda identifica seio coronário na face posterior; foto direita marca veia posterior do ventrículo esquerdo ao longo do vaso. Veia interventricular posterior inferior não auditada para mapeamento.  Mesma estrutura em espécimes diferentes, sem registro espacial. Uso de estudo; publicação autorizada por declaração do usuário de autorização do autor/instituição. Não há licença aberta atribuída. Revisão ampliada (as restrições da revisão inicial acima permanecem históricas; os alvos adicionais abaixo foram revisados explicitamente): foto inferior esquerda: Legenda veia interventricular posterior dirige-se ao vaso longitudinal no sulco interventricular posterior, com pinça e contorno vermelho. Não confundir com a artéria da prancha 003. Não identifica subpartes nem outros espécimes pela posição na tela. Revisão visual educacional, não certificação anatômica. Original anotado integral; publicação autorizada por declaração do usuário, sem licença aberta atribuída.",
+      "sha256": "1ba54095acdc550f07b6d4f86adc11988951aaeacd4561c1af73718eb5e7563c"
+    },
+    "circulatorio_010": {
+      "src": "assets/cadaver-comparison/circulatorio_010.png",
+      "title": "Original Anki anotado · circulatorio_010",
+      "evidence": "Origem Anki: ANATOMIA__P7__prática circulatório.apkg. Foto inferior esquerda: linhas manuscritas septo interventricular dirigidas à parede exposta entre cavidades abertas. Correspondência do septo como conjunto, não de porção membranácea. V.E. aparece nas duas metades: não transferir lateralidade da posição na tela. Etiquetas numéricas de peça visíveis; finalidade aparente didática, origem institucional não comprovada. Mesma estrutura em espécimes diferentes, sem registro espacial. Uso de estudo; publicação autorizada por declaração do usuário de autorização do autor/instituição. Não há licença aberta atribuída.",
+      "sha256": "32b69884a88aa7e4f6137bbe0a553a46d44a4c00779aa3307d822977b42e327e"
+    },
+    "circulatorio_018": {
+      "src": "assets/cadaver-comparison/circulatorio_018.png",
+      "title": "Original Anki anotado · circulatorio_018",
+      "evidence": "Origem Anki: ANATOMIA__P7__prática circulatório.apkg. Três fotos de corte cardíaco com aparelho semilunar anterior exposto por pinça; legenda explícita valva do tronco pulmonar. Mapeado apenas conjunto HRA, não cúspides isoladas.  Mesma estrutura em espécimes diferentes, sem registro espacial. Uso de estudo; publicação autorizada por declaração do usuário de autorização do autor/instituição. Não há licença aberta atribuída.",
+      "sha256": "23761c0ce6b45c549b19dc1110268b52df1670acd76d43106bf485a1cd4b6c58"
+    },
+    "circulatorio_025": {
+      "src": "assets/cadaver-comparison/circulatorio_025.png",
+      "title": "Original Anki anotado · circulatorio_025",
+      "evidence": "Origem Anki: ANATOMIA__P7__prática circulatório.apkg. Duas fotos superiores mostram valva aórtica com folhetos e legenda numerada valva da aorta. Fotos inferiores mostram valva atrioventricular esquerda com legendas anterior/posterior. Mapeamento apenas dos conjuntos HRA.  Mesma estrutura em espécimes diferentes, sem registro espacial. Uso de estudo; publicação autorizada por declaração do usuário de autorização do autor/instituição. Não há licença aberta atribuída.",
+      "sha256": "68da9a74124ce64907949292ff1270434d989357269807aa73944ad8474a59fd"
+    },
+    "respiratorio_016": {
+      "src": "assets/cadaver-comparison/respiratorio_016.png",
+      "title": "Original Anki anotado · respiratorio_016",
+      "evidence": "Origem Anki: ANATOMIA__P7__prática respiratório.apkg. Tubo dissecado com anéis cartilaginosos, ligamentos anulares e bifurcação identificados. Traqueia inteira visível, sem máscara SVG; não identifica cartilagens traqueais individuais.  Mesma estrutura em espécimes diferentes, sem registro espacial. Uso de estudo; publicação autorizada por declaração do usuário de autorização do autor/instituição. Não há licença aberta atribuída.",
+      "sha256": "0142c39c316ad83db2fc8f76584dd3cb5c07644c079c1639470dfdfb1609f549"
+    },
+    "respiratorio_019": {
+      "src": "assets/cadaver-comparison/respiratorio_019.png",
+      "title": "Original Anki anotado · respiratorio_019",
+      "evidence": "Origem Anki: ANATOMIA__P7__prática respiratório.apkg. Tecido preservado com anéis e bordas de dissecção; legenda brônquios principais e setas D/E aos primeiros ramos após bifurcação. Revisão limitada aos principais, não aos rótulos lobares ou segmentares. D/E anatômicos não são lados da tela; legendas segmentares coloridas não auditadas. Mesma estrutura em espécimes diferentes, sem registro espacial. Uso de estudo; publicação autorizada por declaração do usuário de autorização do autor/instituição. Não há licença aberta atribuída.",
+      "sha256": "473e716ea5ea3d2d7fb98e1b0d446fd81fc2c80d968ae20579f19f2b28d11d76"
+    },
+    "respiratorio_026": {
+      "src": "assets/cadaver-comparison/respiratorio_026.png",
+      "title": "Original Anki anotado · respiratorio_026",
+      "evidence": "Origem Anki: ANATOMIA__P7__prática respiratório.apkg. Foto central direita expõe duas lâminas, incisura superior e proeminência laríngea anotadas na cartilagem tireóidea. Correspondência da cartilagem inteira, não das estruturas das demais fotos.  Mesma estrutura em espécimes diferentes, sem registro espacial. Uso de estudo; publicação autorizada por declaração do usuário de autorização do autor/instituição. Não há licença aberta atribuída. Revisão ampliada (as restrições da revisão inicial acima permanecem históricas; os alvos adicionais abaixo foram revisados explicitamente): foto inferior direita, região central assinalada: Legenda ligamento tireo-hióideo mediano e marca central na conexão hioide/cartilagem tireóidea; a membrana larga e o ligamento lateral são apontados separadamente. Não identifica subpartes nem outros espécimes pela posição na tela. Revisão visual educacional, não certificação anatômica. Original anotado integral; publicação autorizada por declaração do usuário, sem licença aberta atribuída.",
+      "sha256": "fda36f39c6de4100969f5931cd376c3872f521b2fdc7b9c375f14e08ad2311b0"
+    },
+    "respiratorio_028": {
+      "src": "assets/cadaver-comparison/respiratorio_028.png",
+      "title": "Original Anki anotado · respiratorio_028",
+      "evidence": "Origem Anki: ANATOMIA__P7__prática respiratório.apkg. Foto esquerda mostra epiglote dissecada e pecíolo epiglótico anotado; continuidade com a lâmina visível. Preserva fotos de relações e ligamentos sem mapeá-los automaticamente. Mapa antigo dizia ligamento hioepiglótico no recorte esquerdo; a imagem mostra tireoepiglótico à esquerda e hioepiglótico à direita. Não reutilizar essa descrição antiga. Mesma estrutura em espécimes diferentes, sem registro espacial. Uso de estudo; publicação autorizada por declaração do usuário de autorização do autor/instituição. Não há licença aberta atribuída. Revisão ampliada (as restrições da revisão inicial acima permanecem históricas; os alvos adicionais abaixo foram revisados explicitamente): foto direita, marca rosa superior: Ligamento hioepiglótico explicitamente apontado na conexão superior à epiglote. Foto esquerda contém outro ligamento. Preservar aviso: mapa antigo trocou a descrição do recorte esquerdo; hioepiglótico está na foto direita, tireoepiglótico na esquerda. foto esquerda, marca rosa no pecíolo: Ligamento tireoepiglótico explicitamente apontado junto ao pecíolo epiglótico; não confundir com corpo adiposo pré-epiglótico anotado ao lado. Preservar aviso: tireoepiglótico à esquerda da prancha, hioepiglótico à direita; não reutilizar descrição antiga invertida. Revisão visual educacional, não certificação anatômica. Original anotado integral; publicação autorizada por declaração do usuário, sem licença aberta atribuída.",
+      "sha256": "2cb8a44bbec70d2d13cb9078662f222ce8d920b5613ae81a29cde08d2b6a60d2"
+    },
+    "respiratorio_029": {
+      "src": "assets/cadaver-comparison/respiratorio_029.png",
+      "title": "Original Anki anotado · respiratorio_029",
+      "evidence": "Origem Anki: ANATOMIA__P7__prática respiratório.apkg. Foto esquerda delimita arco da cricóidea; foto central indica lâmina posterior. Duas vistas da mesma estrutura mediana sustentam correspondência do conjunto.  Mesma estrutura em espécimes diferentes, sem registro espacial. Uso de estudo; publicação autorizada por declaração do usuário de autorização do autor/instituição. Não há licença aberta atribuída. Revisão ampliada (as restrições da revisão inicial acima permanecem históricas; os alvos adicionais abaixo foram revisados explicitamente): foto esquerda, círculo rosa mediano: Ligamento cricotireóideo mediano explicitamente circundado entre bordo inferior da tireóidea e arco cricóideo. Não é ligamento cricotraqueal marcado abaixo. Não identifica subpartes nem outros espécimes pela posição na tela. Revisão visual educacional, não certificação anatômica. Original anotado integral; publicação autorizada por declaração do usuário, sem licença aberta atribuída.",
+      "sha256": "142dc88e054f0e6e329bece796a819e4538f7a927b9745baa99cee541e903eb6"
+    },
+    "circulatorio_003": {
+      "src": "assets/cadaver-comparison/circulatorio_003.png",
+      "title": "Artéria coronária direita",
+      "evidence": "segunda foto superior da prancha: Legenda ramo marginal direito e contorno vermelho seguem vaso na margem aguda do coração. Não usar a foto inferior esquerda de ramos ventriculares anteriores como substituto. Não identifica subpartes nem outros espécimes pela posição na tela. terceira foto superior: Legenda ramo interventricular posterior, trajeto marcado no sulco posterior e pinça junto ao vaso; não corresponde aos pequenos ramos septais inferiores. Não identifica subpartes nem outros espécimes pela posição na tela. Revisão visual educacional, não certificação anatômica. Original anotado integral; publicação autorizada por declaração do usuário, sem licença aberta atribuída.",
+      "sha256": "0e220e411407d06ba25dd341c60d1bcf0a5039209fea3b27c43ec1e604171679",
+      "package": "ANATOMIA__P7__prática circulatório.apkg",
+      "sourceFile": "Imagem 25-09-2026 às 21.21.png",
+      "privacyReview": "Revisão visual do original: sem nome pessoal, face de pessoa viva ou identificador pessoal legível detectado. Mãos/luvas e jalecos presentes. Não é garantia pericial de anonimato.",
+      "preservation": "Original integral, cursiva e marcas intactas; nenhuma máscara/edição/recorte criado."
+    },
+    "circulatorio_007": {
+      "src": "assets/cadaver-comparison/circulatorio_007.png",
+      "title": "Veias cardíacas e marginais",
+      "evidence": "foto superior esquerda: Legenda veia marginal direita aponta vaso assinalado ao longo da margem direita, distinto do conjunto de veias anteriores na foto inferior esquerda. Não identifica subpartes nem outros espécimes pela posição na tela. foto superior direita: Legenda veia marginal esq. aponta vaso na margem esquerda junto à pinça, com trajeto visível na superfície ventricular. Não identifica subpartes nem outros espécimes pela posição na tela. foto inferior direita: Legenda veia cardíaca parva e marca vermelha sobre o vaso no sulco atrioventricular direito; limitar ao segmento exposto. Não identifica subpartes nem outros espécimes pela posição na tela. Revisão visual educacional, não certificação anatômica. Original anotado integral; publicação autorizada por declaração do usuário, sem licença aberta atribuída.",
+      "sha256": "747c60749e81e0ef4b8bee4bd2489d66a5b95ada31fa0aa3a1afb1ba41eac6dc",
+      "package": "ANATOMIA__P7__prática circulatório.apkg",
+      "sourceFile": "Imagem 25-09-2026 às 21.23 (2).png",
+      "privacyReview": "Revisão visual do original: sem nome pessoal, face de pessoa viva ou identificador pessoal legível detectado. Mãos/luvas e jalecos presentes. Não é garantia pericial de anonimato.",
+      "preservation": "Original integral, cursiva e marcas intactas; nenhuma máscara/edição/recorte criado."
+    },
+    "circulatorio_019": {
+      "src": "assets/cadaver-comparison/circulatorio_019.png",
+      "title": "Valva atrioventricular direita",
+      "evidence": "conjunto das três fotografias: Prancha valva atrioventricular direita mostra aparelho valvar aberto com folhetos manipulados em três vistas; correspondência apenas da valva tricúspide inteira, não confirmação independente dos nomes de cada folheto. Não identifica subpartes nem outros espécimes pela posição na tela. Revisão visual educacional, não certificação anatômica. Original anotado integral; publicação autorizada por declaração do usuário, sem licença aberta atribuída.",
+      "sha256": "e65f048df8322c417fd7ec5b5eb99e41f12c36a69507c0262762e3c8b26db70e",
+      "package": "ANATOMIA__P7__prática circulatório.apkg",
+      "sourceFile": "Imagem 25-09-2026 às 21.28 (2).png",
+      "privacyReview": "Revisão visual do original: sem nome pessoal, face de pessoa viva ou identificador pessoal legível detectado. Mãos/luvas e jalecos presentes. Não é garantia pericial de anonimato. Canto de notebook inspecionado ampliado: fragmento de escrita sem identificador pessoal legível; manter revisão do coordenador.",
+      "preservation": "Original integral, cursiva e marcas intactas; nenhuma máscara/edição/recorte criado."
+    },
+    "respiratorio_014": {
+      "src": "assets/cadaver-comparison/respiratorio_014.png",
+      "title": "Palato e constritores da faringe",
+      "evidence": "duas fotos superiores, círculos roxos: Legenda úvula palatina une dois círculos sobre a projeção pendente do palato mole: corte sagital à esquerda e exposição faríngea à direita. Não estende correspondência aos constritores pares inferiores. Não identifica subpartes nem outros espécimes pela posição na tela. Revisão visual educacional, não certificação anatômica. Original anotado integral; publicação autorizada por declaração do usuário, sem licença aberta atribuída.",
+      "sha256": "de28477ce9ebc61ab4fff6bebd8b92668bf341368f2aeda093d5027b20e58e0e",
+      "package": "ANATOMIA__P7__prática respiratório.apkg",
+      "sourceFile": "Imagem 25-09-2026 às 21.39 (2).png",
+      "privacyReview": "Revisão visual do original: sem nome pessoal, face de pessoa viva ou identificador pessoal legível detectado. Mãos/luvas e jalecos presentes. Não é garantia pericial de anonimato.",
+      "preservation": "Original integral, cursiva e marcas intactas; nenhuma máscara/edição/recorte criado."
+    },
+    "respiratorio_032": {
+      "src": "assets/cadaver-comparison/respiratorio_032.png",
+      "title": "Músculos intrínsecos da laringe",
+      "evidence": "foto inferior, traços azuis horizontais: Legenda m. aritenóideo transverso acompanha feixes transversais entre aritenóideas na vista posterior; anotação oblíqua separada acima. Não se atribui lateralidade a músculos pares vizinhos. Não identifica subpartes nem outros espécimes pela posição na tela. Revisão visual educacional, não certificação anatômica. Original anotado integral; publicação autorizada por declaração do usuário, sem licença aberta atribuída.",
+      "sha256": "b205c88db28e9d3c23b992f9221395cd51728c293bf05d7fbc2f0947048369c9",
+      "package": "ANATOMIA__P7__prática respiratório.apkg",
+      "sourceFile": "Imagem 25-09-2026 às 21.46 (1).png",
+      "privacyReview": "Revisão visual do original: sem nome pessoal, face de pessoa viva ou identificador pessoal legível detectado. Mãos/luvas e jalecos presentes. Não é garantia pericial de anonimato.",
+      "preservation": "Original integral, cursiva e marcas intactas; nenhuma máscara/edição/recorte criado."
+    }
+  }
+}

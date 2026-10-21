@@ -2,14 +2,15 @@
   "version": 1,
   "system": "circulatory",
   "title": "Circulatório: coração, vasos e sistema linfático",
-  "updatedAt": "2026-09-28",
+  "updatedAt": "2026-10-19",
   "description": "Sínteses originais para estudar a anatomia e explicar seus mecanismos, com referências às páginas das aulas e questões próprias de recuperação ativa.",
   "editorialNotes": [
     "As questões são originais de revisão; não são perguntas transcritas da professora nem previsão de prova.",
     "Páginas são físicas, numeradas a partir de 1, incluindo a capa. Horários C1–C3 são localizadores aproximados de transcrições automáticas, cotejados com os slides; não houve conferência integral do áudio.",
     "O roteiro e os slides delimitam o escopo. Fontes acadêmicas externas esclarecem relações anatômicas ou corrigem simplificações; não substituem o material da disciplina.",
     "As ligações aos 178 alvos do roteiro indicam relação com o texto estudado. Elas não certificam que todos estejam representados ou validados no modelo 3D.",
-    "Variações anatômicas e limites de nomenclatura são indicados no texto. Percentuais clínicos, regras diagnósticas simplificadas e condutas terapêuticas dos materiais não foram convertidos em recomendações."
+    "Variações anatômicas e limites de nomenclatura são indicados no texto. Percentuais clínicos, regras diagnósticas simplificadas e condutas terapêuticas dos materiais não foram convertidos em recomendações.",
+    "A revisão com o novo acervo acrescenta aplicações anatômicas originais. Provas antigas só motivam o tipo de raciocínio; respostas de compilações estudantis não são gabarito validado. A presença de circulação fetal no material histórico não amplia o escopo desta atualização."
   ],
   "sources": [
     {
@@ -149,6 +150,32 @@
       "label": "University of Minnesota · Cardiac Valve Nomenclature",
       "type": "university-anatomy",
       "url": "https://www.vhlab.umn.edu/atlas/anatomy-tutorial/cardiac-valve-nomenclature.shtml"
+    },
+    {
+      "id": "historico-prova-circ-2021",
+      "label": "Avaliação de Sistema Circulatório · Sônia Trannin · acervo histórico de 2021",
+      "type": "historical-exam",
+      "pageCount": 2,
+      "note": "Prova Circulatório.pdf, exportação de 2 páginas do complemento atual. Cabeçalho preservado: 29/010/2021. Usada apenas para motivar raciocínio sobre trajetos; não confirma escopo, data ou questões da prova atual. Enunciados não foram reproduzidos."
+    },
+    {
+      "id": "complemento-vasos-estudantil",
+      "label": "Sistema Circulatório - Vasos · resumo complementar não validado",
+      "type": "student-summary",
+      "pageCount": 11,
+      "note": "PDF local de Downloads. P. 9 descreve incorretamente os grandes troncos sob o endocárdio; o plano habitual é subepicárdico, coerente com a p. 5. Percentuais e generalizações não foram adotados como regras. Fonte de divergência, não gabarito."
+    },
+    {
+      "id": "exp-openstax-heart",
+      "label": "OpenStax — Anatomy and Physiology 2e, 19.1 Heart Anatomy; seção Cardiac Tamponade",
+      "type": "academic-reference",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy"
+    },
+    {
+      "id": "exp-openstax-electrical",
+      "label": "OpenStax — Anatomy and Physiology 2e, 19.2; Comparative Rates of Conduction System Firing",
+      "type": "academic-reference",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity"
     }
   ],
   "chapters": [
@@ -281,6 +308,68 @@
               "page": 42
             }
           ]
+        },
+        {
+          "id": "circ-s-nutritiva",
+          "heading": "O sangue da cavidade não substitui a irrigação da parede",
+          "paragraphs": [
+            "O sangue que atravessa AD, VD, AE e VE está sendo transportado para outros territórios. Já o miocárdio precisa receber sangue em seus próprios vasos: aorta → coronárias → ramos e microcirculação da parede → veias cardíacas → retorno às câmaras. A circulação coronariana é, portanto, um território da circulação sistêmica, não uma terceira bomba independente.",
+            "Isso resolve a aparente contradição de um VE cheio de sangue oxigenado ter uma região muscular com suprimento insuficiente: estar próximo do sangue da cavidade não equivale a recebê-lo por uma rede vascular. Na terminologia de revisões antigas, diferencie a função de transportar sangue pelo coração da circulação nutritiva de sua parede. A pergunta histórica sobre circulação funcional não autoriza confundir o sangue intracavitário com perfusão de toda a espessura do miocárdio."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "coracao",
+              "page": 71
+            },
+            {
+              "source": "vasos",
+              "page": 19
+            },
+            {
+              "source": "vasos",
+              "page": 20
+            },
+            {
+              "source": "vasos",
+              "page": 30
+            },
+            {
+              "source": "historico-prova-circ-2021",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "id": "circ-s-embolo-trajeto",
+          "heading": "Use o destino de um fragmento para reconstruir sua rota",
+          "paragraphs": [
+            "Em um exercício anatômico do adulto, suponha ausência de comunicação anormal entre os lados do coração. Um fragmento levado pelo fluxo a partir de uma cavidade direita encontra o tronco e as artérias pulmonares; a partir de uma cavidade esquerda, encontra a aorta e seus ramos sistêmicos. O destino separa os dois caminhos antes de qualquer tentativa de nomear uma doença.",
+            "Resolva em três passos: identifique o território de chegada; siga o trajeto em sentido inverso até a câmara ejetora; depois reconstrua a rota no sentido do fluxo, incluindo a valva de saída. Uma obstrução arterial sistêmica, isoladamente, não demonstra que a origem tenha sido cardíaca, nem distingue AE de VE. O raciocínio localiza uma rota possível, não estabelece sozinho a causa clínica."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "coracao",
+              "page": 9
+            },
+            {
+              "source": "coracao",
+              "page": 15
+            },
+            {
+              "source": "coracao",
+              "page": 42
+            },
+            {
+              "source": "coracao",
+              "page": 71
+            },
+            {
+              "source": "historico-prova-circ-2021",
+              "page": 1
+            }
+          ]
         }
       ],
       "recall": [
@@ -321,6 +410,54 @@
             {
               "source": "coracao",
               "page": 42
+            },
+            {
+              "source": "coracao",
+              "page": 71
+            }
+          ]
+        },
+        {
+          "id": "circ-q37",
+          "question": "Em um modelo adulto sem comunicações anormais, um fragmento sai do VD seguindo o fluxo. Ele alcança primeiro uma artéria pulmonar ou a aorta? Reconstrua o caminho e explique a condição imposta no enunciado.",
+          "answer": "Uma artéria pulmonar: VD → valva pulmonar → tronco pulmonar → artéria pulmonar direita ou esquerda.",
+          "explanation": "O VD ejeta no circuito pulmonar, não na aorta. Excluir comunicações anormais delimita o modelo usado; não se deve transformar esse exercício em uma regra clínica sem exceções. Questão original de raciocínio; o acervo de 2021 apenas motivou treinar a localização pelo trajeto.",
+          "references": [
+            {
+              "source": "coracao",
+              "page": 15
+            },
+            {
+              "source": "coracao",
+              "page": 42
+            },
+            {
+              "source": "coracao",
+              "page": 71
+            },
+            {
+              "source": "historico-prova-circ-2021",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "id": "circ-q38",
+          "question": "Uma região da parede do VE perdeu o fluxo de um ramo coronário, mas a cavidade continua recebendo sangue oxigenado. Por que isso não garante nutrição normal dessa região muscular?",
+          "answer": "Porque transporte pela cavidade e perfusão da parede são rotas distintas; o miocárdio depende da sua circulação coronariana.",
+          "explanation": "O trajeto nutritivo passa da aorta para as coronárias e sua microcirculação. O sangue intracavitário não substitui o suprimento vascular de toda a espessura muscular. Questão original, não transcrição da avaliação antiga.",
+          "references": [
+            {
+              "source": "vasos",
+              "page": 19
+            },
+            {
+              "source": "vasos",
+              "page": 20
+            },
+            {
+              "source": "vasos",
+              "page": 30
             },
             {
               "source": "coracao",
@@ -797,6 +934,27 @@
               "time": "22:58–24:36"
             }
           ]
+        },
+        {
+          "heading": "Quando a limitação está fora das câmaras",
+          "paragraphs": [
+            "A cavidade pericárdica fica entre as lâminas serosas, fora das cavidades que transportam sangue. Se líquido se acumula sob pressão em um envoltório com pouca capacidade imediata de expansão, pode limitar o enchimento cardíaco mesmo com óstios e valvas pérvios. Menor enchimento pode reduzir o volume ejetado; o mecanismo não exige uma obstrução intracardíaca.",
+            "Derrame descreve o acúmulo de líquido; tamponamento descreve seu efeito compressivo sobre a função cardíaca. Velocidade do acúmulo e distensibilidade do saco modificam esse efeito. Não use uma quantidade isolada como limiar universal nem transforme essa explicação anatômica em critério diagnóstico ou indicação de procedimento."
+          ],
+          "id": "expanded-section-circ-pericardio",
+          "references": [
+            {
+              "source": "coracao",
+              "page": 51
+            },
+            {
+              "source": "coracao",
+              "page": 52
+            },
+            {
+              "source": "exp-openstax-heart"
+            }
+          ]
         }
       ],
       "recall": [
@@ -871,6 +1029,12 @@
         "119",
         "121",
         "124"
+      ],
+      "appliedCases": [
+        {
+          "id": "expanded-circ-01",
+          "title": "Vias abertas, enchimento limitado por fora"
+        }
       ]
     },
     {
@@ -1412,6 +1576,46 @@
               "source": "mori2019"
             }
           ]
+        },
+        {
+          "id": "circ-s-valvas-consequencias",
+          "heading": "Da estrutura alterada ao sentido do fluxo",
+          "paragraphs": [
+            "Para raciocinar sobre uma valva, pergunte: ela está entre quais compartimentos e qual deles tem maior pressão nesta fase? Na sístole do VE, a mitral precisa impedir retorno ao AE. Se uma corda se rompe e um folheto perde sustentação, ele pode prolapsar para o átrio e permitir refluxo VE → AE. O defeito não cria uma passagem direta do VE para o AD e não faz o sangue voltar pela valva pulmonar.",
+            "Compare dois problemas no mesmo óstio: uma mitral estreitada dificulta a passagem AE → VE durante o enchimento; uma mitral que não veda permite refluxo VE → AE durante a contração. O compartimento imediatamente a montante do estreitamento é o AE, conectado às veias pulmonares. “Antes da valva” e “depois da valva” só têm sentido quando você declara o sentido do fluxo normal.",
+            "As compilações antigas ajudam a encontrar confusões, não a validar mecanismos: papilares não comandam ativamente a abertura, folhetos semilunares não são músculos e o esqueleto fibroso não é uma peça cartilaginosa. Use as relações de pressão, sustentação e tecido conjuntivo já estudadas para justificar cada correção, em vez de decorar a frase do gabarito antigo."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "coracao",
+              "page": 38
+            },
+            {
+              "source": "coracao",
+              "page": 42
+            },
+            {
+              "source": "coracao",
+              "page": 43
+            },
+            {
+              "source": "coracao",
+              "page": 46
+            },
+            {
+              "source": "coracao",
+              "page": 47
+            },
+            {
+              "source": "coracao",
+              "page": 48
+            },
+            {
+              "source": "coracao",
+              "page": 49
+            }
+          ]
         }
       ],
       "recall": [
@@ -1468,6 +1672,46 @@
             {
               "source": "coracao",
               "page": 67
+            }
+          ]
+        },
+        {
+          "id": "circ-q39",
+          "question": "Durante a sístole do VE, a perda de sustentação de um folheto mitral permite refluxo. Qual é a câmara que recebe esse refluxo e por que a contração papilar normal não serve para abrir a valva?",
+          "answer": "O AE recebe o refluxo VE → AE. Papilares e cordas estabilizam o fechamento; a abertura depende do gradiente de pressão.",
+          "explanation": "A posição da mitral entre AE e VE define os compartimentos envolvidos. Sob pressão ventricular elevada, a sustentação limita a inversão do folheto para o átrio. Não é um cabo de abertura ativa.",
+          "references": [
+            {
+              "source": "coracao",
+              "page": 42
+            },
+            {
+              "source": "coracao",
+              "page": 46
+            }
+          ]
+        },
+        {
+          "id": "circ-q40",
+          "question": "Compare uma mitral estreitada e uma mitral que não veda: em qual fase e em qual direção surge a dificuldade ou o refluxo?",
+          "answer": "Estreitamento: dificuldade AE → VE no enchimento ventricular. Falha de vedação: refluxo VE → AE na sístole ventricular.",
+          "explanation": "A mesma localização anatômica produz problemas distintos conforme o mecanismo e o gradiente. O AE é a câmara imediatamente a montante do fluxo normal através da mitral e recebe as veias pulmonares. Trata-se de aplicação anatômica, não de critério diagnóstico.",
+          "references": [
+            {
+              "source": "coracao",
+              "page": 38
+            },
+            {
+              "source": "coracao",
+              "page": 42
+            },
+            {
+              "source": "coracao",
+              "page": 46
+            },
+            {
+              "source": "coracao",
+              "page": 49
             }
           ]
         }
@@ -1693,6 +1937,31 @@
               "time": "14:38–16:46"
             }
           ]
+        },
+        {
+          "heading": "Gerar, conduzir e modular não são a mesma função",
+          "paragraphs": [
+            "Para localizar uma falha em um modelo, marque separadamente onde o impulso nasce, por onde ele atravessa a conexão atrioventricular e quais fibras alteram seu ritmo. O isolamento fibroso entre miocárdios atrial e ventricular torna a via condutora especializada decisiva para a ativação habitual.",
+            "Se a conexão atrioventricular habitual está completamente interrompida e não há via acessória, manter o nó SA ou aumentar a modulação simpática não reconstrói essa conexão. Isso não equivale a provar ausência de todo automatismo ventricular: perda de transmissão e perda de geração são afirmações diferentes. Este raciocínio não define um diagnóstico eletrocardiográfico."
+          ],
+          "id": "expanded-section-circ-conducao",
+          "references": [
+            {
+              "source": "coracao",
+              "page": 48
+            },
+            {
+              "source": "coracao",
+              "page": 60
+            },
+            {
+              "source": "coracao",
+              "page": 66
+            },
+            {
+              "source": "exp-openstax-electrical"
+            }
+          ]
         }
       ],
       "recall": [
@@ -1764,6 +2033,12 @@
         "C66d",
         "C66e",
         "C66f"
+      ],
+      "appliedCases": [
+        {
+          "id": "expanded-circ-02",
+          "title": "O marcapasso dispara, mas a ponte foi interrompida"
+        }
       ]
     },
     {
@@ -2012,6 +2287,54 @@
               "time": "16:05–17:47"
             }
           ]
+        },
+        {
+          "id": "circ-s-arvore-coronaria",
+          "heading": "Raciocine pela árvore: origem → trajeto → ramos a jusante",
+          "paragraphs": [
+            "Primeiro situe o plano: os grandes troncos coronários são habitualmente subepicárdicos, na superfície e nos sulcos, e emitem ramos que penetram o miocárdio. Não os coloque sob o endocárdio só porque a rede de Purkinje é subendocárdica. O resumo complementar Sistema Circulatório - Vasos, página 9, troca esse plano ao descrever pontes; a própria página 5 descreve o trajeto abaixo do epicárdio. A ponte miocárdica é a exceção de um segmento recoberto por músculo, não a posição habitual de toda a árvore.",
+            "Depois siga a continuidade. Em uma árvore com bifurcação habitual e sem vias alternativas suficientes, uma interrupção no tronco da coronária esquerda antes da divisão compromete a chegada de sangue tanto ao IV anterior quanto à circunflexa. Uma interrupção restrita a um diagonal após sua origem não corta automaticamente o fluxo do tronco nem de toda a circunflexa. Quanto mais proximal o ponto, mais ramos podem ficar a jusante dele.",
+            "Por fim, explicite o limite: essa leitura prevê caminhos em risco, não desenha sozinha o tamanho de uma lesão. Dominância, origem dos ramos, anastomoses e nível exato da interrupção modificam o território. A dominância também não informa, por si, de qual coronária nasce o ramo do nó SA; é necessário seguir o ramo nodal na árvore observada."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "vasos",
+              "page": 18
+            },
+            {
+              "source": "vasos",
+              "page": 22
+            },
+            {
+              "source": "vasos",
+              "page": 23
+            },
+            {
+              "source": "vasos",
+              "page": 25
+            },
+            {
+              "source": "vasos",
+              "page": 26
+            },
+            {
+              "source": "vasos",
+              "page": 27
+            },
+            {
+              "source": "vasos",
+              "page": 29
+            },
+            {
+              "source": "complemento-vasos-estudantil",
+              "page": 5
+            },
+            {
+              "source": "complemento-vasos-estudantil",
+              "page": 9
+            }
+          ]
         }
       ],
       "recall": [
@@ -2072,6 +2395,58 @@
             {
               "source": "C2",
               "time": "16:05–17:47"
+            }
+          ]
+        },
+        {
+          "id": "circ-q41",
+          "question": "Em uma bifurcação habitual da coronária esquerda, compare uma interrupção antes da bifurcação com outra limitada a um diagonal depois de sua origem. Quais eixos ficam diretamente a jusante em cada caso?",
+          "answer": "Antes da bifurcação, IV anterior e circunflexa. No diagonal isolado, o próprio diagonal e seus ramos distais, sem interrupção automática de toda a circunflexa.",
+          "explanation": "Siga tronco → divisão → ramo antes de prever território. A posição proximal envolve mais caminhos potenciais, mas anatomia variável e circulação colateral impedem deduzir a extensão exata de uma lesão apenas do nome do vaso.",
+          "references": [
+            {
+              "source": "vasos",
+              "page": 25
+            },
+            {
+              "source": "vasos",
+              "page": 26
+            },
+            {
+              "source": "vasos",
+              "page": 27
+            },
+            {
+              "source": "coracao",
+              "page": 72
+            }
+          ]
+        },
+        {
+          "id": "circ-q42",
+          "question": "Uma árvore é dominante direita e o ramo do nó SA nasce da circunflexa. Há contradição? Indique quais dois trajetos você precisaria demonstrar.",
+          "answer": "Não. Demonstre o IV posterior nascendo da coronária direita e o ramo nodal saindo da circunflexa em direção ao nó SA.",
+          "explanation": "Dominância usa a origem do IV posterior, não a origem de todos os ramos nodais. Uma classificação não substitui a observação de outra ramificação.",
+          "references": [
+            {
+              "source": "vasos",
+              "page": 22
+            },
+            {
+              "source": "vasos",
+              "page": 23
+            },
+            {
+              "source": "vasos",
+              "page": 25
+            },
+            {
+              "source": "vasos",
+              "page": 27
+            },
+            {
+              "source": "complemento-vasos-estudantil",
+              "page": 7
             }
           ]
         }
@@ -2286,6 +2661,34 @@
               "page": 34
             }
           ]
+        },
+        {
+          "id": "circ-q43",
+          "question": "Uma anotação diz que a circunflexa corre dentro do seio coronário. Corrija a relação e diga o que cada nome designa.",
+          "answer": "A circunflexa é uma artéria no sulco AV esquerdo; o seio coronário é um coletor venoso na porção posterior do sulco coronário, que desemboca no AD.",
+          "explanation": "O sulco é o caminho topográfico; o seio é um vaso com luz própria. A veia cardíaca magna acompanha parte do trajeto da circunflexa e continua para o seio: proximidade não significa que a artéria corra dentro do coletor venoso.",
+          "references": [
+            {
+              "source": "vasos",
+              "page": 25
+            },
+            {
+              "source": "vasos",
+              "page": 30
+            },
+            {
+              "source": "vasos",
+              "page": 31
+            },
+            {
+              "source": "vasos",
+              "page": 32
+            },
+            {
+              "source": "vasos",
+              "page": 34
+            }
+          ]
         }
       ],
       "partIds": [
@@ -2311,6 +2714,12 @@
         "113",
         "114",
         "V36"
+      ],
+      "appliedCases": [
+        {
+          "id": "expanded-circ-03",
+          "title": "Duas setas paralelas no mesmo sulco"
+        }
       ]
     },
     {

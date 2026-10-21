@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "notice": "Seis situações originais de aplicação anatômica, não enunciados de provas recuperadas nem previsão da avaliação atual. Fontes docentes e referências públicas fundamentam as respostas; compilações históricas serviram apenas à triagem. A data da próxima prova e seu recorte oficial não foram confirmados. PDFs, imagens e mensagens privados permanecem fora do site. Os cenários não orientam diagnóstico ou procedimentos.",
+  "sources": [
+    {"id":"exp-heart","label":"Carmem Patrícia Barbosa — Sistema Circulatório: Coração, 75 páginas; consulta selecionada","role":"docente; anatomia de base","provenanceKey":"teacher-heart"},
+    {"id":"exp-vessels","label":"Carmem Patrícia Barbosa — Sistema Circulatório: Vasos, 44 páginas; cópia local conferida com o Drive","role":"docente; anatomia de base","provenanceKey":"teacher-vessels"},
+    {"id":"exp-resp","label":"Carmem Patrícia Barbosa — Sistema Respiratório Medicina, 144 páginas; original conferido com anexo docente","role":"docente; anatomia de base","provenanceKey":"teacher-resp"},
+    {"id":"exp-utah","label":"University of Utah — Digital Anatomy, Unit 3, páginas 81 e 83","role":"referência acadêmica pública; conferência de inervação laríngea","provenanceKey":"utah-larynx"},
+    {"id":"exp-openstax-heart","label":"OpenStax — Anatomy and Physiology 2e, 19.1 Heart Anatomy; seção Cardiac Tamponade","role":"referência didática pública; mecanismo de compressão pericárdica","provenanceKey":"openstax-heart"},
+    {"id":"exp-openstax-electrical","label":"OpenStax — Anatomy and Physiology 2e, 19.2; Comparative Rates of Conduction System Firing","role":"referência didática pública; automatismo dos tecidos condutores","provenanceKey":"openstax-electrical"},
+    {"id":"exp-pulmonary-vascular","label":"Kandathil e Chamarthy, 2018 — Pulmonary vascular anatomy & anatomical variants; resumo e sistemas arterial/venoso","role":"revisão acadêmica pública; relações broncovasculares","provenanceKey":"pulmonary-vascular"}
+  ],
+  "cases": [
+    {
+      "id":"expanded-circ-01",
+      "title":"Vias abertas, enchimento limitado por fora",
+      "system":"circulatory",
+      "chapterId":"circ-pericardio",
+      "scenario":"Em uma simulação anatômica, mantém-se a continuidade das cavas, dos óstios atrioventriculares e das vias de saída. Acrescenta-se rapidamente líquido entre as lâminas do pericárdio seroso, dentro de um envoltório pouco distensível. As câmaras passam a receber menos sangue antes de cada contração.",
+      "question":"Em que compartimento está o líquido e como ele pode reduzir a ejeção sem obstruir uma valva? Compare qualitativamente com um acúmulo lento, sem supor um volume-limite universal.",
+      "answer":"O líquido está na cavidade pericárdica, entre as lâminas parietal e visceral. A pressão externa limita a expansão e o enchimento das câmaras; com menor enchimento, pode haver menor volume ejetado. Um acúmulo lento pode permitir maior acomodação do saco, de modo que velocidade e distensibilidade importam, não apenas o volume.",
+      "explanation":"O obstáculo é extrínseco à cavidade cardíaca: uma via de entrada pérvia não garante enchimento quando aumenta a pressão ao redor do coração. Esse é o raciocínio mecânico do tamponamento; derrame pericárdico não significa automaticamente tamponamento. O cenário não fornece critérios para diagnosticar ou tratar uma pessoa.",
+      "checkpoints":["Localizar o líquido entre as duas lâminas serosas, não no miocárdio nem dentro de um ventrículo.","Encadear pressão externa → limitação do enchimento → possível redução da ejeção.","Distinguir presença de líquido de comprometimento hemodinâmico e evitar limiar volumétrico universal."],
+      "references":[{"source":"exp-heart","page":51},{"source":"exp-heart","page":52},{"source":"exp-openstax-heart"}]
+    },
+    {
+      "id":"expanded-circ-02",
+      "title":"O marcapasso dispara, mas a ponte foi interrompida",
+      "system":"circulatory",
+      "chapterId":"circ-conducao",
+      "scenario":"Um modelo mantém o nó sinoatrial e a propagação pelo miocárdio atrial, mas interrompe completamente a passagem pelo fascículo atrioventricular. O esqueleto fibroso e a ausência de vias acessórias são mantidos no modelo.",
+      "question":"Por que preservar o disparo sinoatrial e aumentar a estimulação simpática não reconstrói a ativação ventricular pela rota habitual? Isso autoriza concluir que nenhum tecido ventricular poderá gerar atividade própria?",
+      "answer":"O estímulo atrial perdeu a conexão condutora habitual para os ramos e a rede de Purkinje; o isolamento fibroso impede que simplesmente atravesse o miocárdio adjacente. Modulação autonômica não substitui uma ponte anatômica interrompida. Não se pode concluir ausência absoluta de atividade ventricular própria: o cenário demonstra perda da condução habitual, não a impossibilidade de automatismo em outros tecidos especializados.",
+      "explanation":"É preciso separar três funções: gerar o estímulo, transmiti-lo entre compartimentos e modular sua frequência. A hipótese delimita uma interrupção completa da via habitual, não um diagnóstico obtido por um traçado de ECG. Não são deduzidas frequência de escape, gravidade clínica ou conduta.",
+      "checkpoints":["Reconstruir nó SA → átrios → nó AV → fascículo AV → ramos → Purkinje e marcar a interrupção.","Explicar por que o esqueleto fibroso torna a conexão especializada relevante.","Não confundir ausência de condução atrioventricular habitual com ausência de todo automatismo."],
+      "references":[{"source":"exp-heart","page":48},{"source":"exp-heart","page":60},{"source":"exp-heart","page":66},{"source":"exp-heart","page":67},{"source":"exp-openstax-electrical"}]
+    },
+    {
+      "id":"expanded-circ-03",
+      "title":"Duas setas paralelas no mesmo sulco",
+      "system":"circulatory",
+      "chapterId":"circ-veias",
+      "scenario":"Em uma reconstrução do sulco atrioventricular esquerdo, dois segmentos vasculares apresentam fluxo no mesmo sentido espacial. Um pode ser seguido proximalmente até a coronária esquerda; o outro continua a veia interventricular anterior e segue para o coletor venoso posterior.",
+      "question":"É necessário inverter uma das setas para respeitar a definição de artéria e veia? Identifique os vasos candidatos e explique quais continuidades resolvem a aparente contradição.",
+      "answer":"Não. Os candidatos são o ramo circunflexo da coronária esquerda e a veia cardíaca magna. A circunflexa distribui sangue da árvore coronária à parede; a magna recolhe sangue venoso e segue para o sistema do seio coronário, que desemboca no átrio direito. O sentido local no sulco não precisa ser oposto.",
+      "explanation":"A classificação arterial ou venosa usa o papel no circuito e suas conexões, não uma regra de setas opostas em todo trecho vizinho. A lâmina docente explicita essa relação local. A identificação exige demonstrar continuidades; posição e cor isoladas não bastam, e a circunflexa não fica dentro da luz do seio coronário.",
+      "checkpoints":["Reconhecer magna e circunflexa como vasos distintos que podem acompanhar o mesmo sulco.","Usar origem/destino para classificar o circuito, em vez da direção na tela.","Manter separados sulco anatômico, artéria e coletor venoso."],
+      "references":[{"source":"exp-vessels","page":30},{"source":"exp-vessels","page":33},{"source":"exp-vessels","page":34}]
+    },
+    {
+      "id":"expanded-resp-01",
+      "title":"A sensação falha, mas os movimentos permanecem",
+      "system":"respiratory",
+      "chapterId":"resp_06",
+      "scenario":"Em um exercício de localização, supõe-se perda sensitiva restrita à mucosa acima das pregas vocais. Abdução e adução das pregas e tensionamento pelo cricotireóideo permanecem. A hipótese exclui lesão muscular e comprometimento global do vago.",
+      "question":"Qual ramo é compatível com a distribuição descrita, por onde ele entra e por que os três achados motores preservados não excluem essa lesão sensitiva?",
+      "answer":"O ramo interno do nervo laríngeo superior, que atravessa a membrana tireo-hióidea. Ele conduz sensibilidade supraglótica; o ramo externo supre o cricotireóideo e o laríngeo inferior supre os demais músculos intrínsecos. Assim, integridade motora não demonstra integridade dessa aferência.",
+      "explanation":"O objetivo não é deduzir uma doença pela qualidade da voz. É localizar uma função explicitamente perdida e confrontá-la com funções preservadas. Distinguir ramo interno, ramo externo e recorrente/inferior impede a generalização de que todo ramo do vago tem a mesma distribuição motora e sensitiva.",
+      "checkpoints":["Associar a perda acima das pregas ao ramo interno do laríngeo superior.","Localizar sua passagem na membrana tireo-hióidea.","Separar aferência mucosa de abdução/adução e tensionamento muscular."],
+      "references":[{"source":"exp-resp","page":65},{"source":"exp-utah","page":81},{"source":"exp-utah","page":83}]
+    },
+    {
+      "id":"expanded-resp-02",
+      "title":"Três traçadores, três portas diferentes",
+      "system":"respiratory",
+      "chapterId":"resp_03",
+      "scenario":"Um modelo sem variações recebe três traçadores independentes: um no saco lacrimal, um no seio maxilar e outro no seio esfenoidal. A comunicação terminal do ducto nasolacrimal com a cavidade nasal é bloqueada, mas os óstios dos dois seios e os cóanos permanecem abertos. Ignore refluxo e difusão entre compartimentos.",
+      "question":"Qual traçador perde sua via terminal habitual? Indique os destinos nasais dos outros dois e explique por que cóanos pérvios não resolvem o bloqueio descrito.",
+      "answer":"O traçador lacrimal perde a saída habitual no meato inferior. O do seio maxilar chega ao meato médio; o do esfenoidal, ao recesso esfenoetmoidal. Os cóanos comunicam posteriormente a cavidade nasal com a nasofaringe, mas não substituem a abertura obstruída do ducto.",
+      "explanation":"A tarefa exige acompanhar três trajetos e localizar o nível de uma interrupção seletiva. Ter passagem de ar posterior não garante patência de cada via de drenagem lateral. O modelo é anatômico; não prevê sozinho sintomas, propagação de infecção ou tratamento.",
+      "checkpoints":["Separar drenagem lacrimal, drenagem maxilar e drenagem esfenoidal.","Distinguir meato inferior, meato médio e recesso esfenoetmoidal.","Diferenciar a porta de drenagem lateral da passagem posterior pelos cóanos."],
+      "references":[{"source":"exp-resp","page":19},{"source":"exp-resp","page":36}]
+    },
+    {
+      "id":"expanded-resp-03",
+      "title":"O vaso da fronteira não acompanha o brônquio",
+      "system":"respiratory",
+      "chapterId":"resp_08",
+      "scenario":"Em uma reconstrução segmentar, um brônquio e um ramo arterial pulmonar seguem juntos para o interior de um território. Outro vaso percorre um plano entre territórios e pode ser seguido até o átrio esquerdo. Um estudante afirma que os três formam um pedículo inteiramente isolado e exclusivo de um único segmento.",
+      "question":"Que estrutura vascular é o melhor candidato para o vaso da fronteira e qual parte da afirmação precisa ser corrigida? Diga também o que a árvore brônquica, sozinha, não demonstra no modelo.",
+      "answer":"O candidato é um ramo venoso pulmonar. Ramos arteriais segmentares tendem a acompanhar os brônquios, enquanto as vias venosas apresentam trajetos septais e entre territórios, sem repetir obrigatoriamente a árvore broncoarterial. Portanto, suprimento segmentar não torna toda drenagem um circuito exclusivo e isolado. A árvore brônquica sozinha não demonstra todos os limites de parênquima nem cada fronteira venosa.",
+      "explanation":"A continuidade até o átrio esquerdo sustenta a identificação venosa e deve concordar com a posição observada. A revisão vascular ressalta variações; o exercício não afirma que toda veia esteja em uma fronteira nem oferece uma técnica de segmentectomia. O slide docente sobre autonomia segmentar deve ser lido com essa ressalva, não como isolamento absoluto de toda estrutura.",
+      "checkpoints":["Identificar o par broncoarterial e contrastá-lo com o trajeto venoso.","Usar a continuidade até o átrio esquerdo como evidência, além da posição.","Não confundir autonomia do suprimento com isolamento completo da drenagem ou com limites 3D já demonstrados."],
+      "references":[{"source":"exp-resp","page":92},{"source":"exp-resp","page":95},{"source":"exp-pulmonary-vascular"}]
+    }
+  ],
+  "chapterProposals": [
+    {
+      "system":"circulatory",
+      "chapterId":"circ-pericardio",
+      "heading":"Quando a limitação está fora das câmaras",
+      "paragraphs":["A cavidade pericárdica fica entre as lâminas serosas, fora das cavidades que transportam sangue. Se líquido se acumula sob pressão em um envoltório com pouca capacidade imediata de expansão, pode limitar o enchimento cardíaco mesmo com óstios e valvas pérvios. Menor enchimento pode reduzir o volume ejetado; o mecanismo não exige uma obstrução intracardíaca.","Derrame descreve o acúmulo de líquido; tamponamento descreve seu efeito compressivo sobre a função cardíaca. Velocidade do acúmulo e distensibilidade do saco modificam esse efeito. Não use uma quantidade isolada como limiar universal nem transforme essa explicação anatômica em critério diagnóstico ou indicação de procedimento."],
+      "references":[{"source":"exp-heart","page":51},{"source":"exp-heart","page":52},{"source":"exp-openstax-heart"}]
+    },
+    {
+      "system":"circulatory",
+      "chapterId":"circ-conducao",
+      "heading":"Gerar, conduzir e modular não são a mesma função",
+      "paragraphs":["Para localizar uma falha em um modelo, marque separadamente onde o impulso nasce, por onde ele atravessa a conexão atrioventricular e quais fibras alteram seu ritmo. O isolamento fibroso entre miocárdios atrial e ventricular torna a via condutora especializada decisiva para a ativação habitual.","Se a conexão atrioventricular habitual está completamente interrompida e não há via acessória, manter o nó SA ou aumentar a modulação simpática não reconstrói essa conexão. Isso não equivale a provar ausência de todo automatismo ventricular: perda de transmissão e perda de geração são afirmações diferentes. Este raciocínio não define um diagnóstico eletrocardiográfico."],
+      "references":[{"source":"exp-heart","page":48},{"source":"exp-heart","page":60},{"source":"exp-heart","page":66},{"source":"exp-openstax-electrical"}]
+    },
+    {
+      "system":"respiratory",
+      "chapterId":"resp_06",
+      "heading":"Função preservada também ajuda a localizar",
+      "paragraphs":["Movimentos preservados não demonstram, por si, sensibilidade normal da mucosa. Na comparação entre ramos laríngeos, associe o interno do laríngeo superior à aferência acima das pregas, o externo ao cricotireóideo e o laríngeo inferior aos demais músculos intrínsecos. O interno entra pela membrana tireo-hióidea.","Em hipóteses de lesão seletiva, confronte uma função perdida com pelo menos duas preservadas. Isso é mais informativo que classificar qualquer alteração como lesão global do vago. O exercício anatômico não permite localizar uma doença apenas por rouquidão ou por outro sintoma isolado."],
+      "references":[{"source":"exp-resp","page":65},{"source":"exp-utah","page":81},{"source":"exp-utah","page":83}]
+    }
+  ]
+}

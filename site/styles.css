@@ -12,6 +12,22 @@
 .reference-link{display:block;border:1px solid var(--line);border-radius:10px;padding:16px;background:#f0eee4;text-decoration:none}.reference-link>span{font-size:8px;letter-spacing:1.3px;color:var(--muted)}.reference-link strong{display:block;font:17px Georgia,serif;margin:9px 0;color:#713d43}.reference-link small{display:block;font-size:10px;line-height:1.6;color:#787e70}.reference-link:hover{border-color:#be9a96;background:#f5eee7}
 
 .depth-control{margin-top:15px;font-size:10px}.depth-control>span:first-child{max-width:calc(100% - 40px)}
+/* Utility controls belong to the atlas only, not the shared navigation. */
+.mesh-label.is-selected{border:2px solid #713d18;font-weight:700;background:#fff9e9}
+#label-status{margin:5px 0;line-height:1.5}
+#scene-result{display:none}
+.reading-context-link{display:block;margin:9px 0;line-height:1.5}
+#reading-context h2{font:18px Georgia,serif;margin:0 0 10px}
+.exam-mode #label-status,.exam-mode #scene-controls-return{display:none!important}
+@media(max-width:650px){#scene-result{display:block;position:fixed;bottom:12px;right:12px;z-index:30;box-shadow:0 2px 10px #0003;max-width:calc(100vw - 24px)}body:has(#scene-result) .footer{padding-bottom:65px}#scene-controls-return{align-self:flex-start}}
+
 @media(min-width:971px){.workspace{align-items:start}.viewer-section{position:sticky;top:16px}.viewer{height:clamp(500px,calc(100dvh - 320px),860px);min-height:500px;flex:none}.reference-link strong{font-size:16px}.alternate-atlas{padding:13px 16px}}
 
 .study-view-control{display:flex;flex-direction:column;gap:7px;margin:0 0 14px;padding:12px;background:#eeeee5;border-radius:9px}.study-view-control label{font-size:11px;color:#536452}.study-view-control select{width:100%;min-width:0;padding:9px;border:1px solid #d8dcd1;border-radius:6px;background:#fffefa;color:#536452;font:inherit;font-size:12px}.study-view-control a{font-size:11px;color:#703b40}.study-view-control select:focus-visible,.study-view-control a:focus-visible{outline:2px solid #954249;outline-offset:3px}
+
+/* Keep the unoccluded original beside the sticky 3D scene, not below the list. */
+#cadaver-host,.inspector{min-width:0}
+@media(min-width:971px){.workspace{grid-template-columns:215px minmax(290px,1fr) minmax(300px,360px)}}
+@media(min-width:651px) and (max-width:970px){.inspector{grid-template-columns:1fr 1fr}#cadaver-host{grid-column:2;grid-row:1 / span 2}}
+@media(max-width:650px){.inspector{order:1}.structures{order:2}}
+.exam-mode #cadaver-host{display:none!important}

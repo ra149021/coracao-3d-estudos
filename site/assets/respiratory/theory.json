@@ -88,6 +88,35 @@
       "label": "UAMS — Nerves of the Thorax",
       "type": "reference",
       "url": "https://medicine.uams.edu/neuroscience/education/medical-school-courses/human-structure-module/anatomy-tables/nerve-tables/nerves-of-the-thorax/"
+    },
+    {
+      "id": "atividade_resp_coleta",
+      "label": "Atividade de fixação — Anatomia Humana/Tórax (coleta histórica; autoria não confirmada)",
+      "kind": "reference",
+      "type": "reference",
+      "pageCount": 2,
+      "reviewStatus": "Arquivo atividade medicina respiratórioPDF_231215_000242.pdf; leitura textual das páginas 1–2. Usado para selecionar lacunas e discutir mecanismo pleural, não como protocolo clínico ou confirmação da prova atual. Original privado não distribuído."
+    },
+    {
+      "id": "pratica_torax_coleta",
+      "label": "Prática tórax — lista complementar histórica (autoria não confirmada)",
+      "kind": "outline",
+      "type": "outline",
+      "pageCount": 2,
+      "reviewStatus": "Arquivo prática torax.pdf, página 1: orientação pulmonar e relações frênico/raiz/vago. Lista não oficial; erros e trechos de outros sistemas não incorporados. Original privado não distribuído."
+    },
+    {
+      "id": "medline_atelectasis",
+      "label": "MedlinePlus — Atelectasis",
+      "type": "reference",
+      "url": "https://medlineplus.gov/ency/article/000065.htm",
+      "reviewStatus": "Texto consultado para distinguir colapso pulmonar, obstrução de vias aéreas e pneumotórax; não usado como protocolo de conduta."
+    },
+    {
+      "id": "exp-pulmonary-vascular",
+      "label": "Kandathil e Chamarthy, 2018 — Pulmonary vascular anatomy & anatomical variants; resumo e sistemas arterial/venoso",
+      "type": "academic-reference",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6039811/"
     }
   ],
   "chapters": [
@@ -829,6 +858,12 @@
         "R040",
         "R041",
         "R221"
+      ],
+      "appliedCases": [
+        {
+          "id": "expanded-resp-02",
+          "title": "Três traçadores, três portas diferentes"
+        }
       ]
     },
     {
@@ -1533,6 +1568,51 @@
               "page": 81
             }
           ]
+        },
+        {
+          "heading": "Da lesão nervosa ao movimento que falta",
+          "paragraphs": [
+            "Para deduzir um déficit, percorra nervo → músculo → movimento. Uma lesão isolada do ramo externo do laríngeo superior prejudica o cricotireóideo: fica mais difícil aumentar a tensão das pregas e alcançar sons agudos. Isso não equivale à perda de toda a motricidade laríngea, pois os demais músculos intrínsecos recebem o laríngeo inferior.",
+            "Uma lesão do recorrente pode comprometer tanto abdutores quanto adutores do lado atingido; portanto, não a reduza à perda de um único movimento. O cricotireóideo pode continuar funcionando, mas não substitui o cricoaritenóideo posterior para abrir a rima. O efeito sobre voz e passagem de ar depende, entre outros fatores, de ser unilateral ou bilateral; rouquidão isolada não localiza por si só a lesão.",
+            "Na peça, reconstrua o trajeto: o recorrente esquerdo contorna o arco aórtico, enquanto o direito contorna a subclávia direita; ambos ascendem junto à região traqueoesofágica em direção à laringe. Essa diferença explica por que estruturas torácicas podem relacionar-se a alterações da função laríngea, sem que o problema esteja inicialmente nas pregas."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 81
+            },
+            {
+              "source": "utah_larynx",
+              "page": 81
+            },
+            {
+              "source": "utah_larynx",
+              "page": 83
+            }
+          ]
+        },
+        {
+          "heading": "Função preservada também ajuda a localizar",
+          "paragraphs": [
+            "Movimentos preservados não demonstram, por si, sensibilidade normal da mucosa. Na comparação entre ramos laríngeos, associe o interno do laríngeo superior à aferência acima das pregas, o externo ao cricotireóideo e o laríngeo inferior aos demais músculos intrínsecos. O interno entra pela membrana tireo-hióidea.",
+            "Em hipóteses de lesão seletiva, confronte uma função perdida com pelo menos duas preservadas. Isso é mais informativo que classificar qualquer alteração como lesão global do vago. O exercício anatômico não permite localizar uma doença apenas por rouquidão ou por outro sintoma isolado."
+          ],
+          "id": "expanded-section-resp_06",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 65
+            },
+            {
+              "source": "utah_larynx",
+              "page": 81
+            },
+            {
+              "source": "utah_larynx",
+              "page": 83
+            }
+          ]
         }
       ],
       "recall": [
@@ -1614,6 +1694,22 @@
             }
           ],
           "id": "resp_06_q06"
+        },
+        {
+          "id": "resp_06_q07",
+          "question": "Em uma hipótese de lesão isolada do ramo externo do laríngeo superior, que ajuste vocal fica prejudicado e por que a abdução pode permanecer?",
+          "answer": "O aumento de tensão pelo cricotireóideo fica prejudicado; o cricoaritenóideo posterior pode continuar abduzindo as pregas por receber o laríngeo inferior.",
+          "explanation": "A dedução combina distribuição motora e ação muscular. Não significa que esse sinal sozinho estabeleça um diagnóstico clínico.",
+          "references": [
+            {
+              "source": "utah_larynx",
+              "page": 81
+            },
+            {
+              "source": "utah_larynx",
+              "page": 83
+            }
+          ]
         }
       ],
       "partIds": [
@@ -1682,6 +1778,12 @@
         "R215",
         "R216",
         "R222"
+      ],
+      "appliedCases": [
+        {
+          "id": "expanded-resp-01",
+          "title": "A sensação falha, mas os movimentos permanecem"
+        }
       ]
     },
     {
@@ -1797,7 +1899,8 @@
           "heading": "Da cartilagem à parede bronquiolar",
           "paragraphs": [
             "A ramificação reduz progressivamente o calibre das vias. Brônquios intrapulmonares apresentam suporte cartilaginoso distribuído em placas; bronquíolos não têm cartilagem. A musculatura lisa passa a ser uma referência importante para entender variação de calibre e resistência ao fluxo.",
-            "A maior verticalidade do principal direito ajuda a explicar a tendência de corpos estranhos aspirados seguirem para esse lado. É uma tendência anatômica, não uma regra absoluta para toda posição ou faixa etária."
+            "A maior verticalidade do principal direito ajuda a explicar a tendência de corpos estranhos aspirados seguirem para esse lado. É uma tendência anatômica, não uma regra absoluta para toda posição ou faixa etária.",
+            "Depois de localizar o lado, siga a ramificação para prever o território afetado. No padrão habitual, uma obstrução no brônquio intermédio direito, após a saída do lobar superior e antes dos ramos para médio e inferior, dificulta a chegada de ar a esses dois lobos, poupando a via do superior. Aspirar material para a luz brônquica não é introduzir ar no espaço pleural: obstrução da via e pneumotórax interrompem etapas diferentes da ventilação."
           ],
           "bullets": [],
           "references": [
@@ -1820,6 +1923,14 @@
             {
               "source": "R3",
               "time": "05:14–06:29"
+            },
+            {
+              "source": "respiratorio",
+              "page": 92
+            },
+            {
+              "source": "atividade_resp_coleta",
+              "page": 1
             }
           ]
         }
@@ -1880,6 +1991,22 @@
             }
           ],
           "id": "resp_07_q04"
+        },
+        {
+          "id": "resp_07_q05",
+          "question": "Um corpo estranho oclui o brônquio intermédio direito antes da divisão para médio e inferior. Que lobos perdem sua via habitual de entrada de ar e qual pode ser poupado?",
+          "answer": "Médio e inferior ficam a jusante da obstrução; o superior pode ser poupado porque seu brônquio já se originou acima dela.",
+          "explanation": "A verticalidade do principal sugere uma tendência de lado; a posição exata da obstrução na árvore determina o território. Não se pode concluir apenas daí que há ar na cavidade pleural.",
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 89
+            },
+            {
+              "source": "respiratorio",
+              "page": 92
+            }
+          ]
         }
       ],
       "partIds": [
@@ -2241,6 +2368,12 @@
         "R140",
         "R141",
         "R142"
+      ],
+      "appliedCases": [
+        {
+          "id": "expanded-resp-03",
+          "title": "O vaso da fronteira não acompanha o brônquio"
+        }
       ]
     },
     {
@@ -2257,7 +2390,8 @@
           "heading": "Orientação antes de nomear",
           "paragraphs": [
             "O ápice aponta superiormente; a base, ou face diafragmática, é inferior e côncava. A face costal acompanha a parede torácica; a mediastinal volta-se medialmente e contém o hilo. Margens delimitam transições entre superfícies.",
-            "Comece por medial/lateral e superior/inferior. Só depois use fissuras e impressões para decidir direita/esquerda. Uma vista rodada pode inverter a aparência da tela, mas não a lateralidade anatômica."
+            "Comece por medial/lateral e superior/inferior. Só depois use fissuras e impressões para decidir direita/esquerda. Uma vista rodada pode inverter a aparência da tela, mas não a lateralidade anatômica.",
+            "Para resolver anterior/posterior na peça, contraste a margem anterior mais fina com a região posterior arredondada; combine essa pista com o hilo medial e a base côncava inferior. Só então procure incisura cardíaca/língula ou fissura horizontal para confirmar o lado. Uma fissura pouco evidente ou incompleta não deve anular todas as outras relações."
           ],
           "bullets": [],
           "references": [
@@ -2280,6 +2414,10 @@
             {
               "source": "respiratorio",
               "page": 105
+            },
+            {
+              "source": "pratica_torax_coleta",
+              "page": 1
             }
           ]
         },
@@ -2380,6 +2518,36 @@
               ]
             ]
           }
+        },
+        {
+          "heading": "Reconstruir a raiz sem usar cores",
+          "paragraphs": [
+            "Primeiro oriente a face mediastinal. No corte da raiz, procure suporte cartilaginoso para reconhecer o brônquio e diferencie-o das luzes vasculares. Depois confirme pelas posições relativas: a artéria pulmonar direita fica anterior ao brônquio principal direito; a esquerda fica superior ao brônquio principal esquerdo. Esse contraste não é uma ordem vertical única válida para os dois lados; à direita, o brônquio lobar superior também se situa acima da artéria.",
+            "As veias pulmonares ocupam posições mais anteriores/inferiores em relação aos elementos brônquicos; a veia pulmonar inferior é uma referência baixa no hilo. Use conjunto de relações e continuidade do vaso, pois corte oblíquo, colapso das paredes e variações de ramificação podem mudar a aparência das luzes. A disposição aberta do esquema do pedículo não deve ser tomada como escala ou empilhamento universal.",
+            "Ao redor da raiz, o frênico passa anteriormente e o vago posteriormente. A relação ajuda a distinguir nervos de funções diferentes: o frênico leva comando motor ao diafragma; ramos vagais participam dos plexos pulmonares. Passar junto ao hilo não torna o tronco frênico um componente que entra no pulmão. Inferiormente, procure a dupla prega do ligamento pulmonar para completar o mapa da reflexão pleural."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "respiratorio",
+              "page": 106
+            },
+            {
+              "source": "respiratorio",
+              "page": 107
+            },
+            {
+              "source": "respiratorio",
+              "page": 117
+            },
+            {
+              "source": "pratica_torax_coleta",
+              "page": 1
+            },
+            {
+              "source": "uams_nerves"
+            }
+          ]
         }
       ],
       "recall": [
@@ -2450,6 +2618,21 @@
             }
           ],
           "id": "resp_09_q05"
+        },
+        {
+          "id": "resp_09_q06",
+          "question": "Um nervo desce anterior à raiz pulmonar rumo ao diafragma. Qual é o candidato anatômico e por que não o identificar apenas como ramo do plexo pulmonar?",
+          "answer": "O frênico; sua posição anterior à raiz e seu destino diafragmático o distinguem do vago, que passa posteriormente e fornece ramos aos plexos pulmonares.",
+          "explanation": "A relação topográfica precisa concordar com o trajeto e a função. O tronco frênico passa ao lado da raiz, não segue com o brônquio para o interior do pulmão.",
+          "references": [
+            {
+              "source": "pratica_torax_coleta",
+              "page": 1
+            },
+            {
+              "source": "uams_nerves"
+            }
+          ]
         }
       ],
       "partIds": [
@@ -2623,6 +2806,39 @@
               "time": "16:45–17:14"
             }
           ]
+        },
+        {
+          "heading": "Pneumotórax: o ar entrou no compartimento errado",
+          "paragraphs": [
+            "Na ventilação normal, o ar percorre as vias aéreas e chega aos alvéolos; o espaço pleural permanece sem ar. No pneumotórax, ar alcança o espaço entre os folhetos e reduz o gradiente de pressão que mantém o pulmão distendido. Com menor pressão transpulmonar, a retração elástica pode diminuir o volume pulmonar mesmo que o brônquio continue aberto. O problema não é simplesmente faltar força ao diafragma nem haver um tampão na luz brônquica.",
+            "Atelectasia descreve perda de aeração/colapso de tecido pulmonar; pneumotórax nomeia ar na cavidade pleural. Podem estar relacionados, mas não são sinônimos: uma obstrução brônquica também pode levar à perda de aeração a jusante, sem entrada de ar na pleura. Para raciocinar, indique primeiro o compartimento alterado e depois explique por que o pulmão deixa de acompanhar a expansão torácica ou de receber ar.",
+            "Se ar continua entrando sem saída suficiente e a pressão pleural aumenta progressivamente, pode haver pneumotórax hipertensivo, com deslocamento do mediastino. Isso não é consequência obrigatória de todo pneumotórax. No caso histórico de ferimento, um nível hidroaéreo indica ar e líquido na cavidade, mas não identifica sozinho a natureza do líquido. Aqui o exercício é anatômico e causal, não uma orientação de procedimento."
+          ],
+          "bullets": [],
+          "references": [
+            {
+              "source": "atividade_resp_coleta",
+              "page": 1
+            },
+            {
+              "source": "atividade_resp_coleta",
+              "page": 2
+            },
+            {
+              "source": "medline_atelectasis"
+            },
+            {
+              "source": "openstax_mechanics"
+            },
+            {
+              "source": "respiratorio",
+              "page": 110
+            },
+            {
+              "source": "respiratorio",
+              "page": 119
+            }
+          ]
         }
       ],
       "recall": [
@@ -2689,6 +2905,21 @@
             }
           ],
           "id": "resp_10_q05"
+        },
+        {
+          "id": "resp_10_q06",
+          "question": "Após entrada de ar na cavidade pleural, o pulmão reduz seu volume apesar de o brônquio estar pérvio. Explique a cadeia causal sem atribuir o colapso a uma obstrução.",
+          "answer": "Ar no espaço pleural reduz o gradiente distensor transpulmonar; a retração elástica diminui o volume do pulmão, prejudicando seu acoplamento à parede torácica.",
+          "explanation": "Brônquio aberto não garante expansão se o mecanismo pleural estiver alterado. Pneumotórax é ar na pleura; não se deve concluir que todo caso evoluirá para aumento progressivo de pressão e desvio mediastinal.",
+          "references": [
+            {
+              "source": "atividade_resp_coleta",
+              "page": 1
+            },
+            {
+              "source": "openstax_mechanics"
+            }
+          ]
         }
       ],
       "partIds": [],
@@ -3227,12 +3458,13 @@
       ]
     }
   ],
-  "reviewStatus": "Síntese autoral revisada com slides, trechos ASR localizados e fontes institucionais para conflitos; não é transcrição integral nem gabarito oficial.",
+  "reviewStatus": "Síntese autoral revisada com slides, trechos ASR localizados e fontes institucionais para conflitos; revisão complementar de lacunas com atividade e lista prática históricas, sem tratá-las como gabarito. Não é transcrição integral nem confirmação da prova atual.",
   "limitations": [
     "O roteiro respiratório oficial da Carmem não foi localizado. A seleção principal deriva dos slides de 144 páginas; IDs R### são editoriais.",
     "Timestamps localizam trechos em transcrições automáticas. Não houve revisão integral do áudio e as falas não foram tratadas como autoridade contra a anatomia.",
     "As questões são exercícios originais de recuperação ativa, não questões oficiais da prova.",
     "Variações de segmentação, posição e dimensões exigem atenção à convenção usada; cores do modelo são recursos de estudo.",
-    "Associação de uma aula ou capítulo a uma malha não certifica sua fidelidade anatômica. Estruturas sem representação adequada devem ser estudadas na figura indicada."
+    "Associação de uma aula ou capítulo a uma malha não certifica sua fidelidade anatômica. Estruturas sem representação adequada devem ser estudadas na figura indicada.",
+    "A atividade e a lista prática da coleta complementar têm autoria e vigência não confirmadas. Foram usadas apenas em trechos pertinentes; respostas estudantis e instruções clínicas não foram convertidas em gabarito ou protocolo. Os originais privados não estão incorporados ao site."
   ]
 }
