@@ -115,6 +115,87 @@ class StudyWorkspaceTests(unittest.TestCase):
         self.page.wait_for_selector('.chapter-title')
         self.assertEqual(self.page.locator('#study-notes').input_value(), 'Explicação circulatória')
 
+    def test_read_marks_pending_recover_without_overwriting_concurrent_data(self):
+        import json
+        from urllib.parse import urlparse, parse_qs
+        for blocked in ('write', 'read'):
+            with self.subTest(blocked=blocked):
+                page = self.context.new_page()
+                page.goto(BASE + '/theory.html?system=circulatory&chapter=circ-valvas')
+                page.wait_for_selector('.mark-read')
+                original = {'read': {}, 'answers': {'old': {'rating': 'known'}}, 'extension': {'keep': 1}}
+                page.evaluate('v => localStorage.setItem("atlas:theory:circulatory", JSON.stringify(v))', original)
+                page.reload()
+                page.wait_for_selector('.mark-read')
+                page.evaluate('''blocked => {
+                  const get = Storage.prototype.getItem, set = Storage.prototype.setItem;
+                  window.readRaw = () => get.call(localStorage, 'atlas:theory:circulatory');
+                  window.blockProgress = true; window.progressWrites = 0;
+                  Storage.prototype.getItem = function(k) {
+                    if (k === 'atlas:theory:circulatory' && window.blockProgress && blocked === 'read') throw Error('blocked read');
+                    return get.call(this, k);
+                  };
+                  Storage.prototype.setItem = function(k, v) {
+                    if (k === 'atlas:theory:circulatory') {
+                      window.progressWrites++;
+                      if (window.blockProgress && blocked === 'write') throw Error('blocked write');
+                    }
+                    return set.call(this, k, v);
+                  };
+                }''', blocked)
+                page.locator('.mark-read').click()
+                page.locator('#chapter-list button').first.click()
+                second = parse_qs(urlparse(page.url).query)['chapter'][0]
+                page.locator('.mark-read').click()
+                self.assertEqual(json.loads(page.evaluate('readRaw()')), original)
+                if blocked == 'read':
+                    self.assertEqual(page.evaluate('progressWrites'), 0)
+                self.assertIn('somente nesta sessão', page.locator('#theory-status').inner_text())
+                other = self.context.new_page()
+                other.goto(BASE + '/theory.html?system=respiratory')
+                concurrent = {'read': {'concurrent': True}, 'answers': {'new': {'rating': 'review'}}, 'extension': {'keep': 2}}
+                other.evaluate('v => localStorage.setItem("atlas:theory:circulatory", JSON.stringify(v))', concurrent)
+                page.evaluate('window.blockProgress = false')
+                page.locator('#chapter-list button').nth(2).click()
+                third = parse_qs(urlparse(page.url).query)['chapter'][0]
+                page.locator('.mark-read').click()
+                saved = json.loads(page.evaluate('readRaw()'))
+                self.assertEqual(saved, {**concurrent, 'read': {**concurrent['read'], 'circ-valvas': True, second: True, third: True}})
+                # Cleared patches must not overwrite a later concurrent unmark.
+                concurrent = {**saved, 'read': {**saved['read'], 'circ-valvas': False}}
+                other.evaluate('v => localStorage.setItem("atlas:theory:circulatory", JSON.stringify(v))', concurrent)
+                page.locator('.mark-read').click()
+                self.assertFalse(json.loads(page.evaluate('readRaw()'))['read']['circ-valvas'])
+                page.locator('[data-system="respiratory"]').click()
+                page.wait_for_selector('.mark-read')
+                self.assertEqual(page.locator('.mark-read').get_attribute('aria-pressed'), 'false')
+                page.locator('[data-system="circulatory"]').click()
+                page.wait_for_selector('.mark-read')
+                self.assertEqual(json.loads(page.evaluate('localStorage.getItem("atlas:theory:circulatory")'))['read'][second], True)
+                page.close()
+                other.close()
+
+    def test_pending_read_marks_warn_before_system_navigation(self):
+        self.page.goto(BASE + '/theory.html?system=circulatory&chapter=circ-valvas')
+        self.page.wait_for_selector('.mark-read')
+        self.page.evaluate('''() => {
+          const set = Storage.prototype.setItem;
+          Storage.prototype.setItem = function(k, v) {
+            if (k.startsWith('atlas:theory:')) throw Error('blocked');
+            return set.call(this, k, v);
+          };
+        }''')
+        self.page.locator('.mark-read').click()
+        dialogs = []
+        def cancel(dialog):
+            dialogs.append(dialog.type)
+            dialog.dismiss()
+        self.page.on('dialog', cancel)
+        self.page.locator('[data-system="respiratory"]').click()
+        self.assertEqual(dialogs, ['beforeunload'])
+        self.assertIn('system=circulatory', self.page.url)
+        self.assertEqual(self.page.locator('.mark-read').get_attribute('aria-pressed'), 'true')
+
     def test_resume_is_per_system_and_explicit_chapter_wins(self):
         self.page.goto(BASE + '/theory.html?system=circulatory&chapter=circ-valvas')
         self.page.wait_for_selector('.chapter-title')

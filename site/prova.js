@@ -19,21 +19,30 @@ $('topic-toggle').addEventListener('click', () => {
 let guide, theories, current, questionIndex = 0;
 const storageKey = 'atlas:exam-path:v1';
 let answers = {};
+const pendingAnswers = {};
+const record = value => value && typeof value === 'object' && !Array.isArray(value);
+const sessionWarning = 'Armazenamento indisponível: registros somente nesta sessão; recarregar ou fechar perde alterações não salvas';
 try {
-  const stored = JSON.parse(localStorage.getItem(storageKey) || '{}');
-  if (stored && typeof stored === 'object' && !Array.isArray(stored)) {
-    answers = Object.fromEntries(Object.entries(stored).filter(([, value]) => ['known', 'review'].includes(value)));
-  }
-} catch { /* A blocked or malformed store must not prevent learning. */ }
+  const stored = JSON.parse(localStorage.getItem(storageKey) ?? '{}');
+  if (!record(stored)) throw new Error('Invalid answer record');
+  answers = Object.fromEntries(Object.entries(stored).filter(([, value]) => ['known', 'review'].includes(value)));
+} catch { $('save-status').textContent = sessionWarning; }
 const answerKey = ([system, id]) => `${system}:${id}`;
 
 function recordAnswer(ref, rating) {
   answers[answerKey(ref)] = rating;
+  pendingAnswers[answerKey(ref)] = rating;
   try {
-    localStorage.setItem(storageKey, JSON.stringify(answers));
+    // Do not replace unreadable storage or replay the entire stale answer map.
+    const stored = JSON.parse(localStorage.getItem(storageKey) ?? '{}');
+    if (!record(stored)) throw new Error('Invalid answer record');
+    const merged = {...stored, ...pendingAnswers};
+    localStorage.setItem(storageKey, JSON.stringify(merged));
+    answers = Object.fromEntries(Object.entries(merged).filter(([, value]) => ['known', 'review'].includes(value)));
+    for (const id of Object.keys(pendingAnswers)) delete pendingAnswers[id];
     $('save-status').textContent = 'Autoavaliação salva neste navegador';
   } catch {
-    $('save-status').textContent = 'Armazenamento indisponível: registros somente nesta sessão';
+    $('save-status').textContent = sessionWarning;
   }
   renderNavigation();
   updateTopicProgress();

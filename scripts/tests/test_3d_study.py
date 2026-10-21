@@ -159,8 +159,32 @@ class Study3D(unittest.TestCase):
         expected = {'assets/heart.glb': 72, 'assets/heart-hra/model.glb': 14,
                     'assets/larynx/model.glb': 40, 'assets/respiratory/model.glb': 175,
                     'assets/heart-ct/model.glb': 1, 'assets/lung-ct/model.glb': 1,
-                    'assets/respiratory-context/model.glb': 15}
+                    'assets/respiratory-context/model.glb': 15,
+                    'assets/coronary-hra/3d-vh-f-blood-vasculature.glb': 110,
+                    'assets/coronary-hra/3d-vh-f-heart.glb': 14}
         self.assertEqual({v['path']: v['meshes'] for v in report['models']}, expected)
+        # The auditor has no catalog/provenance adapter for coronary HRA.
+        # Bind the full imported files, not only the 17 displayed vessels.
+        hra_expected = {
+            '3d-vh-f-blood-vasculature.glb': ('6bf794b4255c254d03afe254f765c93e7394e4397068268d4eaa3cde50ffdf60', 17875996, 'blood-vasculature-female', 'hbm322.kkfc.394'),
+            '3d-vh-f-heart.glb': ('98f66e46b149bfc3836592d9404c50290e21d302ec55c98813435e2d9847b1d9', 1745560, 'heart-female', 'hbm449.shrv.225'),
+        }
+        sources = json.loads((ROOT / 'site/assets/coronary-hra/manifest.json').read_text())['sources']
+        self.assertEqual({s['file'] for s in sources}, set(hra_expected))
+        self.assertEqual(len(sources), len(hra_expected))
+        for source in sources:
+            digest, size, organ, doi = hra_expected[source['file']]
+            model = next(m for m in report['models'] if m['path'] == 'assets/coronary-hra/' + source['file'])
+            self.assertEqual((model['sha256'], model['bytes']), (digest, size))
+            self.assertEqual((source['sha256'], source['bytes']), (digest, size))
+            self.assertEqual(source['url'], f'https://purl.humanatlas.io/ref-organ/{organ}/v1.3')
+            self.assertEqual(source['download_url'], f'https://cdn.humanatlas.io/digital-objects/ref-organ/{organ}/v1.3/assets/' + source['file'])
+            self.assertEqual(source['doi'], 'https://doi.org/10.48539/' + doi)
+            self.assertEqual(source['license'], 'CC BY 4.0')
+            self.assertEqual(source['datacite_evidence']['@id'], source['doi'])
+            self.assertEqual(source['datacite_evidence']['version'], '1.3')
+            self.assertEqual(source['datacite_evidence']['license'], source['license_url'])
+            self.assertEqual(sorted(m['name'] for m in model['mesh_metrics']), sorted(source['mesh_names']))
         for model in report['models']:
             self.assertTrue(model['finite'])
             self.assertTrue(model['indices_in_bounds'])

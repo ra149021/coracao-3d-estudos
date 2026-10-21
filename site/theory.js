@@ -15,12 +15,15 @@ const record=value=>value&&typeof value==='object'&&!Array.isArray(value);
 try{const saved=JSON.parse(localStorage.getItem(key)||'null');if(record(saved)){if(record(saved.read))progress.read=Object.fromEntries(Object.entries(saved.read).filter(([,value])=>value===true));if(record(saved.answers))progress.answers=Object.fromEntries(Object.entries(saved.answers).filter(([,value])=>record(value)&&['known','review'].includes(value.rating)));}}catch{}
 const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
 const button=(label,cls,handler)=>{const b=el('button',cls,label);b.type='button';b.addEventListener('click',handler);return b;};
-function save(){try{
+// This document owns one system key; retain only locally changed chapters.
+const pendingRead={};
+window.addEventListener('beforeunload',event=>{if(Object.keys(pendingRead).length){event.preventDefault();event.returnValue='';}});
+function save(){pendingRead[chapter.id]=progress.read[chapter.id];try{
  const saved=JSON.parse(localStorage.getItem(key)||'null');
  const latest=record(saved)?saved:{};
- latest.read={...(record(latest.read)?latest.read:{}),[chapter.id]:progress.read[chapter.id]};
- if(!record(latest.answers))latest.answers=progress.answers;
+ latest.read={...(record(latest.read)?latest.read:{}),...pendingRead};
  localStorage.setItem(key,JSON.stringify(latest));progress=latest;
+ for(const id of Object.keys(pendingRead))delete pendingRead[id];
  $('theory-status').textContent='Progresso salvo neste navegador';
 }catch{$('theory-status').textContent='Progresso disponível somente nesta sessão';}}
 function seconds(time){if(typeof time==='number')return time;const value=String(time||'').match(/\d{1,2}:\d{2}(?::\d{2})?/);return value?value[0].split(':').reduce((v,n)=>v*60+Number(n),0):0;}

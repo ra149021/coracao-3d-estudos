@@ -13,9 +13,19 @@ export function initStudy({ guidedViews = [], parts, requirements = [], evidence
   const systemLabel = system === 'respiratory' ? 'Respiratório' : 'Coração';
   let storageAvailable = true, active = false, revealed = false, savedView = null, misses = 0;
   let progress = { version: 2, ratings: {}, session: null };
+  const pendingRatings = {};
+  let pendingSession = null;
+  const record = value => value && typeof value === 'object' && !Array.isArray(value);
+  function readStored() {
+    const raw = localStorage.getItem(storageKey);
+    const legacy = raw === null && system === 'circulatory'
+      ? localStorage.getItem('heart-atlas:practice:v2:/') || localStorage.getItem('heart-atlas:practice:v2:/index.html') : null;
+    const saved = JSON.parse(raw ?? legacy ?? '{"version":2,"ratings":{},"session":null}');
+    if (!record(saved) || saved.version !== 2 || !record(saved.ratings)) throw new Error('Invalid practice record');
+    return saved;
+  }
   try {
-    const legacy = system === 'circulatory' ? localStorage.getItem('heart-atlas:practice:v2:/') || localStorage.getItem('heart-atlas:practice:v2:/index.html') : null;
-    const saved = JSON.parse(localStorage.getItem(storageKey) || legacy || 'null');
+    const saved = readStored();
     if (saved?.version === 2 && saved.ratings && typeof saved.ratings === 'object' && !Array.isArray(saved.ratings)) {
       progress.ratings = Object.fromEntries(Object.entries(saved.ratings).filter(([id, rating]) => eligibleIds.has(id) && rating && typeof rating === 'object' && ['known','review'].includes(rating.rating)));
       progress.session = saved.session;
@@ -44,9 +54,47 @@ export function initStudy({ guidedViews = [], parts, requirements = [], evidence
     if (handler) node.addEventListener('click', handler);
     return node;
   }
-  function save() {
-    try { localStorage.setItem(storageKey, JSON.stringify(progress));localStorage.setItem(`atlas:practice-summary:${storageId}`,JSON.stringify({reviewed:Object.keys(progress.ratings).filter(id=>eligibleIds.has(id)).length,review:Object.entries(progress.ratings).filter(([id,r])=>eligibleIds.has(id)&&r.rating==='review').length,total:eligible.length})); }
-    catch { storageAvailable = false; }
+  function reportStorage() {
+    const message = storageAvailable ? 'O progresso fica salvo apenas neste navegador e neste endereço.'
+      : 'Progresso somente nesta sessão desta página; recarregar ou fechar perde alterações não salvas.';
+    setupStatus.textContent = message;
+    sessionStatus.textContent = storageAvailable ? '' : message;
+    sessionStatus.hidden = storageAvailable;
+  }
+  function save(sessionChanged = false, ratingId = null) {
+    if (sessionChanged) {
+      const {mode, group, queue, done, total} = progress.session;
+      pendingSession = {mode, group, queue: [...queue], done: [...done], total};
+    }
+    if (ratingId) {
+      const {rating, at} = progress.ratings[ratingId];
+      pendingRatings[ratingId] = {rating, at, increments: (pendingRatings[ratingId]?.increments || 0) + 1};
+    }
+    try {
+      const saved = readStored(); // A failed read must never be followed by a write.
+      const ratings = {...saved.ratings};
+      for (const [id, patch] of Object.entries(pendingRatings)) {
+        ratings[id] = {...(record(ratings[id]) ? ratings[id] : {}), rating: patch.rating, at: patch.at,
+          attempts: (Number(ratings[id]?.attempts) || 0) + patch.increments};
+      }
+      const merged = {...saved, ratings};
+      if (pendingSession) merged.session = {...(record(saved.session) ? saved.session : {}), ...pendingSession};
+      if (pendingSession || Object.keys(pendingRatings).length) localStorage.setItem(storageKey, JSON.stringify(merged));
+      progress.ratings = ratings;
+      pendingSession = null;
+      for (const id of Object.keys(pendingRatings)) delete pendingRatings[id];
+      storageAvailable = true;
+      // The derived summary is independent: never replace an unreadable summary.
+      try {
+        const key = `atlas:practice-summary:${storageId}`;
+        const summary = JSON.parse(localStorage.getItem(key) || '{}');
+        if (record(summary)) localStorage.setItem(key, JSON.stringify({...summary,
+          reviewed: Object.keys(ratings).filter(id => eligibleIds.has(id)).length,
+          review: Object.entries(ratings).filter(([id,r]) => eligibleIds.has(id) && r?.rating === 'review').length,
+          total: eligible.length}));
+      } catch { /* The primary progress has already been saved. */ }
+    } catch { storageAvailable = false; }
+    reportStorage();
   }
   function shuffle(ids) {
     const order = [...ids];
@@ -101,7 +149,7 @@ export function initStudy({ guidedViews = [], parts, requirements = [], evidence
     event.preventDefault();
     const selected = group.value === 'all' ? cardiacEligible : eligible.filter(p => p.group === group.value);
     progress.session = { mode: mode.value, group: group.value, queue: shuffle(selected.map(p => p.id)), done: [], total: selected.length };
-    save(); setup.close(); start();
+    save(true); setup.close(); start();
   });
   setup.append(setupForm, setupStatus, el('p', 'study-boundary', 'O treino usa somente peças presentes nesta cena com identificação liberada para as perguntas. Peças parciais ou com equivalência pendente podem aparecer como contexto. O desempenho mede sua revisão; não mede a cobertura nem valida a anatomia do modelo. Consulte o roteiro para ver os detalhes ainda pendentes.'));
 
@@ -116,7 +164,10 @@ export function initStudy({ guidedViews = [], parts, requirements = [], evidence
   const hint = el('p', 'study-question-hint');
   const feedback = el('div', 'study-feedback'); feedback.setAttribute('role','status'); feedback.setAttribute('aria-live','polite');
   const actions = el('div','study-question-actions');
-  sessionPanel.append(sessionTop, sessionProgress, question, hint, feedback, actions);
+  const sessionStatus = el('p', 'study-storage-note');
+  sessionStatus.setAttribute('role', 'status');
+  sessionPanel.append(sessionTop, sessionProgress, question, hint, sessionStatus, feedback, actions);
+  reportStorage();
   const viewerSection = document.querySelector('.viewer-section');
   viewerSection?.insertBefore(sessionPanel, document.querySelector('#viewer'));
   if (!viewerSection) document.body.append(sessionPanel);
@@ -130,7 +181,7 @@ export function initStudy({ guidedViews = [], parts, requirements = [], evidence
     newButton.textContent = remaining ? 'Iniciar outra rodada' : 'Começar rodada';
     newButton.className = remaining ? 'button' : 'button primary';
     if (session) { mode.value = session.mode; group.value = session.group; }
-    setupStatus.textContent = storageAvailable ? 'O progresso fica salvo apenas neste navegador e neste endereço.' : 'O navegador não permitiu salvar. O progresso fica disponível enquanto esta página estiver aberta.';
+    reportStorage();
     setup.showModal();
   }
   function currentPart() { return byId.get(progress.session?.queue?.[0]); }
@@ -185,7 +236,7 @@ export function initStudy({ guidedViews = [], parts, requirements = [], evidence
     }
     const skip = button('Deixar para depois', 'text-button', () => {
       if (session.queue.length < 2) { feedback.textContent = 'Esta é a última peça. Revele a resposta para revisá-la ou pause a rodada.'; return; }
-      session.queue.push(session.queue.shift()); save(); showQuestion();
+      session.queue.push(session.queue.shift()); save(true); showQuestion();
     });
     actions.append(skip);
     if (focus) question.focus({ preventScroll: true });
@@ -210,7 +261,7 @@ export function initStudy({ guidedViews = [], parts, requirements = [], evidence
     if (!active || !revealed) return;
     const part = currentPart(); if (!part) return;
     progress.ratings[part.id] = { rating, at: Date.now(), attempts: (progress.ratings[part.id]?.attempts || 0) + 1 };
-    progress.session.done.push(progress.session.queue.shift()); save(); showQuestion();
+    progress.session.done.push(progress.session.queue.shift()); save(true, part.id); showQuestion();
   }
   function finish() {
     viewer.setExamMode(false);
@@ -221,7 +272,7 @@ export function initStudy({ guidedViews = [], parts, requirements = [], evidence
     feedback.textContent = `${progress.session.done.length} peças revisadas · ${reviewIds.length} marcadas para rever. Esta contagem não inclui estruturas ausentes do modelo.`;
     if (reviewIds.length) actions.append(button(`Rever ${reviewIds.length} ${reviewIds.length === 1 ? 'peça' : 'peças'}`, 'button primary', () => {
       progress.session.queue = shuffle(reviewIds); progress.session.done = []; progress.session.total = reviewIds.length;
-      save(); showQuestion();
+      save(true); showQuestion();
     }));
     actions.append(button('Nova rodada', 'button', () => openSetup()), button('Voltar a explorar', 'text-button', () => pause()));
     question.focus({ preventScroll: true });

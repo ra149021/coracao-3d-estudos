@@ -19,7 +19,7 @@ function apply(){
  }
  for(const [name,b] of buttons)b.setAttribute('aria-pressed',String(name===selected));
  $('isolate').disabled=!selected;$('isolate').textContent=isolated?'Mostrar contexto':'Isolar seleção';
- const e=entries.find(e=>e.name===selected);$('selection').textContent=e?`${e.label} · ${e.name}${isolated?' — isolado':' — contexto preservado; gire para ver faces ocultas'}`:'Nenhum vaso selecionado.';
+ const e=entries.find(e=>e.name===selected);$('selection').textContent=e?`${e.label} · ${e.name}${isolated?' — isolado':' — contexto preservado; gire para ver faces ocultas'}${e.name==='VH_F_left_anterior_descending_artery'?' — Identificação em revisão: o nome do nó indica descendente anterior coronária, mas o grafo HRA v1.3 associa fma8636 a um ramo da artéria pulmonar esquerda. Essa divergência de metadados não demonstra erro de geometria; não use esta identificação isoladamente como gabarito.':''}`:'Nenhum vaso selecionado.';
  render();
 }
 function select(name){const e=entries.find(e=>e.name===name);if(!e)return;selected=name;$(e.group).checked=true;apply();}
