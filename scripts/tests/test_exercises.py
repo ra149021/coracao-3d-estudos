@@ -93,10 +93,8 @@ class ExercisesTests(unittest.TestCase):
         self.page.wait_for_selector('#review-body h2')
         self.assertIn('mode=practice', self.page.locator('#recognition-link').get_attribute('href'))
         self.assertIn('system=respiratory', self.page.locator('#recognition-link').get_attribute('href'))
-        self.page.locator('#applied-link').click()
-        self.page.wait_for_selector('#case-title')
-        self.assertEqual(self.page.locator('#case-system').input_value(), 'respiratory')
-        self.assertEqual(self.page.locator('#case-list button').count(), 1)
+        self.assertEqual(self.page.locator('#applied-link').count(), 0)
+        self.assertEqual(self.page.locator('#exercise-chapter').input_value(), 'resp_06')
 
     def test_global_navigation_and_home_expose_distinct_reading_and_exercises(self):
         self.page.goto(BASE + '/index.html')
@@ -132,15 +130,12 @@ class ExercisesTests(unittest.TestCase):
         self.assertIn('somente nesta sessão',self.page.locator('#theory-status').inner_text())
         self.assertTrue(self.page.evaluate('document.documentElement.scrollWidth <= innerWidth'))
 
-    def test_unit_without_case_is_explicit_and_can_expand_to_all_cases(self):
+    def test_unit_without_legacy_case_still_offers_theory_and_recognition(self):
         self.page.goto(BASE + '/exercises.html?system=respiratory&chapter=resp_09')
         self.page.wait_for_selector('#review-body h2')
-        self.page.locator('#applied-link').click()
-        self.page.get_by_text('Nenhum caso disponível para esta unidade.', exact=False).wait_for()
-        self.assertEqual(self.page.locator('#case-list button').count(), 0)
-        self.page.get_by_role('button',name='Mostrar todos os casos',exact=True).click()
-        self.page.wait_for_selector('#case-title')
-        self.assertEqual(self.page.locator('#case-list button').count(), 6)
+        self.assertEqual(self.page.locator('#applied-link').count(), 0)
+        self.assertTrue(self.page.locator('#recognition-link').is_visible())
+        self.assertTrue(self.page.get_by_role('button', name='Revelar resposta', exact=True).is_visible())
 
     def test_write_only_storage_block_keeps_session_ratings_across_filters(self):
         self.context.add_init_script("Storage.prototype.setItem=function(){throw new Error('write blocked')}")
@@ -268,11 +263,11 @@ class ExercisesTests(unittest.TestCase):
         self.assertEqual(saved['answers']['another-question'],{'rating':'review','at':20})
         self.assertEqual(len(saved['answers']),2)
 
-    def test_applied_cases_are_not_presented_as_real_patient_records(self):
+    def test_exercise_modes_do_not_offer_retired_cases(self):
         self.page.goto(BASE + '/exercises.html')
         self.page.wait_for_selector('#review-body h2')
-        self.assertNotIn('casos reais', self.page.locator('#applied-link').inner_text().lower())
-        self.assertIn('casos de estudo', self.page.locator('#applied-link').inner_text().lower())
+        self.assertNotIn('casos', self.page.locator('.exercise-modes').inner_text().lower())
+        self.assertEqual(self.page.locator('#applied-link').count(), 0)
 
     def test_corrupt_progress_does_not_disable_questions(self):
         self.context.add_init_script("localStorage.setItem('atlas:theory:circulatory', JSON.stringify('bad-shape'))")

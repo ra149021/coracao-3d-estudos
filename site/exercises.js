@@ -72,7 +72,6 @@ function begin(){
  const query=new URLSearchParams({system});if(chapter)query.set('chapter',chapter);
  history.replaceState(null,'',`exercises.html?${query}`);
  $('back-reading').href=`theory.html?${query}`;
- $('applied-link').href=`practice.html?${query}`;
  $('recognition-link').href=`atlas.html?system=${system}&mode=practice`;
  const unit=data.chapters.find(c=>c.id===chapter),part=unit?.partIds?.[0];if(part)$('recognition-link').href+=`&part=${encodeURIComponent(part)}`;
  $('exercise-count').textContent=`${selectedQuestions().length} perguntas neste filtro · 105 na base completa`;
