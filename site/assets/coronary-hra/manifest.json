@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "hra-blood-vasculature-female-v1.3",
+      "title": "3D Reference Organ for Blood Vasculature, Female, v1.3",
+      "url": "https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3",
+      "download_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/blood-vasculature-female/v1.3/assets/3d-vh-f-blood-vasculature.glb",
+      "sha256": "6bf794b4255c254d03afe254f765c93e7394e4397068268d4eaa3cde50ffdf60",
+      "bytes": 17875996,
+      "author": "Kristen Browne; Heidi Schlehlein",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "doi": "https://doi.org/10.48539/hbm322.kkfc.394",
+      "attribution": "Browne, Kristen, and Heidi Schlehlein. 2024. \"3D Reference Organ for Blood Vasculature, Female v1.3.\" https://doi.org/10.48539/HBM322.KKFC.394. Accessed June 15, 2024.",
+      "file": "3d-vh-f-blood-vasculature.glb",
+      "role": "vessels",
+      "datacite_evidence": {
+        "@id": "https://doi.org/10.48539/hbm322.kkfc.394",
+        "name": "3D Reference Organ for Blood Vasculature, Female, v1.3",
+        "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "author": [
+          {
+            "name": "Kristen Browne",
+            "givenName": "Kristen",
+            "familyName": "Browne",
+            "@id": "https://orcid.org/0000-0003-4066-7531"
+          },
+          {
+            "name": "Heidi Schlehlein",
+            "givenName": "Heidi",
+            "familyName": "Schlehlein",
+            "@id": "https://orcid.org/0000-0002-3333-5646"
+          }
+        ],
+        "version": "1.3"
+      },
+      "mesh_names": [
+        "VH_F_left_uterine_artery",
+        "VH_F_right_uterine_artery",
+        "VH_F_left_uterine_vein",
+        "VH_F_right_uterine_vein",
+        "VH_F_ophthalmic_vein_L",
+        "VH_F_superior_ophthalmic_vein_L",
+        "VH_F_inferior_ophthalmic_vein_L",
+        "VH_F_central_retinal_vein_L",
+        "VH_F_ophthalmic_vein_R",
+        "VH_F_superior_ophthalmic_vein_R",
+        "VH_F_inferior_ophthalmic_vein_R",
+        "VH_F_central_retinal_vein_R",
+        "VH_F_long_posterior_ciliary_artery_L",
+        "VH_F_opthalmic_artery_L",
+        "VH_F_central_retinal_artery_L",
+        "VH_F_long_posterior_ciliary_artery_R",
+        "VH_F_opthalmic_artery_R",
+        "VH_F_central_retinal_artery_R",
+        "VH_F_right_renal_artery",
+        "VH_F_left_renal_artery",
+        "VH_F_left_renal_vein",
+        "VH_F_right_renal_vein",
+        "VH_F_superior_mesenteric_vein",
+        "VH_F_superior_rectal_vein",
+        "VH_F_left_common_iliac_vein",
+        "VH_F_right_common_iliac_vein",
+        "VH_F_left_colic_vein",
+        "VH_F_right_colic_vein",
+        "VH_F_ileocolic_vein",
+        "VH_F_middle_colic_vein",
+        "VH_F_inferior_rectal_vein_L",
+        "VH_F_inferior_rectal_vein_R",
+        "VH_F_internal_iliac_vein_L",
+        "VH_F_internal_iliac_vein_R",
+        "VH_F_internal_pudendal_vein_L",
+        "VH_F_internal_pudendal_vein_R",
+        "VH_F_middle_rectal_vein_L",
+        "VH_F_middle_rectal_vein_R",
+        "VH_F_sigmoid_vein_a",
+        "VH_F_sigmoid_vein_c",
+        "VH_F_median_sacral_vein",
+        "VH_F_sigmoid_vein_b",
+        "VH_F_inferior_pancreaticoduodenal_vein",
+        "VH_F_inferior_mesenteric_vein",
+        "VH_F_left_colic_artery",
+        "VH_F_right_colic_artery",
+        "VH_F_ileocolic_artery",
+        "VH_F_middle_colic_artery",
+        "VH_F_celiac_trunk",
+        "VH_F_superior_rectal_artery",
+        "VH_F_superior_mesenteric_artery",
+        "VH_F_inferior_mesenteric_artery",
+        "VH_F_marginal_artery_of_Drummond",
+        "VH_F_sigmoid_artery_c",
+        "VH_F_sigmoid_artery_b",
+        "VH_F_sigmoid_artery_a",
+        "VH_F_splenic_artery",
+        "VH_F_splenic_vein",
+        "VH_F_cystic_artery",
+        "VH_F_cystic_vein",
+        "VH_F_middle_hepatic_artery_branch_of_left_hepatic_artery",
+        "VH_F_proper_hepatic_artery",
+        "VH_F_right_hepatic_artery",
+        "VH_F_common_hepatic_artery",
+        "VH_F_posterior_segmental_right_hepatic_artery",
+        "VH_F_anterior_segmental_right_hepatic_artery",
+        "VH_F_left_hepatic_artery",
+        "VH_F_hepatic_portal_vein",
+        "VH_F_middle_hepatic_vein",
+        "VH_F_left_hepatic_vein",
+        "VH_F_right_hepatic_vein",
+        "VH_F_right_branch_of_portal_vein",
+        "VH_F_left_branch_of_portal_vein",
+        "VH_F_pulmonary_vein_L_sup",
+        "VH_F_pulmonary_vein_R_inf",
+        "VH_F_pulmonary_vein_R_sup",
+        "VH_F_pulmonary_vein_L_inf",
+        "VH_F_coronary_sinus",
+        "VH_F_great_cardiac_vein",
+        "VH_F_middle_cardiac_vein",
+        "VH_F_oblique_vein_of_left_atrium",
+        "VH_F_left_marginal_vein",
+        "VH_F_posterior_vein_of_left_ventricle",
+        "VH_F_anterior_cardiac_vein",
+        "VH_F_small_cardiac_vein",
+        "VH_F_superior_vena_cava",
+        "VH_F_inferior_vena_cava_a",
+        "VH_F_inferior_vena_cava_b",
+        "VH_F_left_anterior_descending_artery",
+        "VH_F_left_circumflex_artery",
+        "VH_F_diagonal_branch_of_left_anterior_descending_artery",
+        "VH_F_left_coronary_artery",
+        "VH_F_left_marginal_branch",
+        "VH_F_left_posterior_descending_branch_of_circumflex_branch_of_left_coronary_artery",
+        "VH_F_posterior_left_ventricular_branch",
+        "VH_F_right_coronary_artery",
+        "VH_F_right_marginal_artery",
+        "VH_F_pulmonary_artery_L",
+        "VH_F_pulmonary_trunk",
+        "VH_F_pulmonary_artery_R",
+        "VH_F_aortic_arch",
+        "VH_F_ascending_aorta",
+        "VH_F_descending_aorta_a",
+        "VH_F_descending_aorta_b",
+        "VH_F_left_common_carotid_artery_a",
+        "VH_F_left_common_carotid_artery_b",
+        "VH_F_left_subclavian_artery_a",
+        "VH_F_left_subclavian_artery_b",
+        "VH_F_brachiocephalic_artery_b",
+        "VH_F_brachiocephalic_artery_a"
+      ]
+    },
+    {
+      "id": "hra-heart-female-v1.3",
+      "title": "3D Reference Organ for Heart, Female, v1.3",
+      "url": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3",
+      "download_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-female/v1.3/assets/3d-vh-f-heart.glb",
+      "sha256": "98f66e46b149bfc3836592d9404c50290e21d302ec55c98813435e2d9847b1d9",
+      "bytes": 1745560,
+      "author": "Kristen Browne; Heidi Schlehlein",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "doi": "https://doi.org/10.48539/hbm449.shrv.225",
+      "attribution": "Browne, Kristen, and Heidi Schlehlein. 2024. \"3D Reference Organ for Heart, Female v1.3.\" https://doi.org/10.48539/HBM449.SHRV.225. Accessed on June 15, 2024.",
+      "file": "3d-vh-f-heart.glb",
+      "role": "heart",
+      "datacite_evidence": {
+        "@id": "https://doi.org/10.48539/hbm449.shrv.225",
+        "name": "3D Reference Organ for Heart, Female, v1.3",
+        "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "author": [
+          {
+            "name": "Kristen Browne",
+            "givenName": "Kristen",
+            "familyName": "Browne",
+            "@id": "https://orcid.org/0000-0003-4066-7531"
+          },
+          {
+            "name": "Heidi Schlehlein",
+            "givenName": "Heidi",
+            "familyName": "Schlehlein",
+            "@id": "https://orcid.org/0000-0002-3333-5646"
+          }
+        ],
+        "version": "1.3"
+      },
+      "mesh_names": [
+        "VH_F_interventricular_septum",
+        "VH_F_left_cardiac_atrium",
+        "VH_F_left_ventricle",
+        "VH_F_right_cardiac_atrium",
+        "VH_F_right_ventricle",
+        "VH_F_papillary_muscle_of_heart_ant",
+        "VH_F_papillary_muscle_of_heart_antlat",
+        "VH_F_papillary_muscle_of_heart_med",
+        "VH_F_papillary_muscle_of_heart_pos",
+        "VH_F_papillary_muscle_of_heart_posmed",
+        "VH_F_aortic_valve",
+        "VH_F_pulmonary_valve",
+        "VH_F_mitral_valve",
+        "VH_F_tricuspid_valve"
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "name": "VH_F_coronary_sinus",
+      "label": "Seio coronário",
+      "group": "veins",
+      "triangles": 6034
+    },
+    {
+      "name": "VH_F_great_cardiac_vein",
+      "label": "Veia cardíaca magna",
+      "group": "veins",
+      "triangles": 6862
+    },
+    {
+      "name": "VH_F_middle_cardiac_vein",
+      "label": "Veia cardíaca média",
+      "group": "veins",
+      "triangles": 3620
+    },
+    {
+      "name": "VH_F_oblique_vein_of_left_atrium",
+      "label": "Veia oblíqua do átrio esquerdo",
+      "group": "veins",
+      "triangles": 948
+    },
+    {
+      "name": "VH_F_left_marginal_vein",
+      "label": "Veia marginal esquerda",
+      "group": "veins",
+      "triangles": 3356
+    },
+    {
+      "name": "VH_F_posterior_vein_of_left_ventricle",
+      "label": "Veia posterior do ventrículo esquerdo",
+      "group": "veins",
+      "triangles": 4082
+    },
+    {
+      "name": "VH_F_anterior_cardiac_vein",
+      "label": "Veia cardíaca anterior",
+      "group": "veins",
+      "triangles": 3348
+    },
+    {
+      "name": "VH_F_small_cardiac_vein",
+      "label": "Veia cardíaca parva",
+      "group": "veins",
+      "triangles": 4796
+    },
+    {
+      "name": "VH_F_left_anterior_descending_artery",
+      "label": "Artéria descendente anterior esquerda",
+      "group": "arteries",
+      "triangles": 3230
+    },
+    {
+      "name": "VH_F_left_circumflex_artery",
+      "label": "Artéria circunflexa esquerda",
+      "group": "arteries",
+      "triangles": 1482
+    },
+    {
+      "name": "VH_F_diagonal_branch_of_left_anterior_descending_artery",
+      "label": "Ramo diagonal da descendente anterior",
+      "group": "arteries",
+      "triangles": 1180
+    },
+    {
+      "name": "VH_F_left_coronary_artery",
+      "label": "Artéria coronária esquerda",
+      "group": "arteries",
+      "triangles": 626
+    },
+    {
+      "name": "VH_F_left_marginal_branch",
+      "label": "Ramo marginal esquerdo",
+      "group": "arteries",
+      "triangles": 1084
+    },
+    {
+      "name": "VH_F_left_posterior_descending_branch_of_circumflex_branch_of_left_coronary_artery",
+      "label": "Ramo descendente posterior da circunflexa",
+      "group": "arteries",
+      "triangles": 2444
+    },
+    {
+      "name": "VH_F_posterior_left_ventricular_branch",
+      "label": "Ramo ventricular esquerdo posterior",
+      "group": "arteries",
+      "triangles": 1620
+    },
+    {
+      "name": "VH_F_right_coronary_artery",
+      "label": "Artéria coronária direita",
+      "group": "arteries",
+      "triangles": 5446
+    },
+    {
+      "name": "VH_F_right_marginal_artery",
+      "label": "Artéria marginal direita",
+      "group": "arteries",
+      "triangles": 1636
+    }
+  ]
+}

@@ -107,6 +107,35 @@ class CadaverPanelTest(unittest.TestCase):
         self.assertEqual(self.errors, [])
 
 
+    def test_selection_evidence_limits_locator_status_are_visible_and_safe(self):
+        fields = {'evidence': 'Evidência específica <img src=x onerror=alert(1)>',
+                  'visualLocator': 'Painel esquerdo, seta original',
+                  'limits': ['Lado incerto', 'Não identifica cúspide individual'],
+                  'status': 'partial'}
+        self.manifest['entries'][0].update(fields)
+        self.save_manifest()
+        self.open()
+        self.select()
+        details = self.page.locator('#host > section > div .cadaver-selection-evidence')
+        expect(details).to_be_visible()
+        for value in [fields['evidence'], fields['visualLocator'], *fields['limits'], fields['status']]:
+            expect(details).to_contain_text(value)
+        expect(details.locator('img')).to_have_count(0)
+        expect(self.page.locator('figure')).to_contain_text('Mídia sintética; não valida anatomia.')
+        self.page.set_viewport_size({'width': 360, 'height': 780})
+        button = self.page.get_by_role('button', name='Ampliar original: Original fixture')
+        button.click()
+        dialog = self.page.get_by_role('dialog')
+        for value in [fields['evidence'], fields['visualLocator'], *fields['limits'], fields['status']]:
+            expect(dialog).to_contain_text(value)
+        expect(dialog).to_contain_text('Mídia sintética; não valida anatomia.')
+        self.assertTrue(self.page.evaluate('document.documentElement.scrollWidth <= innerWidth'))
+        self.page.keyboard.press('Escape')
+        expect(button).to_be_focused()
+        self.select('unmapped')
+        expect(self.page.locator('.cadaver-selection-evidence')).to_have_count(0)
+        self.assertEqual(self.errors, [])
+
     def test_invalid_manifest_and_unsafe_paths_fail_closed(self):
         for bad in ('https://example.org/photo.png', '../private.png', 'assets/../secret.png', 'assets/%2e%2e/secret.png', 'data:image/png;base64,a', '//example.org/a', 'assets/x.png?token=x'):
             with self.subTest(src=bad):

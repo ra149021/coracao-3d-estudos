@@ -1,0 +1,1123 @@
+{
+  "version": 1,
+  "approvalId": "local-max-integration-109-45-not-published",
+  "reviewNote": "Selections frozen independently from source-decision ledger expected-coverage.entries; ordered photoIds follow that freeze. Photos frozen from staging asset-hashes, checked against originals and crop pixels. Never regenerate expectations from runtime in tests. Coronary additions, atrial and PII deferrals remain excluded.",
+  "sourceCoverageSha256": "233105f5d6ce04bb8f83b70d10866861692a2a2fcaad3971d1fb7e32d7cc619e",
+  "sourceDecisionLedgerSha256": "39d4febbf1c6cdb2c782668899ad5bc9aa0abab2694b84f118cc973e3f3169a3",
+  "sourceAssetHashesSha256": "688b52504ce31196dfb2c49871f47b46e8c7458daaa22809c29f681135fcdafa",
+  "expectedSelections": [
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "bp_FMA3818",
+      "photoIds": [
+        "circulatorio_003"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "bp_FMA3840",
+      "photoIds": [
+        "circulatorio_003"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "bp_FMA3895",
+      "photoIds": [
+        "circulatorio_005"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "bp_FMA4706",
+      "photoIds": [
+        "circulatorio_006"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "bp_FMA4708",
+      "photoIds": [
+        "circulatorio_007"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "bp_FMA4712",
+      "photoIds": [
+        "circulatorio_006"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "bp_FMA4713",
+      "photoIds": [
+        "circulatorio_006"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "bp_FMA4714",
+      "photoIds": [
+        "circulatorio_007"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "bp_FMA4716",
+      "photoIds": [
+        "circulatorio_007"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "bp_FMA74912",
+      "photoIds": [
+        "circulatorio_005"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "ctx_azygos",
+      "photoIds": [
+        "unref_r0136"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "ctx_brachiocephalic_trunk",
+      "photoIds": [
+        "circulatorio_002"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "ctx_left_common_carotid",
+      "photoIds": [
+        "circulatorio_002"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "ctx_left_subclavian",
+      "photoIds": [
+        "circulatorio_002"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "ctx_right_common_carotid",
+      "photoIds": [
+        "circulatorio_002"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "ctx_right_subclavian",
+      "photoIds": [
+        "circulatorio_002"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "ctx_thoracic_aorta",
+      "photoIds": [
+        "circulatorio_002"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "heart_00",
+      "photoIds": [
+        "circ_max_r0761"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "heart_01",
+      "photoIds": [
+        "circ_max_r0518"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "heart_03",
+      "photoIds": [
+        "circ_max_r1427"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "heart_04",
+      "photoIds": [
+        "circulatorio_002"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "heart_05",
+      "photoIds": [
+        "circulatorio_002"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "heart_06",
+      "photoIds": [
+        "circ_max_r0135",
+        "circulatorio_002"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "heart_09",
+      "photoIds": [
+        "circ_max_r0135"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "heart_10",
+      "photoIds": [
+        "circ_max_r1290",
+        "unref_r0136"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "heart_11",
+      "photoIds": [
+        "circ_max_r1290"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "heart_12",
+      "photoIds": [
+        "circ_max_r0659"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "heart_13",
+      "photoIds": [
+        "circ_max_r0659"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "heart_14",
+      "photoIds": [
+        "circ_max_r0659"
+      ]
+    },
+    {
+      "modelId": "heart",
+      "system": "circulatory",
+      "partId": "heart_15",
+      "photoIds": [
+        "circ_max_r0659"
+      ]
+    },
+    {
+      "modelId": "hra",
+      "system": "circulatory",
+      "partId": "hra_aortic",
+      "photoIds": [
+        "circulatorio_025"
+      ]
+    },
+    {
+      "modelId": "hra",
+      "system": "circulatory",
+      "partId": "hra_interventricular_septum",
+      "photoIds": [
+        "circulatorio_010"
+      ]
+    },
+    {
+      "modelId": "hra",
+      "system": "circulatory",
+      "partId": "hra_left_ventricle",
+      "photoIds": [
+        "circ_max_r1427"
+      ]
+    },
+    {
+      "modelId": "hra",
+      "system": "circulatory",
+      "partId": "hra_mitral",
+      "photoIds": [
+        "circulatorio_025"
+      ]
+    },
+    {
+      "modelId": "hra",
+      "system": "circulatory",
+      "partId": "hra_pulmonary",
+      "photoIds": [
+        "circulatorio_018"
+      ]
+    },
+    {
+      "modelId": "hra",
+      "system": "circulatory",
+      "partId": "hra_right_atrium",
+      "photoIds": [
+        "circ_max_r0761"
+      ]
+    },
+    {
+      "modelId": "hra",
+      "system": "circulatory",
+      "partId": "hra_right_ventricle",
+      "photoIds": [
+        "circ_max_r0518"
+      ]
+    },
+    {
+      "modelId": "hra",
+      "system": "circulatory",
+      "partId": "hra_tricuspid",
+      "photoIds": [
+        "circulatorio_019"
+      ]
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma46577",
+      "photoIds": [
+        "respiratorio_032"
+      ]
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma46578",
+      "photoIds": [
+        "respiratorio_032"
+      ]
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma46582",
+      "photoIds": [
+        "respiratorio_032"
+      ]
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma46592",
+      "photoIds": [
+        "respiratorio_034"
+      ]
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma46593",
+      "photoIds": [
+        "respiratorio_034"
+      ]
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma52749",
+      "photoIds": [
+        "respiratorio_026",
+        "respiratorio_028"
+      ]
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma55099",
+      "photoIds": [
+        "respiratorio_026",
+        "respiratorio_029",
+        "respiratorio_034",
+        "unref_r0420",
+        "unref_r1215"
+      ]
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma55113",
+      "photoIds": [
+        "respiratorio_031"
+      ]
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma55114",
+      "photoIds": [
+        "respiratorio_031"
+      ]
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma55115",
+      "photoIds": [
+        "respiratorio_031"
+      ]
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma55116",
+      "photoIds": [
+        "respiratorio_031"
+      ]
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma55130",
+      "photoIds": [
+        "respiratorio_028",
+        "respiratorio_030",
+        "respiratorio_031",
+        "respiratorio_032",
+        "respiratorio_034"
+      ]
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma55138",
+      "photoIds": [
+        "respiratorio_026",
+        "unref_r0021"
+      ]
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma55227",
+      "photoIds": [
+        "respiratorio_028"
+      ]
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma55230",
+      "photoIds": [
+        "respiratorio_028"
+      ]
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma55237",
+      "photoIds": [
+        "respiratorio_029"
+      ]
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma7394",
+      "photoIds": [
+        "R1027",
+        "respiratorio_016",
+        "respiratorio_019",
+        "respiratorio_020",
+        "respiratorio_024",
+        "respiratorio_029",
+        "unref_r1056"
+      ]
+    },
+    {
+      "modelId": "larynx",
+      "system": "respiratory",
+      "partId": "larynx_fma9615",
+      "photoIds": [
+        "respiratorio_029",
+        "unref_r0505"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_anterior_cells_of_ethmoid_bone_l",
+      "photoIds": [
+        "respiratorio_006_bone"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_anterior_cells_of_ethmoid_bone_r",
+      "photoIds": [
+        "respiratorio_006_bone"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_anterior_segmental_bronchus_of_left_lung_biii",
+      "photoIds": [
+        "respiratorio_018",
+        "respiratorio_019"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_anterior_segmental_bronchus_of_right_lung_biii",
+      "photoIds": [
+        "respiratorio_018",
+        "respiratorio_019"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_apical_segmental_bronchus_of_right_lung_bi",
+      "photoIds": [
+        "respiratorio_018",
+        "respiratorio_019"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_apicoposterior_segmental_bronchus_of_left_lung_bi_bii",
+      "photoIds": [
+        "respiratorio_018",
+        "respiratorio_019"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_arytenoid_cartilage_l",
+      "photoIds": [
+        "respiratorio_031"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_arytenoid_cartilage_r",
+      "photoIds": [
+        "respiratorio_031"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_corniculate_cartilage_l",
+      "photoIds": [
+        "respiratorio_031"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_corniculate_cartilage_r",
+      "photoIds": [
+        "respiratorio_031"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_cricoid_cartilage",
+      "photoIds": [
+        "respiratorio_029",
+        "unref_r0505"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_epiglottis",
+      "photoIds": [
+        "respiratorio_028",
+        "respiratorio_030",
+        "respiratorio_031",
+        "respiratorio_032",
+        "respiratorio_034"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_hyoid_bone",
+      "photoIds": [
+        "respiratorio_026",
+        "respiratorio_028"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_inferior_lingular_segmental_bronchus_of_left_lung_bv",
+      "photoIds": [
+        "respiratorio_019"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_inferior_lobe_of_left_lung",
+      "photoIds": [
+        "respiratorio_021_safe",
+        "unref_r0320"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_inferior_lobe_of_right_lung",
+      "photoIds": [
+        "respiratorio_022_safe"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_laryngopharynx",
+      "photoIds": [
+        "respiratorio_011"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_left_inferior_lobar_bronchus",
+      "photoIds": [
+        "respiratorio_018",
+        "respiratorio_019"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_left_main_bronchus",
+      "photoIds": [
+        "R1027",
+        "respiratorio_018",
+        "respiratorio_019",
+        "respiratorio_024"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_left_superior_lobar_bronchus",
+      "photoIds": [
+        "respiratorio_018",
+        "respiratorio_019"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_median_cricothyroid_ligament",
+      "photoIds": [
+        "respiratorio_029"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_median_thyrohyoid_ligament",
+      "photoIds": [
+        "respiratorio_026",
+        "unref_r0021"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_middle_cells_of_ethmoid_bone_l",
+      "photoIds": [
+        "respiratorio_006_bone"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_middle_cells_of_ethmoid_bone_r",
+      "photoIds": [
+        "respiratorio_006_bone"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_middle_lobar_bronchus_r",
+      "photoIds": [
+        "respiratorio_018",
+        "respiratorio_019"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_middle_lobe_of_right_lung",
+      "photoIds": [
+        "respiratorio_022_safe"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_nasal_septal_cartilage",
+      "photoIds": [
+        "respiratorio_007",
+        "unref_r1413"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_nasopharynx",
+      "photoIds": [
+        "respiratorio_011"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_oropharynx",
+      "photoIds": [
+        "respiratorio_011"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_posterior_basal_segmental_bronchus_of_left_lung_bx",
+      "photoIds": [
+        "respiratorio_024"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_posterior_basal_segmental_bronchus_of_right_lung_bx",
+      "photoIds": [
+        "respiratorio_024"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_posterior_cells_of_ethmoid_bone_l",
+      "photoIds": [
+        "respiratorio_006_bone"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_posterior_cells_of_ethmoid_bone_r",
+      "photoIds": [
+        "respiratorio_006_bone"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_posterior_crico_arytenoid_muscle_l",
+      "photoIds": [
+        "respiratorio_032"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_posterior_crico_arytenoid_muscle_r",
+      "photoIds": [
+        "respiratorio_032"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_posterior_segmental_bronchus_of_right_lung_bii",
+      "photoIds": [
+        "respiratorio_018",
+        "respiratorio_019"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_pulmonary_trunk",
+      "photoIds": [
+        "circulatorio_002"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_right_inferior_lobar_bronchus",
+      "photoIds": [
+        "respiratorio_018",
+        "respiratorio_019"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_right_main_bronchus",
+      "photoIds": [
+        "R1027",
+        "respiratorio_018",
+        "respiratorio_019",
+        "respiratorio_024"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_right_superior_lobar_bronchus",
+      "photoIds": [
+        "respiratorio_018",
+        "respiratorio_019"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_sinus_of_sphenoid_bone",
+      "photoIds": [
+        "respiratorio_006_bone"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_soft_palate",
+      "photoIds": [
+        "respiratorio_014"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_sternohyoid_muscle_l",
+      "photoIds": [
+        "respiratorio_035"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_sternohyoid_muscle_r",
+      "photoIds": [
+        "respiratorio_035"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_superior_lingular_segmental_bronchus_of_left_lung_biv",
+      "photoIds": [
+        "respiratorio_019"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_superior_lobe_of_left_lung",
+      "photoIds": [
+        "respiratorio_021_safe",
+        "unref_r0320"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_superior_lobe_of_right_lung",
+      "photoIds": [
+        "respiratorio_022_safe"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_superior_segmental_bronchus_of_left_lung_bvi",
+      "photoIds": [
+        "respiratorio_024"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_thyroid_cartilage",
+      "photoIds": [
+        "respiratorio_026",
+        "respiratorio_029",
+        "respiratorio_034",
+        "unref_r0420",
+        "unref_r1215"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_tongue",
+      "photoIds": [
+        "respiratorio_011",
+        "respiratorio_013",
+        "respiratorio_015",
+        "respiratorio_028"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_trachea",
+      "photoIds": [
+        "R1027",
+        "respiratorio_016",
+        "respiratorio_019",
+        "respiratorio_020",
+        "respiratorio_024",
+        "respiratorio_029",
+        "unref_r1056"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_transverse_arytenoid_muscle",
+      "photoIds": [
+        "respiratorio_032"
+      ]
+    },
+    {
+      "modelId": "respiratory",
+      "system": "respiratory",
+      "partId": "resp_uvula_of_palate",
+      "photoIds": [
+        "respiratorio_011",
+        "respiratorio_014"
+      ]
+    }
+  ],
+  "photos": {
+    "R1027": {
+      "src": "assets/cadaver-comparison/R1027.png",
+      "sha256": "b209586c2320505962906a4017aa95b33c04408791546d0371399782c67499f4"
+    },
+    "circ_max_r0135": {
+      "src": "assets/cadaver-comparison/circ_max_r0135.png",
+      "sha256": "140eba9b4a514837348e65fbdf89ccc7174302cae53cfff2261f2d8660dc2285"
+    },
+    "circ_max_r0518": {
+      "src": "assets/cadaver-comparison/circ_max_r0518.png",
+      "sha256": "5905d3bf5dc17d81f7539813e75ebe1c8829a7b272ad879750c1a063309bcd9f"
+    },
+    "circ_max_r0659": {
+      "src": "assets/cadaver-comparison/circ_max_r0659.png",
+      "sha256": "7361eb973c39816fd172d0b70220064aa747803ccf822df4f2e94076804fa15e"
+    },
+    "circ_max_r0761": {
+      "src": "assets/cadaver-comparison/circ_max_r0761.png",
+      "sha256": "83ce8542ceb04ceed8bdfb0d95c9142e2e5473c56c514bef9b40964865e3a4c1"
+    },
+    "circ_max_r1290": {
+      "src": "assets/cadaver-comparison/circ_max_r1290.png",
+      "sha256": "e5d7891e74aabcff0f88df4b828737789f0038cea08bf5003b78a53945c4e45c"
+    },
+    "circ_max_r1427": {
+      "src": "assets/cadaver-comparison/circ_max_r1427.png",
+      "sha256": "ffc6740c775f4589bf48e9da3904e50fb44aa9b47a51ec7cfffcb38a50c2fed4"
+    },
+    "circulatorio_002": {
+      "src": "assets/cadaver-comparison/circulatorio_002.png",
+      "sha256": "cb63f96f23123f9150965c2a30fc63e2ddc7d3c7990ada5130d4b7cc11387e0e"
+    },
+    "circulatorio_003": {
+      "src": "assets/cadaver-comparison/circulatorio_003.png",
+      "sha256": "0e220e411407d06ba25dd341c60d1bcf0a5039209fea3b27c43ec1e604171679"
+    },
+    "circulatorio_005": {
+      "src": "assets/cadaver-comparison/circulatorio_005.png",
+      "sha256": "aab751cbb4b8d9c2e9c13d9ed4503b37b8c4a8b3b78e2c43cc3e1f842c5bf76a"
+    },
+    "circulatorio_006": {
+      "src": "assets/cadaver-comparison/circulatorio_006.png",
+      "sha256": "1ba54095acdc550f07b6d4f86adc11988951aaeacd4561c1af73718eb5e7563c"
+    },
+    "circulatorio_007": {
+      "src": "assets/cadaver-comparison/circulatorio_007.png",
+      "sha256": "747c60749e81e0ef4b8bee4bd2489d66a5b95ada31fa0aa3a1afb1ba41eac6dc"
+    },
+    "circulatorio_010": {
+      "src": "assets/cadaver-comparison/circulatorio_010.png",
+      "sha256": "32b69884a88aa7e4f6137bbe0a553a46d44a4c00779aa3307d822977b42e327e"
+    },
+    "circulatorio_018": {
+      "src": "assets/cadaver-comparison/circulatorio_018.png",
+      "sha256": "23761c0ce6b45c549b19dc1110268b52df1670acd76d43106bf485a1cd4b6c58"
+    },
+    "circulatorio_019": {
+      "src": "assets/cadaver-comparison/circulatorio_019.png",
+      "sha256": "e65f048df8322c417fd7ec5b5eb99e41f12c36a69507c0262762e3c8b26db70e"
+    },
+    "circulatorio_025": {
+      "src": "assets/cadaver-comparison/circulatorio_025.png",
+      "sha256": "68da9a74124ce64907949292ff1270434d989357269807aa73944ad8474a59fd"
+    },
+    "respiratorio_006_bone": {
+      "src": "assets/cadaver-comparison/respiratorio_006_bone.png",
+      "sha256": "111e205d331d322ae1f3fc20d74b6f9f68bac05a269a573994f40bb3c0f4b8e9"
+    },
+    "respiratorio_007": {
+      "src": "assets/cadaver-comparison/respiratorio_007.png",
+      "sha256": "8b5680a7f21f8bee8e7300ae154ea83b7c5ca2aa893afd102733e1e20b5f2d0a"
+    },
+    "respiratorio_011": {
+      "src": "assets/cadaver-comparison/respiratorio_011.png",
+      "sha256": "befeef9623a71a2ccf01c2f189a0921361ff3c6b8875a12deef6cfc9882c1d9a"
+    },
+    "respiratorio_013": {
+      "src": "assets/cadaver-comparison/respiratorio_013.png",
+      "sha256": "ed0e09302d2a282d72e9c5723afe25d9e10d39a5b813b8a13fefc57df4f84b20"
+    },
+    "respiratorio_014": {
+      "src": "assets/cadaver-comparison/respiratorio_014.png",
+      "sha256": "de28477ce9ebc61ab4fff6bebd8b92668bf341368f2aeda093d5027b20e58e0e"
+    },
+    "respiratorio_015": {
+      "src": "assets/cadaver-comparison/respiratorio_015.png",
+      "sha256": "58dbc7bdaf73597564ad3c0620a0db5ef43ed377fda27852b6bc2e1a345804da"
+    },
+    "respiratorio_016": {
+      "src": "assets/cadaver-comparison/respiratorio_016.png",
+      "sha256": "0142c39c316ad83db2fc8f76584dd3cb5c07644c079c1639470dfdfb1609f549"
+    },
+    "respiratorio_018": {
+      "src": "assets/cadaver-comparison/respiratorio_018.png",
+      "sha256": "05a2238f9b9a9193e2e9d7f1d231cad89bdf88132522153ab7ada96d1dfb2cdb"
+    },
+    "respiratorio_019": {
+      "src": "assets/cadaver-comparison/respiratorio_019.png",
+      "sha256": "473e716ea5ea3d2d7fb98e1b0d446fd81fc2c80d968ae20579f19f2b28d11d76"
+    },
+    "respiratorio_020": {
+      "src": "assets/cadaver-comparison/respiratorio_020.png",
+      "sha256": "fe3a08fcd0bbf8655f4cb9087ab3d2447e62b48b6d7eb2698fe37a6a3254d694"
+    },
+    "respiratorio_021_safe": {
+      "src": "assets/cadaver-comparison/respiratorio_021_safe.png",
+      "sha256": "cac835cd0f8593172819cb431a8484e585e25f8606745e1761b3375d2e93073c"
+    },
+    "respiratorio_022_safe": {
+      "src": "assets/cadaver-comparison/respiratorio_022_safe.png",
+      "sha256": "a05b63e8f553904027a84b3adcb08492b87c4121eeda4f79be601a4c321ff0ae"
+    },
+    "respiratorio_024": {
+      "src": "assets/cadaver-comparison/respiratorio_024.png",
+      "sha256": "9b7d83b9714cd5fff2a19eac2e9069572593604b3b749864caa3ba4ed7cbbfec"
+    },
+    "respiratorio_026": {
+      "src": "assets/cadaver-comparison/respiratorio_026.png",
+      "sha256": "fda36f39c6de4100969f5931cd376c3872f521b2fdc7b9c375f14e08ad2311b0"
+    },
+    "respiratorio_028": {
+      "src": "assets/cadaver-comparison/respiratorio_028.png",
+      "sha256": "2cb8a44bbec70d2d13cb9078662f222ce8d920b5613ae81a29cde08d2b6a60d2"
+    },
+    "respiratorio_029": {
+      "src": "assets/cadaver-comparison/respiratorio_029.png",
+      "sha256": "142dc88e054f0e6e329bece796a819e4538f7a927b9745baa99cee541e903eb6"
+    },
+    "respiratorio_030": {
+      "src": "assets/cadaver-comparison/respiratorio_030.png",
+      "sha256": "e15827c1f38753b7bd32e1d3d360be82a92caefa9de4be07044c205dd41c5f97"
+    },
+    "respiratorio_031": {
+      "src": "assets/cadaver-comparison/respiratorio_031.png",
+      "sha256": "f06480e36acad9a6835f68255b2497936a62442cc934eeb7896758cc875093ab"
+    },
+    "respiratorio_032": {
+      "src": "assets/cadaver-comparison/respiratorio_032.png",
+      "sha256": "b205c88db28e9d3c23b992f9221395cd51728c293bf05d7fbc2f0947048369c9"
+    },
+    "respiratorio_034": {
+      "src": "assets/cadaver-comparison/respiratorio_034.png",
+      "sha256": "4e650cab2c753a34ac840a1cdc75c996cd02fb04dd7c6c46f7d15ec97962cbc1"
+    },
+    "respiratorio_035": {
+      "src": "assets/cadaver-comparison/respiratorio_035.png",
+      "sha256": "a3da7b335b222c9ab106ab0025743070caf7c6a21b72dfcd1ae899610b2d1ec3"
+    },
+    "unref_r0021": {
+      "src": "assets/cadaver-comparison/unref_r0021.jpg",
+      "sha256": "0432cd9dd352371c2598d72d70958d22ed9f39abe3bda4d0e912efb9c2562b5d"
+    },
+    "unref_r0136": {
+      "src": "assets/cadaver-comparison/unref_r0136.jpg",
+      "sha256": "1413b5fc747a05cdd6535db9aa1ec7da9b02884506da14617dd0d6ce6161487a"
+    },
+    "unref_r0320": {
+      "src": "assets/cadaver-comparison/unref_r0320.jpg",
+      "sha256": "35d99362ef84ef200a7cbc6e5bc80c2f927fc1ebbe54547bb4d1b4c14379714d"
+    },
+    "unref_r0420": {
+      "src": "assets/cadaver-comparison/unref_r0420.jpg",
+      "sha256": "467d20af14ff6e21de7edf685a6f5ae20dea851f29fd2b5465891858cd15fb94"
+    },
+    "unref_r0505": {
+      "src": "assets/cadaver-comparison/unref_r0505.jpg",
+      "sha256": "56fd6455d73c77cef7b7593eb018fe617ce2a5293a348cb70c537f1b661cd8bb"
+    },
+    "unref_r1056": {
+      "src": "assets/cadaver-comparison/unref_r1056.jpg",
+      "sha256": "b89206d98f64afbe4bd0b17b6a7ae65cbc58af28c26575f7d8658f2332f61ee5"
+    },
+    "unref_r1215": {
+      "src": "assets/cadaver-comparison/unref_r1215.jpg",
+      "sha256": "d611a63aa6f222ffd329ee37e8b004bab48cbd51170e9fc25adc08b4a1e35760"
+    },
+    "unref_r1413": {
+      "src": "assets/cadaver-comparison/unref_r1413.jpg",
+      "sha256": "fd0b623ba9be9e24d392c6f298a06d2d6e487be2f5305b2aba05c00302060409"
+    }
+  }
+}

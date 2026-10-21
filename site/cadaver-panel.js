@@ -32,6 +32,19 @@ function validate(data) {
   return data;
 }
 
+// Selection-specific qualifications never replace the original photo evidence.
+function selectionEvidence(entry) {
+  const details = text('section', '', 'cadaver-selection-evidence');
+  details.setAttribute('aria-label', 'Evidência e limites desta seleção');
+  for (const [field, label] of [['status', 'Status da correspondência'], ['visualLocator', 'Localizador visual'],
+    ['evidence', 'Evidência desta seleção'], ['limits', 'Limites e ressalvas']]) {
+    const values = Array.isArray(entry[field]) ? entry[field] : [entry[field]];
+    const present = values.filter(nonempty);
+    if (present.length) details.append(text('p', `${label}: ${present.join(' • ')}`, `cadaver-selection-field-${field}`));
+  }
+  return details;
+}
+
 /** Explicit selection adapter; never guesses anatomy from names. */
 export function mountCadaverPanel(host) {
   const root = text('section', '', 'cadaver-panel');
@@ -79,6 +92,8 @@ export function mountCadaverPanel(host) {
       return;
     }
     status.textContent = entry.label;
+    const details = selectionEvidence(entry);
+    if (details.childElementCount) content.append(details);
     for (const id of entry.photoIds) {
       const photo = manifest.photos[id];
       const figure = document.createElement('figure');
@@ -90,6 +105,7 @@ export function mountCadaverPanel(host) {
       button.addEventListener('click', () => {
         opener = button;
         enlarged.replaceChildren(image.cloneNode(), text('p', photo.evidence));
+        if (details.childElementCount) enlarged.append(details.cloneNode(true));
         dialog.showModal();
         back.focus();
       });

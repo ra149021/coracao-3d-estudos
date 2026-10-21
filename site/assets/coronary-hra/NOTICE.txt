@@ -1,0 +1,6 @@
+HRA Visible Human — Heart Female v1.3 + Blood Vasculature Female v1.3
+Kristen Browne; Heidi Schlehlein (2024). CC BY 4.0
+https://creativecommons.org/licenses/by/4.0/
+https://doi.org/10.48539/hbm449.shrv.225
+https://doi.org/10.48539/hbm322.kkfc.394
+Originais GLB preservados byte a byte. Filtro de exibição: 14 malhas cardíacas e 17 coronárias (9 arteriais, 8 venosas). Cores, opacidade e seleção são alterações apenas de apresentação. Nenhum registro ou edição geométrica. Mesma coleção não é certificação anatômica. Fonte: Visible Human Dataset/NLM. Créditos, URLs e SHA-256 no manifest.json.

@@ -1,5 +1,8 @@
 .cadaver-panel { min-width: 0; padding: 1rem; border: 1px solid #64748b; border-radius: .75rem; overflow-wrap: anywhere; }
 .cadaver-panel *, .cadaver-panel-dialog * { box-sizing: border-box; }
+.cadaver-selection-evidence { margin-block: .75rem; padding: .65rem; border-inline-start: 3px solid #d97706; background: #d9770614; }
+.cadaver-selection-evidence p { margin: .35rem 0; white-space: pre-wrap; }
+.cadaver-selection-field-limits, .cadaver-selection-field-status { font-weight: 600; }
 .cadaver-panel figure { margin: 1rem 0; }
 .cadaver-panel img { display: block; width: 100%; height: auto; object-fit: contain; }
 .cadaver-panel [hidden] { display: none !important; }
