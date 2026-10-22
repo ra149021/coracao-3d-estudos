@@ -46,7 +46,8 @@ function selectionEvidence(entry) {
 }
 
 /** Explicit selection adapter; never guesses anatomy from names. */
-export function mountCadaverPanel(host) {
+export function mountCadaverPanel(host, { manifestPath = 'assets/cadaver-comparison.json' } = {}) {
+  const manifestURL = localPhoto(manifestPath);
   const root = text('section', '', 'cadaver-panel');
   root.setAttribute('aria-label', 'Comparação cadavérica');
   const heading = text('h2', 'Comparação cadavérica');
@@ -74,7 +75,7 @@ export function mountCadaverPanel(host) {
   let manifest, selection = null, failure = false, destroyed = false;
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 12000);
-  const ready = fetch(new URL('assets/cadaver-comparison.json', siteRoot), { signal: controller.signal, redirect: 'error' })
+  const ready = fetch(manifestURL, { signal: controller.signal, redirect: 'error' })
     .then(response => { if (!response.ok) throw new Error('manifest'); return response.json(); })
     .then(data => { manifest = validate(data); render(); })
     .catch(() => { failure = true; render(); })

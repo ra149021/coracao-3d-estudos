@@ -1,0 +1,241 @@
+{
+  "version": 1,
+  "viewerId": "coronary-reference",
+  "matching": "Exact viewer + source + runtime node; no legacy aliases",
+  "entries": [
+    {
+      "viewerId": "coronary-reference",
+      "sourceId": "hra-blood-vasculature-female-v1.3",
+      "runtimeId": "VH_F_coronary_sinus",
+      "sourceEntity": "https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#VH_F_coronary_sinus",
+      "sourceSemanticId": {
+        "@id": "obo:UBERON_0005438"
+      },
+      "sourcePrefLabel": "coronary sinus",
+      "sourceGlbSha256": "6bf794b4255c254d03afe254f765c93e7394e4397068268d4eaa3cde50ffdf60",
+      "photoIds": [
+        "circulatorio_006"
+      ],
+      "limits": [
+        "Espécimes diferentes; sem registro espacial; revisão educacional não é certificação anatômica.",
+        "Não é a valva do óstio do seio; foto não demonstra toda drenagem."
+      ],
+      "visualLocator": "superior esquerda",
+      "evidence": "Canal venoso calibroso exposto na base posterior/sulco AV, pinça e legenda seio coronário.",
+      "modelId": "coronary-reference::hra-blood-vasculature-female-v1.3",
+      "system": "circulatory",
+      "partId": "VH_F_coronary_sinus",
+      "label": "Seio coronário",
+      "status": "Revisada com limites — espécimes diferentes"
+    },
+    {
+      "viewerId": "coronary-reference",
+      "sourceId": "hra-blood-vasculature-female-v1.3",
+      "runtimeId": "VH_F_middle_cardiac_vein",
+      "sourceEntity": "https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#VH_F_middle_cardiac_vein",
+      "sourceSemanticId": {
+        "@id": "obo:UBERON_0009687"
+      },
+      "sourcePrefLabel": "middle cardiac vein",
+      "sourceGlbSha256": "6bf794b4255c254d03afe254f765c93e7394e4397068268d4eaa3cde50ffdf60",
+      "photoIds": [
+        "circulatorio_006"
+      ],
+      "limits": [
+        "Espécimes diferentes; sem registro espacial; revisão educacional não é certificação anatômica.",
+        "Sinônimo anatômico de veia cardíaca média; não confundir artéria adjacente nem inferir extensão completa."
+      ],
+      "visualLocator": "inferior esquerda",
+      "evidence": "Vaso longitudinal no sulco interventricular posterior, pinça e legenda veia interventricular posterior.",
+      "modelId": "coronary-reference::hra-blood-vasculature-female-v1.3",
+      "system": "circulatory",
+      "partId": "VH_F_middle_cardiac_vein",
+      "label": "Veia cardíaca média",
+      "status": "Revisada com limites — espécimes diferentes"
+    },
+    {
+      "viewerId": "coronary-reference",
+      "sourceId": "hra-blood-vasculature-female-v1.3",
+      "runtimeId": "VH_F_left_marginal_vein",
+      "sourceEntity": "https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#VH_F_left_marginal_vein",
+      "sourceSemanticId": {
+        "@id": "fma:fma4708"
+      },
+      "sourcePrefLabel": "left marginal vein",
+      "sourceGlbSha256": "6bf794b4255c254d03afe254f765c93e7394e4397068268d4eaa3cde50ffdf60",
+      "photoIds": [
+        "circulatorio_007"
+      ],
+      "limits": [
+        "Espécimes diferentes; sem registro espacial; revisão educacional não é certificação anatômica.",
+        "Relação marginal e legenda concordam; não equivale a toda veia magna."
+      ],
+      "visualLocator": "superior direita",
+      "evidence": "Pinça acompanha vaso superficial longitudinal junto à margem esquerda; legenda veia marginal esq.",
+      "modelId": "coronary-reference::hra-blood-vasculature-female-v1.3",
+      "system": "circulatory",
+      "partId": "VH_F_left_marginal_vein",
+      "label": "Veia marginal esquerda",
+      "status": "Revisada com limites — espécimes diferentes"
+    },
+    {
+      "viewerId": "coronary-reference",
+      "sourceId": "hra-blood-vasculature-female-v1.3",
+      "runtimeId": "VH_F_posterior_vein_of_left_ventricle",
+      "sourceEntity": "https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#VH_F_posterior_vein_of_left_ventricle",
+      "sourceSemanticId": {
+        "@id": "fma:fma4712"
+      },
+      "sourcePrefLabel": "Posterior vein of left ventricle",
+      "sourceGlbSha256": "6bf794b4255c254d03afe254f765c93e7394e4397068268d4eaa3cde50ffdf60",
+      "photoIds": [
+        "circulatorio_006"
+      ],
+      "limits": [
+        "Espécimes diferentes; sem registro espacial; revisão educacional não é certificação anatômica.",
+        "Somente segmento exposto; número e ramificação variam entre espécimes."
+      ],
+      "visualLocator": "foto direita",
+      "evidence": "Vaso venoso marcado na superfície ventricular posterior, lateral ao sulco interventricular, em direção à base.",
+      "modelId": "coronary-reference::hra-blood-vasculature-female-v1.3",
+      "system": "circulatory",
+      "partId": "VH_F_posterior_vein_of_left_ventricle",
+      "label": "Veia posterior do ventrículo esquerdo",
+      "status": "Revisada com limites — espécimes diferentes"
+    },
+    {
+      "viewerId": "coronary-reference",
+      "sourceId": "hra-blood-vasculature-female-v1.3",
+      "runtimeId": "VH_F_anterior_cardiac_vein",
+      "sourceEntity": "https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#VH_F_anterior_cardiac_vein",
+      "sourceSemanticId": {
+        "@id": "fma:fma76767"
+      },
+      "sourcePrefLabel": "Anterior cardiac vein",
+      "sourceGlbSha256": "6bf794b4255c254d03afe254f765c93e7394e4397068268d4eaa3cde50ffdf60",
+      "photoIds": [
+        "circulatorio_007"
+      ],
+      "limits": [
+        "Espécimes diferentes; sem registro espacial; revisão educacional não é certificação anatômica.",
+        "Correspondência de grupo de veias anteriores, não correspondência um-a-um de cada segmento; nó HRA isolado também contém mais de um segmento."
+      ],
+      "visualLocator": "inferior esquerda",
+      "evidence": "Pequenos vasos superficiais anteriores do VD assinalados; diferentes do vaso marginal da foto superior.",
+      "modelId": "coronary-reference::hra-blood-vasculature-female-v1.3",
+      "system": "circulatory",
+      "partId": "VH_F_anterior_cardiac_vein",
+      "label": "Veia cardíaca anterior",
+      "status": "Revisada com limites — espécimes diferentes"
+    },
+    {
+      "viewerId": "coronary-reference",
+      "sourceId": "hra-blood-vasculature-female-v1.3",
+      "runtimeId": "VH_F_small_cardiac_vein",
+      "sourceEntity": "https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#VH_F_small_cardiac_vein",
+      "sourceSemanticId": {
+        "@id": "obo:UBERON_0035374"
+      },
+      "sourcePrefLabel": "small cardiac vein",
+      "sourceGlbSha256": "6bf794b4255c254d03afe254f765c93e7394e4397068268d4eaa3cde50ffdf60",
+      "photoIds": [
+        "circulatorio_007"
+      ],
+      "limits": [
+        "Espécimes diferentes; sem registro espacial; revisão educacional não é certificação anatômica.",
+        "Trecho curto; não extrapolar o trajeto completo ou usar a veia marginal direita da foto superior como sinônimo."
+      ],
+      "visualLocator": "inferior direita",
+      "evidence": "Pequeno segmento marcado no sulco AV direito sob tecido afastado pela mão, legenda veia cardíaca parva.",
+      "modelId": "coronary-reference::hra-blood-vasculature-female-v1.3",
+      "system": "circulatory",
+      "partId": "VH_F_small_cardiac_vein",
+      "label": "Veia cardíaca parva",
+      "status": "Revisada com limites — espécimes diferentes"
+    },
+    {
+      "viewerId": "coronary-reference",
+      "sourceId": "hra-blood-vasculature-female-v1.3",
+      "runtimeId": "VH_F_left_circumflex_artery",
+      "sourceEntity": "https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#VH_F_left_circumflex_artery",
+      "sourceSemanticId": {
+        "@id": "obo:UBERON_0035422"
+      },
+      "sourcePrefLabel": "circumflex branch of left coronary artery",
+      "sourceGlbSha256": "6bf794b4255c254d03afe254f765c93e7394e4397068268d4eaa3cde50ffdf60",
+      "photoIds": [
+        "circulatorio_005"
+      ],
+      "limits": [
+        "Espécimes diferentes; sem registro espacial; revisão educacional não é certificação anatômica.",
+        "Trecho exposto, não árvore inteira; render frontal oclui parte do alvo, exigir giro/contexto posterior."
+      ],
+      "visualLocator": "superior direita",
+      "evidence": "Vaso proximal transversal à base no sulco AV, contornado e anotado ramo circunflexo.",
+      "modelId": "coronary-reference::hra-blood-vasculature-female-v1.3",
+      "system": "circulatory",
+      "partId": "VH_F_left_circumflex_artery",
+      "label": "Artéria circunflexa esquerda",
+      "status": "Revisada com limites — espécimes diferentes"
+    },
+    {
+      "viewerId": "coronary-reference",
+      "sourceId": "hra-blood-vasculature-female-v1.3",
+      "runtimeId": "VH_F_right_marginal_artery",
+      "sourceEntity": "https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#VH_F_right_marginal_artery",
+      "sourceSemanticId": {
+        "@id": "fma:fma3818"
+      },
+      "sourcePrefLabel": "marginal branch of right coronary artery",
+      "sourceGlbSha256": "6bf794b4255c254d03afe254f765c93e7394e4397068268d4eaa3cde50ffdf60",
+      "photoIds": [
+        "circulatorio_003"
+      ],
+      "limits": [
+        "Espécimes diferentes; sem registro espacial; revisão educacional não é certificação anatômica.",
+        "Não equivale aos ramos ventriculares anteriores nem ao ramo interventricular posterior da mesma prancha."
+      ],
+      "visualLocator": "segunda foto superior",
+      "evidence": "Trajeto marcado na margem aguda do coração abaixo da origem basal, legenda ramo marginal direito.",
+      "modelId": "coronary-reference::hra-blood-vasculature-female-v1.3",
+      "system": "circulatory",
+      "partId": "VH_F_right_marginal_artery",
+      "label": "Artéria marginal direita",
+      "status": "Revisada com limites — espécimes diferentes"
+    }
+  ],
+  "photos": {
+    "circulatorio_003": {
+      "src": "assets/cadaver-comparison/circulatorio_003.png",
+      "title": "Artéria coronária direita",
+      "evidence": "segunda foto superior da prancha: Legenda ramo marginal direito e contorno vermelho seguem vaso na margem aguda do coração. Não usar a foto inferior esquerda de ramos ventriculares anteriores como substituto. Não identifica subpartes nem outros espécimes pela posição na tela. terceira foto superior: Legenda ramo interventricular posterior, trajeto marcado no sulco posterior e pinça junto ao vaso; não corresponde aos pequenos ramos septais inferiores. Não identifica subpartes nem outros espécimes pela posição na tela. Revisão visual educacional, não certificação anatômica. Original anotado integral; publicação autorizada por declaração do usuário, sem licença aberta atribuída.",
+      "sha256": "0e220e411407d06ba25dd341c60d1bcf0a5039209fea3b27c43ec1e604171679",
+      "width": 2351,
+      "height": 1740
+    },
+    "circulatorio_005": {
+      "src": "assets/cadaver-comparison/circulatorio_005.png",
+      "title": "Original Anki anotado · circulatorio_005",
+      "evidence": "Origem Anki: ANATOMIA__P7__prática circulatório.apkg. Prancha inteira: primeira foto superior mostra ramo interventricular anterior no sulco indicado e quarta superior ramo circunflexo circulado. Ramos septais e árvores completas não inferidos. Escrita cursiva preservada.  Mesma estrutura em espécimes diferentes, sem registro espacial. Uso de estudo; publicação autorizada por declaração do usuário de autorização do autor/instituição. Não há licença aberta atribuída.",
+      "sha256": "aab751cbb4b8d9c2e9c13d9ed4503b37b8c4a8b3b78e2c43cc3e1f842c5bf76a",
+      "width": 2299,
+      "height": 1753
+    },
+    "circulatorio_006": {
+      "src": "assets/cadaver-comparison/circulatorio_006.png",
+      "title": "Original Anki anotado · circulatorio_006",
+      "evidence": "Origem Anki: ANATOMIA__P7__prática circulatório.apkg. Primeira foto superior esquerda identifica seio coronário na face posterior; foto direita marca veia posterior do ventrículo esquerdo ao longo do vaso. Veia interventricular posterior inferior não auditada para mapeamento.  Mesma estrutura em espécimes diferentes, sem registro espacial. Uso de estudo; publicação autorizada por declaração do usuário de autorização do autor/instituição. Não há licença aberta atribuída. Revisão ampliada (as restrições da revisão inicial acima permanecem históricas; os alvos adicionais abaixo foram revisados explicitamente): foto inferior esquerda: Legenda veia interventricular posterior dirige-se ao vaso longitudinal no sulco interventricular posterior, com pinça e contorno vermelho. Não confundir com a artéria da prancha 003. Não identifica subpartes nem outros espécimes pela posição na tela. Revisão visual educacional, não certificação anatômica. Original anotado integral; publicação autorizada por declaração do usuário, sem licença aberta atribuída.",
+      "sha256": "1ba54095acdc550f07b6d4f86adc11988951aaeacd4561c1af73718eb5e7563c",
+      "width": 1179,
+      "height": 1743
+    },
+    "circulatorio_007": {
+      "src": "assets/cadaver-comparison/circulatorio_007.png",
+      "title": "Veias cardíacas e marginais",
+      "evidence": "foto superior esquerda: Legenda veia marginal direita aponta vaso assinalado ao longo da margem direita, distinto do conjunto de veias anteriores na foto inferior esquerda. Não identifica subpartes nem outros espécimes pela posição na tela. foto superior direita: Legenda veia marginal esq. aponta vaso na margem esquerda junto à pinça, com trajeto visível na superfície ventricular. Não identifica subpartes nem outros espécimes pela posição na tela. foto inferior direita: Legenda veia cardíaca parva e marca vermelha sobre o vaso no sulco atrioventricular direito; limitar ao segmento exposto. Não identifica subpartes nem outros espécimes pela posição na tela. Revisão visual educacional, não certificação anatômica. Original anotado integral; publicação autorizada por declaração do usuário, sem licença aberta atribuída.",
+      "sha256": "747c60749e81e0ef4b8bee4bd2489d66a5b95ada31fa0aa3a1afb1ba41eac6dc",
+      "width": 1166,
+      "height": 1719
+    }
+  }
+}
